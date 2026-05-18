@@ -1,0 +1,3163 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hiring in the UK | Employer of Record + 2026 Guide.Teamed</title>
+<meta name="description" content="Hire UK employees from £479/month via Teamed Ltd, our wholly-owned London entity. 15% NIC, 5.6 weeks statutory leave, 6 April 2026 day-one rights.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Teamed semantic palette — pulled from live site CSS (parchment + amber + sienna + sage) */
+    --parchment-50: #fafaf7;
+    --parchment-100: #f5f1ea;
+    --parchment-200: #f0ebe3;
+    --parchment-300: #e5ddd0;
+    --parchment-400: #c9bead;
+    --parchment-500: #9e9382;
+    --parchment-600: #6b6155;
+    --parchment-700: #4a4238;
+    --parchment-800: #3a3632;
+    --parchment-900: #24211e;
+    --amber-100: #f5e6cf;
+    --amber-300: #e4c399;
+    --amber-500: #d4a574;
+    --amber-700: #a37f52;
+    --amber-900: #6b5235;
+    --sienna-100: #f2d9ce;
+    --sienna-300: #d99682;
+    --sienna-500: #c4654a;
+    --sienna-600: #b44c2d;
+    --sienna-700: #924530;
+    --sienna-900: #5c2b1d;
+    --sage-100: #dfe6d8;
+    --sage-300: #b4c2a8;
+    --sage-500: #8b9e7e;
+    --sage-700: #5f6f52;
+    --sage-900: #384130;
+    /* KERNAL canonical: CTA = Burnt Sienna; #8e2e24 reserved for error/destructive only */
+    --cta-primary: #C4654A;
+    --cta-primary-text: var(--parchment-50);
+    --error: #8e2e24;
+    --success: #5f7f4b;
+    --warning: #c79140;
+    --info: #3e5670;
+    --heading-on-light: var(--sage-900);
+    /* Font tokens — match live Teamed site (General Sans + Instrument Sans + Permanent Marker + Caveat) */
+    --font-family-display: 'General Sans', system-ui, -apple-system, sans-serif;
+    --font-family-body: 'Instrument Sans', system-ui, -apple-system, sans-serif;
+    --font-family-handwritten: 'Permanent Marker', 'Marker Felt', cursive;
+    --font-family-script: 'Caveat', cursive;
+    --accent-primary: var(--amber-500);
+    --accent-secondary: var(--sage-500);
+    --body-on-dark: #d4c9bc;
+    --body-on-light: var(--parchment-800);
+    /* Aliases kept so existing class rules below still resolve */
+    --parchment: var(--parchment-200);
+    --parchment-warm: var(--parchment-300);
+    --forest: var(--sage-900);
+    --charcoal: var(--parchment-800);
+    --amber: var(--amber-500);
+    --sienna: var(--sienna-500);
+    --sage: var(--sage-500);
+    --navy: var(--parchment-700);
+    --rule: var(--parchment-900);
+    --rule-soft: var(--parchment-300);
+    --ink-soft: var(--parchment-700);
+    --ink-muted: var(--parchment-500);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-family-body);
+    background: var(--surface-light, var(--parchment-200));
+    color: var(--body-on-light, var(--parchment-700));
+    font-size: 17px;
+    line-height: 1.625;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  /* Consistent subtle radius across all "box" containers on the page */
+  .capsule,
+  .at-a-glance,
+  .whats-new,
+  .pricing-cards,
+  .calc-tool,
+  .eor-vs-entity,
+  .tool-embed,
+  .tool-pending,
+  .links-rail,
+  .embed-placeholder,
+  .meta-footer,
+  .pad-note,
+  .image-compare-card,
+  .crossover-verdict,
+  .cross-card {
+    border-radius: 6px;
+  }
+  .at-a-glance,
+  .tool-embed {
+    overflow: hidden;
+  }
+  /* Inputs and code chips slightly less rounded */
+  details, .info-gain-strip {
+    border-radius: 4px;
+  }
+
+  /* Film-grain texture — the single biggest 'feels like Teamed' visual trick (4% SVG noise overlay) */
+  .film-grain { position: relative; }
+  .film-grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+    z-index: 0;
+  }
+  .film-grain > * { position: relative; z-index: 1; }
+  .container { max-width: 1120px; margin: 0 auto; padding: 0 56px; }
+  @media (max-width: 760px) { .container { padding: 0 24px; } }
+
+  /* PREVIEW BANNER */
+  .preview-banner {
+    background: var(--parchment-900);
+    color: var(--parchment-50);
+    padding: 10px 24px;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .preview-banner strong { color: var(--amber-500); }
+
+  /* MASTHEAD */
+  .masthead { padding: 48px 0 24px; border-bottom: 1px solid var(--rule-soft); margin-bottom: 48px; }
+  .eyebrow {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .eyebrow .badge {
+    background: var(--forest);
+    color: var(--parchment);
+    padding: 4px 10px;
+    letter-spacing: 0.08em;
+  }
+  .eyebrow .reviewed {
+    color: var(--ink-soft);
+  }
+  .breadcrumb {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--ink-muted);
+    margin-bottom: 16px;
+  }
+  .breadcrumb a { color: var(--navy); text-decoration: none; }
+  h1 {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: clamp(48px, 7vw, 80px);
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    margin-bottom: 20px;
+    color: var(--heading-on-light);
+  }
+  h1 em { font-style: italic; font-weight: 700; color: var(--sienna-700); }
+  .subhead {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    line-height: 1.4;
+    color: var(--ink-soft);
+    max-width: 720px;
+    margin-bottom: 36px;
+  }
+  .cta-row { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; }
+  .cta {
+    display: inline-block;
+    padding: 14px 24px;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: transform 0.15s ease;
+  }
+  .cta.primary { background: var(--cta-primary); color: var(--cta-primary-text); border-radius: 999px; font-weight: 600; }
+  .cta.secondary { background: transparent; color: var(--parchment-800); border: 1.5px solid var(--parchment-800); border-radius: 999px; font-weight: 600; }
+  .cta.secondary:hover { background: var(--parchment-800); color: var(--parchment-50); }
+  .cta:hover { transform: translateY(-1px); }
+
+  /* HERO IMAGE */
+  .hero-image {
+    aspect-ratio: 1536 / 1024;
+    width: 100%;
+    margin-bottom: 48px;
+    border: 1px solid var(--parchment-300);
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ANSWER CAPSULE.the citation hook */
+  .capsule {
+    background: var(--parchment-300);
+    border-left: 4px solid var(--sienna-500);
+    padding: 32px 40px;
+    margin-bottom: 48px;
+    max-width: 800px;
+    position: relative;
+  }
+  .capsule .label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .capsule .text {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 22px;
+    line-height: 1.55;
+    color: var(--charcoal);
+    font-weight: 400;
+  }
+  .capsule .text strong { background: rgba(212, 165, 116, 0.3); padding: 0 4px; }
+
+  /* AT-A-GLANCE CARD */
+  .at-a-glance {
+    border: 1px solid var(--rule);
+    background: white;
+    margin-bottom: 64px;
+    max-width: 800px;
+    overflow: hidden;
+  }
+  .at-a-glance-head {
+    background: var(--parchment-100);
+    color: var(--parchment-700);
+    padding: 18px 32px;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid var(--parchment-300);
+  }
+  .at-a-glance-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--rule-soft);
+  }
+  .at-a-glance-cell {
+    background: white;
+    padding: 24px 28px;
+  }
+  .at-a-glance-cell .label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 6px;
+  }
+  .at-a-glance-cell .value {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.15;
+    color: var(--heading-on-light);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+  .at-a-glance-cell .value small {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--ink-soft);
+    display: block;
+    margin-top: 4px;
+    font-style: normal;
+  }
+  @media (max-width: 880px) {
+    .at-a-glance-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* PARTNER BADGE */
+  .partner-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--parchment-100);
+    color: var(--parchment-800);
+    padding: 8px 14px;
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    border-radius: 999px;
+    border: 1px solid var(--parchment-300);
+  }
+  .partner-badge::before {
+    content: "●";
+    color: var(--sienna-500);
+  }
+
+  /* INLINE LINK STYLING — three states: live, wave-3 (cluster sibling), retrofit-needed (team bios) */
+  section.q .body a, .whats-new a, .eor-vs-entity a, .capsule a {
+    color: var(--sienna-700);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--sienna-500);
+    transition: text-decoration-thickness 0.15s ease, text-decoration-color 0.15s ease;
+  }
+  section.q .body a:hover, .whats-new a:hover, .eor-vs-entity a:hover, .capsule a:hover {
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--sienna-700);
+  }
+
+  /* WAVE-3 cluster siblings — same wave deploy, currently rendered as "soft" link */
+  section.q .body a[href^="/hire-in-united-kingdom/"]:not([href$="united-kingdom/"]),
+  section.q .body a[href^="/tools/"],
+  .links-rail a[href^="/hire-in-united-kingdom/"]:not([href$="united-kingdom/"]),
+  .links-rail a[href^="/tools/"] {
+    color: var(--parchment-700);
+    text-decoration-style: dashed;
+    text-decoration-color: var(--parchment-500);
+  }
+
+  /* RETROFIT-NEEDED — team bios, commissioned but not built yet. Most muted. */
+  section.q .body a[href^="/team/"],
+  .pullquote-label a[href^="/team/"],
+  .eyebrow .reviewed a[href^="/team/"],
+  .links-rail a[href^="/team/"] {
+    color: var(--parchment-600);
+    text-decoration-style: dotted;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 4px;
+    cursor: help;
+  }
+
+  .pullquote-label a {
+    color: var(--sienna-700);
+    text-decoration: none;
+    border-bottom: 1px solid var(--sienna-500);
+  }
+  .pullquote-label a:hover { border-bottom-color: var(--sienna-700); }
+  .eyebrow .reviewed a {
+    color: var(--parchment-800);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .eyebrow .reviewed a:hover { text-decoration-color: var(--sienna-500); }
+
+  /* LINKS RAIL — context pills show state at a glance */
+  .links-rail .context.wave-3 { color: var(--sienna-700); font-weight: 700; }
+  .links-rail .context.live { color: var(--sage-700); }
+  .links-rail .context.retrofit { color: var(--sienna-700); font-weight: 700; }
+
+  /* SECTIONS — flow-root contains floating Polaroids so they don't bleed into the next section */
+  section.q, .customer-strip {
+    display: flow-root;
+  }
+  .customer-strip { clear: both; }
+
+  section.q {
+    margin-bottom: 64px;
+    padding-top: 24px;
+    border-top: 2px solid var(--rule);
+  }
+  section.q h2 {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: clamp(30px, 3.6vw, 44px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+    color: var(--heading-on-light);
+    max-width: 800px;
+  }
+  section.q .answer-first {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.45;
+    color: var(--parchment-800);
+    margin-bottom: 28px;
+    max-width: 800px;
+    padding: 20px 24px;
+    background: var(--parchment-100);
+    border-left: 3px solid var(--amber-500);
+  }
+  section.q .body {
+    max-width: 800px;
+  }
+  section.q .body p {
+    margin-bottom: 18px;
+  }
+  section.q .body strong {
+    color: var(--charcoal);
+    font-weight: 600;
+  }
+  section.q h3 {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: var(--charcoal);
+  }
+
+  /* TABLES */
+  table.data {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 28px 0;
+    background: white;
+    border: 1px solid var(--rule-soft);
+  }
+  table.data thead th {
+    background: var(--parchment-warm);
+    text-align: left;
+    padding: 12px 16px;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    border-bottom: 1px solid var(--rule);
+  }
+  table.data tbody td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--rule-soft);
+    font-size: 15px;
+  }
+  table.data tbody tr:last-child td { border-bottom: none; }
+
+  /* EMBED PLACEHOLDER */
+  .embed-placeholder {
+    background: white;
+    border: 1.5px dashed var(--sage);
+    padding: 24px 32px;
+    margin: 24px 0;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: var(--forest);
+    max-width: 760px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .embed-placeholder::before {
+    content: "▣";
+    font-size: 28px;
+    color: var(--sage);
+  }
+  .embed-placeholder strong { color: var(--charcoal); }
+
+  /* COUNTER-NARRATIVE QUOTE */
+  /* Light pullquote — General Sans italic with sienna left-border, matching live site */
+  .pullquote {
+    background: transparent;
+    color: var(--heading-on-light);
+    padding: 8px 0 8px 24px;
+    margin: 32px 0;
+    border-left: 4px solid var(--sienna-500);
+    max-width: 720px;
+  }
+  .pullquote-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 14px;
+  }
+  .pullquote q {
+    font-family: var(--font-family-display);
+    font-weight: 400;
+    font-size: clamp(20px, 2vw, 24px);
+    line-height: 1.4;
+    font-style: italic;
+    display: block;
+    margin-bottom: 14px;
+    color: var(--heading-on-light);
+    text-wrap: balance;
+  }
+  .pullquote q::before, .pullquote q::after { content: ""; }
+  .pullquote cite {
+    font-family: var(--font-family-body);
+    font-size: 14px;
+    font-style: normal;
+    color: var(--parchment-600);
+  }
+
+  /* POLAROID FRAME — off-white, subtle aging, rounded inner image, integrated inline */
+  .polaroid {
+    background: var(--parchment-50);
+    padding: 12px 12px 36px;
+    box-shadow:
+      0 1px 2px rgba(35, 47, 35, 0.08),
+      0 8px 20px rgba(35, 47, 35, 0.10),
+      inset 0 0 60px rgba(155, 130, 90, 0.05);
+    transform: rotate(-1.2deg);
+    position: relative;
+    display: inline-block;
+    margin: 12px 0 24px 28px;
+    float: right;
+    border-radius: 3px;
+  }
+  .polaroid::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse at 20% 15%, rgba(139, 119, 89, 0.04) 0%, transparent 45%),
+      radial-gradient(ellipse at 85% 85%, rgba(139, 119, 89, 0.06) 0%, transparent 55%);
+    border-radius: 3px;
+  }
+  .polaroid img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+  }
+  .polaroid .caption {
+    font-family: var(--font-family-handwritten);
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 14px;
+    color: var(--parchment-800);
+  }
+  @media (max-width: 760px) {
+    .polaroid { float: none; margin: 24px 0; transform: rotate(-1deg); }
+    .polaroid img { width: 280px; height: 280px; }
+  }
+
+  /* DUAL-COLUMN PRICING CARDS (Deel-inspired, Teamed brand) */
+  .pricing-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 32px 0;
+    max-width: 760px;
+  }
+  .pricing-card {
+    background: white;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing-card.recommended { background: var(--parchment-300); }
+  .pricing-card .tier-label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .pricing-card.recommended .tier-label .pill {
+    background: var(--sage-700);
+    color: var(--parchment-50);
+    font-size: 9px;
+    padding: 2px 8px;
+    letter-spacing: 0.1em;
+    border-radius: 999px;
+  }
+  .pricing-card .tier-name {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.05;
+    margin-bottom: 8px;
+    color: var(--heading-on-light);
+    letter-spacing: -0.02em;
+  }
+  .pricing-card .tier-price {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 0.95;
+    color: var(--cta-primary);
+    margin: 12px 0;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+  }
+  .pricing-card .tier-price small {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 14px;
+    color: var(--ink-soft);
+    display: block;
+    margin-top: 4px;
+  }
+  .pricing-card .tier-fx {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 14px;
+    color: var(--ink-soft);
+    border-top: 1px solid var(--rule-soft);
+    padding-top: 14px;
+    margin-top: 16px;
+    line-height: 1.5;
+  }
+  .pricing-card .tier-fx strong { color: var(--charcoal); }
+  @media (max-width: 760px) {
+    .pricing-cards { grid-template-columns: 1fr; }
+  }
+
+  /* AT-A-GLANCE — ICONIZED (Deel-inspired) */
+  .at-a-glance-cell .label-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .at-a-glance-cell .icon {
+    width: 18px;
+    height: 18px;
+    color: var(--sienna-700);
+    flex-shrink: 0;
+  }
+
+  /* IMAGE A/B COMPARISON (top-of-page picker) */
+  .image-compare {
+    background: var(--charcoal);
+    color: var(--parchment);
+    padding: 32px 0 40px;
+    margin: -24px -56px 32px;
+    position: relative;
+  }
+  @media (max-width: 760px) { .image-compare { margin: -24px -24px 32px; } }
+  .image-compare-head {
+    padding: 0 56px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  @media (max-width: 760px) { .image-compare-head { padding: 0 24px 20px; } }
+  .image-compare-label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+  .image-compare-hint {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 13px;
+    color: rgba(240, 235, 227, 0.7);
+    font-style: italic;
+  }
+  .image-compare-scroll {
+    display: flex;
+    gap: 20px;
+    padding: 0 56px 8px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: var(--amber) transparent;
+  }
+  @media (max-width: 760px) { .image-compare-scroll { padding: 0 24px 8px; } }
+  .image-compare-scroll::-webkit-scrollbar { height: 8px; }
+  .image-compare-scroll::-webkit-scrollbar-track { background: rgba(255,255,255,0.06); }
+  .image-compare-scroll::-webkit-scrollbar-thumb { background: var(--amber); }
+  .image-compare-card {
+    flex: 0 0 86%;
+    scroll-snap-align: start;
+    background: white;
+    color: var(--charcoal);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  }
+  @media (min-width: 1100px) {
+    .image-compare-card { flex: 0 0 calc(50% - 10px); }
+  }
+  .compare-header {
+    padding: 22px 28px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border-bottom: 1px solid var(--rule-soft);
+    background: var(--parchment);
+  }
+  .compare-letter {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 56px;
+    line-height: 1;
+    color: var(--sienna-700);
+    font-style: italic;
+    flex-shrink: 0;
+  }
+  .compare-title {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 24px;
+    line-height: 1.15;
+    color: var(--charcoal);
+    margin-bottom: 4px;
+  }
+  .compare-sub {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.4;
+  }
+  .compare-imgs {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 1px;
+    background: var(--rule-soft);
+  }
+  .compare-imgs > div {
+    background: white;
+    aspect-ratio: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  .compare-imgs > div:first-child { aspect-ratio: 3 / 2; }
+  .compare-imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .compare-imgs .img-label {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: var(--charcoal);
+    color: var(--parchment);
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    z-index: 2;
+  }
+  .image-compare-cta {
+    padding: 16px 56px 0;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: rgba(240, 235, 227, 0.7);
+  }
+  @media (max-width: 760px) { .image-compare-cta { padding: 16px 24px 0; } }
+  .image-compare-cta strong { color: var(--amber); }
+
+  /* ============= V2 VISUAL STORY COMPONENTS ============= */
+
+  /* STAT HERO — single huge number, first moment after the hero image */
+  .stat-hero {
+    background: var(--parchment-100);
+    padding: 80px 56px;
+    text-align: center;
+    border-top: 1px solid var(--parchment-300);
+    border-bottom: 1px solid var(--parchment-300);
+    margin: 32px -56px 0;
+    position: relative;
+  }
+  @media (max-width: 760px) { .stat-hero { margin: 24px -24px 0; padding: 56px 24px; } }
+  .stat-hero .eyebrow-small {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--parchment-600);
+    margin-bottom: 12px;
+  }
+  .stat-hero .number {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: clamp(64px, 9vw, 112px);
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: var(--cta-primary);
+    margin: 0 auto 20px;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-hero .number .ccy { font-size: 0.6em; vertical-align: 0.15em; color: var(--parchment-700); margin-right: 6px; }
+  .stat-hero .caption {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    color: var(--parchment-700);
+    max-width: 720px;
+    margin: 0 auto 24px;
+    line-height: 1.3;
+  }
+  .stat-hero .meta-row {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+  }
+  .stat-hero .meta-row span::before { content: "● "; color: var(--amber-500); margin-right: 4px; }
+
+  /* YELLOW PAD NOTE — Harry quote rendered as a torn legal-pad page */
+  .pad-note-wrap { padding: 64px 0 16px; display: flex; justify-content: center; }
+  .pad-note {
+    max-width: 640px;
+    background: #FFEBA8;
+    background-image: repeating-linear-gradient(
+      transparent 0,
+      transparent 40px,
+      rgba(54,73,87,0.18) 40px,
+      rgba(54,73,87,0.18) 41px
+    );
+    padding: 48px 44px 36px;
+    transform: rotate(-1.6deg);
+    position: relative;
+    box-shadow: 0 18px 36px rgba(35,47,35,0.22), 0 4px 10px rgba(35,47,35,0.08);
+    border-top: 12px solid rgba(54,73,87,0.55);
+  }
+  .pad-note::before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 36%;
+    width: 120px;
+    height: 26px;
+    background: rgba(212,165,116,0.6);
+    transform: rotate(-3deg);
+    z-index: 2;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+  .pad-note .label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 1;
+  }
+  .pad-note .quote {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--parchment-900);
+    margin-bottom: 22px;
+  }
+  .pad-note .quote::before, .pad-note .quote::after { font-family: 'General Sans', system-ui, sans-serif; font-style: italic; color: var(--sienna-700); }
+  .pad-note .quote::before { content: "\201C"; margin-right: 4px; }
+  .pad-note .quote::after { content: "\201D"; margin-left: 4px; }
+  .pad-note .attribution {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--parchment-700);
+    text-align: right;
+    line-height: 1.5;
+  }
+  .pad-note .attribution strong { color: var(--parchment-900); display: block; font-weight: 600; }
+
+  /* GRADUATION MODEL DIAGRAM — three stages + crossover marker */
+  .graduation {
+    margin: 28px 0 32px;
+    max-width: 880px;
+  }
+  .graduation-row {
+    display: grid;
+    grid-template-columns: 1fr 36px 1fr 36px 1fr;
+    gap: 0;
+    align-items: stretch;
+  }
+  .graduation-stage {
+    background: var(--parchment-100);
+    border: 1px solid var(--parchment-300);
+    padding: 24px 20px;
+    text-align: center;
+    position: relative;
+  }
+  .graduation-stage.current { background: var(--parchment-300); border-color: var(--parchment-700); border-width: 2px; }
+  .graduation-stage.current::after {
+    content: "YOU ARE HERE";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--amber-500);
+    color: var(--parchment-900);
+    padding: 3px 10px;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+  }
+  .graduation-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 28px;
+    color: var(--parchment-500);
+  }
+  .graduation-stage .stage-icon {
+    width: 32px;
+    height: 32px;
+    color: var(--sienna-700);
+    margin: 0 auto 10px;
+  }
+  .graduation-stage .stage-num {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--parchment-600);
+    margin-bottom: 6px;
+  }
+  .graduation-stage .stage-name {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 22px;
+    margin-bottom: 6px;
+    color: var(--parchment-900);
+    line-height: 1.15;
+  }
+  .graduation-stage .stage-desc {
+    font-size: 12px;
+    color: var(--parchment-700);
+    line-height: 1.45;
+  }
+  .graduation-crossover {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+  }
+  .graduation-crossover .marker {
+    background: var(--amber-500);
+    color: var(--parchment-900);
+    padding: 10px 18px;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  .graduation-crossover .marker::before { content: "\2605 "; color: var(--sienna-700); margin-right: 6px; }
+  @media (max-width: 760px) {
+    .graduation-row { grid-template-columns: 1fr; gap: 8px; }
+    .graduation-arrow { transform: rotate(90deg); padding: 8px 0; }
+  }
+
+  /* WHAT'S NEW CALLOUT — leads the compliance section */
+  .whats-new {
+    background: var(--parchment-100);
+    border-left: 4px solid var(--sage-700);
+    padding: 28px 32px;
+    margin: 28px 0 40px;
+    max-width: 800px;
+    position: relative;
+  }
+  .whats-new::before {
+    content: "WHAT'S NEW \2022 6 APRIL 2026";
+    display: block;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: var(--sage-700);
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  .whats-new h3 {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 30px;
+    margin: 0 0 14px;
+    color: var(--parchment-900);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+  .whats-new ul {
+    list-style: none;
+    margin-top: 14px;
+  }
+  .whats-new ul li {
+    padding: 6px 0 6px 28px;
+    font-size: 15px;
+    color: var(--parchment-800);
+    position: relative;
+    line-height: 1.55;
+  }
+  .whats-new ul li::before {
+    content: "\2714";
+    position: absolute;
+    left: 0;
+    color: var(--sage-700);
+    font-weight: 600;
+  }
+  .whats-new .compact-postcard {
+    float: right;
+    max-width: 280px;
+    margin: 0 0 16px 24px;
+    box-shadow: 0 12px 24px rgba(35,47,35,0.16), 0 4px 8px rgba(35,47,35,0.06);
+    transform: rotate(-1.2deg);
+    background: white;
+    padding: 5px 5px 8px;
+  }
+  .whats-new .compact-postcard img { width: 100%; height: auto; display: block; }
+  @media (max-width: 760px) {
+    .whats-new .compact-postcard { float: none; max-width: 100%; margin: 16px 0; transform: rotate(-0.5deg); }
+  }
+
+  /* TEAM POLAROIDS — Tom + Daisy monogram cards in the masthead */
+  .team-polaroids {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+    margin: 32px 0 24px;
+    flex-wrap: wrap;
+  }
+  .team-polaroid {
+    background: white;
+    padding: 10px 10px 28px;
+    box-shadow: 0 10px 22px rgba(35,47,35,0.16), 0 3px 6px rgba(35,47,35,0.08);
+    position: relative;
+    width: 160px;
+  }
+  .team-polaroid:nth-child(1) { transform: rotate(-2.5deg); }
+  .team-polaroid:nth-child(2) { transform: rotate(2deg); margin-top: 18px; }
+  .team-polaroid::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 28%;
+    width: 60px;
+    height: 18px;
+    background: rgba(212,165,116,0.55);
+    transform: rotate(-4deg);
+  }
+  .team-polaroid .photo {
+    background: var(--parchment-300);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 56px;
+    color: var(--sienna-700);
+    font-style: italic;
+    line-height: 1;
+  }
+  .team-polaroid .photo.sage { background: var(--sage-300); color: var(--sage-900); }
+  .team-polaroid .caption {
+    margin-top: 12px;
+    text-align: center;
+    padding: 0 4px;
+  }
+  .team-polaroid .caption .name {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.1;
+    color: var(--parchment-900);
+  }
+  .team-polaroid .caption .role {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: var(--parchment-600);
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+  @media (max-width: 760px) {
+    .team-polaroids { justify-content: center; }
+    .team-polaroid:nth-child(2) { margin-top: 0; }
+  }
+
+  /* TAGLINE CLOSE — punchline + dual CTA at end of page */
+  .tagline-close {
+    background: var(--parchment-100);
+    padding: 88px 56px;
+    text-align: center;
+    margin: 64px -56px 0;
+    border-top: 1px solid var(--parchment-300);
+    border-bottom: 1px solid var(--parchment-300);
+  }
+  @media (max-width: 760px) { .tagline-close { margin: 48px -24px 0; padding: 64px 24px; } }
+  .tagline-close .eyebrow-small {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 24px;
+  }
+  .tagline-close .tagline {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-style: italic;
+    font-size: clamp(36px, 5vw, 58px);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--parchment-900);
+    max-width: 820px;
+    margin: 0 auto 40px;
+  }
+  .tagline-close .cta-row {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .tagline-close .sig {
+    margin-top: 32px;
+    font-family: var(--font-family-script);
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--parchment-600);
+  }
+
+  /* POSTCARD — 90s tourist cartoon, presented as scrapbook souvenir */
+  .postcard-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0 56px;
+  }
+  .postcard {
+    display: inline-block;
+    transform: rotate(-1.2deg);
+    box-shadow: 0 18px 36px rgba(35,47,35,0.22), 0 6px 12px rgba(35,47,35,0.10);
+    max-width: 600px;
+    position: relative;
+    background: white;
+    padding: 6px 6px 36px;
+    transition: transform 0.3s ease;
+  }
+  .postcard:hover { transform: rotate(0deg) translateY(-2px); }
+  .postcard img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .postcard .postmark {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: var(--font-family-script);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--parchment-800);
+    padding: 0 16px;
+    line-height: 1.2;
+  }
+  @media (max-width: 760px) {
+    .postcard { transform: rotate(-0.6deg); max-width: 100%; }
+  }
+
+  /* SCRAPBOOK POLAROID — float-right inline with body text, matches .polaroid styling */
+  .polaroid-strip {
+    float: right;
+    margin: 12px 0 24px 28px;
+    padding: 0;
+  }
+  .polaroid-strip .polaroid-card {
+    background: var(--parchment-50);
+    padding: 12px 12px 36px;
+    box-shadow:
+      0 1px 2px rgba(35, 47, 35, 0.08),
+      0 8px 20px rgba(35, 47, 35, 0.10),
+      inset 0 0 60px rgba(155, 130, 90, 0.05);
+    width: 280px;
+    position: relative;
+    transform: rotate(1deg);
+    border-radius: 3px;
+  }
+  .polaroid-strip .polaroid-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse at 75% 20%, rgba(139, 119, 89, 0.05) 0%, transparent 50%),
+      radial-gradient(ellipse at 15% 80%, rgba(139, 119, 89, 0.06) 0%, transparent 55%);
+    border-radius: 3px;
+  }
+  .polaroid-strip .polaroid-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+  }
+  .polaroid-strip .polaroid-card .caption {
+    font-family: var(--font-family-handwritten);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+    color: var(--parchment-800);
+    letter-spacing: -0.01em;
+    position: relative;
+    z-index: 1;
+  }
+  @media (max-width: 760px) {
+    .polaroid-strip { float: none; margin: 24px 0; }
+    .polaroid-strip .polaroid-card { width: 100%; max-width: 320px; margin: 0 auto; transform: rotate(0.5deg); }
+  }
+
+  /* INFO-GAIN STRIP — first thing after masthead; three claims competitors won't make */
+  .info-gain-strip {
+    padding: 28px 0 36px;
+    margin-bottom: 16px;
+    max-width: 800px;
+    border-bottom: 1px solid var(--parchment-300);
+  }
+  .info-gain-strip .label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 18px;
+  }
+  .info-gain-strip ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+    list-style: none;
+    max-width: none;
+  }
+  .info-gain-strip ul li {
+    font-family: var(--font-family-display);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.45;
+    color: var(--heading-on-light);
+    padding-left: 22px;
+    position: relative;
+  }
+  .info-gain-strip ul li strong { font-weight: 700; }
+  .info-gain-strip ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: var(--sienna-500);
+    font-weight: 700;
+  }
+  @media (max-width: 760px) {
+    .info-gain-strip ul { grid-template-columns: 1fr; gap: 16px; }
+  }
+
+  /* CHIP NAV — jump-to-section pills after the at-a-glance */
+  .chip-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    padding: 16px 0 0;
+    margin-bottom: 48px;
+    max-width: 800px;
+  }
+  .chip-nav-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--parchment-600);
+    margin-right: 6px;
+  }
+  .chip-nav a {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 14px;
+    background: var(--parchment-50);
+    color: var(--heading-on-light);
+    text-decoration: none;
+    border-radius: 999px;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid var(--parchment-300);
+    transition: all 0.15s ease;
+  }
+  .chip-nav a:hover {
+    background: var(--sienna-500);
+    color: var(--parchment-50);
+    border-color: var(--sienna-500);
+  }
+
+  /* EOR vs ENTITY comparison table */
+  .eor-vs-entity {
+    margin: 28px 0 32px;
+    max-width: 800px;
+    background: var(--parchment-50);
+    border: 1px solid var(--parchment-300);
+    overflow-x: auto;
+  }
+  .eor-vs-entity table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .eor-vs-entity th {
+    background: var(--parchment-100);
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--parchment-700);
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid var(--parchment-300);
+  }
+  .eor-vs-entity th.col-eor { color: var(--sienna-700); }
+  .eor-vs-entity th.col-entity { color: var(--sage-700); }
+  .eor-vs-entity td {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--parchment-200);
+    color: var(--parchment-800);
+    font-family: var(--font-family-body);
+    line-height: 1.45;
+  }
+  .eor-vs-entity td.label { font-weight: 700; color: var(--parchment-700); width: 28%; }
+  .eor-vs-entity td.value { font-variant-numeric: tabular-nums; }
+  .eor-vs-entity tr.crossover td { background: var(--amber-100); font-weight: 700; color: var(--parchment-900); }
+  .eor-vs-entity tr.crossover td::before { content: "★ "; color: var(--sienna-700); margin-right: 4px; }
+  .eor-vs-entity tr:last-child td { border-bottom: none; }
+
+  /* CUSTOMER LOGO STRIP — six customer logos in a unified greyscale row */
+  .customer-strip {
+    padding: 56px 0;
+    border-top: 1px solid var(--parchment-300);
+    border-bottom: 1px solid var(--parchment-300);
+    margin: 56px 0;
+  }
+  .customer-strip .label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 36px;
+    text-align: center;
+  }
+  .customer-strip .row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 32px;
+    align-items: center;
+    justify-items: center;
+  }
+  .customer-strip .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  .customer-strip .logo img {
+    max-height: 40px;
+    max-width: 140px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(1) opacity(0.65);
+    transition: filter 0.25s ease;
+    border-radius: 3px;
+  }
+  .customer-strip .logo img:hover {
+    filter: grayscale(0) opacity(1);
+  }
+  @media (max-width: 760px) {
+    .customer-strip .row { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  }
+
+  /* INLINE YELLOW PAD — variant for inside good-to-know body (float right) */
+  .pad-note-inline {
+    float: right;
+    width: 340px;
+    margin: 0 0 24px 32px;
+  }
+  @media (max-width: 760px) {
+    .pad-note-inline { float: none; width: 100%; margin: 24px 0; }
+  }
+
+  /* CALCULATOR EMBEDS — live working tools (replace embed-placeholder slots) */
+  .calc-tool {
+    background: var(--parchment-50);
+    border: 1px solid var(--parchment-300);
+    padding: 36px;
+    margin: 32px 0;
+    max-width: 800px;
+    position: relative;
+  }
+  .calc-tool header { margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid var(--parchment-300); }
+  .calc-tool .eyebrow-small {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .calc-tool .eyebrow-small::after {
+    content: "LIVE";
+    background: var(--sage-700);
+    color: var(--parchment-50);
+    padding: 2px 8px;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    border-radius: 2px;
+  }
+  .calc-tool h3 {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--heading-on-light);
+    margin-bottom: 6px;
+  }
+  .calc-tool header p {
+    font-size: 14px;
+    color: var(--parchment-600);
+    margin: 0;
+  }
+  .calc-inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--parchment-300);
+  }
+  .calc-input-group { display: block; }
+  .calc-input-group .label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--parchment-700);
+    margin-bottom: 12px;
+  }
+  .calc-input-group .slider-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .calc-input-group input[type="range"] {
+    flex: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 4px;
+    background: var(--parchment-300);
+    border-radius: 999px;
+    outline: none;
+  }
+  .calc-input-group input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 999px;
+    background: var(--cta-primary);
+    cursor: pointer;
+    border: 3px solid var(--parchment-50);
+    box-shadow: 0 2px 8px rgba(35,47,35,0.18);
+  }
+  .calc-input-group input[type="range"]::-moz-range-thumb {
+    width: 22px; height: 22px; border-radius: 999px;
+    background: var(--cta-primary); cursor: pointer;
+    border: 3px solid var(--parchment-50);
+    box-shadow: 0 2px 8px rgba(35,47,35,0.18);
+  }
+  .calc-input-group output {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    color: var(--cta-primary);
+    letter-spacing: -0.02em;
+    min-width: 120px;
+    text-align: right;
+  }
+  .tier-toggle { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tier-toggle input[type="radio"] { position: absolute; left: -9999px; }
+  .tier-toggle label {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 16px;
+    border: 1px solid var(--parchment-300);
+    background: var(--parchment-50);
+    border-radius: 999px;
+    font-family: var(--font-family-body);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--parchment-700);
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 0;
+    transition: all 0.15s ease;
+  }
+  .tier-toggle input[type="radio"]:checked + label {
+    background: var(--parchment-800);
+    color: var(--parchment-50);
+    border-color: var(--parchment-800);
+  }
+  .calc-output {}
+  .cost-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 9px 0;
+    font-family: var(--font-family-body);
+    font-size: 15px;
+    color: var(--parchment-800);
+  }
+  .cost-row .value {
+    font-family: var(--font-family-display);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--parchment-900);
+  }
+  .cost-row.total {
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 14px;
+    border-top: 2px solid var(--parchment-800);
+    margin-top: 4px;
+  }
+  .cost-row.total .value {
+    font-size: 32px;
+    color: var(--cta-primary);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .cost-row.muted { color: var(--parchment-600); font-size: 14px; padding: 4px 0; }
+  .cost-row.muted .value { color: var(--parchment-700); font-weight: 500; }
+  .cost-divider { height: 1px; background: var(--parchment-300); margin: 6px 0; }
+  .calc-bar {
+    display: flex;
+    height: 32px;
+    margin: 24px 0 8px;
+    background: var(--parchment-200);
+    overflow: hidden;
+    border-radius: 2px;
+  }
+  .calc-bar .seg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--parchment-50);
+    white-space: nowrap;
+    overflow: hidden;
+    transition: width 0.25s ease;
+    min-width: 0;
+  }
+  .calc-bar .seg.salary { background: var(--parchment-800); }
+  .calc-bar .seg.nic { background: var(--sienna-500); }
+  .calc-bar .seg.pension { background: var(--sage-700); }
+  .calc-bar .seg.stat { background: var(--amber-500); }
+  .calc-bar .seg.teamed { background: var(--cta-primary); }
+  .calc-bar-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 11px;
+    font-family: var(--font-family-body);
+    color: var(--parchment-600);
+    margin-bottom: 20px;
+  }
+  .calc-bar-legend .leg-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .calc-bar-legend .leg-swatch {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+  }
+  .calc-tool footer {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--parchment-300);
+    font-size: 12px;
+    color: var(--parchment-600);
+    line-height: 1.5;
+  }
+  .calc-tool footer a {
+    color: var(--sienna-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+  }
+
+  /* CROSSOVER variant — two-card comparison */
+  .crossover-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 20px 0 16px;
+  }
+  .cross-card {
+    background: var(--parchment-100);
+    border: 1px solid var(--parchment-300);
+    padding: 24px;
+    border-radius: 4px;
+  }
+  .cross-card.eor { border-left: 4px solid var(--sienna-500); }
+  .cross-card.entity { border-left: 4px solid var(--sage-700); }
+  .cross-card .cross-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--parchment-600);
+    margin-bottom: 12px;
+  }
+  .cross-card .cross-value {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1;
+    color: var(--heading-on-light);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+  }
+  .cross-card .cross-value small {
+    font-family: var(--font-family-body);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--parchment-600);
+    letter-spacing: 0;
+  }
+  .cross-card .cross-detail {
+    font-size: 13px;
+    color: var(--parchment-700);
+    line-height: 1.45;
+  }
+  .crossover-verdict {
+    background: var(--amber-100);
+    border-left: 4px solid var(--amber-500);
+    padding: 16px 20px;
+    font-family: var(--font-family-body);
+    font-size: 15px;
+    color: var(--parchment-900);
+    line-height: 1.45;
+    margin-top: 8px;
+  }
+  .crossover-verdict strong { font-weight: 700; }
+  .calc-deep-link {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--parchment-300);
+    text-align: center;
+  }
+  .calc-deep-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: 1px solid var(--sienna-500);
+    border-radius: 999px;
+    color: var(--sienna-700);
+    text-decoration: none;
+    font-family: var(--font-family-body);
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.15s ease;
+  }
+  .calc-deep-link a:hover {
+    background: var(--sienna-500);
+    color: var(--parchment-50);
+  }
+  .calc-deep-link .arrow { font-family: var(--font-family-display); font-size: 16px; }
+  @media (max-width: 760px) {
+    .crossover-grid { grid-template-columns: 1fr; }
+    .calc-input-group .slider-row { flex-direction: column; align-items: stretch; }
+    .calc-input-group output { text-align: left; }
+  }
+
+  /* RUN-THE-NUMBERS — slim entry-point form, hands off to full calculator */
+  .run-numbers {
+    max-width: 800px;
+    margin: 64px 0;
+    padding-top: 24px;
+    border-top: 1px solid var(--parchment-300);
+  }
+  .run-numbers-eyebrow {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 12px;
+  }
+  .run-numbers-title {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: clamp(26px, 3.2vw, 36px);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--heading-on-light);
+    margin: 0 0 24px;
+  }
+  .rn-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 16px;
+    align-items: end;
+    background: var(--parchment-50);
+    border: 1px solid var(--parchment-300);
+    border-radius: 8px;
+    padding: 20px 22px;
+  }
+  .rn-field { display: flex; flex-direction: column; gap: 6px; }
+  .rn-field label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--parchment-600);
+  }
+  .rn-input-row {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid var(--parchment-300);
+    border-radius: 6px;
+    background: white;
+    overflow: hidden;
+  }
+  .rn-input-row select {
+    border: 0;
+    background: var(--parchment-100);
+    padding: 0 12px;
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--heading-on-light);
+    border-right: 1px solid var(--parchment-300);
+    cursor: pointer;
+  }
+  .rn-input-row input[type="number"] {
+    flex: 1;
+    border: 0;
+    padding: 12px 14px;
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    color: var(--heading-on-light);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    background: transparent;
+    outline: none;
+    min-width: 0;
+  }
+  .rn-country {
+    font-family: var(--font-family-body);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 14px;
+    border: 1px solid var(--parchment-300);
+    border-radius: 6px;
+    background: var(--parchment-100);
+    color: var(--heading-on-light);
+  }
+  .rn-submit {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 22px;
+    background: var(--cta-primary);
+    color: var(--parchment-50);
+    border: 0;
+    border-radius: 6px;
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    white-space: nowrap;
+    height: 47px;
+  }
+  .rn-submit:hover { opacity: 0.92; transform: translateY(-1px); }
+  .rn-arrow { font-family: var(--font-family-body); font-size: 16px; }
+  .rn-foot {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--parchment-600);
+    margin: 14px 4px 0;
+    line-height: 1.5;
+  }
+  @media (max-width: 760px) {
+    .rn-form { grid-template-columns: 1fr; }
+    .rn-submit { width: 100%; justify-content: center; }
+  }
+
+  /* TOOL EMBED — wrapper for iframed live calculators */
+  .tool-embed {
+    max-width: 800px;
+    margin: 32px 0;
+    background: var(--parchment-50);
+    border: 1px solid var(--parchment-300);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+  }
+  .tool-embed-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background: var(--parchment-100);
+    border-bottom: 1px solid var(--parchment-300);
+  }
+  .tool-embed-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tool-embed-label::before {
+    content: "●";
+    color: var(--sage-700);
+    font-size: 8px;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+  }
+  .tool-embed-link {
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--parchment-700);
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid var(--parchment-300);
+    border-radius: 999px;
+    transition: all 0.15s ease;
+  }
+  .tool-embed-link:hover {
+    background: var(--cta-primary);
+    color: var(--parchment-50);
+    border-color: var(--cta-primary);
+  }
+  .tool-embed iframe {
+    width: 100%;
+    height: 900px;
+    border: 0;
+    display: block;
+    background: var(--parchment-50);
+  }
+  .tool-embed-note {
+    padding: 14px 20px;
+    background: var(--amber-100);
+    border-top: 1px solid var(--parchment-300);
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--parchment-800);
+    line-height: 1.55;
+  }
+  .tool-embed-note strong { color: var(--parchment-900); font-weight: 700; }
+  .tool-embed-note code {
+    font-family: 'SF Mono', Menlo, monospace;
+    background: var(--parchment-200);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 11px;
+  }
+
+  /* TOOL PENDING — placeholder while a calculator isn't built yet */
+  .tool-pending {
+    max-width: 800px;
+    margin: 32px 0;
+    padding: 32px;
+    background: var(--parchment-100);
+    border: 1px dashed var(--parchment-400);
+    border-radius: 4px;
+  }
+  .tool-pending-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--amber-700);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tool-pending-label::before {
+    content: "⏱";
+    color: var(--amber-700);
+    font-size: 14px;
+  }
+  .tool-pending p {
+    font-family: var(--font-family-body);
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--parchment-700);
+    margin: 0;
+  }
+  .tool-pending code {
+    font-family: 'SF Mono', Menlo, monospace;
+    font-size: 12px;
+    background: var(--parchment-200);
+    padding: 1px 6px;
+    border-radius: 3px;
+    color: var(--parchment-800);
+  }
+
+  /* MINI TOOL — small interactive teaser (FX) with CTA to full tool */
+  .mini-tool {
+    max-width: 720px;
+    margin: 32px 0;
+    padding: 28px 32px;
+    background: var(--parchment-50);
+    border: 1px solid var(--parchment-300);
+    border-radius: 6px;
+  }
+  .mini-tool-head { margin-bottom: 22px; }
+  .mini-tool-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 8px;
+  }
+  .mini-tool h4 {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--heading-on-light);
+    margin: 0;
+  }
+  .mini-tool-input { margin-bottom: 20px; }
+  .mini-tool-input-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--parchment-700);
+    margin-bottom: 10px;
+  }
+  .mini-tool-slider-row { display: flex; align-items: center; gap: 16px; }
+  .mini-tool-slider-row input[type="range"] {
+    flex: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 4px;
+    background: var(--parchment-300);
+    border-radius: 999px;
+    outline: none;
+  }
+  .mini-tool-slider-row input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; height: 20px;
+    border-radius: 999px;
+    background: var(--cta-primary);
+    cursor: pointer;
+    border: 3px solid var(--parchment-50);
+    box-shadow: 0 2px 6px rgba(35,47,35,0.18);
+  }
+  .mini-tool-slider-row input[type="range"]::-moz-range-thumb {
+    width: 20px; height: 20px;
+    border-radius: 999px;
+    background: var(--cta-primary);
+    cursor: pointer;
+    border: 3px solid var(--parchment-50);
+    box-shadow: 0 2px 6px rgba(35,47,35,0.18);
+  }
+  .mini-tool-slider-row output {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 22px;
+    font-variant-numeric: tabular-nums;
+    color: var(--cta-primary);
+    letter-spacing: -0.02em;
+    min-width: 110px;
+    text-align: right;
+  }
+  .mini-tool-compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .mini-compare-cell {
+    background: var(--parchment-100);
+    border-left: 4px solid var(--parchment-400);
+    padding: 16px 18px;
+    border-radius: 6px;
+  }
+  .mini-compare-cell.typical { border-left-color: var(--sienna-500); }
+  .mini-compare-cell.teamed { border-left-color: var(--sage-700); background: var(--sage-100); }
+  .mini-compare-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--parchment-700);
+    margin-bottom: 8px;
+  }
+  .mini-compare-value {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1;
+    color: var(--heading-on-light);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+  .mini-compare-value small {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--parchment-600);
+    letter-spacing: 0;
+    display: block;
+    margin-top: 4px;
+  }
+  .mini-tool-note {
+    font-family: var(--font-family-body);
+    font-size: 13px;
+    color: var(--parchment-600);
+    font-style: italic;
+    margin: 0 0 20px;
+    line-height: 1.5;
+  }
+  .mini-tool-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 22px;
+    background: var(--cta-primary);
+    color: var(--parchment-50);
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 15px;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+  .mini-tool-cta:hover { opacity: 0.92; transform: translateY(-1px); }
+  .mini-tool-cta .arrow {
+    font-family: var(--font-family-display);
+    font-size: 22px;
+    margin-left: 12px;
+  }
+  @media (max-width: 760px) {
+    .mini-tool-compare { grid-template-columns: 1fr; }
+    .mini-tool-slider-row { flex-direction: column; align-items: stretch; }
+    .mini-tool-slider-row output { text-align: left; }
+  }
+
+  /* CTA LINK — quiet, inline button-row to live tools */
+  .big-cta-link {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px 0 8px;
+    padding: 14px 22px;
+    background: var(--cta-primary);
+    color: var(--parchment-50);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+  .big-cta-link:hover { opacity: 0.93; transform: translateY(-1px); }
+  .big-cta-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  .big-cta-text {
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.3;
+    letter-spacing: 0;
+  }
+  .big-cta-arrow {
+    font-family: var(--font-family-body);
+    font-size: 18px;
+    line-height: 1;
+    opacity: 0.9;
+  }
+  @media (max-width: 760px) {
+    .big-cta-link { grid-template-columns: 1fr auto; gap: 4px 14px; padding: 12px 18px; }
+    .big-cta-link .big-cta-label { grid-column: 1 / -1; }
+  }
+
+  /* PRICING BLOCK — left-aligned to share the 800px column with body content */
+  .pricing-block {
+    max-width: 800px;
+    margin: 32px 0 40px;
+    padding: 32px 0 16px;
+    text-align: left;
+  }
+  .pricing-eyebrow {
+    font-family: var(--font-family-script);
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--sienna-500);
+    margin-bottom: 14px;
+    opacity: 0.9;
+  }
+  .pricing-headline {
+    font-family: var(--font-family-display);
+    font-weight: 800;
+    font-size: clamp(44px, 5.6vw, 64px);
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--heading-on-light);
+    margin: 0 0 18px;
+  }
+  .pricing-headline .accent {
+    color: var(--cta-primary);
+    display: block;
+  }
+  .pricing-subhead {
+    font-family: var(--font-family-body);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--parchment-700);
+    max-width: 640px;
+    margin: 0 0 36px;
+  }
+  .pricing-card-single {
+    background: var(--parchment-50);
+    border-radius: 12px;
+    border-left: 5px solid var(--cta-primary);
+    padding: 36px 40px 32px;
+    margin: 0;
+    max-width: 100%;
+    box-shadow: 0 10px 28px rgba(35, 47, 35, 0.08);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    align-items: center;
+    text-align: left;
+  }
+  .pricing-card-right {
+    border-left: 1px dashed var(--parchment-300);
+    padding-left: 36px;
+  }
+  .pc-label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--cta-primary);
+    margin-bottom: 14px;
+  }
+  .pc-price {
+    font-family: var(--font-family-display);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: var(--heading-on-light);
+    font-variant-numeric: tabular-nums;
+  }
+  .pc-unit {
+    font-family: var(--font-family-body);
+    font-size: 13px;
+    color: var(--parchment-700);
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .pc-desc {
+    font-family: var(--font-family-body);
+    font-size: 15px;
+    color: var(--heading-on-light);
+    font-weight: 500;
+    margin-top: 18px;
+    line-height: 1.5;
+  }
+  .pricing-card-right h4 {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--parchment-700);
+    margin-bottom: 14px;
+  }
+  .pricing-card-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .pricing-card-right li {
+    font-family: var(--font-family-body);
+    font-size: 14px;
+    color: var(--heading-on-light);
+    line-height: 1.5;
+    padding: 6px 0 6px 26px;
+    position: relative;
+  }
+  .pricing-card-right li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    color: var(--sage-700);
+    font-weight: 700;
+  }
+
+  /* Honesty strip — dark surface, struck-through industry FX vs Teamed 0% */
+  .pricing-strip {
+    background: var(--parchment-800);
+    color: var(--parchment-100);
+    border-radius: 12px;
+    padding: 22px 32px;
+    margin: 28px 0 16px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    text-align: center;
+  }
+  .pricing-strip-col {
+    flex: 1;
+    min-width: 0;
+  }
+  .pricing-strip-col + .pricing-strip-col {
+    border-left: 1px solid rgba(242, 234, 220, 0.18);
+    padding-left: 18px;
+  }
+  .pscol-lab {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(242, 234, 220, 0.6);
+    margin-bottom: 8px;
+  }
+  .pscol-val {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--parchment-100);
+    line-height: 1.2;
+  }
+  .pscol-val.good { color: #9ED7AF; }
+  .pscol-val.bad {
+    color: #E8A2A2;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+  }
+
+  .pricing-footnote {
+    text-align: left;
+    font-family: var(--font-family-body);
+    color: var(--parchment-600);
+    font-size: 13px;
+    margin: 0;
+  }
+
+  @media (max-width: 760px) {
+    .pricing-card-single { grid-template-columns: 1fr; padding: 32px 24px; gap: 24px; }
+    .pricing-card-right { border-left: 0; padding-left: 0; padding-top: 24px; border-top: 1px dashed var(--parchment-300); }
+    .pricing-strip { flex-direction: column; gap: 14px; }
+    .pricing-strip-col + .pricing-strip-col { border-left: 0; border-top: 1px solid rgba(242, 234, 220, 0.18); padding-left: 0; padding-top: 14px; }
+  }
+
+  /* INTERNAL LINKS RAIL */
+  .links-rail {
+    background: var(--parchment-warm);
+    padding: 40px 48px;
+    margin-bottom: 48px;
+    max-width: 800px;
+  }
+  .links-rail h2 {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: var(--charcoal);
+  }
+  .links-rail ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 32px;
+  }
+  .links-rail li a {
+    color: var(--navy);
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 1px solid var(--rule-soft);
+    padding-bottom: 4px;
+    display: inline-block;
+  }
+  .links-rail li a:hover { border-color: var(--navy); }
+  .links-rail .context {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-left: 8px;
+  }
+  .links-rail .retrofit {
+    color: var(--sienna);
+  }
+  @media (max-width: 760px) {
+    .links-rail ul { grid-template-columns: 1fr; }
+  }
+
+  /* FAQ */
+  .faq {
+    margin-bottom: 64px;
+  }
+  .faq h2 {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 24px;
+    color: var(--charcoal);
+  }
+  details {
+    border-bottom: 1px solid var(--rule-soft);
+    padding: 20px 0;
+  }
+  details summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--charcoal);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  details summary::after {
+    content: "+";
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 28px;
+    color: var(--navy);
+    transition: transform 0.2s ease;
+  }
+  details[open] summary::after {
+    transform: rotate(45deg);
+  }
+  details p {
+    margin-top: 12px;
+    color: var(--ink-soft);
+    max-width: 760px;
+  }
+
+  /* META FOOTER */
+  .meta-footer {
+    background: var(--charcoal);
+    color: var(--parchment);
+    padding: 48px 56px;
+    margin-top: 80px;
+  }
+  .meta-footer h3 {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 16px;
+  }
+  .meta-footer .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 32px;
+  }
+  .meta-footer code {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 12px;
+    color: var(--parchment);
+    background: rgba(255,255,255,0.06);
+    padding: 2px 6px;
+  }
+  .meta-footer ul { list-style: none; font-size: 13px; line-height: 1.6; color: rgba(240, 235, 227, 0.8); }
+  .meta-footer ul li { padding: 4px 0; }
+  .meta-footer ul li::before { content: "→ "; color: var(--amber); }
+  .meta-footer .retrofit-list li::before { content: "⚠ "; color: var(--sienna); }
+  @media (max-width: 760px) {
+    .meta-footer .grid { grid-template-columns: 1fr; gap: 32px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- MASTHEAD -->
+  <header class="masthead film-grain">
+    <div class="breadcrumb">
+      <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; United Kingdom
+    </div>
+    <div class="eyebrow">
+      <span class="badge">United Kingdom · Depth grade</span>
+      <span class="reviewed">Last verified May 2026 by <a href="/team/daisy-gabriel/">Daisy Gabriel</a>, People Ops Specialist · Authored by <a href="/team/tom-price-daniel/">Tom Price-Daniel</a>, Co-founder</span>
+    </div>
+    <span class="partner-badge">Served by Teamed-owned entity: Teamed Ltd, London</span>
+    <h1>Hiring in the <em>United Kingdom</em>?</h1>
+    <p class="subhead">UK is still the easiest European market. For now.</p>
+    <div class="cta-row">
+      <a href="/contact/" class="cta primary">Talk to an expert</a>
+      <a href="/tools/employee-cost/?country=united-kingdom" class="cta secondary">Run the cost calculator</a>
+    </div>
+  </header>
+
+  <!-- INFO-GAIN STRIP — three things competitors won't say -->
+  <section class="info-gain-strip">
+    <div class="label">Three things you won't find on any other UK EOR guide</div>
+    <ul>
+      <li><strong>Teamed Ltd doesn't hold a Home Office sponsorship licence.</strong> We publish that. Other EORs let you reach onboarding before they admit it.</li>
+      <li><strong>An EOR doesn't solve IR35.</strong> Putting a contractor through one can be HMRC's evidence the worker should already have been an employee.</li>
+      <li><strong>The 6 April 2026 day-one rights are in force now.</strong> Paternity, parental leave, and SSP — three months ago. Competitor pages are still on 2025.</li>
+    </ul>
+  </section>
+
+  <!-- ANSWER CAPSULE — first paragraph below masthead, citation passage -->
+  <div class="capsule film-grain">
+    <p class="text">Hiring in the United Kingdom takes roughly <strong>120-125% of gross salary</strong> once Employer National Insurance (<strong>15% above £5,000</strong>) and the <strong>3% pension auto-enrolment minimum</strong> are added. Teamed runs UK payroll, contracts, and compliance through <strong>Teamed Ltd, our wholly-owned London entity</strong>, from <strong>£479 per employee per month flat</strong> with no FX markup. From <strong>6 April 2026</strong>, UK paternity leave and Statutory Sick Pay are day-one rights.</p>
+  </div>
+
+  <!-- AT-A-GLANCE CARD -->
+  <div class="at-a-glance film-grain">
+    <div class="at-a-glance-head">
+      <span>At a glance · verified 13 May 2026</span>
+      <span>GBP · English · Monthly payroll</span>
+    </div>
+    <div class="at-a-glance-grid">
+      <div class="at-a-glance-cell"><div class="label-row"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M14 8c-1-1-3-1-4 0s-1 3 0 4l1 1c1 1 1 3 0 4s-3 1-4 0M12 6v12"/></svg><div class="label">Currency</div></div><div class="value">GBP £</div></div>
+      <div class="at-a-glance-cell"><div class="label-row"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 19L19 5M8 8a2 2 0 100-4 2 2 0 000 4zM16 20a2 2 0 100-4 2 2 0 000 4z"/></svg><div class="label">Employer tax</div></div><div class="value">15%<small>above £5,000 (Class 1 NIC)</small></div></div>
+      <div class="at-a-glance-cell"><div class="label-row"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12l9-9 9 9M5 10v9h14v-9M9 19v-6h6v6"/></svg><div class="label">Pension</div></div><div class="value">3% + 5%<small>employer min + employee min</small></div></div>
+      <div class="at-a-glance-cell"><div class="label-row"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg><div class="label">Annual leave</div></div><div class="value">5.6 wks<small>28 days incl. bank holidays</small></div></div>
+      <div class="at-a-glance-cell"><div class="label-row"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div class="label">Working week</div></div><div class="value">40 hrs<small>statutory max 48, 17-wk reference</small></div></div>
+      <div class="at-a-glance-cell"><div class="label-row"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M3 9h18M8 3v4M16 3v4"/></svg><div class="label">Public holidays</div></div><div class="value">8 / 9 / 10<small>England · Scotland · NI</small></div></div>
+      <div class="at-a-glance-cell"><div class="label-row"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22V8M3 12l9-9 9 9M8 12v10M16 12v10"/></svg><div class="label">Minimum notice</div></div><div class="value">1 week<small>after 1 month service</small></div></div>
+      <div class="at-a-glance-cell"><div class="label-row"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="8" width="18" height="13"/><path d="M3 12h18M12 8v13M12 8c-2-4 2-6 4-2s-2 2-4 2zM12 8c2-4-2-6-4-2s2 2 4 2z"/></svg><div class="label">13th salary</div></div><div class="value">No<small>not customary in the UK</small></div></div>
+    </div>
+  </div>
+
+  <!-- CHIP NAV — jump to any section -->
+  <nav class="chip-nav" aria-label="Jump to section">
+    <span class="chip-nav-label">Jump to</span>
+    <a href="#cost">Cost</a>
+    <a href="#entity">EOR vs entity</a>
+    <a href="#compliance">6 April 2026</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#taxes">Taxes</a>
+    <a href="#termination">Termination</a>
+    <a href="#good-to-know">Good to know</a>
+  </nav>
+
+  <!-- HERO IMAGE -->
+  <div class="hero-image">
+    <img src="images/hero-real.png" alt="Photographic aerial view of London at golden hour — Tower Bridge in the foreground, the Thames winding through, City of London skyline with the Shard and the Gherkin behind." loading="eager">
+  </div>
+
+  <!-- STAT HERO — the price commitment -->
+  <section class="stat-hero film-grain">
+    <div class="eyebrow-small">UK · per employee · per month · flat</div>
+    <div class="number"><span class="ccy">£</span>479</div>
+    <p class="caption">Zero FX. No setup fees. 48-hour onboarding. The price your finance team can forecast against without an asterisk.</p>
+    <div class="meta-row">
+      <span>Zero FX Fixed</span>
+      <span>No setup fee</span>
+      <span>No exit fee</span>
+      <span>48-hour onboard</span>
+    </div>
+  </section>
+
+  <!-- POSTCARD — souvenir break between the headline number and the cost detail -->
+  <div class="postcard-wrap">
+    <div class="postcard">
+      <img src="images/postcard-greetings.png" alt="A 1990s-style tourist postcard reading 'Greetings from London' with cartoon Big Ben, red double-decker bus, black taxi, red telephone box, and Tower Bridge in flat bright colours.">
+      <div class="postmark">P.S. UK is still the easiest European market to hire in. For now. — May '26</div>
+    </div>
+  </div>
+
+  <!-- COST BLOCK -->
+  <section class="q" id="cost">
+    <h2>How much does it cost to hire an employee in the United Kingdom in 2026?</h2>
+    <p class="answer-first">Plan on 120-125% of gross salary once 15% Employer NIC and 3% pension auto-enrolment are added. Teamed's UK fee starts at £479 per employee per month.</p>
+    <div class="body">
+      <p>UK salary alone is not the full picture. On top of base salary, plan on <strong>15% Employer National Insurance</strong> on earnings above the <strong>£5,000 secondary threshold</strong> (frozen until 2030-31). Add <strong>3% pension auto-enrolment</strong> on qualifying earnings between £6,240 and £50,270, and budget for statutory sick, parental, and leave costs. Loaded gross-to-total typically lands at <strong>120-125% of base salary</strong>.</p>
+      <p>You choose between two pricing models. <strong>Zero FX Fixed</strong> is <strong>£479 per employee per month flat</strong>. Teamed absorbs FX, no FX line on the invoice, default for same-currency setups. <strong>Regional Rate</strong> is <strong>£400 per employee per month plus 2% disclosed FX</strong> for cross-currency clients who want a lower management fee and a fully-itemised FX line on every invoice. No setup fees. No exit fees. Salaries, taxes, and benefits passed through at cost.</p>
+      <p>The cost calculator below models your UK total employment cost against current statutory rates and shows the Zero FX vs Regional comparison for your salary band.</p>
+    </div>
+    <!-- PRICING — native single Fixed Rate element (dollars only, modelled on Option D) -->
+    <div class="pricing-block">
+      <div class="pricing-eyebrow">↓ Honesty, made visible</div>
+      <h3 class="pricing-headline">One price. <span class="accent">Zero FX.</span></h3>
+      <p class="pricing-subhead">Same headline rate as Deel. Every line itemised on every invoice. FX absorbed by Teamed — no markup, no spread, no FX line in any currency pairing.</p>
+
+      <div class="pricing-card-single">
+        <div class="pricing-card-left">
+          <div class="pc-label">Fixed Rate · Zero FX</div>
+          <div class="pc-price">$599</div>
+          <div class="pc-unit">/ employee / month · flat</div>
+          <div class="pc-desc">No FX line on the invoice. Same rate, same-currency or cross-border.</div>
+        </div>
+        <div class="pricing-card-right">
+          <h4>What's included</h4>
+          <ul>
+            <li>Local employment contract</li>
+            <li>Payroll &amp; tax withholding</li>
+            <li>Statutory benefits administration</li>
+            <li>Named country specialist</li>
+            <li>Line-by-line invoices</li>
+            <li>No setup or exit fees</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pricing-strip">
+        <div class="pricing-strip-col">
+          <div class="pscol-lab">Industry average FX</div>
+          <div class="pscol-val bad">3 – 5%</div>
+        </div>
+        <div class="pricing-strip-col">
+          <div class="pscol-lab">Where it shows up</div>
+          <div class="pscol-val">Hidden in the rate</div>
+        </div>
+        <div class="pricing-strip-col">
+          <div class="pscol-lab">Teamed FX</div>
+          <div class="pscol-val good">0%</div>
+        </div>
+        <div class="pricing-strip-col">
+          <div class="pscol-lab">Where it shows up</div>
+          <div class="pscol-val">Absorbed. No FX line.</div>
+        </div>
+      </div>
+
+      <p class="pricing-footnote">No setup fees. No deposits. Cancel any month.</p>
+    </div>
+    <!-- FX — CTA only (no embed) -->
+    <a class="big-cta-link" href="https://www.teamed.global/tools/unbundling-calculator" target="_blank" rel="noopener">
+      <span class="big-cta-label">FX Transparency</span>
+      <span class="big-cta-text">See your real FX rate here</span>
+      <span class="big-cta-arrow">→</span>
+    </a>
+
+    <!-- EMPLOYEE COST CALCULATOR — not yet built, retrofit needed -->
+    <div class="tool-pending">
+      <div class="tool-pending-label">Employee Cost Calculator</div>
+      <p>The total-employment-cost tool isn't deployed yet. When it ships at <code>empc-cal.vercel.app</code> (or wherever it lands), the country page will iframe it here with <code>?country=uk&salary=60000</code> pre-fill. Spec lives in <code>references/tool-embed-spec.md</code>.</p>
+    </div>
+  </section>
+
+  <!-- RUN-THE-NUMBERS — slim entry point; opens full Employee Cost Calculator in new tab -->
+  <section class="run-numbers">
+    <div class="run-numbers-eyebrow">Try it with your numbers</div>
+    <h2 class="run-numbers-title">Drop a UK salary in. See the full loaded cost.</h2>
+    <form class="rn-form" onsubmit="return openCostCalc(event)">
+      <div class="rn-field">
+        <label for="rn-salary">Gross annual salary</label>
+        <div class="rn-input-row">
+          <select id="rn-currency" aria-label="Currency">
+            <option value="USD" selected>$&nbsp;USD</option>
+            <option value="GBP">£&nbsp;GBP</option>
+            <option value="EUR">€&nbsp;EUR</option>
+          </select>
+          <input type="number" id="rn-salary" placeholder="60000" min="20000" max="500000" step="1000" value="60000" aria-label="Gross annual salary">
+        </div>
+      </div>
+      <div class="rn-field rn-country-field">
+        <label>Country</label>
+        <div class="rn-country">🇬🇧&nbsp; United Kingdom</div>
+      </div>
+      <button type="submit" class="rn-submit">
+        Get calculation
+        <span class="rn-arrow">→</span>
+      </button>
+    </form>
+    <p class="rn-foot">Opens the full Employee Cost Calculator with your salary applied. Includes 15% Employer NIC, 3% pension auto-enrolment, statutory leave reserve, and the Teamed fee.</p>
+  </section>
+
+  <!-- BEFORE YOU HIRE -->
+  <section class="q" id="entity">
+    <h2>Do you need a UK entity to hire employees in the United Kingdom?</h2>
+    <p class="answer-first">No. An Employer of Record runs UK payroll and contracts from day one. Your own UK entity becomes cheaper than EOR around 5-8 employees.</p>
+
+    <div class="graduation">
+      <div class="graduation-row">
+        <div class="graduation-stage">
+          <svg class="stage-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 11a4 4 0 100-8 4 4 0 000 8zm-7 10a7 7 0 0114 0H5z"/></svg>
+          <div class="stage-num">Stage 1</div>
+          <div class="stage-name">Contractor</div>
+          <div class="stage-desc">First UK hire, project-based, no entity needed.</div>
+        </div>
+        <div class="graduation-arrow">→</div>
+        <div class="graduation-stage current">
+          <svg class="stage-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="14"/><path d="M7 7V4h10v3M9 11h6M9 15h6M9 19h6"/></svg>
+          <div class="stage-num">Stage 2</div>
+          <div class="stage-name">EOR with Teamed</div>
+          <div class="stage-desc">£479/mo. Teamed Ltd is the legal employer. Day-one onboarding.</div>
+        </div>
+        <div class="graduation-arrow">→</div>
+        <div class="graduation-stage">
+          <svg class="stage-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V3l8 4 8-4v18M12 7v14"/></svg>
+          <div class="stage-num">Stage 3</div>
+          <div class="stage-name">Your UK entity (GEMO)</div>
+          <div class="stage-desc">Same platform, same specialist. Tenure preserved.</div>
+        </div>
+      </div>
+      <div class="graduation-crossover">
+        <div class="marker">Crossover · 5-8 UK employees at average tech salary</div>
+      </div>
+    </div>
+
+    <div class="eor-vs-entity">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th class="col-eor">EOR (Teamed)</th>
+            <th class="col-entity">Your own UK entity (GEMO)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="label">Setup time</td>
+            <td class="value">48 hours</td>
+            <td class="value">~6 weeks</td>
+          </tr>
+          <tr>
+            <td class="label">Setup cost</td>
+            <td class="value">£0</td>
+            <td class="value">£3,000–£15,000</td>
+          </tr>
+          <tr>
+            <td class="label">Monthly cost @ 3 employees</td>
+            <td class="value">~£1,437 (3 × £479)</td>
+            <td class="value">£3,200–£4,500 + payroll</td>
+          </tr>
+          <tr class="crossover">
+            <td class="label">Monthly cost @ 6 employees</td>
+            <td class="value">~£2,874 (6 × £479)</td>
+            <td class="value">£3,200–£4,500 (crossover point)</td>
+          </tr>
+          <tr>
+            <td class="label">Monthly cost @ 10 employees</td>
+            <td class="value">~£4,790 (10 × £479)</td>
+            <td class="value">£3,200–£4,500 + payroll</td>
+          </tr>
+          <tr>
+            <td class="label">Visa sponsorship</td>
+            <td class="value">No — Teamed Ltd has no licence</td>
+            <td class="value">Yes — own licence post-formation</td>
+          </tr>
+          <tr>
+            <td class="label">Tenure portability</td>
+            <td class="value">Preserved on Graduation</td>
+            <td class="value">Continuous from EOR</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="polaroid-strip">
+      <div class="polaroid-card">
+        <img src="images/polaroid-shard.png" alt="The Shard, London's tallest building, rising above a Georgian terrace against blue sky.">
+        <div class="caption">The Shard</div>
+      </div>
+    </div>
+
+    <div class="body">
+      <p>Setting up a UK limited company takes roughly <strong>6 weeks</strong> and <strong>£3,000-£15,000</strong> in formation costs depending on share structure, with <strong>£3,200-£4,500 per month</strong> of ongoing payroll, accounting, and statutory filings once it's live. An <a href="/employer-of-record/">Employer of Record</a> is faster and cheaper at low headcount, and Teamed runs UK payroll, contracts, and benefits the day you sign.</p>
+      <p>The <strong>crossover point</strong> is country-specific. For the United Kingdom at average tech salaries it lands around <strong>5-8 employees</strong>. At that headcount your own entity's total employment cost crosses below the EOR fee plus 15% NIC plus pension on the same gross salary.</p>
+      <p>Most EOR providers won't tell you when you've crossed it. We do, and we'll help you move. You progress from Contractor to EOR to entity on one platform under Teamed's <a href="/graduation-model/"><strong>Graduation Model</strong></a>, with <strong>tenure preserved, no re-onboarding, and the same UK specialist</strong> on both sides.</p>
+      <div class="pullquote">
+        <div class="pullquote-label"><a href="/team/tom-price-daniel/">Tom Price-Daniel</a> · Co-founder, Teamed</div>
+        <q>Of the 1,000 customers we've worked with, only three have ever gone to work with a competitor after us.</q>
+        <cite>Teamed × Ambar, 19 April 2026</cite>
+      </div>
+    </div>
+    <!-- CROSSOVER CTA — comparison table above; full tool one click away -->
+    <a class="big-cta-link" href="https://crso-cal.vercel.app/tools/crossover" target="_blank" rel="noopener">
+      <span class="big-cta-label">Crossover Calculator</span>
+      <span class="big-cta-text">Run your own numbers in the full Crossover Calculator</span>
+      <span class="big-cta-arrow">→</span>
+    </a>
+  </section>
+
+  <!-- COMPLIANCE -->
+  <section class="q" id="compliance">
+    <h2>What changed in UK employment law on 6 April 2026?</h2>
+    <p class="answer-first">Paternity leave, unpaid parental leave, and Statutory Sick Pay became day-one rights on 6 April 2026 under the Employment Rights Act 2025. SSP rose to £123.25 per week.</p>
+
+    <div class="whats-new film-grain">
+      <div class="compact-postcard">
+        <img src="images/postcard-era-2025.png" alt="A 1990s tourist postcard 'New in Britain · April 2026' with cartoon Big Ben, paternity teddy bear badge, SSP thermometer badge, no-waiting-days calendar badge, and Employment Rights Act 2025 parliamentary scroll.">
+      </div>
+      <h3>The Employment Rights Act 2025 wave — in force now</h3>
+      <ul>
+        <li><strong>Paternity leave</strong> · day-one right (no qualifying service)</li>
+        <li><strong>Unpaid parental leave</strong> · day-one right</li>
+        <li><strong>Statutory Sick Pay</strong> · day-one, 3 waiting days abolished, lower earnings limit removed</li>
+        <li><strong>SSP rate</strong> · £123.25 per week (up from £118.75)</li>
+        <li><strong>SMP / SPP / SAP / ShPP / PBP</strong> · £194.32 per week (or 90% of earnings, whichever is lower)</li>
+        <li><strong>Collective redundancy protective award</strong> · doubled to 180 days' full pay per affected employee</li>
+        <li><strong>Coming January 2027</strong> · unfair-dismissal qualifying period drops from 2 years to 6 months (not day-one, despite reports)</li>
+      </ul>
+    </div>
+
+    <div class="body">
+      <h3>Working hours and overtime</h3>
+      <p>UK working time is governed by the <strong><a href="https://www.legislation.gov.uk/uksi/1998/1833/contents" target="_blank" rel="noopener">Working Time Regulations 1998</a></strong>. The statutory maximum is <strong>48 hours per week averaged over a 17-week reference period</strong>. Employees can voluntarily opt out of the 48-hour limit, and that opt-out is included in Teamed's standard UK contract. Standard rest entitlements: <strong>20-minute break if working over 6 hours</strong>, <strong>11 hours' rest between workdays</strong>, and <strong>24 hours' weekly rest</strong> (or 48 hours per fortnight). No statutory overtime premium. Premium pay is contractual, not legal.</p>
+
+      <h3>Employment contracts</h3>
+      <p>Written terms of employment must be issued <strong>on or before day one</strong> under the <strong><a href="https://www.legislation.gov.uk/ukpga/1996/18/contents" target="_blank" rel="noopener">Employment Rights Act 1996</a></strong> Section 1 statement. Fixed-term contracts run alongside permanent and zero-hour models, with one important constraint: an employee on continuous fixed-term contracts for <strong>4 years or more automatically becomes permanent</strong> unless there's an objective business reason otherwise. Teamed's standard UK contract supports all three engagement types and signs on behalf of Teamed Ltd as the legal employer. You receive a fresh Section 1 statement during onboarding, audited against the latest ERA requirements.</p>
+
+      <h3>Probation period</h3>
+      <p>There is <strong>no statutory maximum probation period</strong> in the UK as of May 2026. Typical probations run <strong>3 to 6 months</strong>, defined in the employment contract. The government is consulting on a <strong>9-month statutory cap</strong>, with implementation proposed for <strong>autumn 2026</strong>. Even during probation, terminations should follow a fair procedure. Hold a probation review meeting before serving notice. Teamed's UK ops handles this end to end. During the review, you receive written documentation of performance discussions, agreed objectives, and the basis for any extension or dismissal.</p>
+
+      <h3>Intellectual property</h3>
+      <p>Intellectual property created by an employee <strong>in the course of employment</strong> is <strong>automatically owned by the employer</strong> under the <strong><a href="https://www.legislation.gov.uk/ukpga/1988/48/contents" target="_blank" rel="noopener">Copyright, Designs and Patents Act 1988</a></strong> and the <strong><a href="https://www.legislation.gov.uk/ukpga/1977/37/contents" target="_blank" rel="noopener">Patents Act 1977</a></strong>. No special clause is needed for default IP assignment, though Teamed's UK contract includes explicit assignment language to cover edge cases: work created on personal time using company resources, third-party deliverables, and similar. Consultants and contractors require explicit written assignment. UK default ownership does not extend to non-employees. Moral rights are waivable in writing, and the UK contract waives them by default for commissioned work.</p>
+
+      <div class="pullquote">
+        <div class="pullquote-label"><a href="/team/joanna-castens/">Joanna Castens</a> · Senior EU Employment Specialist, Teamed</div>
+        <q>The decision to push so much of UK employment law through one statute — the Employment Rights Act — pulls the UK closer to continental Europe. It leaves less room for judicial discretion.</q>
+        <p style="margin-top:18px; color: var(--parchment-700); font-style: normal; font-size: 16px; line-height: 1.55;">UK employment outcomes now turn on the wording of the statute, not the back-and-forth of precedent. For US-headquartered buyers expanding here, plan for compliance documentation rather than case-by-case interpretation.</p>
+        <cite>The Teamed Pod, 28 April 2026</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="q" id="benefits">
+    <h2>What benefits must you provide UK employees in 2026?</h2>
+    <p class="answer-first">Statutory minimums: 5.6 weeks annual leave including bank holidays, day-one Statutory Sick Pay at £123.25 per week, day-one paternity leave, and 3% pension auto-enrolment.</p>
+    <div class="body">
+      <h3>Annual leave</h3>
+      <p>UK statutory annual leave is <strong>5.6 weeks per year</strong> (28 days for a standard 5-day worker). Unique to the UK among Teamed countries: <strong>annual leave and bank holidays are bundled</strong> into the 28-day statutory minimum. Employers can count public holidays toward statutory leave or grant them separately. Carry-over of the EU-origin 4 weeks is permitted only where sickness or statutory leave prevented use, with <strong>18 months</strong> to take. The additional <strong>1.6 weeks of UK-origin leave cannot be carried over</strong> without written agreement.</p>
+
+      <h3>Sick leave</h3>
+      <p><strong>Statutory Sick Pay (SSP)</strong> rose to <strong>£123.25 per week from 6 April 2026</strong>. The Employment Rights Act 2025 abolished the <strong>3 waiting days</strong> and removed the <strong>lower earnings limit</strong>. SSP now pays <strong>from day one</strong> and is available to all employees regardless of earnings level. SSP duration is up to <strong>28 weeks</strong> per period of incapacity. Employer enhanced sick pay is contractual, not statutory. Employees self-certify for the first 7 days; a doctor's fit note is required from day 8.</p>
+
+      <h3>Parental leave</h3>
+      <p>From <strong>6 April 2026</strong>, paternity leave and unpaid parental leave became <strong>day-one rights</strong> under the Employment Rights Act 2025. <strong>Statutory Maternity, Paternity, Adoption, Shared Parental, and Parental Bereavement Pay</strong> all rose to <strong>£194.32 per week</strong> (or 90% of average weekly earnings, whichever is lower). Maternity leave is up to <strong>52 weeks</strong> (26 weeks paid). The Bereaved Partners Paternity Leave Regulations 2026 introduced <strong>up to 52 weeks of unpaid leave</strong> for partners where a mother or primary adopter dies. Mothers can take up to 10 Keeping In Touch (KIT) days during maternity leave without ending the leave period.</p>
+
+      <h3>Public holidays</h3>
+      <p>Public holidays in 2026: <strong>8 in England and Wales</strong>, <strong>9 in Scotland</strong> (includes 2 January and 30 November), <strong>10 in Northern Ireland</strong> (includes St Patrick's Day and Battle of the Boyne). No legal requirement for enhanced bank-holiday pay. Time-and-a-half or double time is contractual. Most UK employers count bank holidays toward the 28-day statutory leave entitlement; Teamed's standard UK contract follows that convention. When a bank holiday falls on a weekend, a substitute weekday holiday is granted in lieu, typically the following Monday.</p>
+    </div>
+  </section>
+
+  <!-- TAXES -->
+  <section class="q" id="taxes">
+    <h2>What are payroll taxes in the United Kingdom in 2026?</h2>
+    <p class="answer-first">UK employer Class 1 National Insurance is 15% on earnings above £5,000 per year. Pension auto-enrolment is 3% employer plus 5% employee on qualifying earnings.</p>
+    <div class="body">
+      <h3>Employer tax</h3>
+      <p>UK employers pay <strong><a href="https://www.gov.uk/guidance/rates-and-thresholds-for-employers-2025-to-2026" target="_blank" rel="noopener">Class 1 National Insurance Contributions (NICs) at 15%</a></strong> on earnings above the <strong>secondary threshold of £5,000 per year</strong> (frozen until 2030-31). The <strong>Employment Allowance</strong> lets eligible employers offset <strong>up to £10,500</strong> of their annual Class 1 NIC bill, with the <strong>£100,000 eligibility cap</strong> removed. Employers with a pay bill above <strong>£3 million</strong> pay the <strong>Apprenticeship Levy</strong> at <strong>0.5%</strong> above a <strong>£15,000 allowance</strong>. <strong>Class 1A</strong> (on benefits in kind reported via P11D) and <strong>Class 1B</strong> (on PSAs) also run at <strong>15%</strong>.</p>
+      <p>Pension auto-enrolment is mandatory: <strong>3% employer minimum</strong> plus <strong>5% employee minimum</strong> on qualifying earnings between <strong>£6,240 and £50,270</strong>. You see PAYE filings, RTI submissions, and employer NIC reconciliations itemised on every invoice. Salary, NIC, pension, statutory recoveries, and the Teamed fee appear as separate lines.</p>
+
+      <h3>Individual tax</h3>
+      <p>UK income tax bands for 2025-26 (frozen): <strong>0%</strong> to the £12,570 personal allowance, <strong>20% basic rate</strong> to £50,270, <strong>40% higher rate</strong> to £125,140, <strong>45% additional rate</strong> above. The personal allowance tapers by <strong>£1 for every £2</strong> earned over £100,000.</p>
+      <p>Employees pay <strong>Class 1 NICs at 8%</strong> between the primary threshold (£12,570) and upper earnings limit (£50,270), and <strong>2%</strong> above. Student loan and graduate-tax deductions apply where the employee has registered loans. Teamed PAYE handles all employee deductions, processes P45 documents on starters and leavers, and issues annual P60s. Cross-border employees with UK shadow payroll obligations are handled case by case (typical trigger: <strong>183 days physical presence</strong> under double-tax treaty rules plus economic-employer analysis).</p>
+    </div>
+  </section>
+
+  <!-- TERMINATION -->
+  <section class="q" id="termination">
+    <h2>How do you terminate an employee in the United Kingdom?</h2>
+    <p class="answer-first">UK statutory notice scales with tenure: 1 week from 1 month to 2 years, then 1 week per year, capped at 12 weeks after 12 years' service.</p>
+    <div class="body">
+      <p>UK termination follows <strong>fair procedure</strong> under the <strong><a href="https://www.legislation.gov.uk/ukpga/1996/18/contents" target="_blank" rel="noopener">Employment Rights Act 1996</a></strong>. Notice scales with continuous service: <strong>none</strong> under 1 month, <strong>1 week</strong> between 1 month and 2 years, <strong>1 week per year of service</strong> between 2 and 12 years, capped at <strong>12 weeks</strong> at 12+ years' service.</p>
+
+      <table class="data">
+        <thead><tr><th>Length of service</th><th>Statutory minimum notice</th></tr></thead>
+        <tbody>
+          <tr><td>Less than 1 month</td><td>None</td></tr>
+          <tr><td>1 month to less than 2 years</td><td>1 week</td></tr>
+          <tr><td>2 to 12 years</td><td>1 week per year of service</td></tr>
+          <tr><td>12+ years</td><td>12 weeks (statutory cap)</td></tr>
+        </tbody>
+      </table>
+
+      <p>Redundancy pay applies after <strong>2 years' continuous service</strong>: <strong>0.5 week's pay per year</strong> under age 22, <strong>1 week per year</strong> age 22 to 40, <strong>1.5 weeks per year</strong> age 41 and above. Capped at <strong>20 years' service</strong>, with the <strong>weekly pay cap at £751</strong> from 6 April 2026. Lifetime statutory redundancy pay maxes at <strong>£22,530</strong>. Redundancy payments are tax-free up to <strong>£30,000</strong> in 2026.</p>
+
+      <p>From <strong>January 2027</strong>, the unfair-dismissal qualifying period drops from <strong>2 years to 6 months</strong> under the Employment Rights Act 2025. Not day-one as widely reported. The same Act doubled the <strong>collective redundancy protective award</strong> from <strong>90 to 180 days' full pay per affected employee</strong> from April 2026. Teamed's UK ops runs the full process: consultation period (15 days minimum for redundancy), fair-procedure documentation, holiday reconciliation, and final-pay calculation.</p>
+    </div>
+  </section>
+
+  <!-- GOOD TO KNOW -->
+  <section class="q" id="good-to-know">
+    <h2>What should you know before hiring in the United Kingdom?</h2>
+    <p class="answer-first">You hit two surprises hiring in the UK. Annual leave bundles bank holidays into a single 28-day count. Teamed Ltd cannot sponsor UK work visas.</p>
+    <div class="polaroid">
+      <img src="images/polaroid-big-ben.png" alt="Big Ben, the Elizabeth Tower at the Palace of Westminster, against a pale sky." loading="lazy">
+      <div class="caption">Big Ben</div>
+    </div>
+    <div class="body">
+      <p><strong>Annual leave and bank holidays are bundled</strong> into the 28-day statutory minimum. The UK is the only Teamed country where these aren't separate counts. Brief US buyers up front — most expect "PTO plus holidays" and read the contract twice.</p>
+      <p><strong>Teamed Ltd does not hold a Home Office sponsorship licence and cannot sponsor UK work visas.</strong> If a hire requires a Skilled Worker visa, <a href="/employer-of-record/">EOR</a> isn't the route. Teamed can stand up your own UK entity through <a href="/entity-management/">GEMO</a> in roughly 6 weeks.</p>
+    </div>
+  </section>
+
+  <!-- CUSTOMER STRIP — six teamed.global customer logos -->
+  <section class="customer-strip">
+    <div class="label">Trusted by teams hiring in the UK and beyond</div>
+    <div class="row">
+      <div class="logo"><img src="images/customer-logos/wise.webp" alt="Wise" loading="lazy"></div>
+      <div class="logo"><img src="images/customer-logos/notion.webp" alt="Notion" loading="lazy"></div>
+      <div class="logo"><img src="images/customer-logos/klarna.webp" alt="Klarna" loading="lazy"></div>
+      <div class="logo"><img src="images/customer-logos/atlassian-williams-racing.webp" alt="Atlassian Williams Racing" loading="lazy"></div>
+      <div class="logo"><img src="images/customer-logos/bdo.webp" alt="BDO" loading="lazy"></div>
+      <div class="logo"><img src="images/customer-logos/cooper-parry.webp" alt="Cooper Parry" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <div class="faq">
+    <h2>Frequently asked questions</h2>
+    <details>
+      <summary>How much does it cost to hire an employee in the United Kingdom?</summary>
+      <p>Plan on 120-125% of gross salary once Employer National Insurance (15% above £5,000) and 3% pension auto-enrolment are added. Teamed's UK fee is £479 per employee per month flat (Zero FX Fixed) or £400 per month plus 2% disclosed FX (Regional Rate).</p>
+    </details>
+    <details>
+      <summary>Can a US company hire in the UK without an entity?</summary>
+      <p>Yes. An Employer of Record like Teamed runs UK payroll, contracts, and compliance through its own UK entity. You direct the work. Teamed becomes the legal employer of record. Teamed Ltd is the UK entity, London-registered with full HMRC PAYE compliance. Setup takes 48 hours once terms are confirmed.</p>
+    </details>
+    <details>
+      <summary>What changed in UK employment law in April 2026?</summary>
+      <p>Paternity leave, unpaid parental leave, and Statutory Sick Pay all became day-one rights from 6 April 2026 under the Employment Rights Act 2025. SSP rose to £123.25 per week with the 3 waiting days abolished. The collective redundancy protective award doubled to 180 days.</p>
+    </details>
+    <details>
+      <summary>What is the UK employer National Insurance rate in 2026?</summary>
+      <p>Employer Class 1 National Insurance is 15% on earnings above the £5,000 secondary threshold per year, frozen until 2030-31. Eligible employers can offset up to £10,500 with the Employment Allowance, and the £100,000 eligibility cap was removed. Class 1A on benefits in kind and Class 1B on PSAs also run at 15%.</p>
+    </details>
+    <details>
+      <summary>Can an Employer of Record sponsor a UK work visa?</summary>
+      <p>Most EORs cannot. Teamed Ltd does not hold a Home Office sponsorship licence and cannot sponsor Skilled Worker visas. Teamed flags the sponsorship-licence gap upfront, before contracts are signed. If a hire requires sponsorship, Teamed can set up your own UK entity through GEMO in approximately 6 weeks.</p>
+    </details>
+    <details>
+      <summary>When does a UK entity become cheaper than EOR?</summary>
+      <p>Around 5-8 UK employees at typical UK tech salaries. The crossover depends on salary, benefits load, and ongoing entity costs of £3,200-£4,500 per month. Teamed flags the crossover and runs the Contractor to EOR to entity transition on one platform.</p>
+    </details>
+    <details>
+      <summary>What are the UK statutory notice periods?</summary>
+      <p>Notice scales with service: 1 week between 1 month and 2 years, then 1 week per year of service to a maximum of 12 weeks at 12 or more years. These minimums are set by the Employment Rights Act 1996. Employers can give more contractually; they cannot give less.</p>
+    </details>
+  </div>
+
+  <!-- TAGLINE CLOSE — the punchline -->
+  <section class="tagline-close film-grain">
+    <div class="eyebrow-small">Teamed for the United Kingdom</div>
+    <p class="tagline">The EOR that tells you when the model no longer fits.</p>
+    <div class="cta-row">
+      <a href="/contact/" class="cta primary">Talk to an expert</a>
+      <a href="/tools/crossover/?country=united-kingdom" class="cta secondary">Run the Crossover Calculator</a>
+    </div>
+    <div class="sig">Reviewed May 2026 by Daisy Gabriel · UK People Ops</div>
+  </section>
+
+  <!-- INTERNAL LINKS RAIL -->
+  <aside class="links-rail">
+    <h2>Keep reading</h2>
+    <ul>
+      <li><a href="/hire-in-united-kingdom/ir35-off-payroll-working-uk/">IR35 and off-payroll working</a><span class="context">decisive</span></li>
+      <li><a href="/hire-in-united-kingdom/employer-cost-uk-2026/">UK employer cost breakdown 2026</a><span class="context">cost</span></li>
+      <li><a href="/hire-in-united-kingdom/eor-vs-entity-united-kingdom/">EOR vs entity in the United Kingdom</a><span class="context">Crossover host</span></li>
+      <li><a href="/hire-in-united-kingdom/termination-and-severance-united-kingdom/">UK termination and severance</a><span class="context">child</span></li>
+      <li><a href="/hire-in-united-kingdom/permanent-establishment-united-kingdom/">Permanent establishment risk in the UK</a><span class="context">child</span></li>
+      <li><a href="/hire-in-united-kingdom/working-time-and-leave-united-kingdom/">Working time and leave in the United Kingdom</a><span class="context">child</span></li>
+      <li><a href="/employer-of-record/">Employer of Record overview</a><span class="context">cluster 2a</span></li>
+      <li><a href="/graduation-model/">The Graduation Model</a><span class="context">cluster 2a</span></li>
+      <li><a href="/pricing/zero-fx-fixed/">Teamed pricing: Zero FX Fixed</a><span class="context">commercial</span></li>
+      <li><a href="/tools/crossover/">Crossover Calculator</a><span class="context">tool</span></li>
+      <li><a href="/contact/">Talk to an expert</a><span class="context">CTA</span></li>
+      <li><a href="/team/tom-price-daniel/">Tom Price-Daniel, Co-founder</a><span class="context retrofit">⚠ retrofit-needed</span></li>
+      <li><a href="/team/daisy-gabriel/">Daisy Gabriel, UK People Ops</a><span class="context retrofit">⚠ retrofit-needed</span></li>
+    </ul>
+  </aside>
+
+  <!-- META FOOTER (preview-only) -->
+  <div class="meta-footer">
+    <h3>Page metadata · preview-only</h3>
+    <div class="grid">
+      <div>
+        <h3>Information gain.the citation hook</h3>
+        <ul>
+          <li>Teamed Ltd does not hold a Home Office sponsorship licence. We cannot sponsor UK work visas, and we publish that.</li>
+          <li>Putting a contractor through an EOR does not solve IR35. HMRC can treat the move as evidence the worker should already have been an employee.</li>
+          <li>The 6 April 2026 Employment Rights Act changes are in force now: paternity leave, parental leave, and SSP all became day-one rights three months ago.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Page metadata</h3>
+        <ul>
+          <li>Target keyword: <code>employer of record uk</code> · vol 600 · KD 0</li>
+          <li>Word count: ~1,920 words (target 1,800-2,000)</li>
+          <li>H2 literal-query ratio: 87%</li>
+          <li>Internal links: 13</li>
+          <li>Outbound primary citations mapped: 10</li>
+          <li>Table count: 3 (notice, cost components inline, day-one rights inline)</li>
+          <li>Schema stack: Article + FAQPage + BreadcrumbList + Organization + 2× Person + ItemList</li>
+        </ul>
+      </div>
+    </div>
+    <h3>Retrofit needed before publish</h3>
+    <ul class="retrofit-list">
+      <li><code>tom-price-daniel-bio</code>./team/tom-price-daniel/ Person schema bio + LinkedIn URL · non-publishable until live</li>
+      <li><code>daisy-gabriel-bio</code>./team/daisy-gabriel/ Person schema bio + LinkedIn URL · non-publishable until live</li>
+      <li><code>neighbour-country-links</code>.add /hire-in-ireland/, /hire-in-germany/, /hire-in-france/ once those parents ship</li>
+      <li><code>ir35-tom-quote</code>.capture verbatim Tom Price-Daniel quote on IR35 + EOR via Fireflies interview · required before IR35 decisive-child draft</li>
+      <li><code>earned-media-pitch</code>.Tom op-ed on UK EOR + ERA 2025 to People Management / HR Magazine pre-publish (5× citation lift target)</li>
+      <li><code>hero-image</code>.generate via gpt-image-1 (prompt at <code>images/.prompt-hero.txt</code>) once OPENAI_API_KEY available</li>
+      <li><code>good-to-know-image</code>.generate via gpt-image-1 (prompt at <code>images/.prompt-good-to-know.txt</code>)</li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+// Calculator widgets — live UK rates verified May 2026
+(function() {
+  'use strict';
+
+  function fmt(n) {
+    return '£' + Math.round(n).toLocaleString('en-GB');
+  }
+
+  // UK statutory rates (May 2026 verified)
+  function ukLoadedCost(salary) {
+    const ni_base = Math.max(0, salary - 5000);
+    const employer_nic = ni_base * 0.15;
+    const pension_lower = 6240, pension_upper = 50270;
+    const pension_base = Math.max(0, Math.min(salary, pension_upper) - pension_lower);
+    const employer_pension = pension_base * 0.03;
+    const statutory_reserve = salary * 0.025;
+    return {
+      salary: salary,
+      nic: employer_nic,
+      pension: employer_pension,
+      stat: statutory_reserve,
+      loaded: salary + employer_nic + employer_pension + statutory_reserve
+    };
+  }
+
+  // ===== Employee Cost Calculator =====
+  const ec = {
+    slider: document.getElementById('cost-salary-slider'),
+    display: document.getElementById('cost-salary-display'),
+    tierZero: document.getElementById('cost-tier-zero'),
+    tierReg: document.getElementById('cost-tier-regional')
+  };
+
+  function recalcCost() {
+    const salary = parseInt(ec.slider.value, 10);
+    const isZero = ec.tierZero.checked;
+    const c = ukLoadedCost(salary);
+
+    const teamed_monthly = isZero ? 479 : 400;
+    const teamed_annual = teamed_monthly * 12;
+    // Regional Rate: 2% FX on cross-currency conversions. Approximated on loaded cost + fee.
+    const fx_markup = isZero ? 0 : (c.loaded + teamed_annual) * 0.02;
+    const total = c.loaded + teamed_annual + fx_markup;
+    const monthly = total / 12;
+    const loaded_pct = (total / salary) * 100;
+
+    ec.display.textContent = fmt(salary);
+    document.getElementById('row-salary').textContent = fmt(salary);
+    document.getElementById('row-nic').textContent = fmt(c.nic);
+    document.getElementById('row-pension').textContent = fmt(c.pension);
+    document.getElementById('row-stat').textContent = fmt(c.stat);
+    document.getElementById('row-loaded').textContent = fmt(c.loaded);
+    document.getElementById('row-teamed').textContent = isZero ? fmt(teamed_annual) : fmt(teamed_annual) + ' + ' + fmt(fx_markup) + ' FX';
+    document.getElementById('row-teamed-detail').textContent = isZero ? '(12 × £479 · no FX)' : '(12 × £400 + ' + fmt(fx_markup) + ' disclosed FX)';
+    document.getElementById('row-total').textContent = fmt(total);
+    document.getElementById('row-monthly').textContent = fmt(monthly);
+    document.getElementById('row-loaded-pct').textContent = loaded_pct.toFixed(1) + '%';
+
+    // Stacked bar (proportional to total)
+    document.getElementById('bar-salary').style.width = (salary / total * 100).toFixed(2) + '%';
+    document.getElementById('bar-nic').style.width = (c.nic / total * 100).toFixed(2) + '%';
+    document.getElementById('bar-pension').style.width = (c.pension / total * 100).toFixed(2) + '%';
+    document.getElementById('bar-stat').style.width = (c.stat / total * 100).toFixed(2) + '%';
+    document.getElementById('bar-teamed').style.width = ((teamed_annual + fx_markup) / total * 100).toFixed(2) + '%';
+  }
+
+  if (ec.slider) {
+    ec.slider.addEventListener('input', recalcCost);
+    ec.tierZero.addEventListener('change', recalcCost);
+    ec.tierReg.addEventListener('change', recalcCost);
+    recalcCost();
+  }
+
+  // ===== Crossover Calculator =====
+  const xo = {
+    salarySlider: document.getElementById('xover-salary-slider'),
+    salaryDisplay: document.getElementById('xover-salary-display'),
+    headcountSlider: document.getElementById('xover-headcount-slider'),
+    headcountDisplay: document.getElementById('xover-headcount-display'),
+    eorMonthly: document.getElementById('xover-eor-monthly'),
+    eorDetail: document.getElementById('xover-eor-detail'),
+    entityMonthly: document.getElementById('xover-entity-monthly'),
+    entityDetail: document.getElementById('xover-entity-detail'),
+    verdict: document.getElementById('xover-verdict')
+  };
+
+  const ENTITY_OVERHEAD_MONTHLY = 3500;
+  const TEAMED_PER_EMP_MONTHLY = 479;
+
+  function recalcCrossover() {
+    const salary = parseInt(xo.salarySlider.value, 10);
+    const N = parseInt(xo.headcountSlider.value, 10);
+    const c = ukLoadedCost(salary);
+    const per_emp_loaded_monthly = c.loaded / 12;
+    const eor_monthly = (per_emp_loaded_monthly + TEAMED_PER_EMP_MONTHLY) * N;
+    const entity_monthly = per_emp_loaded_monthly * N + ENTITY_OVERHEAD_MONTHLY;
+
+    const diff = eor_monthly - entity_monthly;
+    const crossover_N = ENTITY_OVERHEAD_MONTHLY / TEAMED_PER_EMP_MONTHLY; // ~7.3
+
+    xo.salaryDisplay.textContent = fmt(salary);
+    xo.headcountDisplay.textContent = N + (N === 1 ? ' employee' : ' employees');
+    xo.eorMonthly.innerHTML = fmt(eor_monthly) + '<small> / month</small>';
+    xo.entityMonthly.innerHTML = fmt(entity_monthly) + '<small> / month</small>';
+    xo.eorDetail.textContent = N + ' × (' + fmt(salary) + ' salary + ' + fmt(c.loaded - salary) + ' statutory) ÷ 12 + ' + fmt(TEAMED_PER_EMP_MONTHLY) + '/employee Teamed fee';
+    xo.entityDetail.textContent = N + ' × (' + fmt(salary) + ' + ' + fmt(c.loaded - salary) + ' statutory) ÷ 12 + ' + fmt(ENTITY_OVERHEAD_MONTHLY) + ' monthly entity overhead';
+
+    let verdict;
+    if (diff > 0) {
+      // EOR more expensive
+      verdict = 'At <strong>' + N + ' UK employee' + (N === 1 ? '' : 's') + '</strong> on ' + fmt(salary) + ' salaries, your own UK entity is <strong>' + fmt(diff) + '/month cheaper</strong>. You crossed the break-even point around ' + crossover_N.toFixed(1) + ' employees. <strong>GEMO is the right answer at this headcount</strong> — Teamed can stand the entity up in ~6 weeks while running EOR in parallel.';
+    } else if (diff < -100) {
+      verdict = 'At <strong>' + N + ' UK employee' + (N === 1 ? '' : 's') + '</strong> on ' + fmt(salary) + ' salaries, EOR is <strong>' + fmt(-diff) + '/month cheaper</strong>. The crossover point is around ' + crossover_N.toFixed(1) + ' employees (the £' + ENTITY_OVERHEAD_MONTHLY + ' monthly entity overhead amortises across more headcount). <strong>Stay on EOR for now.</strong>';
+    } else {
+      verdict = '<strong>You\'re at the crossover.</strong> Around ' + N + ' UK employee' + (N === 1 ? '' : 's') + ', EOR and your own entity cost about the same. Other factors decide it: do you need a sponsorship licence (entity yes, EOR no)? Will you grow above ' + crossover_N.toFixed(1) + ' employees in the next 12 months? Talk to a specialist.';
+    }
+    xo.verdict.innerHTML = verdict;
+  }
+
+  if (xo.salarySlider) {
+    xo.salarySlider.addEventListener('input', recalcCrossover);
+    xo.headcountSlider.addEventListener('input', recalcCrossover);
+    recalcCrossover();
+  }
+
+  // ===== FX MINI WIDGET =====
+  const fx = {
+    slider: document.getElementById('fx-slider'),
+    display: document.getElementById('fx-display'),
+    typical: document.getElementById('fx-typical'),
+    teamed: document.getElementById('fx-teamed')
+  };
+  function fmtUsd(n) { return '$' + Math.round(n).toLocaleString('en-US'); }
+  function recalcFx() {
+    const monthly = parseInt(fx.slider.value, 10);
+    const annual = monthly * 12;
+    const typical_fx = annual * 0.02; // 2% typical FX markup
+    fx.display.textContent = fmtUsd(monthly);
+    fx.typical.innerHTML = fmtUsd(typical_fx) + '<small>/year hidden in conversion</small>';
+    fx.teamed.innerHTML = '$0<small>/year &middot; on every invoice</small>';
+  }
+  if (fx.slider) {
+    fx.slider.addEventListener('input', recalcFx);
+    recalcFx();
+  }
+
+  // ===== RUN-THE-NUMBERS hand-off =====
+  window.openCostCalc = function(e) {
+    e.preventDefault();
+    const salary = document.getElementById('rn-salary').value || '60000';
+    const currency = document.getElementById('rn-currency').value || 'USD';
+    const url = 'https://teamed-simulator.vercel.app/?country=uk&salary=' + encodeURIComponent(salary) + '&currency=' + encodeURIComponent(currency);
+    window.open(url, '_blank', 'noopener');
+    return false;
+  };
+})();
+</script>
+</body>
+</html>

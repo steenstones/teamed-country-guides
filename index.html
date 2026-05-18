@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Country Guides | Teamed</title>
+<meta name="description" content="Where it costs to hire, what's changing, when the model no longer fits. Country-by-country hiring intelligence from Teamed.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --parchment-50: #fafaf7;
+    --parchment-100: #f5f1ea;
+    --parchment-200: #f0ebe3;
+    --parchment-300: #e5ddd0;
+    --parchment-400: #c9bead;
+    --parchment-500: #9e9382;
+    --parchment-600: #6b6155;
+    --parchment-700: #4a4238;
+    --parchment-800: #3a3632;
+    --parchment-900: #24211e;
+    --amber-500: #d4a574;
+    --amber-700: #a37f52;
+    --sienna-500: #c4654a;
+    --sienna-700: #924530;
+    --sage-100: #dfe6d8;
+    --sage-500: #8b9e7e;
+    --sage-700: #5f6f52;
+    --sage-900: #384130;
+    --cta-primary: #8e2e24;
+    --heading-on-light: var(--sage-900);
+    --body-on-light: var(--parchment-700);
+    --font-family-display: 'General Sans', system-ui, sans-serif;
+    --font-family-body: 'Instrument Sans', system-ui, sans-serif;
+    --font-family-handwritten: 'Permanent Marker', 'Marker Felt', cursive;
+    --font-family-script: 'Caveat', cursive;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-family-body);
+    background: var(--parchment-200);
+    color: var(--body-on-light);
+    font-size: 17px;
+    line-height: 1.625;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .film-grain { position: relative; }
+  .film-grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+    z-index: 0;
+  }
+  .film-grain > * { position: relative; z-index: 1; }
+
+  .container { max-width: 1120px; margin: 0 auto; padding: 0 56px; }
+  @media (max-width: 760px) { .container { padding: 0 24px; } }
+
+  /* MASTHEAD */
+  .top { padding: 32px 0 24px; border-bottom: 1px solid var(--parchment-300); }
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .brand {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--heading-on-light);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+  .brand-mark { color: var(--cta-primary); }
+  .top-nav { display: flex; gap: 24px; flex-wrap: wrap; }
+  .top-nav a {
+    font-family: var(--font-family-body);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--parchment-700);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+  .top-nav a:hover { color: var(--sienna-700); }
+
+  /* HERO */
+  .hero { padding: 80px 0 64px; max-width: 800px; }
+  .hero .eyebrow {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 18px;
+  }
+  .hero h1 {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: clamp(48px, 7vw, 88px);
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--heading-on-light);
+    margin-bottom: 24px;
+  }
+  .hero h1 em { font-style: italic; color: var(--sienna-700); font-weight: 700; }
+  .hero .subhead {
+    font-family: var(--font-family-display);
+    font-style: italic;
+    font-size: clamp(20px, 2.2vw, 26px);
+    line-height: 1.4;
+    color: var(--parchment-700);
+    max-width: 680px;
+  }
+
+  /* COUNTRY GRID */
+  .grid-wrap { padding: 24px 0 96px; }
+  .grid-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  .grid-head h2 {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--heading-on-light);
+    letter-spacing: -0.01em;
+  }
+  .grid-head .meta {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--parchment-600);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+
+  .card {
+    background: var(--parchment-50);
+    border: 1px solid var(--parchment-300);
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    position: relative;
+  }
+  .card.live:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px rgba(35, 47, 35, 0.14), 0 4px 12px rgba(35, 47, 35, 0.06);
+    border-color: var(--sienna-500);
+  }
+  .card.coming { opacity: 0.62; cursor: not-allowed; }
+
+  .card-thumb {
+    aspect-ratio: 16 / 9;
+    background: var(--parchment-300);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .card.coming .card-thumb {
+    background: linear-gradient(135deg, var(--parchment-300) 0%, var(--parchment-400) 100%);
+  }
+  .card-status {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .card.live .card-status { background: var(--sage-700); color: var(--parchment-50); }
+  .card.coming .card-status { background: var(--parchment-700); color: var(--parchment-50); opacity: 0.85; }
+
+  .card-body { padding: 22px 22px 24px; flex: 1; display: flex; flex-direction: column; }
+  .card-flag {
+    font-size: 28px;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .card-title {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--heading-on-light);
+    margin-bottom: 6px;
+  }
+  .card-sub {
+    font-family: var(--font-family-body);
+    font-size: 13px;
+    color: var(--parchment-600);
+    margin-bottom: 16px;
+    line-height: 1.45;
+  }
+  .card-stats {
+    display: flex;
+    gap: 14px;
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 1px solid var(--parchment-300);
+  }
+  .card-stat {
+    flex: 1;
+    min-width: 0;
+  }
+  .card-stat .label {
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--parchment-600);
+    margin-bottom: 3px;
+  }
+  .card-stat .value {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--heading-on-light);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--parchment-900);
+    color: var(--parchment-200);
+    padding: 56px 0 48px;
+    margin-top: 80px;
+  }
+  footer .container { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 20px; }
+  footer .footer-brand {
+    font-family: var(--font-family-display);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+  }
+  footer .footer-brand em { font-style: italic; color: var(--amber-500); }
+  footer .footer-meta {
+    font-family: var(--font-family-body);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(240, 235, 227, 0.6);
+  }
+  footer a { color: var(--amber-300, #e4c399); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="container film-grain">
+  <header class="top">
+    <div class="top-row">
+      <a class="brand" href="/">teamed<span class="brand-mark">.</span> <span style="color:var(--parchment-600); font-weight:500; font-size:14px; margin-left:6px;">Country Guides</span></a>
+      <nav class="top-nav">
+        <a href="https://www.teamed.global/employer-of-record/">Employer of Record</a>
+        <a href="https://www.teamed.global/graduation-model/">Graduation Model</a>
+        <a href="https://www.teamed.global/pricing/">Pricing</a>
+        <a href="https://www.teamed.global/contact/">Talk to an expert</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">Hiring intelligence · country by country</div>
+    <h1>Where it costs to hire, what's changing, and <em>when the model no longer fits</em>.</h1>
+    <p class="subhead">Country-by-country guides for hiring through an Employer of Record. What it really costs, what just changed, and the moment your own entity becomes the right answer.</p>
+  </section>
+
+  <section class="grid-wrap">
+    <div class="grid-head">
+      <h2>All country guides</h2>
+      <div class="meta">1 live · 5 coming Wave 3 (Jun–Jul 2026)</div>
+    </div>
+
+    <div class="grid">
+      <!-- UK — LIVE -->
+      <a class="card live" href="/united-kingdom/">
+        <div class="card-thumb" style="background-image: url('united-kingdom/images/hero-real.png');">
+          <span class="card-status">Live</span>
+        </div>
+        <div class="card-body">
+          <div class="card-flag">🇬🇧</div>
+          <div class="card-title">Hiring in the United Kingdom</div>
+          <div class="card-sub">15% Employer NIC, 5.6 weeks statutory leave, 6 April 2026 day-one rights. Authored by Tom Price-Daniel.</div>
+          <div class="card-stats">
+            <div class="card-stat"><div class="label">From</div><div class="value">$599<small style="font-size:11px; color:var(--parchment-600); font-weight:500; letter-spacing:0;">/mo</small></div></div>
+            <div class="card-stat"><div class="label">Onboard</div><div class="value">48h</div></div>
+            <div class="card-stat"><div class="label">Crossover</div><div class="value">5-8 emp</div></div>
+          </div>
+        </div>
+      </a>
+
+      <!-- DE — Coming -->
+      <div class="card coming">
+        <div class="card-thumb"><span class="card-status">Coming Wave 3</span></div>
+        <div class="card-body">
+          <div class="card-flag">🇩🇪</div>
+          <div class="card-title">Hiring in Germany</div>
+          <div class="card-sub">~20.7% employer social security. AÜG licence + 18-month EOR ceiling. Authored by Joanna Castens.</div>
+          <div class="card-stats">
+            <div class="card-stat"><div class="label">Decisive child</div><div class="value">AÜG</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- US — Coming -->
+      <div class="card coming">
+        <div class="card-thumb"><span class="card-status">Coming Wave 3</span></div>
+        <div class="card-body">
+          <div class="card-flag">🇺🇸</div>
+          <div class="card-title">Hiring in the United States</div>
+          <div class="card-sub">50 jurisdictions, not one. State-by-state pay transparency, FLSA, ACA. Strategic byline.</div>
+          <div class="card-stats">
+            <div class="card-stat"><div class="label">Decisive child</div><div class="value">State pay</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FR — Coming -->
+      <div class="card coming">
+        <div class="card-thumb"><span class="card-status">Coming Wave 3</span></div>
+        <div class="card-body">
+          <div class="card-flag">🇫🇷</div>
+          <div class="card-title">Hiring in France</div>
+          <div class="card-sub">25–47% employer charges depending on convention collective. CDI vs CDD nuance. Joanna Castens.</div>
+          <div class="card-stats">
+            <div class="card-stat"><div class="label">Decisive child</div><div class="value">CC</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NL — Coming -->
+      <div class="card coming">
+        <div class="card-thumb"><span class="card-status">Coming Wave 3</span></div>
+        <div class="card-body">
+          <div class="card-flag">🇳🇱</div>
+          <div class="card-title">Hiring in the Netherlands</div>
+          <div class="card-sub">30% ruling reduced to 27% from 2024. Highest single Netherlands query. Joanna Castens.</div>
+          <div class="card-stats">
+            <div class="card-stat"><div class="label">Decisive child</div><div class="value">27% rule</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ES — Coming -->
+      <div class="card coming">
+        <div class="card-thumb"><span class="card-status">Coming Wave 3</span></div>
+        <div class="card-body">
+          <div class="card-flag">🇪🇸</div>
+          <div class="card-title">Hiring in Spain</div>
+          <div class="card-sub">RDL 32/2021 reshaped temporary contracts. Indefinido vs temporal. Joanna Castens.</div>
+          <div class="card-stats">
+            <div class="card-stat"><div class="label">Decisive child</div><div class="value">Indefinido</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-brand">teamed<em>.</em></div>
+    <div class="footer-meta">© 2026 · Country Guides · <a href="https://www.teamed.global/">teamed.global</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
