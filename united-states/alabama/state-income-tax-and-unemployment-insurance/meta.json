@@ -1,0 +1,96 @@
+{
+  "row_id": "master-0004",
+  "country": "United States",
+  "state": "Alabama",
+  "slug": "united-states/alabama/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/alabama/state-income-tax-and-unemployment-insurance/",
+  "tier": "US-State",
+  "target_keywords": [
+    "alabama state income tax 2026",
+    "alabama state income tax brackets",
+    "alabama unemployment insurance employer rate",
+    "alabama SUTA rate 2026",
+    "alabama SUTA wage base",
+    "alabama form A-4",
+    "alabama form A-1 vs A-6",
+    "alabama withholding tax filing",
+    "alabama 30-day safe harbor act 2025-334",
+    "alabama overtime tax deduction 2026",
+    "birmingham occupational tax employer withholding"
+  ],
+  "sources": [
+    {"url": "https://www.revenue.alabama.gov/individual-corporate/withholding-tax-2/", "title": "Alabama Department of Revenue — Withholding Tax", "accessed_date": "2026-05-20"},
+    {"url": "https://www.revenue.alabama.gov/tax-types/unemployment-compensation-tax/", "title": "Alabama Department of Revenue — Unemployment Compensation Tax", "accessed_date": "2026-05-20"},
+    {"url": "https://www.revenue.alabama.gov/individual-corporate/30-day-safe-harbor-rule/", "title": "Alabama Department of Revenue — 30-Day Safe Harbor Rule", "accessed_date": "2026-05-20"},
+    {"url": "https://www.revenue.alabama.gov/individual-corporate/overtime-pay-exemption-amended/", "title": "Alabama Department of Revenue — Overtime Pay Exemption (Amended)", "accessed_date": "2026-05-20"},
+    {"url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/04/A4_0425.pdf", "title": "Alabama Form A-4 (April 2025 revision)", "accessed_date": "2026-05-20"},
+    {"url": "https://www.revenue.alabama.gov/wp-content/uploads/2026/01/whbooklet_0126.pdf", "title": "Alabama Withholding Tax Tables and Instructions — January 2026", "accessed_date": "2026-05-20"},
+    {"url": "https://labor.alabama.gov/uc/employer.aspx", "title": "Alabama Department of Workforce — UC Employer Information", "accessed_date": "2026-05-20"},
+    {"url": "https://www.irs.gov/taxtopics/tc759", "title": "IRS Topic 759 — Form 940 FUTA filing", "accessed_date": "2026-05-20"},
+    {"url": "https://library.municode.com/al/birmingham/codes/code_of_ordinances?nodeId=PT1THCOGEOR_TIT3ARETA_CH2OCTA", "title": "Birmingham Code of Ordinances — Occupational Tax (Title 3A Chapter 2)", "accessed_date": "2026-05-20"}
+  ],
+  "generated_at": "2026-05-20T22:30:00Z",
+  "sources_verified_at": "2026-05-20T22:00:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "status": "live", "section": "how-teamed-handles"},
+    {"href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "section": "how-teamed-handles + tagline_close"},
+    {"href": "/contact/", "status": "live", "section": "masthead + tagline_close"},
+    {"href": "/employer-of-record/", "status": "live", "section": "links-rail"}
+  ],
+  "internal_links_plain_text": [
+    {"text": "Hiring in the United States, overview", "intended_href": "/hire-in-united-states/", "section": "links-rail", "reason": "wave-3, US country parent not yet shipped"},
+    {"text": "Alabama overview", "intended_href": "../", "section": "links-rail + chip-nav", "reason": "wave-4, Alabama state parent not yet shipped"},
+    {"text": "9 chip-nav sibling pages (state-tax-and-UI is current; sibling state pages not yet shipped)", "section": "chip-nav", "reason": "wave-4 mass build-out"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 94,
+  "audit_breakdown": {
+    "schema_validity": 10,
+    "schema_completeness": 10,
+    "breadcrumb_depth": 5,
+    "last_reviewed_visible": 5,
+    "g2_badge_row": 5,
+    "customer_strip": 5,
+    "forbidden_words": 10,
+    "no_em_dashes": 5,
+    "answer_first_compliance": 10,
+    "h1_question_state": 5,
+    "css_path": 3,
+    "g2_path": 3,
+    "pricing_visible": 3,
+    "tom_close": 3,
+    "markers": 3,
+    "source_citations": 5,
+    "specific_numbers_per_section": 4
+  },
+  "retrofit_needed": {
+    "images": true,
+    "image_fallback_reason": "Sprint pipeline runs without gpt-image-1 for state-level pages; hero photo will be added in a downstream batch when US-state visual library is commissioned.",
+    "neighbour_state_links": true,
+    "us_country_parent_link": true
+  },
+  "high_concern_flags": [
+    {
+      "flag": "image_fallback",
+      "severity": "medium",
+      "note": "No hero image generated for this state-level page. Sprint mode: state-level page bundle currently text-only. Schedule image generation in the US-state visual library batch."
+    },
+    {
+      "flag": "link_gate_warn:us_alabama_siblings_wave_n",
+      "severity": "low",
+      "note": "Alabama sibling state-topic pages referenced in chip-nav and links-rail don't exist yet (state parent, wages-overtime, workers-comp, new-hire-reporting, employer-registrations, local-occupational-tax, paid-leave-pto, termination-at-will, hiring-guide). Chip-nav entries rendered as anchors mirroring the UK/Germany/France pattern; links-rail US-parent and Alabama-overview rendered as plain text per the link gate. Retrofit when wave-4 US-state mass build-out runs."
+    },
+    {
+      "flag": "factual_uncertainty",
+      "severity": "high",
+      "note": "Alabama SUTA experience-rated range cited two ways across sources: 0.59 to 6.19 percent (Alabama Department of Revenue official page, 17 steps, contribution only) versus 0.2 to 6.8 percent (third-party payroll providers, stacks special and shared-cost assessments). Drafted prose uses the primary-source 0.59-6.19 range and notes the wider stacked figure in the body. Steen may want a tighter editorial choice on which number to lead with."
+    },
+    {
+      "flag": "width_drift:inherited_css_clobbers",
+      "severity": "low",
+      "note": "United States _shared/child-base.css is a verbatim copy of UK's per the sprint setup. UK CSS contains 4 pre-existing margin-clobber blocks (.pullquote, .callout, .links-rail, .meta-footer). Not introduced by this page; flagged for the UK-wide CSS retrofit when it runs (will fix US simultaneously)."
+    }
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/united-states.json (created 2026-05-20 by this agent)",
+  "kernel_cache_used": "sprint/kernel-cache.json (warmed 2026-05-20)"
+}

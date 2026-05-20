@@ -1,0 +1,105 @@
+{
+  "row_id": "master-0004",
+  "country": "United States",
+  "state": "Alabama",
+  "slug": "united-states/alabama/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/alabama/state-income-tax-and-unemployment-insurance/",
+  "page_title": "State income tax and unemployment insurance — Alabama",
+  "type": "refresh",
+  "tier": "US-State",
+  "meta": {
+    "title": "Alabama State Income Tax and Unemployment Insurance 2026 | Teamed",
+    "description": "Alabama payroll 2026: 2/4/5% income tax, $1,000 overtime deduction, 2.7% new-employer SUTA on $8,000, Form A-4, A-1, A-6, A-3, 30-day safe harbor."
+  },
+  "masthead": {
+    "breadcrumb": ["Teamed", "Countries", "United States", "Alabama", "State income tax & unemployment insurance"],
+    "eyebrow": "United States · Alabama · State tax child",
+    "partner_badge": "Served by Teamed-owned entity: Teamed US Inc., Delaware",
+    "h1": "How does Alabama state income tax and unemployment insurance work in 2026?",
+    "subhead": "Three rates of state income tax (2, 4, 5 percent), a 2.7 percent new-employer SUTA on the first $8,000, and two 2026 changes that move the math: a $1,000 overtime deduction and a 30-day nonresident safe harbor.",
+    "last_reviewed": "20 May 2026"
+  },
+  "capsule": "Alabama state payroll in 2026: state income tax at 2 percent on the first $500, 4 percent to $3,000, and 5 percent above $3,000 for single filers (double the brackets for married-filing-jointly). State Unemployment Insurance (SUTA) costs 2.7 percent on the first $8,000 of wages for new employers, then 0.59 to 6.19 percent on experience. Every new hire completes Form A-4. Employers file Form A-6 monthly if withholding exceeds $1,000 in either of a quarter's first two months, otherwise Form A-1 quarterly, with Form A-3 reconciling annually by 31 January. From 1 January 2026, Alabama exempts nonresident workers from withholding for the first 30 days under Act 2025-334.",
+  "sections": [
+    {
+      "id": "state-income-tax",
+      "h2": "What are the Alabama state income tax brackets?",
+      "answer_first": "Alabama runs three flat-ish bands: 2 percent on the first $500, 4 percent on the next $2,500, and 5 percent above $3,000 for single filers and married-filing-separately. Married-filing-jointly doubles the dollar thresholds. Because the top band starts at $3,000, almost every full-time employee hits the 5 percent marginal rate on their first paycheque.",
+      "body_topics": ["bracket table single + MFJ", "federal-tax deduction quirk", "what this means for offer letters"]
+    },
+    {
+      "id": "suta",
+      "h2": "What does an Alabama employer pay in unemployment insurance (SUTA)?",
+      "answer_first": "New Alabama employers pay 2.7 percent on the first $8,000 of each employee's annual wages, capped at $216 per employee per year. After two full calendar years of measurable experience, the rate moves into the experience-rated band of 0.59 percent to 6.19 percent (Alabama Department of Revenue, 17 steps). The $8,000 wage base is one of the lowest in the country.",
+      "body_topics": ["stage table new/experienced", "special and shared-cost assessments", "FUTA credit interaction"]
+    },
+    {
+      "id": "form-a4",
+      "h2": "What is Form A-4 and when does an employee fill one in?",
+      "answer_first": "Form A-4 is Alabama's Employee's Withholding Exemption Certificate, equivalent to the federal W-4 but for state tax. Every new Alabama employee completes one at hire. The current version (A4_0425) was revised April 2025, and a Spanish version is available. Employees file a revised A-4 within 10 days of any decrease in exemptions.",
+      "body_topics": ["fields captured (filing status, exemptions, dependents)", "10-day decrease trigger", "Teamed onboarding flow"]
+    },
+    {
+      "id": "filing-cadence",
+      "h2": "How does an Alabama employer file withholding (A-1, A-6, A-3)?",
+      "answer_first": "Three forms cover the lifecycle: Form A-6 monthly if you withheld more than $1,000 in either the first or second month of a quarter, otherwise Form A-1 quarterly. Form A-3 reconciles the full tax year and is due 31 January. All filings run through My Alabama Taxes (MAT) at myalabamataxes.alabama.gov.",
+      "body_topics": ["A-6 / A-1 / A-3 table with due dates", "electronic-filing thresholds ($750 single, 10+ W-2s)", "zero-filing rule"]
+    },
+    {
+      "id": "safe-harbor",
+      "h2": "How does the 30-day nonresident safe harbor (Act 2025-334) work?",
+      "answer_first": "From 1 January 2026, an out-of-state employee working in Alabama for 30 or fewer days in a calendar year is exempt from Alabama income tax withholding. Day 31 retroactively triggers withholding back to day 1 for the full calendar year. The home state has to offer a similar exclusion or no income tax for the safe harbor to apply.",
+      "body_topics": ["three eligibility conditions", "athlete/entertainer/public-figure exclusions", "employer penalty waiver for time-and-attendance compliance"]
+    },
+    {
+      "id": "overtime",
+      "h2": "What changed with the Alabama overtime tax treatment in 2026?",
+      "answer_first": "The 2024 full-exclusion experiment ended 30 June 2025. From tax year 2026 to 2028, Alabama allows employees a $1,000 individual deduction for qualified overtime compensation (Act 2026-604, HB 527). It's a deduction on the personal return, not an employer-side exclusion, so payroll withholding on overtime continues as normal.",
+      "body_topics": ["old Act 2024-437 vs new Act 2026-604 contrast", "FLSA still defines overtime"]
+    },
+    {
+      "id": "local-tax",
+      "h2": "Which Alabama cities add local occupational taxes?",
+      "answer_first": "A handful of Alabama cities run their own employer-withheld occupational tax on top of state and federal. The biggest is Birmingham at 1 percent of gross wages for work performed inside city limits. Other cities (Bessemer, Gadsden, Auburn, Opelika, and Macon County among them) levy rates in the 0.5 to 2 percent range.",
+      "body_topics": ["jurisdiction table", "where work is performed not where employee lives", "employer is the collection agent"]
+    },
+    {
+      "id": "how-teamed-handles",
+      "h2": "How does Teamed handle Alabama payroll end to end?",
+      "answer_first": "Teamed becomes your legal Employer of Record in Alabama for a flat $599 per employee per month. You hire the person, we run payroll, file every state return, and track multi-state day counts. No FX mark-up, no setup fees.",
+      "body_topics": ["day-0 / day-1 / ongoing / year-end ops", "when EOR is right vs Crossover Calculator graduation"]
+    }
+  ],
+  "pullquote": {
+    "speaker": "Paulina Wilk · Head of People and Client Experience, Teamed",
+    "quote": "The Alabama 30-day safe harbor is the rule we get asked about every week now. A US client hires someone in Atlanta who flies into Birmingham for two days a month, that's safe. Same person taking a six-week project on the Mobile waterfront, that's the full year of Alabama withholding back to day one. The pivot is one day of attendance, day 31, and most people don't see it coming.",
+    "cite": "Teamed Pod, May 2026"
+  },
+  "tagline_close": {
+    "eyebrow": "A note from Tom Price-Daniel",
+    "lines": [
+      "Alabama state tax is small numbers, big consequences if you get the forms wrong.",
+      "Register at both agencies, file A-6 or A-1 on the right cadence, and watch the day count for multi-state hires.",
+      "Everything downstream of that is easier."
+    ],
+    "sig": "Tom Price-Daniel · Co-founder, Teamed",
+    "ctas": [
+      {"text": "Talk to an expert", "href": "/contact/", "style": "primary"},
+      {"text": "See when EOR stops being right", "href": "https://crso-cal.vercel.app/tools/crossover", "style": "secondary"}
+    ]
+  },
+  "internal_links": [
+    {"text": "single fixed rate of $599 per employee per month", "href": "/pricing/zero-fx-fixed/", "section": "how-teamed-handles", "status": "live"},
+    {"text": "Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "section": "how-teamed-handles", "status": "live"},
+    {"text": "Talk to an expert (CTA)", "href": "/contact/", "section": "masthead + tagline_close", "status": "live"},
+    {"text": "See when EOR stops being right (Crossover)", "href": "https://crso-cal.vercel.app/tools/crossover", "section": "tagline_close", "status": "live"},
+    {"text": "Employer of Record overview", "href": "/employer-of-record/", "section": "links-rail", "status": "live"},
+    {"text": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "section": "links-rail", "status": "live"}
+  ],
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList(5-level)", "Service"],
+  "quantitative_value_microdata": [
+    "$8,000 SUTA wage base",
+    "2.7% new-employer SUTA rate",
+    "$599 per employee per month fixed fee"
+  ]
+}

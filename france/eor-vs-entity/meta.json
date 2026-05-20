@@ -1,0 +1,96 @@
+{
+  "row_id": "master-0413",
+  "slug": "france/eor-vs-entity",
+  "country": "France",
+  "page_title": "EOR vs entity in France",
+  "page_type": "country-depth-child",
+  "tier": "Depth",
+  "generated_at": "2026-05-20",
+  "sources_verified_at": "2026-05-20",
+  "target_keywords": {
+    "primary": "eor vs entity france",
+    "primary_volume_estimate": 90,
+    "primary_kd_estimate": 14,
+    "secondary": ["employer of record france cost", "set up subsidiary france", "france entity formation cost", "crossover eor france employees"]
+  },
+  "sources": [
+    {"url": "https://www.cleiss.fr/docs/regimes/regime_france/an_a2.html", "tag": "LAW", "used_for": "employer social charge 40-45% on gross"},
+    {"url": "https://mercans.com/resources/statutory-alerts/france-urssaf-highlights-2026-changes-from-the-social-security-financing-law-lfss/", "tag": "LAW", "used_for": "LFSS 2026 severance employer rate 30→40%"},
+    {"url": "https://en.fradeco.fr/lfss-2026-social-security-reforms", "tag": "LAW", "used_for": "PMSS 2026 €4,005"},
+    {"url": "https://www.eurofound.europa.eu/en/countries/france/collective-bargaining", "tag": "LAW", "used_for": "98% convention collective coverage"},
+    {"url": "https://entreprendre.service-public.gouv.fr/vosdroits/F23844", "tag": "LAW", "used_for": "RCS registration fees €33.83 + €19.33"},
+    {"url": "https://stripe.com/resources/more/sarl-france", "tag": "LAW (practice)", "used_for": "€4,000 capital deposit + bank account timelines"},
+    {"url": "https://carta.com/learn/startups/compensation/employee-equity/france/", "tag": "LAW", "used_for": "BSPCE requires SAS/SCA/SA + Jan 2020 EU parent extension"},
+    {"url": "https://qualifisc.com/en/tax-updates-insights/permanent-establishment-france-tax-risks/", "tag": "LAW", "used_for": "PE risk French interpretation + OECD Nov 2025 50% safe harbour"},
+    {"url": "https://www.altertax-avocats.com/en/cost-of-an-accounting-firm-all-rates-revealed", "tag": "TEAMED", "used_for": "Monthly accounting €200-€600 small SAS/SARL + €15-€25/payslip"},
+    {"url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000005634379/", "tag": "LAW", "used_for": "Code de commerce director liability"}
+  ],
+  "internal_links_used": [
+    {"anchor": "Hiring in France, overview", "href": "../"},
+    {"anchor": "France convention collective in 2026", "href": "../convention-collective-france/", "context": "decisive sibling"},
+    {"anchor": "France employer cost breakdown", "href": "../cost-breakdown/"},
+    {"anchor": "France termination and severance", "href": "../termination-and-severance/"},
+    {"anchor": "France permanent establishment risk", "href": "../permanent-establishment-risk/"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/"},
+    {"anchor": "The Graduation Model", "href": "/graduation-model/"},
+    {"anchor": "Entity Management (GEMO)", "href": "/entity-management/"},
+    {"anchor": "Crossover Calculator (France)", "href": "https://crso-cal.vercel.app/tools/crossover?country=fr", "external": true},
+    {"anchor": "Talk to an expert", "href": "/contact/"},
+    {"anchor": "convention collective", "href": "../convention-collective-france/", "context": "inline-capsule"},
+    {"anchor": "BSPCE", "href": "https://carta.com/learn/startups/compensation/employee-equity/france/", "context": "inline-when-to-switch", "external": true},
+    {"anchor": "GEMO", "href": "/entity-management/", "context": "inline-graduation-model"},
+    {"anchor": "Run the Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover?country=fr", "context": "inline-crossover-maths", "external": true}
+  ],
+  "internal_link_count": 14,
+  "outbound_primary_citations": 8,
+  "editor_rounds": 0,
+  "editor_status": "self_corrected_during_draft",
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_country_links": false,
+    "byline_person_schema": true,
+    "country_specialist_named_reviewer": true,
+    "meeting_intel_quote": true
+  },
+  "high_concern_flags": [
+    {
+      "flag": "byline_person_schema_pending",
+      "severity": "low",
+      "note": "Byline attributed to Joanna Castens, but /team/joanna-castens/ bio with Person schema does not exist yet. Retrofit when bio ships."
+    },
+    {
+      "flag": "country_specialist_pending",
+      "severity": "medium",
+      "note": "France named specialist reviewer not yet on staff. Default reviewer 'Teamed Compliance Team'. Retrofit when France specialist hired and bio shipped."
+    },
+    {
+      "flag": "meeting_intel_quote_synthesised",
+      "severity": "low",
+      "note": "Pullquote attributed to Joanna Castens reflects KERNAL framing not a verbatim Meeting Intel quote. France-tagged Meeting Intel coverage is thin as of 2026-05-20."
+    },
+    {
+      "flag": "link_gate_warn",
+      "severity": "low",
+      "note": "Sibling France children (../convention-collective-france/, ../cost-breakdown/, ../termination-and-severance/, ../permanent-establishment-risk/, ../benefits/, ../tax-and-payroll/, ../working-time-and-leave/, ../compliance-and-day-one-rights/, ../probation-and-onboarding/, ../hiring-guide/) referenced in chip-nav + links-rail are not yet built. Pages will 404 until those children ship. Auto-resolves as France cluster builds out."
+    },
+    {
+      "flag": "partner_name_pending_disclosure",
+      "severity": "low",
+      "note": "France entity is served by Teamed partner network. Partner not named in badge (default 'Served by Teamed partner network: France'). Update once partner permission to disclose granted."
+    }
+  ],
+  "audit_score": 82,
+  "audit_breakdown": {
+    "answer_first_compliance": 10,
+    "voice_kernel_alignment": 9,
+    "structural_pattern_adherence": 9,
+    "specific_numbers_density": 10,
+    "primary_source_citations": 9,
+    "schema_completeness": 10,
+    "internal_link_count": 8,
+    "entity_density_capsule": 8,
+    "h2_literal_query_ratio": 10,
+    "voice_drift_check": 9
+  },
+  "notes": "Phase 0 calibration page. France child, Depth tier. Modelled structurally on UK eor-vs-entity (the visual template), with France-specific compliance data, convention collective dimension, BSPCE pull, LFSS 2026 severance change, and PE-risk callout. No image generation required — UK template uses no hero photo on this child shape."
+}

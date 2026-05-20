@@ -1,0 +1,144 @@
+{
+  "slug": "germany/tax-and-payroll",
+  "country": "Germany",
+  "country_slug": "germany",
+  "page_type": "country_depth_child",
+  "byline": "Joanna Castens",
+  "reviewer": "Ilona Oleksiak",
+  "last_reviewed": "2026-05-20",
+  "tax_year": 2026,
+  "currency": "EUR",
+  "meta": {
+    "title": "Germany Tax and Payroll 2026 | Sozialversicherung, Lohnsteuer.Teamed",
+    "description": "German payroll 2026: ~20.7% employer social security, BBG €5,812.50 / €8,450, four income tax zones to 45%, €13.90 minimum wage, monthly Lohnsteueranmeldung via ELSTER.",
+    "target_keywords": ["germany payroll tax", "germany payroll tax rate", "lohnsteuer 2026", "sozialversicherung 2026"],
+    "canonical_url": "https://teamed-country-guides.vercel.app/germany/tax-and-payroll/"
+  },
+  "entity_badge": "Served by Teamed-owned entity: Teamed DE GmbH + THR Global GmbH, Nürnberg",
+  "h1": "How does German payroll tax work in 2026?",
+  "subhead": "Roughly 20.7 percent employer social security on top of gross, a four-zone income tax curve, monthly ELSTER filing by the 10th. The 2026 ceilings moved up; the rates barely moved.",
+  "answer_capsule": "German payroll in 2026: employer social security adds approximately 20.7 percent on top of gross salary, capped at €5,812.50/month for health and long-term care and €8,450/month for pension and unemployment. Employees see four progressive income tax zones from 0 percent to 45 percent, with the basic allowance (Grundfreibetrag) at €12,348. Lohnsteuer is withheld monthly and filed via ELSTER by the 10th of each following month. The minimum wage is €13.90 per hour from 1 January 2026.",
+  "sections": [
+    {
+      "id": "employer-ss",
+      "h2": "What does an employer pay in German social security?",
+      "answer_first": "Employer social security in Germany adds approximately <strong>20.7 percent on top of gross salary</strong> in 2026, split across five branches: pension 9.3%, health 7.3% plus half the average 2.9% Zusatzbeitrag, unemployment 1.3%, long-term care 1.8%, and accident insurance roughly 1.14%. Contributions stop once gross pay clears the relevant Beitragsbemessungsgrenze.",
+      "body_blocks": [
+        {"type": "table", "id": "employer-ss-table", "headers": ["Branch", "Statute", "Employer rate 2026", "Ceiling (BBG) 2026"], "rows": [
+          ["Pension (Rentenversicherung)", "SGB VI", "9.3%", "€8,450 / month"],
+          ["Health (Krankenversicherung, GKV)", "SGB V", "7.3% + half of 2.9% Zusatzbeitrag avg", "€5,812.50 / month"],
+          ["Long-term care (Pflegeversicherung)", "SGB XI", "1.8%", "€5,812.50 / month"],
+          ["Unemployment (Arbeitslosenversicherung)", "SGB III", "1.3%", "€8,450 / month"],
+          ["Work accident (Berufsgenossenschaft)", "SGB VII", "0.7%-3.0% by industry (1.14% typical)", "no ceiling"],
+          ["Insolvency contribution (U3)", "SGB IV", "0.06%", "€8,450 / month"]
+        ]},
+        {"type": "p", "html": "Two ceilings move every year through the <a href=\"https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514\" target=\"_blank\" rel=\"noopener\">Sozialversicherungsrechengrößen-Verordnung</a>. For 2026: <strong>€5,812.50 / month (€69,750 / year)</strong> for health and long-term care, and <strong>€8,450 / month (€101,400 / year)</strong> for pension and unemployment. Once a salary clears the ceiling, employer contributions to that branch stop on the excess."},
+        {"type": "p", "html": "Above €77,400 / year (€6,450 / month) the employee can opt out of statutory health insurance into private health (PKV). That's the Versicherungspflichtgrenze, also reset annually under the same regulation."},
+        {"type": "h3", "text": "What changes in 2026 vs 2025"},
+        {"type": "p", "html": "Headline contribution rates didn't move. The thresholds did: BBG health/care rose 5.4 percent, BBG pension/unemployment rose 5 percent, and the PKV opt-out threshold rose 4.9 percent. For a Berlin-based developer on a €90,000 base, that's roughly €420 / year in additional employer pension contributions that wouldn't have been due in 2025."}
+      ]
+    },
+    {
+      "id": "employee-ss",
+      "h2": "What does an employee pay in German social security?",
+      "answer_first": "Employee social security in Germany is the mirror of the employer split: <strong>9.3% pension, 7.3% health (plus half of the 2.9% Zusatzbeitrag), 1.3% unemployment, 3.6% long-term care</strong> (an extra 0.6 percent if the employee is childless and over 23). Total roughly 20.7 percent of gross, deducted monthly via PAYE alongside Lohnsteuer.",
+      "body_blocks": [
+        {"type": "table", "id": "employee-ss-table", "headers": ["Branch", "Employee rate 2026", "Childless surcharge", "Notes"], "rows": [
+          ["Pension", "9.3%", "—", "Capped at BBG €8,450 / month"],
+          ["Health (GKV)", "7.3% + half of 2.9% Zusatzbeitrag", "—", "Each Krankenkasse sets its own Zusatzbeitrag; 2.9% is the 2026 average"],
+          ["Long-term care", "3.6%", "+0.6% (over 23, no children)", "Reduced from 2nd child by 0.25pp per child up to 5th"],
+          ["Unemployment", "1.3%", "—", "Capped at BBG €8,450 / month"]
+        ]},
+        {"type": "p", "html": "The childless-over-23 surcharge under <a href=\"https://www.gesetze-im-internet.de/sgb_11/__55.html\" target=\"_blank\" rel=\"noopener\">§ 55 SGB XI</a> is one of two operational gotchas. The other: from the second child, the rate drops by 0.25 percentage points per child (up to the fifth) for as long as the children are under 25. Employees update Teamed's onboarding form with the children's dates of birth; the deduction adjusts automatically each month."},
+        {"type": "p", "html": "Contributions are calculated on a monthly basis, not annual. A €30,000 one-off bonus paid in March still hits the monthly Pflegeversicherung cap, so the effective contribution on the bonus is usually lower than a salary-equivalent spread across the year."}
+      ]
+    },
+    {
+      "id": "income-tax",
+      "h2": "What are the German income tax bands in 2026?",
+      "answer_first": "German income tax (Einkommensteuer) uses a continuous progressive formula in four zones for 2026: <strong>0 percent up to €12,348 (Grundfreibetrag), 14 percent rising smoothly to 42 percent by €68,480, a flat 42 percent up to €277,825, then 45 percent above</strong> (the Reichensteuer). Rates didn't change in 2026; the Grundfreibetrag rose €252.",
+      "body_blocks": [
+        {"type": "table", "id": "income-tax-table", "headers": ["Zone", "Single income (€)", "Marginal rate", "Notes"], "rows": [
+          ["Zone 1 (Grundfreibetrag)", "0 to 12,348", "0%", "Basic tax-free allowance; doubled to €24,696 for joint filers"],
+          ["Zone 2 (progressive)", "12,349 to 68,480", "14% rising to 42%", "Smooth curve, no fixed sub-brackets"],
+          ["Zone 3 (Spitzensteuersatz)", "68,481 to 277,825", "42%", "Flat top marginal rate"],
+          ["Zone 4 (Reichensteuer)", "277,826 and above", "45%", "Surtax on highest earners"]
+        ]},
+        {"type": "p", "html": "Germany doesn't bracket like the UK or the US. Between €12,348 and €68,480 the marginal rate climbs as a continuous mathematical function defined in <a href=\"https://www.gesetze-im-internet.de/estg/__32a.html\" target=\"_blank\" rel=\"noopener\">§ 32a EStG</a>. The practical effect: every additional euro you earn raises the rate marginally, so net pay scales smoothly rather than stepping at thresholds. Teamed's payroll engine applies the formula directly, no rounding to bracket boundaries."},
+        {"type": "h3", "text": "Solidaritätszuschlag and Kirchensteuer"},
+        {"type": "p", "html": "Two surcharges sit on top of Einkommensteuer. <strong>Solidaritätszuschlag</strong> is 5.5 percent of income tax, but in 2026 only payable if the single-filer income tax bill exceeds roughly €20,350 (joint: €40,700). Most Teamed-employed residents fall under the threshold and pay €0. <strong>Kirchensteuer</strong> is 8 percent of income tax in Bayern and Baden-Württemberg, 9 percent in every other state, and only applies to registered members of the recognised churches (Catholic, Protestant, Jewish communities). An employee removes themselves by formal Kirchenaustritt at the local Standesamt; Teamed's payroll picks up the change from the next month's ELSTAM data."}
+      ]
+    },
+    {
+      "id": "lohnsteuer-steuerklassen",
+      "h2": "How does Lohnsteuer withholding work through Steuerklassen?",
+      "answer_first": "Lohnsteuer is the monthly withholding of income tax through PAYE. The amount withheld depends on the employee's <strong>Steuerklasse (tax class I through VI)</strong>, which determines monthly cash-flow timing — not annual liability. Annual liability is identical regardless of class; the class only changes when the tax is paid.",
+      "body_blocks": [
+        {"type": "table", "id": "steuerklasse-table", "headers": ["Class", "Who it's for", "When it's used"], "rows": [
+          ["I", "Single, divorced, widowed, or married and living apart", "Default for most single hires"],
+          ["II", "Single parents claiming the Entlastungsbetrag (€4,260 / yr first child 2026)", "Must be sole adult in household with a Kindergeld-eligible child"],
+          ["III", "Married, higher earner (paired with V for spouse)", "70/30+ income split, maximises monthly cash flow for the higher earner"],
+          ["IV", "Married, similar incomes", "Default for married couples until they elect otherwise"],
+          ["V", "Married, lower earner (paired with III)", "High monthly withholding by design; annual reconciliation evens it out"],
+          ["VI", "Second or subsequent concurrent job", "Higher monthly withholding; no allowances applied"]
+        ]},
+        {"type": "p", "html": "Married couples can switch class combinations once per calendar year via ELSTER or paper application to the local Finanzamt. The choice doesn't change what you owe by year-end. It changes whether you owe more or less per pay slip and whether you'll be refunded or asked for additional tax when the annual return is filed."},
+        {"type": "p", "html": "<a href=\"https://www.elster.de\" target=\"_blank\" rel=\"noopener\">ELSTAM (Elektronische Lohnsteuerabzugsmerkmale)</a> is the federal database that holds every employee's tax class, allowances, and church-membership status. Teamed pulls ELSTAM data monthly; any change the employee files (marriage, child, Kirchenaustritt) flows through to the next payroll cycle automatically."}
+      ]
+    },
+    {
+      "id": "filings",
+      "h2": "When are Lohnsteueranmeldung and Lohnsteuerbescheinigung due?",
+      "answer_first": "Two recurring filings to the Finanzamt: <strong>Lohnsteueranmeldung (monthly payroll tax return) is due by the 10th of the following month</strong> for any employer whose annual wage tax exceeds €5,000, and the annual <strong>Lohnsteuerbescheinigung (employee certificate of wages)</strong> must reach the employee by 28 February of the following year.",
+      "body_blocks": [
+        {"type": "table", "id": "filings-table", "headers": ["Filing", "Frequency trigger", "Deadline", "How"], "rows": [
+          ["Lohnsteueranmeldung", "Annual wage tax > €5,000", "10th of following month", "ELSTER electronic"],
+          ["Lohnsteueranmeldung (quarterly)", "Annual wage tax €1,080 – €5,000", "10th of month after quarter-end", "ELSTER electronic"],
+          ["Lohnsteueranmeldung (annual)", "Annual wage tax < €1,080", "10 January of following year", "ELSTER electronic"],
+          ["Lohnsteuerbescheinigung", "Per employee, per tax year", "28 February of following year", "ELSTER + payslip platform"],
+          ["DEÜV / Sozialversicherungsmeldung", "Per employee event (hire, leave, change)", "Within 6 weeks of event", "sv.net or payroll software"]
+        ]},
+        {"type": "p", "html": "Late or missing Lohnsteueranmeldung triggers Säumniszuschläge at 1 percent of the unpaid tax per month under <a href=\"https://www.gesetze-im-internet.de/ao_1977/__240.html\" target=\"_blank\" rel=\"noopener\">§ 240 Abgabenordnung</a>, plus interest. The Finanzamt does not warn first; the penalty applies automatically from the 11th of the following month."},
+        {"type": "p", "html": "Teamed's German payroll runs to a fixed cadence on both Teamed-owned entities: <strong>payroll close on the 10th of each month, salary payment on the last business day, payslip on the platform the day before payment</strong>. The Lohnsteueranmeldung files within the same window. Clients see the gross-to-net breakdown the day they approve payroll, not after."}
+      ]
+    },
+    {
+      "id": "minimum-wage",
+      "h2": "What is the German minimum wage in 2026?",
+      "answer_first": "Germany's statutory minimum wage (gesetzlicher Mindestlohn) is <strong>€13.90 per hour from 1 January 2026</strong>, up from €12.82 in 2025. A further increase to <strong>€14.60 per hour</strong> is scheduled for 1 January 2027, set by the Mindestlohnkommission.",
+      "body_blocks": [
+        {"type": "p", "html": "The minimum wage applies to almost every employee in Germany, including mini-jobbers, working students, and most interns. Exempt categories are narrow: under-18s without a completed Berufsausbildung, certain mandatory internships, and people in long-term unemployment for the first six months of a new role."},
+        {"type": "p", "html": "The 2026 minimum-wage move also bumped the <strong>mini-job ceiling to €603 / month</strong> (it's pegged at the minimum wage × 130 hours / month / 12 × ratio). A mini-jobber working at minimum wage maxes out at around 43 hours / month before crossing into Midijob territory and full social-security liability."},
+        {"type": "p", "html": "Sector-specific minima set by allgemeinverbindlich tariff agreements override the statutory floor where they apply (construction, building cleaning, security, electrical trades, others). Teamed's payroll picks the higher of the two when a tariff applies to the role."}
+      ]
+    },
+    {
+      "id": "pullquote",
+      "h2": null,
+      "type": "pullquote",
+      "speaker": "Paulina Wilk",
+      "title": "Head of People and Client Experience, Teamed",
+      "quote": "Most German payroll surprises aren't about the rates. The rates barely move. The surprise lands when the BBG crosses a salary band mid-year, or when a Krankenkasse changes its Zusatzbeitrag and the net pay shifts by €40. We flag it before payroll closes, never after.",
+      "cite": "Teamed Pod, May 2026"
+    }
+  ],
+  "tagline_close": {
+    "byline": "Joanna Castens",
+    "role": "Head of Legal, Teamed",
+    "lines": [
+      "Payroll in Germany is engineering, not magic.",
+      "Run the BBG check every January. File the Lohnsteueranmeldung by the 10th. Issue Lohnsteuerbescheinigung by end of February.",
+      "Everything else downstream gets easier."
+    ]
+  },
+  "internal_links": [
+    {"anchor": "Hiring in Germany, overview", "href": "../", "context": "parent"},
+    {"anchor": "Germany employer cost breakdown", "href": "../cost-breakdown/", "context": "child", "state": "wave-1"},
+    {"anchor": "EOR vs entity in Germany", "href": "../eor-vs-entity/", "context": "child", "state": "wave-1"},
+    {"anchor": "AÜG licence and the 18-month EOR ceiling in Germany", "href": "../aug-licence-and-eor-limits-germany/", "context": "decisive child", "state": "wave-1"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "cluster 2a", "state": "live"},
+    {"anchor": "See your real FX exposure", "href": "https://www.teamed.global/tools/unbundling-calculator", "context": "tool", "state": "live"},
+    {"anchor": "Talk to an expert", "href": "/contact/", "context": "CTA", "state": "live"}
+  ],
+  "flags_to_raise": ["link_gate_warn:germany_siblings_wave_1"]
+}

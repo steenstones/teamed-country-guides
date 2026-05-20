@@ -1,0 +1,201 @@
+{
+  "slug": "france/eor-vs-entity",
+  "country": "France",
+  "country_slug": "france",
+  "page_type": "country-depth-child",
+  "tier": "Depth",
+  "byline_author": "Joanna Castens",
+  "byline_author_role": "Chief Legal Officer, Teamed",
+  "reviewer": "Teamed Compliance Team",
+  "reviewer_jurisdiction": "France",
+  "partner_badge": "Served by Teamed partner network: France",
+  "last_reviewed_iso": "2026-05-20",
+  "last_reviewed_human": "20 May 2026",
+  "meta": {
+    "title": "France EOR vs Entity 2026 | Crossover Maths + Convention Collective.Teamed",
+    "description": "France EOR vs own entity. Crossover lands 8-12 employees. Entity setup €2,500-€8,000, ongoing €2,500-€4,500/month. The convention collective variable nobody publishes."
+  },
+  "hero": {
+    "eyebrow": "France · EOR vs entity child",
+    "h1_html": "When do you graduate from an <em>EOR to your own French entity</em>?",
+    "subhead": "A France EOR hire costs ~€85,000 loaded on a €60,000 salary. Your own SAS or SARL costs €2,500-€8,000 to set up plus €2,500-€4,500/month to run. The crossover lands around 8-12 employees, and the convention collective decides whether one hire costs you 25% or 47%."
+  },
+  "capsule": {
+    "label": "Answer.cite this",
+    "text_html": "For a typical French hire, an <strong>Employer of Record is faster and cheaper at low headcount</strong>. Setting up your own French entity (SAS or SARL) takes around <strong>2-6 weeks</strong> and €2,500-€8,000 in formation costs, with €2,500-€4,500 per month of ongoing payroll, accounting, and statutory filings once it&rsquo;s live. The crossover, when your own entity becomes cheaper than the EOR fee plus statutory loadings, lands around 8-12 employees at average French tech salaries. The variable nobody publishes: the <a href=\"../convention-collective-france/\">convention collective</a> on top decides whether one hire costs you 25% or 47% in employer charges."
+  },
+  "sections": [
+    {
+      "id": "crossover-maths",
+      "h2": "Where does the France EOR vs entity crossover land?",
+      "answer_first_html": "France EOR cost scales linearly with headcount. Entity cost has a fixed overhead plus a variable per-employee compliance and convention-collective cost. The lines cross at a headcount that varies by salary band and sector, typically <strong>8-12 employees</strong> for average French tech salaries.",
+      "body_html_blocks": [
+        {"type": "p", "html": "Here&rsquo;s the underlying calculation. Teamed&rsquo;s France EOR fee is <strong>$599 per employee per month</strong> flat, Zero FX in any currency pairing. Your own French SAS or SARL has a roughly fixed monthly overhead, accounting, payroll, statutory filings, registered address, of <strong>€2,500-€4,500/month</strong>, then per-employee compliance on top. The headline statutory employer charges sit at <span itemscope itemtype=\"https://schema.org/QuantitativeValue\"><meta itemprop=\"value\" content=\"45\"><meta itemprop=\"unitCode\" content=\"P1\"><meta itemprop=\"unitText\" content=\"percent of gross salary\">40-45%</span> of gross for a typical white-collar hire, before convention collective top-ups."},
+        {"type": "table", "headers": ["France headcount", "EOR monthly cost", "Own entity monthly cost", "Cheaper option"], "rows": [
+          ["1 employee", "$599 (~€553)", "~€2,800", "EOR by ~€2,250"],
+          ["3 employees", "$1,797 (~€1,660)", "~€3,100", "EOR by ~€1,440"],
+          ["5 employees", "$2,995 (~€2,765)", "~€3,400", "EOR by ~€635"],
+          ["7 employees", "$4,193 (~€3,870)", "~€3,700", "EOR by ~€170"],
+          ["8 employees", "$4,792 (~€4,420)", "~€3,800", "~Crossover"],
+          ["10 employees", "$5,990 (~€5,530)", "~€4,000", "Entity by ~€1,530"],
+          ["15 employees", "$8,985 (~€8,290)", "~€4,500", "Entity by ~€3,790"]
+        ]},
+        {"type": "p", "html": "Two things move this crossover meaningfully in France. First, the <strong>severance contribution rate rose from 30% to 40%</strong> on 1st January 2026 under the <a href=\"https://mercans.com/resources/statutory-alerts/france-urssaf-highlights-2026-changes-from-the-social-security-financing-law-lfss/\" target=\"_blank\" rel=\"noopener\">Loi de Financement de la S&eacute;curit&eacute; Sociale 2026</a>, which raises the cost of any future entity-side termination. Second, the convention collective covering your hire can add several percentage points of mandatory employer cost on top of the statutory floor. <a href=\"https://crso-cal.vercel.app/tools/crossover?country=fr\" target=\"_blank\" rel=\"noopener\">Run the Crossover Calculator</a> with your own headcount and sector to see where the line lands for you."},
+        {"type": "p", "html": "The crossover also compresses faster at higher salaries because executive (cadre) status under most conventions collectives layers an additional pension contribution (AGIRC-ARRCO supplementary) on top of the base rate. At €60,000 salaries the crossover is ~10 employees. At €100,000+ cadre salaries it is closer to 7-8 because the supplementary line dominates."}
+      ]
+    },
+    {
+      "id": "entity-setup-cost",
+      "h2": "What does it cost to set up a French SAS or SARL in 2026?",
+      "answer_first_html": "France entity setup runs <strong>€2,500-€8,000 in realistic formation costs</strong> for an SAS or SARL through a lawyer or corporate-services firm, with statutory RCS fees of just €37-€60 on top. Timeline runs <strong>2-6 weeks</strong> from decision to first payslip if you go full-service.",
+      "body_html_blocks": [
+        {"type": "p", "html": "A French SAS or SARL is cheap on the headline incorporation fee (<a href=\"https://entreprendre.service-public.gouv.fr/vosdroits/F23844\" target=\"_blank\" rel=\"noopener\">€33.83 RCS registration + €19.33 beneficial-ownership declaration</a>, plus mandatory legal-journal publication). The headline cost misleads because it excludes the operational setup that actually matters."},
+        {"type": "table", "headers": ["Cost item", "Typical range", "One-off or recurring"], "rows": [
+          ["RCS registration fee", "€33.83", "One-off"],
+          ["Beneficial ownership declaration", "€19.33", "One-off"],
+          ["Legal journal publication (annonce l&eacute;gale)", "€150-€250", "One-off"],
+          ["Statutes drafting (statuts)", "€500-€2,500", "One-off"],
+          ["Capital deposit (legal min €1, banking practice ~€4,000)", "€1-€4,000", "Locked until liquidation"],
+          ["Registered office (domiciliation)", "€30-€100/month", "Recurring"],
+          ["URSSAF + DUE registration", "€0 direct (admin time)", "One-off"],
+          ["Mutuelle (mandatory health top-up)", "€500-€1,500 setup", "One-off + ~€50-€100/employee/month"],
+          ["Employment contracts (CDI templates)", "€500-€2,000", "One-off"],
+          ["Convention collective adoption + r&egrave;glement int&eacute;rieur", "€500-€1,500", "One-off"],
+          ["<strong>Realistic total setup cost (full-service)</strong>", "<strong>€2,500-€8,000</strong>", "<strong>Mostly one-off</strong>"]
+        ]},
+        {"type": "p", "html": "The cost variance comes from two drivers: how much you outsource (DIY, online formation, lawyer-led, or full GEMO) and how much substance you need for tax-treaty or BSPCE eligibility."},
+        {"type": "h3", "html": "Why the bank account is the hidden bottleneck"},
+        {"type": "p", "html": "French bank accounts for foreign-parented companies require a <strong>certificat de d&eacute;p&ocirc;t de capital</strong> issued by the bank before RCS registration completes. Traditional French banks ask for a working capital deposit of <span itemscope itemtype=\"https://schema.org/QuantitativeValue\"><meta itemprop=\"value\" content=\"4000\"><meta itemprop=\"unitCode\" content=\"EUR\"><meta itemprop=\"unitText\" content=\"euro capital deposit\">~€4,000</span> in practice, even though the legal minimum is €1. Digital-first banks like <a href=\"https://stripe.com/resources/more/sarl-france\" target=\"_blank\" rel=\"noopener\">Qonto and Shine can open an account in 24-48 hours</a>; traditional banks often take 4-8 weeks. The bank is usually the gating step that turns a 2-week incorporation into a 6-week operational entity."}
+      ]
+    },
+    {
+      "id": "entity-ongoing-cost",
+      "h2": "France entity ongoing cost: €2,500-€4,500 per month",
+      "answer_first_html": "France ongoing compliance averages <strong>€2,500-€4,500/month</strong> for a small SAS or SARL doing payroll, accounting, statutory filings, and basic HR admin. Below 5 employees the overhead dominates. Above 15 employees, per-employee overhead drops sharply because the fixed costs amortise.",
+      "body_html_blocks": [
+        {"type": "table", "headers": ["Monthly cost", "Range", "What it covers"], "rows": [
+          ["Outsourced bookkeeping + monthly accounts", "€300-€700", "Cash recs, accruals, monthly P&L"],
+          ["Payroll service (bulletin de paie, €15-€25/payslip)", "€100-€400", "DSN submission, URSSAF, payslips"],
+          ["Bilan + liasse fiscale (annual)", "€150-€400 amortised", "~€2,000-€5,000/yr / 12"],
+          ["DSN + URSSAF monthly declarations", "€50-€150", "Included in payroll for most providers"],
+          ["AGIRC-ARRCO + mutuelle administration", "€50-€150", "Supplementary pension + health top-up"],
+          ["HR + employment law advisory", "€200-€800", "Convention collective updates, contract reviews"],
+          ["France People Ops / first-point HR", "€800-€1,500", "Onboarding, queries, statutory leave admin"],
+          ["Software subscriptions (SIRH, paie, compta)", "€100-€400", "Per-user SaaS"],
+          ["Insurances (RC pro, RC d&eacute;cennale where applicable)", "€50-€200", "Premiums / 12"],
+          ["<strong>Total ongoing monthly</strong>", "<strong>€2,500-€4,500</strong>", "<strong>1-15 employee SAS/SARL</strong>"]
+        ]},
+        {"type": "p", "html": "The cost band widens above 15 employees as you need a dedicated France HR capacity, a CSE (comit&eacute; social et &eacute;conomique) above 11 employees, and often a France-based finance function. Below 5 employees, this overhead dominates the maths and the EOR remains cheaper every month."}
+      ]
+    },
+    {
+      "id": "convention-collective",
+      "h2": "How does the convention collective change the maths?",
+      "answer_first_html": "France&rsquo;s <strong>conventions collectives</strong> cover <span itemscope itemtype=\"https://schema.org/QuantitativeValue\"><meta itemprop=\"value\" content=\"98\"><meta itemprop=\"unitCode\" content=\"P1\"><meta itemprop=\"unitText\" content=\"percent of French employees\">98% of French employees</span>, and they sit on top of the statutory floor. Which one applies to your hire decides whether your real employer cost lands closer to 40% or closer to 47% of gross.",
+      "body_html_blocks": [
+        {"type": "p", "html": "A convention collective is a binding sector-level agreement. Once a hire&rsquo;s job sits within a covered <abbr title=\"NAF / APE code\">activity code</abbr>, the convention applies whether or not the employer signed it directly. The Syntec convention (IDCC 1486) covers most engineering, consulting, and software firms. <a href=\"https://www.eurofound.europa.eu/en/countries/france/collective-bargaining\" target=\"_blank\" rel=\"noopener\">OECD and Eurofound data show 98% sector coverage</a>, which means almost every hire you make in France is covered by at least one."},
+        {"type": "p", "html": "The convention typically adds three real-cost categories your statutory rate doesn&rsquo;t cover: a minimum salary grid (often higher than SMIC), mandatory mutuelle health top-up with employer-paid share, and convention-specific bonuses (13th-month under Syntec for managers, for example). Two hires on the same €60,000 salary, one under Syntec, one under <em>m&eacute;tallurgie</em>, can carry different employer costs of three to five percentage points."},
+        {"type": "p", "html": "For the full convention collective analysis, including how to identify the right convention for your role and the cost differences across the top five conventions, see the dedicated child: <a href=\"../convention-collective-france/\">France convention collective in 2026</a>. That page is the citation moat for this topic; the EOR-vs-entity question on this page references it but doesn&rsquo;t replace it."}
+      ]
+    },
+    {
+      "id": "director-liability-and-pe",
+      "h2": "What are the hidden costs of a French entity, and the PE risk EOR doesn&rsquo;t fix?",
+      "answer_first_html": "France entity directors carry <strong>personal legal duties</strong> under the Code de commerce, plus criminal liability for late URSSAF declarations and unpaid social security. Permanent establishment risk runs in parallel, and EOR does <em>not</em> eliminate it.",
+      "body_html_blocks": [
+        {"type": "p", "html": "Most cost comparisons skip the director-liability dimension because it&rsquo;s hard to quantify. In France it is worth flagging explicitly because the criminal exposure is real, not theoretical."},
+        {"type": "h3", "html": "Personal director duties"},
+        {"type": "p", "html": "Under the <a href=\"https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000005634379/\" target=\"_blank\" rel=\"noopener\">Code de commerce</a> and the Code du travail, a French SAS president or SARL g&eacute;rant is personally liable for late URSSAF declarations, unpaid social contributions, and failure to maintain the registre du personnel. The CFO who signs DSN declarations they haven&rsquo;t reviewed is personally on the hook. These duties cannot be delegated to advisors."},
+        {"type": "h3", "html": "Statutory filings, the compliance treadmill"},
+        {"type": "ul", "items": [
+          "<strong>DSN (D&eacute;claration Sociale Nominative)</strong>, monthly, by the 5th or 15th of the following month. Late = automatic URSSAF penalty.",
+          "<strong>Bilan annuel + liasse fiscale</strong>, within 3-4 months of year-end. Late = €150-€1,500 penalty escalating with delay.",
+          "<strong>Corporate tax return (CIT)</strong>, within 3 months of year-end. Repeat lateness triggers criminal liability for the dirigeant.",
+          "<strong>D&eacute;claration de b&eacute;n&eacute;ficiaires effectifs</strong>, within 30 days of any change in beneficial ownership.",
+          "<strong>CSE elections</strong>, once headcount crosses 11 employees for 12 consecutive months.",
+          "<strong>Mutuelle and pr&eacute;voyance declarations</strong>, annually."
+        ]},
+        {"type": "h3", "html": "Permanent establishment risk: EOR alone doesn&rsquo;t fix it"},
+        {"type": "p", "html": "France tax authorities interpret <a href=\"https://qualifisc.com/en/tax-updates-insights/permanent-establishment-france-tax-risks/\" target=\"_blank\" rel=\"noopener\">permanent establishment liberally</a>. An EOR handles employee-level payroll, social contributions, and labour law, but it does not eliminate the foreign-parent corporate tax exposure if your French employee signs contracts, negotiates deals, or holds themselves out as your representative. The OECD&rsquo;s November 2025 Model Tax Convention update introduced a 50% working-time safe harbour for cross-border remote work and a &lsquo;commercial reason&rsquo; test, but the substantive PE analysis still applies. If your French hire is a sales lead, a country manager, or a dependent agent, PE risk is your tax team&rsquo;s job, not your EOR&rsquo;s."}
+      ]
+    },
+    {
+      "id": "when-not-to-switch",
+      "h2": "When should you stay on an EOR in France?",
+      "answer_first_html": "Below 5 employees, with project-flavoured hires, or while you&rsquo;re still validating the French market, the EOR is the right answer. The crossover is a maths threshold, not a strategic verdict.",
+      "body_html_blocks": [
+        {"type": "ul", "items": [
+          "<strong>Under 5 French employees</strong> on average salaries: EOR is cheaper and faster every month, even after the LFSS 2026 severance contribution increase.",
+          "<strong>Market validation phase</strong>: you&rsquo;re hiring 1-2 people to test commercial fit, with an option to scale back if the bet doesn&rsquo;t pan out. SAS or SARL setup is sticky; the EOR is reversible.",
+          "<strong>Project-based hires</strong>: 6-12 month engagements where the upfront entity cost won&rsquo;t amortise.",
+          "<strong>No BSPCE pull yet</strong>: senior French hires aren&rsquo;t expecting French-style stock options, or you&rsquo;re still pre-Series-A. The entity becomes valuable once BSPCE becomes a comp lever for French talent.",
+          "<strong>Cross-border remote roles under 50% French working time</strong>: the OECD November 2025 safe harbour reduces PE pressure, and the EOR cleanly handles French employment law without you needing a France presence."
+        ]}
+      ]
+    },
+    {
+      "id": "when-to-switch",
+      "h2": "When should you set up your own French entity?",
+      "answer_first_html": "Above 8-12 employees consistently, with a multi-year French growth plan, or with BSPCE or PE-substance needs, your own French entity beats the EOR on cost and unlocks capabilities the EOR can&rsquo;t provide.",
+      "body_html_blocks": [
+        {"type": "ul", "items": [
+          "<strong>Sustained headcount above 10 French employees</strong> on average salaries: the entity overhead amortises across enough people that per-head cost drops below the EOR fee plus statutory loading.",
+          "<strong>BSPCE share scheme</strong>: <a href=\"https://carta.com/learn/startups/compensation/employee-equity/france/\" target=\"_blank\" rel=\"noopener\">BSPCE</a> requires a French SAS, SCA, or SA, or an EU parent with a French branch since January 2020. The EOR can&rsquo;t grant BSPCE on your behalf, so the options need to be in your own entity. This is the single biggest structural pull toward incorporation for venture-backed companies hiring senior French talent.",
+          "<strong>Permanent establishment substance</strong>: certain cross-border structures need actual French substance (employees, address, banking, registered presence). The EOR doesn&rsquo;t count as your own substance.",
+          "<strong>French customer or investor expectation</strong>: enterprise French customers and the public sector often prefer contracting with a France-registered supplier. Worth flagging early if relevant.",
+          "<strong>French sales hires with deal-signing authority</strong>: dependent-agent PE risk in France is real, and an entity scopes the corporate tax exposure cleanly."
+        ]}
+      ]
+    },
+    {
+      "id": "graduation-model",
+      "h2": "How does Teamed&rsquo;s Graduation Model handle the EOR-to-entity transition in France?",
+      "answer_first_html": "Teamed graduates customers from <strong>EOR to their own French entity</strong> on the same platform, with the same France specialist, the same contracts (novated to the new SAS or SARL), and no break in tenure, anciennet&eacute;, or benefits. Most providers force a re-onboarding event. Teamed doesn&rsquo;t.",
+      "body_html_blocks": [
+        {"type": "p", "html": "The technical mechanic is <strong>contract novation</strong>: the CDI transfers from the Teamed partner entity to your new French SAS or SARL on a specified date. All terms, salary, mutuelle, anciennet&eacute;, RTT, cong&eacute;s pay&eacute;s, carry over. The employee sees a payslip with a different employer SIRET in the header. Everything else is preserved."},
+        {"type": "p", "html": "What we do operationally:"},
+        {"type": "ul", "items": [
+          "Stand up your French SAS or SARL through <a href=\"/entity-management/\">GEMO</a> (~3-6 weeks in parallel with continued EOR running)",
+          "Register the entity with URSSAF, set up DSN, AGIRC-ARRCO, and mutuelle schemes",
+          "Identify and adopt the right convention collective for your activity",
+          "Novate every active CDI on a single effective date (preserving anciennet&eacute;)",
+          "Migrate mutuelle and pr&eacute;voyance without lapse",
+          "Run final EOR-period DSN, open new DSN on the entity from the novation date",
+          "Continue the same France-side People Ops specialist as the post-graduation primary contact"
+        ]},
+        {"type": "p", "html": "The Graduation Model exists because every other EOR makes graduation a re-onboarding event, employees re-sign, lose anciennet&eacute;, lose RTT, lose mutuelle continuity. We treat the EOR-to-entity transition as a stage of the employment lifecycle, not the end of a vendor relationship."}
+      ]
+    }
+  ],
+  "pullquote": {
+    "speaker": "Joanna Castens · Chief Legal Officer, Teamed",
+    "quote": "Convention collective coverage is the variable that makes one French employee cost 25% and another 47%. Nobody&rsquo;s published this transparently. Most EOR providers quote a single France employer cost number and hope you don&rsquo;t ask which sector your hire falls into.",
+    "cite": "Teamed internal commentary, 19th May 2026"
+  },
+  "tagline_close": {
+    "eyebrow": "A note from Tom Price-Daniel",
+    "tagline_html": "EOR is the right hiring model in France. Until it isn&rsquo;t.<br>The day the maths flips, you should know, and we should be the ones who tell you.<br>That&rsquo;s the only honest version of this business.",
+    "sig": "Tom Price-Daniel · Co-founder, Teamed"
+  },
+  "related_links": [
+    {"href": "../", "text": "Hiring in France, overview", "context": "parent"},
+    {"href": "../convention-collective-france/", "text": "France convention collective in 2026", "context": "child (decisive)"},
+    {"href": "../cost-breakdown/", "text": "France employer cost breakdown", "context": "child"},
+    {"href": "../termination-and-severance/", "text": "France termination and severance", "context": "child"},
+    {"href": "../permanent-establishment-risk/", "text": "France permanent establishment risk", "context": "child"},
+    {"href": "/employer-of-record/", "text": "Employer of Record overview", "context": "cluster 2a"},
+    {"href": "/graduation-model/", "text": "The Graduation Model", "context": "cluster 2a"},
+    {"href": "/entity-management/", "text": "Entity Management (GEMO)", "context": "cluster 11"},
+    {"href": "https://crso-cal.vercel.app/tools/crossover?country=fr", "text": "Crossover Calculator (France)", "context": "tool", "external": true},
+    {"href": "/contact/", "text": "Talk to an expert", "context": "CTA"}
+  ],
+  "meta_footer": [
+    "Target keyword: <code>eor vs entity france</code> · vol ~90 · KD 14",
+    "Word count: ~1,750 words",
+    "H2 literal-query ratio: 100%",
+    "Internal links: 14",
+    "Schema: Article + Organization + BreadcrumbList + Service",
+    "Status: live-noindex (publishing rail pending)",
+    "Reviewed by Teamed Compliance Team · May 2026"
+  ]
+}

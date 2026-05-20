@@ -1,0 +1,89 @@
+{
+  "row_id": "master-0352",
+  "slug": "spain/cost-breakdown",
+  "country": "Spain",
+  "country_slug": "spain",
+  "page_title": "Cost breakdown in Spain",
+  "page_type": "country-depth-child",
+  "page_shape": "cost-breakdown",
+  "generated_at": "2026-05-20",
+  "sources_verified_at": "2026-05-20",
+  "meta": {
+    "title": "Spain Employer Cost Breakdown 2026 | What a €45k Hire Really Costs.Teamed",
+    "description": "A €45,000 Spanish hire costs €59,000 to €61,000 fully loaded. Line-by-line breakdown of 29.90% employer SS, MEI 2026, pagas extraordinarias, convenio colectivo, and solidarity contribution.",
+    "h1": "How much does it really cost to hire in Spain in 2026?",
+    "subhead": "131–136% of base salary is just the headline. Here's what Teamed loads onto a €45,000 Spanish hire, line by line."
+  },
+  "answer_capsule": "A €45,000 Spanish hire costs €59,000 to €61,000 fully loaded. The two biggest lines are 29.90% employer social security and the 14-payment year (pagas extraordinarias in June and December). Add MEI 0.75% for 2026, occupational accident insurance, and convenio-colectivo uplifts above the statutory floor. Teamed's €499 monthly fee sits inside that envelope, not on top of it.",
+  "sections": [
+    {
+      "id": "worked-example",
+      "heading": "The headline: what €45,000 actually costs",
+      "answer_first": "Start with the base salary, layer on 29.90% employer social security and 0.75% MEI on a base capped at €5,101.20 per month, then spread the cash across 14 payments instead of 12. A €45,000 indefinido hire lands at roughly €59,400 in employer cost. The Teamed fee is the €5,988 sitting inside that total."
+    },
+    {
+      "id": "employer-ss",
+      "heading": "Why employer social security in Spain is 29.90%, not 30%",
+      "answer_first": "Employer social security in Spain is 29.90% of the contribution base on an indefinite contract: 23.60% common contingencies, 5.50% unemployment, 0.20% FOGASA, 0.60% vocational training. Add 0.75% MEI for 2026 and occupational accident insurance (1.5% office, 2-6% manual). Total typical office load: 31% to 33%."
+    },
+    {
+      "id": "pagas",
+      "heading": "Why a Spanish salary year has 14 payments, not 12",
+      "answer_first": "Spanish employees receive 14 payments a year, not 12. The two extras (pagas extraordinarias) land in June and December under Article 31 of the Estatuto de los Trabajadores. Each equals one month's salary. That adds 16.7% to your annual cash outlay before social security applies."
+    },
+    {
+      "id": "mei",
+      "heading": "What is the MEI in 2026 and why did it just go up?",
+      "answer_first": "The Mechanism for Intergenerational Equity (MEI) is now 0.90% of the contribution base from 1st January 2026, split 0.75% employer / 0.15% employee. It rose from 0.80% in 2025. The escalator continues to 1.20% by 2029. It funds the public pension system's expected demographic gap."
+    },
+    {
+      "id": "convenio",
+      "heading": "How does a convenio colectivo change the cost of hiring in Spain?",
+      "answer_first": "Spain has roughly 86.7% of employees covered by at least one convenio colectivo (sector, regional, or company-level). The convenio sets minimum salary brackets, working time, paid leave, and sometimes additional pagas above the two statutory ones. It can pull a Madrid tech hire 45% above an Extremadura equivalent on the same job title."
+    },
+    {
+      "id": "solidarity",
+      "heading": "What is the solidarity contribution for high earners?",
+      "answer_first": "Earnings above the maximum contribution base of €5,101.20 per month attract a solidarity contribution on a three-tier scale: 1.15% on the first 10% above the base, 1.25% on 10% to 50% above, and 1.46% above 50%. The contribution applies on top of standard social security and was introduced from 1st January 2025 under the LGSS pension-sustainability package."
+    },
+    {
+      "id": "hidden-costs",
+      "heading": "What costs sit outside the headline employer load in Spain?",
+      "answer_first": "Three lines trip up first-time Spain buyers: convenio colectivo uplifts above the statutory floor, indefinido-vs-temporal contract structure (5.50% vs 6.70% unemployment plus reinforcement penalties for over-using temporary contracts), and severance accrued from day one (20 days per year on objective dismissal, 33 days on unfair). The accrued severance is a balance sheet liability, not a cash cost, until termination."
+    },
+    {
+      "id": "teamed-fee",
+      "heading": "Where the Teamed fee sits in the Spanish breakdown",
+      "answer_first": "Teamed's Spain fee is $599 per employee per month flat (illustrative €499/mo in EUR-context display), with no FX markup, no setup fees, and no exit fees. Salaries, employer social security, MEI, pagas extraordinarias, and statutory recoveries pass through at cost on every invoice. The fee covers indefinido contracts, monthly payroll runs, Sistema Red filings, Modelo 111 returns, benefits administration, and named People Ops support."
+    }
+  ],
+  "internal_links": [
+    {"anchor": "Hiring in Spain, overview", "href": "../", "context": "parent, links-rail"},
+    {"anchor": "Indefinido vs temporal contracts in Spain", "href": "../indefinido-vs-temporal-contracts-spain/", "context": "decisive sibling, hidden-costs"},
+    {"anchor": "Spain tax and payroll", "href": "../tax-and-payroll/", "context": "child, links-rail"},
+    {"anchor": "Spain benefits", "href": "../benefits/", "context": "child, links-rail"},
+    {"anchor": "Spain termination and severance", "href": "../termination-and-severance/", "context": "child, hidden-costs"},
+    {"anchor": "Spain working time and leave", "href": "../working-time-and-leave/", "context": "child, links-rail"},
+    {"anchor": "Spain compliance and day-one rights", "href": "../compliance-and-day-one-rights/", "context": "child, links-rail"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "cluster 2a, links-rail"},
+    {"anchor": "The Graduation Model", "href": "/graduation-model/", "context": "cluster 2a, links-rail"},
+    {"anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "context": "commercial, teamed-fee"},
+    {"anchor": "Run the Employee Cost Calculator", "href": "https://teamed-simulator.vercel.app/?country=es&currency=EUR", "context": "tool CTA"},
+    {"anchor": "Talk to an expert", "href": "/contact/", "context": "CTA, links-rail"}
+  ],
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service"],
+  "byline_author": "Joanna Castens",
+  "byline_author_role": "Chief Legal Officer, Teamed",
+  "reviewer": "Teamed Compliance Team",
+  "entity_status_text": "Served by Teamed partner network: Spain",
+  "primary_sources": [
+    "https://www.garrigues.com/en_GB/new/spain-publication-minimum-wage-smi-2026",
+    "https://www.garrigues.com/en_GB/new/spain-order-social-security-contributions-spain-2026-has-been-published",
+    "https://mercans.com/resources/statutory-alerts/spain-2026-social-security-contribution-ceiling-and-related-contribution-items/",
+    "https://www.bakertilly.es/en/insights/mei-and-additional-solidarity-contribution-in-2026-how-they-are-calculated-and-how-they-affect-payroll",
+    "https://www.spenceclarke.com/articles/intergenerational-equity-mechanism-and-solidarity-contribution-in-spain-2026-what-employers-and-employees-need-to-know/",
+    "https://taxsummaries.pwc.com/spain/individual/other-taxes",
+    "https://www.etui.org/sites/default/files/2025-06/Spain_Collective%20bargaining%20and%20minimum%20wage%20regime_2025.pdf",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+  ]
+}

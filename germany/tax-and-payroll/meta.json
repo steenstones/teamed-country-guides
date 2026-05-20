@@ -1,0 +1,58 @@
+{
+  "row_id": "master-0369",
+  "slug": "germany/tax-and-payroll",
+  "country": "Germany",
+  "page_title": "Tax and payroll in Germany",
+  "type": "greenfield",
+  "tier": "Depth",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - Depth child",
+  "generated_at": "2026-05-20T00:00:00Z",
+  "sources_verified_at": "2026-05-20",
+  "target_keywords": ["germany payroll tax", "germany payroll tax rate", "lohnsteuer 2026", "sozialversicherung 2026"],
+  "primary_keyword_volume": 40,
+  "primary_keyword_kd": 1,
+  "word_count": 1832,
+  "h2_count": 6,
+  "h2_literal_query_ratio_pct": 100,
+  "table_count": 5,
+  "quantitativevalue_blocks": 4,
+  "stat_density_pct": 6.8,
+  "named_byline": "Joanna Castens",
+  "named_reviewer": "Ilona Oleksiak",
+  "entity_status": "Teamed-owned (Teamed DE GmbH + THR Global GmbH, Nürnberg)",
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service"],
+  "schema_validation": "all 4 blocks parsed OK",
+  "internal_links_used": [
+    {"anchor": "Hiring in Germany, overview", "href": "../", "state": "live"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live"},
+    {"anchor": "Talk to an expert", "href": "/contact/", "state": "live"},
+    {"anchor": "See your real FX exposure", "href": "https://www.teamed.global/tools/unbundling-calculator", "state": "live"}
+  ],
+  "internal_links_wave_1_pending": [
+    {"anchor": "Germany employer cost breakdown", "target": "../cost-breakdown/"},
+    {"anchor": "EOR vs entity in Germany", "target": "../eor-vs-entity/"},
+    {"anchor": "AÜG licence and the 18-month EOR ceiling in Germany", "target": "../aug-licence-and-eor-limits-germany/"}
+  ],
+  "sources": [
+    {"title": "Sozialversicherungsrechengrößen-Verordnung 2026", "url": "https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514", "tag": "[LAW]"},
+    {"title": "§ 32a EStG — Einkommensteuer-Tarif", "url": "https://www.gesetze-im-internet.de/estg/__32a.html", "tag": "[LAW]"},
+    {"title": "§ 55 SGB XI — Pflegeversicherung surcharge", "url": "https://www.gesetze-im-internet.de/sgb_11/__55.html", "tag": "[LAW]"},
+    {"title": "§ 240 AO — Säumniszuschläge", "url": "https://www.gesetze-im-internet.de/ao_1977/__240.html", "tag": "[LAW]"},
+    {"title": "ELSTER — federal electronic tax filing", "url": "https://www.elster.de", "tag": "[LAW]"},
+    {"title": "Mercans — Mindestlohn €13.90/hr effective 1 Jan 2026", "url": "https://mercans.com/resources/statutory-alerts/germany-minimum-wage-e13-90-hour-mini-job-ceiling-e603-in-effect-jan-2026/", "tag": "[LAW]"},
+    {"title": "Ogletree Deakins — Social security ceiling changes 1 Jan 2026", "url": "https://ogletree.com/insights-resources/blog-posts/germany-increases-social-security-contribution-and-compulsory-insurance-ceilings-effective-january-1-2026/", "tag": "[LAW]"},
+    {"title": "TED operational data — Teamed DE GmbH + THR Global GmbH; payroll cycle", "url": "internal://teamed-dw", "tag": "[TEAMED]", "accessed": "2026-05-20"}
+  ],
+  "editor_rounds": 1,
+  "editor_status": "clean — no block-severity violations on round 1",
+  "audit_score": 93.5,
+  "high_concern_flags": ["link_gate_warn:germany_siblings_wave_1", "width_drift:inherited_css_clobbers"],
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "image_fallback": false
+  },
+  "kernel_cache_used": true,
+  "compliance_cache_written": true
+}

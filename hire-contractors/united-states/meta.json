@@ -1,0 +1,163 @@
+{
+  "row_id": "master-0880",
+  "country": "United States",
+  "slug": "hire-contractors/united-states",
+  "target_url": "/hire-contractors/united-states/",
+  "tier": "Country level (contractor-hiring cluster)",
+  "cluster": "10. Contractor Hiring",
+  "sub_cluster": "Per-country",
+  "type": "per-country / programmatic",
+  "target_keywords": [
+    "1099 vs w2 contractor classification 2026",
+    "hire contractors united states",
+    "us contractor classification",
+    "irs common law test contractor",
+    "irs 20-factor test independent contractor",
+    "irs three category test independent contractor",
+    "california ab5 abc test",
+    "massachusetts abc test contractor",
+    "section 530 safe harbor relief",
+    "1099-NEC filing 2026",
+    "form w-9 contractor onboarding",
+    "form ss-8 worker classification determination",
+    "new york freelance isn't free act 2024",
+    "contractor misclassification penalties IRC 3509",
+    "voluntary classification settlement program vcsp",
+    "dol final rule independent contractor 2024",
+    "eor cure contractor misclassification"
+  ],
+  "sources": [
+    {"url": "https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-defined", "title": "IRS — Independent Contractor (Self-Employed) or Employee?", "accessed_date": "2026-05-20"},
+    {"url": "https://www.irs.gov/publications/p15a", "title": "IRS Publication 15-A — Employer's Supplemental Tax Guide (Common Law Rules)", "accessed_date": "2026-05-20"},
+    {"url": "https://www.irs.gov/forms-pubs/about-form-ss-8", "title": "IRS — About Form SS-8, Determination of Worker Status", "accessed_date": "2026-05-20"},
+    {"url": "https://www.irs.gov/forms-pubs/about-form-w-9", "title": "IRS — About Form W-9, Request for Taxpayer Identification Number", "accessed_date": "2026-05-20"},
+    {"url": "https://www.irs.gov/pub/irs-utl/x-26-07.pdf", "title": "IRS — Section 3509 Reduced Rates for Misclassified Workers (audit guidance)", "accessed_date": "2026-05-20"},
+    {"url": "https://www.irs.gov/businesses/small-businesses-self-employed/voluntary-classification-settlement-program", "title": "IRS — Voluntary Classification Settlement Program (VCSP)", "accessed_date": "2026-05-20"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking", "title": "US DOL — Employee or Independent Contractor Classification Under the FLSA (29 CFR Part 795, effective 11 March 2024)", "accessed_date": "2026-05-20"},
+    {"url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB5", "title": "California AB-5 (2019) — Worker status: employees and independent contractors", "accessed_date": "2026-05-20"},
+    {"url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter149/Section148B", "title": "Massachusetts M.G.L. Chapter 149, Section 148B — Independent Contractor Test", "accessed_date": "2026-05-20"},
+    {"url": "https://www.nysenate.gov/legislation/laws/LAB/191-D", "title": "New York Labor Law § 191-d — Freelance Isn't Free Act (statewide 28 August 2024)", "accessed_date": "2026-05-20"},
+    {"url": "https://www.dol.gov/agencies/whd/minimum-wage", "title": "US DOL — Federal Minimum Wage (FLSA §6, $7.25/hr)", "accessed_date": "2026-05-20"},
+    {"url": "https://www.ssa.gov/oact/cola/cbb.html", "title": "Social Security Administration — Contribution and Benefit Base 2026 ($176,100)", "accessed_date": "2026-05-20"}
+  ],
+  "generated_at": "2026-05-20T22:30:00Z",
+  "sources_verified_at": "2026-05-20T22:30:00Z",
+  "internal_links_used": [
+    {"href": "/contact/", "status": "live", "section": "masthead + tagline_close + links-rail"},
+    {"href": "https://cntrctr-cal.vercel.app/", "status": "live", "section": "masthead + 1099-vs-w2 + onboarding + tagline_close + links-rail"},
+    {"href": "/pricing/zero-fx-fixed/", "status": "live", "section": "eor-doesnt-solve + links-rail"},
+    {"href": "/graduation-model/", "status": "live", "section": "teamed-products + links-rail"},
+    {"href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "section": "teamed-products + links-rail"},
+    {"href": "/employer-of-record/", "status": "live", "section": "links-rail"},
+    {"href": "/insights/philippines-contractor-regulations-complete-legal-guide", "status": "live", "section": "links-rail"},
+    {"href": "../../united-kingdom/ir35-off-payroll-working/", "status": "live", "section": "links-rail"}
+  ],
+  "internal_links_plain_text": [
+    {"text": "Hiring in the United States, overview", "intended_href": "/hire-in-united-states/", "section": "links-rail", "reason": "wave-3, US country parent not yet shipped"}
+  ],
+  "external_links_used": [
+    {"href": "https://www.irs.gov/publications/p15a", "section": "irs-common-law"},
+    {"href": "https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-defined", "section": "irs-common-law"},
+    {"href": "https://www.irs.gov/forms-pubs/about-form-ss-8", "section": "irs-common-law"},
+    {"href": "https://www.irs.gov/forms-pubs/about-form-w-9", "section": "onboarding"},
+    {"href": "https://www.irs.gov/pub/irs-utl/x-26-07.pdf", "section": "misclass-cost"},
+    {"href": "https://www.irs.gov/businesses/small-businesses-self-employed/voluntary-classification-settlement-program", "section": "section-530"},
+    {"href": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking", "section": "irs-common-law"},
+    {"href": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB5", "section": "state-tests"},
+    {"href": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter149/Section148B", "section": "state-tests"},
+    {"href": "https://www.nysenate.gov/legislation/laws/LAB/191-D", "section": "state-tests"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 93,
+  "audit_breakdown": {
+    "schema_validity": 10,
+    "schema_completeness": 10,
+    "breadcrumb_depth": 5,
+    "last_reviewed_visible": 5,
+    "g2_badge_row": 5,
+    "customer_strip": 5,
+    "forbidden_words": 10,
+    "no_em_dashes": 5,
+    "answer_first_compliance": 10,
+    "h1_question_state": 5,
+    "css_path": 3,
+    "g2_path": 3,
+    "pricing_visible": 3,
+    "tom_close": 3,
+    "markers": 3,
+    "source_citations": 5,
+    "specific_numbers_per_section": 3
+  },
+  "audit_notes": [
+    "All 4 JSON-LD blocks parse cleanly (Article, Organization, BreadcrumbList, Service).",
+    "Service schema lists three offers (Guard $130, Protect $189, EOR $599). All three products are mentioned in body prose, no schema/visible drift.",
+    "8 H2-question sections, every H2 ends with '?', answer-first pattern enforced on each.",
+    "0 forbidden words and 0 forbidden phrases against KERNAL list.",
+    "0 em-dashes in body prose (em-dashes only appear in G2 badge alt text, which matches schema-spec.md canonical pattern shared across UK / DE / FR / ES pages).",
+    "Width-system validation in preview: .subhead, .answer-first, .body, table.data, .callout, .links-rail, .meta-footer, .tagline-close .tagline all bound at x=160 width=960, centred per spec.",
+    "Chip-nav anchors (8) map 1:1 to section IDs (8). No broken in-page anchors.",
+    "12 internal links rendered as anchors, 1 wave-3 link rendered as plain text per link gate ('/hire-in-united-states/').",
+    "Federal data (FICA 6.2 + 1.45, Social Security wage base $176,100, FUTA 0.6 effective, $600 1099-NEC threshold, 31 January filing deadline) all sourced to IRS/SSA primary documents.",
+    "State data (AB5 effective date, MA 148B, NJ ABC, NY Freelance Isn't Free Act) sourced to primary statutes.",
+    "QuantitativeValue microdata wrapped on 4 numbers: $599 EOR fee, 7.65% FICA, 100% wilful misclassification penalty, $600 1099-NEC filing threshold.",
+    "Tom tagline close present with signed three-line note format matching IR35 template.",
+    "Pricing rule: only $599 EOR fee and Guard/Protect contractor pricing visible. No 'Regional Rate' reference."
+  ],
+  "retrofit_needed": {
+    "images": true,
+    "image_fallback_reason": "Sprint pipeline runs without gpt-image-1 for this first-of-cluster contractor-hiring page. Hero + good-to-know images scheduled for the contractor-hiring visual library batch (US + UK + Germany + France + Spain + Australia), commissioned downstream to keep visual treatment consistent across the cluster.",
+    "us_country_parent_link": true,
+    "us_country_parent_link_target": "/hire-in-united-states/",
+    "sibling_contractor_country_pages_link_rail": true
+  },
+  "high_concern_flags": [
+    {
+      "flag": "image_fallback",
+      "severity": "medium",
+      "note": "No hero or good-to-know image generated. Sprint mode: contractor-hiring first-of-cluster pages are text-only pending the contractor-hiring visual batch. Schedule image generation when the batch runs."
+    },
+    {
+      "flag": "link_gate_warn:us_country_parent_wave_3",
+      "severity": "low",
+      "note": "Parent /hire-in-united-states/ country page not yet shipped (wave-3). Links-rail entry rendered as plain text per the link gate. Retrofit when US country parent publishes."
+    },
+    {
+      "flag": "factual_uncertainty:dol_rule_state_change_risk",
+      "severity": "low",
+      "note": "DOL Final Rule on Employee or Independent Contractor Classification (29 CFR Part 795, effective 11 March 2024) is current at draft date. The prior 2021 Trump-era rule was vacated, restored, then rescinded; a future court overturning of the 2024 rule would require a refresh of the irs-common-law section's DOL paragraph. Page-level risk only; IRS three-category test (Pub 15-A) is statutorily stable."
+    },
+    {
+      "flag": "factual_uncertainty:abc_state_count_methodology",
+      "severity": "low",
+      "note": "Page states 'around 30 states' run an ABC test for at least one purpose. Sources count differently (23 to 33 depending on whether unemployment-only states are included, whether the state codified ABC or applied it via case law, and which version of the test). Drafted prose uses the 'around 30 ... for at least one purpose' formulation to handle the variance honestly. Steen may want a tighter editorial choice on the number once a canonical source is selected."
+    },
+    {
+      "flag": "factual_uncertainty:ab5_exemption_drift",
+      "severity": "low",
+      "note": "California AB5 statutory exemptions list has been amended multiple times since 1 January 2020 (AB2257 in 2020 plus subsequent amendments). Page cites the AB5 statute directly and instructs readers to consult the primary statute for the current exemption list rather than enumerate. Risk: a major AB5 amendment that affects classification logic (e.g. expanded carve-outs) would need a refresh."
+    },
+    {
+      "flag": "width_drift:inherited_css_clobbers",
+      "severity": "low",
+      "note": "hire-contractors/_shared/child-base.css is a verbatim copy of the UK _shared/child-base.css per the sprint setup. UK CSS contains 4 pre-existing margin-clobber blocks (.pullquote, .callout, .links-rail, .meta-footer). Not introduced by this page; flagged for the UK-wide CSS retrofit when it runs (will fix hire-contractors simultaneously)."
+    }
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/united-states.json (federal floor; contractor-specific data layered by this agent from IRS/DOL/state primary sources)",
+  "kernel_cache_used": "sprint/kernel-cache.json (warmed 2026-05-20)",
+  "preview_verified_at": "2026-05-20T22:35:00Z",
+  "preview_checks_passed": [
+    "JSON-LD: 4 blocks parse",
+    "Title set correctly",
+    "H1 ends with '?' (question form)",
+    "lastReviewed datetime matches dateModified (2026-05-20)",
+    "G2 badges: 5 rendered",
+    "Customer logos: 7 rendered from teamed.global homepage URLs",
+    "Sections: 8 q-sections, all with question-form H2",
+    "Capsule present (Answer.cite this)",
+    "Chip-nav: 8 anchors map 1:1 to 8 section IDs",
+    "Tagline close present",
+    "$599 fixed rate visible",
+    "No console errors",
+    "Width-system: all editorial blocks centred at 960px"
+  ]
+}
