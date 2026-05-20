@@ -151,7 +151,7 @@ h1 em { font-style: italic; font-weight: 700; color: var(--sienna-700); }
   font-size: 22px;
   line-height: 1.4;
   color: var(--ink-soft);
-  max-width: 720px;
+  max-width: 960px; margin-inline: auto;
   margin-bottom: 36px;
 }
 
@@ -179,7 +179,7 @@ h1 em { font-style: italic; font-weight: 700; color: var(--sienna-700); }
   border-left: 4px solid var(--sienna-500);
   padding: 32px 40px;
   margin-bottom: 48px;
-  max-width: 800px;
+  max-width: 960px; margin-inline: auto;
   border-radius: 6px;
   position: relative;
 }
@@ -215,7 +215,7 @@ section.q h2 {
   letter-spacing: -0.02em;
   margin-bottom: 20px;
   color: var(--heading-on-light);
-  max-width: 800px;
+  max-width: 960px; margin-inline: auto;
 }
 section.q .answer-first {
   font-family: var(--font-family-display);
@@ -224,13 +224,13 @@ section.q .answer-first {
   line-height: 1.45;
   color: var(--parchment-800);
   margin-bottom: 28px;
-  max-width: 800px;
+  max-width: 960px; margin-inline: auto;
   padding: 20px 24px;
   background: var(--parchment-100);
   border-left: 3px solid var(--amber-500);
   border-radius: 4px;
 }
-section.q .body { max-width: 800px; }
+section.q .body { max-width: 960px; margin-inline: auto; }
 section.q .body p { margin-bottom: 18px; }
 section.q .body strong { color: var(--charcoal); font-weight: 600; }
 section.q h3 {
@@ -270,9 +270,9 @@ section.q .body a[href^="../"] {
 /* TABLES */
 table.data {
   width: 100%;
-  max-width: 800px;
+  max-width: 960px;
   border-collapse: collapse;
-  margin: 28px 0;
+  margin: 28px auto;
   background: white;
   border: 1px solid var(--rule-soft);
 }
@@ -301,9 +301,9 @@ table.data tbody tr:nth-child(even) td { background: var(--parchment-50); }
   background: transparent;
   color: var(--heading-on-light);
   padding: 8px 0 8px 24px;
-  margin: 32px 0;
+  margin: 32px auto;
   border-left: 4px solid var(--sienna-500);
-  max-width: 720px;
+  max-width: 960px; margin-inline: auto;
 }
 .pullquote-label {
   font-family: var(--font-family-body);
@@ -337,8 +337,8 @@ table.data tbody tr:nth-child(even) td { background: var(--parchment-50); }
   background: var(--amber-100);
   border-left: 3px solid var(--amber-500);
   padding: 20px 24px;
-  margin: 24px 0;
-  max-width: 800px;
+  margin: 24px auto;
+  max-width: 960px; margin-inline: auto;
   border-radius: 4px;
 }
 .callout .label {
@@ -377,7 +377,7 @@ table.data tbody tr:nth-child(even) td { background: var(--parchment-50); }
   line-height: 1.35;
   color: var(--parchment-50);
   margin-bottom: 24px;
-  max-width: 760px;
+  max-width: 960px; margin-inline: auto;
 }
 .tagline-close .sig {
   font-family: var(--font-family-body);
@@ -391,9 +391,9 @@ table.data tbody tr:nth-child(even) td { background: var(--parchment-50); }
 .links-rail {
   background: var(--parchment-100);
   padding: 32px;
-  margin: 48px 0;
+  margin: 48px auto;
   border-radius: 6px;
-  max-width: 800px;
+  max-width: 960px; margin-inline: auto;
 }
 .links-rail h2 {
   font-family: var(--font-family-display);
@@ -433,9 +433,9 @@ table.data tbody tr:nth-child(even) td { background: var(--parchment-50); }
   background: var(--parchment-50);
   border: 1px dashed var(--parchment-400);
   padding: 24px 32px;
-  margin: 48px 0;
+  margin: 48px auto;
   border-radius: 6px;
-  max-width: 800px;
+  max-width: 960px; margin-inline: auto;
   font-size: 13px;
   color: var(--ink-muted);
   font-family: var(--font-family-body);
@@ -451,6 +451,86 @@ table.data tbody tr:nth-child(even) td { background: var(--parchment-50); }
 }
 .meta-footer ul { list-style: none; margin: 0; padding: 0; }
 .meta-footer li { padding: 3px 0; }
+
+/* MASTHEAD alignment — all primary content blocks align to 960px centred */
+.masthead h1,
+.masthead .subhead,
+.masthead .last-reviewed,
+.masthead .cta-row,
+.masthead .breadcrumb,
+.masthead .eyebrow,
+.masthead .partner-badge,
+.masthead .chip-nav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* G2 AWARDS ROW — masthead trust signal */
+.trust-g2-awards {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 16px auto 24px;
+  max-width: 960px;
+}
+.trust-g2-awards a {
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+.trust-g2-awards a:hover { transform: translateY(-2px); }
+.trust-g2-awards img {
+  height: 80px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 600px) {
+  .trust-g2-awards img { height: 60px; }
+  .trust-g2-awards { gap: 8px; }
+}
+
+/* LAST-REVIEWED date stamp */
+.last-reviewed {
+  font-family: var(--font-family-body);
+  font-size: 13px;
+  color: var(--ink-muted);
+  margin: 4px 0 16px;
+  letter-spacing: 0.02em;
+}
+.last-reviewed time { font-weight: 500; color: var(--ink-soft); }
+
+/* CUSTOMER STRIP — global homepage logos */
+.customer-strip { margin: 64px 0 32px; }
+.customer-strip-eyebrow {
+  font-family: var(--font-family-body);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.customer-strip-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.customer-strip-list img {
+  height: 32px;
+  width: auto;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+}
+.customer-strip-list img:hover { opacity: 1; }
+@media (max-width: 600px) {
+  .customer-strip-list { gap: 20px; }
+  .customer-strip-list img { height: 24px; }
+}
 
 /* CHIP-NAV — for sibling page navigation */
 .chip-nav {
