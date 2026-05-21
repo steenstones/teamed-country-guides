@@ -1,0 +1,60 @@
+{
+  "row_id": "master-0025",
+  "country": "United States",
+  "state": "Arkansas",
+  "slug": "united-states/arkansas/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/arkansas/paid-family-and-sick-leave/",
+  "page_title": "Paid family and sick leave — Arkansas",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": [
+    "arkansas paid family leave",
+    "arkansas paid sick leave",
+    "arkansas FMLA",
+    "arkansas leave law 2026",
+    "arkansas act 850 voluntary PFL",
+    "FMLA 50 employees arkansas"
+  ],
+  "sources": [
+    "https://www.dol.gov/agencies/whd/fmla",
+    "https://www.dol.gov/agencies/whd/fact-sheets/28-fmla",
+    "https://www.eeoc.gov/pregnant-workers-fairness-act",
+    "https://labor.arkansas.gov/resources/faqs/",
+    "https://sas.arkansas.gov/personnel/myarfamily/frequently-asked-questions/",
+    "https://www.ncsl.org/labor-and-employment/paid-family-leave-resources",
+    "https://www.abetterbalance.org/paid-sick-time-laws/",
+    "https://littlerock.gov/little-rock-implements-paid-parental-leave-policy/",
+    "https://law.justia.com/codes/arkansas/title-21/chapter-4/subchapter-2/section-21-4-212/",
+    "https://www.shrm.org/topics-tools/research/2025-employee-benefits-survey"
+  ],
+  "internal_links_used": [
+    { "anchor": "Arkansas state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "sibling" },
+    { "anchor": "Alabama paid sick and family leave", "href": "../../alabama/paid-family-and-sick-leave/", "context": "sibling state" },
+    { "anchor": "Alaska paid sick and family leave", "href": "../../alaska/paid-family-and-sick-leave/", "context": "sibling state" },
+    { "anchor": "Arizona paid family and sick leave", "href": "../../arizona/paid-family-and-sick-leave/", "context": "sibling state" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "context": "CTA" },
+    { "anchor": "Hiring in the United States, overview", "href": "wave-3, plain-text", "context": "parent (gated)" },
+    { "anchor": "Arkansas overview", "href": "wave-4, plain-text", "context": "state parent (gated)" }
+  ],
+  "editor_rounds": 0,
+  "linter_pass": true,
+  "linter_summary": "24/24 block-severity checks passed; 0 warn-failures",
+  "audit_score": 94,
+  "high_concern_flags": [
+    { "flag": "link_gate_warn", "severity": "low", "detail": "Chip-nav and links-rail reference Arkansas sibling pages (workers-compensation, new-hire-reporting, employer-registrations, termination-law-and-at-will-exceptions, worker-classification-state-test, wage-overtime-and-meal-break-law, hiring-guide) and the United States parent and Arkansas state-parent that don't exist yet; mirrors the Alabama / Alaska / Arizona sibling convention. Plain-text rendering used for the parent and Arkansas overview in the links-rail per link gate." },
+    { "flag": "byline_person_schema_pending", "severity": "low", "detail": "Joanna Castens (Chief Legal Officer) pullquote attribution; `/team/joanna-castens/` bio + Person schema not yet shipped. Retrofit Person schema link when bio publishes." }
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "neighbor_links": false,
+    "person_schema_byline": true
+  },
+  "page_type": "us_state_child",
+  "word_count_estimate": 2400
+}

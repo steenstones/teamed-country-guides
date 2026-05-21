@@ -1,0 +1,88 @@
+{
+  "row_id": "master-0023",
+  "slug": "united-states/arkansas/termination-law-and-at-will-exceptions",
+  "country": "United States",
+  "state": "Arkansas",
+  "page_title": "Termination law and at-will exceptions — Arkansas",
+  "type": "programmatic",
+  "tier": "US-State",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21T00:00:00Z",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": {
+    "primary": "arkansas at will employment exceptions",
+    "cluster": [
+      "arkansas wrongful termination",
+      "arkansas termination laws",
+      "arkansas final paycheck law",
+      "AR Code 11-4-405",
+      "arkansas employee handbook implied contract",
+      "sterling drug v oxford arkansas",
+      "arkansas civil rights act 1993",
+      "arkansas EEOC filing deadline 180 days"
+    ]
+  },
+  "sources": [
+    {"url": "https://law.justia.com/codes/arkansas/title-11/chapter-4/subchapter-4/section-11-4-405/", "title": "Arkansas Code § 11-4-405 — Payment on discharge"},
+    {"url": "https://law.justia.com/cases/arkansas/supreme-court/1988/87-172-0.html", "title": "Sterling Drug, Inc. v. Oxford, 294 Ark. 239, 743 S.W.2d 380 (1988)"},
+    {"url": "https://law.justia.com/cases/arkansas/supreme-court/1991/90-261-0.html", "title": "Smith v. American Greetings Corp., 304 Ark. 596, 804 S.W.2d 683 (1991)"},
+    {"url": "https://law.justia.com/codes/arkansas/title-16/subtitle-7/chapter-123/subchapter-1/", "title": "Arkansas Civil Rights Act of 1993 — Ark. Code Ann. § 16-123-101 et seq."},
+    {"url": "https://www.eeoc.gov/time-limits-filing-charge", "title": "EEOC — Time Limits for Filing a Charge (Arkansas is non-deferral; 180-day window)"},
+    {"url": "https://dws.arkansas.gov/workforce-services/employers/dislocated-worker-services/", "title": "Arkansas DWS — Rapid Response (Dislocated Worker)"},
+    {"url": "https://www.qgtlaw.com/employment-at-will-doctrine-in-arkansas-do-employment-manuals-create-for-cause-employment/", "title": "Quattlebaum Grooms Tull — Employment-At-Will Doctrine in Arkansas"},
+    {"url": "https://encyclopediaofarkansas.net/entries/arkansas-civil-rights-act-of-1993-7312/", "title": "Encyclopedia of Arkansas — Arkansas Civil Rights Act of 1993"},
+    {"url": "https://www.dol.gov/agencies/eta/layoffs/warn", "title": "U.S. Department of Labor — Federal WARN Act Compliance Assistance"},
+    {"url": "https://remotelaws.com/termination-laws/u-s-states/arkansas/", "title": "Arkansas Termination Laws 2026"}
+  ],
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "context": "links-rail", "status": "live (sibling page)"},
+    {"href": "../worker-classification-state-test/", "context": "links-rail", "status": "live (sibling page)"},
+    {"href": "/employer-of-record/", "context": "links-rail", "status": "live (core)"},
+    {"href": "/pricing/zero-fx-fixed/", "context": "links-rail + answer-first Q7", "status": "live (core)"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "context": "Q7 body + tagline-close secondary CTA + links-rail", "status": "live (tool)"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "context": "links-rail", "status": "live (tool)"},
+    {"href": "https://www.teamed.global/contact", "context": "masthead CTA + tagline-close primary CTA + links-rail", "status": "live (core)"}
+  ],
+  "internal_links_skipped_plain_text": [
+    {"target": "Hiring in the United States overview", "reason": "US country parent — ships wave 3"},
+    {"target": "Arkansas overview", "reason": "Arkansas state parent — ships wave 4"}
+  ],
+  "chip_nav": [
+    {"label": "Overview", "href": "../", "status": "wave-4 plain anchor (no target yet)"},
+    {"label": "State tax & UI", "href": "../state-income-tax-and-unemployment-insurance/", "status": "live (sibling)"},
+    {"label": "Wages & overtime", "href": "../wage-overtime-and-meal-break-law/", "status": "wave-4 sibling"},
+    {"label": "Leave & PTO", "href": "../paid-family-and-sick-leave/", "status": "wave-4 sibling"},
+    {"label": "Worker classification", "href": "../worker-classification-state-test/", "status": "live (sibling)"},
+    {"label": "Termination & at-will", "href": "../termination-law-and-at-will-exceptions/", "status": "current page"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 95,
+  "linter_status": "pending",
+  "compliance_cache_used": "sprint/compliance-cache/arkansas.json (termination_at_will block written by this agent; tax/UI/classification blocks read from prior sibling agents)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "research_streams_run": ["WebSearch ×6", "WebFetch (limited; 403s on bakerdonelson, alfainternational pre-cached)", "compliance-waterfall: skipped (derived from primary statute + case-law fetch directly)"],
+  "retrofit_needed": {
+    "chip_nav_siblings": ["wage-overtime-and-meal-break-law", "paid-family-and-sick-leave", "arkansas overview parent"],
+    "neighbour_states": ["louisiana", "mississippi", "missouri", "oklahoma", "tennessee", "texas"],
+    "us_country_parent": true,
+    "arkansas_state_parent": true,
+    "person_schema_paulina_wilk": true
+  },
+  "visuals": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "size_bytes": 160215,
+      "credit": "Artina Blackmon via Unsplash",
+      "credit_url": "https://unsplash.com/photos/a-city-with-a-tower-Fq-HbTafNKo",
+      "subject": "Little Rock, Arkansas downtown skyline with tower"
+    },
+    "inline_visuals": [
+      {"type": "stamp-block + tape-row", "subject": "Arkansas Termination File — 4 documents (handbook with Sterling disclaimer, performance docs, termination letter, final pay within 7 days of demand)", "location": "Q5 (documenting-termination section)"}
+    ]
+  },
+  "high_concern_flags": [
+    {"code": "link_gate_warn", "severity": "low", "subject": "us_arkansas_siblings_wave_n", "detail": "Chip-nav references Arkansas sibling pages (wage-overtime-and-meal-break-law, paid-family-and-sick-leave) and the Arkansas state parent that don't exist yet. Plain-text rendering used for the United States parent and Arkansas state-parent in the links-rail. Retrofit chip-nav anchors when those Arkansas children ship in wave 4."},
+    {"code": "factual_uncertainty", "severity": "low", "subject": "arkansas_eeoc_deferral_status_legacy_source_drift", "detail": "Some legacy sources still list Arkansas as a deferral state (incorrect post-1993, since ACRA has no enforcement agency). Verified against current EEOC FAQ, LegalAid Arkansas, and Super Lawyers; resolved in favour of 180-day federal charge window. ACRA itself runs on a 1-year private-suit statute."},
+    {"code": "byline_person_schema_pending", "severity": "low", "subject": "paulina_wilk_pullquote_attribution", "detail": "Paulina Wilk (Head of People and Client Experience) pullquote attribution; `/team/paulina-wilk/` bio + Person schema not yet shipped. Retrofit Person schema link when bio publishes."}
+  ]
+}

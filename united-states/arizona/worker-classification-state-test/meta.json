@@ -1,0 +1,75 @@
+{
+  "row_id": "master-0018",
+  "country": "United States",
+  "state": "Arizona",
+  "slug": "united-states/arizona/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/arizona/worker-classification-state-test/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "target_keywords": [
+    "arizona worker classification test 2026",
+    "arizona independent contractor vs employee",
+    "arizona declaration of independent business status",
+    "arizona DIBS safe harbor",
+    "ARS 23-1601 independent contractor",
+    "ARS 23-902 workers compensation written agreement",
+    "arizona IRS common law test",
+    "arizona right of control test",
+    "arizona misclassification penalty",
+    "arizona SUTA dumping penalty"
+  ],
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "spec_version": "phase-1.0",
+  "sources": [
+    {"url": "https://www.azleg.gov/ars/23/01601.htm", "title": "Arizona Revised Statutes § 23-1601 — Declaration of Independent Business Status", "accessed": "2026-05-21"},
+    {"url": "https://www.azleg.gov/ars/23/00902.htm", "title": "Arizona Revised Statutes § 23-902 — Workers' Compensation independent contractor written agreement", "accessed": "2026-05-21"},
+    {"url": "https://www.azleg.gov/ars/23/00901.htm", "title": "Arizona Revised Statutes § 23-901 — Workers' Compensation definitions", "accessed": "2026-05-21"},
+    {"url": "https://www.azleg.gov/ars/23/00727.htm", "title": "Arizona Revised Statutes § 23-727 — Credits and Charges to Employer Accounts", "accessed": "2026-05-21"},
+    {"url": "https://des.az.gov/content/state-unemployment-tax-act-suta-dumping", "title": "Arizona DES — SUTA Dumping (Tax Evasion)", "accessed": "2026-05-21"},
+    {"url": "https://des.az.gov/services/employment/unemployment-individual/unemployment-insurance-benefit-fraud-convictions", "title": "Arizona DES — Unemployment Insurance Benefit Fraud Convictions (Class VI Felony)", "accessed": "2026-05-21"},
+    {"url": "https://ogletree.com/insights-resources/blog-posts/new-arizona-laws-seek-to-clarify-independent-contractor-status/", "title": "Ogletree Deakins — New Arizona Laws Seek to Clarify Independent Contractor Status", "accessed": "2026-05-21"},
+    {"url": "https://www.azica.gov/sites/default/files/media/FAQs%20version%20updated%205-2020%20(1).pdf", "title": "Industrial Commission of Arizona — Workers' Compensation Employer FAQs", "accessed": "2026-05-21"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa/misclassification/2026rulemaking", "title": "U.S. Department of Labor — 2026 Notice of Proposed Rulemaking on FLSA Independent Contractor Classification", "accessed": "2026-05-21"}
+  ],
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Arizona state income tax and unemployment insurance", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "state": "live"},
+    {"href": "https://www.teamed.global/tools/contractor-classification", "anchor": "Contractor Classifier", "state": "external-tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "state": "external-tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "state": "live"},
+    {"href": "../", "anchor": "Arizona overview", "state": "wave-4-plain-text"},
+    {"href": "../../", "anchor": "Hiring in the United States overview", "state": "wave-3-plain-text"}
+  ],
+  "editor_rounds": 1,
+  "linter_status": "PASS",
+  "linter_checks_passed": "24/24",
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "retrofit_needed": {
+    "neighbour_us_state_links": true,
+    "us_country_parent_link": true,
+    "arizona_overview_link": true,
+    "person_schema_bylines": true,
+    "sibling_chip_nav_update": "Arizona sibling state-tax page chip-nav does not yet include a Worker classification entry; will be retrofitted when the chip-nav sweep runs."
+  },
+  "audit_score": 95,
+  "high_concern_flags": [],
+  "compliance_cache_used": "~/.claude/skills/teamed-page-builder/sprint/compliance-cache/arizona.json",
+  "kernel_cache_used": "~/.claude/skills/teamed-page-builder/sprint/kernel-cache.json",
+  "hero_image": {
+    "path": "images/hero.jpg",
+    "size_bytes": 144915,
+    "source": "Unsplash",
+    "photo_id": "M96tm5B5Kyg",
+    "photographer": "JC Cervantes",
+    "query": "Tucson Arizona downtown architecture mountains"
+  },
+  "inline_visuals": [
+    {"type": "stamp-block", "id": "two-safe-harbours-one-hire", "location": "workers-comp-parallel section"}
+  ],
+  "notes": "Programmatic US-state child page for Arizona. Mirrors structural sibling at Alabama worker-classification page (../alabama/worker-classification-state-test/). Lead angle: Arizona's codified DIBS safe-harbour (ARS § 23-1601) — most US states have no codified safe-harbour. Original sprint prompt referenced 'ARS § 23-727 — 200% civil penalty for wilful misclassification'; on fetching the actual statute text, ARS § 23-727 covers employer account credits and contains no such penalty provision. The 200 percent number was dropped; brief documents the conflict. Used verified DES guidance instead (SUTA dumping = highest rate or +2 percent; criminal misrepresentation = Class VI Felony, up to 2 years prison, $150,000 per false statement). Hero photo from Unsplash (Tucson desert + Catalina mountains, 145KB)."
+}

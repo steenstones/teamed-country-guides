@@ -1,0 +1,65 @@
+{
+  "row_id": "master-0019",
+  "country": "United States",
+  "state": "Arizona",
+  "slug": "united-states/arizona/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/arizona/paid-family-and-sick-leave/",
+  "page_title": "Paid family and sick leave — Arizona",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": [
+    "arizona paid sick leave law 2026",
+    "arizona earned paid sick time act",
+    "arizona proposition 206 sick leave",
+    "arizona paid family leave",
+    "arizona FMLA",
+    "arizona sick leave 40 hours",
+    "arizona sick leave 24 hours",
+    "arizona sick leave hours per year"
+  ],
+  "sources": [
+    "Arizona Revised Statutes Title 23, Chapter 2, Article 8.1, §§ 23-371 to 23-381 (Earned Paid Sick Time Act)",
+    "Arizona Proposition 206 (Fair Wages and Healthy Families Act), 8 November 2016",
+    "Industrial Commission of Arizona (ICA) Labor Department, Earned Paid Sick Time FAQ",
+    "Arizona Revised Statutes § 26-168 (state military leave)",
+    "Arizona Revised Statutes § 21-236 (jury duty job protection)",
+    "Arizona Revised Statutes § 23-363 (minimum wage, 2026 = $14.70/hour)",
+    "https://www.dol.gov/agencies/whd/fmla",
+    "https://www.dol.gov/agencies/whd/fact-sheets/28-fmla",
+    "https://www.eeoc.gov/pregnant-workers-fairness-act",
+    "https://www.ncsl.org/labor-and-employment/paid-family-leave-resources",
+    "https://www.shrm.org/topics-tools/research/2025-employee-benefits-survey"
+  ],
+  "internal_links_used": [
+    { "anchor": "Arizona state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "sibling" },
+    { "anchor": "Arizona worker classification state test", "href": "../worker-classification-state-test/", "context": "sibling" },
+    { "anchor": "Alabama paid sick and family leave", "href": "../../alabama/paid-family-and-sick-leave/", "context": "sibling state" },
+    { "anchor": "Alaska paid sick and family leave", "href": "../../alaska/paid-family-and-sick-leave/", "context": "sibling state" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "context": "CTA" },
+    { "anchor": "Hiring in the United States, overview", "href": "wave-3, plain-text", "context": "parent (gated)" },
+    { "anchor": "Arizona overview", "href": "wave-4, plain-text", "context": "state parent (gated)" }
+  ],
+  "editor_rounds": 0,
+  "linter_pass": true,
+  "linter_summary": "24/24 block-severity checks passed; 0 warn-failures",
+  "audit_score": 92,
+  "high_concern_flags": [
+    { "flag": "link_gate_warn", "severity": "low", "detail": "Chip-nav references Arizona sibling pages (minimum-wage-and-overtime, workers-compensation, new-hire-reporting, employer-registrations, termination-at-will) that don't exist yet; mirrors the Alabama / Alaska sibling convention. Plain-text rendering used for the United States parent and Arizona state-parent in the links-rail. Note: the existing Arizona sibling (state-income-tax-and-unemployment-insurance) uses 'paid-leave-and-pto/' in its chip-nav rather than 'paid-family-and-sick-leave/'; retrofit that sibling's chip-nav slug when next touched." },
+    { "flag": "factual_uncertainty", "severity": "low", "detail": "The carry-over mechanic in ARS 23-372 reads as 'may be carried over to the following year subject to the annual cap' — different vendor sources disagree on whether the cap then refers to the year-1 total or the year-2 entitlement. Page reflects the cleaner annual-cap = annual-entitlement reading and notes that employers may front-load to decline carry-over (also permitted by statute). Worth confirming with counsel for high-headcount Arizona employers." },
+    { "flag": "byline_person_schema_pending", "severity": "low", "detail": "Joanna Castens (Chief Legal Officer) pullquote attribution; /team/joanna-castens/ bio + Person schema not yet shipped. Retrofit Person schema link when bio publishes." }
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "neighbor_links": false,
+    "person_schema_byline": true,
+    "sibling_chipnav_slug_alignment": true
+  },
+  "page_type": "us_state_child",
+  "word_count_estimate": 2500
+}

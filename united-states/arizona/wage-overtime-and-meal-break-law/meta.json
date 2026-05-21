@@ -1,0 +1,103 @@
+{
+  "row_id": "master-0020",
+  "country": "United States",
+  "state": "Arizona",
+  "slug": "united-states/arizona/wage-overtime-and-meal-break-law",
+  "target_url": "/hire-in-united-states/arizona/wage-overtime-and-meal-break-law/",
+  "tier": "US-State",
+  "type": "programmatic",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "arizona wage overtime and meal break law 2026",
+    "arizona minimum wage 2026",
+    "arizona minimum wage 14.70",
+    "arizona tip credit",
+    "ARS 23-363 minimum wage",
+    "ARS 23-353 final pay 7 working days",
+    "arizona wage act pay frequency",
+    "arizona overtime law FLSA",
+    "flagstaff minimum wage 2026",
+    "tucson minimum wage 2026",
+    "proposition 206 fair wages healthy families",
+    "arizona tipped cash wage 11.70"
+  ],
+  "sources": [
+    {"url": "https://www.azica.gov/labor-minimum-wage-main-page", "title": "Industrial Commission of Arizona — Minimum Wage Standard", "accessed_date": "2026-05-21"},
+    {"url": "https://www.azleg.gov/ars/23/00363.htm", "title": "Arizona Revised Statutes § 23-363 — Minimum wage", "accessed_date": "2026-05-21"},
+    {"url": "https://www.azleg.gov/ars/23/00351.htm", "title": "Arizona Revised Statutes § 23-351 — Designation of paydays", "accessed_date": "2026-05-21"},
+    {"url": "https://www.azleg.gov/ars/23/00353.htm", "title": "Arizona Revised Statutes § 23-353 — Payment of wages upon termination", "accessed_date": "2026-05-21"},
+    {"url": "https://www.azleg.gov/ars/23/00355.htm", "title": "Arizona Revised Statutes § 23-355 — Action by employee — treble damages", "accessed_date": "2026-05-21"},
+    {"url": "https://www.azleg.gov/ars/23/00373.htm", "title": "Arizona Revised Statutes § 23-373 — Earned paid sick time", "accessed_date": "2026-05-21"},
+    {"url": "https://www.flagstaff.az.gov/4287/Minimum-Wage", "title": "City of Flagstaff — Minimum Wage", "accessed_date": "2026-05-21"},
+    {"url": "https://www.tucsonaz.gov/Departments/Tucson-Minimum-Wage-Act", "title": "City of Tucson — Tucson Minimum Wage Act", "accessed_date": "2026-05-21"},
+    {"url": "https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked", "title": "US DOL Wage and Hour Division — Fact Sheet #22 (Hours Worked under FLSA)", "accessed_date": "2026-05-21"},
+    {"url": "https://www.dol.gov/agencies/whd/fact-sheets/17a-overtime", "title": "US DOL Wage and Hour Division — Fact Sheet #17A (Exemption for Executive, Administrative, Professional)", "accessed_date": "2026-05-21"},
+    {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "title": "US DOL Wage and Hour Division — State Minimum Wage Map", "accessed_date": "2026-05-21"}
+  ],
+  "generated_at": "2026-05-21T14:20:00Z",
+  "sources_verified_at": "2026-05-21T14:15:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "status": "live", "section": "how-teamed-handles"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "status": "live", "section": "how-teamed-handles + tagline_close + links-rail"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "status": "live", "section": "masthead cta + links-rail"},
+    {"href": "https://www.teamed.global/contact", "status": "live", "section": "masthead + tagline_close + links-rail"},
+    {"href": "/employer-of-record/", "status": "live", "section": "links-rail"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "status": "live", "section": "chip-nav + links-rail"},
+    {"href": "../../alabama/wage-overtime-and-meal-break-law/", "status": "live", "section": "links-rail (cross-state sibling)"},
+    {"href": "../../alaska/wage-overtime-and-meal-break-law/", "status": "live", "section": "links-rail (cross-state sibling)"}
+  ],
+  "internal_links_plain_text": [
+    {"text": "Hiring in the United States, overview", "intended_href": "/hire-in-united-states/", "section": "links-rail", "reason": "wave-3, US country parent not yet shipped"},
+    {"text": "Arizona overview", "intended_href": "../", "section": "links-rail + chip-nav", "reason": "wave-4, Arizona state parent not yet shipped"},
+    {"text": "6 chip-nav sibling pages (Arizona workers-comp, new-hire-reporting, employer-registrations, paid-leave-and-pto, termination-law-and-at-will-exceptions, hiring-guide)", "section": "chip-nav", "reason": "wave-4 US-state mass build-out"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 95,
+  "audit_breakdown": {
+    "schema_validity": 10,
+    "schema_completeness": 10,
+    "breadcrumb_depth": 5,
+    "last_reviewed_visible": 5,
+    "g2_badge_row": 5,
+    "customer_strip": 5,
+    "forbidden_words": 10,
+    "no_em_dashes": 5,
+    "answer_first_compliance": 10,
+    "h1_question_state": 5,
+    "css_path": 3,
+    "g2_path": 3,
+    "pricing_visible": 3,
+    "tom_close": 3,
+    "markers": 3,
+    "source_citations": 5,
+    "specific_numbers_per_section": 5,
+    "linter_clean": 1
+  },
+  "retrofit_needed": {
+    "neighbour_state_links": false,
+    "us_country_parent_link": true,
+    "arizona_state_parent_link": true,
+    "arizona_state_tax_page_chip_nav_alignment": true
+  },
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty:minimum_wage_2026_pending_official_publication",
+      "severity": "low",
+      "note": "Arizona state minimum wage for 2026 carried as $14.70/hour from the 2025 figure (0.0% August-over-August CPI adjustment). Industrial Commission of Arizona publishes the official 2026 schedule around 30 September 2025. Verify against the official ICA announcement once published; the compliance cache (arizona.json) reflects the 2025-carried-forward number. Flagstaff $17.85 and Tucson $15.00 city floors for 2026 cited from each city's published 2026 announcement and should be re-verified at the same time."
+    },
+    {
+      "flag": "link_gate_warn:us_arizona_siblings_wave_n",
+      "severity": "low",
+      "note": "Arizona state parent and 6 sibling chip-nav state-topic pages (workers-compensation, new-hire-reporting, employer-registrations, paid-leave-and-pto, termination-law-and-at-will-exceptions, hiring-guide) don't exist yet. Chip-nav entries rendered as anchors mirroring the Alabama/Alaska pattern; links-rail US-parent and Arizona-overview rendered as plain text per the link gate. Retrofit when wave-4 US-state mass build-out runs."
+    },
+    {
+      "flag": "chip_nav_misalignment_arizona_siblings",
+      "severity": "low",
+      "note": "Existing Arizona state-tax sibling chip-nav uses `../minimum-wage-and-overtime/`; this page uses `../wage-overtime-and-meal-break-law/` per the master sheet row slug (matches Alabama and Alaska sibling exemplars). Need a single chip-nav retrofit pass on the Arizona state-tax page to align — the row-slug convention (wage-overtime-and-meal-break-law) is the preferred path."
+    }
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/arizona.json (created 2026-05-21 by master-0016)",
+  "kernel_cache_used": "sprint/kernel-cache.json (warmed 2026-05-20)",
+  "linter_status": "pass",
+  "linter_checks": "24/24 passed, 0 block-FAIL, 0 warn-FAIL"
+}

@@ -1,0 +1,82 @@
+{
+  "row_id": "master-0024",
+  "country": "United States",
+  "state": "Arkansas",
+  "slug": "united-states/arkansas/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/arkansas/worker-classification-state-test/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "target_keywords": [
+    "arkansas worker classification test 2026",
+    "arkansas independent contractor vs employee",
+    "arkansas 20-factor test",
+    "empower independent contractors act 2019",
+    "arkansas Act 1055 2019",
+    "ark code 11-1-204 twenty factor test",
+    "ark code 11-10-210 unemployment employment",
+    "ark code 11-9-102 workers compensation employee",
+    "arkansas misclassification penalty",
+    "arkansas suta back contributions"
+  ],
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "spec_version": "phase-1.0",
+  "sources": [
+    {"url": "https://www.arkleg.state.ar.us/Bills/Detail?ddBienniumSession=2019/2019R&measureno=HB1850", "title": "Arkansas General Assembly — HB 1850 (Act 1055 of 2019), Empower Independent Contractors Act", "accessed": "2026-05-21"},
+    {"url": "https://law.justia.com/codes/arkansas/title-11/chapter-1/subchapter-2/", "title": "Arkansas Code Title 11 Chapter 1 Subchapter 2 — Empower Independent Contractors Act of 2019 (§§ 11-1-201 to 11-1-204)", "accessed": "2026-05-21"},
+    {"url": "https://law.justia.com/codes/arkansas/title-11/chapter-10/subchapter-2/section-11-10-210/", "title": "Arkansas Code § 11-10-210 — Employment definition for UI", "accessed": "2026-05-21"},
+    {"url": "https://law.justia.com/codes/arkansas/title-11/chapter-9/subchapter-1/section-11-9-102/", "title": "Arkansas Code § 11-9-102 — Workers' Compensation Employee definition", "accessed": "2026-05-21"},
+    {"url": "https://law.justia.com/codes/arkansas/title-11/chapter-10/subchapter-5/section-11-10-519/", "title": "Arkansas Code § 11-10-519 — Disqualification: penalty for false statement or misrepresentation", "accessed": "2026-05-21"},
+    {"url": "https://law.justia.com/codes/arkansas/title-11/chapter-9/subchapter-1/section-11-9-106/", "title": "Arkansas Code § 11-9-106 — Workers' Compensation penalties for misrepresentation", "accessed": "2026-05-21"},
+    {"url": "https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/employer-ui-contributions/", "title": "Arkansas DWS — Employer UI Contributions", "accessed": "2026-05-21"},
+    {"url": "https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/withholding-tax-branch/", "title": "Arkansas DFA — Withholding Tax Branch", "accessed": "2026-05-21"},
+    {"url": "https://www.littler.com/publication-press/publication/what-new-employment-laws-were-enacted-arkansas", "title": "Littler — Arkansas Employment Law Update (Act 1055)", "accessed": "2026-05-21"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa/misclassification/2026rulemaking", "title": "U.S. DOL — 2026 NPRM on FLSA independent contractor classification (RIN 1235-AA46)", "accessed": "2026-05-21"}
+  ],
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Arkansas state income tax and unemployment insurance", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "state": "live"},
+    {"href": "https://www.teamed.global/tools/contractor-classification", "anchor": "Contractor Classifier", "state": "external-tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "state": "external-tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "state": "live"},
+    {"href": "../", "anchor": "Arkansas overview", "state": "wave-4-plain-text"},
+    {"href": "../../", "anchor": "Hiring in the United States overview", "state": "wave-3-plain-text"}
+  ],
+  "editor_rounds": 1,
+  "linter_status": "PASS",
+  "linter_checks_passed": "24/24",
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "retrofit_needed": {
+    "neighbour_us_state_links": true,
+    "us_country_parent_link": true,
+    "arkansas_overview_link": true,
+    "person_schema_bylines": true,
+    "sibling_chip_nav_update": "Arkansas sibling chip-navs should be cross-checked to ensure 'Worker classification' entry points to this page using the row-slug convention."
+  },
+  "audit_score": 95,
+  "high_concern_flags": [
+    "link_gate_warn:us_arkansas_siblings_wave_n",
+    "byline_person_schema_pending",
+    "prompt_input_correction:ark_code_11_10_721_not_verified",
+    "prompt_input_correction:no_state_test_understated_act_1055_codifies_20_factor",
+    "factual_uncertainty:dws_experience_range_upper_bound"
+  ],
+  "compliance_cache_used": "~/.claude/skills/teamed-page-builder/sprint/compliance-cache/arkansas.json",
+  "kernel_cache_used": "~/.claude/skills/teamed-page-builder/sprint/kernel-cache.json",
+  "hero_image": {
+    "path": "images/hero.jpg",
+    "size_bytes": 115446,
+    "source": "Unsplash",
+    "photo_id": "QvD0Ix81Uyk",
+    "photographer": "Jametlene Reskp",
+    "query": "Arkansas state capitol Little Rock"
+  },
+  "inline_visuals": [
+    {"type": "stamp-block", "id": "one-test-all-purposes", "location": "one-test-all-purposes section"}
+  ],
+  "notes": "Programmatic US-state child page for Arkansas worker classification. Mirrors structural sibling at ../../arizona/worker-classification-state-test/. Lead angle: Arkansas codified the IRS 20-factor test via the Empower Independent Contractors Act of 2019 (Act 1055; Ark. Code § 11-1-204) and applied it uniformly across all five state-law purposes (UI, workers' comp, state tax, wage and hour, equal pay). This is the strongest Arkansas angle — a uniformity claim that competitors typically miss. The sprint prompt initially understated Arkansas's framework as 'no state-specific ABC test, IRS common-law' — verified statutory research found the 2019 codification makes Arkansas stronger and more distinctive than that framing suggested. Income tax rate corrected mid-build from 3.9% to 3.7% per the sibling agent's update to arkansas.json (SB1/HB1001 cut signed 6 May 2026, retroactive to 1 January 2026). The original sprint prompt's reference to '§ 11-10-721' and a '$5,000 per violation' penalty was not verifiable from primary sources; replaced with verified DWS guidance (§ 11-10-519, plus DWS rate-manipulation 10% penalty + 2% rate increase rule). Hero photo: Arkansas State Capitol, Little Rock (Jametlene Reskp via Unsplash, 115KB)."
+}

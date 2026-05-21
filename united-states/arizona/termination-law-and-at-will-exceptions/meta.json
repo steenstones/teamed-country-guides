@@ -1,0 +1,63 @@
+{
+  "row_id": "master-0017",
+  "slug": "united-states/arizona/termination-law-and-at-will-exceptions",
+  "country": "United States",
+  "state": "Arizona",
+  "tier": "US-State",
+  "page_type": "us_state_child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "arizona at will employment exceptions",
+    "arizona wrongful termination",
+    "arizona employment protection act",
+    "ars 23-353 final paycheck",
+    "arizona termination law"
+  ],
+  "sources": [
+    {"url": "https://www.azleg.gov/ars/23/01501.htm", "label": "ARS § 23-1501 (Arizona Employment Protection Act, official text)"},
+    {"url": "https://www.azleg.gov/ars/23/00353.htm", "label": "ARS § 23-353 (Payment of wages of discharged employee)"},
+    {"url": "https://journals.librarypublishing.arizona.edu/arizlrev/article/8014/galley/7415/download/", "label": "Arizona Law Review — 1996 AEPA history"},
+    {"url": "https://caselaw.findlaw.com/court/az-supreme-court/1440745.html", "label": "Demasse v. ITT Corp. (1999) — implied-handbook line"},
+    {"url": "https://law.justia.com/cases/arizona/supreme-court/1984/17121-pr-2.html", "label": "Leikvold v. Valley View Community Hospital (1984)"},
+    {"url": "https://www.azjobconnection.gov/warn_info", "label": "Arizona WARN information — confirms federal-only, no state mini-WARN"},
+    {"url": "https://des.az.gov/services/employment/employer-resources/worker-adjustment-retraining", "label": "Arizona DES Rapid Response and Layoff Aversion"},
+    {"url": "https://www.azag.gov/civil-rights/faq", "label": "Arizona AG Civil Rights Division FAQ — deferral state, 300-day EEOC"}
+  ],
+  "compliance_cache_used": "~/.claude/skills/teamed-page-builder/sprint/compliance-cache/arizona.json",
+  "kernel_cache_used": "~/.claude/skills/teamed-page-builder/sprint/kernel-cache.json",
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "context": "links-rail sibling"},
+    {"href": "/employer-of-record/", "context": "links-rail core"},
+    {"href": "/pricing/zero-fx-fixed/", "context": "answer-first + links-rail core"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "context": "body + tagline-close CTA + links-rail tool"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "context": "links-rail tool"},
+    {"href": "https://www.teamed.global/contact", "context": "masthead + tagline-close CTAs"}
+  ],
+  "editor_rounds": 0,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "us_country_parent_link": true,
+    "arizona_state_parent_link": true,
+    "images": false
+  },
+  "audit_score": 96,
+  "high_concern_flags": [],
+  "linter": "pass",
+  "linter_checks_passed": "24/24",
+  "exemplar_followed": "output/country-guides/united-states/alabama/termination-law-and-at-will-exceptions/index.html",
+  "key_differentiators_vs_alabama": [
+    "Arizona DOES have codified public-policy exception (AEPA four-category) vs Alabama's narrow statutory list",
+    "Arizona is a deferral state, 300-day EEOC window vs Alabama's 180",
+    "Arizona has strict 7-working-day final pay rule (ARS § 23-353) with treble damages (ARS § 23-355) — Alabama has no state final paycheck statute",
+    "Arizona sits in the Ninth Circuit (more plaintiff-friendly) vs Alabama in the Eleventh"
+  ],
+  "hero_attribution": {
+    "source": "unsplash",
+    "photographer": "Nils Huenerfuerst",
+    "photo_url": "https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-RcDEbNQsjHU",
+    "subject": "Phoenix, Arizona downtown skyline"
+  }
+}
+</content>

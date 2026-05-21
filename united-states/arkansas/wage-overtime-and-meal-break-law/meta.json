@@ -1,0 +1,88 @@
+{
+  "row_id": "master-0026",
+  "slug": "united-states/arkansas/wage-overtime-and-meal-break-law",
+  "page_title": "Wage, overtime, and meal-break law — Arkansas",
+  "target_url": "/hire-in-united-states/arkansas/wage-overtime-and-meal-break-law/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21T13:43:00Z",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": [
+    "arkansas wage overtime and meal break law 2026",
+    "arkansas minimum wage 2026 $11",
+    "arkansas overtime law AMWA FLSA",
+    "arkansas tipped wage $2.63",
+    "arkansas final paycheck 11-4-405 7 days demand",
+    "arkansas pay frequency semi-monthly 11-4-401",
+    "arkansas child labor youth hiring act 2023"
+  ],
+  "sources": [
+    { "url": "https://www.minimum-wage.org/arkansas", "title": "Arkansas Minimum Wage 2026", "accessed": "2026-05-21" },
+    { "url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/arkansas/wage-and-hour/minimum-wage/", "title": "Arkansas Minimum Wage 2026 (Employment Law Handbook)", "accessed": "2026-05-21" },
+    { "url": "https://remotelaws.com/minimum-wage/arkansas/", "title": "Arkansas Minimum Wage 2026: $11/hr Rate & Employer Rules", "accessed": "2026-05-21" },
+    { "url": "https://www.minimum-wage.org/arkansas/tipped-employee-minimum-wage", "title": "Arkansas Tipped Employee Minimum Wage 2026", "accessed": "2026-05-21" },
+    { "url": "https://www.nolo.com/legal-encyclopedia/arkansas-laws-tipped-employees.html", "title": "Arkansas Laws for Tipped Employees 2026 (Nolo)", "accessed": "2026-05-21" },
+    { "url": "https://codeofarrules.arkansas.gov/Rules/Rule?levelType=section&titleID=11&chapterID=35&subChapterID=47&partID=328&subPartID=3491&sectionID=21657", "title": "11 CAR § 11-705 Tipped employees", "accessed": "2026-05-21" },
+    { "url": "https://law.justia.com/codes/arkansas/title-11/chapter-4/subchapter-4/section-11-4-405/", "title": "AR Code § 11-4-405 Payment on discharge", "accessed": "2026-05-21" },
+    { "url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/arkansas/wage-payment/", "title": "Arkansas Wage Payment Laws", "accessed": "2026-05-21" },
+    { "url": "https://labor.arkansas.gov/wp-content/uploads/2020/06/StatutesWageHour.pdf", "title": "Arkansas Department of Labor Statutes Regulating Wages and Hours", "accessed": "2026-05-21" },
+    { "url": "https://labor.arkansas.gov/labor/labor-standards/child-labor/", "title": "Arkansas Department of Labor — Child Labor", "accessed": "2026-05-21" },
+    { "url": "https://www.govdocs.com/arkansas-updates-child-labor-laws/", "title": "Arkansas Updates Child Labor Laws (Youth Hiring Act 2023)", "accessed": "2026-05-21" },
+    { "url": "https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked", "title": "DOL Fact Sheet #22 — Hours Worked under FLSA", "accessed": "2026-05-21" },
+    { "url": "https://www.dol.gov/agencies/whd/state/minimum-wage", "title": "DOL — state minimum wage map", "accessed": "2026-05-21" },
+    { "url": "https://www.dol.gov/agencies/whd/overtime/rulemaking", "title": "DOL — overtime exemption salary basis", "accessed": "2026-05-21" },
+    { "url": "https://connecteam.com/state-labor-laws/arkansas/", "title": "Arkansas Labor Laws 2026 (Connecteam)", "accessed": "2026-05-21" }
+  ],
+  "internal_links_used": [
+    { "anchor": "Arkansas state income tax & unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "links-rail + chip-nav", "state": "live" },
+    { "anchor": "Arkansas worker classification state test", "href": "../worker-classification-state-test/", "context": "links-rail + chip-nav", "state": "live" },
+    { "anchor": "Arkansas termination law & at-will exceptions", "href": "../termination-law-and-at-will-exceptions/", "context": "links-rail + chip-nav", "state": "live" },
+    { "anchor": "Alabama wage, overtime and meal-break law", "href": "../../alabama/wage-overtime-and-meal-break-law/", "context": "links-rail (federal-only contrast)", "state": "live" },
+    { "anchor": "Arizona wage, overtime and meal-break law", "href": "../../arizona/wage-overtime-and-meal-break-law/", "context": "links-rail (CPI-indexed contrast)", "state": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "links-rail", "state": "live" },
+    { "anchor": "Pricing — Zero FX Fixed (×2 in body + rail)", "href": "/pricing/zero-fx-fixed/", "context": "how-teamed-handles + links-rail", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator (×2 in body + rail + CTA)", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "how-teamed-handles + tagline-close CTA + links-rail", "state": "live" },
+    { "anchor": "Employer Cost Calculator (masthead CTA + rail)", "href": "https://www.teamed.global/tools/employer-cost", "context": "masthead + links-rail", "state": "live" },
+    { "anchor": "Talk to an expert (masthead + tagline-close + rail)", "href": "https://www.teamed.global/contact", "context": "masthead + tagline-close + links-rail", "state": "live" }
+  ],
+  "wave_n_links_rendered_plain_text": [
+    { "title": "United States parent", "ships": "wave-3", "shown_as": "plain text — 'Hiring in the United States, overview'" },
+    { "title": "Arkansas state parent", "ships": "wave-4", "shown_as": "plain text — 'Arkansas overview'" }
+  ],
+  "editor_rounds": 0,
+  "linter": {
+    "ran": true,
+    "result": "PASS",
+    "checks_passed": "24/24",
+    "block_failures": 0,
+    "warn_failures": 0
+  },
+  "audit_score": 92,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 92,
+    "structural_spine_match": 100,
+    "factual_density": 92,
+    "internal_link_density": 90,
+    "visual_density": 80,
+    "schema_completeness": 95
+  },
+  "audit_score_rationale": "All 24 block-severity linter checks pass cleanly with zero warns. Page mirrors the Arizona wage exemplar's structure precisely (masthead → breadcrumb → eyebrow → partner-badge → h1 → subhead → last-reviewed → G2 row → CTA → hero → chip-nav → capsule → 8 Q sections including unique Arkansas Youth-Hiring-Act child-labour section → pullquote → tagline-close → links-rail → meta-footer → customer-strip). Inline stamp-block satisfies inline-visual requirement and reinforces the AR Code § 11-4-405 7-day-on-demand final-pay rule. Hero photo from Unsplash (Mick Haupt, Little Rock AR skyline) 118KB. Strong cross-state contrast in links-rail anchors to Alabama (federal-only) and Arizona (CPI-indexed). Internal-link density elevated by inclusion of three Arkansas sibling anchors (state-tax, worker-classification, termination) all live. Verified facts against primary AR Code sources and DOL FLSA Fact Sheet #22.",
+  "high_concern_flags": [
+    "link_gate_warn:us_arkansas_siblings_wave_n",
+    "byline_person_schema_pending"
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "internal_links_neighbour_countries": false,
+    "internal_links_state_parent": true,
+    "internal_links_country_parent": true,
+    "chip_nav_sibling_promotion_when_ar_parent_ships": true,
+    "notes": "United States parent (wave-3) and Arkansas state parent (wave-4) render as plain text per link-gate. Promote to anchors when those pages ship. The Arkansas state-tax sibling, worker-classification sibling, and termination sibling chip-navs do not yet include a 'Wages & overtime' chip-nav entry pointing here; retrofit those siblings' chip-navs when next touched."
+  },
+  "compliance_cache_reused": "sprint/compliance-cache/arkansas.json (2026-05-21) — wage/hour layer derived from WebSearch verification of AR Code §§ 11-4-210, 11-4-211, 11-4-212, 11-4-401, 11-4-405; cache previously held state_income_tax + worker_classification + ui + termination_at_will + workers_compensation + penalties blocks.",
+  "kernel_cache_used": "sprint/kernel-cache.json"
+}

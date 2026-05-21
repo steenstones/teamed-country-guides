@@ -1,0 +1,91 @@
+{
+  "row_id": "master-0022",
+  "slug": "united-states/arkansas/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/arkansas/state-income-tax-and-unemployment-insurance/",
+  "page_title": "Arkansas State Income Tax and Unemployment Insurance 2026 | Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "arkansas state income tax and unemployment insurance 2026",
+    "arkansas top income tax rate 3.7 percent",
+    "arkansas SUTA wage base 7000",
+    "AR4EC withholding form arkansas",
+    "AR941 AR3MAR filing arkansas",
+    "form AR-TX texarkana exemption",
+    "arkansas SB1 HB1001 2026 special session tax cut"
+  ],
+  "generated_at": "2026-05-21T13:30:00Z",
+  "sources_verified_at": "2026-05-21",
+  "sources": [
+    {"url": "https://taxfoundation.org/blog/arkansas-income-tax-cut-rates/", "title": "Tax Foundation — Arkansas Cuts Income Tax Rates for the Fourth Time in Four Years", "accessed": "2026-05-21"},
+    {"url": "https://www.aarp.org/states/arkansas/state-tax-guide/", "title": "AARP — Arkansas State Taxes 2026", "accessed": "2026-05-21"},
+    {"url": "https://dws.arkansas.gov/workforce-services/unemployment/employer-ui-information/employer-ui-contributions/", "title": "Arkansas DWS — Employer UI Contributions", "accessed": "2026-05-21"},
+    {"url": "https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/withholding-tax-branch/", "title": "Arkansas DFA — Withholding Tax Branch", "accessed": "2026-05-21"},
+    {"url": "https://www.dfa.arkansas.gov/office/taxes/income-tax-administration/withholding-tax-branch/due-dates/", "title": "Arkansas DFA — Withholding Due Dates", "accessed": "2026-05-21"},
+    {"url": "https://dws.arkansas.gov/wp-content/uploads/AR4EC.pdf", "title": "Arkansas Form AR4EC", "accessed": "2026-05-21"},
+    {"url": "https://www.arkansasedc.com/why-arkansas/business-climate/tax-structure/unemployment-insurance-tax", "title": "Arkansas EDC — Unemployment Insurance Tax", "accessed": "2026-05-21"},
+    {"url": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/", "title": "Tax Foundation — 2026 State Income Tax Rates and Brackets", "accessed": "2026-05-21"}
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "kind": "core"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "kind": "core"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles + tagline-close + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead + tagline-close + links-rail", "kind": "CTA"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Arkansas overview", "status": "wave-4", "section": "links-rail"},
+    {"label": "Arizona state tax & UI", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/arkansas.json (first Arkansas page — wrote state_income_tax block; second page wrote worker_classification, ui, termination_at_will, workers_compensation, penalties blocks; cache now reconciled to 3.7% for 2026 SB1/HB1001 cut)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "neighbour_links_targets": ["united-states/arkansas (parent)", "united-states (country parent)", "united-states/arizona/state-income-tax-and-unemployment-insurance (sibling)", "united-states/louisiana", "united-states/mississippi", "united-states/tennessee", "united-states/missouri", "united-states/oklahoma", "united-states/texas"],
+    "images": false
+  },
+  "audit_score": 88,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 90,
+    "structural_spine_match": 100,
+    "factual_density": 90,
+    "internal_link_density": 75,
+    "visual_density": 80,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty: exact 2026 low-income bracket dollar thresholds (using 2025 indexed reference until DFA AR1000F booklet publishes)",
+    "factual_uncertainty: SUTA experience-range upper bound — page uses 0.1-5.0% per current DWS, legacy Act 1191 sources quote up to 10.1%; compliance cache reflects both",
+    "factual_uncertainty: 250-employee e-file mandate cited from vendor source (every.io) — verify against final DFA 2026 instruction booklet",
+    "link_gate_warn: neighbour-state and Arkansas-parent links rendered as plain text per link gate (targets ship wave 3-4)",
+    "cache_reconciliation: state_income_tax block in arkansas.json had 3.9% from concurrent sibling agent write — corrected to 3.7% per SB1/HB1001 (signed 6 May 2026, retroactive to 1 January 2026)"
+  ],
+  "linter_result": "pass",
+  "linter_checks_total": 25,
+  "linter_checks_passed": 25,
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "ctas_used": {
+    "primary": "https://www.teamed.global/contact",
+    "secondary": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "image_inventory": [
+    {"file": "images/hero.jpg", "kind": "hero photo (Unsplash)", "size_bytes": 160215, "photographer": "Artina Blackmon", "alt_description": "Little Rock, Arkansas skyline at twilight with the State Capitol tower lit against a deep blue sky"}
+  ],
+  "inline_visual": "stamp-block in filing-cadence section (AR4EC → AR941/AR941M → ARW-3/W-2 → AR3MAR lifecycle)",
+  "voice_notes": [
+    "UK English in body prose (recognise, behaviour, whilst)",
+    "Burnt Sienna primary CTA",
+    "No em-dashes in body prose (linter-verified)",
+    "Answer-first ≤30 words per section, lead with the number",
+    "Tom Price-Daniel three-line tagline close",
+    "Paulina Wilk pull-quote re Arkansas simplicity"
+  ]
+}

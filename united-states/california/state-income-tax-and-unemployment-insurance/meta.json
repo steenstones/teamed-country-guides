@@ -1,0 +1,78 @@
+{
+  "row_id": "master-0028",
+  "country": "United States",
+  "state": "California",
+  "slug": "united-states/california/state-income-tax-and-unemployment-insurance",
+  "page_title": "State income tax and unemployment insurance — California",
+  "target_url": "/hire-in-united-states/california/state-income-tax-and-unemployment-insurance/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "california state income tax and unemployment insurance 2026",
+    "california sui rate 2026",
+    "california sdi rate 2026",
+    "california ett 2026",
+    "california de 4 form",
+    "california de 9 de 9c filing",
+    "california 13.3 percent top tax rate",
+    "california mhss surcharge",
+    "ab5 abc test california labor code 2775"
+  ],
+  "sources": [
+    "https://edd.ca.gov/en/payroll_taxes/rates_and_withholding/",
+    "https://edd.ca.gov/siteassets/files/pdf_pub_ctr/de44.pdf",
+    "https://edd.ca.gov/en/payroll_taxes/required_filings_and_due_dates/",
+    "https://edd.ca.gov/en/payroll_taxes/tax-rated-employers/",
+    "https://www.ftb.ca.gov/file/business/industries/worker-classification-and-ab-5-faq.html",
+    "https://law.justia.com/codes/california/code-lab/division-3/chapter-2/article-1-5/section-2775/",
+    "https://www.dir.ca.gov/dlse/faq_independentcontractor.htm",
+    "https://news.bloombergtax.com/daily-tax-report-state/california-edd-announces-2026-ui-ett-sdi-rates-schedules",
+    "https://hrwatchdog.calchamber.com/2025/12/2026-social-security-taxable-wage-base-california-sdi-withholding-rate-increase/",
+    "https://www.hklaw.com/en/insights/publications/2019/09/new-california-law-codifies-and-expands-strict-abc-test"
+  ],
+  "generated_at": "2026-05-21T00:00:00Z",
+  "sources_verified_at": "2026-05-21T00:00:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Employer Cost Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "multiple", "state": "live"}
+  ],
+  "wave_n_plain_text_links": [
+    "United States overview (wave 3)",
+    "California overview (wave 4)",
+    "California worker classification (wave 4 sibling)",
+    "Arkansas state tax & UI (sibling reference)"
+  ],
+  "editor_rounds": 0,
+  "editor_unconverged": false,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "images": false
+  },
+  "audit_score": 92,
+  "high_concern_flags": [
+    "factual_uncertainty: 2026 PIT bracket dollar thresholds estimated by indexing 2025 schedules; statutory rate ladder (1/2/4/6/8/9.3/10.3/11.3/12.3) is exact"
+  ],
+  "compliance_cache_written": "sprint/compliance-cache/california.json",
+  "first_state_in_compliance_cache": true,
+  "hero_image": {
+    "source": "Unsplash",
+    "photographer": "Rihards Sergis",
+    "photographer_handle": "rsergis99",
+    "url": "https://unsplash.com/photos/-B_5ot_RdpA",
+    "alt": "Downtown Los Angeles skyline with the U.S. Bank Tower and Wilshire Grand Center rising above a sea of mid-rise office buildings."
+  },
+  "inline_visuals": [
+    "stamp-block / tape-row in filing-cadence section (California Filing Cadence)",
+    "four data tables (PIT ladder, UI stages, SDI history, four-tax overview)",
+    "pullquote — Paulina Wilk testimonial"
+  ]
+}
