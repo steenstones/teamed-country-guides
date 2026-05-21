@@ -1,0 +1,49 @@
+# Teamed Country Guides
+
+> Employer of Record + payroll + compliance content for hiring across 100+ countries. Teamed is the global EOR you keep, on a single fixed rate ($599/£479 flat, Zero FX). Teamed-owned legal entities in 23+ countries with a vetted partner network elsewhere. Content is researcher-grade: statutory rates, worked examples, schema-marked, kept current to 2026.
+
+Pages are grouped by country. Each guide includes the statutory rates and tax thresholds for 2026, Teamed's worked examples (loaded employer cost), and the compliance tripwires that catch first-time buyers. All pages carry JSON-LD `Article`, `Organization`, `BreadcrumbList`, and `Service` schema; the catalogue is discoverable via robots.txt at /robots.txt and a sitemap at /sitemap.xml.
+
+## United Kingdom
+
+- [Hiring in the UK | Employer of Record + 2026 Guide](/united-kingdom/): Hire UK employees from £479/month via Teamed Ltd, our wholly-owned London entity. 15% NIC, 5.6 weeks statutory leave, 6 April 2026 day-one rights.
+- [UK Employee Benefits 2026 | Statutory + Competitive Package](/united-kingdom/benefits/): UK benefits 2026: statutory floor (5.6 wk leave, SSP £123.25, day-one parental, 3% pension) plus competitive package (private medical, 5-8% pension, EMI options).
+- [UK Compliance & Day-One Rights 2026 | ERA 2025 Changes](/united-kingdom/compliance-and-day-one-rights/): UK compliance 2026: Employment Rights Act 2025 in force. Day-one paternity, parental, SSP. Collective redundancy protective award doubled to 180 days. January 2027 unfair dismissal change.
+- [UK Employer Cost Breakdown 2026 | What a £60k Hire Really Costs](/united-kingdom/cost-breakdown/): A £60,000 UK hire costs £72,000–£75,000 loaded. Full line-by-line breakdown of NIC, pension auto-enrolment, statutory leave, Apprenticeship Levy, and Class 1A/1B NIC for 2026.
+- [UK EOR vs Entity 2026 | Crossover Maths + When to Switch](/united-kingdom/eor-vs-entity/): UK EOR vs own entity. Crossover point ~5-8 employees. Entity setup £3,000-£15,000, ongoing £3,200-£4,500/month. Full maths, when to switch, Graduation Model.
+- [UK Hiring Guide 2026 | Offer to First Payslip in 48 Hours](/united-kingdom/hiring-guide/): UK hiring 2026: end-to-end process, right-to-work checks, Section 1 statement, onboarding admin. Teamed delivers 48-hour onboarding for non-sponsored hires.
+- [IR35 and Off-Payroll Working 2026 | UK Contractor Tax Rules](/united-kingdom/ir35-off-payroll-working/): IR35 explained 2026: deemed employer, SDS, CEST limits, why EOR doesn't solve it. Status determination, common-law tests, Small Company Exemption.
+- [UK Permanent Establishment Risk 2026 | EOR PE Analysis](/united-kingdom/permanent-establishment-risk/): UK PE risk for foreign-parented companies hiring through EOR. Fixed place + dependent agent tests. Why sales roles trigger and engineering doesn't. Structure to avoid.
+- [UK Probation and Onboarding 2026 | Fair Procedure + 9-Month Cap](/united-kingdom/probation-and-onboarding/): UK probation 2026: no statutory cap yet (proposed 9 months from autumn 2026), typical 3-6 months, fair procedure required, 30-60-90 onboarding standard.
+- [UK Tax and Payroll 2026 | NIC, PAYE, Pension, Income Tax](/united-kingdom/tax-and-payroll/): UK payroll tax 2026: 15% employer NIC, 8%/2% employee NIC, income tax bands 0/20/40/45, £100k personal allowance taper, PAYE RTI, P45/P60/P11D.
+- [UK Termination & Severance 2026 | Notice, Redundancy, Procedure](/united-kingdom/termination-and-severance/): UK termination 2026: statutory notice schedule, redundancy pay capped at £751/week, fair procedure, collective redundancy doubled to 180-day protective award.
+- [UK Working Time & Leave 2026 | Hours, Holiday, Parental](/united-kingdom/working-time-and-leave/): UK working time 2026: 48-hour limit with opt-out, 5.6 weeks annual leave bundled with bank holidays, day-one parental rights from April 2026, SSP £123.25/wk day-one.
+
+## France
+
+- [France EOR vs Entity 2026 | Crossover Maths + Convention Collective](/france/eor-vs-entity/): France EOR vs own entity. Crossover lands 8-12 employees. Entity setup €2,500-€8,000, ongoing €2,500-€4,500/month. The convention collective variable nobody publishes.
+
+## Germany
+
+- [Germany Tax and Payroll 2026 | Sozialversicherung, Lohnsteuer](/germany/tax-and-payroll/): German payroll 2026: ~20.7% employer social security, BBG €5,812.50 / €8,450, four income tax zones to 45%, €13.90 minimum wage, monthly Lohnsteueranmeldung.
+
+## Spain
+
+- [Spain Employer Cost Breakdown 2026 | What a €45k Hire Really Costs](/spain/cost-breakdown/): A €45,000 Spanish hire costs €59,000 to €61,000 fully loaded. Line-by-line breakdown of 29.90% employer social security, MEI 2026, pagas extraordinarias, convenio colectivo, and solidarity contribution.
+
+## United States
+
+- [Alabama State Income Tax and Unemployment Insurance 2026 | Teamed](/united-states/alabama/state-income-tax-and-unemployment-insurance/): Alabama payroll 2026: 2/4/5% income tax, $1,000 overtime deduction, 2.7% new-employer SUTA on $8,000, Form A-4, A-1, A-6, A-3, 30-day safe harbor.
+
+## Contractors
+
+- [Hiring Contractors in the United States 2026 | 1099 vs W-2 | Teamed](/hire-contractors/united-states/): 1099 vs W-2 classification 2026: IRS common-law test, ABC states, California AB5, Section 530, why EOR doesn't cure misclassification.
+
+## Source + governance
+
+- Source repo: `teamed-country-guides` (Vercel staging `teamed-country-guides.vercel.app`)
+- Production: `teamed.global/hire-in-<country>/...`
+- Schema: JSON-LD Article + Organization + BreadcrumbList + Service on every page
+- Robots: GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot, Google-Extended explicitly allowed
+- Discovery: this file + `/llms-full.txt` (full content) + `/sitemap.xml`
+- Pricing source of truth: Zero FX Fixed — $599/£479 flat per employee per month in any currency pairing
