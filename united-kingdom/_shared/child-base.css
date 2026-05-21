@@ -173,6 +173,19 @@ h1 em { font-style: italic; font-weight: 700; color: var(--sienna-700); }
 .cta.secondary:hover { background: var(--parchment-800); color: var(--parchment-50); }
 .cta:hover { transform: translateY(-1px); }
 
+/* Secondary CTA inverted when sitting on dark parchment-900 surfaces
+   (tagline-close, plus any future dark banner that opts in with .dark-surface) */
+.tagline-close .cta.secondary,
+.dark-surface .cta.secondary {
+  color: var(--parchment-50);
+  border-color: var(--parchment-50);
+}
+.tagline-close .cta.secondary:hover,
+.dark-surface .cta.secondary:hover {
+  background: var(--parchment-50);
+  color: var(--parchment-900);
+}
+
 /* ANSWER CAPSULE */
 .capsule {
   background: var(--parchment-300);
