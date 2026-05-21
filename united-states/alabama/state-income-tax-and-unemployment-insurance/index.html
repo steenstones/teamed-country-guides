@@ -12,6 +12,36 @@
 <link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../_shared/child-base.css">
+<style>
+  /* Hero photo — 960px centred, 8px corners, parchment-300 border */
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500); }
+</style>
 <!-- TEAMED:SCHEMA-V1 BEGIN -->
 <script type="application/ld+json">
 {
@@ -167,6 +197,11 @@
       <a href="/contact/" class="cta primary">Talk to an expert</a>
       <a href="/contact/" class="cta secondary">Talk to an expert</a>
     </div>
+
+    <figure class="hero-block">
+      <img src="images/hero.jpg" alt="Aerial view of downtown Birmingham, Alabama at midday, modern office towers rising above the surrounding streets.">
+    </figure>
+    <p class="hero-credit">Photo: <a href="https://unsplash.com/@lance_asper?utm_source=teamed&amp;medium=referral" target="_blank" rel="noopener">Lance Asper</a> via Unsplash &middot; Birmingham, Alabama</p>
   </header>
 
   <nav class="chip-nav" aria-label="Alabama guide navigation">
@@ -231,7 +266,7 @@
       <p>Alabama mails an annual rate notice by 31 January each year. The rate is set by the employer&rsquo;s reserve ratio, broadly the historical balance of contributions paid in versus benefits paid out to former employees. A high-turnover employer drifts toward the top of the band; a stable employer with few claims settles near the floor. <em>Authority: Sections 25-4-52 and 25-4-54, Code of Alabama 1975.</em></p>
 
       <h3>Special and shared-cost assessments</h3>
-      <p>The State&rsquo;s published 0.59 to 6.19 percent is the <strong>base contribution rate</strong>. Alabama layers <strong>special assessments and shared-cost assessments</strong> on top, year by year. For forecasting actual loaded payroll cost, plan on the <strong>0.20 to 6.80 percent</strong> stacked range — that&rsquo;s what employers remit in full. Teamed&rsquo;s payroll books the assessment delta as a line item on the invoice so the difference between base and stacked rate is auditable, not hidden.</p>
+      <p>The State&rsquo;s published 0.59 to 6.19 percent is the <strong>base contribution rate</strong>. Alabama layers <strong>special assessments and shared-cost assessments</strong> on top, year by year. For forecasting actual loaded payroll cost, plan on the <strong>0.20 to 6.80 percent</strong> stacked range. That&rsquo;s what employers remit in full. Teamed&rsquo;s payroll books the assessment delta as a line item on the invoice so the difference between base and stacked rate is auditable, not hidden.</p>
 
       <h3>FUTA credit interaction</h3>
       <p>Federal Unemployment Tax (FUTA) is 6 percent on the first $7,000. An Alabama employer that pays state SUTA in full and on time receives a FUTA credit of <strong>5.4 percent</strong>, leaving an effective FUTA of <strong>0.6 percent ($42 per employee per year)</strong>. Late or partial SUTA payment erodes the credit. Teamed&rsquo;s payroll books both lines together so the credit never gets lost. <em>Source: IRS Topic 759, accessed 20 May 2026.</em></p></div>
@@ -256,7 +291,23 @@
   <section class="q" id="filing-cadence">
     <h2>How does an Alabama employer file withholding (A-1, A-6, A-3)?</h2>
     <p class="answer-first">Three forms cover the lifecycle: <strong>Form A-6 monthly</strong> if you withheld more than $1,000 in either the first or second month of a quarter, otherwise <strong>Form A-1 quarterly</strong>. <strong>Form A-3</strong> reconciles the full tax year and is due 31 January. All filings run through <strong>My Alabama Taxes (MAT)</strong> at myalabamataxes.alabama.gov.</p>
-    <div class="body"><table class="data">
+    <div class="body">
+
+      <div class="stamp-block">
+        <div class="stamp">
+          <span class="stamp-num">01</span>
+          <span class="stamp-text">Alabama Filing Cadence</span>
+        </div>
+        <p class="stamp-body">Three state forms cover the lifecycle of Alabama withholding, plus city occupational tax sits alongside. Cadence depends on the size of the withholding cheque. Birmingham employees add a 1 percent occupational layer remitted directly to the city, due the 20th of the following month.</p>
+        <div class="tape-row">
+          <span class="tape-label">A-6 &middot; monthly &gt; $1,000</span>
+          <span class="tape-label">A-1 &middot; quarterly</span>
+          <span class="tape-label">A-3 &middot; annual reconcile 31 Jan</span>
+          <span class="tape-label">Birmingham &middot; 1% city tax</span>
+        </div>
+      </div>
+
+      <table class="data">
         <thead>
           <tr><th>Form</th><th>What it is</th><th>Frequency</th><th>Due</th></tr>
         </thead>
@@ -342,6 +393,8 @@
       </ul>
 
       <p>Pricing is one number per employee per month, in any currency you pay us in, with no FX mark-up between your billing currency and the US dollars Teamed remits to the State of Alabama. Statutory employer cost (FICA, FUTA, SUTA, workers&rsquo; comp insurance) passes through at cost, itemised on the invoice.</p>
+
+      <p>Behind the platform sits a named country specialist for the United States and an in-house payroll specialist who knows Alabama&rsquo;s A-6 / A-1 / A-3 cadence and the city occupational quirks (Birmingham, Bessemer, Gadsden). When something looks off on a payslip, you message the same person; there is no rota of generic support tickets. Contractor onboarding, EOR payroll, and entity graduation live on one platform, so a US contractor who converts to employment in Alabama keeps their record, and that same employee can graduate from EOR to your own Delaware C-corp without changing system. Contractor through EOR to entity, one timeline, one platform.</p>
 
       <h3>When EOR is the right call (and when it isn&rsquo;t)</h3>
       <p>EOR works while you&rsquo;re testing the Alabama market, ramping a small remote team, or running one or two hires alongside a larger US payroll elsewhere. Once you have 6+ Alabama employees and predictable hiring momentum, the maths of running your own US entity starts to win. Alabama is one of the cheaper states to register in, and Teamed&rsquo;s <a href="https://crso-cal.vercel.app/tools/crossover" target="_blank" rel="noopener">Crossover Calculator</a> shows you the month it flips. Teamed tells you when. The conversation is built into the relationship.</p></div>
