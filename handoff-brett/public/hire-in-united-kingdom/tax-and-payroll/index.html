@@ -11,7 +11,77 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/_shared/child-base.css">
+<link rel="stylesheet" href="../_shared/child-base.css">
+<style>
+  /* Hero photo — 960px centred, 8px corners, parchment-300 border */
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500); }
+
+  /* Teamed-difference callout — pricing block in body */
+  .teamed-callout {
+    max-width: 960px;
+    margin: 40px auto 48px;
+    padding: 28px 32px;
+    background: var(--parchment-100);
+    border-left: 4px solid var(--amber-500);
+    border-radius: 6px;
+  }
+  .teamed-callout .label {
+    font-family: var(--font-family-body);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 14px;
+  }
+  .teamed-callout p {
+    font-family: var(--font-family-body);
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--parchment-800);
+    margin-bottom: 12px;
+  }
+  .teamed-callout p:last-child { margin-bottom: 0; }
+  .teamed-callout .price-row {
+    font-family: var(--font-family-display);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--heading-on-light);
+    letter-spacing: -0.015em;
+    margin-bottom: 8px;
+  }
+  .teamed-callout .price-row .secondary-rate {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    margin-left: 8px;
+  }
+</style>
 <!-- TEAMED:SCHEMA-V1 BEGIN -->
 <script type="application/ld+json">
 {
@@ -37,7 +107,7 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://teamed.global/hire-in-united-kingdom/tax-and-payroll/"
+    "@id": "https://teamed-country-guides.vercel.app/united-kingdom/tax-and-payroll/"
   },
   "about": {
     "@type": "Country",
@@ -81,13 +151,13 @@
       "@type": "ListItem",
       "position": 3,
       "name": "United Kingdom",
-      "item": "https://teamed.global/hire-in-united-kingdom/"
+      "item": "https://teamed-country-guides.vercel.app/united-kingdom/"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Tax and payroll",
-      "item": "https://teamed.global/hire-in-united-kingdom/tax-and-payroll/"
+      "item": "https://teamed-country-guides.vercel.app/united-kingdom/tax-and-payroll/"
     }
   ]
 }
@@ -131,7 +201,7 @@
 
   <header class="masthead film-grain">
     <div class="breadcrumb">
-      <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; <a href="/hire-in-united-kingdom/">United Kingdom</a> &nbsp;/&nbsp; Tax & payroll
+      <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; <a href="../">United Kingdom</a> &nbsp;/&nbsp; Tax & payroll
     </div>
     <div class="eyebrow">
       <span class="badge">United Kingdom · Tax & payroll child</span>
@@ -147,33 +217,38 @@
 <!-- TEAMED:LAST-REVIEWED-V1 END -->
 <!-- TEAMED:G2-BADGE-V1 BEGIN -->
 <div class="trust-g2-awards" aria-label="Teamed G2 awards">
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/summer-2025-easiest-to-do-business-with.png" alt="G2 Summer 2025 — Easiest To Do Business With" loading="lazy"></a>
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/winter-2026-high-performer.png" alt="G2 Winter 2026 — High Performer" loading="lazy"></a>
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/users-love-us.png" alt="G2 — Users Love Us" loading="lazy"></a>
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/spring-2026-emea-high-performer.png" alt="G2 Spring 2026 EMEA — High Performer" loading="lazy"></a>
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/spring-2026-europe-high-performer.png" alt="G2 Spring 2026 Europe — High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/summer-2025-easiest-to-do-business-with.png" alt="G2 Summer 2025 — Easiest To Do Business With" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/winter-2026-high-performer.png" alt="G2 Winter 2026 — High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/users-love-us.png" alt="G2 — Users Love Us" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/spring-2026-emea-high-performer.png" alt="G2 Spring 2026 EMEA — High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/spring-2026-europe-high-performer.png" alt="G2 Spring 2026 Europe — High Performer" loading="lazy"></a>
 </div>
 <!-- TEAMED:G2-BADGE-V1 END -->
 <div class="cta-row">
       <a href="https://www.teamed.global/contact" class="cta primary">Talk to an expert</a>
       <a href="https://www.teamed.global/contact" class="cta secondary">Talk to an expert</a>
     </div>
+
+    <figure class="hero-block">
+      <img src="images/hero.jpg" alt="Aerial view of the City of London skyline at midday, the Walkie-Talkie, Cheesegrater, and Gherkin rising above the financial district.">
+    </figure>
+    <p class="hero-credit">Photo: <a href="https://unsplash.com/@bendavisual?utm_source=teamed&amp;utm_medium=referral" target="_blank" rel="noopener">Benjamin Davies</a> via Unsplash &middot; City of London</p>
   </header>
 
   <nav class="chip-nav" aria-label="UK guide navigation">
     <span class="chip-nav-label">UK guide</span>
-    <a href="/hire-in-united-kingdom/">Overview</a>
-    <a href="/hire-in-united-kingdom/cost-breakdown/">Cost</a>
-    <a href="/hire-in-united-kingdom/eor-vs-entity/">EOR vs entity</a>
-    <a href="/hire-in-united-kingdom/tax-and-payroll/" class="current">Tax & payroll</a>
-    <a href="/hire-in-united-kingdom/benefits/">Benefits</a>
-    <a href="/hire-in-united-kingdom/working-time-and-leave/">Working time</a>
-    <a href="/hire-in-united-kingdom/termination-and-severance/">Termination</a>
-    <a href="/hire-in-united-kingdom/ir35-off-payroll-working/">IR35</a>
-    <a href="/hire-in-united-kingdom/permanent-establishment-risk/">PE risk</a>
-    <a href="/hire-in-united-kingdom/compliance-and-day-one-rights/">Compliance</a>
-    <a href="/hire-in-united-kingdom/probation-and-onboarding/">Probation</a>
-    <a href="/hire-in-united-kingdom/hiring-guide/">Hiring guide</a>
+    <a href="../">Overview</a>
+    <a href="../cost-breakdown/">Cost</a>
+    <a href="../eor-vs-entity/">EOR vs entity</a>
+    <a href="../tax-and-payroll/" class="current">Tax & payroll</a>
+    <a href="../benefits/">Benefits</a>
+    <a href="../working-time-and-leave/">Working time</a>
+    <a href="../termination-and-severance/">Termination</a>
+    <a href="../ir35-off-payroll-working/">IR35</a>
+    <a href="../permanent-establishment-risk/">PE risk</a>
+    <a href="../compliance-and-day-one-rights/">Compliance</a>
+    <a href="../probation-and-onboarding/">Probation</a>
+    <a href="../hiring-guide/">Hiring guide</a>
   </nav>
 
   <div class="capsule film-grain">
@@ -231,7 +306,7 @@
           <tr><td>Up to £12,570</td><td>0% (Personal Allowance)</td><td>£0</td></tr>
           <tr><td>£12,571 to £50,270</td><td>20% (Basic Rate)</td><td>£7,540</td></tr>
           <tr><td>£50,271 to £125,140</td><td>40% (Higher Rate)</td><td>£37,488</td></tr>
-          <tr><td>Above £125,140</td><td>45% (Additional Rate)</td><td>—</td></tr>
+          <tr><td>Above £125,140</td><td>45% (Additional Rate)</td><td>unbounded</td></tr>
         </tbody>
       </table>
 
@@ -244,7 +319,23 @@
   <section class="q" id="paye-rti">
     <h2>How does PAYE Real-Time Information work?</h2>
     <p class="answer-first">PAYE Real-Time Information (RTI) requires employers to submit a <strong>Full Payment Submission (FPS) on or before each payday</strong> reporting earnings, tax, NIC, and pension. Late or missing FPS submissions trigger automatic penalties starting at £100 per month for employers with up to 9 employees.</p>
-    <div class="body"><p>The RTI submissions an employer must file:</p>
+    <div class="body">
+
+      <div class="stamp-block">
+        <div class="stamp">
+          <span class="stamp-num">01</span>
+          <span class="stamp-text">HMRC RTI Filing Cadence</span>
+        </div>
+        <p class="stamp-body">FPS files electronically through HMRC&rsquo;s RTI gateway on or before each pay date, never after. EPS files monthly when claiming Employment Allowance or when no FPS was due. Late-filing penalties stack monthly per HMRC&rsquo;s automated regime; no warning letter precedes them.</p>
+        <div class="tape-row">
+          <span class="tape-label">FPS &middot; on or before payday</span>
+          <span class="tape-label">EPS &middot; monthly if claims</span>
+          <span class="tape-label">P60 &middot; 31 May</span>
+          <span class="tape-label">P11D &middot; 6 July</span>
+        </div>
+      </div>
+
+      <p>The RTI submissions an employer must file:</p>
       <ul>
         <li><strong>FPS (Full Payment Submission)</strong>, on or before each payday, for every employee paid</li>
         <li><strong>EPS (Employer Payment Summary)</strong>, monthly if claims (e.g. Employment Allowance) or no FPS that period</li>
@@ -264,7 +355,9 @@
         </tbody>
       </table>
 
-      <p>The penalty regime stacks. A small employer missing three monthly RTI deadlines incurs £300 in pure penalties before any interest on unpaid tax.</p></div>
+      <p>The penalty regime stacks. A small employer missing three monthly RTI deadlines incurs £300 in pure penalties before any interest on unpaid tax.</p>
+
+      <p>Your in-house UK payroll specialist handles every FPS submission and HMRC liaison directly, not a ticket queue and not a generalist account manager. Same named contact for tax-code queries, P11D edge cases, and the quarterly EPS reconciliation.</p></div>
   </section>
   <section class="q" id="documents">
     <h2>P45, P60, P11D, what each one does</h2>
@@ -285,7 +378,7 @@
   </section>
   <section class="q" id="pension">
     <h2>Pension auto-enrolment in the payroll stack</h2>
-    <p class="answer-first">Pension contributions are <strong>3% employer + 5% employee minimum</strong> on qualifying earnings between £6,240 and £50,270. <a href="/hire-in-united-kingdom/benefits/">Auto-enrolment</a> is automatic from day one of eligibility, every employee aged 22+ earning over £10,000/year must be enrolled into a qualifying scheme.</p>
+    <p class="answer-first">Pension contributions are <strong>3% employer + 5% employee minimum</strong> on qualifying earnings between £6,240 and £50,270. <a href="../benefits/">Auto-enrolment</a> is automatic from day one of eligibility, every employee aged 22+ earning over £10,000/year must be enrolled into a qualifying scheme.</p>
     <div class="body"><p>Operationally:</p>
       <ul>
         <li><strong>Eligible jobholders</strong> (22+, earning over £10,000) are auto-enrolled on day one of eligibility</li>
@@ -317,6 +410,34 @@
 
       <p>The employee&rsquo;s tax code includes a &ldquo;Plan&rdquo; indicator that drives the correct deduction in PAYE. New starters often arrive without their plan correctly mapped on their P45, Teamed&rsquo;s onboarding form collects the data and applies the right code from day one to avoid retrospective corrections.</p></div>
   </section>
+
+  <aside class="teamed-callout" aria-label="What Teamed charges for the UK">
+    <div class="label">What Teamed charges for the UK</div>
+    <p class="price-row">$599 / employee / month <span class="secondary-rate">&pound;479 equivalent &middot; single fixed rate</span></p>
+    <p>You pay <strong>$599 per employee per month</strong>, flat. Invoice in USD, EUR, or GBP (about <strong>&pound;479</strong> at today&rsquo;s rate). The fee is identical across currency pairings: <strong>Zero FX mark-up</strong>, no spread, no premium for paying your UK employee in GBP while your finance team books the bill in USD. Conversion runs at the European Central Bank mid-market rate. The statutory layer above (15 percent employer NIC, 3 percent pension, Apprenticeship Levy where it triggers) sits on top of gross salary, identical to what you&rsquo;d pay running Teamed Ltd&rsquo;s equivalent in your own name. We make no margin on the NIC, the PAYE, or the FX conversion. One number, one invoice, one Teamed-owned UK entity.</p>
+    <p>Start with a single UK contractor on Teamed Guard, graduate to EOR when you&rsquo;re ready to give them benefits, then switch to your own UK entity at the crossover point. <strong>One platform, one contract, one named UK specialist</strong> for the whole journey, tenure preserved.</p>
+  </aside>
+
+  <section class="q" id="honesty-on-cost">
+    <h2>The honest cost trade-off: EOR vs your own UK entity</h2>
+    <p class="answer-first">Teamed&rsquo;s EOR fee is a <strong>single fixed rate of $599 per employee per month</strong> and the statutory NIC, pension, and Apprenticeship Levy <strong>passes through at cost</strong>, itemised on the invoice. No mark-up on statutory, no spread on FX, fully auditable. The trade-off: per-employee fees scale linearly. At a certain headcount, your own UK entity is cheaper per head than EOR plus statutory on the same gross.</p>
+    <div class="body">
+      <table class="data">
+        <thead>
+          <tr><th>Model</th><th>Fixed cost</th><th>Per-employee cost</th><th>Crossover trigger</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Teamed EOR</td><td>Zero setup, zero exit fee</td><td>$599 / month + statutory at cost</td><td>Per-head scales linearly with headcount</td></tr>
+          <tr><td>Your own UK Ltd</td><td>~&pound;15k&ndash;&pound;30k / year (accountant, payroll bureau, pension scheme admin, insurance)</td><td>Pure statutory on gross</td><td>Fixed cost amortises across headcount</td></tr>
+        </tbody>
+      </table>
+
+      <p>Most companies cross over from EOR to their own UK entity at around <strong>15 to 20 UK employees</strong>. The UK threshold sits lower than France or Germany because UK employer NIC (15 percent) is materially lighter than French URSSAF (about 42 percent) or German Sozialversicherung (about 20.7 percent plus higher fixed-cost burden on a GmbH). When EOR stops being the cheaper option for you, we tell you. Run your own numbers in the <a href="https://www.teamed.global/tools/crossover-calculator" target="_blank" rel="noopener">Crossover Calculator</a>, or ask your named UK specialist for the line-by-line comparison.</p>
+
+      <p>This is the honest answer most EOR vendors won&rsquo;t give: EOR is the right model until it isn&rsquo;t. Past the crossover, you graduate from EOR to your own UK entity on the Teamed platform, payroll continuous, tenure preserved, same UK specialist on both sides.</p>
+    </div>
+  </section>
+
   <div class="pullquote">
     <div class="pullquote-label">Paulina Wilk · Head of People and Client Experience, Teamed</div>
     <q>The single most common UK payroll surprise is the £100,000 cliff. A senior employee gets a £105k offer, thinks they&rsquo;re in the higher-rate band, and ends up at an effective 60% marginal rate. Salary-sacrifice pension is the standard fix, but only if it&rsquo;s set up correctly from the offer stage.</q>
@@ -336,10 +457,10 @@
   <aside class="links-rail">
     <h2>Related UK guides</h2>
     <ul>
-      <li><a href="/hire-in-united-kingdom/">Hiring in the United Kingdom, overview</a><span class="context">parent</span></li>
-      <li><a href="/hire-in-united-kingdom/cost-breakdown/">UK employer cost breakdown</a><span class="context">child</span></li>
-      <li><a href="/hire-in-united-kingdom/benefits/">UK benefits</a><span class="context">child</span></li>
-      <li><a href="/hire-in-united-kingdom/compliance-and-day-one-rights/">UK compliance and day-one rights</a><span class="context">child</span></li>
+      <li><a href="../">Hiring in the United Kingdom, overview</a><span class="context">parent</span></li>
+      <li><a href="../cost-breakdown/">UK employer cost breakdown</a><span class="context">child</span></li>
+      <li><a href="../benefits/">UK benefits</a><span class="context">child</span></li>
+      <li><a href="../compliance-and-day-one-rights/">UK compliance and day-one rights</a><span class="context">child</span></li>
       <li><a href="/employer-of-record/">Employer of Record overview</a><span class="context">cluster 2a</span></li>
       <li><a href="https://www.teamed.global/contact">Talk to an expert</a><span class="context">CTA</span></li>
     </ul>

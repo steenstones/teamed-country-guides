@@ -34,6 +34,16 @@ Pages are grouped by country. Each guide includes the statutory rates and tax th
 ## United States
 
 - [Alabama State Income Tax and Unemployment Insurance 2026 | Teamed](/united-states/alabama/state-income-tax-and-unemployment-insurance/): Alabama payroll 2026: 2/4/5% income tax, $1,000 overtime deduction, 2.7% new-employer SUTA on $8,000, Form A-4, A-1, A-6, A-3, 30-day safe harbor.
+- [Alabama Worker Classification (State Test) 2026 | Teamed](/united-states/alabama/worker-classification-state-test/): Alabama worker classification 2026: IRS 20-factor for tax/UI vs right-of-control for workers' comp. SB86 Portable Benefits Act effective Dec 2025. Misclassification cost on $60k worker.
+- [Alabama Termination Law and At-Will Exceptions 2026 | Teamed](/united-states/alabama/termination-law-and-at-will-exceptions/): Alabama at-will employment 2026: narrow public-policy exception only (no implied-contract, no good-faith). Federal Title VII/ADA/ADEA/FMLA exposure is the real risk.
+- [Alabama Paid Family and Sick Leave 2026 | Teamed](/united-states/alabama/paid-family-and-sick-leave/): Alabama has no state PFL or PSL law. Federal FMLA floor (unpaid, 50-employee threshold). Voluntary policy design becomes the employer competitive lever.
+- [Alabama Wage, Overtime and Meal-Break Law 2026 | Teamed](/united-states/alabama/wage-overtime-and-meal-break-law/): Alabama wage law 2026: no state minimum wage (federal $7.25 FLSA applies), no adult meal-break mandate, federal overtime only. Minors under 16 get 30-min meal break.
+- [Alaska State Income Tax and Unemployment Insurance 2026 | Teamed](/united-states/alaska/state-income-tax-and-unemployment-insurance/): Alaska payroll 2026: no state income tax; ONLY state where employees pay UI (0.5%). Employer UI 1.0-5.4% on $54,200 wage base. AS 23.20.
+- [Alaska Termination Law and At-Will Exceptions 2026 | Teamed](/united-states/alaska/termination-law-and-at-will-exceptions/): Alaska at-will employment 2026: broadest exception trio in the US (public policy, implied contract, covenant of good faith). AS 23.05.140 strict 3-day final paycheck rule.
+- [Alaska Worker Classification (State Test) 2026 | Teamed](/united-states/alaska/worker-classification-state-test/): Alaska worker classification 2026: strict statutory ABC test under AS 23.20.525 for UI, right-of-control test for workers' comp (AS 23.30). Stricter than Alabama.
+- [Alaska Paid Family and Sick Leave 2026 | Teamed](/united-states/alaska/paid-family-and-sick-leave/): Alaska sick leave 2026 (Ballot Measure 1, effective 1 July 2025): 40-56 hrs/year accrual depending on employer size. No paid family leave at state level; federal FMLA only.
+- [Alaska Wage, Overtime and Meal-Break Law 2026 | Teamed](/united-states/alaska/wage-overtime-and-meal-break-law/): Alaska wage law 2026: $13/hr minimum (rising to $14 on 1 July, $15 in 2027). Daily 8-hour overtime under AS 23.10.060. No tip credit. AS 23.10.350 minor breaks.
+- [Arizona State Income Tax and Unemployment Insurance 2026 | Teamed](/united-states/arizona/state-income-tax-and-unemployment-insurance/): Arizona payroll 2026: 2.5% flat income tax (ARS § 43-1011), one of the lowest UI wage bases at $8,000. Form A-4, experience-rated employer UI 0.05-14.03%.
 
 ## Contractors
 

@@ -11,7 +11,37 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/_shared/child-base.css">
+<link rel="stylesheet" href="../_shared/child-base.css">
+<style>
+  /* Hero photo — 960px centred, 8px corners, parchment-300 border */
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500); }
+</style>
 <!-- TEAMED:SCHEMA-V1 BEGIN -->
 <script type="application/ld+json">
 {
@@ -37,7 +67,7 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://teamed.global/hire-in-united-kingdom/benefits/"
+    "@id": "https://teamed-country-guides.vercel.app/united-kingdom/benefits/"
   },
   "about": {
     "@type": "Country",
@@ -81,13 +111,13 @@
       "@type": "ListItem",
       "position": 3,
       "name": "United Kingdom",
-      "item": "https://teamed.global/hire-in-united-kingdom/"
+      "item": "https://teamed-country-guides.vercel.app/united-kingdom/"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Benefits",
-      "item": "https://teamed.global/hire-in-united-kingdom/benefits/"
+      "item": "https://teamed-country-guides.vercel.app/united-kingdom/benefits/"
     }
   ]
 }
@@ -131,7 +161,7 @@
 
   <header class="masthead film-grain">
     <div class="breadcrumb">
-      <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; <a href="/hire-in-united-kingdom/">United Kingdom</a> &nbsp;/&nbsp; Benefits
+      <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; <a href="../">United Kingdom</a> &nbsp;/&nbsp; Benefits
     </div>
     <div class="eyebrow">
       <span class="badge">United Kingdom · Benefits child</span>
@@ -147,33 +177,38 @@
 <!-- TEAMED:LAST-REVIEWED-V1 END -->
 <!-- TEAMED:G2-BADGE-V1 BEGIN -->
 <div class="trust-g2-awards" aria-label="Teamed G2 awards">
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/summer-2025-easiest-to-do-business-with.png" alt="G2 Summer 2025 — Easiest To Do Business With" loading="lazy"></a>
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/winter-2026-high-performer.png" alt="G2 Winter 2026 — High Performer" loading="lazy"></a>
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/users-love-us.png" alt="G2 — Users Love Us" loading="lazy"></a>
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/spring-2026-emea-high-performer.png" alt="G2 Spring 2026 EMEA — High Performer" loading="lazy"></a>
-  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="/_shared/g2-badges/spring-2026-europe-high-performer.png" alt="G2 Spring 2026 Europe — High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/summer-2025-easiest-to-do-business-with.png" alt="G2 Summer 2025 — Easiest To Do Business With" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/winter-2026-high-performer.png" alt="G2 Winter 2026 — High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/users-love-us.png" alt="G2 — Users Love Us" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/spring-2026-emea-high-performer.png" alt="G2 Spring 2026 EMEA — High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../_shared/g2-badges/spring-2026-europe-high-performer.png" alt="G2 Spring 2026 Europe — High Performer" loading="lazy"></a>
 </div>
 <!-- TEAMED:G2-BADGE-V1 END -->
 <div class="cta-row">
       <a href="https://www.teamed.global/contact" class="cta primary">Talk to an expert</a>
       <a href="https://www.teamed.global/contact" class="cta secondary">Talk to an expert</a>
     </div>
+
+    <figure class="hero-block">
+      <img src="images/hero.jpg" alt="London skyline at dusk, the Thames curving past the City of London with the Shard and Tower Bridge framing the financial district.">
+    </figure>
+    <p class="hero-credit">Photo: <a href="https://unsplash.com/@bendavisual?utm_source=teamed&amp;utm_medium=referral" target="_blank" rel="noopener">Benjamin Davies</a> via Unsplash &middot; City of London</p>
   </header>
 
   <nav class="chip-nav" aria-label="UK guide navigation">
     <span class="chip-nav-label">UK guide</span>
-    <a href="/hire-in-united-kingdom/">Overview</a>
-    <a href="/hire-in-united-kingdom/cost-breakdown/">Cost</a>
-    <a href="/hire-in-united-kingdom/eor-vs-entity/">EOR vs entity</a>
-    <a href="/hire-in-united-kingdom/tax-and-payroll/">Tax & payroll</a>
-    <a href="/hire-in-united-kingdom/benefits/" class="current">Benefits</a>
-    <a href="/hire-in-united-kingdom/working-time-and-leave/">Working time</a>
-    <a href="/hire-in-united-kingdom/termination-and-severance/">Termination</a>
-    <a href="/hire-in-united-kingdom/ir35-off-payroll-working/">IR35</a>
-    <a href="/hire-in-united-kingdom/permanent-establishment-risk/">PE risk</a>
-    <a href="/hire-in-united-kingdom/compliance-and-day-one-rights/">Compliance</a>
-    <a href="/hire-in-united-kingdom/probation-and-onboarding/">Probation</a>
-    <a href="/hire-in-united-kingdom/hiring-guide/">Hiring guide</a>
+    <a href="../">Overview</a>
+    <a href="../cost-breakdown/">Cost</a>
+    <a href="../eor-vs-entity/">EOR vs entity</a>
+    <a href="../tax-and-payroll/">Tax & payroll</a>
+    <a href="../benefits/" class="current">Benefits</a>
+    <a href="../working-time-and-leave/">Working time</a>
+    <a href="../termination-and-severance/">Termination</a>
+    <a href="../ir35-off-payroll-working/">IR35</a>
+    <a href="../permanent-establishment-risk/">PE risk</a>
+    <a href="../compliance-and-day-one-rights/">Compliance</a>
+    <a href="../probation-and-onboarding/">Probation</a>
+    <a href="../hiring-guide/">Hiring guide</a>
   </nav>
 
   <div class="capsule film-grain">
@@ -184,13 +219,29 @@
   <section class="q" id="statutory-floor">
     <h2>What benefits must you provide UK employees by law?</h2>
     <p class="answer-first">The statutory floor: <strong>5.6 weeks of paid annual leave</strong> (including bank holidays where bundled), <strong>Statutory Sick Pay at £123.25/wk from day one</strong>, day-one paternity / parental / Bereaved Partners leave (from 6 April 2026), and 3% employer pension contribution on qualifying earnings.</p>
-    <div class="body"><table class="data">
+    <div class="body">
+
+      <div class="stamp-block">
+        <div class="stamp">
+          <span class="stamp-num">8%</span>
+          <span class="stamp-text">Combined Pension Auto-Enrol</span>
+        </div>
+        <p class="stamp-body">UK statutory floor for the qualifying-earnings band: 3% employer + 5% employee = 8% combined. SSP runs at &pound;123.25 per week from day one, parental pay sits at &pound;194.32 per week, and statutory annual leave is 5.6 weeks. Teamed Ltd auto-enrols every UK hire on day one; voluntary top-ups (5&ndash;8% match, private medical, EMI) pass through at the actual cost negotiated with the provider.</p>
+        <div class="tape-row">
+          <span class="tape-label">Pension &middot; 3% + 5%</span>
+          <span class="tape-label">SSP &middot; &pound;123.25/wk</span>
+          <span class="tape-label">Leave &middot; 5.6 weeks</span>
+          <span class="tape-label">SMP/SPP &middot; &pound;194.32/wk</span>
+        </div>
+      </div>
+
+      <table class="data">
         <thead>
           <tr><th>Statutory benefit</th><th>Minimum (2026)</th><th>Source</th></tr>
         </thead>
         <tbody>
-          <tr><td>Annual leave</td><td>5.6 weeks (28 days for 5-day worker)</td><td><a href="/hire-in-united-kingdom/working-time-and-leave/">Working Time Regulations</a> 1998</td></tr>
-          <tr><td>Statutory Sick Pay (SSP)</td><td>£123.25/wk, day one, up to 28 weeks</td><td><a href="/hire-in-united-kingdom/compliance-and-day-one-rights/">Employment Rights Act 2025</a></td></tr>
+          <tr><td>Annual leave</td><td>5.6 weeks (28 days for 5-day worker)</td><td><a href="../working-time-and-leave/">Working Time Regulations</a> 1998</td></tr>
+          <tr><td>Statutory Sick Pay (SSP)</td><td>£123.25/wk, day one, up to 28 weeks</td><td><a href="../compliance-and-day-one-rights/">Employment Rights Act 2025</a></td></tr>
           <tr><td>Statutory Maternity Pay (SMP)</td><td>90% of earnings 6 wks, then £194.32/wk for 33 wks</td><td>SSP/SMP Acts</td></tr>
           <tr><td>Statutory Paternity Pay (SPP)</td><td>£194.32/wk for 2 weeks, day-one right</td><td>Employment Rights Act 2025</td></tr>
           <tr><td>Statutory Adoption Pay (SAP)</td><td>Same rates as SMP, 52 wks</td><td>SSP/SMP Acts</td></tr>
@@ -278,7 +329,7 @@
   </section>
   <section class="q" id="teamed-administers">
     <h2>How Teamed administers UK benefits</h2>
-    <p class="answer-first">Teamed Ltd is the legal employer, so we set up and administer the pension, organise statutory benefits, and operate the broker relationships for private medical and other employer-paid benefits. Clients choose which benefits to provide; Teamed runs the operational machinery.</p>
+    <p class="answer-first">Teamed Ltd is the legal employer, so we set up and administer the pension, organise statutory benefits, and operate the broker relationships for private medical and other employer-paid benefits. Clients choose which benefits to provide; Teamed runs the operational machinery on a <strong>single fixed rate of $599 per employee per month</strong>, with voluntary benefits costs passing through at the actual cost negotiated with the provider.</p>
     <div class="body"><p>What&rsquo;s included in Teamed&rsquo;s standard EOR fee:</p>
       <ul>
         <li>Auto-enrolment into a qualifying UK pension scheme</li>
@@ -297,7 +348,13 @@
         <li>Any salary-sacrifice schemes</li>
       </ul>
 
-      <p>The benefits package is bespoke to the client&rsquo;s positioning. Teamed&rsquo;s job is to make the operational mechanics frictionless, not to dictate the package.</p></div>
+      <p>The benefits package is bespoke to the client&rsquo;s positioning. Teamed&rsquo;s job is to make the operational mechanics frictionless, not to dictate the package. Your <strong>in-house UK benefits specialist</strong> &mdash; a named expert, not a ticket queue &mdash; briefs you on pension auto-enrol scheme selection, private medical scoping, and EMI eligibility on a video call. The same in-house HR specialist handles enrolment, P11Ds, and the broker relationships across the lifetime of the engagement.</p>
+
+      <h3>The pricing &mdash; one fixed fee, Zero FX</h3>
+      <p>UK EOR runs at <strong>$599 per employee per month</strong>, a single fixed rate. Pay in dollars, pounds, or euros (around &pound;479 at today&rsquo;s rate). The fee is the same in any currency pairing. We pay UK benefits providers in GBP from your USD account at the ECB mid-market rate &mdash; <strong>Zero FX mark-up</strong>, no hidden spread, no premium on the conversion. Voluntary benefits (private medical premiums, enhanced pension contributions, life assurance, L&amp;D budget) pass through at the actual cost negotiated with the provider. No margin on benefits, no margin on statutory, no margin on FX.</p>
+
+      <h3>One platform, contractor through crossover</h3>
+      <p>Start with one UK contractor on Teamed Guard, graduate to EOR with full benefits enrolment as the team grows, switch to your own UK Ltd at crossover &mdash; <strong>one platform, one contract, benefits portable across modes</strong>. Most companies stay on EOR until 15&ndash;20 UK employees, then run benefits through their own UK entity (the EMI options story above is one of the main triggers). We tell you when you&rsquo;ve crossed the line. Run the <a href="https://www.teamed.global/tools/crossover-calculator" target="_blank" rel="noopener">Crossover Calculator</a> to see the break-even on your current and projected headcount, and graduate from EOR to entity with payroll continuous and benefits tenure preserved.</p></div>
   </section>
   <div class="pullquote">
     <div class="pullquote-label">Paulina Wilk · Head of People and Client Experience, Teamed</div>
@@ -318,11 +375,11 @@
   <aside class="links-rail">
     <h2>Related UK guides</h2>
     <ul>
-      <li><a href="/hire-in-united-kingdom/">Hiring in the United Kingdom, overview</a><span class="context">parent</span></li>
-      <li><a href="/hire-in-united-kingdom/working-time-and-leave/">UK working time and leave</a><span class="context">child</span></li>
-      <li><a href="/hire-in-united-kingdom/cost-breakdown/">UK employer cost breakdown</a><span class="context">child</span></li>
-      <li><a href="/hire-in-united-kingdom/tax-and-payroll/">UK tax and payroll</a><span class="context">child</span></li>
-      <li><a href="/hire-in-united-kingdom/eor-vs-entity/">UK EOR vs entity (EMI options)</a><span class="context">decisive</span></li>
+      <li><a href="../">Hiring in the United Kingdom, overview</a><span class="context">parent</span></li>
+      <li><a href="../working-time-and-leave/">UK working time and leave</a><span class="context">child</span></li>
+      <li><a href="../cost-breakdown/">UK employer cost breakdown</a><span class="context">child</span></li>
+      <li><a href="../tax-and-payroll/">UK tax and payroll</a><span class="context">child</span></li>
+      <li><a href="../eor-vs-entity/">UK EOR vs entity (EMI options)</a><span class="context">decisive</span></li>
       <li><a href="/employer-of-record/">Employer of Record overview</a><span class="context">cluster 2a</span></li>
       <li><a href="https://www.teamed.global/contact">Talk to an expert</a><span class="context">CTA</span></li>
     </ul>

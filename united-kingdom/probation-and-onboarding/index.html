@@ -12,6 +12,76 @@
 <link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../_shared/child-base.css">
+<style>
+  /* Hero photo — 960px centred, 8px corners, parchment-300 border */
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500); }
+
+  /* Teamed-difference callout — pricing block in body */
+  .teamed-callout {
+    max-width: 960px;
+    margin: 40px auto 48px;
+    padding: 28px 32px;
+    background: var(--parchment-100);
+    border-left: 4px solid var(--amber-500);
+    border-radius: 6px;
+  }
+  .teamed-callout .label {
+    font-family: var(--font-family-body);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 14px;
+  }
+  .teamed-callout p {
+    font-family: var(--font-family-body);
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--parchment-800);
+    margin-bottom: 12px;
+  }
+  .teamed-callout p:last-child { margin-bottom: 0; }
+  .teamed-callout .price-row {
+    font-family: var(--font-family-display);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--heading-on-light);
+    letter-spacing: -0.015em;
+    margin-bottom: 8px;
+  }
+  .teamed-callout .price-row .secondary-rate {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    margin-left: 8px;
+  }
+</style>
 <!-- TEAMED:SCHEMA-V1 BEGIN -->
 <script type="application/ld+json">
 {
@@ -158,6 +228,11 @@
       <a href="https://www.teamed.global/contact" class="cta primary">Talk to an expert</a>
       <a href="https://www.teamed.global/contact" class="cta secondary">Talk to an expert</a>
     </div>
+
+    <figure class="hero-block">
+      <img src="images/hero.jpg" alt="Modern City of London skyline at sunrise, glass towers in the financial district rising against a soft amber-blue dawn sky.">
+    </figure>
+    <p class="hero-credit">Photo: <a href="https://unsplash.com/@i_shot_the_sheriff?utm_source=teamed&amp;utm_medium=referral" target="_blank" rel="noopener">Francesco Albertazzi</a> via Unsplash &middot; City of London at sunrise</p>
   </header>
 
   <nav class="chip-nav" aria-label="UK guide navigation">
@@ -258,8 +333,24 @@
   </section>
   <section class="q" id="onboarding-first-90">
     <h2>The 30-60-90 day onboarding standard</h2>
-    <p class="answer-first">Best-in-class UK onboarding follows a <strong>30-60-90 day structure</strong>: month 1 = orientation and observation, month 2 = contribution and feedback, month 3 = independent delivery and probation review. The framework forces the manager to think about milestones rather than just task lists.</p>
-    <div class="body"><table class="data">
+    <p class="answer-first">Strong UK onboarding follows a <strong>30-60-90 day structure</strong>: month 1 = orientation and observation, month 2 = contribution and feedback, month 3 = independent delivery and probation review. The framework forces the manager to think about milestones rather than just task lists.</p>
+    <div class="body">
+
+      <div class="stamp-block">
+        <div class="stamp">
+          <span class="stamp-num">01</span>
+          <span class="stamp-text">UK Day-One Onboarding Pack</span>
+        </div>
+        <p class="stamp-body">UK statutory onboarding is front-loaded onto day one. The written statement of particulars (Section 1, ERA 1996) must now be issued on or before the first day of employment, not within two months as under the old regime. Right-to-work check before the start date. P45 or HMRC Starter Checklist for PAYE. Pension auto-enrolment assessment from day one for eligible workers.</p>
+        <div class="tape-row">
+          <span class="tape-label">Section 1 statement &middot; day one</span>
+          <span class="tape-label">Right-to-work &middot; pre-start</span>
+          <span class="tape-label">P45 / Starter Checklist</span>
+          <span class="tape-label">Auto-enrol assessment</span>
+        </div>
+      </div>
+
+      <table class="data">
         <thead>
           <tr><th>Phase</th><th>Day range</th><th>Manager focus</th><th>Employee focus</th></tr>
         </thead>
@@ -274,7 +365,7 @@
   </section>
   <section class="q" id="teamed-handles">
     <h2>How Teamed supports UK probation and onboarding</h2>
-    <p class="answer-first">Teamed&rsquo;s UK People Ops provides the <strong>contractual structure</strong> (<a href="../hiring-guide/">Section 1 statement</a> with probation clauses), <strong>document templates</strong> (probation review forms, feedback summaries), operational support during reviews, and fair-procedure guidance if termination during probation is needed.</p>
+    <p class="answer-first">Your <strong>in-house UK onboarding specialist</strong> handles right-to-work checks and statutory paperwork, not a ticket queue. Teamed&rsquo;s UK People Ops provides the <strong>contractual structure</strong> (<a href="../hiring-guide/">Section 1 statement</a> with probation clauses), <strong>document templates</strong> (probation review forms, feedback summaries), operational support during reviews, and fair-procedure guidance if termination during probation is needed.</p>
     <div class="body"><p>Specifically, Teamed&rsquo;s standard:</p>
       <ul>
         <li>UK contract includes a configurable probation clause (3, 6, or 9 months as specified)</li>
@@ -284,8 +375,17 @@
         <li>If termination during probation: Teamed runs the procedure end-to-end, the client decides the substantive outcome</li>
       </ul>
 
-      <p>The split: client owns the relationship and the substantive performance assessment. Teamed owns the procedure, documentation, and legal-employer mechanics. The combination keeps probation dismissals defensible without burdening the client with the procedural admin.</p></div>
+      <p>The split: client owns the relationship and the substantive performance assessment. Teamed owns the procedure, documentation, and legal-employer mechanics. The combination keeps probation dismissals defensible without burdening the client with the procedural admin.</p>
+
+      <p>Whether the new hire is a Guard contractor, EOR employee, or going onto your own UK entity, the onboarding flow is consistent, <strong>one platform, one contract</strong>. The named in-house specialist is the same actual person across all three models, so tenure, documentation, and operational history travel with the worker even when the employment model changes underneath them.</p></div>
   </section>
+
+  <aside class="teamed-callout" aria-label="What Teamed charges for UK onboarding">
+    <div class="label">What Teamed charges for the United Kingdom</div>
+    <p class="price-row">$599 / employee / month <span class="secondary-rate">£479 equivalent &middot; single fixed rate</span></p>
+    <p>You pay <strong>$599 per employee per month</strong>, a single fixed rate that includes onboarding handling and statutory paperwork: Section 1 statement on day one, right-to-work verification, P45 or Starter Checklist processing, pension auto-enrolment assessment, and the probation review template pack. Pay UK new hires in GBP from your USD account at ECB mid-market, <strong>Zero FX mark-up</strong> on the first-month payroll and every payroll after that. No hidden spread, no premium for sending dollars and landing pounds in a London account.</p>
+    <p>EOR is the right model until it isn&rsquo;t. Most companies onboard their first 15 to 20 UK hires through Teamed EOR before switching to their own UK entity, because the per-head fee plus statutory cost eventually crosses the fully-loaded cost of running a UK Ltd with in-house payroll. We tell you when you&rsquo;ve crossed it. Run the <a href="https://www.teamed.global/tools/crossover-calculator" target="_blank" rel="noopener">Crossover Calculator</a> with your current headcount, average UK salary, and projected growth, and you&rsquo;ll see the month the model stops being right. When it does, you graduate from EOR to your own UK entity on the same platform, tenure preserved, the same in-house specialist on both sides.</p>
+  </aside>
   <div class="pullquote">
     <div class="pullquote-label">Paulina Wilk · Head of People and Client Experience, Teamed</div>
     <q>Probation is the part of the employment lifecycle where US clients reach for &ldquo;at-will&rdquo; instincts. The UK answer is &ldquo;at-will exists nowhere here.&rdquo; The fix is fair procedure done well, not skipped.</q>
