@@ -1,10 +1,26 @@
 #!/usr/bin/env ts-node
 /**
- * promote.ts — Teamed UK page promotion script
+ * promote.ts — Teamed page promotion script
  *
  * Promotes N pages per day from noindex → indexable.
  * Run once daily: npx ts-node lib/promote.ts N
  * where N = your current phase cap (see ramp schedule below).
+ *
+ * ── COVERAGE ───────────────────────────────────────────────────────────────
+ *  Now covers 17 pages across 5 countries + the US contractor family:
+ *    - United Kingdom: 1 parent + 11 children (under /hire-in-united-kingdom/)
+ *    - Germany: 1 child (/hire-in-germany/tax-and-payroll/)
+ *    - France:  1 child (/hire-in-france/eor-vs-entity/)
+ *    - Spain:   1 child (/hire-in-spain/cost-breakdown/)
+ *    - United States: 1 state-level page
+ *        (/hire-in-united-states/alabama/state-income-tax-and-unemployment-insurance/)
+ *    - Contractors: 1 page (/hire-contractors/united-states/)
+ *
+ *  Phase 0 country pages (Germany, France, Spain, Alabama, US contractors)
+ *  are gated behind the SAME noindex/follow flag as the UK cluster. Promote
+ *  them by adding their fully-qualified path to data/promotion-queue.txt
+ *  (note the new combined queue file; the legacy uk-promotion-queue.txt
+ *  is preserved for backwards compatibility).
  *
  * ── RAMP SCHEDULE ──────────────────────────────────────────────────────────
  *  Week 0-2   (observation hold)   1 / day    — start here on day 1
@@ -18,12 +34,18 @@
  * ───────────────────────────────────────────────────────────────────────────
  *
  * What it does:
- *   1. Reads data/uk-promotion-queue.txt (one slug per line, top = next to promote)
- *   2. Picks the top N slugs
+ *   1. Reads data/promotion-queue.txt — one entry per line. Each entry is
+ *      the full URL path under /public, e.g.
+ *        hire-in-united-kingdom/cost-breakdown
+ *        hire-in-united-kingdom               (parent — no trailing slug)
+ *        hire-in-germany/tax-and-payroll
+ *        hire-in-united-states/alabama/state-income-tax-and-unemployment-insurance
+ *        hire-contractors/united-states
+ *   2. Picks the top N entries
  *   3. Flips <meta name="robots" content="noindex, follow"> to "index, follow"
- *   4. Adds the slug to data/uk-promoted.json
- *   5. Regenerates public/sitemaps/uk-sitemap.xml with newly-promoted pages
- *   6. Removes promoted slugs from the queue
+ *   4. Adds the entry to data/promoted.json
+ *   5. Regenerates public/sitemaps/sitemap.xml with newly-promoted pages
+ *   6. Removes promoted entries from the queue
  *   7. Commits + pushes (optional — pass --commit flag)
  *
  * Usage:
@@ -55,44 +77,65 @@ RAMP.forEach(r => {
 console.log('─────────────────────────────────────────────────')
 console.log(`Promoting ${N} page(s) today.\n`)
 
-const PUBLIC_UK = path.join(process.cwd(), 'public', 'hire-in-united-kingdom')
-const QUEUE_FILE = path.join(process.cwd(), 'data', 'uk-promotion-queue.txt')
-const PROMOTED_FILE = path.join(process.cwd(), 'data', 'uk-promoted.json')
-const SITEMAP_FILE = path.join(process.cwd(), 'public', 'sitemaps', 'uk-sitemap.xml')
+const PUBLIC_ROOT = path.join(process.cwd(), 'public')
+const QUEUE_FILE = path.join(process.cwd(), 'data', 'promotion-queue.txt')
+const PROMOTED_FILE = path.join(process.cwd(), 'data', 'promoted.json')
+const SITEMAP_FILE = path.join(process.cwd(), 'public', 'sitemaps', 'sitemap.xml')
 const SITE_URL = 'https://www.teamed.global'
+
+// Legacy file paths — read fall-throughs so old setups don't break
+const LEGACY_QUEUE_FILE = path.join(process.cwd(), 'data', 'uk-promotion-queue.txt')
+const LEGACY_PROMOTED_FILE = path.join(process.cwd(), 'data', 'uk-promoted.json')
 
 // ── Read queue ───────────────────────────────────────────────────────────────
 
 function readQueue(): string[] {
-  if (!fs.existsSync(QUEUE_FILE)) return []
-  return fs.readFileSync(QUEUE_FILE, 'utf8')
-    .split('\n')
-    .map(l => l.trim())
-    .filter(Boolean)
+  // Prefer the unified queue; fall back to legacy UK queue with auto-prefix.
+  if (fs.existsSync(QUEUE_FILE)) {
+    return fs.readFileSync(QUEUE_FILE, 'utf8')
+      .split('\n')
+      .map(l => l.trim())
+      .filter(Boolean)
+  }
+  if (fs.existsSync(LEGACY_QUEUE_FILE)) {
+    return fs.readFileSync(LEGACY_QUEUE_FILE, 'utf8')
+      .split('\n')
+      .map(l => l.trim())
+      .filter(Boolean)
+      .map(slug => slug ? `hire-in-united-kingdom/${slug}` : 'hire-in-united-kingdom')
+  }
+  return []
 }
 
-function writeQueue(slugs: string[]) {
-  fs.writeFileSync(QUEUE_FILE, slugs.join('\n') + (slugs.length ? '\n' : ''))
+function writeQueue(entries: string[]) {
+  fs.writeFileSync(QUEUE_FILE, entries.join('\n') + (entries.length ? '\n' : ''))
 }
 
 // ── Read/write promoted list ──────────────────────────────────────────────────
 
 function readPromoted(): string[] {
-  if (!fs.existsSync(PROMOTED_FILE)) return []
-  return JSON.parse(fs.readFileSync(PROMOTED_FILE, 'utf8'))
+  if (fs.existsSync(PROMOTED_FILE)) {
+    return JSON.parse(fs.readFileSync(PROMOTED_FILE, 'utf8'))
+  }
+  // Legacy: migrate UK-only promoted list on first run
+  if (fs.existsSync(LEGACY_PROMOTED_FILE)) {
+    const legacy: string[] = JSON.parse(fs.readFileSync(LEGACY_PROMOTED_FILE, 'utf8'))
+    return legacy.map(slug => slug ? `hire-in-united-kingdom/${slug}` : 'hire-in-united-kingdom')
+  }
+  return []
 }
 
-function writePromoted(slugs: string[]) {
-  fs.writeFileSync(PROMOTED_FILE, JSON.stringify(slugs, null, 2))
+function writePromoted(entries: string[]) {
+  fs.writeFileSync(PROMOTED_FILE, JSON.stringify(entries, null, 2))
 }
 
 // ── Flip the meta robots tag in the HTML file ────────────────────────────────
 
-function promoteHtmlFile(slug: string): boolean {
-  // slug is relative to /hire-in-united-kingdom/  e.g. '' for parent, 'cost-breakdown' for child
-  const filePath = slug
-    ? path.join(PUBLIC_UK, slug, 'index.html')
-    : path.join(PUBLIC_UK, 'index.html')
+function promoteHtmlFile(entry: string): boolean {
+  // entry is the path under /public (no leading slash), pointing to the page's directory.
+  // e.g. 'hire-in-united-kingdom', 'hire-in-united-kingdom/cost-breakdown',
+  //      'hire-in-united-states/alabama/state-income-tax-and-unemployment-insurance'
+  const filePath = path.join(PUBLIC_ROOT, entry, 'index.html')
 
   if (!fs.existsSync(filePath)) {
     console.error(`  ✗ File not found: ${filePath}`)
@@ -106,7 +149,7 @@ function promoteHtmlFile(slug: string): boolean {
     '<meta name="robots" content="index, follow">'
   )
   if (html === before) {
-    console.warn(`  ⚠ Already indexable or noindex tag not found: ${slug || '(parent)'}`)
+    console.warn(`  ⚠ Already indexable or noindex tag not found: ${entry}`)
     return false
   }
 
@@ -114,16 +157,14 @@ function promoteHtmlFile(slug: string): boolean {
   return true
 }
 
-// ── Regenerate UK sitemap ─────────────────────────────────────────────────────
+// ── Regenerate sitemap ────────────────────────────────────────────────────────
 
 function regenerateSitemap(promoted: string[]) {
   const dir = path.dirname(SITEMAP_FILE)
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
 
-  const urls = promoted.map(slug => {
-    const url = slug
-      ? `${SITE_URL}/hire-in-united-kingdom/${slug}/`
-      : `${SITE_URL}/hire-in-united-kingdom/`
+  const urls = promoted.map(entry => {
+    const url = `${SITE_URL}/${entry}/`
     return `  <url><loc>${url}</loc></url>`
   })
 
@@ -151,12 +192,12 @@ console.log(`Promoting ${toPromote.length} of ${queue.length} queued pages:\n`)
 const promoted = readPromoted()
 const successfullyPromoted: string[] = []
 
-for (const slug of toPromote) {
-  const ok = promoteHtmlFile(slug)
+for (const entry of toPromote) {
+  const ok = promoteHtmlFile(entry)
   if (ok) {
-    promoted.push(slug)
-    successfullyPromoted.push(slug)
-    console.log(`  ✓ ${slug || '(parent)'} → index, follow`)
+    promoted.push(entry)
+    successfullyPromoted.push(entry)
+    console.log(`  ✓ ${entry} → index, follow`)
   }
 }
 
@@ -169,7 +210,7 @@ if (successfullyPromoted.length > 0) {
 
   if (SHOULD_COMMIT) {
     const msg = `promote: ${successfullyPromoted.join(', ')}`
-    execSync('git add public/hire-in-united-kingdom/ data/ public/sitemaps/')
+    execSync('git add public/ data/')
     execSync(`git commit -m "${msg}"`)
     execSync('git push origin main')
     console.log('\nCommitted and pushed.')
