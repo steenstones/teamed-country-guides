@@ -12,6 +12,36 @@
 <link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/_shared/child-base.css">
+<style>
+  /* Hero photo — 960px centred, 8px corners, parchment-300 border */
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500); }
+</style>
 <!-- TEAMED:SCHEMA-V1 BEGIN -->
 <script type="application/ld+json">
 {
@@ -20,7 +50,7 @@
   "headline": "Hiring Contractors in the United States 2026 | 1099 vs W-2 | Teamed",
   "description": "1099 vs W-2 classification 2026: IRS common-law test, ABC states, California AB5, Section 530, why EOR doesn't cure misclassification.",
   "datePublished": "2026-05-20",
-  "dateModified": "2026-05-20",
+  "dateModified": "2026-05-21",
   "inLanguage": "en-GB",
   "author": {
     "@type": "Organization",
@@ -166,7 +196,7 @@
     <p class="subhead">1099-NEC contractor or W-2 employee is a tax-status call, not a contract call. The IRS, the DOL, and around 30 states each run their own test. EOR doesn&rsquo;t cure prior misclassification.</p>
     <!-- TEAMED:LAST-REVIEWED-V1 BEGIN -->
 <p class="last-reviewed">
-  <time datetime="2026-05-20">Last reviewed 20 May 2026</time> &middot; United States contractor guide
+  <time datetime="2026-05-21">Last reviewed 21 May 2026</time> &middot; United States contractor guide
 </p>
 <!-- TEAMED:LAST-REVIEWED-V1 END -->
 <!-- TEAMED:G2-BADGE-V1 BEGIN -->
@@ -182,6 +212,11 @@
       <a href="/contact/" class="cta primary">Talk to an expert</a>
       <a href="https://cntrctr-cal.vercel.app/" target="_blank" rel="noopener" class="cta secondary">Run the Contractor Classifier</a>
     </div>
+
+    <figure class="hero-block">
+      <img src="images/hero.jpg" alt="Two collaborators working side by side at a long wooden table with laptops open, the canonical look of a US distributed-team workday.">
+    </figure>
+    <p class="hero-credit">Photo: <a href="https://unsplash.com/@surface?utm_source=teamed&amp;medium=referral" target="_blank" rel="noopener">Surface</a> via Unsplash &middot; Remote collaboration, United States</p>
   </header>
 
   <nav class="chip-nav" aria-label="US contractor guide navigation">
@@ -198,7 +233,7 @@
 
   <div class="capsule film-grain">
     <div class="label">Answer.cite this</div>
-    <p class="text">Hiring a US contractor is a classification call before it&rsquo;s a payment call. A 1099-NEC contractor invoices you and files their own tax; a W-2 employee gets PAYE-style withholding, employer FICA at <span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="7.65"><meta itemprop="unitCode" content="P1"><meta itemprop="unitText" content="percent FICA employer share">7.65 percent</span>, plus benefits and unemployment insurance. The IRS runs a three-part common-law test (behavioural control, financial control, relationship). Around 30 states layer a stricter ABC test on top for at least one purpose. California&rsquo;s AB5, in force since 1 January 2020, fails most engagements the IRS would pass. Misclassification carries federal back tax, FICA, three years of unpaid overtime under the FLSA, and a <span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="100"><meta itemprop="unitCode" content="P1"><meta itemprop="unitText" content="percent of federal tax due as wilful misclassification penalty">100 percent</span> wilful penalty under IRC Section 3509. <strong>An EOR doesn&rsquo;t cure prior misclassification.</strong> Moving an at-risk contractor onto an EOR creates a textbook employment arrangement, which the IRS reads as confirmation the worker was already an employee.</p>
+    <p class="text">Hiring a US contractor is a classification call before it&rsquo;s a payment call. A 1099-NEC contractor invoices you and files their own tax; a W-2 employee gets PAYE-style withholding, employer FICA at <span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="7.65"><meta itemprop="unitCode" content="P1"><meta itemprop="unitText" content="percent FICA employer share">7.65 percent</span>, plus benefits and unemployment insurance. The IRS runs a three-part common-law test (behavioural control, financial control, relationship). Around 30 states layer a stricter ABC test on top for at least one purpose. California&rsquo;s AB5, in force since 1 January 2020, fails most engagements the IRS would pass. Misclassification carries federal back tax, FICA, three years of unpaid overtime under the FLSA, and a <span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="100"><meta itemprop="unitCode" content="P1"><meta itemprop="unitText" content="percent of federal tax due as wilful misclassification penalty">100 percent</span> wilful penalty under IRC Section 3509. <strong>An EOR doesn&rsquo;t cure prior misclassification.</strong> Moving an at-risk contractor onto an EOR creates a textbook employment arrangement, which the IRS reads as confirmation the worker was already an employee. Teamed runs <strong>Guard</strong>, <strong>Protect</strong>, and the <strong>Contractor Classifier</strong> on one platform: a named country specialist sits behind every classification call, with the in-house legal team escalating any contested 1099-NEC review to a real human inside 48 hours. You can graduate the same worker from contractor through EOR to your own entity without changing system, audit-trail, or tenure: itemised on the invoice, no markup on statutory cost, transparent pass-through.</p>
   </div>
 
   <section class="q" id="1099-vs-w2">
@@ -228,6 +263,20 @@
     <h2>What is the IRS common-law test for independent contractors?</h2>
     <p class="answer-first">The IRS tests three categories: <strong>behavioural control</strong>, <strong>financial control</strong>, and the <strong>relationship of the parties</strong>. No single factor decides. The arrangement, not the title, controls. The IRS replaced its prior 20-factor test with this three-category framework in 1996, formalised in Publication 15-A.</p>
     <div class="body">
+      <div class="stamp-block">
+        <div class="stamp">
+          <span class="stamp-num">01</span>
+          <span class="stamp-text">Contractor Classification Tests</span>
+        </div>
+        <p class="stamp-body">Four overlapping frameworks decide whether a US worker is a 1099 contractor or a W-2 employee. The IRS common-law test is the federal baseline. The state ABC test sits on top for around 30 states. Section 530 of the Revenue Act of 1978 is a federal safe harbour that can preserve contractor status. The $600 annual aggregate triggers 1099-NEC filing per contractor.</p>
+        <div class="tape-row">
+          <span class="tape-label">IRS Common-Law Test</span>
+          <span class="tape-label">ABC Test &middot; ~30 States</span>
+          <span class="tape-label">Section 530 Safe Harbour</span>
+          <span class="tape-label">1099-NEC &middot; $600 Threshold</span>
+        </div>
+      </div>
+
       <p>The three categories work together: each pushes the engagement toward either employment or self-employment, and the IRS weighs the whole picture. The test is documented in <a href="https://www.irs.gov/publications/p15a" target="_blank" rel="noopener">IRS Publication 15-A</a> and at <a href="https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-defined" target="_blank" rel="noopener">IRS Topic 762</a>.</p>
 
       <h3>1. Behavioural control</h3>
