@@ -1,0 +1,85 @@
+{
+  "row_id": "master-0016",
+  "country": "United States",
+  "state": "Arizona",
+  "slug": "united-states/arizona/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/arizona/state-income-tax-and-unemployment-insurance/",
+  "tier": "US-State",
+  "target_keywords": [
+    "arizona state income tax 2026",
+    "arizona flat tax 2.5 percent",
+    "arizona SUTA wage base 2026",
+    "arizona new employer SUTA rate",
+    "arizona form A-4 percentage election",
+    "arizona form A1-QRT filing",
+    "arizona form A1-R annual reconciliation",
+    "arizona withholding default 2 percent",
+    "arizona minimum wage 2026",
+    "ARS 43-1011 income tax",
+    "arizona DES UIT-0603A FY2026"
+  ],
+  "sources": [
+    {"url": "https://www.azleg.gov/ars/43/01011.htm", "title": "Arizona Revised Statutes 43-1011 — Taxes and tax rates", "accessed_date": "2026-05-21"},
+    {"url": "https://www.azleg.gov/legtext/55leg/1R/summary/S.1828APPROP.DOCX.htm", "title": "SB1828 (55R) Fact Sheet — Arizona flat-tax transition", "accessed_date": "2026-05-21"},
+    {"url": "https://azdor.gov/business/withholding-tax", "title": "Arizona Department of Revenue — Withholding Tax", "accessed_date": "2026-05-21"},
+    {"url": "https://azdor.gov/business/withholding-tax/employer-withholding-filing-obligations", "title": "Arizona Department of Revenue — Employer Withholding Filing Obligations", "accessed_date": "2026-05-21"},
+    {"url": "https://azdor.gov/forms/withholding-forms/arizona-withholding-percentage-election", "title": "Arizona Department of Revenue — Form A-4 Withholding Percentage Election", "accessed_date": "2026-05-21"},
+    {"url": "https://azdor.gov/sites/default/files/document/FORMS_WITHHOLDING_2026_A-4_f.pdf", "title": "Arizona Form A-4 (2026 revision)", "accessed_date": "2026-05-21"},
+    {"url": "https://azdor.gov/forms/withholding-forms/arizona-withholding-reconciliation-tax-return", "title": "Arizona Department of Revenue — Form A1-R Withholding Reconciliation", "accessed_date": "2026-05-21"},
+    {"url": "https://des.az.gov/digital-library/unemployment-insurance-tax-rate-chart-fy-2026-english", "title": "Arizona DES — Unemployment Insurance Tax Rate Chart FY 2026", "accessed_date": "2026-05-21"},
+    {"url": "https://des.az.gov/services/employment/unemployment-employer", "title": "Arizona DES — Unemployment Employer information", "accessed_date": "2026-05-21"},
+    {"url": "https://news.bloombergtax.com/payroll/arizonas-2026-withholding-rates-unchanged-from-2025", "title": "Bloomberg Tax — Arizona's 2026 Withholding Rates Unchanged from 2025", "accessed_date": "2026-05-21"},
+    {"url": "https://www.irs.gov/taxtopics/tc759", "title": "IRS Topic 759 — Form 940 FUTA filing", "accessed_date": "2026-05-21"}
+  ],
+  "generated_at": "2026-05-21T07:10:00Z",
+  "sources_verified_at": "2026-05-21T07:05:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "status": "live", "section": "how-teamed-handles"},
+    {"href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "section": "how-teamed-handles + tagline_close"},
+    {"href": "/contact/", "status": "live", "section": "masthead + tagline_close"},
+    {"href": "/employer-of-record/", "status": "live", "section": "links-rail"}
+  ],
+  "internal_links_plain_text": [
+    {"text": "Hiring in the United States, overview", "intended_href": "/hire-in-united-states/", "section": "links-rail", "reason": "wave-3, US country parent not yet shipped"},
+    {"text": "Arizona overview", "intended_href": "../", "section": "links-rail + chip-nav", "reason": "wave-4, Arizona state parent not yet shipped"},
+    {"text": "8 chip-nav sibling pages (state-tax-and-UI is current; sibling state pages not yet shipped)", "section": "chip-nav", "reason": "wave-4 mass build-out"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 95,
+  "audit_breakdown": {
+    "schema_validity": 10,
+    "schema_completeness": 10,
+    "breadcrumb_depth": 5,
+    "last_reviewed_visible": 5,
+    "g2_badge_row": 5,
+    "customer_strip": 5,
+    "forbidden_words": 10,
+    "no_em_dashes": 5,
+    "answer_first_compliance": 10,
+    "h1_question_state": 5,
+    "css_path": 3,
+    "g2_path": 3,
+    "pricing_visible": 3,
+    "tom_close": 3,
+    "markers": 3,
+    "source_citations": 5,
+    "specific_numbers_per_section": 5,
+    "linter_clean": 1
+  },
+  "retrofit_needed": {
+    "neighbour_state_links": true,
+    "us_country_parent_link": true,
+    "arizona_state_parent_link": true
+  },
+  "high_concern_flags": [
+    {
+      "flag": "link_gate_warn:us_arizona_siblings_wave_n",
+      "severity": "low",
+      "note": "Arizona sibling state-topic pages referenced in chip-nav and links-rail don't exist yet (state parent, minimum-wage-and-overtime, workers-compensation, new-hire-reporting, employer-registrations, paid-leave-and-pto, termination-at-will, hiring-guide). Chip-nav entries rendered as anchors mirroring the Alabama pattern; links-rail US-parent and Arizona-overview rendered as plain text per the link gate. Retrofit when wave-4 US-state mass build-out runs."
+    }
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/arizona.json (created 2026-05-21 by this agent — sets state-level reusable facts for all Arizona siblings)",
+  "kernel_cache_used": "sprint/kernel-cache.json (warmed 2026-05-20)",
+  "linter_status": "pass",
+  "linter_checks": "25/25 passed, 0 block-FAIL, 0 warn-FAIL"
+}

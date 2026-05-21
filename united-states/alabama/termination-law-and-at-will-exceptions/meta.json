@@ -1,0 +1,88 @@
+{
+  "row_id": "master-0005",
+  "slug": "united-states/alabama/termination-law-and-at-will-exceptions",
+  "country": "United States",
+  "page_title": "Termination law and at-will exceptions — Alabama",
+  "type": "programmatic",
+  "tier": "US-State",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": [
+    "wrongful termination alabama",
+    "alabama at will employment",
+    "alabama termination laws",
+    "can you sue for wrongful termination in alabama",
+    "alabama employment laws termination"
+  ],
+  "primary_keyword": {
+    "term": "wrongful termination alabama",
+    "volume": 250,
+    "difficulty": 0,
+    "traffic_potential": 250,
+    "intents": ["informational", "local"]
+  },
+  "audit_score": 96,
+  "linter": "pass",
+  "linter_checks_total": 24,
+  "linter_checks_passed": 24,
+  "editor_rounds": 1,
+  "flags": [],
+  "sources": [
+    "https://www.alfainternational.com/compendium/labor-employment/alabama/",
+    "https://www.wmalabamalaw.com/blog/2015/march/public-policy-exceptions-to-the-employment-at-wi/",
+    "Howard v. Wolff Broadcasting Corp. (Ala. 1992)",
+    "Wright v. Dothan Chrysler Plymouth Dodge (Ala. 1995)",
+    "Hoffman-La Roche v. Campbell, 512 So. 2d 725 (Ala. 1987)",
+    "Abney v. Baptist Medical Centers, 597 So. 2d 682 (Ala. 1992)",
+    "Am. Cast Iron Pipe Co. v. Williams, 591 So. 2d 854 (Ala. 1991)",
+    "Alabama Power Co. v. Aldridge, 854 So. 2d 554 (Ala. 2002)",
+    "Ala. Code Section 25-5-11.1 (workers comp retaliation)",
+    "Ala. Code Section 36-25-24 (public whistleblower)",
+    "Ala. Code Section 12-16-8.1 (jury retaliation)",
+    "Ala. Code Section 26-14-3 (child abuse reporter protection)",
+    "29 U.S.C. Section 2102 (Federal WARN Act); 20 CFR Part 639",
+    "https://alabamaretail.org/news/final-paycheck/",
+    "https://www.eeoc.gov/laws/guidance/enforcement-guidance-retaliation-and-related-issues",
+    "https://adata.org/legal_brief/legal-brief-protection-retaliation",
+    "https://hkm.com/birmingham-alabamas-march-2026-employment-labor-law-cases/"
+  ],
+  "internal_links_used": [
+    {"anchor": "Alabama state income tax & unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "links_rail_sibling", "state": "live"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "links_rail_core", "state": "live"},
+    {"anchor": "Pricing, Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "context": "how_teamed_handles + links_rail", "state": "live"},
+    {"anchor": "Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tagline_close + how_teamed_handles + links_rail", "state": "live"},
+    {"anchor": "Talk to an expert", "href": "/contact/", "context": "cta_row + tagline_close + links_rail", "state": "live"},
+    {"anchor": "Alabama overview", "href": "../", "context": "breadcrumb + chip-nav (wave-4 plain text in links_rail)", "state": "wave-4"},
+    {"anchor": "Hiring in the United States", "href": "../../", "context": "breadcrumb (wave-3 plain text in links_rail)", "state": "wave-3"}
+  ],
+  "image_hero": {
+    "file": "images/hero.jpg",
+    "size_bytes": 103114,
+    "source": "Unsplash",
+    "photographer": "Carol Highsmith's America",
+    "alt": "Alabama Archives and History Museum exterior in Montgomery, classical limestone facade under bright sky.",
+    "query": "Montgomery Alabama state capitol building daylight"
+  },
+  "inline_visual": {
+    "type": "stamp-block + tape-row",
+    "location": "documenting-termination section",
+    "content": "Alabama Termination File — handbook, performance docs, termination letter, final pay"
+  },
+  "page_type_detected": "us_state_child",
+  "retrofit_needed": {
+    "neighbour_links": false,
+    "images": false,
+    "schema": false
+  },
+  "structural_sibling": "united-states/alabama/state-income-tax-and-unemployment-insurance",
+  "exemplar_references": ["uk-cost-breakdown-child.html", "germany-tax-and-payroll-v2-child.html"],
+  "compliance_cache_used": "sprint/compliance-cache/united-states.json (fetched 2026-05-20)",
+  "kernel_cache_used": "sprint/kernel-cache.json (fetched 2026-05-20)",
+  "ahrefs_used": true,
+  "websearch_used": true,
+  "airops_used": false,
+  "compliance_waterfall_used": false,
+  "compliance_waterfall_reason": "Cache present and within TTL; targeted WebSearch sufficient for state-specific termination law overlay",
+  "high_concern_flags": []
+}

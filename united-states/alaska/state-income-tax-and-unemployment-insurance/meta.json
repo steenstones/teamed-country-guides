@@ -1,0 +1,88 @@
+{
+  "row_id": "master-0010",
+  "country": "United States",
+  "state": "Alaska",
+  "slug": "united-states/alaska/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/alaska/state-income-tax-and-unemployment-insurance/",
+  "tier": "US-State",
+  "target_keywords": [
+    "alaska state income tax",
+    "does alaska have state income tax",
+    "alaska unemployment insurance",
+    "alaska sui rate 2026",
+    "alaska employee ui contribution 0.5",
+    "alaska sui wage base 2026",
+    "alaska TQ01C",
+    "alaska employer registration TREG",
+    "alaska employment security act AS 23.20",
+    "alaska payroll tax 2026",
+    "anchorage alaska employer ui"
+  ],
+  "sources": [
+    {"url": "https://labor.alaska.gov/estax/2026-experience-rates.html", "title": "Alaska Department of Labor — 2026 Unemployment Insurance Tax Rates", "accessed_date": "2026-05-21"},
+    {"url": "https://www.labor.alaska.gov/estax/faq/w1.htm", "title": "Alaska Department of Labor — Employment Security Tax FAQ", "accessed_date": "2026-05-21"},
+    {"url": "https://www.labor.alaska.gov/estax/forms/toc_forms.htm", "title": "Alaska Department of Labor — ES Tax Forms (TQ01C, TREG)", "accessed_date": "2026-05-21"},
+    {"url": "https://labor.alaska.gov/estax/documents/taxbook.pdf", "title": "Alaska Department of Labor — Employment Security Tax handbook", "accessed_date": "2026-05-21"},
+    {"url": "https://www.lawserver.com/law/state/alaska/ak-statutes/alaska_statutes_chapter_23-20", "title": "Alaska Statutes Title 23 Chapter 20 — Alaska Employment Security Act (AS 23.20)", "accessed_date": "2026-05-21"},
+    {"url": "https://www.irs.gov/taxtopics/tc759", "title": "IRS Topic 759 — Form 940 FUTA filing", "accessed_date": "2026-05-21"},
+    {"url": "https://labor.alaska.gov/estax/forms/TQ01C-26.pdf", "title": "Alaska Quarterly Contribution Report Form TQ01C (1/26 revision)", "accessed_date": "2026-05-21"}
+  ],
+  "generated_at": "2026-05-21T07:55:00Z",
+  "sources_verified_at": "2026-05-21T07:00:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "status": "live", "section": "how-teamed-handles"},
+    {"href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "section": "how-teamed-handles + tagline_close"},
+    {"href": "/contact/", "status": "live", "section": "masthead + tagline_close"},
+    {"href": "/employer-of-record/", "status": "live", "section": "links-rail"},
+    {"href": "../../alabama/state-income-tax-and-unemployment-insurance/", "status": "live", "section": "links-rail"}
+  ],
+  "internal_links_plain_text": [
+    {"text": "Hiring in the United States, overview", "intended_href": "/hire-in-united-states/", "section": "links-rail", "reason": "wave-3, US country parent not yet shipped"},
+    {"text": "Alaska overview", "intended_href": "../", "section": "links-rail + chip-nav", "reason": "wave-4, Alaska state parent not yet shipped"},
+    {"text": "8 chip-nav sibling pages (state-tax-and-UI is current; sibling Alaska state pages not yet shipped)", "section": "chip-nav", "reason": "wave-4 mass build-out"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 95,
+  "audit_breakdown": {
+    "schema_validity": 10,
+    "schema_completeness": 10,
+    "breadcrumb_depth": 5,
+    "last_reviewed_visible": 5,
+    "g2_badge_row": 5,
+    "customer_strip": 5,
+    "forbidden_words": 10,
+    "no_em_dashes": 5,
+    "answer_first_compliance": 10,
+    "h1_question_state": 5,
+    "css_path": 3,
+    "g2_path": 3,
+    "pricing_visible": 3,
+    "tom_close": 3,
+    "markers": 3,
+    "source_citations": 5,
+    "specific_numbers_per_section": 5
+  },
+  "retrofit_needed": {
+    "neighbour_state_links": true,
+    "us_country_parent_link": true,
+    "alaska_state_parent_link": true,
+    "sibling_alaska_pages": true
+  },
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "severity": "medium",
+      "note": "Alaska 2026 UI taxable wage base cited two ways across sources: $54,200 (Alaska Department of Labor official 2026-experience-rates page — PRIMARY) versus $49,700 (third-party payroll guides including alaskapayrollguide.com). Page uses $54,200 per the primary source. Third-party sources appear to be quoting a stale 2024/2025-style figure. Recommend monitoring at next Alaska rate-notice cycle (winter 2026) to confirm 2027 base."
+    },
+    {
+      "flag": "link_gate_warn:us_alaska_siblings_wave_n",
+      "severity": "low",
+      "note": "Alaska sibling state-topic pages referenced in chip-nav and links-rail don't exist yet (state parent, wages-overtime, workers-comp, new-hire-reporting, employer-registrations, paid-leave-pto, termination-at-will, hiring-guide). Chip-nav entries rendered as anchors mirroring the Alabama/UK/Germany pattern; links-rail US-parent and Alaska-overview rendered as plain text per the link gate. Retrofit when wave-4 US-state mass build-out runs."
+    }
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/united-states.json",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "linter_result": "PASS — 25/25 checks, 0 block-fail, 0 warn-fail",
+  "page_type": "us_state_child",
+  "unique_angle": "Alaska is the only US state where employees pay UI tax (0.5%). Lead with the no-state-income-tax + employee-pays-UI duality."
+}

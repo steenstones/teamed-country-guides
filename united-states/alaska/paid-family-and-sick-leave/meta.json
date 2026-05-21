@@ -1,0 +1,61 @@
+{
+  "row_id": "master-0013",
+  "country": "United States",
+  "state": "Alaska",
+  "slug": "united-states/alaska/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/alaska/paid-family-and-sick-leave/",
+  "page_title": "Paid family and sick leave — Alaska",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": [
+    "alaska paid sick leave law 2026",
+    "alaska ballot measure 1 sick leave",
+    "alaska paid family leave",
+    "alaska FMLA",
+    "alaska sick leave 56 hours",
+    "alaska sick leave 40 hours",
+    "alaska sick leave hours per year"
+  ],
+  "sources": [
+    "https://www.elections.alaska.gov (Ballot Measure 1, 2024 general election)",
+    "Alaska Statutes Title 23, Chapter 10, Article 4A",
+    "Alaska Statutes 23.10.065 (minimum wage staircase)",
+    "Alaska Statutes 26.05.075 (state military leave)",
+    "Alaska Statutes 09.20.037 (jury duty job protection)",
+    "https://www.dol.gov/agencies/whd/fmla",
+    "https://www.dol.gov/agencies/whd/fact-sheets/28-fmla",
+    "https://www.eeoc.gov/pregnant-workers-fairness-act",
+    "https://www.ncsl.org/labor-and-employment/paid-family-leave-resources",
+    "https://www.shrm.org/topics-tools/research/2025-employee-benefits-survey"
+  ],
+  "internal_links_used": [
+    { "anchor": "Alaska termination law and at-will exceptions", "href": "../termination-law-and-at-will-exceptions/", "context": "sibling" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "core" },
+    { "anchor": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "context": "core" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "context": "CTA" },
+    { "anchor": "Hiring in the United States, overview", "href": "wave-3, plain-text", "context": "parent (gated)" },
+    { "anchor": "Alaska overview", "href": "wave-4, plain-text", "context": "state parent (gated)" }
+  ],
+  "editor_rounds": 0,
+  "linter_pass": true,
+  "linter_summary": "24/24 block-severity checks passed; 0 warn-failures",
+  "audit_score": 93,
+  "high_concern_flags": [
+    { "flag": "link_gate_warn", "severity": "low", "detail": "Chip-nav references Alaska sibling pages (state-income-tax-and-unemployment-insurance, minimum-wage-and-overtime, workers-compensation, new-hire-reporting, employer-registrations, hiring-guide) that don't exist yet; mirrors the Alabama sibling convention. Plain-text rendering used for the United States parent and Alaska state-parent in the links-rail. Retrofit chip-nav anchors when those Alaska children ship in wave 4." },
+    { "flag": "factual_uncertainty", "severity": "low", "detail": "Multi-state-headcount question for the 15-employee Ballot Measure 1 threshold is unsettled in early implementing guidance. Page reads conservatively as 'Alaska employees on the Alaska payroll' and flags this as worth checking with counsel. Carry-over cap also has slight ambiguity in early DOL/state guidance (some described as no annual reset, page reflects the cleaner annual-cap = annual-entitlement reading)." },
+    { "flag": "byline_person_schema_pending", "severity": "low", "detail": "Joanna Castens (Chief Legal Officer) pullquote attribution; /team/joanna-castens/ bio + Person schema not yet shipped. Retrofit Person schema link when bio publishes." }
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "neighbor_links": false,
+    "person_schema_byline": true
+  },
+  "page_type": "us_state_child",
+  "word_count_estimate": 2400
+}

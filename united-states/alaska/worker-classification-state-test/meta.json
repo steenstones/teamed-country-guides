@@ -1,0 +1,67 @@
+{
+  "row_id": "master-0012",
+  "slug": "united-states/alaska/worker-classification-state-test",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "target_keywords": [
+    "alaska worker classification test 2026",
+    "alaska abc test independent contractor",
+    "alaska as 23.20.525 employment definition",
+    "alaska independent contractor vs employee",
+    "alaska misclassification penalty",
+    "alaska workers compensation right of control test"
+  ],
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "spec_version": "phase-1.0",
+  "sources": [
+    {"url": "https://labor.alaska.gov/estax/forms/contract.pdf", "title": "Alaska Department of Labor and Workforce Development — Do you have contract labor? (Rev. 12/17)", "accessed": "2026-05-21", "note": "Verbatim statutory text of AS 23.20.525(a)(8)(A)(B)(C) and agency interpretation of each prong, retrieved from official PDF"},
+    {"url": "https://law.justia.com/codes/alaska/title-23/chapter-20/article-9/section-23-20-525/", "title": "AS 23.20.525 — Employment defined", "accessed": "2026-05-21", "note": "HTTP 403 on direct fetch; statutory body confirmed via Alaska Department of Labor PDF"},
+    {"url": "https://www.touchngo.com/lglcntr/akstats/Statutes/Title23/Chapter30.htm", "title": "AS 23.30 — Alaska Workers' Compensation Act (full chapter)", "accessed": "2026-05-21"},
+    {"url": "https://labor.alaska.gov/wc/er-profit.html", "title": "Alaska Division of Workers' Compensation — Workers' Compensation Requirements for Employer", "accessed": "2026-05-21"},
+    {"url": "https://labor.alaska.gov/wc/publications/employer_guide_to_wc_act.pdf", "title": "Alaska Employer's Guide to the Workers' Compensation Act", "accessed": "2026-05-21"},
+    {"url": "https://www.workforcehub.com/hr-laws-and-regulations/alaska/work-and-labor-classification-laws-in-alaska/", "title": "WorkforceHub — Work and Labor Classification Laws in Alaska", "accessed": "2026-05-21", "note": "Secondary, used for cross-validation"},
+    {"url": "https://www.alfainternational.com/compendium/workers-compensation/alaska/", "title": "ALFA International — Alaska Workers' Compensation compendium", "accessed": "2026-05-21"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa/misclassification/2026rulemaking", "title": "U.S. Department of Labor — 2026 Notice of Proposed Rulemaking on FLSA Independent Contractor Classification", "accessed": "2026-05-21"},
+    {"url": "https://www.tcwglobal.com/usa-ic-compliance-guide", "title": "TCWGlobal — USA IC Compliance Guide (state-by-state reference)", "accessed": "2026-05-21"}
+  ],
+  "internal_links_used": [
+    {"href": "../../alabama/worker-classification-state-test/", "anchor": "Alabama worker classification (common-law test) — contrast", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "state": "live"},
+    {"href": "https://cntrctr-cal.vercel.app", "anchor": "Contractor Classifier", "state": "external-tool"},
+    {"href": "https://crso-cal.vercel.app/tools/crossover", "anchor": "EOR vs Entity Crossover Calculator", "state": "external-tool"},
+    {"href": "/contact/", "anchor": "Talk to an expert", "state": "live"},
+    {"href": "../", "anchor": "Alaska overview", "state": "wave-4-plain-text"},
+    {"href": "../../", "anchor": "Hiring in the United States overview", "state": "wave-3-plain-text"}
+  ],
+  "editor_rounds": 1,
+  "linter_status": "PASS",
+  "linter_checks_passed": "24/24",
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "retrofit_needed": {
+    "neighbour_us_state_links": true,
+    "us_country_parent_link": true,
+    "alaska_overview_link": true,
+    "person_schema_bylines": true
+  },
+  "audit_score": 95,
+  "high_concern_flags": [],
+  "compliance_cache_used": "~/.claude/skills/teamed-page-builder/sprint/compliance-cache/united-states.json (no Alaska-specific section; primary statutory data retrieved from Alaska Department of Labor PDF and AS 23.30 chapter)",
+  "kernel_cache_used": "~/.claude/skills/teamed-page-builder/sprint/kernel-cache.json",
+  "hero_image": {
+    "path": "images/hero.jpg",
+    "size_bytes": 240112,
+    "source": "Unsplash",
+    "photo_id": "1704243962389-6e57197ccf09",
+    "photographer": "Yuhan Du",
+    "query": "Anchorage Alaska city with mountains"
+  },
+  "inline_visuals": [
+    {"type": "stamp-block", "id": "all-three-prongs", "location": "abc-prongs section"}
+  ],
+  "notes": "Programmatic US-state child page. Mirrors structural sibling at ../../alabama/worker-classification-state-test/ exactly. Lead is the ABC-test angle (AS 23.20.525), which makes Alaska stricter than Alabama's common-law standard. Pulled verbatim statutory text and agency interpretation from Alaska Department of Labor 'Do you have contract labor?' PDF (Rev. 12/17), which gave clean A/B/C language. Workers' comp track separately cited (AS 23.30, civil penalty up to 3x premium under AS 23.30.080-.085). No state personal income tax track to add. Hero is Yuhan Du Anchorage skyline with Chugach Mountains via Unsplash. No Alaska section in compliance cache; statute body retrieved primary."
+}

@@ -1,0 +1,54 @@
+{
+  "row_id": "master-0007",
+  "country": "United States",
+  "state": "Alabama",
+  "slug": "united-states/alabama/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/alabama/paid-family-and-sick-leave/",
+  "page_title": "Paid family and sick leave — Alabama",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": [
+    "alabama paid family leave",
+    "alabama paid sick leave",
+    "alabama FMLA",
+    "alabama leave law 2026",
+    "FMLA 50 employees alabama"
+  ],
+  "sources": [
+    "https://www.dol.gov/agencies/whd/fmla",
+    "https://www.dol.gov/agencies/whd/fact-sheets/28-fmla",
+    "https://www.eeoc.gov/pregnant-workers-fairness-act",
+    "https://labor.alabama.gov",
+    "https://www.ncsl.org/labor-and-employment/paid-family-leave-resources",
+    "https://www.abetterbalance.org/paid-sick-time-laws/",
+    "https://www.shrm.org/topics-tools/research/2025-employee-benefits-survey"
+  ],
+  "internal_links_used": [
+    { "anchor": "Alabama state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "sibling" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "core" },
+    { "anchor": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "context": "core" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "context": "CTA" },
+    { "anchor": "Hiring in the United States, overview", "href": "wave-3, plain-text", "context": "parent (gated)" }
+  ],
+  "editor_rounds": 0,
+  "linter_pass": true,
+  "linter_summary": "24/24 block-severity checks passed; 0 warn-failures",
+  "audit_score": 92,
+  "high_concern_flags": [
+    { "flag": "link_gate_warn", "severity": "low", "detail": "Chip-nav and links-rail reference Alabama sibling pages and the United States parent that don't exist yet; mirrors the sibling state-tax page convention. Plain-text rendering used for the parent and Alabama overview in the links-rail." },
+    { "flag": "width_drift:inherited_css_clobbers", "severity": "low", "detail": "United States _shared/child-base.css inherits the same 4 margin-clobber patterns as UK; not introduced by this page; will fix as part of the UK-wide CSS retrofit." }
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "neighbor_links": false,
+    "person_schema_byline": true
+  },
+  "page_type": "us_state_child",
+  "word_count_estimate": 2250
+}

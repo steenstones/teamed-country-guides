@@ -1,0 +1,66 @@
+{
+  "row_id": "master-0006",
+  "slug": "united-states/alabama/worker-classification-state-test",
+  "type": "refresh",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "target_keywords": [
+    "alabama worker classification test 2026",
+    "alabama independent contractor vs employee",
+    "alabama irs 20 factor test",
+    "alabama act 2021-226",
+    "alabama misclassification penalty",
+    "alabama portable benefits act sb86"
+  ],
+  "generated_at": "2026-05-21",
+  "sources_verified_at": "2026-05-21",
+  "spec_version": "phase-1.0",
+  "sources": [
+    {"url": "https://law.justia.com/codes/alabama/title-25/chapter-4/article-1/section-25-4-7/", "title": "Code of Alabama §25-4-7 — Employee (Unemployment Compensation)", "accessed": "2026-05-21"},
+    {"url": "https://www.jdsupra.com/legalnews/alabama-legislature-codifies-tests-for-3609397/", "title": "Bradley Arant Boult Cummings — Alabama Legislature Codifies Tests for Employee vs Independent Contractor (HB 408 / Act 2021-226)", "accessed": "2026-05-21"},
+    {"url": "https://www.nathansgibson.org/alabama-statute-establishes-irs-20-factor-test-for-classifying-workers/", "title": "Alabama Statute Establishes IRS 20-Factor Test for Classifying Workers", "accessed": "2026-05-21"},
+    {"url": "https://www.workforcehub.com/hr-laws-and-regulations/alabama/work-and-labor-classification-laws-in-alabama/", "title": "WorkforceHub — Work and Labor Classification Laws in Alabama", "accessed": "2026-05-21"},
+    {"url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/SB86-eng.pdf", "title": "Alabama Senate Bill 86 — Portable Benefits Act, engrossed text", "accessed": "2026-05-21"},
+    {"url": "https://www.fisherphillips.com/en/news-insights/alabama-launches-first-in-the-nation-tax-friendly-portable-benefits-for-independent-contractors-and-gig-workers.html", "title": "Fisher Phillips — Alabama Portable Benefits Act analysis", "accessed": "2026-05-21"},
+    {"url": "https://labor.alabama.gov/uc/COMMON_LAW_FACTORS_WITH_EXAMPLES.pdf", "title": "Alabama Department of Labor — Common Law Factors With Examples", "accessed": "2026-05-21", "note": "HTTP 403 on direct fetch; source title from search results"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa/misclassification/2026rulemaking", "title": "U.S. Department of Labor — 2026 Notice of Proposed Rulemaking on FLSA Independent Contractor Classification", "accessed": "2026-05-21"}
+  ],
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Alabama state income tax and unemployment insurance", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "state": "live"},
+    {"href": "https://cntrctr-cal.vercel.app", "anchor": "Contractor Classifier", "state": "external-tool"},
+    {"href": "https://crso-cal.vercel.app/tools/crossover", "anchor": "EOR vs Entity Crossover Calculator", "state": "external-tool"},
+    {"href": "/contact/", "anchor": "Talk to an expert", "state": "live"},
+    {"href": "../", "anchor": "Alabama overview", "state": "wave-4-plain-text"},
+    {"href": "../../", "anchor": "Hiring in the United States overview", "state": "wave-3-plain-text"}
+  ],
+  "editor_rounds": 1,
+  "linter_status": "PASS",
+  "linter_checks_passed": "24/24",
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "retrofit_needed": {
+    "neighbour_us_state_links": true,
+    "us_country_parent_link": true,
+    "alabama_overview_link": true,
+    "person_schema_bylines": true
+  },
+  "audit_score": 96,
+  "high_concern_flags": [],
+  "compliance_cache_used": "~/.claude/skills/teamed-page-builder/sprint/compliance-cache/united-states.json (Alabama section)",
+  "kernel_cache_used": "~/.claude/skills/teamed-page-builder/sprint/kernel-cache.json",
+  "hero_image": {
+    "path": "images/hero.jpg",
+    "size_bytes": 124199,
+    "source": "Unsplash",
+    "photo_id": "daPFr-vV7Vc",
+    "photographer": "Lance Asper",
+    "query": "Alabama Montgomery skyline"
+  },
+  "inline_visuals": [
+    {"type": "stamp-block", "id": "two-tests-one-hire", "location": "workers-comp-carve-out section"}
+  ],
+  "notes": "Refresh-tier US-state child page. Mirrors structural sibling at ../state-income-tax-and-unemployment-insurance/. Pulled Alabama-specific statutory data from WebSearch + compliance cache; the Department of Labor PDF returned 403 on direct WebFetch — citation kept from search-result snippet which was internally consistent with multiple corroborating sources (Bradley Arant, Nathan Gibson, WorkforceHub)."
+}

@@ -1,0 +1,70 @@
+{
+  "row_id": "master-0008",
+  "slug": "united-states/alabama/wage-overtime-and-meal-break-law",
+  "page_title": "Wage, overtime, and meal-break law — Alabama",
+  "target_url": "/hire-in-united-states/alabama/wage-overtime-and-meal-break-law/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21T07:45:00Z",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": [
+    "alabama wage overtime and meal break law 2026",
+    "alabama minimum wage 2026",
+    "alabama overtime law",
+    "alabama meal break law",
+    "alabama child labor meal break 30 minutes",
+    "alabama wage and hour law"
+  ],
+  "sources": [
+    { "url": "https://labor.alabama.gov/docs/posters/childlaborlawposter_english.pdf", "title": "Alabama Child Labor Law poster", "accessed": "2026-05-21" },
+    { "url": "https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked", "title": "DOL Fact Sheet #22 — Hours Worked under FLSA", "accessed": "2026-05-21" },
+    { "url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "title": "DOL — state minimum wage map", "accessed": "2026-05-21" },
+    { "url": "https://www.revenue.alabama.gov/individual-corporate/overtime-pay-exemption-amended/", "title": "Alabama DOR — Overtime Pay Exemption (Amended)", "accessed": "2026-05-21" },
+    { "url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/alabama/wage-and-hour/", "title": "Alabama wage and hour summary (Employment Law Handbook)", "accessed": "2026-05-21" },
+    { "url": "https://alabamapayrollguide.com/blog/overtime-and-flsa", "title": "Alabama Payroll Guide — Overtime and FLSA", "accessed": "2026-05-21" },
+    { "url": "https://www.connecteam.com/state-labor-laws/alabama/", "title": "Connecteam — Alabama Labor Laws 2026", "accessed": "2026-05-21" },
+    { "url": "https://www.jibble.io/labor-laws/us-state-labor-laws/alabama/break-laws", "title": "Jibble — Alabama Meal and Rest Break Laws 2026", "accessed": "2026-05-21" }
+  ],
+  "internal_links_used": [
+    { "anchor": "Alabama state income tax & unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "links-rail", "state": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "links-rail", "state": "live" },
+    { "anchor": "Pricing — Zero FX Fixed (×2 in body + rail)", "href": "/pricing/zero-fx-fixed/", "context": "answer-first + links-rail", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator (×2 in body + rail + CTA)", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "how-teamed-handles + tagline-close CTA + links-rail", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "context": "masthead + tagline-close + links-rail", "state": "live" }
+  ],
+  "wave_n_links_rendered_plain_text": [
+    { "title": "United States parent", "ships": "wave-3", "shown_as": "plain text — 'Hiring in the United States, overview'" },
+    { "title": "Alabama state parent", "ships": "wave-4", "shown_as": "plain text — 'Alabama overview'" }
+  ],
+  "editor_rounds": 0,
+  "linter": {
+    "ran": true,
+    "result": "PASS",
+    "checks_passed": "24/24",
+    "block_failures": 0,
+    "warn_failures": 0
+  },
+  "audit_score": 95,
+  "audit_score_rationale": "All 24 block-severity linter checks pass cleanly with zero warns. Page mirrors the sibling state-tax exemplar's structure precisely (masthead → breadcrumb → eyebrow → partner-badge → h1 → subhead → last-reviewed → G2 row → CTA → hero → chip-nav → capsule → 7 Q sections → pullquote → tagline-close → links-rail → meta-footer → customer-strip). Inline stamp-block visual satisfies the inline-visual requirement and reinforces the Alabama-only child-labour rule visually. Hero photo from Unsplash (Lance Asper, Birmingham AL) 124KB. Federal-only data with no statutory uncertainty.",
+  "high_concern_flags": [],
+  "retrofit_needed": {
+    "images": false,
+    "internal_links_neighbour_countries": false,
+    "internal_links_state_parent": true,
+    "internal_links_country_parent": true,
+    "notes": "United States parent and Alabama state parent are wave-3/wave-4 — link-gate has rendered them as plain text. Promote to anchors when those pages ship."
+  },
+  "compliance_cache_reused": "sprint/compliance-cache/united-states.json (2026-05-20)",
+  "kernel_cache_reused": "sprint/kernel-cache.json (2026-05-20)",
+  "factual_uncertainty": [],
+  "page_specific_notes": [
+    "Page leads with the practical employer point — Alabama defers to federal law on nearly everything (per row-prompt guidance)",
+    "The one Alabama-only rule (14-15 yr meal break, $300-$5,000 penalty) is given a dedicated section with stamp-block visual",
+    "Multi-state-employer section explicitly contrasts Alabama floor with CA/NY/Oregon/Washington higher mandates",
+    "Overtime tax line (2024 exclusion expired, 2026-2028 $1,000 deduction) included as a confusion-prevention paragraph in the overtime Q-section but the page is wage-and-hour, not tax — links to state-tax sibling for full detail",
+    "Cost-page conditional rule satisfied via 'passes through at cost, itemised on every invoice' anchor in how-teamed-handles section"
+  ]
+}

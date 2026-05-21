@@ -1,0 +1,88 @@
+{
+  "row_id": "master-0014",
+  "country": "United States",
+  "state": "Alaska",
+  "slug": "united-states/alaska/wage-overtime-and-meal-break-law",
+  "page_title": "Wage, overtime, and meal-break law — Alaska",
+  "target_url": "/hire-in-united-states/alaska/wage-overtime-and-meal-break-law/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-21T08:05:00Z",
+  "sources_verified_at": "2026-05-21",
+  "target_keywords": [
+    "alaska wage overtime and meal break law 2026",
+    "alaska minimum wage 2026",
+    "alaska overtime law AS 23.10.060",
+    "alaska daily overtime 8 hours",
+    "alaska tip credit prohibited",
+    "alaska minor break law AS 23.10.350",
+    "alaska voluntary flexible work hour plan",
+    "alaska wage and hour law"
+  ],
+  "sources": [
+    { "url": "https://labor.alaska.gov/lss/whact.htm", "title": "Alaska DOL — Minimum Wage Standard and Overtime Hours", "accessed": "2026-05-21" },
+    { "url": "https://labor.alaska.gov/lss/whfaq.htm", "title": "Alaska DOL — Wage and Hour Frequently Asked Questions", "accessed": "2026-05-21" },
+    { "url": "https://codes.findlaw.com/ak/title-23-labor-and-workers-compensation/ak-st-sect-23-10-060/", "title": "AS 23.10.060 — Payment for overtime (statute text)", "accessed": "2026-05-21" },
+    { "url": "https://law.justia.com/codes/alaska/title-23/chapter-10/article-4/section-23-10-350/", "title": "AS 23.10.350 — Employment of person under 18 (statute text)", "accessed": "2026-05-21" },
+    { "url": "https://labor.alaska.gov/lss/flex.htm", "title": "Alaska DOL — Voluntary Flexible Work Hour Plan", "accessed": "2026-05-21" },
+    { "url": "https://labor.alaska.gov/lss/forms/flexplan.pdf", "title": "Alaska DOL — Flex Plan form and rules", "accessed": "2026-05-21" },
+    { "url": "https://www.labor.state.ak.us/lss/forms/Summary_of_Alaska_Wage_and_Hour_Act-01-2025.pdf", "title": "Alaska DOL — Summary of Alaska Wage and Hour Act (Jan 2025)", "accessed": "2026-05-21" },
+    { "url": "https://ballotpedia.org/Alaska_Ballot_Measure_1,_Minimum_Wage_Increase_and_Paid_Sick_Leave_Initiative_(2024)", "title": "Alaska Ballot Measure 1 (2024) — minimum wage and paid sick leave initiative", "accessed": "2026-05-21" },
+    { "url": "https://labor.alaska.gov/news/2025/news25-11.htm", "title": "Alaska DOL — Minimum Wage will increase July 1, 2025", "accessed": "2026-05-21" },
+    { "url": "https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked", "title": "DOL Fact Sheet #22 — Hours Worked under FLSA", "accessed": "2026-05-21" }
+  ],
+  "internal_links_used": [
+    { "anchor": "Alaska state income tax & unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "links-rail", "state": "live" },
+    { "anchor": "Alaska paid family and sick leave", "href": "../paid-family-and-sick-leave/", "context": "links-rail", "state": "live" },
+    { "anchor": "Alabama wage, overtime and meal-break law", "href": "../../alabama/wage-overtime-and-meal-break-law/", "context": "links-rail", "state": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "links-rail", "state": "live" },
+    { "anchor": "Pricing — Zero FX Fixed (body + rail)", "href": "/pricing/zero-fx-fixed/", "context": "answer-first (how-teamed-handles) + links-rail", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator (body + rail + CTA)", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "how-teamed-handles + tagline-close CTA + links-rail", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "context": "masthead + tagline-close + links-rail", "state": "live" }
+  ],
+  "wave_n_links_rendered_plain_text": [
+    { "title": "United States parent", "ships": "wave-3", "shown_as": "plain text — 'Hiring in the United States, overview'" },
+    { "title": "Alaska state parent", "ships": "wave-4", "shown_as": "plain text — 'Alaska overview'" }
+  ],
+  "editor_rounds": 0,
+  "linter": {
+    "ran": true,
+    "result": "PASS",
+    "checks_passed": "24/24",
+    "block_failures": 0,
+    "warn_failures": 0
+  },
+  "audit_score": 94,
+  "audit_score_rationale": "Page mirrors the sibling Alabama wage-overtime-and-meal-break-law exemplar's structure precisely (masthead → breadcrumb → eyebrow → partner-badge → h1 → subhead → last-reviewed → G2 row → CTA → hero → chip-nav → capsule → 8 Q sections → pullquote → tagline-close → links-rail → meta-footer → customer-strip). Alaska's three structural surprises (daily 8-hour OT, no tip credit, AS 23.10.350 minor breaks) each get a dedicated section; the small-employer (<4) exemption and voluntary flex-plan get explicit treatment inside the overtime section. Inline stamp-block visual reinforces the AS 23.10.350 minor break rule. Hero photo from Unsplash (Simon Hurry, downtown Anchorage night) 207KB. All facts cross-checked against Alaska DOL primary sources (whact.htm, whfaq.htm) and statute text (AS 23.10.060, AS 23.10.350). One mid-year scheduled minimum wage jump (1 Jul 2026) noted in the page and flagged for re-check.",
+  "high_concern_flags": [
+    {
+      "flag": "scheduled_data_update",
+      "severity": "low",
+      "note": "Alaska minimum wage jumps from $13.00 to $14.00 on 1 July 2026 and again to $15.00 on 1 July 2027 per Ballot Measure 1. The capsule, minimum-wage section, and tipped-wages section all reference both the 1 Jan 2026 and 1 Jul 2026 figures. Re-check after 1 July 2026 to confirm the second-half rate landed as scheduled (no court challenge or legislative repeal observed at draft time). Indexing to Anchorage CPI begins 1 January 2028 — first CPI-set rate will need to be sourced from Alaska DOL announcement in late 2027."
+    }
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "internal_links_neighbour_countries": false,
+    "internal_links_state_parent": true,
+    "internal_links_country_parent": true,
+    "internal_links_alaska_sibling_pages_in_chip_nav": true,
+    "notes": "United States parent and Alaska state parent are wave-3/wave-4 — link-gate has rendered them as plain text. Chip-nav references sibling Alaska pages (workers-compensation, new-hire-reporting, employer-registrations, paid-leave-and-pto, termination-at-will, hiring-guide) that ship in wave-4. The existing Alaska state-tax sibling uses 'minimum-wage-and-overtime' in its chip-nav; this page uses 'wage-overtime-and-meal-break-law' per the row spec — a retrofit to align chip-nav across all Alaska sibling pages is queued for wave-4 cleanup."
+  },
+  "compliance_cache_reused": "sprint/compliance-cache/united-states.json (2026-05-20) — used for federal baseline only (FLSA $7.25, $684 salary basis, FUTA, PUMP Act). Alaska-specific facts verified via WebSearch against Alaska DOL primary sources on 2026-05-21.",
+  "kernel_cache_reused": "sprint/kernel-cache.json (2026-05-20)",
+  "factual_uncertainty": [],
+  "page_specific_notes": [
+    "Page leads with the multi-pronged employer surprise — Alaska is one of only two US states with mandatory daily overtime (with California), and one of only seven states that prohibit the FLSA tip credit entirely",
+    "The 4-employee small-employer exemption from AS 23.10.060(d)(5) is given explicit treatment because most early-stage US clients sit inside it on day one",
+    "Voluntary flexible work-hour plan (AS 23.10.060(15); 8 AAC 15.102) framed as the practical pressure valve for compressed schedules; Teamed handles the DOL filing",
+    "AS 23.10.350 minor break rule treated with the stamp-block visual — single Alaska-only statutory addition above federal floor on the breaks side",
+    "Multi-state-employer section explicitly contrasts Alaska's daily OT + no tip credit floor with California's meal/rest break premiums and federal-floor states",
+    "Cost-page conditional rule satisfied via 'passes through at cost, itemised on every invoice' anchor in how-teamed-handles section",
+    "Cross-state sibling link to Alabama wage-overtime-and-meal-break-law added in links-rail to seed wave-2 US state cross-linking",
+    "Chip-nav uses 'wage-overtime-and-meal-break-law' per row slug; existing Alaska state-tax sibling chip-nav uses 'minimum-wage-and-overtime' — alignment retrofit queued"
+  ]
+}
