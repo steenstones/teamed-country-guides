@@ -1,0 +1,102 @@
+{
+  "row_id": "master-0047",
+  "slug": "united-states/delaware/termination-law-and-at-will-exceptions",
+  "country": "United States",
+  "state": "Delaware",
+  "tier": "US-State",
+  "title": "Termination law and at-will exceptions — Delaware",
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "target_keywords": [
+    "delaware termination law and at-will exceptions 2026",
+    "delaware at-will employment",
+    "19 del c 1103 final paycheck",
+    "ddea 300 days 4 employees",
+    "dupont v pressman 1996 implied covenant",
+    "schuster v derocili 2001",
+    "lord v souder 2000 public policy",
+    "mann v cargill poultry handbook implied contract",
+    "delaware whistleblowers protection act 1701 1708",
+    "sb 35 wage theft 11 del c 841d"
+  ],
+  "editor_rounds": 0,
+  "internal_links_used": [
+    "/employer-of-record/",
+    "/pricing/zero-fx-fixed/",
+    "https://www.teamed.global/tools/crossover-calculator",
+    "https://www.teamed.global/tools/employer-cost",
+    "https://www.teamed.global/contact",
+    "../state-income-tax-and-unemployment-insurance/",
+    "../../connecticut/termination-law-and-at-will-exceptions/",
+    "../../california/termination-law-and-at-will-exceptions/",
+    "../../colorado/termination-law-and-at-will-exceptions/",
+    "../../arkansas/termination-law-and-at-will-exceptions/"
+  ],
+  "retrofit_needed": {
+    "neighbour_links": false,
+    "images": false,
+    "parent_link": true
+  },
+  "audit_score": 90,
+  "high_concern_flags": [
+    {
+      "code": "factual_uncertainty:prompt_correction",
+      "detail": "Prompt asserted 19 Del. C. § 1109 requires wages 'due and payable within 7 days of payday → criminal misdemeanour for late pay'. Verified against primary source (Justia codified statute): § 1109 is actually the 'Benefits and wage supplements' provision (30-day rule for employer benefits payments), NOT a 7-day rule and NOT the criminal-wage-theft hook. The criminal wage-theft statute is 19 Del. C. § 1102A (substantive definition under SB 35, 2024) cross-referenced into 11 Del. C. § 841D (Class E felony for wage theft >$1,500; Class B misdemeanour at or below; aggregation permitted). Page treats § 1102A / § 841D as the criminal hook and frames § 1109 correctly. Sources: https://law.justia.com/codes/delaware/title-19/chapter-11/section-1109/ ; https://law.justia.com/codes/delaware/title-11/chapter-5/subchapter-iii/section-841d/"
+    },
+    {
+      "code": "factual_uncertainty:prompt_correction",
+      "detail": "Prompt asserted Schuster v. Derocili '2002'. Verified: case decided in 2001 (775 A.2d 1029). Page uses correct 2001 year throughout. Source: https://caselaw.findlaw.com/de-supreme-court/1121045.html"
+    },
+    {
+      "code": "factual_uncertainty:prompt_correction",
+      "detail": "Prompt asserted '19 Del Code § 1103 — next regular payday for both voluntary and involuntary'. VERIFIED CORRECT but with material refinement: § 1103 requires next regular payday OR 3 business days after last day worked, WHICHEVER IS LATER. The 3-business-day floor is sometimes missed in summary treatments. Page treats the rule correctly with the 'whichever is later' floor explicitly stated throughout (capsule, deadlines table, body text, Teamed-handles section, tagline-close). Source: https://law.justia.com/codes/delaware/title-19/chapter-11/section-1103/"
+    },
+    {
+      "code": "factual_uncertainty:prompt_correction",
+      "detail": "Prompt asserted 'Delaware Supreme Court IS notable for recognising the covenant exception in narrow circumstances'. VERIFIED CORRECT. DuPont v. Pressman (1996) is the seminal Delaware Supreme Court case recognising the implied covenant of good faith and fair dealing in every Delaware employment contract, narrowly construed across four categories: (i) public-policy violation; (ii) employer misrepresentation with detrimental reliance; (iii) deprivation of clearly identifiable compensation for past service; (iv) falsification of records to create fictitious grounds for termination. The four-category structure is preserved verbatim throughout the page (capsule, at-will-exceptions table, Pressman in-practice section, practical-risk section, tagline-close). Source: https://law.justia.com/cases/delaware/supreme-court/1996/679-a-2d-436-1.html"
+    },
+    {
+      "code": "compliance_cache_used",
+      "detail": "Delaware compliance-cache (sprint/compliance-cache/delaware.json, fetched 2026-05-26) reused without modification for partner-entity badge (Teamed US Inc., Delaware — Teamed-owned entity), incorporation-vs-employment statutory framework (Title 8 corporate vs Title 19 employment), 2026 SUI parameters ($14,500 wage base under HB 433 2024 phase-in, Schedule B, 1.0% new employer rate), and City of Wilmington 1.25% wage tax reference. The cache had no termination-specific data; WebSearch + WebFetch supplied DuPont v. Pressman, Lord v. Souder, Schuster v. Derocili, Mann v. Cargill Poultry, Merrill v. Crothall-American, Delaware Whistleblowers' Protection Act, DDEA filing window, and 19 Del. C. § 1103 mechanics."
+    },
+    {
+      "code": "pullquote_anonymised",
+      "detail": "Per CRITICAL pullquote provenance rule, no MI semantic_search attempted for named Delaware termination quotes (sibling state pattern; MI MCP unreliable for state-specific termination content). Pullquote labelled 'Teamed Legal Operations' (anonymised team-function label, no <cite>, no named individual). Tom Price-Daniel tagline close stays as brand voice (exempt from MI provenance requirement). No named-individual SME pullquote shipped without MI provenance. No fabricated <cite> sources anywhere on the page."
+    },
+    {
+      "code": "link_gate_warn:us_parent_delaware_parent_wave_3_wave_4",
+      "detail": "Chip-nav references Delaware siblings (overview, state-income-tax-and-unemployment-insurance, wage-overtime, classification, paid-family-and-sick-leave, termination). Only state-income-tax-and-unemployment-insurance currently exists as live sibling. Other siblings rendered as chip-nav anchors that will resolve when those siblings ship. Links-rail references US parent (wave-3) and Delaware state parent (wave-4) as plain-text per link gate. Cross-state termination peers (Connecticut, California, Colorado, Arkansas) link as live anchors. Auto-promote when targets ship."
+    },
+    {
+      "code": "secondary_cta_real_destinations",
+      "detail": "Both secondary CTAs link to real Teamed tool destinations per SECONDARY CTA RULE — masthead secondary points to Employer Cost Calculator (https://www.teamed.global/tools/employer-cost), tagline-close secondary points to Crossover Calculator (https://www.teamed.global/tools/crossover-calculator). No staging-app URLs anywhere."
+    },
+    {
+      "code": "corporate_incorporation_lead",
+      "detail": "Per orchestrator guidance, page leads with the corporate-vs-employment distinction (mirrors the state-tax sibling page) before pivoting to the at-will baseline and the Pressman covenant exception. This is the differentiated angle for Delaware among US-state termination pages — competitor content does not lead on this. Section #incorporation-vs-employment is the first Q-block before #is-delaware-at-will. The distinction also surfaces in the practical-risk section (#practical-risk) under the 'Delaware-incorporation confusion' bullet."
+    },
+    {
+      "code": "linter_first_pass_two_block_fail_fixed",
+      "detail": "First linter pass returned 2 block-FAIL: meta.description_length (169 chars, limit 165) — shortened to under-limit by tightening to 'covenant four-category' + 'sexual-advance exception' phrasing; voice.no_forbidden_words found 'landscape' in the paid-leave note bullet — replaced with 'footprint'. Both meta-description elements (HTML meta tag and Article schema description) synchronised. Second linter pass: 26/26 checks PASS, 0 block-FAIL."
+    }
+  ],
+  "sources": [
+    {"url": "https://law.justia.com/cases/delaware/supreme-court/1996/679-a-2d-436-1.html", "title": "E.I. DuPont de Nemours & Co. v. Pressman, 679 A.2d 436 (Del. 1996)", "accessed": "2026-05-26"},
+    {"url": "https://caselaw.findlaw.com/de-supreme-court/1121045.html", "title": "Schuster v. Derocili, 775 A.2d 1029 (Del. 2001)", "accessed": "2026-05-26"},
+    {"url": "https://caselaw.findlaw.com/court/de-supreme-court/1058487.html", "title": "Lord v. Souder, 748 A.2d 393 (Del. Super. Ct. 2000)", "accessed": "2026-05-26"},
+    {"url": "https://www.alfainternational.com/compendium/labor-employment/delaware/", "title": "ALFA International — Delaware Labor and Employment Compendium (Mann v. Cargill Poultry; Merrill v. Crothall-American; Pressman; Lord v. Souder; DDEA; Whistleblowers' Protection Act)", "accessed": "2026-05-26"},
+    {"url": "https://legalclarity.org/is-delaware-an-at-will-employment-state/", "title": "LegalClarity — Is Delaware an At-Will Employment State?", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/delaware/title-19/chapter-11/section-1103/", "title": "19 Delaware Code § 1103 (2024) — Employees separated from the payroll before regular payday; damages for failure to pay wages", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/delaware/title-19/chapter-11/section-1109/", "title": "19 Delaware Code § 1109 — Benefits and wage supplements (clarifying § 1109 is benefits-and-supplements provision, NOT 7-day wage rule)", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/delaware/title-11/chapter-5/subchapter-iii/section-841d/", "title": "11 Delaware Code § 841D — Wage theft; class E felony (SB 35, 2024)", "accessed": "2026-05-26"},
+    {"url": "https://legis.delaware.gov/BillDetail?LegislationId=109494", "title": "Delaware General Assembly — SB 35 (2024) wage theft criminal classification", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/delaware/title-19/chapter-7/subchapter-ii/section-711/", "title": "19 Delaware Code § 711 (2025) — Unlawful employment practices; employer practices (DDEA)", "accessed": "2026-05-26"},
+    {"url": "https://labor.delaware.gov/divisions/industrial-affairs/discrimination/file-a-charge/", "title": "Delaware Department of Labor — File a Charge (Office of Anti-Discrimination, dual-filing with EEOC, 300-day window)", "accessed": "2026-05-26"},
+    {"url": "https://delcode.delaware.gov/title19/c017/index.html", "title": "19 Delaware Code Chapter 17 — Delaware Whistleblowers' Protection Act (§§ 1701-1708)", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/delaware/title-19/chapter-17/", "title": "19 Delaware Code Chapter 17 — Whistleblowers' Protection (codified, with § 1708 burden of proof)", "accessed": "2026-05-26"},
+    {"url": "https://www.connollygallagher.com/news/deadlines-to-file-charges-of-discrimination-in-delaware-may-be-enlarged/", "title": "Connolly Gallagher — Deadlines to File Charges of Discrimination in Delaware (DDEA 300-day window, dual-filing with EEOC)", "accessed": "2026-05-26"},
+    {"url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/delaware/wage-payment/", "title": "Employment Law Handbook — Delaware Wage Payment Laws", "accessed": "2026-05-26"},
+    {"url": "https://www.casemine.com/commentary/us/reaffirming-employment-at-will-with-a-narrow-application-of-the-covenant-of-good-faith:-dupont-v.-pressman/view", "title": "CaseMine — Reaffirming Employment-At-Will with a Narrow Application of the Covenant of Good Faith: DuPont v. Pressman (four-category structure)", "accessed": "2026-05-26"},
+    {"url": "https://kkc.com/delaware-whistleblower-law/", "title": "Kohn, Kohn & Colapinto — Delaware Whistleblower Protection Cases (3-year SOL, broad employee definition)", "accessed": "2026-05-26"}
+  ]
+}

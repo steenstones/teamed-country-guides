@@ -1,0 +1,76 @@
+{
+  "row_id": "master-0053",
+  "country": "United States",
+  "state": "Florida",
+  "slug": "united-states/florida/termination-law-and-at-will-exceptions",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "target_keywords": [
+    "florida termination law",
+    "florida at-will employment",
+    "florida wrongful termination",
+    "florida public policy exception",
+    "florida civil rights act termination",
+    "florida whistleblower act 448.102",
+    "florida workers comp retaliation 440.205",
+    "florida final paycheck law",
+    "florida WARN act mass layoff",
+    "florida implied contract handbook",
+    "hartley v ocean reef club"
+  ],
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26T00:00:00Z",
+  "spec_version": "phase-1.0",
+  "exemplars_used": [
+    "references/exemplar-pages/uk-cost-breakdown-child.html (structural spine)",
+    "references/exemplar-pages/germany-tax-and-payroll-v2-child.html (visual + Teamed-difference density)",
+    "output/country-guides/united-states/alabama/termination-law-and-at-will-exceptions/index.html (sibling at-will-minimalist state — direct framing model per orchestrator)"
+  ],
+  "compliance_cache": "sprint/compliance-cache/florida.json (payroll-scoped; supplemented with WebSearch on termination-specific facts)",
+  "kernel_cache_used": true,
+  "internal_links_used": [
+    {"anchor": "Florida state income tax & reemployment tax", "href": "../state-income-tax-and-unemployment-insurance/", "context": "links-rail · same-state sibling"},
+    {"anchor": "Alabama termination law & at-will exceptions", "href": "../../alabama/termination-law-and-at-will-exceptions/", "context": "links-rail · sibling state · peer minimalist regime"},
+    {"anchor": "California termination law & at-will exceptions", "href": "../../california/termination-law-and-at-will-exceptions/", "context": "links-rail · sibling state · high-protection contrast"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "links-rail · core"},
+    {"anchor": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "context": "links-rail + how-teamed-handles · core"},
+    {"anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "links-rail + how-teamed-handles + tagline-close · tool"},
+    {"anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "context": "masthead + tagline-close + links-rail · CTA"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 91,
+  "retrofit_needed": {
+    "neighbour_country_links": false,
+    "us_parent_link": true,
+    "florida_parent_link": true,
+    "images": false
+  },
+  "high_concern_flags": [
+    "factual_uncertainty:prompt_correction"
+  ],
+  "high_concern_notes": [
+    "Steen's prompt was provisional. Verified primary sources and refined: (a) public-policy exception anchor case is Hartley v. Ocean Reef Club, Inc., 476 So. 2d 1327 (Fla. 3d DCA 1985), not a Florida Supreme Court decision; (b) Florida sits with Georgia, Louisiana, Rhode Island as the four states rejecting the broad public-policy exception; (c) FCRA filing window with FCHR is 365 days (NOT the 180-day equivalent of Title VII's EEOC clock — it's longer); (d) Florida is an EEOC deferral state via the FCHR, so the EEOC clock is 300 days, not 180; (e) Florida HAS a private-sector Whistleblower Act (FS § 448.102, 10+ employees), unlike Alabama which only covers public employees; (f) HB 1407 (effective 1 July 2026) clarifies the EEOC NRTS as a statute-of-limitations trigger for FCRA civil actions."
+  ],
+  "sources": [
+    {"url": "https://case-law.vlex.com/vid/hartley-v-ocean-reef-893055213", "title": "Hartley v. Ocean Reef Club, Inc., 476 So. 2d 1327 (Fla. 3d DCA 1985)", "accessed": "2026-05-26"},
+    {"url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0448/Sections/0448.102.html", "title": "Fla. Stat. § 448.102 — Florida Private Sector Whistleblower Act", "accessed": "2026-05-26"},
+    {"url": "https://www.flsenate.gov/Laws/Statutes/2021/440.205", "title": "Fla. Stat. § 440.205 — Workers' Compensation Retaliation", "accessed": "2026-05-26"},
+    {"url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0040/Sections/0040.271.html", "title": "Fla. Stat. § 40.271 — Jury Duty Retaliation", "accessed": "2026-05-26"},
+    {"url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799%2F0760%2F0760.html", "title": "Fla. Stat. Chapter 760 — Florida Civil Rights Act", "accessed": "2026-05-26"},
+    {"url": "https://www.jacksonlewis.com/insights/amended-florida-civil-rights-act-reduces-both-administrative-delay-and-businesses-legal-exposure", "title": "Amended Florida Civil Rights Act (HB 1407, effective 1 July 2026) — Jackson Lewis analysis", "accessed": "2026-05-26"},
+    {"url": "https://www.dol.gov/agencies/whd/state/wages", "title": "US DOL — Wage and Hour Division (FLSA final pay default)", "accessed": "2026-05-26"},
+    {"url": "https://www.dol.gov/agencies/eta/layoffs/warn", "title": "US DOL — Federal WARN Act (29 USC § 2102)", "accessed": "2026-05-26"},
+    {"url": "https://floridajobs.org/office-directory/division-of-workforce-services/workforce-programs/worker-adjustment-and-retraining-notification-(warn)-act", "title": "FloridaCommerce — WARN Act administration (REACT team)", "accessed": "2026-05-26"},
+    {"url": "https://www.eeoc.gov/employees/timeliness", "title": "EEOC — Time limits for filing a charge (300 days in deferral states)", "accessed": "2026-05-26"}
+  ],
+  "pullquote_provenance": [
+    {
+      "type": "anonymous-team",
+      "speaker": "Teamed Client Operations",
+      "mi_extraction_id": null,
+      "rationale": "No MI-approved quote on Florida termination available. Pullquote anonymised to Teamed Client Operations per skill rules. No <cite> line."
+    }
+  ]
+}

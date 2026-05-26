@@ -1,0 +1,69 @@
+{
+  "row_id": "master-0055",
+  "country": "United States",
+  "state": "Florida",
+  "slug": "united-states/florida/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/florida/paid-family-and-sick-leave/",
+  "page_title": "Paid family and sick leave — Florida",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-26",
+  "sources_verified_at": "2026-05-26",
+  "target_keywords": [
+    "florida paid family leave",
+    "florida paid sick leave",
+    "florida FMLA",
+    "florida leave law 2026",
+    "florida statute 218.077 preemption",
+    "FMLA 50 employees florida"
+  ],
+  "sources": [
+    "https://www.dol.gov/agencies/whd/fmla",
+    "https://www.dol.gov/agencies/whd/fact-sheets/28-fmla",
+    "https://www.eeoc.gov/pregnant-workers-fairness-act",
+    "https://www.flsenate.gov/Laws/Statutes/2024/218.077",
+    "https://www.flsenate.gov/Laws/Statutes/2024/250.482",
+    "https://www.flsenate.gov/Laws/Statutes/2024/40.271",
+    "https://www.flsenate.gov/Laws/Statutes/2024/40.24",
+    "https://www.flsenate.gov/Session/Bill/2026/220",
+    "https://www.ncsl.org/labor-and-employment/paid-family-leave-resources",
+    "https://www.abetterbalance.org/paid-sick-time-laws/",
+    "https://www.shrm.org/topics-tools/research/2025-employee-benefits-survey"
+  ],
+  "internal_links_used": [
+    { "anchor": "Florida state income tax and reemployment tax", "href": "../state-income-tax-and-unemployment-insurance/", "context": "sibling" },
+    { "anchor": "Alabama paid family and sick leave", "href": "../../alabama/paid-family-and-sick-leave/", "context": "sibling state" },
+    { "anchor": "Arkansas paid family and sick leave", "href": "../../arkansas/paid-family-and-sick-leave/", "context": "sibling state" },
+    { "anchor": "California paid family and sick leave", "href": "../../california/paid-family-and-sick-leave/", "context": "sibling state" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "context": "CTA" },
+    { "anchor": "Hiring in the United States, overview", "href": "wave-3, plain-text", "context": "parent (gated)" },
+    { "anchor": "Florida overview", "href": "wave-4, plain-text", "context": "state parent (gated)" }
+  ],
+  "editor_rounds": 1,
+  "linter_pass": true,
+  "linter_summary": "26/26 block-severity checks passed; 0 warn-failures",
+  "audit_score": 92,
+  "high_concern_flags": [
+    { "flag": "link_gate_warn", "severity": "low", "detail": "Chip-nav and links-rail reference Florida sibling pages and the United States parent that don't exist yet; mirrors the Alabama / Arkansas sibling state pattern. Plain-text rendering used for the parent and Florida overview in the links-rail." },
+    { "flag": "factual_uncertainty:provisional_legislation", "severity": "low", "detail": "SB 220 (2026 Session) bill status referenced as 'proposes' / 'as of May 2026 not enacted'. If bill moves before next page review, update SB 220 sentence in state-pfl section and capsule." }
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "neighbor_links": false,
+    "person_schema_byline": true
+  },
+  "page_type": "us_state_child",
+  "word_count_estimate": 2650,
+  "pullquote_provenance": {
+    "speaker_attribution": "Teamed Legal Operations",
+    "provenance_path": "anonymised_function_line",
+    "mi_extraction_id": null,
+    "cite_source": null,
+    "rationale": "No MI quote queried for FL-218.077-preemption topic; function-line anonymisation per pullquote provenance rule."
+  },
+  "distinctive_angle": "FL has no state PFL, no state PSL, AND FL Stat § 218.077 preempts cities/counties from creating either — distinguishes Florida from CA/NY/IL where cities can layer on top. Most administratively-simple multi-city leave admin in the US."
+}

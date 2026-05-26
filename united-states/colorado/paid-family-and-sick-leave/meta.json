@@ -1,0 +1,170 @@
+{
+  "row_id": "master-0037",
+  "country": "United States",
+  "state": "Colorado",
+  "slug": "united-states/colorado/paid-family-and-sick-leave",
+  "page_title": "Paid family and sick leave — Colorado",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "target_keywords": [
+    "colorado paid family and sick leave 2026",
+    "colorado HFWA 48 hours paid sick leave",
+    "HFWA public health emergency 80 hours supplemental",
+    "colorado FAMLI 12 weeks paid family leave 2026",
+    "FAMLI 16 weeks pregnancy complications",
+    "FAMLI 180-day job protection threshold",
+    "colorado FAMLI private plan opt-out"
+  ],
+  "internal_links_used": [
+    {"anchor": "Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "how-teamed-handles + tagline-close + links-rail"},
+    {"anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "context": "masthead secondary CTA + links-rail"},
+    {"anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "context": "masthead CTA + tagline-close CTA + links-rail"},
+    {"anchor": "Colorado state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "famli section + links-rail sibling + chip-nav"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "links-rail core"}
+  ],
+  "internal_links_plain_text": [
+    {"label": "Hiring in the United States, overview", "reason": "parent ships wave 3"},
+    {"label": "Colorado overview", "reason": "state parent ships wave 4"},
+    {"label": "California paid family and sick leave", "reason": "peer state, sibling cross-link, ships wave 4"}
+  ],
+  "hero_image": {
+    "source": "Unsplash",
+    "photo_id": "Q9X_p5dDq_8",
+    "photographer": "Bill Griepenstroh",
+    "photographer_handle": "billgrip",
+    "url": "https://unsplash.com/photos/a-view-of-a-city-with-mountains-in-the-background-Q9X_p5dDq_8",
+    "alt": "Denver skyline with the Front Range of the Rocky Mountains rising behind downtown high-rises, viewed from the south.",
+    "reuse_note": "Reused from sibling Colorado state-income-tax-and-unemployment-insurance page — same Colorado state, no need for state-and-topic-specific paid-leave imagery."
+  },
+  "inline_visual": "polaroid-inline (.polaroid-inline) — HFWA 48 hours + FAMLI 16-week pregnancy stack, 'Two statutes, one pregnancy' caption",
+  "schema_blocks": [
+    "Article (dateModified 2026-05-26, about=United States)",
+    "Organization (Teamed)",
+    "BreadcrumbList (5 levels: Teamed > Countries > United States > Colorado > Paid family and sick leave)",
+    "Service (EOR in United States, $599/month flat, Zero FX)"
+  ],
+  "editor_rounds": 0,
+  "audit_score": 88,
+  "retrofit_needed": {
+    "neighbour_country_links": false,
+    "us_parent_link": true,
+    "colorado_state_parent_link": true,
+    "california_paid_leave_sibling_link": true,
+    "faq_schema": false,
+    "additional_colorado_sibling_links": ["wage-overtime-and-meal-break-law", "worker-classification-state-test", "termination-law-and-at-will-exceptions"]
+  },
+  "high_concern_flags": [
+    "factual_uncertainty:famli_2026_maximum_weekly_benefit_not_directly_cited",
+    "pullquote_provenance_anonymised",
+    "link_gate_warn:us_parent_colorado_parent_california_sibling_wave_n",
+    "secondary_cta_real_destinations"
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/colorado.json (rich Colorado cache; reused FAMLI premium mechanics, HFWA cross-reference, entity-vs-partner status)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "sources": [
+    {
+      "title": "Colorado Department of Labor and Employment — HFWA Information for Employers (CRS § 8-13.3-401 et seq.)",
+      "url": "https://cdle.colorado.gov/laws-regulations-guidance/leave/healthy-families-and-workplaces-act-hfwa",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "48 hours paid sick leave per year, accrued 1 hour per 30 hours worked",
+        "Plus 80 hours of supplemental paid sick leave during a declared public health emergency",
+        "Applies to every Colorado employer regardless of size — no headcount carve-out",
+        "Carryover within 48-hour accrual cap; alternatively front-load 48 hours",
+        "No pay-out at separation requirement",
+        "2024 amendments added bereavement and evacuation-event qualifying reasons (effective 7 August 2024)"
+      ]
+    },
+    {
+      "title": "Colorado Family and Medical Leave Insurance (FAMLI) Division — Employers",
+      "url": "https://famli.colorado.gov/employers",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "FAMLI in force since 1 January 2024 (benefits payable); premium collection from 1 January 2023",
+        "12 weeks paid family or medical leave per year",
+        "16 weeks for pregnancy or birth complications",
+        "Wage replacement up to 90% for lower earners, scaling down to 50% for higher earners",
+        "Benefit capped at State Average Weekly Wage",
+        "2026 premium 0.88% of wages (decreased from 0.90% in 2024-2025)",
+        "Premium split 0.44% / 0.44% (employer share waived for <10 employees)",
+        "Premium wage cap $184,500 (matches federal Social Security cap)"
+      ]
+    },
+    {
+      "title": "Colorado Revised Statutes § 8-13.3-509 — FAMLI Job Protection",
+      "url": "https://leg.colorado.gov/sites/default/files/documents/2020A/bills/2020a_118_signed.pdf",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Job-protection right attaches after 180 days of employment with current employer",
+        "Wage replacement available earlier (eligibility on $2,500 base-period earnings)",
+        "Private right of action under CRS § 8-13.3-509(8) for reinstatement violations",
+        "Benefit continuation (health insurance) required at same employer-contribution share throughout"
+      ]
+    },
+    {
+      "title": "Colorado FAMLI Division — Private Plans",
+      "url": "https://famli.colorado.gov/employers/private-plans",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Opt-out path via CDLE-approved private plan",
+        "Plan must equal or exceed every state-plan benefit on every dimension",
+        "Annual reapproval requirement",
+        "Failure to renew triggers premium back-collection to date of lapsed approval",
+        "Multiple carriers offer FAMLI-compliant policies (Aflac, MetLife, The Hartford, Unum)"
+      ]
+    },
+    {
+      "title": "Colorado FAMLI Division — Employer FAQs (stacking with FMLA)",
+      "url": "https://famli.colorado.gov/employers/faqs",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "FAMLI runs concurrently with FMLA when both apply (50+ employees, eligible employee)",
+        "FAMLI runs separately from HFWA — separate accrual banks",
+        "Employer of any size collects and remits FAMLI premium",
+        "FAMLI Division issues benefit payments directly to employee; employer payroll undisturbed"
+      ]
+    },
+    {
+      "title": "7 CCR 1107-1 — FAMLI Implementing Rules",
+      "url": "https://famli.colorado.gov/sites/famli/files/documents/7%20CCR%201107-1%20Adopted%20Rules.pdf",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Employer-size determination methodology for small-employer carve-out",
+        "20-weeks-of-employment counting rule for headcount averaging",
+        "Mid-year threshold crossing rule (employer-share obligation begins following 1 January)"
+      ]
+    },
+    {
+      "title": "Colorado compliance cache (Teamed sprint, fetched 26 May 2026)",
+      "url": "file://~/.claude/skills/teamed-page-builder/sprint/compliance-cache/colorado.json",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Entity status own_entity — Teamed US Inc., Delaware",
+        "FAMLI 2026 premium 0.88% (resolved factual_uncertainty from prompt-cited 0.9%)",
+        "HFWA accrual rule and PHE bonus confirmed cross-source",
+        "Cross-references to state-tax sibling page for premium mechanics"
+      ]
+    },
+    {
+      "title": "7 CCR 1103-7 — Wage Protection Rules implementing HFWA",
+      "url": "https://cdle.colorado.gov/sites/cdle/files/7%20CCR%201103-7%20Wage%20Protection%20Rules.pdf",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "HFWA accrual mechanics codified",
+        "Public health emergency 80-hour supplemental bank trigger and duration",
+        "Permitted-use catalogue including 2024 amendments"
+      ]
+    }
+  ],
+  "compliance_notes": {
+    "pullquote_provenance": "MI MCP not queried (per sprint pattern in California sibling). Pullquote anonymised to 'Teamed Legal Operations' with no <cite> line and no named individual. Tom Price-Daniel tagline-close stays as brand voice (exempt from MI provenance per pullquote rule).",
+    "secondary_cta_destinations": "Both secondary CTAs link to real Teamed tool destinations: masthead secondary points to Employer Cost Calculator, tagline-close secondary points to Crossover Calculator.",
+    "factual_uncertainty_open": "FAMLI 2026 maximum weekly benefit (specific dollar cap) not directly cited from the FAMLI Division 2026 rate notice — page describes the formula (up to 90% for lower earners, capped at SAWW) and instructs verification against the current Division rate notice before publishing the dollar figure to candidates. The page does not assert a specific dollar maximum.",
+    "premium_mechanics_cross_linked": "Page does not re-explain FAMLI premium mechanics (rate, wage cap, quarterly remittance schedule) — these live on the sibling state-income-tax-and-unemployment-insurance page and are cross-linked from the FAMLI section. Keeps this page focused on the employee benefit side."
+  }
+}

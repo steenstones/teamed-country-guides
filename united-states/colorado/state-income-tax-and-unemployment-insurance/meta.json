@@ -1,0 +1,115 @@
+{
+  "row_id": "master-0034",
+  "slug": "united-states/colorado/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/colorado/state-income-tax-and-unemployment-insurance/",
+  "page_title": "Colorado State Income Tax and Unemployment Insurance 2026 | Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "colorado state income tax and unemployment insurance 2026",
+    "colorado flat income tax rate 4.40 percent",
+    "colorado SUI wage base 30600 2026",
+    "colorado FAMLI premium 0.88 percent 2026",
+    "form DR 0004 colorado withholding optional",
+    "DR 1094 DR 1093 colorado filing cadence",
+    "denver minimum wage 19.29 2026 occupational privilege tax"
+  ],
+  "generated_at": "2026-05-26T10:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "sources": [
+    {"url": "https://tax.colorado.gov/individual-income-tax-guide", "title": "Colorado DOR — Individual Income Tax Guide", "accessed": "2026-05-26"},
+    {"url": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/", "title": "Tax Foundation — 2026 State Income Tax Rates and Brackets", "accessed": "2026-05-26"},
+    {"url": "http://leg.colorado.gov/bills/hb24-1065", "title": "Colorado General Assembly — HB24-1065 Reduction of State Income Tax Rate", "accessed": "2026-05-26"},
+    {"url": "https://cdle.colorado.gov/employers/unemployment-insurance-premiums", "title": "Colorado CDLE — Unemployment Insurance Premiums", "accessed": "2026-05-26"},
+    {"url": "https://cdle.colorado.gov/employers/unemployment-insurance-premiums/introductory-rates", "title": "Colorado CDLE — Introductory Rates (industry-assigned)", "accessed": "2026-05-26"},
+    {"url": "https://cdle.colorado.gov/employers/unemployment-insurance-premiums/experience-rates", "title": "Colorado CDLE — Experience Rates", "accessed": "2026-05-26"},
+    {"url": "https://501c.com/colorado-taxable-wage-base-increase/", "title": "501(c) Services — Colorado wage base increasing by 2026", "accessed": "2026-05-26"},
+    {"url": "https://famli.colorado.gov/employers", "title": "Colorado FAMLI — Employers", "accessed": "2026-05-26"},
+    {"url": "https://famli.colorado.gov/news-article/update-your-employee-headcount-for-2026-premiums", "title": "Colorado FAMLI — Update Your Employee Headcount for 2026 Premiums", "accessed": "2026-05-26"},
+    {"url": "https://www.vidahr.com/post/colorado-famli-premium-rate-decreasing-in-2026-hr-alerts", "title": "Vida HR — Colorado FAMLI Premium Rate Decreasing in 2026", "accessed": "2026-05-26"},
+    {"url": "https://frascona.com/colorado-famli-premium-hfwa-sick-leave-rules-2026/", "title": "Frascona — 2026 FAMLI Premiums and New HFWA Sick Leave Pay Rules", "accessed": "2026-05-26"},
+    {"url": "https://tax.colorado.gov/DR0004", "title": "Colorado DOR — DR 0004 Employee Withholding Certificate", "accessed": "2026-05-26"},
+    {"url": "https://tax.colorado.gov/dr-0004-employer-resources", "title": "Colorado DOR — DR 0004 Employer Resources", "accessed": "2026-05-26"},
+    {"url": "https://tax.colorado.gov/sites/tax/files/documents/DR_1098_Colorado_Withholding_Worksheet_for_Employees.pdf", "title": "Colorado DOR — DR 1098 Colorado Withholding Worksheet", "accessed": "2026-05-26"},
+    {"url": "https://tax.colorado.gov/withholding-filing-frequency-due-dates", "title": "Colorado DOR — Withholding Filing Frequency & Due Dates", "accessed": "2026-05-26"},
+    {"url": "https://tax.colorado.gov/withholding-tax-guide", "title": "Colorado DOR — Withholding Tax Guide", "accessed": "2026-05-26"},
+    {"url": "https://www.law.cornell.edu/regulations/colorado/39-22-604", "title": "Cornell LII — 39-22-604 Colorado Income Tax Withholding", "accessed": "2026-05-26"},
+    {"url": "https://www.govdocs.com/colorados-new-minimum-wage-rates/", "title": "GovDocs — Colorado's New Minimum Wage Rates", "accessed": "2026-05-26"},
+    {"url": "https://remotelaws.com/minimum-wage/colorado/", "title": "Remote Laws — Colorado Minimum Wage 2026", "accessed": "2026-05-26"},
+    {"url": "https://bouldercolorado.gov/local-minimum-wage", "title": "City of Boulder — Local Minimum Wage", "accessed": "2026-05-26"},
+    {"url": "https://cdle.colorado.gov/sites/cdle/files/adopted_2026_pay_calc_order_7_ccr_1103-14_12.8.25.pdf", "title": "Colorado CDLE — Adopted 2026 PAY CALC Order 7 CCR 1103-14", "accessed": "2026-05-26"},
+    {"url": "https://ogletree.com/insights-resources/blog-posts/colorado-implements-changes-to-wage-and-hour-rules-for-2026/", "title": "Ogletree — Colorado Implements Changes to Wage and Hour Rules for 2026", "accessed": "2026-05-26"}
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "kind": "core"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "single fixed rate of $599 per employee per month", "section": "how-teamed-handles", "kind": "core"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Colorado employer-cost calculator", "section": "masthead + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles + tagline-close + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead + tagline-close + links-rail", "kind": "CTA"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Colorado overview", "status": "wave-4", "section": "links-rail"},
+    {"label": "California state tax & UI", "status": "wave-4", "section": "links-rail"},
+    {"label": "Arizona state tax & UI", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/colorado.json (FIRST Colorado page — wrote state_income_tax, sui, famli, withholding_forms, deposit_cadence, minimum_wage, local_payroll_tax blocks for siblings to reuse)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "neighbour_links_targets": ["united-states/colorado (parent)", "united-states (country parent)", "united-states/california/state-income-tax-and-unemployment-insurance (sibling)", "united-states/arizona/state-income-tax-and-unemployment-insurance (sibling)", "united-states/wyoming", "united-states/utah", "united-states/new-mexico", "united-states/kansas", "united-states/nebraska"],
+    "images": false
+  },
+  "audit_score": 90,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 92,
+    "structural_spine_match": 100,
+    "factual_density": 92,
+    "internal_link_density": 80,
+    "visual_density": 85,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty:prompt_correction — prompt cited SUI wage base $27,200 (that was 2025); verified actual 2026 is $30,600 per CDLE, 501(c) Services, and multiple secondary sources. Page uses $30,600.",
+    "factual_uncertainty:prompt_correction — prompt cited FAMLI 0.9% premium (that was 2024-2025); verified actual 2026 is 0.88% (decreased per FAMLI Division Director recalc effective 1 January 2026). Page uses 0.88% split 0.44/0.44.",
+    "factual_uncertainty:prompt_correction — prompt cited 'around 1.7%' new-employer rate; Colorado actually assigns introductory rate by NAICS industry code, with Base Rate + Support Rate + Solvency Surcharge structure. Page reflects this honestly without naming a single number.",
+    "factual_uncertainty:medium — SUI experience-rate range upper bound not verified against CDLE primary (cdle.colorado.gov returns 403 to WebFetch). Page uses cautious phrasing 'industry-assigned introductory rate; experience-rated band that depends on industry and your account's reserve ratio after sufficient quarters' rather than naming a specific min-max range.",
+    "factual_uncertainty:low — Denver OPT dollar amounts ($5.75 employee / $4.00 employer) and the four smaller-city OPT figures cited from widely-reported secondary sources; cross-check against City Treasury filings recommended before any client-pricing decision.",
+    "link_gate_warn:neighbour and Colorado-parent links rendered as plain text per link gate (targets ship wave 3-4)",
+    "compliance_cache_seed:wrote sprint/compliance-cache/colorado.json as FIRST Colorado page in sprint — subsequent CO pages (worker classification, wage/overtime, leave, termination) should reuse and only add page-specific deltas"
+  ],
+  "linter_result": "pass",
+  "linter_checks_total": 27,
+  "linter_checks_passed": 27,
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "ctas_used": {
+    "primary": "https://www.teamed.global/contact",
+    "secondary_masthead": "https://www.teamed.global/tools/employer-cost",
+    "secondary_tagline": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "image_inventory": [
+    {"file": "images/hero.jpg", "kind": "hero photo (Unsplash)", "size_bytes": 144318, "photographer": "Bill Griepenstroh", "photographer_username": "billgrip", "photo_id": "Q9X_p5dDq_8", "alt_description": "Denver, Colorado skyline against the Rocky Mountains on a clear afternoon, downtown high-rises in the foreground"}
+  ],
+  "inline_visual": "stamp-block in famli section (0.88% premium → 0.44% employer share with under-10 carve-out → 0.44% employee share → $184,500 SS wage cap)",
+  "pullquote_provenance": [],
+  "pullquote_note": "Pullquote anonymised to 'Teamed Client Operations' per provenance rule — Meeting Intelligence MCP timed out (querySrv ETIMEOUT _mongodb._tcp.teamed-intelligence.ricbh0x.mongodb.net), so no verifiable Paulina/Joanna quote available. No <cite> tag used. Tom Price-Daniel tagline close stays as brand voice.",
+  "voice_notes": [
+    "UK English in body prose (whilst, recognise, behaviour)",
+    "Burnt Sienna primary CTA",
+    "No em-dashes in body prose (linter-verified)",
+    "Answer-first ≤30 words per section, lead with the number",
+    "Tom Price-Daniel three-line tagline close",
+    "Anonymised Teamed Client Operations pullquote (FAMLI as discipline point)",
+    "Single fixed rate / Zero FX / Crossover signal all present in body",
+    "Human-first signal: 'named country specialist', 'in-house payroll specialist' present",
+    "One platform signal: 'one platform', 'contractor through EOR to entity, one timeline, one platform' present"
+  ]
+}

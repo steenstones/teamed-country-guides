@@ -1,0 +1,108 @@
+{
+  "row_id": "master-0032",
+  "slug": "united-states/california/wage-overtime-and-meal-break-law",
+  "spec_version": "phase-1.0",
+  "page_type": "us-state-child",
+  "country": "United States",
+  "state": "California",
+  "target_keywords": [
+    "california wage overtime and meal break law 2026",
+    "california minimum wage 2026",
+    "california daily overtime",
+    "california double time rule",
+    "california meal break premium",
+    "california paga wage claim",
+    "cal lab code 510 overtime",
+    "cal lab code 512 meal break"
+  ],
+  "primary_keyword": "california wage overtime and meal break law 2026",
+  "generated_at": "2026-05-26",
+  "sources_verified_at": "2026-05-26",
+  "sources": [
+    {"type": "statute", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=510.&lawCode=LAB", "title": "Cal. Lab. Code § 510 — Overtime"},
+    {"type": "statute", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=512.&lawCode=LAB", "title": "Cal. Lab. Code § 512 — Meal breaks"},
+    {"type": "statute", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=226.&lawCode=LAB", "title": "Cal. Lab. Code § 226 — Wage statements"},
+    {"type": "statute", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=226.7.&lawCode=LAB", "title": "Cal. Lab. Code § 226.7 — Meal/rest premium pay"},
+    {"type": "statute", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1182.12.&lawCode=LAB", "title": "Cal. Lab. Code § 1182.12 — Minimum wage and SB 3 CPI escalator"},
+    {"type": "statute", "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=204.&lawCode=LAB", "title": "Cal. Lab. Code § 204 — Pay frequency"},
+    {"type": "statute", "url": "https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=LAB&division=2.&title=&part=13.&chapter=&article=", "title": "Cal. Lab. Code § 2698 et seq. — PAGA"},
+    {"type": "regulator", "url": "https://www.dir.ca.gov/dlse/FAQ_Overtime.htm", "title": "California DLSE — Overtime FAQ"},
+    {"type": "regulator", "url": "https://www.dir.ca.gov/dlse/FAQ_MealPeriods.htm", "title": "California DLSE — Meal Periods FAQ"},
+    {"type": "regulator", "url": "https://www.dir.ca.gov/dlse/FAQ_RestPeriods.htm", "title": "California DLSE — Rest Periods FAQ"},
+    {"type": "regulator", "url": "https://www.dir.ca.gov/dlse/FAQ_MinimumWage.htm", "title": "California DLSE — Minimum Wage FAQ"},
+    {"type": "regulator", "url": "https://www.dir.ca.gov/dlse/FAQ_Paystubs.htm", "title": "California DLSE — Wage Statement (Paystub) FAQ"},
+    {"type": "regulator", "url": "https://www.dir.ca.gov/iwc/wageorderindustries.htm", "title": "IWC Wage Orders — California Industrial Welfare Commission"},
+    {"type": "regulator", "url": "https://www.dir.ca.gov/dlse/FastFoodCouncil/FastFoodCouncil.html", "title": "California Fast Food Council — AB 1228 $20 minimum"},
+    {"type": "regulator", "url": "https://www.dir.ca.gov/dlse/Healthcare-Minimum-Wage.html", "title": "California DLSE — Healthcare Minimum Wage (SB 525)"},
+    {"type": "case", "url": "https://law.justia.com/cases/california/supreme-court/2021/s259172.html", "title": "Ferra v. Loews Hollywood Hotel (2021) 11 Cal.5th 858 — Regular rate of compensation includes non-discretionary bonuses"},
+    {"type": "case", "url": "https://law.justia.com/cases/california/supreme-court/2012/s166350.html", "title": "Brinker Restaurant Corp. v. Superior Court (2012) 53 Cal.4th 1004 — Provide-opportunity meal-break standard"},
+    {"type": "case", "url": "https://law.justia.com/cases/california/supreme-court/4th/40/1094.html", "title": "Murphy v. Kenneth Cole Productions (2007) 40 Cal.4th 1094 — Premium pay is a wage"},
+    {"type": "compliance_cache", "url": "sprint/compliance-cache/california.json", "title": "California compliance cache, fetched 2026-05-21, reused"},
+    {"type": "compliance_cache", "url": "sprint/compliance-cache/united-states.json", "title": "United States federal cache, inherited"}
+  ],
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "context": "how-teamed-handles section + meta-footer reference"},
+    {"href": "/employer-of-record/", "context": "links-rail core"},
+    {"href": "https://www.teamed.global/contact", "context": "masthead CTA + tagline-close CTA + links-rail"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "context": "masthead secondary CTA + links-rail"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "context": "tagline-close secondary CTA + how-teamed-handles + links-rail"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "context": "chip-nav + links-rail (sibling, live)"},
+    {"href": "../../alaska/wage-overtime-and-meal-break-law/", "context": "links-rail (sibling state, daily-OT contrast)"},
+    {"href": "../../alabama/wage-overtime-and-meal-break-law/", "context": "links-rail (sibling state, federal-floor contrast)"}
+  ],
+  "internal_links_plain_text": [
+    {"target": "../../", "context": "United States parent, ships wave 3"},
+    {"target": "../", "context": "California state parent, ships wave 4"},
+    {"target": "../worker-classification-state-test/", "context": "California sibling, chip-nav — wave 4"},
+    {"target": "../paid-family-and-sick-leave/", "context": "California sibling, chip-nav — wave 4"},
+    {"target": "../termination-law-and-at-will-exceptions/", "context": "California sibling, chip-nav — wave 4"}
+  ],
+  "editor_rounds": 0,
+  "audit_score": null,
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": false,
+    "california_sibling_links": true
+  },
+  "high_concern_flags": [
+    "first_california_wage_child_in_compliance_cache",
+    "factual_uncertainty:exempt_salary_threshold_computed_from_formula",
+    "factual_uncertainty:local_minimum_wage_rates_cpi_indexed_quarterly",
+    "link_gate_warn:us_california_siblings_wave_n"
+  ],
+  "pullquote_provenance": {
+    "tagline_close": {
+      "speaker": "Tom Price-Daniel",
+      "role": "Co-founder, Teamed",
+      "type": "brand-voice",
+      "mi_extraction_id": null,
+      "note": "Tom-bylined brand voice, exempt from MI provenance requirement"
+    },
+    "primary_pullquote": {
+      "speaker": "Teamed Client Operations",
+      "role": "anonymous-team",
+      "type": "anonymised",
+      "mi_extraction_id": null,
+      "note": "No MI query attempted (none planned for this iteration); anonymised default per pullquote-provenance rule. No <cite> line."
+    }
+  },
+  "image_metadata": {
+    "hero": {
+      "source": "Unsplash",
+      "photo_id": "k-LCaf7TOD8",
+      "photographer": "Sid Verma",
+      "query": "San Francisco financial district modern office",
+      "file_size_bytes": 203607
+    },
+    "inline_visuals": [
+      {
+        "type": "stamp-block",
+        "section": "meal-breaks",
+        "subject": "Cal Lab Code § 512 5+ hour meal-break trigger",
+        "image_generated": false,
+        "html_native": true
+      }
+    ]
+  },
+  "compliance_data_version": "california.json 2026-05-21 reused; united-states.json federal cache inherited"
+}

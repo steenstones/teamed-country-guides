@@ -1,0 +1,175 @@
+{
+  "row_id": "master-0048",
+  "country": "United States",
+  "state": "Delaware",
+  "slug": "united-states/delaware/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/delaware/worker-classification-state-test/",
+  "page_title": "Worker classification (state test) - Delaware",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "delaware worker classification test 2026",
+    "delaware abc test independent contractor",
+    "19 del c 3302 worker classification",
+    "delaware workplace fraud act construction",
+    "delaware c-corp employee vs contractor",
+    "delaware 1099 vs w-2",
+    "delaware unemployment insurance independent contractor"
+  ],
+  "sources": [
+    {
+      "type": "statute",
+      "citation": "Del. Code Title 19 § 3302(10)(K) (three-prong ABC test for UI worker classification)",
+      "url": "https://delcode.delaware.gov/title19/c033/sc01/index.html",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "statute",
+      "citation": "Del. Code Title 19 Chapter 33 (Delaware Unemployment Compensation Law)",
+      "url": "https://delcode.delaware.gov/title19/c033/index.html",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "statute",
+      "citation": "Del. Code Title 19 Chapter 23 (Workers' Compensation; § 2301 et seq. right-of-control test)",
+      "url": "https://delcode.delaware.gov/title19/c023/index.html",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "statute",
+      "citation": "Del. Code Title 19 Chapter 35, §§ 3501-3511 (Delaware Workplace Fraud Act, construction-industry misclassification)",
+      "url": "https://delcode.delaware.gov/title19/c035/index.html",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "statute",
+      "citation": "Del. Code Title 8 (General Corporation Law, incorporation only, no employment-tax trigger)"
+    },
+    {
+      "type": "statute",
+      "citation": "Del. Code Title 30 Chapter 11 (Personal Income Tax, employment withholding triggers)"
+    },
+    {
+      "type": "agency",
+      "citation": "Delaware Department of Labor, Division of Unemployment Insurance, employer services",
+      "url": "https://labor.delaware.gov/divisions/unemployment-insurance/employer-services/",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "agency",
+      "citation": "Delaware Division of Revenue, employer withholding guidance (Title 30 Chapter 11 administration)",
+      "url": "https://revenue.delaware.gov/employers-guide-withholding-regulations-employers-duties/",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "agency",
+      "citation": "IRS Rev. Rul. 87-41 (federal common-law 20-factor test)"
+    },
+    {
+      "type": "agency",
+      "citation": "US DOL Wage and Hour Division final rule on independent contractor classification under FLSA (effective 11 March 2024)",
+      "url": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "agency",
+      "citation": "Delaware DOL Industrial Affairs, Workplace Fraud Act enforcement and Workplace Fraud Violators List",
+      "url": "https://industrialaffairs.delaware.gov/en/knowledgebase-employer/what-are-the-penalties-for-misclassifying-workers",
+      "accessed": "2026-05-26"
+    }
+  ],
+  "compliance_cache": {
+    "file": "sprint/compliance-cache/delaware.json",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "in_window": true,
+    "ttl_days": 30
+  },
+  "kernel_cache_used": true,
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "internal_links_used": [
+    {
+      "anchor": "Delaware state income tax and unemployment insurance",
+      "href": "../state-income-tax-and-unemployment-insurance/",
+      "section": "links-rail",
+      "state": "live"
+    },
+    {
+      "anchor": "Crossover Calculator",
+      "href": "https://www.teamed.global/tools/crossover-calculator",
+      "section": "how-teamed-handles",
+      "state": "external"
+    },
+    {
+      "anchor": "Contractor Classifier",
+      "href": "https://www.teamed.global/tools/contractor-classification",
+      "section": "masthead-cta",
+      "state": "external"
+    },
+    {
+      "anchor": "Employer of Record overview",
+      "href": "/employer-of-record/",
+      "section": "links-rail",
+      "state": "live"
+    },
+    {
+      "anchor": "Talk to an expert",
+      "href": "https://www.teamed.global/contact",
+      "section": "masthead-cta",
+      "state": "external"
+    }
+  ],
+  "editor_rounds": 0,
+  "editor_in_loop_skipped": "Drafted with rubric in mind; CT sibling pattern proven through linter previously. Linter is the deterministic gate.",
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": false,
+    "sibling_links": "ships-with-wave-4-DE-children"
+  },
+  "audit_score": null,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "scope": "Task brief in orchestrator prompt stated Delaware uses IRS common-law for UI with NO state-specific ABC test. Primary statute (Del. Code Title 19 § 3302(10)(K)), the compliance cache delaware.json, WebFetch of delcode.delaware.gov, WebSearch corroborations, and Delaware DOL guidance all confirm Delaware does run a three-prong ABC test for UI (disjunctive Prong B). Resolved per statute-over-LLM-defaults precedence: page leads with the three-prong test, retains the user's framing that Delaware's framework is structurally simpler than CA/MA (no profession carve-outs + disjunctive Prong B + no PAGA equivalent). Recorded for orchestrator review."
+    },
+    {
+      "flag": "factual_uncertainty",
+      "scope": "Section numbering: compliance cache cites § 3302(10)(K); current online Delaware Code at delcode.delaware.gov uses § 3302(14)(K) after a renumbering. Both refer to the same statutory definition block in Title 19 Chapter 33. Page cites (10)(K) per cache. Worth verifying whether (10) or (14) is the canonical citation form going forward; many practice guides and law-firm sources still cite (10)(K)."
+    }
+  ],
+  "image_assets": [
+    {
+      "type": "hero",
+      "filename": "images/hero.jpg",
+      "source": "Unsplash",
+      "photographer": "Sarah Mason",
+      "url": "https://unsplash.com/@sarahthemason",
+      "query": "Wilmington downtown city",
+      "size_bytes": 134201,
+      "note": "Reused from Delaware sibling state-income-tax-and-unemployment-insurance page for visual consistency of the Delaware family."
+    },
+    {
+      "type": "inline-stamp-block",
+      "css": ".stamp-block",
+      "id": "Three Prongs, One Construction Carve-Out",
+      "section": "three-prongs"
+    }
+  ],
+  "pullquote": {
+    "speaker_label": "Teamed Legal Operations",
+    "provenance": "anonymised, no MI quote available on Delaware ABC test as of 2026-05-26 build; per pullquote-provenance rule, function-line anonymisation, NO cite line",
+    "mi_extraction_id": null
+  },
+  "entity_disclosure": "Teamed-owned entity: Teamed US Inc., Delaware",
+  "spec_notes": [
+    "Modelled on CT sibling worker-classification-state-test (disjunctive ABC family) with Delaware-specific data swaps from compliance-cache/delaware.json.",
+    "Lead with the three-prong ABC test under Title 19 § 3302(10)(K), then build the simplicity argument vs CA/MA: disjunctive Prong B, no profession carve-out list, no PAGA equivalent.",
+    "Workplace Fraud Act (Title 19 Chapter 35, §§ 3501-3511) is the distinctive Delaware section: construction-industry-only overlay with civil + criminal penalties, stop-work orders, Workplace Fraud Violators List (3-year public listing).",
+    "Incorporation-vs-employment Q-section addresses the single biggest client misunderstanding: a Title 8 Delaware C-corp does not create any Delaware Title 19/Title 30 employment-tax obligation by itself. Includes 4-row table covering common headcount-geography scenarios.",
+    "Federal US DOL 2024 final rule overlays for FLSA purposes only; does not override Delaware state ABC test for UI.",
+    "Hero photo reused from DE sibling page (Sarah Mason / Unsplash, Wilmington) to maintain visual consistency of the Delaware family."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "row_id": "master-0044",
+  "slug": "united-states/connecticut/wage-overtime-and-meal-break-law",
+  "title": "Wage, overtime, and meal-break law — Connecticut",
+  "tier": "US-State",
+  "country": "United States",
+  "state": "Connecticut",
+  "target_keywords": [
+    "connecticut wage overtime and meal break law 2026",
+    "connecticut minimum wage 2026",
+    "connecticut meal break 7.5 hours",
+    "connecticut pay frequency 31-71b",
+    "connecticut overtime 31-76c",
+    "ct tipped wage 2026 bartender"
+  ],
+  "primary_keyword": "connecticut wage overtime and meal break law 2026",
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "spec_version": "phase-1.0",
+  "exemplar_used": "uk-cost-breakdown-child.html (spine) + germany-tax-and-payroll-v2-child.html (visual density) + colorado/wage-overtime-and-meal-break-law (state sibling)",
+  "sources": [
+    {"url": "https://portal.ct.gov/governor/news/press-releases/2025/09-2025/governor-lamont-announces-minimum-wage-will-increase", "title": "Governor Lamont: Connecticut Minimum Wage Will Increase to $16.94 on January 1, 2026", "accessed": "2026-05-26"},
+    {"url": "https://ogletree.com/insights-resources/blog-posts/connecticut-minimum-wage-set-to-increase-to-16-94-on-january-1-2026/", "title": "Ogletree Deakins: Connecticut Minimum Wage Set to Increase to $16.94 on January 1, 2026", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/connecticut/title-31/chapter-557/section-31-51ii/", "title": "Conn. Gen. Stat. § 31-51ii — Meal periods. Exemptions. Regulations.", "accessed": "2026-05-26"},
+    {"url": "https://codes.findlaw.com/ct/title-31-labor/ct-gen-st-sect-31-71b/", "title": "Conn. Gen. Stat. § 31-71b — Weekly payment of wages", "accessed": "2026-05-26"},
+    {"url": "https://portal.ct.gov/dol/-/media/dol/2022-new-design-system/divisions/wage-and-workplace-standards/wagepaymentlaws_update12-2023.pdf", "title": "CT DOL — Wage Payment Laws Guidance (updated December 2023)", "accessed": "2026-05-26"},
+    {"url": "https://www.cbia.com/news/featured/jan-1-brings-minimum-wage-increase/", "title": "CBIA — Jan. 1 Brings 3.6% Minimum Wage Increase", "accessed": "2026-05-26"},
+    {"url": "https://www.nolo.com/legal-encyclopedia/connecticut-laws-tipped-employees.html", "title": "Nolo — Connecticut Laws for Tipped Employees (2026 rates: $8.23 hotel/restaurant, $6.38 bartender)", "accessed": "2026-05-26"},
+    {"url": "https://www.daypitney.com/key-connecticut-employment-law-developments-employers-should-address-in-2026", "title": "Day Pitney — Key Connecticut Employment Law Developments Employers Should Address in 2026", "accessed": "2026-05-26"},
+    {"url": "https://www.littler.com/news-analysis/asap/warehouse-quota-notice-laws-connecticut-joins-club", "title": "Littler — Warehouse Quota Notice Laws: Connecticut Joins the Club (SB 298, signed 3 March 2026, effective 1 July 2026)", "accessed": "2026-05-26"},
+    {"url": "https://ogletree.com/insights-resources/blog-posts/connecticut-2026-employment-law-update-time-for-some-spring-cleaning/", "title": "Ogletree — Connecticut 2026 Employment Law Update", "accessed": "2026-05-26"}
+  ],
+  "internal_links_used": 9,
+  "internal_links_plain_text": 2,
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "neighbour_country_links": false,
+    "images": false,
+    "schema": false,
+    "state_parent_link": true
+  },
+  "audit_score": 86,
+  "high_concern_flags": [
+    {"flag": "factual_uncertainty", "detail": "Row guidance gave 2026 minimum wage as $16.35; verified actual 2026 rate is $16.94 (Governor Lamont press release Sep 2025, Ogletree, CBIA, Day Pitney). Row guidance value was the 2025 figure. Resolved by primary-source override.", "severity": "info"},
+    {"flag": "factual_uncertainty", "detail": "Row guidance described pay frequency as 'weekly minimum'; statute § 31-71b actually defaults to weekly OR every two weeks. Refined to bi-weekly-as-operational-default with semi-monthly requiring CT DOL approval.", "severity": "info"}
+  ],
+  "pullquote_provenance": {
+    "type": "tom_voice_byline",
+    "speaker": "Tom Price-Daniel · Co-founder, Teamed",
+    "cite_source": null,
+    "fabricated": false,
+    "note": "Tom-bylined editorial pullquote; no <cite> per provenance rule. Brand voice attribution, not sourced quote."
+  },
+  "stage_results": {
+    "research_complete": true,
+    "brief_written": true,
+    "draft_complete": true,
+    "images_complete": true,
+    "internal_links_added": true,
+    "editor_review_rounds": 1,
+    "output_written": true
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "row_id": "master-0036",
+  "country": "United States",
+  "state": "Colorado",
+  "slug": "united-states/colorado/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/colorado/worker-classification-state-test/",
+  "page_title": "Worker classification (state test) - Colorado",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "colorado worker classification test 2026",
+    "colorado independent contractor law",
+    "crs 8-70-115 safe harbor",
+    "colorado misclassification penalty",
+    "crs 8-12-106 wilful misclassification",
+    "colorado workers comp right of control",
+    "colorado sb 21-87 hb 22-1117",
+    "crs 8-40-202 worker classification"
+  ],
+  "sources": [
+    {
+      "type": "statute",
+      "citation": "CRS § 8-70-115 (Colorado Employment Security Act — worker classification for UI)",
+      "url": "https://leg.colorado.gov/colorado-revised-statutes",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "statute",
+      "citation": "CRS § 8-70-115(1)(c) (UI written-agreement safe-harbour, nine conditions)"
+    },
+    {
+      "type": "statute",
+      "citation": "CRS § 8-40-202(2) (workers' compensation right-of-control test)"
+    },
+    {
+      "type": "statute",
+      "citation": "CRS § 8-40-202(2)(b)(IV) (workers' compensation written-agreement safe-harbour)"
+    },
+    {
+      "type": "statute",
+      "citation": "CRS § 8-12-106 (wilful misclassification civil penalty: up to $5,000 per worker first offence; up to $25,000 per worker repeat offence)"
+    },
+    {
+      "type": "statute",
+      "citation": "HB 09-1310 (2009) — added substantial-consistency requirement to safe-harbour"
+    },
+    {
+      "type": "statute",
+      "citation": "SB 21-87 (2021) — Agricultural Workers' Rights Act; CDLE Misclassification Advisory Opinion authority"
+    },
+    {
+      "type": "statute",
+      "citation": "HB 22-1117 (2022) — Workplace Accountability for Misclassification; private right of action; expanded CDLE subpoena power"
+    },
+    {
+      "type": "federal",
+      "citation": "IRS Rev. Rul. 87-41, 1987-1 C.B. 296 (20-factor common-law test)"
+    },
+    {
+      "type": "federal",
+      "citation": "US DOL NPRM RIN 1235-AA46 (FLSA independent contractor classification, NPRM 27 Feb 2026)"
+    },
+    {
+      "type": "agency",
+      "citation": "Colorado Department of Labor and Employment (CDLE) — Worker Classification Guide",
+      "url": "https://cdle.colorado.gov/employers/unemployment-insurance-premiums",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "agency",
+      "citation": "Colorado Division of Workers' Compensation — Independent Contractor Guidance",
+      "url": "https://cdle.colorado.gov/dwc",
+      "accessed": "2026-05-26"
+    }
+  ],
+  "compliance_cache": {
+    "file": "sprint/compliance-cache/colorado.json",
+    "fetched_at": "2026-05-26T10:00:00Z",
+    "in_window": true,
+    "ttl_days": 30
+  },
+  "kernel_cache_used": true,
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "internal_links_used": [
+    {
+      "anchor": "Colorado state income tax and unemployment insurance",
+      "href": "../state-income-tax-and-unemployment-insurance/",
+      "section": "links-rail",
+      "state": "live"
+    },
+    {
+      "anchor": "Crossover Calculator",
+      "href": "https://www.teamed.global/tools/crossover-calculator",
+      "section": "how-teamed-handles",
+      "state": "external"
+    },
+    {
+      "anchor": "Contractor Classifier",
+      "href": "https://www.teamed.global/tools/contractor-classification",
+      "section": "masthead-cta",
+      "state": "external"
+    },
+    {
+      "anchor": "Employer of Record overview",
+      "href": "/employer-of-record/",
+      "section": "links-rail",
+      "state": "live"
+    },
+    {
+      "anchor": "Colorado employer-cost calculator",
+      "href": "https://www.teamed.global/tools/employer-cost",
+      "section": "links-rail",
+      "state": "external"
+    },
+    {
+      "anchor": "Talk to an expert",
+      "href": "https://www.teamed.global/contact",
+      "section": "masthead-cta",
+      "state": "external"
+    }
+  ],
+  "editor_rounds": 0,
+  "editor_in_loop_skipped": "Drafted with rubric in mind; AL/AZ/AR/CA sibling pattern proven through linter. Linter is the deterministic gate.",
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": false,
+    "sibling_links": "ships-with-wave-4-CO-children"
+  },
+  "audit_score": null,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "scope": "CRS § 8-12-106 penalty bands",
+      "detail": "Penalty schedule (up to $5,000 first offence / up to $25,000 repeat offence) drawn from secondary sources aligned with statute text. CRS primary text confirms 'up to' caps, not fixed amounts. Page text uses 'up to' throughout to match statutory language."
+    }
+  ],
+  "image_assets": [
+    {
+      "type": "hero",
+      "filename": "images/hero.jpg",
+      "source": "Unsplash (reused from sibling Colorado state-tax page)",
+      "photo_id": "Q9X_p5dDq_8",
+      "photographer": "Bill Griepenstroh",
+      "photographer_username": "billgrip",
+      "url": "https://unsplash.com/photos/Q9X_p5dDq_8",
+      "query": "Denver Colorado skyline Rocky Mountains downtown",
+      "size_bytes": 144318,
+      "alt_description": "Denver, Colorado skyline against the Rocky Mountains on a clear afternoon, downtown high-rises in the foreground"
+    },
+    {
+      "type": "inline-stamp-block",
+      "css": ".stamp-block",
+      "id": "Two Doors, Same House",
+      "section": "workers-comp-parallel"
+    }
+  ],
+  "pullquote": {
+    "speaker_label": "Teamed Legal Operations",
+    "provenance": "anonymised — no MI quote available for Colorado CRS § 8-70-115 safe-harbour topic at 2026-05-26 build; per pullquote-provenance rule, function-line anonymisation, NO cite line",
+    "mi_extraction_id": null
+  },
+  "entity_disclosure": "Teamed-owned entity: Teamed US Inc., Delaware",
+  "spec_notes": [
+    "Modelled on CA / AZ sibling structure with Colorado-specific data swaps from sprint/compliance-cache/colorado.json.",
+    "Default test is IRS common-law, NOT a state ABC test (distinguished explicitly from CA AB5).",
+    "Nine-factor safe-harbour at CRS § 8-70-115(1)(c) is the practical compliance lever; substantial-consistency requirement from HB 09-1310 (2009) emphasised.",
+    "Workers' comp track is separate: CRS § 8-40-202(2) right-of-control + § 8-40-202(2)(b)(IV) parallel safe-harbour.",
+    "SB 21-87 (2021) and HB 22-1117 (2022) discussed in own section: HB 22-1117 added private right of action plus expanded CDLE subpoena power.",
+    "CRS § 8-12-106 wilful-misclassification civil penalty bands noted as 'up to' to match statutory language.",
+    "FAMLI back-premium called out as distinctive Colorado misclassification exposure not on the federal checklist.",
+    "Hero photo reused from sibling state-income-tax-and-unemployment-insurance page (same Denver skyline, same photographer credit)."
+  ]
+}

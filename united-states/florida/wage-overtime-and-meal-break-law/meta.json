@@ -1,0 +1,98 @@
+{
+  "row_id": "master-0056",
+  "slug": "united-states/florida/wage-overtime-and-meal-break-law",
+  "title": "Wage, overtime, and meal-break law — Florida",
+  "tier": "US-State",
+  "country": "United States",
+  "state": "Florida",
+  "target_keywords": [
+    "florida wage overtime and meal break law 2026",
+    "florida minimum wage 2026 $14",
+    "florida constitutional minimum wage article x section 24",
+    "florida tipped wage 10.98 tip credit 3.02",
+    "florida amendment 2 minimum wage schedule",
+    "florida overtime FLSA only",
+    "florida meal break law adult minors",
+    "florida section 448.110 wage claim 15 day cure"
+  ],
+  "primary_keyword": "florida wage overtime and meal break law 2026",
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "spec_version": "phase-1.0",
+  "exemplar_used": "uk-cost-breakdown-child.html (spine) + germany-tax-and-payroll-v2-child.html (visual density) + arizona/wage-overtime-and-meal-break-law (state sibling, CPI-indexed twin) + delaware/wage-overtime-and-meal-break-law (state sibling, structural template)",
+  "sources": [
+    {"url": "http://fl.elaws.us/constitution/articlex_section24", "title": "Florida Constitution Article X Section 24 — Minimum Wage", "accessed": "2026-05-26"},
+    {"url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499%2F0448%2FSections%2F0448.110.html", "title": "Section 448.110, Florida Statutes — Minimum Wage (enforcement)", "accessed": "2026-05-26"},
+    {"url": "https://www.floridabar.org/the-florida-bar-journal/floridas-new-minimum-wage-provision-an-overview-of-the-amendment-to-the-florida-constitution/", "title": "Florida Bar Journal — Florida's New Minimum Wage Provision (Amendment 5 overview)", "accessed": "2026-05-26"},
+    {"url": "https://ballotpedia.org/Florida_Amendment_2,_$15_Minimum_Wage_Initiative_(2020)", "title": "Florida Amendment 2, $15 Minimum Wage Initiative (2020) — Ballotpedia", "accessed": "2026-05-26"},
+    {"url": "https://frla.org/minimum-wage/", "title": "Florida Restaurant & Lodging Association — Current Florida Minimum Wage", "accessed": "2026-05-26"},
+    {"url": "https://remotelaws.com/minimum-wage/florida/", "title": "Florida Minimum Wage 2026: $14.00/Hour — Tipped Rate, Annual Increases & Overtime (RemoteLaws)", "accessed": "2026-05-26"},
+    {"url": "https://www.wenzelfenton.com/blog/2026/05/18/florida-minimum-wage/", "title": "Florida Minimum Wage 2026 (Wenzel Fenton Cabassa P.A.)", "accessed": "2026-05-26"},
+    {"url": "https://www.wenzelfenton.com/blog/2025/09/19/what-you-need-to-know-about-florida-wage-and-hour-laws/", "title": "Florida Wage & Hour Laws (2026 Update) — Wenzel Fenton Cabassa", "accessed": "2026-05-26"},
+    {"url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/florida/wage-and-hour/", "title": "Florida Labor Laws 2026 | Wage And Hour Laws In Florida (ELH)", "accessed": "2026-05-26"},
+    {"url": "https://www.employmentlawaid.org/florida/wages-and-hours/meal-break-laws", "title": "Florida Meal Break Laws: Are Lunch Breaks Required? (2026)", "accessed": "2026-05-26"},
+    {"url": "https://www.jibble.io/labor-laws/us-state-labor-laws/florida/break-laws", "title": "Florida Meal and Rest Break Laws | 2026 (Jibble)", "accessed": "2026-05-26"},
+    {"url": "https://www.floridalaborlawyer.com/are-employers-legally-required-to-provide-meal-breaks-or-rest-breaks-in-florida/", "title": "Are Employers Legally Required to Provide Meal Breaks or Rest Breaks in Florida?", "accessed": "2026-05-26"},
+    {"url": "https://www.paycor.com/resource-center/articles/final-paycheck-laws-by-state/", "title": "Final Paycheck Laws by State 2026 (Paycor)", "accessed": "2026-05-26"},
+    {"url": "https://www.cohenlevylegal.com/blog/florida-final-paycheck-law/", "title": "Florida Final Paycheck Law 2026 Explained (Cohen Levy Legal)", "accessed": "2026-05-26"},
+    {"url": "https://www.dol.gov/agencies/whd/fact-sheets/17a-overtime", "title": "US Department of Labor — Fact Sheet #17A (Exemption from Minimum Wage and Overtime)", "accessed": "2026-05-26"},
+    {"url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0400-0499/0450/Sections/0450.081.html", "title": "Florida Statute § 450.081 — Hours of work for minors", "accessed": "2026-05-26"}
+  ],
+  "internal_links_used": 9,
+  "internal_links_plain_text": 2,
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "neighbour_country_links": false,
+    "images": false,
+    "schema": false,
+    "state_parent_link": true,
+    "us_parent_link": true,
+    "florida_siblings_pending": ["workers-compensation", "new-hire-reporting", "employer-registrations", "paid-leave-and-pto", "termination-at-will", "hiring-guide"]
+  },
+  "audit_score": 88,
+  "linter": {
+    "status": "pass",
+    "checks_passed": 26,
+    "checks_total": 26,
+    "block_failures": 0,
+    "warn_failures": 0
+  },
+  "high_concern_flags": [
+    {"flag": "factual_uncertainty", "detail": "Annual CPI-W indexation mechanism that resumes after the final Amendment 2 step on 30 Sep 2026 is per Amendment 5 (2004) — first post-schedule adjustment effective 30 Sep 2027 (announced by FL Department of Commerce in mid-October 2026 after the August CPI-W release). Source: Florida Bar Journal review of Article X § 24; Ballotpedia Amendment 2; Section 448.110, F.S. Page states the mechanism with verified source.", "severity": "info"},
+    {"flag": "factual_uncertainty", "detail": "Section 448.110, F.S. pre-suit cure window of 15 calendar days verified from the Florida Bar Journal review of the Amendment 5 implementing legislation. Liquidated-damages mechanism (equal amount to unpaid wages) and attorney's fees provisions are baseline statutory remedies. Florida Statute § 95.11(2)(d) 4-year limitations period (5 for wilful) verified from secondary sources; primary statute citation should be re-verified in the next 30-day refresh.", "severity": "low"},
+    {"flag": "factual_uncertainty", "detail": "FL Stat § 450.081(4) 30-minute meal break for minors after 4 consecutive hours verified across multiple secondary sources; primary statute text should be re-verified in next 30-day refresh.", "severity": "low"}
+  ],
+  "pullquote_provenance": {
+    "type": "tom_voice_byline",
+    "speaker": "Tom Price-Daniel · Co-founder, Teamed",
+    "cite_source": null,
+    "fabricated": false,
+    "note": "Tom-bylined editorial pullquote; no <cite> per provenance rule. Brand voice attribution, not sourced quote."
+  },
+  "image_provenance": {
+    "hero": {
+      "source": "Unsplash",
+      "photographer": "ftodne",
+      "photographer_username": "ftodne",
+      "photo_url": "https://unsplash.com/photos/vibrant-cityscape-with-illuminated-skyscrapers-at-night-OGeT7_sOdP8",
+      "query": "Miami Florida downtown skyline business district",
+      "fetched": "2026-05-26",
+      "file_size_bytes": 133944
+    }
+  },
+  "inline_visual_provenance": {
+    "type": "stamp-block",
+    "subject": "Florida Constitution Article X § 24 (constitutional minimum wage)",
+    "note": "Stamp-block highlights the unusual constitutional protection of the minimum wage (only US state where minimum wage sits in the constitution) and the Amendment 2 / Amendment 5 mechanism."
+  },
+  "stage_results": {
+    "research_complete": true,
+    "brief_written": true,
+    "draft_complete": true,
+    "images_complete": true,
+    "internal_links_added": true,
+    "editor_review_rounds": 1,
+    "output_written": true,
+    "linter_pass": true
+  }
+}

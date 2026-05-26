@@ -1,0 +1,164 @@
+{
+  "row_id": "master-0031",
+  "country": "United States",
+  "state": "California",
+  "slug": "united-states/california/paid-family-and-sick-leave",
+  "page_title": "Paid family and sick leave — California",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "target_keywords": [
+    "california paid family leave and sick leave 2026",
+    "california paid sick leave 40 hours SB 616",
+    "california pfl 8 weeks wage replacement",
+    "cfra 5 employees vs fmla",
+    "california pregnancy disability leave 4 months",
+    "sdi 1.3 percent 2026"
+  ],
+  "internal_links_used": [
+    {"anchor": "Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "how-teamed-handles + tagline-close"},
+    {"anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "context": "masthead secondary CTA + links-rail"},
+    {"anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "context": "masthead CTA + tagline-close CTA"},
+    {"anchor": "California state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "context": "links-rail sibling"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "links-rail core"}
+  ],
+  "internal_links_plain_text": [
+    {"label": "Hiring in the United States, overview", "reason": "parent ships wave 3"},
+    {"label": "California overview", "reason": "state parent ships wave 4"}
+  ],
+  "hero_image": {
+    "source": "Unsplash",
+    "photographer": "Rihards Sergis",
+    "photographer_handle": "rsergis99",
+    "url": "https://unsplash.com/photos/-B_5ot_RdpA",
+    "alt": "Downtown Los Angeles skyline with the U.S. Bank Tower and Wilshire Grand Center rising above a sea of mid-rise office buildings.",
+    "reuse_note": "Reused from sibling state-income-tax-and-unemployment-insurance — same California state, no need for state-specific paid-leave imagery."
+  },
+  "inline_visual": "polaroid-inline (.polaroid-inline) — SB 616 40-hour PSL floor effective 1 January 2024",
+  "schema_blocks": [
+    "Article (dateModified 2026-05-26, about=United States)",
+    "Organization (Teamed)",
+    "BreadcrumbList (5 levels: Teamed > Countries > United States > California > Paid family and sick leave)",
+    "Service (EOR in United States, $599/month flat, Zero FX)"
+  ],
+  "editor_rounds": 0,
+  "audit_score": 88,
+  "retrofit_needed": {
+    "neighbour_country_links": false,
+    "us_parent_link": true,
+    "california_state_parent_link": true,
+    "faq_schema": false,
+    "additional_california_sibling_links": ["wage-overtime-and-meal-break-law", "worker-classification-state-test", "termination-law-and-at-will-exceptions"]
+  },
+  "high_concern_flags": [
+    "pullquote_provenance_anonymised",
+    "link_gate_warn:us_california_siblings_wave_n",
+    "secondary_cta_real_destinations",
+    "compliance_cache_no_paid_leave_data"
+  ],
+  "sources": [
+    {
+      "title": "California Department of Industrial Relations — Paid Sick Leave FAQs (Cal Lab Code §§ 245-249, SB 616)",
+      "url": "https://www.dir.ca.gov/dlse/paid_sick_leave.htm",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Minimum 40 hours / 5 days per year (SB 616 raised from 24 hours effective 1 Jan 2024)",
+        "Accrual rate 1 hour per 30 hours worked",
+        "Accrual cap 80 hours / 10 days; annual use cap 40 hours / 5 days",
+        "Applies to any employer with employees working 30+ days in California (no headcount threshold)",
+        "Permitted uses including family member care, qualifying violence, jury duty (2025), preventive care",
+        "Designated person added by AB 1041 effective 1 January 2023",
+        "PTO bank may substitute if meets all statutory minimums"
+      ]
+    },
+    {
+      "title": "California Employment Development Department — Paid Family Leave Programme",
+      "url": "https://edd.ca.gov/en/disability/paid-family-leave/",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Up to 8 weeks PFL in a 12-month period",
+        "Minimum weekly benefit $50; maximum weekly benefit $1,765 in 2026",
+        "Earnings threshold $300 in SDI contributions during 18-month base period",
+        "Three claim types: bonding, care, military assist",
+        "PFL does NOT provide job protection — separate from CFRA/FMLA/PDL"
+      ]
+    },
+    {
+      "title": "EDD 2026 SDI/PFL Rate Notice (Cal Unemp Ins Code § 984; SB 951)",
+      "url": "https://edd.ca.gov/en/payroll_taxes/rates_and_withholding/",
+      "accessed_date": "2026-05-21",
+      "data_extracted": [
+        "2026 SDI rate 1.3% (up from 1.2% in 2025)",
+        "No taxable wage cap (removed 1 January 2024 under SB 951)",
+        "Maximum weekly PFL benefit $1,765 (up from $1,681 in 2025)",
+        "State Average Weekly Wage 2026 $1,789",
+        "Funded entirely through employee payroll deduction"
+      ]
+    },
+    {
+      "title": "Cal Gov Code § 12945.2 — California Family Rights Act (FindLaw + California Legislative Information)",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12945.2",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Employer threshold 5+ employees since 1 January 2021 (SB 1383, Stats. 2020, ch. 86)",
+        "Employee eligibility 12 months service + 1,250 hours in preceding 12 months",
+        "12 weeks job-protected leave per 12-month period",
+        "Family definition broader than FMLA — includes parent-in-law, grandparent, grandchild, sibling, designated person (AB 1041, 2022)",
+        "Runs concurrently with FMLA when both apply"
+      ]
+    },
+    {
+      "title": "Cal Gov Code § 12945 + 2 Cal Code Regs § 11042 — Pregnancy Disability Leave",
+      "url": "https://www.law.cornell.edu/regulations/california/2-CCR-11042",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Up to 4 months leave per pregnancy",
+        "5+ employee threshold",
+        "No tenure or hours-worked eligibility requirement",
+        "Mandatory health-insurance continuation at same level/conditions throughout (up to 4 months)",
+        "Stacks with CFRA: PDL for disability period + CFRA for baby bonding = ~7 months total at 5+ employer"
+      ]
+    },
+    {
+      "title": "San Francisco Paid Sick Leave Ordinance + multi-city California ordinance summary (Six Fifty Compliance, A Better Balance)",
+      "url": "https://www.sixfifty.com/blog/san-francisco-paid-sick-leave-laws-and-requirements/",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "SF accrual cap 40 hrs (<10 employees) / 72 hrs (10+ employees)",
+        "California state 80-hour cap preempts SF's 72 — employer must allow 80 hr accrual to comply with both",
+        "LA, Oakland, Berkeley, San Diego, Emeryville each have distinct ordinances",
+        "Employer applies the most-generous rule of state / local / contract on each substantive point"
+      ]
+    },
+    {
+      "title": "California compliance cache (Teamed sprint, fetched 21 May 2026)",
+      "url": "file://~/.claude/skills/teamed-page-builder/sprint/compliance-cache/california.json",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Entity status own_entity — Teamed US Inc., Delaware",
+        "SDI 2026 rate 1.3% confirmed against EDD December 2025 announcement (resolved page-specific guidance discrepancy of 1.2%)",
+        "Worker classification ABC test under AB5 — cross-reference for sibling pages"
+      ]
+    },
+    {
+      "title": "AB 1041 (Stats. 2022, ch. 748) — Designated Person expansion of CFRA and PSL family definitions",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB1041",
+      "accessed_date": "2026-05-26",
+      "data_extracted": [
+        "Effective 1 January 2023",
+        "Adds 'designated person' to family definition under both CFRA and PSL",
+        "Employee designates the person at the time of leave"
+      ]
+    }
+  ],
+  "compliance_notes": {
+    "pullquote_provenance": "MI MCP unreliable per Colorado page experience; pullquote anonymised to 'Teamed Legal Operations' with no <cite> line and no named individual. Tom Price-Daniel tagline-close stays as brand voice (exempt from MI provenance per pullquote rule).",
+    "secondary_cta_destinations": "Both secondary CTAs link to real Teamed tool destinations: masthead secondary points to Employer Cost Calculator, tagline-close secondary points to Crossover Calculator.",
+    "factual_uncertainty_resolved": "SDI rate 1.3% in 2026 verified against EDD December 2025 announcement, overriding the 1.2% reference in page-specific guidance. No remaining factual conflicts.",
+    "city_count_lower_bound": "Page lists 6 cities with named ordinances (SF, LA, Oakland, Berkeley, San Diego, Emeryville) and notes 'at least six' — there are additional industry-specific ordinances in Long Beach, Santa Monica, and LA County (hotels, fast food) that are referenced but not detailed."
+  }
+}

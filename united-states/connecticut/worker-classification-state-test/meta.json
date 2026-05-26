@@ -1,0 +1,145 @@
+{
+  "row_id": "master-0042",
+  "country": "United States",
+  "state": "Connecticut",
+  "slug": "united-states/connecticut/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/connecticut/worker-classification-state-test/",
+  "page_title": "Worker classification (state test) - Connecticut",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "connecticut worker classification test 2026",
+    "conn gen stat 31-222 abc test",
+    "ct dol independent contractor abc test",
+    "connecticut prong b worker classification",
+    "ct dol unemployment compensation audit section",
+    "connecticut workers compensation independent contractor 31-275",
+    "connecticut 1099 vs w-2"
+  ],
+  "sources": [
+    {
+      "type": "statute",
+      "citation": "Conn. Gen. Stat. § 31-222(a)(1)(B)(ii) (ABC test for unemployment insurance)",
+      "url": "https://www.cga.ct.gov/current/pub/chap_567.htm",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "statute",
+      "citation": "Conn. Gen. Stat. § 31-275 (workers' compensation right-to-control test)"
+    },
+    {
+      "type": "statute",
+      "citation": "Conn. Gen. Stat. § 31-225a (civil penalties for UI registration / payment failure)"
+    },
+    {
+      "type": "statute",
+      "citation": "Conn. Gen. Stat. § 31-273 (four-year limitations period for UI audits)"
+    },
+    {
+      "type": "agency",
+      "citation": "CT DOL Knowledge Base — Employer Employee Relationship for CT Unemployment Taxes",
+      "url": "https://portal.ct.gov/dol/knowledge-base/articles/unemployment-taxes/employer-employee-relationship-for-ct-unemployment-taxes",
+      "accessed": "2026-05-26"
+    },
+    {
+      "type": "agency",
+      "citation": "IRS Rev. Rul. 87-41 (federal common-law 20-factor test)"
+    },
+    {
+      "type": "agency",
+      "citation": "US DOL Wage and Hour Division final rule on independent contractor classification under FLSA (effective 11 March 2024)",
+      "url": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking",
+      "accessed": "2026-05-26"
+    }
+  ],
+  "compliance_cache": {
+    "file": "sprint/compliance-cache/connecticut.json",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "in_window": true,
+    "ttl_days": 30
+  },
+  "kernel_cache_used": true,
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "internal_links_used": [
+    {
+      "anchor": "Connecticut state income tax and unemployment insurance",
+      "href": "../state-income-tax-and-unemployment-insurance/",
+      "section": "links-rail",
+      "state": "live"
+    },
+    {
+      "anchor": "Crossover Calculator",
+      "href": "https://www.teamed.global/tools/crossover-calculator",
+      "section": "how-teamed-handles",
+      "state": "external"
+    },
+    {
+      "anchor": "Contractor Classifier",
+      "href": "https://www.teamed.global/tools/contractor-classification",
+      "section": "masthead-cta",
+      "state": "external"
+    },
+    {
+      "anchor": "Employer of Record overview",
+      "href": "/employer-of-record/",
+      "section": "links-rail",
+      "state": "live"
+    },
+    {
+      "anchor": "Talk to an expert",
+      "href": "https://www.teamed.global/contact",
+      "section": "masthead-cta",
+      "state": "external"
+    }
+  ],
+  "editor_rounds": 0,
+  "editor_in_loop_skipped": "Drafted with rubric in mind; AL/AZ/AR/CA/CO sibling pattern proven through linter previously. Linter is the deterministic gate.",
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": false,
+    "sibling_links": "ships-with-wave-4-CT-children"
+  },
+  "audit_score": null,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "scope": "CT Paid Leave 2026 wage cap projection ($184,500) vs SSA-confirmed $176,100; not material to this page (worker classification, not paid leave), recorded for cross-page coherence with sibling state-income-tax-and-unemployment-insurance page."
+    }
+  ],
+  "image_assets": [
+    {
+      "type": "hero",
+      "filename": "images/hero.jpg",
+      "source": "Unsplash",
+      "photographer": "David Trinks",
+      "url": "https://unsplash.com/@dtrinksrph",
+      "query": "Connecticut State Capitol Hartford",
+      "size_bytes": 154276,
+      "note": "Reused from sibling state-income-tax-and-unemployment-insurance page — same Connecticut family hero."
+    },
+    {
+      "type": "inline-stamp-block",
+      "css": ".stamp-block",
+      "id": "Three Prongs, Two Routes",
+      "section": "three-prongs"
+    }
+  ],
+  "pullquote": {
+    "speaker_label": "Teamed Legal Operations",
+    "provenance": "anonymised — no MI quote available on Connecticut ABC test as of 2026-05-26 build; per pullquote-provenance rule, function-line anonymisation, NO cite line",
+    "mi_extraction_id": null
+  },
+  "entity_disclosure": "Teamed-owned entity: Teamed US Inc., Delaware",
+  "spec_notes": [
+    "Modelled on CA sibling structure (ABC family) with Connecticut-specific data swaps from compliance-cache.",
+    "ABC prong text quoted verbatim from Conn. Gen. Stat. § 31-222(a)(1)(B)(ii); note disjunctive Prong B EITHER/OR wording that differentiates Connecticut from California's strict conjunctive Prong B.",
+    "Three-test agency split (UI / workers' comp / income tax) is the headline Connecticut distinctive — three agencies can reach three different answers on the same engagement.",
+    "No state-specific civil-penalty figure equivalent to California § 226.8; CT penalties under § 31-225a cover failure to register / pay UI taxes with interest at 1.0% per month, four-year lookback under § 31-273.",
+    "Federal US DOL 2024 final rule overlays for FLSA purposes only; does not override Connecticut state ABC test for UI.",
+    "Hero photo reused from CT sibling page to maintain visual consistency of the Connecticut family."
+  ]
+}

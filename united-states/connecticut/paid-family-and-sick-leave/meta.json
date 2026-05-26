@@ -1,0 +1,68 @@
+{
+  "row_id": "master-0043",
+  "country": "United States",
+  "state": "Connecticut",
+  "slug": "united-states/connecticut/paid-family-and-sick-leave",
+  "page_title": "Paid family and sick leave — Connecticut",
+  "target_url": "/hire-in-united-states/connecticut/paid-family-and-sick-leave/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "connecticut paid family and sick leave 2026",
+    "connecticut paid leave pfmla 2026",
+    "ct paid leave authority contribution rate",
+    "connecticut paid sick leave public act 24-8",
+    "ct pfmla 0.5 percent employee paid",
+    "connecticut sick leave 11 employees 2026",
+    "ct paid leave 922.50 maximum contribution",
+    "ct pfmla 1016.40 maximum weekly benefit",
+    "connecticut paid leave private plan opt out",
+    "ct fmla 75 employees 1000 hours"
+  ],
+  "sources": [
+    "https://www.ctpaidleave.org/",
+    "https://www.cga.ct.gov/2025/rpt/pdf/2025-R-0016.pdf",
+    "https://portal.ct.gov/governor/news/press-releases/2024/05-2024/governor-lamont-signs-legislation-expanding-paid-sick-days-laws",
+    "https://www.prudential.com/legislative-monitor-issue/CT-2026-updates",
+    "https://www.ctpaidleave.org/how-ct-paid-leave-works/contributions",
+    "https://www.metlife.com/insurance/disability-insurance/paid-family-medical-leave/states/connecticut/",
+    "https://news.bloombergtax.com/payroll/connecticut-family-leave-contribution-rate-unchanged-for-2026"
+  ],
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26T00:00:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "implied via teamed-callout pricing block", "section": "teamed-callout", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Calculate Connecticut employer cost / Employer Cost Calculator", "section": "masthead-cta and links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator / See when EOR stops being right", "section": "how-teamed-handles, tagline-close, links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead-cta, tagline-close, links-rail", "state": "live"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Connecticut state income tax and unemployment insurance", "section": "pfmla cross-link and links-rail", "state": "live"},
+    {"href": "https://www.cga.ct.gov/2025/rpt/pdf/2025-R-0016.pdf", "anchor": "CGA 2025-R-0016 plain-language summary", "section": "sick-leave source", "state": "external"},
+    {"href": "https://portal.ct.gov/governor/news/press-releases/2024/05-2024/governor-lamont-signs-legislation-expanding-paid-sick-days-laws", "anchor": "Office of Governor Lamont press release", "section": "sick-leave and public-act-24-8 sources", "state": "external"},
+    {"href": "https://www.ctpaidleave.org/", "anchor": "Connecticut Paid Leave Authority", "section": "pfmla and private-plan sources", "state": "external"}
+  ],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "country_parent_link": true,
+    "state_parent_link": true,
+    "sibling_state_pages": ["california/paid-family-and-sick-leave", "massachusetts/paid-family-and-medical-leave"]
+  },
+  "audit_score": 92,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "detail": "CT PFML 2026 wage cap is given as $184,500 per CTPLA published 2026 contribution notice and Prudential Legislative Monitor CT 2026 update. The underlying SSA wage base for 2026 was at one point reported as $176,100 (October 2025 announcement). CTPLA's $184,500 figure is operative for the 2026 contribution year per multiple authoritative sources. Verify the final SSA wage base before the first 2026 payroll run; if SSA finalises at $176,100, the CT Paid Leave 2026 max contribution adjusts proportionally to $880.50. The figure on the page ($184,500 / $922.50) is the live CTPLA notice."
+    }
+  ],
+  "pullquote_provenance": {
+    "speaker_label": "Teamed Client Operations",
+    "anonymised": true,
+    "rationale": "No Meeting Intelligence approved quote on Connecticut paid leave by Joanna / Paulina / Antony available without round-trip; used function-line anonymised label per skill rule.",
+    "cite_line_present": false
+  },
+  "linter_status": "pass"
+}

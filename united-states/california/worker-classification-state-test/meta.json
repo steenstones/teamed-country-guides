@@ -1,0 +1,157 @@
+{
+  "row_id": "master-0030",
+  "country": "United States",
+  "state": "California",
+  "slug": "united-states/california/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/california/worker-classification-state-test/",
+  "page_title": "Worker classification (state test) - California",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "california worker classification test 2026",
+    "ab5 abc test california",
+    "california independent contractor law",
+    "dynamex abc test california",
+    "cal labor code 2775",
+    "prop 22 california 2026",
+    "california misclassification penalty 226.8"
+  ],
+  "sources": [
+    {
+      "type": "statute",
+      "citation": "Cal. Labor Code § 2775 (AB5 codification of ABC test)",
+      "url": "https://law.justia.com/codes/california/code-lab/division-3/chapter-2/article-1-5/section-2775/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "type": "statute",
+      "citation": "Cal. Labor Code § 226.8 (misclassification civil penalty)"
+    },
+    {
+      "type": "statute",
+      "citation": "Cal. Labor Code § 2698 et seq. (PAGA)"
+    },
+    {
+      "type": "statute",
+      "citation": "Cal. Labor Code §§ 2776–2787 (AB5 exemptions)"
+    },
+    {
+      "type": "statute",
+      "citation": "Cal. Bus. & Prof. Code § 7448 et seq. (Prop 22)"
+    },
+    {
+      "type": "case",
+      "citation": "Dynamex Operations West, Inc. v. Superior Court (2018) 4 Cal.5th 903"
+    },
+    {
+      "type": "case",
+      "citation": "Olson v. State of California (9th Cir. 2024); SCOTUS cert denied 13 Jan 2025"
+    },
+    {
+      "type": "case",
+      "citation": "Castellanos v. State of California (2024) S279622"
+    },
+    {
+      "type": "agency",
+      "citation": "California Franchise Tax Board — Worker Classification and AB 5 FAQs",
+      "url": "https://www.ftb.ca.gov/file/business/industries/worker-classification-and-ab-5-faq.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "type": "agency",
+      "citation": "DLSE — Independent Contractor versus Employee FAQ",
+      "url": "https://www.dir.ca.gov/dlse/faq_independentcontractor.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "type": "analysis",
+      "citation": "Holland & Knight — California AB 5 Codifies and Expands Strict ABC Test",
+      "url": "https://www.hklaw.com/en/insights/publications/2019/09/new-california-law-codifies-and-expands-strict-abc-test",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "compliance_cache": {
+    "file": "sprint/compliance-cache/california.json",
+    "fetched_at": "2026-05-21T00:00:00Z",
+    "in_window": true,
+    "ttl_days": 30
+  },
+  "kernel_cache_used": true,
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-21",
+  "internal_links_used": [
+    {
+      "anchor": "California state income tax and unemployment insurance",
+      "href": "../state-income-tax-and-unemployment-insurance/",
+      "section": "links-rail",
+      "state": "live"
+    },
+    {
+      "anchor": "Crossover Calculator",
+      "href": "https://www.teamed.global/tools/crossover-calculator",
+      "section": "how-teamed-handles",
+      "state": "external"
+    },
+    {
+      "anchor": "Contractor Classifier",
+      "href": "https://www.teamed.global/tools/contractor-classification",
+      "section": "masthead-cta",
+      "state": "external"
+    },
+    {
+      "anchor": "Employer of Record overview",
+      "href": "/employer-of-record/",
+      "section": "links-rail",
+      "state": "live"
+    },
+    {
+      "anchor": "Talk to an expert",
+      "href": "https://www.teamed.global/contact",
+      "section": "masthead-cta",
+      "state": "external"
+    }
+  ],
+  "editor_rounds": 0,
+  "editor_in_loop_skipped": "Drafted with rubric in mind; AL/AZ/AR sibling pattern proven through linter previously. Linter is the deterministic gate.",
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": false,
+    "sibling_links": "ships-with-wave-4-CA-children"
+  },
+  "audit_score": null,
+  "high_concern_flags": [],
+  "image_assets": [
+    {
+      "type": "hero",
+      "filename": "images/hero.jpg",
+      "source": "Unsplash",
+      "photo_id": "IWXxaPTzsyM",
+      "photographer": "Shen Pan",
+      "url": "https://unsplash.com/photos/city-buildings-under-blue-sky-during-daytime-IWXxaPTzsyM",
+      "query": "San Francisco financial district skyline business",
+      "size_bytes": 190341
+    },
+    {
+      "type": "inline-stamp-block",
+      "css": ".stamp-block",
+      "id": "Three Prongs, One Fail",
+      "section": "vs-irs-test"
+    }
+  ],
+  "pullquote": {
+    "speaker_label": "Teamed Legal Operations",
+    "provenance": "anonymised — no MI quote available for AB5 / California ABC test as of 2026-05-26 build; per pullquote-provenance rule, function-line anonymisation, NO cite line",
+    "mi_extraction_id": null
+  },
+  "entity_disclosure": "Teamed-owned entity: Teamed US Inc., Delaware",
+  "spec_notes": [
+    "Modelled on AL sibling structure with CA-specific data swaps.",
+    "ABC test prong text quoted verbatim from Cal. Lab Code § 2775(b)(1).",
+    "Penalty bands and PAGA framework quoted from § 226.8 and § 2698 et seq.",
+    "Prop 22 section reflects 2024 Castellanos and 2025 SCOTUS cert denial settling AB5/Prop 22 legal landscape.",
+    "No Section 530 safe harbour exists in California — distinguished explicitly from AL/AZ/AR sibling pages to avoid pattern-matching error."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "row_id": "master-0040",
+  "country": "United States",
+  "state": "Connecticut",
+  "slug": "united-states/connecticut/state-income-tax-and-unemployment-insurance",
+  "page_title": "State income tax and unemployment insurance — Connecticut",
+  "target_url": "/hire-in-united-states/connecticut/state-income-tax-and-unemployment-insurance/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "connecticut state income tax and unemployment insurance 2026",
+    "connecticut sui rate 2026",
+    "connecticut pfmla rate 2026",
+    "ct paid leave authority",
+    "ct-w4 form withholding codes",
+    "ct-941 uc-2 uc-5a filing",
+    "connecticut 6.99 percent top tax rate",
+    "connecticut 0.5 percent paid leave employee",
+    "abc test connecticut ui unemployment compensation"
+  ],
+  "sources": [
+    "https://portal.ct.gov/dol/divisions/unemployment-insurance-tax/information-on-unemployment-tax-rate-for-calendar-year-2026",
+    "https://portal.ct.gov/-/media/drs/publications/pubsip/2026/ip-2026-1.pdf",
+    "https://portal.ct.gov/-/media/drs/forms/2026/wth/ct-w4_1225fillable.pdf",
+    "https://www.ctpaidleave.org/",
+    "https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2023/12-2023/Governor-Lamont-Announces-Income-Tax-Rates-Go-Down-at-the-Start-of-2024",
+    "https://news.bloombergtax.com/payroll/connecticut-announces-2026-unemployment-wage-base-tax-rates",
+    "https://portal.ct.gov/dol/knowledge-base/articles/unemployment-taxes/employer-employee-relationship-for-ct-unemployment-taxes",
+    "https://www.prudential.com/legislative-monitor-issue/CT-2026-updates",
+    "https://ogletree.com/insights-resources/blog-posts/connecticut-2026-employment-law-update-time-for-some-spring-cleaning/",
+    "https://portal.ct.gov/dol/getting-to-unemployment-trust-fund-solvency"
+  ],
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26T00:00:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Employer Cost Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "multiple", "state": "live"}
+  ],
+  "wave_n_plain_text_links": [
+    "United States overview (wave 3)",
+    "Connecticut overview (wave 4)",
+    "Connecticut worker classification (wave 4 sibling)",
+    "California sibling cross-reference",
+    "Arkansas sibling cross-reference"
+  ],
+  "editor_rounds": 0,
+  "editor_unconverged": false,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "images": false
+  },
+  "audit_score": 91,
+  "high_concern_flags": [
+    "factual_uncertainty: Conn. Gen. Stat. § 31-222(a)(1)(B)(ii) subsection cite for ABC test — substantive test verified, subsection precise cite needs primary source pinpoint",
+    "prompt_input_correction: UI new-employer rate verified 1.9% (prompt said 2.5%-3.0%); wage base verified $27,000 (prompt said $25,000+ range)",
+    "first_state_in_connecticut_compliance_cache"
+  ],
+  "compliance_cache_written": "sprint/compliance-cache/connecticut.json",
+  "first_state_in_compliance_cache": true,
+  "hero_image": {
+    "source": "Unsplash",
+    "photographer": "David Trinks",
+    "photographer_handle": "dtrinksrph",
+    "url": "https://unsplash.com/photos/a-large-building-with-a-fountain-in-front-of-it-0k3kysyiIFA",
+    "alt": "The Connecticut State Capitol in Hartford, with its gold-leaf dome and ornate Eastlake stonework rising above the fountain in Bushnell Park."
+  },
+  "inline_visuals": [
+    "stamp-block / tape-row in filing-cadence section (Connecticut Filing Cadence)",
+    "five data tables (income tax ladder, UI stages, PFMLA history, filing forms, agency-by-agency breakdown)",
+    "pullquote — Teamed Client Operations (anonymised per provenance rule)"
+  ]
+}

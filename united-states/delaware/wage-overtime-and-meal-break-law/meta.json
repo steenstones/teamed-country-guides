@@ -1,0 +1,91 @@
+{
+  "row_id": "master-0050",
+  "slug": "united-states/delaware/wage-overtime-and-meal-break-law",
+  "title": "Wage, overtime, and meal-break law — Delaware",
+  "tier": "US-State",
+  "country": "United States",
+  "state": "Delaware",
+  "target_keywords": [
+    "delaware wage overtime and meal break law 2026",
+    "delaware minimum wage 2026",
+    "delaware meal break 7.5 hours 19 del c 707",
+    "delaware pay frequency 19 del c 1102",
+    "delaware tipped wage 2.23 tip credit",
+    "delaware final pay 19 del c 1103 10 percent damages",
+    "delaware pay statement 19 del c 1108"
+  ],
+  "primary_keyword": "delaware wage overtime and meal break law 2026",
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "spec_version": "phase-1.0",
+  "exemplar_used": "uk-cost-breakdown-child.html (spine) + germany-tax-and-payroll-v2-child.html (visual density) + connecticut/wage-overtime-and-meal-break-law (state sibling, same 7.5-hour meal-break twin)",
+  "sources": [
+    {"url": "https://delcode.delaware.gov/title19/c009/index.html", "title": "Delaware Code Online — Title 19 Chapter 9 (Minimum Wage)", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/delaware/title-19/chapter-7/subchapter-i/section-707/", "title": "19 Delaware Code § 707 — Meal breaks (Justia)", "accessed": "2026-05-26"},
+    {"url": "https://codes.findlaw.com/de/title-19-labor/de-code-sect-19-707/", "title": "Delaware Code Title 19. Labor § 707 — Meal breaks (FindLaw)", "accessed": "2026-05-26"},
+    {"url": "https://regulations.delaware.gov/AdminCode/title19/1000/1300/1320/1327.shtml", "title": "19 DE Admin Code § 1327 — Rules Relating to Exemptions from Meal Break Requirement", "accessed": "2026-05-26"},
+    {"url": "https://delcode.delaware.gov/title19/c011/index.html", "title": "Delaware Code Online — Title 19 Chapter 11 (Wage Payment and Collection)", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/delaware/title-19/chapter-11/section-1103/", "title": "19 Delaware Code § 1103 — Employees separated from the payroll before regular payday; damages for failure to pay wages", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/delaware/title-19/chapter-11/section-1108/", "title": "19 Delaware Code § 1108 — Duty of employer regarding notification, posting and records", "accessed": "2026-05-26"},
+    {"url": "https://codes.findlaw.com/de/title-19-labor/de-code-sect-19-1102/", "title": "Delaware Code Title 19. Labor § 1102 — Payment of wages (FindLaw)", "accessed": "2026-05-26"},
+    {"url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/delaware/wage-and-hour/minimum-wage/", "title": "Delaware Minimum Wage 2026 (Employment Law Handbook)", "accessed": "2026-05-26"},
+    {"url": "https://www.minimum-wage.org/delaware", "title": "Delaware Minimum Wage 2026 — Minimum-Wage.org", "accessed": "2026-05-26"},
+    {"url": "https://www.7shifts.com/blog/delaware-tip-laws/", "title": "Delaware Tip Laws: What Employers Should Know in 2026 (7shifts)", "accessed": "2026-05-26"},
+    {"url": "https://www.workforcehub.com/hr-laws-and-regulations/delaware/delaware-overtime-laws/", "title": "Delaware Overtime Laws (WorkforceHub)", "accessed": "2026-05-26"},
+    {"url": "https://quickbooks.intuit.com/r/delaware/delaware-overtime-laws-guide/", "title": "Delaware overtime laws | Employer compliance guide (QuickBooks)", "accessed": "2026-05-26"},
+    {"url": "https://jjkellercompliancenetwork.com/regsense/breaks-and-meal-periods-delaware", "title": "Federal & State Regulations | Breaks and meal periods - Delaware (J.J. Keller)", "accessed": "2026-05-26"},
+    {"url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/delaware/wage-payment/", "title": "Delaware Wage Payment Laws — ELH / HR4Sight", "accessed": "2026-05-26"}
+  ],
+  "internal_links_used": 10,
+  "internal_links_plain_text": 2,
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "neighbour_country_links": false,
+    "images": false,
+    "schema": false,
+    "state_parent_link": true,
+    "us_parent_link": true,
+    "delaware_siblings_pending": ["worker-classification-state-test", "paid-family-and-sick-leave", "termination-law-and-at-will-exceptions"]
+  },
+  "audit_score": 87,
+  "linter": {
+    "status": "pass",
+    "checks_passed": 26,
+    "checks_total": 26,
+    "block_failures": 0,
+    "warn_failures": 0
+  },
+  "high_concern_flags": [
+    {"flag": "factual_uncertainty", "detail": "Row guidance described § 707 as under '19 Del Code Chapter 9' framing; actually § 707 is under Chapter 7 of Title 19 (general labor regulations), not Chapter 9 (minimum wage). Resolved by primary citation to Title 19 Chapter 7 Subchapter I.", "severity": "info"},
+    {"flag": "factual_uncertainty", "detail": "Row guidance described pay frequency under § 1102 as 'at least monthly (some industries weekly required)'. Verified primary headline rule is 'at least once a month' with employer discretion to pay more frequently; the 'some industries weekly required' carve-out (e.g., banks, factories) could not be cleanly sourced in the current Title 19 Chapter 11; flagged for legal review. Page text uses the unambiguous monthly-floor framing.", "severity": "info"},
+    {"flag": "factual_uncertainty", "detail": "Youth/training wage of $8.75 first-90-days under 19 Del. C. § 902(c) referenced from sibling-source secondary citations; primary statutory citation should be re-verified in next 30-day refresh.", "severity": "low"}
+  ],
+  "pullquote_provenance": {
+    "type": "tom_voice_byline",
+    "speaker": "Tom Price-Daniel · Co-founder, Teamed",
+    "cite_source": null,
+    "fabricated": false,
+    "note": "Tom-bylined editorial pullquote; no <cite> per provenance rule. Brand voice attribution, not sourced quote."
+  },
+  "image_provenance": {
+    "hero": {
+      "source": "Unsplash",
+      "photographer": "Taya Dianna",
+      "photographer_username": "tayadianna",
+      "photo_url": "https://unsplash.com/photos/green-trees-near-body-of-water-under-blue-sky-during-daytime-5sqzKmJvrPM",
+      "query": "Wilmington Delaware",
+      "fetched": "2026-05-26",
+      "file_size_bytes": 144739
+    }
+  },
+  "stage_results": {
+    "research_complete": true,
+    "brief_written": true,
+    "draft_complete": true,
+    "images_complete": true,
+    "internal_links_added": true,
+    "editor_review_rounds": 1,
+    "output_written": true,
+    "linter_pass": true
+  }
+}

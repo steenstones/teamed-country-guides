@@ -1,0 +1,68 @@
+{
+  "row_id": "master-0041",
+  "slug": "united-states/connecticut/termination-law-and-at-will-exceptions",
+  "country": "United States",
+  "state": "Connecticut",
+  "tier": "US-State",
+  "title": "Termination law and at-will exceptions — Connecticut",
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "target_keywords": [
+    "connecticut termination law and at-will exceptions 2026",
+    "connecticut at-will employment",
+    "conn gen stat 31-71c final paycheck",
+    "cfepa 300 days",
+    "sheets v teddy's frosted foods",
+    "coelho v posi-seal international",
+    "magnan v anaconda industries",
+    "conn gen stat 31-51o healthcare continuation"
+  ],
+  "editor_rounds": 0,
+  "internal_links_used": [
+    "/employer-of-record/",
+    "/pricing/zero-fx-fixed/",
+    "https://www.teamed.global/tools/crossover-calculator",
+    "https://www.teamed.global/tools/employer-cost",
+    "https://www.teamed.global/contact",
+    "../state-income-tax-and-unemployment-insurance/",
+    "../../california/termination-law-and-at-will-exceptions/",
+    "../../colorado/termination-law-and-at-will-exceptions/",
+    "../../arkansas/termination-law-and-at-will-exceptions/"
+  ],
+  "retrofit_needed": {
+    "neighbour_links": false,
+    "images": false,
+    "parent_link": true
+  },
+  "audit_score": 88,
+  "high_concern_flags": [
+    {
+      "code": "factual_uncertainty:prompt_correction",
+      "detail": "Prompt asserted Conn. Gen. Stat. § 31-71c requires final pay 'by next regular payday for both voluntary and involuntary'. Verified against primary source (LawServer codified statute, CT Employment Law Blog January 2026, Pullman & Comley): § 31-71c actually requires payment by the NEXT BUSINESS DAY for involuntary discharge; voluntary quit pays on the next regular payday. Page corrected. Source: https://www.lawserver.com/law/state/connecticut/ct-laws/connecticut_statutes_31-71c"
+    },
+    {
+      "code": "factual_uncertainty:prompt_correction",
+      "detail": "Prompt asserted CT mini-WARN at Conn. Gen. Stat. § 31-51n for 100+ employee mass layoffs/relocations. Verified against primary source (Justia codified statute, CGA Chapter 557 Part II): § 31-51n is the DEFINITIONS section; the substantive Connecticut state-law duty is at § 31-51o, which is a HEALTHCARE CONTINUATION statute (not an advance-notice statute) requiring 120 days of employer-paid group health continuation for affected employees of a 100+ employee covered establishment that closes or relocates out of state. Connecticut has NO general state mini-WARN advance-notice statute; federal WARN is the only mandatory advance-notice requirement. Page corrected throughout, including in dedicated 'What is the § 31-51o 120-day healthcare continuation obligation' section and 'mass-layoff-warn' section. Source: https://law.justia.com/codes/connecticut/2023/title-31/chapter-557/section-31-51o/"
+    },
+    {
+      "code": "factual_uncertainty",
+      "detail": "CT PFML 2026 wage base discrepancy in compliance cache ($184,500 per CTPLA / Prudential vs $176,100 per SSA October 2025 announcement). Page does not surface this specific number to readers, so no user-facing risk; flagged for cache awareness."
+    }
+  ],
+  "sources": [
+    {"url": "https://law.justia.com/cases/connecticut/supreme-court/1980/179-conn-471-2.html", "title": "Sheets v. Teddy's Frosted Foods, Inc., 179 Conn. 471, 427 A.2d 385 (1980)", "accessed": "2026-05-26"},
+    {"url": "https://en.wikipedia.org/wiki/Magnan_v._Anaconda_Industries,_Inc.", "title": "Magnan v. Anaconda Industries, Inc., 193 Conn. 558, 479 A.2d 781 (1984)", "accessed": "2026-05-26"},
+    {"url": "https://www.casemine.com/commentary/us/implied-employment-contracts-and-just-cause-termination:-insights-from-robert-coelho-v.-posi-seal-international,-inc./view", "title": "Coelho v. Posi-Seal International, Inc., 208 Conn. 106, 544 A.2d 170 (1988) commentary", "accessed": "2026-05-26"},
+    {"url": "https://www.lawserver.com/law/state/connecticut/ct-laws/connecticut_statutes_31-71c", "title": "Connecticut General Statutes § 31-71c — Payment of wages on termination of employment", "accessed": "2026-05-26"},
+    {"url": "https://www.ctemploymentlawblog.com/2026/01/articles/avoiding-costly-lawsuits-timely-final-wage-payments-in-connecticut/", "title": "Connecticut Employment Law Blog — Avoiding Costly Lawsuits: Timely Final Wage Payments (January 2026)", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/connecticut/2023/title-31/chapter-557/section-31-51o/", "title": "Connecticut General Statutes § 31-51o — Continuation of group health insurance for employees affected by relocation or closing of covered establishment", "accessed": "2026-05-26"},
+    {"url": "https://cga.ct.gov/Current/pub/chap_557.htm", "title": "Connecticut General Assembly — Chapter 557, Employment Regulation", "accessed": "2026-05-26"},
+    {"url": "https://legalclarity.org/connecticut-fair-employment-practices-act-what-you-need-to-know/", "title": "Connecticut Fair Employment Practices Act overview (CFEPA, § 46a-60)", "accessed": "2026-05-26"},
+    {"url": "https://connecticutlegalservicesauthority.com/connecticut-employment-law-framework", "title": "Connecticut Employment Law Framework — Connecticut Legal Services Authority", "accessed": "2026-05-26"},
+    {"url": "https://portal.ct.gov/dol/knowledge-base/articles/employment-and-training/rapid-response/warn", "title": "CT DOL — WARN Act and Rapid Response", "accessed": "2026-05-26"},
+    {"url": "https://www.cga.ct.gov/2019/rpt/pdf/2019-R-0180.pdf", "title": "CGA Office of Legislative Research — Federal WARN Act primer (2019-R-0180)", "accessed": "2026-05-26"},
+    {"url": "https://www.shipmangoodwin.com/insights/connecticut-minimum-wage-and-paid-sick-leave-changes-coming-in-2026.html", "title": "Shipman & Goodwin — Connecticut Minimum Wage and Paid Sick Leave Changes Coming in 2026", "accessed": "2026-05-26"},
+    {"url": "https://www.daypitney.com/key-connecticut-employment-law-developments-employers-should-address-in-2026", "title": "Day Pitney — Key Connecticut Employment Law Developments for 2026", "accessed": "2026-05-26"},
+    {"url": "https://www.ctpaidleave.org/", "title": "Connecticut Paid Leave Authority", "accessed": "2026-05-26"}
+  ]
+}

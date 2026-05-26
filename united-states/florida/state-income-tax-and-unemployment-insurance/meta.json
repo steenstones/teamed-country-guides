@@ -1,0 +1,65 @@
+{
+  "row_id": "master-0052",
+  "country": "United States",
+  "state": "Florida",
+  "slug": "united-states/florida/state-income-tax-and-unemployment-insurance",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "target_keywords": [
+    "florida reemployment tax 2026",
+    "florida state income tax",
+    "florida SUI wage base",
+    "florida RT-6 form",
+    "florida payroll tax employer",
+    "does florida have state income tax",
+    "florida employer reemployment tax rate",
+    "florida new employer SUI rate"
+  ],
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26T00:00:00Z",
+  "spec_version": "phase-1.0",
+  "exemplars_used": [
+    "references/exemplar-pages/uk-cost-breakdown-child.html (structural spine)",
+    "references/exemplar-pages/germany-tax-and-payroll-v2-child.html (visual + Teamed-difference)",
+    "output/country-guides/united-states/alaska/state-income-tax-and-unemployment-insurance/index.html (sibling no-income-tax state — direct mirror)"
+  ],
+  "compliance_cache": "sprint/compliance-cache/florida.json (created this run — first FL page in sprint)",
+  "kernel_cache_used": true,
+  "internal_links_used": [
+    {"anchor": "Alaska state income tax and unemployment insurance", "href": "../../alaska/state-income-tax-and-unemployment-insurance/", "context": "links-rail · sibling state · no-income-tax comparison"},
+    {"anchor": "Alabama state income tax and unemployment insurance", "href": "../../alabama/state-income-tax-and-unemployment-insurance/", "context": "links-rail · sibling state"},
+    {"anchor": "California state income tax and unemployment insurance", "href": "../../california/state-income-tax-and-unemployment-insurance/", "context": "links-rail · sibling state · high-tax contrast"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "links-rail · core"},
+    {"anchor": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "context": "links-rail + how-teamed-handles · core"},
+    {"anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "links-rail + how-teamed-handles + tagline-close · tool"},
+    {"anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "context": "masthead secondary CTA + links-rail · tool"},
+    {"anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "context": "masthead + tagline-close + links-rail · CTA"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 92,
+  "retrofit_needed": {
+    "neighbour_country_links": false,
+    "us_parent_link": true,
+    "florida_parent_link": true,
+    "images": false
+  },
+  "high_concern_flags": [],
+  "sources": [
+    {"url": "https://floridarevenue.com/taxes/taxesfees/Pages/rt_rate.aspx", "title": "Florida Department of Revenue — Reemployment Tax Rate Information"},
+    {"url": "https://www.flsenate.gov/Laws/Statutes/2025/443.131", "title": "Chapter 443 Section 131 — 2025 Florida Statutes (Contributions)"},
+    {"url": "https://floridarevenue.com/Forms_library/current/rt6.pdf", "title": "Form RT-6 (Employer's Quarterly Report)"},
+    {"url": "https://floridarevenue.com/Forms_library/current/guides/rt800002.pdf", "title": "Florida Employer Guide to Reemployment Tax (RT-800002)"},
+    {"url": "https://www.floridajobs.org/news-center/DEO-Press/2025/12/05/icymi--florida-s-reemployment-tax-rate-remains-at-lowest-possible-rate", "title": "Florida DEO — Reemployment Tax Rate Remains at Lowest Possible Rate (Dec 2025)"},
+    {"url": "https://servicesforemployers.floridarevenue.com/SiteAssets/docs/CS-EF315-LIB-Fillable.pdf", "title": "Form CS-EF315 — Florida New Hire Reporting Form"},
+    {"url": "https://floridarevenue.com/taxes/taxesfees/Pages/rt_return_pay.aspx", "title": "Florida DOR — Reemployment Tax Return and Payment Information"},
+    {"url": "https://www.irs.gov/taxtopics/tc759", "title": "IRS Topic 759 — Form 940 FUTA"}
+  ],
+  "pullquote_provenance": {
+    "type": "tom-voice",
+    "speaker": "Tom Price-Daniel",
+    "mi_extraction_id": null,
+    "rationale": "Tom-bylined pullquote drafted in-voice per skill rules. No MI quote required for Tom-attributed pulls."
+  }
+}

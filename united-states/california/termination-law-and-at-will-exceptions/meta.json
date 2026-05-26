@@ -1,0 +1,115 @@
+{
+  "row_id": "master-0029",
+  "country": "United States",
+  "state": "California",
+  "slug": "united-states/california/termination-law-and-at-will-exceptions",
+  "page_title": "Termination law and at-will exceptions — California",
+  "target_url": "/hire-in-united-states/california/termination-law-and-at-will-exceptions/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "california termination law and at-will exceptions 2026",
+    "california at-will employment Labor Code 2922",
+    "california final paycheck immediately Labor Code 201",
+    "california waiting time penalty Labor Code 203",
+    "California WARN Act 75 employees Labor Code 1400",
+    "California WARN SB 617 notice content 2026",
+    "California FEHA wrongful termination Government Code 12940",
+    "Tameny v Atlantic Richfield public policy California",
+    "Foley v Interactive Data implied contract California",
+    "Guz v Bechtel implied covenant California",
+    "Suastez v Plastic Dress-Up vested vacation California"
+  ],
+  "sources": [
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=201&lawCode=LAB",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=202&lawCode=LAB",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=203&lawCode=LAB",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=2922&lawCode=LAB",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12940&lawCode=GOV",
+    "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12945.2&lawCode=GOV",
+    "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB617",
+    "https://www.dir.ca.gov/dlse/faq_waitingtimepenalty.htm",
+    "https://www.dir.ca.gov/dlse/faq_finalpay.htm",
+    "https://www.dir.ca.gov/dlse/cal-warnact.html",
+    "https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN",
+    "https://edd.ca.gov/en/jobs_and_training/Information_Notices/wsin25-14/",
+    "https://scocal.stanford.edu/opinion/foley-v-interactive-data-corp-28525",
+    "https://law.justia.com/cases/california/supreme-court/4th/24/317.html",
+    "https://calcivilrights.ca.gov/",
+    "https://www.littler.com/news-analysis/asap/california-expands-state-warn-act-obligations",
+    "https://www.cdflaborlaw.com/blog/key-new-2026-employment-laws-for-california-employers"
+  ],
+  "generated_at": "2026-05-26T08:55:00Z",
+  "sources_verified_at": "2026-05-26T08:55:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a single fixed rate of $599 per employee per month", "section": "how-teamed-handles", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Employer Cost Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "how-teamed-handles", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "See when EOR stops being right", "section": "tagline-close-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "links-rail", "state": "live"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "California state income tax & unemployment insurance", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "multiple", "state": "live"}
+  ],
+  "wave_n_plain_text_links": [
+    "United States overview (wave 3)",
+    "California overview (wave 4)",
+    "California worker classification (wave 4 sibling)",
+    "Arkansas termination & at-will (sibling reference, narrow-exception counterpoint)"
+  ],
+  "editor_rounds": 0,
+  "editor_unconverged": false,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "images": false
+  },
+  "audit_score": 93,
+  "high_concern_flags": [
+    "factual_uncertainty:prompt_correction (informational): Sprint prompt asserted California is a 300-day-clock state implicitly via reference to federal-law layering. Verified explicitly — California IS a 300-day EEOC deferral state (CRD has work-sharing agreement with EEOC), which is the OPPOSITE of Alabama/Arkansas (both 180-day non-deferral). Page reflects 300-day clock correctly.",
+    "factual_uncertainty:prompt_addition (informational): Sprint prompt did not mention SB 617 Cal-WARN content amendments effective 1 January 2026. Verified against leginfo (chaptered SB 617), Littler ASAP, KingsleyKingsley, CDF Labor Law, EDD WSIN25-14, Mondaq, Lexology, and National Law Review — bill chaptered late 2025, amends Cal. Lab. Code § 1401, adds three mandatory notice content elements (workforce-board coordination statement, WDB contact, CalFresh program info). Page leads with SB 617 as the 2026 highlight on Cal-WARN; deficient-notice exposure is the standout PAGA-adjacent risk. Compliance cache for California (master-0028) covered payroll-side only; this child page is the first to surface SB 617.",
+    "factual_uncertainty:prompt_addition (informational): Sprint prompt described the implied covenant of good faith and fair dealing without distinguishing the 1988 Foley framing from the 2000 Guz narrowing. Page adds Guz v. Bechtel Nat'l, Inc., 24 Cal.4th 317 (2000) as the dispositive narrowing case — the implied covenant in employment is contract-bounded and does NOT support tort damages (no California analogue to insurance bad-faith). This is the modern California employer-defence benchmark.",
+    "pullquote_provenance_anonymised (informational): Per CRITICAL pullquote provenance rule, no MI semantic_search attempted for California termination quotes from named SMEs. Pullquote labelled 'Teamed Legal Operations' (anonymous-team function label, no <cite>, no named individual). Tom Price-Daniel tagline close stays as brand voice (exempt from MI provenance requirement). No named-individual SME pullquote shipped without MI provenance. No fabricated <cite> sources anywhere on the page.",
+    "link_gate_warn:us_california_siblings_wave_n (low): Chip-nav references California sibling pages (overview, state-tax, wages-overtime-and-meal-break-law, worker-classification-state-test, paid-family-and-sick-leave). State-tax-and-UI sibling is LIVE (master-0028). Other siblings are pre-wave; chip-nav links render but will 404 until those ship. Links-rail uses plain text for California overview (wave 4) and California worker classification (wave 4) per link gate. Cross-state reference to Arkansas termination rendered as plain text per link gate (sibling state). Auto-promote when targets ship.",
+    "secondary_cta_real_destinations (informational): Both secondary CTAs link to real Teamed tool destinations per SECONDARY CTA RULE — masthead secondary points to Employer Cost Calculator (https://www.teamed.global/tools/employer-cost), tagline-close secondary points to Crossover Calculator (https://www.teamed.global/tools/crossover-calculator). No duplicate Talk to an expert. No staging-app URLs anywhere.",
+    "compliance_cache_reused (informational): California compliance-cache (sprint/compliance-cache/california.json) pre-existed from master-0028 (2026-05-21); reused for partner-entity badge (Teamed US Inc., Delaware), worker-classification cross-reference (ABC test / AB 5 / § 2775), and § 226.8 / PAGA penalty context. No re-fetch needed."
+  ],
+  "compliance_cache_written": null,
+  "compliance_cache_reused": "sprint/compliance-cache/california.json",
+  "first_state_in_compliance_cache": false,
+  "hero_image": {
+    "source": "Unsplash",
+    "photographer": "Freddie Collins",
+    "photographer_handle": "visuals_by_fred",
+    "url": "https://unsplash.com/photos/bridge-over-water-during-daytime-j5rGiei6iJE",
+    "alt": "The San Francisco-Oakland Bay Bridge stretching across the bay during daytime, with city skyline behind.",
+    "size_bytes": 145260
+  },
+  "inline_visuals": [
+    "stamp-block / tape-row in documenting-termination section (California Termination File, 5 documents)",
+    "four data tables (at-will exceptions, federal+FEHA claim menu, three final-pay deadlines, Cal-WARN vs federal WARN comparison)",
+    "pullquote — Teamed Legal Operations (anonymised, no MI provenance required)"
+  ],
+  "pullquote_provenance": [
+    {
+      "section": "pullquote-after-how-teamed-handles",
+      "label": "Teamed Legal Operations",
+      "provenance": "anonymised_team_function_label",
+      "named_individual": false,
+      "mi_extraction_id": null,
+      "rule_compliance": "Per CRITICAL pullquote provenance rule — when no real quote returns from MI semantic_search, anonymise to team function label. No <cite>. No named individual."
+    },
+    {
+      "section": "tagline-close",
+      "label": "Tom Price-Daniel · Co-founder, Teamed",
+      "provenance": "tom_brand_voice_exempt",
+      "named_individual": true,
+      "mi_extraction_id": null,
+      "rule_compliance": "Per pullquote provenance rule — Tom-bylined pullquotes may be drafted in-voice. No <cite> source line required."
+    }
+  ]
+}

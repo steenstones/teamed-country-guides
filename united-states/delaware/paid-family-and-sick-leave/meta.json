@@ -1,0 +1,79 @@
+{
+  "row_id": "master-0049",
+  "country": "United States",
+  "state": "Delaware",
+  "slug": "united-states/delaware/paid-family-and-sick-leave",
+  "page_title": "Paid family and sick leave — Delaware",
+  "target_url": "/hire-in-united-states/delaware/paid-family-and-sick-leave/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "delaware paid family and medical leave 2026",
+    "delaware hdfa healthy delaware families act 2026",
+    "delaware paid leave contribution rate 0.8 percent",
+    "delaware paid leave 900 weekly benefit",
+    "delaware paid leave employer headcount tiers 10 25",
+    "delaware paid leave private plan grandfathering 2029",
+    "delaware paid leave parental medical family caregiver military",
+    "delaware paid leave 60 percent 12 months 1250 hours eligibility",
+    "delaware no state paid sick leave 2026",
+    "delaware paid leave 184500 wage base 2026"
+  ],
+  "sources": [
+    "https://labor.delaware.gov/delaware-paid-leave/",
+    "https://labor.delaware.gov/delaware-paid-leave/employers/",
+    "https://labor.delaware.gov/delaware-paid-leave/employees/",
+    "https://laborfiles.delaware.gov/main/pfl/Employer_and_TPAs_Guide_to_DPL.pdf",
+    "https://laborfiles.delaware.gov/main/pfl/PFML_Overview_FAQ.pdf",
+    "https://laborfiles.delaware.gov/main/pfl/Grandfathering_FAQ.pdf",
+    "https://www.ebglaw.com/insights/publications/delawares-paid-family-medical-leave-program-to-commence-in-2026",
+    "https://www.mercer.com/insights/law-and-policy/delaware-enacts-paid-family-and-medical-leave-law/",
+    "https://www.abetterbalance.org/states/delaware/",
+    "https://www.mutualofomaha.com/employer-based-plans/paid-family-medical-leave/delaware",
+    "https://global.lockton.com/us/en/news-insights/delaware-is-the-latest-state-to-fund-paid-leave-benefits-for-employees"
+  ],
+  "generated_at": "2026-05-26T00:00:00Z",
+  "sources_verified_at": "2026-05-26T00:00:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "implied via teamed-callout pricing block", "section": "teamed-callout", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Calculate Delaware employer cost / Employer Cost Calculator", "section": "masthead-cta and links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator / See when EOR stops being right", "section": "how-teamed-handles, tagline-close, links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead-cta, tagline-close, links-rail", "state": "live"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Delaware state income tax and unemployment insurance", "section": "contribution cross-link and links-rail", "state": "live"},
+    {"href": "../../connecticut/paid-family-and-sick-leave/", "anchor": "Connecticut paid family and sick leave", "section": "links-rail", "state": "live"},
+    {"href": "https://labor.delaware.gov/delaware-paid-leave/", "anchor": "Delaware Department of Labor Paid Leave Programme", "section": "contribution and private-plan sources", "state": "external"},
+    {"href": "https://laborfiles.delaware.gov/main/pfl/Employer_and_TPAs_Guide_to_DPL.pdf", "anchor": "DE DOL Employers & TPAs Guide", "section": "contribution and employer-tier sources", "state": "external"},
+    {"href": "https://laborfiles.delaware.gov/main/pfl/Grandfathering_FAQ.pdf", "anchor": "DE DOL Grandfathering FAQ", "section": "private-plan source", "state": "external"},
+    {"href": "https://www.abetterbalance.org/states/delaware/", "anchor": "A Better Balance Delaware paid leave laws summary", "section": "no-sick-leave source", "state": "external"}
+  ],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "country_parent_link": true,
+    "state_parent_link": true,
+    "sibling_state_pages": ["california/paid-family-and-sick-leave"]
+  },
+  "audit_score": 92,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "detail": "HDFA contribution wage cap is given as $184,500 per the federal Social Security wage base for 2026 (the statutory anchor in 19 Del. C. Ch. 37). The 2026 SSA wage base was finalised at $184,500. If a late administrative revision changes this figure, the per-employee max annual contribution ($1,476.00 combined; $738.00 employee-side max) adjusts proportionally. The figure on the page is the live operative value for 2026 payroll runs."
+    },
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "detail": "Delaware Paid Leave private-plan grandfathering window dates and approval count: the initial opt-out window ran 1 September 2024 to 1 December 2024 per DE DOL Grandfathering FAQ; approximately 120 employer plans were approved during that window. Continuing private-plan approval remains available outside that window. The five-year grandfathered period ends 31 December 2029 per the statute."
+    }
+  ],
+  "pullquote_provenance": {
+    "speaker_label": "Teamed Client Operations",
+    "anonymised": true,
+    "rationale": "No Meeting Intelligence approved quote on Delaware HDFA by Joanna / Paulina / Antony available without round-trip; used function-line anonymised label per skill rule (Paulina-equivalent function for client operations).",
+    "cite_line_present": false
+  },
+  "linter_status": "pass"
+}

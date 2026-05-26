@@ -1,0 +1,66 @@
+{
+  "row_id": "master-0035",
+  "slug": "united-states/colorado/termination-law-and-at-will-exceptions",
+  "country": "United States",
+  "state": "Colorado",
+  "page_title": "Termination law and at-will exceptions — Colorado",
+  "type": "programmatic",
+  "tier": "US-State",
+  "spec": "phase-1.0",
+  "generated_at": "2026-05-26",
+  "sources_verified_at": "2026-05-26",
+  "target_keywords": [
+    "colorado termination law and at-will exceptions 2026",
+    "colorado at-will employment",
+    "colorado final paycheck CRS 8-4-109",
+    "colorado wage theft criminal CRS 8-4-114",
+    "colorado mini-WARN",
+    "Continental Air Lines v Keenan",
+    "Decker v Browning-Ferris",
+    "Martin Marietta v Lorenz",
+    "Nieto v Clark's Market vacation",
+    "CADA POWR Act HB23-1095",
+    "CADA HB22-1367 300 days filing"
+  ],
+  "sources": [
+    {"source_url": "https://codes.findlaw.com/co/title-8-labor-and-industry/co-rev-st-sect-8-4-109/", "fact": "CRS 8-4-109 immediate final pay involuntary discharge"},
+    {"source_url": "https://leg.colorado.gov/bills/hb19-1267", "fact": "HB19-1267 wage theft criminal escalation"},
+    {"source_url": "https://law.justia.com/cases/colorado/supreme-court/1987/84sc460-0.html", "fact": "Continental Air Lines v Keenan 731 P.2d 708"},
+    {"source_url": "https://law.justia.com/cases/colorado/supreme-court/1997/95sc252-0.html", "fact": "Decker v Browning-Ferris Industries 931 P.2d 436"},
+    {"source_url": "https://cdle.colorado.gov/employers/layoff-separations/worker-adjustment-retraining-notification", "fact": "Colorado has no state mini-WARN, federal WARN only"},
+    {"source_url": "https://law.justia.com/codes/colorado/title-24/principal-departments/article-34/part-4/section-24-34-402/", "fact": "CRS 24-34-402 CADA discrimination filing 300 days HB22-1367"},
+    {"source_url": "https://www.bhfs.com/insight/recent-changes-to-colorado-s-employment-discrimination-laws/", "fact": "POWR Act HB23-1095 removed severe-or-pervasive harassment standard"},
+    {"source_url": "https://cdle.colorado.gov/sites/cdle/files/Colorado%20Wage%20Act_Updated%20December%202019_0.pdf", "fact": "CDLE Wage Act guidance"}
+  ],
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "context": "links-rail", "state": "live"},
+    {"href": "../../california/termination-law-and-at-will-exceptions/", "context": "links-rail, body", "state": "live"},
+    {"href": "../../arkansas/termination-law-and-at-will-exceptions/", "context": "links-rail", "state": "live"},
+    {"href": "/employer-of-record/", "context": "links-rail", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "context": "body, links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "context": "cta-row x2, links-rail", "state": "external"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "context": "body, cta-row, links-rail", "state": "external"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "context": "cta-row, links-rail", "state": "external"}
+  ],
+  "editor_rounds": 0,
+  "retrofit_needed": {
+    "neighbour_us_state_termination_links": false,
+    "country_parent_link": true,
+    "wage_overtime_sibling_link": true,
+    "worker_classification_sibling_link": true,
+    "colorado_state_parent_link": true
+  },
+  "audit_score": 88,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty:prompt_correction",
+      "detail": "Orchestrator prompt cited 'CO mini-WARN (CRS § 8-2-115) for mass layoffs >100 employees, 60-day notice' as if Colorado had a state WARN statute. Verified against CDLE primary (cdle.colorado.gov/employers/layoff-separations/worker-adjustment-retraining-notification) and confirmed: Colorado does NOT have a state mini-WARN Act. Federal WARN only. The CRS § 8-2-115 statute previously covered employment verification at hire (Colorado Employment Verification Law), which was repealed in 2016. Page corrects the prompt explicitly in the mass-layoff section."
+    }
+  ],
+  "pullquote_provenance": {
+    "speaker": "Teamed Legal Operations",
+    "type": "anonymised_function_line",
+    "cite_present": false,
+    "reason": "No verified MI quote available for Colorado-specific termination handling; anonymised per provenance rule"
+  }
+}

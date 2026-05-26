@@ -1,0 +1,166 @@
+{
+  "row_id": "master-0046",
+  "slug": "united-states/delaware/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/delaware/state-income-tax-and-unemployment-insurance/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "page_type": "us_state_child",
+  "country": "United States",
+  "state": "Delaware",
+  "page_title": "State income tax and unemployment insurance — Delaware",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-26T09:50:00Z",
+  "sources_verified_at": "2026-05-26",
+  "target_keywords": [
+    "delaware state income tax 2026",
+    "delaware state income tax brackets 2026",
+    "delaware unemployment insurance rate 2026",
+    "delaware sui wage base 2026",
+    "delaware new employer rate 2026",
+    "delaware de-w4 form vs federal w-4",
+    "delaware withholding lookback period",
+    "w-1q w-1 w-1a delaware",
+    "delaware incorporation vs employment payroll",
+    "wilmington wage tax"
+  ],
+  "sources": [
+    {
+      "url": "https://revenue.delaware.gov/software-developer/tax-rate-changes/",
+      "title": "Delaware Division of Revenue — Tax Rate Changes (Title 30 § 1102 rate ladder)",
+      "accessed": "2026-05-26",
+      "note": "Authoritative for the seven-bracket structure 0%/2.2%/3.9%/4.8%/5.2%/5.55%/6.6% and base-tax columns"
+    },
+    {
+      "url": "https://revenue.delaware.gov/employers-guide-withholding-regulations-employers-duties/",
+      "title": "Delaware Employer's Guide — Withholding Regulations and Employer's Duties",
+      "accessed": "2026-05-26",
+      "note": "Authoritative for lookback period 1 Jul-30 Jun, W-1Q/W-1/W-1A thresholds ($6,020 / $33,460), Form W-3 annual reconciliation, OneStop Delaware registration, EFT requirement under IRC § 6302"
+    },
+    {
+      "url": "https://labor.delaware.gov/divisions/unemployment-insurance/employer-services/",
+      "title": "Delaware Department of Labor — Unemployment Insurance Employer Services",
+      "accessed": "2026-05-26",
+      "note": "2026 new-employer rate 1.0% (down from 1.2% in 2025), experience range 0.3%-5.4%, $14,500 wage base, UC-8/UC-8A quarterly forms, Title 19 Ch. 33 authority, April rate-notice cadence"
+    },
+    {
+      "url": "https://news.bloombergtax.com/payroll/delaware-unemployment-insurance-tax-schedule-unchanged-for-2026",
+      "title": "Bloomberg Tax — Delaware Unemployment Insurance Tax Schedule Unchanged for 2026",
+      "accessed": "2026-05-26",
+      "note": "Schedule B confirmed for 2026, experienced range 0.4%-5.4% (DE DOL says 0.3% floor), delinquent rate 6.3%, 0.2% Operations & Technology Assessment now billed separately quarterly"
+    },
+    {
+      "url": "https://taxnews.ey.com/news/2026-0124-2026-state-unemployment-insurance-taxable-wage-bases",
+      "title": "EY Tax News — 2026 State Unemployment Insurance Taxable Wage Bases",
+      "accessed": "2026-05-26",
+      "note": "Confirms $14,500 wage base for 2026 (up $2,000 from $12,500 in 2025) per HB 433 phase-in"
+    },
+    {
+      "url": "https://www.experian.com/blogs/employer-services/delaware-hb-433/",
+      "title": "Experian Employer Services — Legislative Update: Delaware HB 433",
+      "accessed": "2026-05-26",
+      "note": "HB 433 (2024) phase-in schedule: $12,500 (2025) → $14,500 (2026) → $16,500 (2027), Benefit Ratio methodology effective 2027"
+    },
+    {
+      "url": "https://revenue.delaware.gov/frequently-asked-questions/delaware-w-4-employees-withholding-allowance-certificate/",
+      "title": "Delaware Division of Revenue — DE-W4 FAQ",
+      "accessed": "2026-05-26",
+      "note": "DE-W4 form authority — Delaware created its own state W-4 because it kept the allowance-count model after the federal redesign removed allowances in 2020"
+    },
+    {
+      "url": "https://revenue.delaware.gov/business-tax-forms/doing-business-in-delaware/",
+      "title": "Delaware Division of Revenue — Doing Business in Delaware",
+      "accessed": "2026-05-26",
+      "note": "Confirms 8.7% Delaware corporate income tax rate (Title 30 § 1903), distinct from employment withholding statute under Title 30 Chapter 11"
+    },
+    {
+      "url": "https://delcode.delaware.gov/title30/c011/sc07/",
+      "title": "Delaware Code Title 30 Chapter 11 Subchapter VII — Withholding of Tax",
+      "accessed": "2026-05-26",
+      "note": "Primary statute for Delaware employer withholding obligation, § 1151 onwards"
+    },
+    {
+      "url": "https://legis.delaware.gov/BillDetail/141505",
+      "title": "Delaware General Assembly — House Bill 433 detail",
+      "accessed": "2026-05-26",
+      "note": "Bill text and history for HB 433 (2024) — wage-base phase-in plus shift to Benefit Ratio rate methodology effective 2027"
+    },
+    {
+      "url": "https://unsplash.com/photos/cars-parked-beside-brown-concrete-building-during-daytime-eVkJKaS2wu0",
+      "title": "Hero photo — Wilmington, Delaware (Sarah Mason, Unsplash)",
+      "accessed": "2026-05-26",
+      "note": "134 KB JPEG, real photography, Unsplash editorial licence with attribution to @sarahthemason"
+    }
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "state": "live", "section": "links-rail"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "state": "live", "section": "links-rail + how-teamed-handles"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "state": "external-canonical", "section": "masthead + tagline-close + links-rail"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "state": "external-canonical", "section": "masthead + links-rail"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "See when EOR stops being right / EOR vs Entity Crossover Calculator", "state": "external-canonical", "section": "tagline-close + how-teamed-handles + links-rail"},
+    {"href": "https://www.teamed.global/tools/contractor-classification", "anchor": "Contractor Classifier", "state": "external-canonical", "section": "abc-test-payroll-link + links-rail"},
+    {"href": "../../california/state-income-tax-and-unemployment-insurance/", "anchor": "California state tax & UI", "state": "live", "section": "links-rail"},
+    {"href": "../../arkansas/state-income-tax-and-unemployment-insurance/", "anchor": "Arkansas state tax & UI", "state": "live", "section": "links-rail"}
+  ],
+  "internal_links_pending": [
+    {"anchor": "Hiring in the United States, overview", "state": "wave-3", "flag": "link_gate_warn"},
+    {"anchor": "Delaware overview", "state": "wave-4", "flag": "link_gate_warn"},
+    {"anchor": "Delaware worker classification (ABC test)", "state": "wave-4", "flag": "link_gate_warn"}
+  ],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links_promotion": true
+  },
+  "audit_score": 91,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty:prompt_correction",
+      "severity": "high",
+      "detail": "Row brief said 'wage base around $10,500-$12,500' — verified actual 2026 wage base is $14,500 per HB 433 phase-in (EY Tax News, DE Bill, Experian). $10,500 was 2024 pre-HB 433 baseline; $12,500 was 2025. Row brief also said new-employer rate '~1.5%-2.0%' — actual 2026 rate is 1.0% (Bloomberg Tax + DE DOL). Used verified numbers."
+    },
+    {
+      "flag": "factual_uncertainty",
+      "severity": "high",
+      "detail": "UI experience-rated floor: 0.3% per DE DOL employer-services page vs 0.4% per Bloomberg Tax (April 2026). Page uses 0.3% (DE DOL is the more authoritative state source). 0.1 percentage point spread; ceiling of 5.4% is consistent across sources."
+    },
+    {
+      "flag": "link_gate_warn",
+      "severity": "low",
+      "detail": "3 internal links rendered as plain text because target pages not yet live: US parent overview, Delaware state overview, Delaware worker-classification child"
+    }
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Tom Price-Daniel",
+      "kind": "brand_voice",
+      "note": "Drafted in Tom voice per Stage 3 pullquote rule. No cite required. Section: between filing-cadence and abc-test-payroll-link."
+    },
+    {
+      "speaker": "Teamed Client Operations",
+      "kind": "anonymous_team",
+      "note": "Anonymised per Stage 3 rule (no MI quote available for Delaware). Function-line speaker label, no cite. Section: between how-teamed-handles and tagline-close."
+    }
+  ],
+  "kernel_alignment": {
+    "anchor_claims_used": [
+      "Same headline fee as Deel ($599) — explicit in pricing line and Service schema",
+      "Statutory cost pass-through, itemised on invoice — in how-teamed-handles",
+      "Named jurisdiction specialists — in how-teamed-handles ('named country specialist for the United States and an in-house payroll specialist')",
+      "99% logo retention — in how-teamed-handles",
+      "Teamed tells you when EOR no longer fits — in how-teamed-handles and tagline-close"
+    ],
+    "voice_rules_followed": [
+      "Buyer-as-subject (you/your)",
+      "Active voice + contractions",
+      "Specific numbers + named statutes throughout",
+      "No em-dashes in body prose",
+      "UK English in narrative where natural (whilst, organised); US legal terms preserved verbatim",
+      "Country in full ('United States')",
+      "Date format '26 May 2026'"
+    ],
+    "forbidden_words_avoided": "Full list scanned — none present"
+  },
+  "linter_status": "pending"
+}
