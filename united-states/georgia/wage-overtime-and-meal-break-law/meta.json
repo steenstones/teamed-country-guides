@@ -1,0 +1,131 @@
+{
+  "row_id": "master-0062",
+  "slug": "united-states/georgia/wage-overtime-and-meal-break-law",
+  "target_url": "/hire-in-united-states/georgia/wage-overtime-and-meal-break-law/",
+  "page_title": "Georgia Wage, Overtime and Meal-Break Law 2026 | Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0 (editorial-standard-v2 applied)",
+  "target_keywords": [
+    "georgia wage overtime and meal break law 2026",
+    "georgia minimum wage 2026",
+    "georgia overtime law 40 hours flsa",
+    "georgia meal break law adults",
+    "georgia tipped wage $2.13 federal tip credit",
+    "georgia $5.15 state minimum wage preempted",
+    "federal flsa $7.25 georgia employer",
+    "georgia exempt salary floor $35568"
+  ],
+  "generated_at": "2026-05-27T09:40:00Z",
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "title": "US DOL Wage and Hour Division — State Minimum Wage Laws", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa", "title": "US DOL Wage and Hour Division — Fair Labor Standards Act", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/state/meal-breaks", "title": "US DOL — State Meal Period Requirements", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/state/rest-periods", "title": "US DOL — State Rest Period Requirements", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped", "title": "US DOL — State Tipped Wage Minimums", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/codes/georgia/2010/title-34/chapter-4/34-4-3", "title": "OCGA § 34-4-3 — Georgia Minimum Wage Law", "accessed": "2026-05-27"},
+    {"url": "https://www.law.cornell.edu/uscode/text/29/206", "title": "29 U.S.C. § 206 — FLSA Minimum Wage", "accessed": "2026-05-27"},
+    {"url": "https://www.law.cornell.edu/uscode/text/29/207", "title": "29 U.S.C. § 207 — FLSA Maximum Hours and Overtime", "accessed": "2026-05-27"},
+    {"url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-A/part-541", "title": "29 CFR Part 541 — Exempt White-Collar Duties Tests", "accessed": "2026-05-27"},
+    {"url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-A/part-785", "title": "29 CFR Part 785 — Hours Worked (Breaks)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/pump-at-work", "title": "US DOL — PUMP Act for Nursing Mothers (2022)", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/codes/georgia/2010/title-39/chapter-2/39-2-2", "title": "OCGA § 39-2-2 — Georgia Child Labor Law (minor break rule)", "accessed": "2026-05-27"},
+    {"url": "https://www.law.cornell.edu/uscode/text/29/203", "title": "29 U.S.C. § 203 — FLSA Definitions (tip credit, enterprise coverage)", "accessed": "2026-05-27"},
+    {"url": "https://www.law.cornell.edu/uscode/text/29/216", "title": "29 U.S.C. § 216 — FLSA Damages (liquidated damages)", "accessed": "2026-05-27"},
+    {"url": "https://www.law.cornell.edu/uscode/text/29/255", "title": "29 U.S.C. § 255 — FLSA Statute of Limitations", "accessed": "2026-05-27"}
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "kind": "core"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "kind": "core"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator / See when EOR stops being right", "section": "how-teamed-handles + tagline-close + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead + tagline-close + links-rail", "kind": "CTA"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Georgia state income tax & unemployment insurance", "section": "chip-nav + links-rail", "kind": "sibling"},
+    {"href": "../../california/wage-overtime-and-meal-break-law/", "anchor": "California wage, overtime and meal-break law", "section": "links-rail", "kind": "sibling-state"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Georgia overview", "status": "wave-4", "section": "links-rail"},
+    {"label": "Alabama wage, overtime and meal-break law", "status": "wave-4", "section": "links-rail"},
+    {"label": "Florida wage, overtime and meal-break law", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/georgia.json (reused minimum_wage, overtime, federal-floor structure from existing GA cache; layered federal FLSA detail for exempt salary floor, tip credit, PUMP Act, meal-break rules drawn from US DOL + 29 USC/29 CFR primary sources)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "neighbour_links_targets": [
+      "united-states/georgia (parent)",
+      "united-states (country parent)",
+      "united-states/alabama/wage-overtime-and-meal-break-law (sibling)",
+      "united-states/florida/wage-overtime-and-meal-break-law (sibling)",
+      "united-states/south-carolina/wage-overtime-and-meal-break-law (sibling)",
+      "united-states/north-carolina/wage-overtime-and-meal-break-law (sibling)",
+      "united-states/tennessee/wage-overtime-and-meal-break-law (sibling)"
+    ],
+    "images": false
+  },
+  "audit_score": 92,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 92,
+    "structural_spine_match": 100,
+    "factual_density": 92,
+    "internal_link_density": 85,
+    "visual_density": 80,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty: federal exempt salary floor cited at $35,568 / $684 per week. This reflects the 2019 rule (29 CFR Part 541) restored after Texas federal court (Northern District) vacated the 2024 DOL rule that lifted the threshold to $43,888. Court ruling: November 2024 (Plano Chamber of Commerce v. DOL). Verify the 2026 rule is still operative against US DOL WHD updates before any client-pricing decision; further DOL rulemaking is possible under the new administration.",
+    "factual_uncertainty: PUMP Act 2022 (29 U.S.C. § 207(r)) — confirmed coverage of FLSA non-exempt employees; reasonable break time + private space (not a toilet); one year after birth. Verify with DOL PUMP Act resource page for any 2025-2026 amendments.",
+    "factual_uncertainty: Georgia child-labour break rule for minors under 16 working 5+ hours (30-min break). Statute cited as OCGA § 39-2-2; older state code section — verify current renumbering under Georgia Department of Labor child labour rules before relying.",
+    "prompt_correction: prompt stated 'NO state mandate' for meal/rest breaks for adults. Verified accurate. Carved out the under-16 minor exception (OCGA-mandated 30-min break after 5 consecutive hours) on the page to avoid misleading employers with mixed-age workforces.",
+    "link_gate_warn: Georgia parent + Alabama/Florida sibling wage pages rendered as plain text per link gate (targets ship wave 3-4)",
+    "secondary_cta_rule_check: secondary CTA in masthead uses canonical Employer Cost Calculator URL; tagline-close secondary uses Crossover Calculator. Both real destinations on www.teamed.global."
+  ],
+  "linter_result": "pass",
+  "linter_checks_total": 26,
+  "linter_checks_passed": 26,
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "linter_retries": 0,
+  "linter_retry_notes": "Round 1 clean 26/26 — no retries needed.",
+  "ctas_used": {
+    "primary_masthead": "https://www.teamed.global/contact",
+    "secondary_masthead": "https://www.teamed.global/tools/employer-cost",
+    "primary_tagline_close": "https://www.teamed.global/contact",
+    "secondary_tagline_close": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "image_inventory": [
+    {"file": "images/hero.jpg", "kind": "hero photo (Unsplash, reused from Georgia state-tax page)", "size_bytes": 152090, "photographer": "Structural Photography", "alt_description": "Atlanta, Georgia downtown skyline with the Westin Peachtree Plaza cylinder, Bank of America Plaza spire, and a sprawling business district stretching to the horizon."}
+  ],
+  "inline_visual": "pad-note in meal-breaks section (one-line restatement of the Georgia break rule for adults + federal mechanic + minor exception)",
+  "scenarios_used": [
+    "Mason — Atlanta hourly software studio (FLSA coverage explainer)",
+    "Lily — Savannah retail manager (weekly-only overtime calc + regular-rate bonus trap)",
+    "Carter — Augusta bartender (tipped wage / tip-credit notice / overtime on tipped wage)"
+  ],
+  "v2_rules_applied": {
+    "capsule": "4-paragraph stake-size-ack-promise pattern, lead sentence 24 words",
+    "section_structure": "hook + mechanic + named scenario + consequence + action per Q-section",
+    "statutes": "all moved to Source columns in tables; body prose contains zero parenthetical citations",
+    "metaphor": "one only — 'cleanest state in the country to run national payroll into' (building/terrain register, used twice as bookend)",
+    "disclaimer": "single end-of-page disclaimer; no per-section footnotes",
+    "voice": "you-not-employers, active, present tense, no hedging adverbs",
+    "named_scenarios": "Mason / Lily / Carter, one per major section, each with dollar figure"
+  },
+  "voice_notes": [
+    "UK English in body prose (whilst, organised, behaviour-style spellings retained outside US-statutory terms)",
+    "Burnt Sienna primary CTA",
+    "No em-dashes in body prose (linter-verified)",
+    "Answer-first ≤30 words per section, lead with the number",
+    "Tom Price-Daniel three-line tagline close",
+    "Teamed Client Operations anonymised pullquote (no named SME, no <cite> per pullquote provenance rule)",
+    "Federal-default framing pinned in capsule, opening section, and closing tagline — the page's distinctive angle vs California sibling"
+  ]
+}

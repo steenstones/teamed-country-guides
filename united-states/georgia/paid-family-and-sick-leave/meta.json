@@ -1,0 +1,133 @@
+{
+  "row_id": "master-0061",
+  "slug": "united-states/georgia/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/georgia/paid-family-and-sick-leave/",
+  "page_title": "Georgia Paid Family and Sick Leave 2026 | FMLA Floor.Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "v2-editorial-standard-2026-05-27",
+  "target_keywords": [
+    "georgia paid family leave 2026",
+    "georgia paid sick leave 2026",
+    "georgia family care act OCGA 34-1-10",
+    "georgia HB 1010 state employee parental leave",
+    "georgia FMLA 50 employees",
+    "PWFA pregnant workers fairness act georgia",
+    "georgia voluntary parental leave benchmark",
+    "georgia leave policy southeast benchmark"
+  ],
+  "generated_at": "2026-05-27T09:40:00Z",
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"url": "https://law.justia.com/codes/georgia/2022/title-34/chapter-1/section-34-1-10/", "title": "OCGA § 34-1-10 — Georgia Family Care Act (use of sick leave to care for immediate family)", "accessed": "2026-05-27"},
+    {"url": "https://www.legis.ga.gov/legislation/57555", "title": "Georgia HB 1010 — Paid parental leave for state employees (2020)", "accessed": "2026-05-27"},
+    {"url": "https://www.legis.ga.gov/legislation/63133", "title": "Georgia HB 1078 — HB 1010 extension to public schools (2022)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/fmla", "title": "US DOL Wage and Hour Division — Family and Medical Leave Act (FMLA)", "accessed": "2026-05-27"},
+    {"url": "https://www.eeoc.gov/wysk/what-you-should-know-about-pregnant-workers-fairness-act", "title": "EEOC — Pregnant Workers Fairness Act (PWFA)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/vets/programs/userra", "title": "US DOL VETS — USERRA (Uniformed Services Employment and Reemployment Rights Act)", "accessed": "2026-05-27"},
+    {"url": "https://www.shrm.org/topics-tools/research/2025-employee-benefits-survey", "title": "SHRM 2025 Employee Benefits Survey", "accessed": "2026-05-27"},
+    {"url": "https://www.bls.gov/ncs/ebs/", "title": "US Bureau of Labor Statistics — National Compensation Survey (Employee Benefits)", "accessed": "2026-05-27"},
+    {"url": "https://www.bettworks.com/news/2026/states-with-paid-family-leave-laws", "title": "Bett & Associates — 2026 states with paid family leave laws", "accessed": "2026-05-27"},
+    {"url": "https://www.abetterbalance.org/paid-sick-time-laws/", "title": "A Better Balance — Overview of US paid sick time laws", "accessed": "2026-05-27"},
+    {"url": "https://team.georgia.gov/wp-content/uploads/2022/06/Paid-Parental-Leave-Procedures.pdf", "title": "State of Georgia DOAS — HB 1010 Paid Parental Leave Procedures", "accessed": "2026-05-27"},
+    {"url": "https://sao.georgia.gov/audits/special-examinations-and-reviews/special-examinations/paid-parental-leave-state-employees", "title": "Georgia State Accounting Office — Paid Parental Leave for State Employees (HB 1010 review)", "accessed": "2026-05-27"}
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "kind": "core"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "kind": "core"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator / Employer Cost Calculator", "section": "masthead + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator / See when EOR stops being right", "section": "how-teamed-handles + tagline-close + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead + tagline-close + links-rail", "kind": "CTA"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Georgia state income tax and unemployment insurance", "section": "links-rail + chip-nav", "kind": "sibling"},
+    {"href": "../../alabama/paid-family-and-sick-leave/", "anchor": "Alabama paid family and sick leave", "section": "links-rail", "kind": "sibling-state"},
+    {"href": "../../california/paid-family-and-sick-leave/", "anchor": "California paid family and sick leave", "section": "links-rail", "kind": "sibling-state"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Georgia overview", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/georgia.json (FMLA / PWFA / federal-floor data layered on top of US federal cache; Georgia-specific Family Care Act and HB 1010 verified from primary OCGA and legis.ga.gov sources, not present in cache)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "retrofit_needed": {
+    "neighbour_links": false,
+    "neighbour_links_targets": [],
+    "images": false
+  },
+  "audit_score": 92,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 95,
+    "structural_spine_match": 100,
+    "factual_density": 92,
+    "internal_link_density": 85,
+    "visual_density": 80,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty: Georgia Family Care Act (OCGA § 34-1-10) text on PTO-bank carve-out and 25-employee threshold confirmed via Justia statute mirror and HB 752 text; no private right of action under the Act confirmed by section (d). Verify against the live OCGA at law.ga.gov before any client-pricing decision.",
+    "factual_uncertainty: HB 1010 covers state government employees only; expansion via HB 1078 (2022) added public schools and HB 1209 (2024) raised hours from 120 to 240 for full-time state employees per some sources. Page conservatively cites the original 120-hour figure as the durable baseline; verify the 240-hour expansion against the State Accounting Office circular before deeper claims.",
+    "factual_uncertainty: state-PFL table — Maine, Maryland, Delaware, Minnesota, and Rhode Island programmes have rolling 2026 launch dates and benefit-cap revisions; weeks shown reflect each state's published cap, but each state's launch month is subject to administrative timeline shifts. Confirm via that state's administering agency before relying on benefit-availability dates.",
+    "factual_uncertainty: voluntary-benefit benchmarks (1.5-2.5% of payroll, 6-8 weeks median paid maternity, 8-12 weeks competitive) drawn from SHRM 2025 and Mercer Southeast regional data; precise regional cuts may differ from national medians. Treat as directional, not specific to any one Georgia subregion.",
+    "link_gate_warn: Georgia overview and United States overview links rendered as plain text per link gate (target ships wave 3-4); other sibling links live including Georgia state-tax (live) and Alabama / California paid-family-and-sick-leave (live)",
+    "secondary_cta_rule_check: masthead secondary CTA = Employer Cost Calculator (canonical real URL); tagline-close secondary CTA = Crossover Calculator (canonical real URL); both per canonical CTA URL rule"
+  ],
+  "linter_result": "pass",
+  "linter_checks_total": 26,
+  "linter_checks_passed": 26,
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "linter_retries": 1,
+  "linter_retry_notes": "Round 1 caught forbidden word 'foster' in body prose (HB 1010 qualifying-events list, twice). Replaced with 'state-supervised placement of a child' in both the answer-first prose and the table row. Round 2 clean 26/26.",
+  "ctas_used": {
+    "primary_masthead": "https://www.teamed.global/contact",
+    "secondary_masthead": "https://www.teamed.global/tools/employer-cost",
+    "primary_tagline_close": "https://www.teamed.global/contact",
+    "secondary_tagline_close": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "image_inventory": [
+    {"file": "images/hero.jpg", "kind": "hero photo (Unsplash, reused from Georgia state-tax sibling for state-parity)", "size_bytes": 152090, "photographer": "Structural Photography", "alt_description": "Atlanta, Georgia downtown skyline with the Westin Peachtree Plaza cylinder, Bank of America Plaza spire, and a sprawling business district stretching to the horizon."}
+  ],
+  "inline_visual": "stamp-block in fmla section (29 U.S.C. § 2601 / 50+ US employees / 12 weeks unpaid lifecycle)",
+  "voice_notes": [
+    "UK English in body prose (recognised, behaviour, whilst)",
+    "Burnt Sienna primary CTA",
+    "No em-dashes in body prose (linter-verified)",
+    "Answer-first <=30 words per section, lead with the number",
+    "Tom Price-Daniel three-line tagline close",
+    "Teamed Client Operations anonymised pullquote (no named SME, no <cite> per pullquote provenance rule)",
+    "v2 stake-led capsule applied: stake (no mandate) → size (1.5-2.5% / six-figure loss) → ack (lightness is the opportunity) → promise (federal floor + Georgia carve-outs + HB 1010 context + voluntary benchmarks)",
+    "Three named Georgia scenarios used consistently across sections per Steen's batch rule: Mason (Atlanta 30-person fintech), Lily (Savannah 80-person sales team), Carter (Augusta multi-state ops with CA HQ)",
+    "Statute references removed from body prose; all section/§ refs live only in Source columns of tables per v2 standard"
+  ],
+  "v2_applied": true,
+  "v2_checks": {
+    "capsule_4_paragraph_stake_pattern": true,
+    "lead_sentence_under_25_words": true,
+    "named_scenarios_per_section": true,
+    "dollar_figure_in_first_100_words": true,
+    "date_anchor_in_first_200_words": true,
+    "no_body_prose_statutes": true,
+    "single_end_of_page_disclaimer": true,
+    "one_metaphor_max_one_use": "terrain/'mine field' implicit in 'narrow carve-outs' phrasing; no mixed metaphors"
+  },
+  "verify_prompt_facts_audit": {
+    "prompt_provisional_fact_1": "Georgia Family Care Act allows employees to use existing sick leave for family members (does NOT create new leave)",
+    "verification_1": "Confirmed via OCGA § 34-1-10 text (Justia mirror) and Georgia HB 752 (2017) statute history. The Act re-allocates existing leave; section (d) confirms no private right of action. Cache layered into table with Source column.",
+    "prompt_provisional_fact_2": "HB 1010 (2020) — paid leave for state government employees only (not private sector)",
+    "verification_2": "Confirmed via legis.ga.gov HB 1010 text and Georgia DOAS Paid Parental Leave Procedures circular. 120 hours / 3 weeks within 6 months of qualifying event; eligible after 6 months of continuous state service. HB 1078 (2022) extended to public schools. Page conservatively states 120 hours; some sources cite a later HB 1209 (2024) expansion to 240 hours — flagged as factual uncertainty for verification before client-pricing.",
+    "prompt_provisional_fact_3": "Georgia is a 'no statute' state — federal FMLA + voluntary benefits are the only employee leave entitlement",
+    "verification_3": "Confirmed via cross-reference of A Better Balance state PSL tracker (Georgia not listed), Bett & Associates 2026 PFL tracker (Georgia not listed), and primary OCGA scan (no state PFL or private-sector PSL statute exists). Page accurately frames the no-private-statute distinction while preserving the HB 1010 state-employee and Family Care Act carve-outs."
+  },
+  "pullquote_provenance": [
+    {
+      "speaker": "Teamed Client Operations",
+      "kind": "anonymous_team",
+      "provenance": "Anonymised per Steen's pullquote provenance rule. No named individual; no <cite> tag; no MI extraction_id required. Quote articulates the recurring Georgia-leave framing Teamed Client Operations uses with multi-state employers entering Georgia."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "row_id": "master-0060",
+  "country": "United States",
+  "state": "Georgia",
+  "slug": "united-states/georgia/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/georgia/worker-classification-state-test/",
+  "page_title": "Worker classification (state test) - Georgia",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-27T00:00:00Z",
+  "sources_verified_at": "2026-05-26",
+  "target_keywords": [
+    "georgia worker classification test 2026",
+    "georgia independent contractor test",
+    "georgia 1099 vs w-2 classification",
+    "ocga 34-9-2.2 georgia workers comp employee",
+    "ocga title 34 chapter 8 georgia unemployment",
+    "georgia common law test employee",
+    "georgia HB 389 delivery driver classification",
+    "georgia DOL contractor determination"
+  ],
+  "sources": [
+    {"url": "https://law.justia.com/codes/georgia/title-34/chapter-8/", "title": "O.C.G.A. Title 34 Chapter 8 — Employment Security", "accessed": "2026-05-26"},
+    {"url": "https://law.justia.com/codes/georgia/title-34/chapter-9/", "title": "O.C.G.A. Title 34 Chapter 9 — Workers' Compensation", "accessed": "2026-05-26"},
+    {"url": "https://dol.georgia.gov/learn-about-unemployment-taxes-and-benefits", "title": "Georgia DOL — Learn About Unemployment Taxes and Benefits", "accessed": "2026-05-26"},
+    {"url": "https://sbwc.georgia.gov/", "title": "Georgia State Board of Workers' Compensation", "accessed": "2026-05-26"},
+    {"url": "https://dor.georgia.gov/document/document/2026-employers-tax-guide/download", "title": "Georgia DOR — 2026 Employer's Withholding Tax Guide (PDF)", "accessed": "2026-05-26"},
+    {"url": "https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee", "title": "IRS — Independent Contractor or Employee (common-law factors)", "accessed": "2026-05-26"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking", "title": "US DOL — Final Rule on Independent Contractor Classification (effective 11 March 2024)", "accessed": "2026-05-26"},
+    {"url": "https://www.legis.ga.gov/legislation/61856", "title": "Georgia HB 389 (2022) — Worker Classification (delivery drivers)", "accessed": "2026-05-26"}
+  ],
+  "compliance_cache": {
+    "file": "sprint/compliance-cache/georgia.json",
+    "fetched_at": "2026-05-26T00:00:00Z",
+    "in_window": true,
+    "ttl_days": 30
+  },
+  "kernel_cache_used": true,
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Georgia state income tax and unemployment insurance", "state": "live"},
+    {"href": "../../florida/worker-classification-state-test/", "anchor": "Florida worker classification test", "state": "live"},
+    {"href": "../../california/worker-classification-state-test/", "anchor": "California worker classification (ABC) test", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "state": "live"},
+    {"href": "https://www.teamed.global/tools/contractor-classification", "anchor": "Contractor Classifier", "state": "external"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "state": "external"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "state": "external"}
+  ],
+  "internal_links_pending_retrofit": [
+    {"label": "Georgia overview parent", "state": "wave-4"},
+    {"label": "Georgia wage, overtime, and meal-break law", "state": "wave-4"},
+    {"label": "Georgia paid family and sick leave", "state": "wave-4"},
+    {"label": "Georgia termination law and at-will exceptions", "state": "wave-4"},
+    {"label": "Hiring in the United States, overview", "state": "wave-3"}
+  ],
+  "hero_image": {
+    "source": "Unsplash",
+    "credit_name": "Structural Photography",
+    "credit_url": "https://unsplash.com/@structural_photography",
+    "subject": "Atlanta, Georgia downtown skyline",
+    "reused_from_sibling": "state-income-tax-and-unemployment-insurance",
+    "filename": "hero.jpg"
+  },
+  "inline_visuals": [
+    {"type": "stamp-block", "section_id": "vs-abc-states", "title": "One Test, Three Statutes"}
+  ],
+  "pullquote": {
+    "provenance": "anonymised",
+    "label": "Teamed Legal Operations",
+    "speaker_named": false,
+    "mi_extraction_id": null,
+    "cite_line_present": false,
+    "rule_applied": "Pullquote-provenance rule (2026-05-22) — no Meeting Intelligence quote available for Georgia-specific worker classification analysis; anonymised to function-line per skill spec; no fabricated cite line."
+  },
+  "editor_rounds": 0,
+  "editor_notes": "Drafted using V2 editorial standard (Stripe register, capsule = stake/size/ack/promise, ONE named Georgia scenario per section — Mason/Lily/Carter, body prose has zero statutes in California-style capsule paragraphs; statutes confined to source columns of tables). Linter (verify-page.py) treated as deterministic Stage-6 substitute for sprint mode.",
+  "v2_applied": true,
+  "v2_named_scenarios": [
+    {"name": "Mason", "context": "Atlanta software developer running LLC, three clients, six-month engagements", "section": "which-test"},
+    {"name": "Lily", "context": "Savannah freelance designer with five active clients vs single-client drift pattern", "section": "common-law-factors"},
+    {"name": "Carter", "context": "Augusta ops contractor, two-week sprints across three clients per quarter", "section": "workers-comp"}
+  ],
+  "audit_score": null,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "topic": "HB 389 (2022) scope, post-2022 expansion status",
+      "detail": "Page guidance flags HB 389 narrowed contractor classification for delivery drivers in 2022. Page asks readers to verify whether the rule has been expanded since. Page does not assert a specific post-2022 expansion. Recommend confirmation against current Georgia DOL HB 389 guidance and any 2023-2026 amending legislation before public launch."
+    },
+    {
+      "flag": "prompt_correction",
+      "severity": "low",
+      "topic": "Penalty statute citation",
+      "detail": "Task prompt references O.C.G.A. § 34-8-256 for back UI taxes + interest + civil penalties. Page cites this statute consistently in the cost table. Recommend verification of the specific O.C.G.A. § 34-8-256 text against the current 2026 statute compilation for the exact civil-penalty language."
+    }
+  ],
+  "spec_notes": [
+    "Modelled on Florida sibling structure (closest common-law state) with Georgia-specific data swaps and Georgia statutes (O.C.G.A.) substituted throughout.",
+    "Common-law test treatment quoted from O.C.G.A. Title 34 Chapter 8 (SUTA) and O.C.G.A. § 34-9-2.2 (workers' comp).",
+    "Workers' comp threshold (3 employees) per O.C.G.A. § 34-9-2.",
+    "Section 530 federal safe harbour treatment distinguished from California ABC (where no equivalent state safe harbour exists).",
+    "HB 389 (2022) delivery-driver carve-out treated as narrow industry overlay; page asks reader to confirm current status with Georgia DOL.",
+    "Three named Georgia scenarios (Mason — Atlanta dev contractor; Lily — Savannah freelance designer; Carter — Augusta ops contractor) per V2 spec.",
+    "Capsule = 4-paragraph stake/size/ack/promise. Body prose statute-free per V2; statutes confined to Source columns of data tables.",
+    "End-of-page disclaimer per task brief exact specification."
+  ],
+  "stage_provenance": {
+    "research": "Used compliance cache georgia.json plus task-brief guidance for O.C.G.A. Title 34 Chapter 8 (SUTA), O.C.G.A. § 34-9-2.2 (workers' comp right-of-control), HB 389 delivery-driver overlay, O.C.G.A. § 34-8-256 (penalty). Cross-checked against Florida sibling (closest common-law state) and California sibling (ABC contrast) already documented.",
+    "brief": "Sprint mode — generated directly in deploy directory without separate brief.md. Autopilot mode, no human approval pause.",
+    "draft": "Single-pass mirror of Florida sibling structure with Georgia-specific content swapped throughout. V2 editorial standard applied at draft time.",
+    "images": "Hero reused from Georgia sibling (state-income page). Inline stamp-block visual composed in-HTML per CSS classes already in _shared/child-base.css. No gpt-image-1 calls.",
+    "internal_links": "8 live + 5 plain-text wave-N per 4-state link gate.",
+    "editor": "Skipped LLM round per sprint mode discipline; deterministic linter (verify-page.py) ran as Stage-6 substitute.",
+    "output": "Wrote to ~/.claude/skills/teamed-page-builder/output/country-guides/united-states/georgia/worker-classification-state-test/. No git operations performed."
+  }
+}

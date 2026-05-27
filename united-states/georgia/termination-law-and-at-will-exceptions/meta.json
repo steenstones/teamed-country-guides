@@ -1,0 +1,175 @@
+{
+  "row_id": "master-0059",
+  "country": "United States",
+  "state": "Georgia",
+  "slug": "united-states/georgia/termination-law-and-at-will-exceptions",
+  "page_title": "Georgia Termination Law and At-Will Exceptions 2026 | Teamed",
+  "target_url": "/hire-in-united-states/georgia/termination-law-and-at-will-exceptions/",
+  "page_type": "us_state_child",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (sprint/editorial-standard-v2.md)",
+  "target_keywords": [
+    "georgia termination law and at-will exceptions 2026",
+    "georgia at-will employment OCGA 34-7-1",
+    "georgia public policy exception rejected",
+    "georgia handbook implied contract rejected",
+    "georgia workers compensation retaliation OCGA 34-9-105",
+    "georgia DOL Separation Notice DOL-800",
+    "georgia final paycheck FLSA next regular payday",
+    "federal WARN Act 100 employees Georgia",
+    "Eleventh Circuit pretext McDonnell Douglas Georgia",
+    "Reilly v Alcan Aluminum Georgia public policy",
+    "Borden v Johnson Georgia public policy",
+    "Fletcher v Amax Georgia handbook",
+    "Ga Power Co v Busbin Georgia good faith covenant"
+  ],
+  "sources": [
+    {"url": "https://law.justia.com/codes/georgia/2010/title-34/chapter-7/34-7-1", "title": "OCGA § 34-7-1 — Hiring indefinite or for an indefinite period (at-will codified)", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/codes/georgia/title-34/chapter-9/article-2/34-9-105", "title": "OCGA § 34-9-105 — Workers' Compensation retaliation prohibition", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/codes/georgia/title-34/chapter-1/34-1-3", "title": "OCGA § 34-1-3 — Discharge for jury and witness service prohibited", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/codes/georgia/title-45/chapter-1/45-1-4", "title": "OCGA § 45-1-4 — Georgia Whistleblower Act (public employees)", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/codes/georgia/title-38/chapter-2/article-13/38-2-280", "title": "OCGA § 38-2-280 — Military service protection", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/codes/georgia/title-18/chapter-4/18-4-7", "title": "OCGA § 18-4-7 — Wage garnishment discharge prohibition (single garnishment / one calendar year)", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/codes/georgia/title-25/chapter-3/article-2/25-3-23", "title": "OCGA § 25-3-23 — Volunteer firefighter / first responder protection", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/cases/georgia/supreme-court/2000/s99g1737-1.html", "title": "Reilly v. Alcan Aluminum Corp., 272 Ga. 279 (2000) — public-policy tort rejected", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/cases/georgia/court-of-appeals/1990/a90a1283-0.html", "title": "Borden v. Johnson, 196 Ga. App. 288 (1990) — public-policy exception rejected", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/cases/georgia/court-of-appeals/1981/62798-0.html", "title": "Fletcher v. Amax, Inc., 160 Ga. App. 692 (1981) — handbook not contract", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/cases/georgia/court-of-appeals/1999/a98a2353-0.html", "title": "Ellison v. DeKalb County, 236 Ga. App. 185 (1999) — handbook not contract reaffirmed", "accessed": "2026-05-27"},
+    {"url": "https://law.justia.com/cases/georgia/supreme-court/1978/34253-1.html", "title": "Ga. Power Co. v. Busbin, 242 Ga. 612 (1978) — implied covenant in at-will rejected", "accessed": "2026-05-27"},
+    {"url": "https://www.supremecourt.gov/opinions/19pdf/17-1618_hfci.pdf", "title": "Bostock v. Clayton County, 590 U.S. 644 (2020) — Title VII covers sexual orientation and gender identity (originating Georgia case)", "accessed": "2026-05-27"},
+    {"url": "https://www.eeoc.gov/time-limits-filing-charge", "title": "EEOC — Time Limits for Filing a Charge (180 vs 300 days)", "accessed": "2026-05-27"},
+    {"url": "https://www.eeoc.gov/regulations/regulations-implement-pregnant-workers-fairness-act-pwfa", "title": "EEOC — Pregnant Workers Fairness Act regulations (final 2024)", "accessed": "2026-05-27"},
+    {"url": "https://dol.georgia.gov/separation-notices", "title": "Georgia DOL — Separation Notices (Form DOL-800)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/eta/layoffs/warn", "title": "US DOL — WARN Act (60-day notice, 100 employees)", "accessed": "2026-05-27"},
+    {"url": "https://dol.georgia.gov/rapid-response-services", "title": "Georgia DOL — Rapid Response Services (WARN notification recipient)", "accessed": "2026-05-27"},
+    {"url": "https://sbwc.georgia.gov/", "title": "Georgia State Board of Workers' Compensation (retaliation claim forum)", "accessed": "2026-05-27"}
+  ],
+  "generated_at": "2026-05-27T10:00:00Z",
+  "sources_verified_at": "2026-05-27",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Employer Cost Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "See when EOR stops being right", "section": "tagline-close-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "links-rail", "state": "live"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Georgia state income tax & unemployment insurance", "section": "links-rail", "state": "live"},
+    {"href": "../../alabama/termination-law-and-at-will-exceptions/", "anchor": "Alabama termination & at-will", "section": "links-rail", "state": "live"},
+    {"href": "../../california/termination-law-and-at-will-exceptions/", "anchor": "California termination & at-will", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "multiple", "state": "live"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Georgia overview", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/georgia.json (existing, written by master-0058)",
+  "compliance_cache_written": null,
+  "first_state_in_compliance_cache": false,
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "neighbour_links_targets": [
+      "united-states/georgia (parent, wave 4)",
+      "united-states (country parent, wave 3)"
+    ],
+    "images": false
+  },
+  "hero_image": {
+    "source": "Unsplash",
+    "photographer": "Structural Photography",
+    "photographer_handle": "structural_photography",
+    "url": "https://unsplash.com/@structural_photography",
+    "alt": "Atlanta, Georgia downtown skyline with the Westin Peachtree Plaza cylinder, Bank of America Plaza spire, and a sprawling business district stretching to the horizon.",
+    "size_bytes": 152090,
+    "reused_from": "united-states/georgia/state-income-tax-and-unemployment-insurance"
+  },
+  "inline_visuals": [
+    "pad-note in documenting-termination section (Georgia termination file, one-line summary)",
+    "five data tables (Georgia at-will doctrine, statutory carveouts, federal claim menu, final-pay scenarios, plus none for sections without table)",
+    "pullquote — Teamed Legal Operations (anonymised, no MI provenance required)"
+  ],
+  "pullquote_provenance": [
+    {
+      "section": "pullquote-after-how-teamed-handles",
+      "label": "Teamed Legal Operations",
+      "provenance": "anonymised_team_function_label",
+      "named_individual": false,
+      "mi_extraction_id": null,
+      "rule_compliance": "Per CRITICAL pullquote provenance rule — no MI semantic_search returned a verifiable named-individual quote for Georgia termination. Anonymised to team function label. No <cite>. No named individual."
+    },
+    {
+      "section": "tagline-close",
+      "label": "Tom Price-Daniel · Co-founder, Teamed",
+      "provenance": "tom_brand_voice_exempt",
+      "named_individual": true,
+      "mi_extraction_id": null,
+      "rule_compliance": "Per pullquote provenance rule — Tom-bylined pullquotes drafted in-voice. No <cite> source line required. Brand-voice exempt per linter PULLQUOTE_BRAND_VOICE."
+    }
+  ],
+  "named_scenarios_v2": [
+    {"name": "Mason", "role": "Atlanta startup developer", "section": "is-georgia-at-will + federal-claims"},
+    {"name": "Lily", "role": "Savannah sales lead", "section": "at-will-exceptions + practical-risk (workers' comp retaliation)"},
+    {"name": "Carter", "role": "Augusta logistics operations manager", "section": "documenting-termination + final-pay-and-warn"}
+  ],
+  "v2_compliance_check": {
+    "capsule_four_paras_stake_size_ack_promise": true,
+    "no_answer_cite_this_label": true,
+    "no_statutes_in_capsule": true,
+    "answer_firsts_plain_english": true,
+    "statutes_only_in_tables": true,
+    "h2_mix_statements_and_questions": true,
+    "no_em_source_footnotes": true,
+    "end_of_page_disclaimer_aside_present": true,
+    "named_scenarios_one_per_q_section": true,
+    "no_em_dashes_in_body": true,
+    "pad_note_used_not_stamp_block": true
+  },
+  "audit_score": 92,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 92,
+    "structural_spine_match": 95,
+    "factual_density": 92,
+    "internal_link_density": 90,
+    "visual_density": 85,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty: prompt-supplied 'only Reilly v. Alcan Aluminum carve-outs' framing verified — Reilly v. Alcan Aluminum Corp., 272 Ga. 279 (2000) is the Georgia Supreme Court reaffirmation of the rejection of the public-policy tort. Borden v. Johnson, 196 Ga. App. 288 (1990) is the earlier Court of Appeals authority. Page cites both, with framing that the public-policy DOOR is closed (which is accurate) rather than 'Reilly carved out exceptions' (which would invert the holding).",
+    "factual_uncertainty: prompt-supplied 'NO implied-contract from handbooks' verified — Fletcher v. Amax, Inc., 160 Ga. App. 692 (1981) is the leading authority; Ellison v. DeKalb County (1999) confirms. Page reflects accurately, noting that Georgia does NOT require a disclaimer because the underlying claim does not exist (unlike Alabama under Hoffman-La Roche, which DOES require disclaimer).",
+    "factual_uncertainty: prompt-supplied 'NO covenant of good faith' verified — Ga. Power Co. v. Busbin, 242 Ga. 612 (1978) is the Georgia Supreme Court authority rejecting the implied covenant of good faith in at-will employment. Page reflects accurately.",
+    "factual_uncertainty: final-pay framing verified — Georgia has no state final-paycheck statute. FLSA default (next regular payday) controls. Confirmed via Georgia DOL public guidance and absence of any final-pay provision in OCGA Title 34 Chapter 7.",
+    "factual_uncertainty: Georgia is a 180-day non-deferral state for EEOC purposes — verified. Georgia Commission on Equal Opportunity is limited to state-employee discrimination (no private-employer EEOC work-sharing agreement covering Title VII charges), so the 300-day deferral extension does not apply.",
+    "factual_uncertainty: Form DOL-800 separation notice — verified as the Georgia DOL Separation Notice required under OCGA § 34-8-190 and DOL rules. Required for each separated employee at separation regardless of cause or headcount.",
+    "factual_uncertainty: Bostock v. Clayton County originated as a Georgia case — verified. Clayton County is in Georgia. The aside is accurate.",
+    "factual_uncertainty: Eleventh Circuit appellate jurisdiction over Georgia federal courts — verified. The Eleventh Circuit covers Alabama, Florida, and Georgia.",
+    "factual_uncertainty: No Georgia mini-WARN — verified. Georgia has no state mini-WARN statute. Federal WARN Act is the entire mass-layoff framework.",
+    "pullquote_provenance_anonymised (informational): Per CRITICAL pullquote provenance rule, no MI semantic_search returned a Georgia-termination-specific named-SME quote. Pullquote labelled 'Teamed Legal Operations' (anonymous-team function label, no <cite>, no named individual). Tom Price-Daniel tagline close stays as brand voice (exempt from MI provenance requirement). No named-individual SME pullquote shipped without MI provenance.",
+    "link_gate_warn: Georgia parent and US country parent rendered as plain text per link gate (targets ship waves 3-4). Sibling state termination pages (Alabama, California) rendered as live links — both ship live. Sibling Georgia children (wage-overtime, worker-classification, paid-family-and-sick-leave) in chip-nav will 404 until those ship; chip-nav links per template convention.",
+    "secondary_cta_real_destinations (informational): Both secondary CTAs link to real Teamed tool destinations. Masthead secondary points to Employer Cost Calculator (https://www.teamed.global/tools/employer-cost). Tagline-close secondary points to Crossover Calculator (https://www.teamed.global/tools/crossover-calculator). No duplicate Talk to an expert.",
+    "compliance_cache_reused (informational): Georgia compliance-cache (sprint/compliance-cache/georgia.json) pre-existed from master-0058; reused for partner-entity badge (Teamed US Inc., Delaware) and for the wider state-level statutory context. No re-fetch required for this termination-focused page; termination law is not in the cache schema and was sourced from OCGA / Georgia case law primary sources.",
+    "hero_image_reused (informational): Hero image reused from sibling Georgia state-tax page (Atlanta skyline by Structural Photography via Unsplash, 152 KB). Same state, same brand context, alt text retained. Acceptable per page-builder image-reuse policy for sibling state pages."
+  ],
+  "ctas_used": {
+    "primary_masthead": "https://www.teamed.global/contact",
+    "secondary_masthead": "https://www.teamed.global/tools/employer-cost",
+    "primary_tagline_close": "https://www.teamed.global/contact",
+    "secondary_tagline_close": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "linter_result": "pass",
+  "linter_checks_total": 26,
+  "linter_checks_passed": 26,
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "linter_retries": 1,
+  "linter_retry_notes": "Round 1 caught 'operationally' (forbidden phrase per v2 rules). Replaced 'looks like operationally' with 'looks like, day to day'. Round 2 clean 26/26 block-severity (no contractor/EOR-entity conditional rules fire on this page type)."
+}
