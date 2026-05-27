@@ -1,0 +1,102 @@
+{
+  "row_id": "master-0088",
+  "slug": "united-states/iowa/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/iowa/state-income-tax-and-unemployment-insurance/",
+  "page_title": "Iowa State Income Tax and Unemployment Insurance 2026 | Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (2026-05-27)",
+  "target_keywords": [
+    "iowa state income tax and unemployment insurance 2026",
+    "iowa flat income tax 3.8 percent",
+    "iowa SUI wage base 20400 2026",
+    "iowa new employer UI rate 1 percent",
+    "iowa IA W-4 form withholding",
+    "iowa form 44-095 quarterly withholding return",
+    "iowa minimum wage 7.25 preempted local 2026"
+  ],
+  "generated_at": "2026-05-27T09:35:00Z",
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"url": "https://revenue.iowa.gov/press-release/2025-10-21/idr-announces-2026-individual-income-tax-and-interest-rates", "title": "Iowa DOR — 2026 Individual Income Tax and Interest Rates (21 October 2025)", "accessed": "2026-05-27"},
+    {"url": "https://revenue.iowa.gov/press-release/2025-11-03/idr-issues-new-income-withholding-tax-tables-2026", "title": "Iowa DOR — New Income Withholding Tax Tables for 2026 (3 November 2025)", "accessed": "2026-05-27"},
+    {"url": "https://revenue.iowa.gov/taxes/tax-guidance/withholding-tax/iowa-withholding-tax-information", "title": "Iowa DOR — Withholding Tax Information", "accessed": "2026-05-27"},
+    {"url": "https://revenue.iowa.gov/media/53/download", "title": "Iowa Individual Income Tax Withholding Formula Effective 1 January 2026", "accessed": "2026-05-27"},
+    {"url": "https://revenue.iowa.gov/media/4324/download", "title": "2026 IA W-4 Employee Withholding Allowance Certificate", "accessed": "2026-05-27"},
+    {"url": "https://workforce.iowa.gov/press-release/2025-09-05/unemployment-insurance-rates-iowa-employers-remain-lowest-possible-level-2026", "title": "Iowa Workforce Development — UI Rates Remain at Lowest Possible Level in 2026 (5 September 2025)", "accessed": "2026-05-27"},
+    {"url": "https://workforce.iowa.gov/employers/unemployment-insurance/unemployment-insurance-employer-handbook/unemployment-insurance-taxes", "title": "Iowa Workforce Development — UI Employer Handbook: UI Taxes", "accessed": "2026-05-27"},
+    {"url": "https://taxnews.ey.com/news/2025-2555-iowa-law-lowers-sui-wage-base-and-maximum-sui-tax-rate-for-2026", "title": "EY Tax News — Iowa law lowers SUI wage base and max SUI rate for 2026 (Iowa SF 607)", "accessed": "2026-05-27"},
+    {"url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF607", "title": "Iowa Legislature — Senate File 607 (2025)", "accessed": "2026-05-27"},
+    {"url": "https://www.legis.iowa.gov/legislation/BillBook?ga=90&ba=SF2442", "title": "Iowa Legislature — Senate File 2442 (2024 — flat tax acceleration to 3.8 percent)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "title": "U.S. DOL — State Minimum Wage Laws", "accessed": "2026-05-27"},
+    {"url": "https://www.legis.iowa.gov/docs/ico/chapter/91D.pdf", "title": "Iowa Code Chapter 91D — Minimum Wage", "accessed": "2026-05-27"},
+    {"url": "https://www.legis.iowa.gov/docs/ico/chapter/85.pdf", "title": "Iowa Code Chapter 85 — Workers' Compensation", "accessed": "2026-05-27"},
+    {"url": "https://dial.iowa.gov/hearings/workers-comp/compliance", "title": "Iowa DIAL — Workers' Compensation Compliance", "accessed": "2026-05-27"},
+    {"url": "https://taxfoundation.org/location/iowa/", "title": "Tax Foundation — 2026 Iowa Tax Rates and Rankings", "accessed": "2026-05-27"}
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Teamed Client Operations",
+      "speaker_type": "anonymous_team",
+      "provenance_note": "Anonymous team voice (Teamed Client Operations). No named individual; no MI extraction required per pullquote provenance rule. Framing draws on Teamed in-house payroll specialist's standard briefing for incoming Iowa hires post Iowa SF 607 (June 2025)."
+    }
+  ],
+  "v2_compliance": {
+    "capsule_paragraphs": 4,
+    "capsule_pattern": "stake → size → ack → promise",
+    "no_answer_cite_label": true,
+    "no_em_dashes_in_body": true,
+    "statutes_in_tables_only": true,
+    "named_scenarios_per_q_section": {
+      "Henry": "Des Moines developer earning $120,000 — used in state-income-tax + IA W-4 sections",
+      "Sloane": "Cedar Rapids sales lead earning $60,000 — used in SUI wage base section",
+      "Easton": "Davenport ops manager hiring first Iowa team — used in SUI filing + workers' comp sections"
+    },
+    "h2_pattern_mix": {
+      "direct_questions": 4,
+      "statements": 4,
+      "direct_question_examples": ["What is the Iowa state income tax rate in 2026?", "What is the IA W-4 and why is it not the federal W-4?", "How does an Iowa employer file withholding?", "How does the SUI quarterly return work?"],
+      "statement_examples": ["The SUI wage base dropped from $39,500 to $20,400 for 2026", "Iowa has no local payroll tax, anywhere in the state", "Workers' compensation kicks in at one employee", "How Teamed runs Iowa payroll end to end"]
+    },
+    "inline_visual": "pad-note (Iowa SF 607 callout in SUI wage-base section)",
+    "metaphor_count": 0,
+    "end_of_page_disclaimer": true,
+    "no_source_em_footnotes": true,
+    "forbidden_phrases_check": "verified clean (linter passes)"
+  },
+  "factual_uncertainty_resolved": [
+    {
+      "spec_claim": "UI wage base $39,500 in 2026",
+      "verified_actual": "$20,400 in 2026 — down from $39,500 in 2025",
+      "source": "Iowa Workforce Development press release 5 September 2025; Iowa SF 607 (signed 5 June 2025) reduced wage-base formula from two-thirds to one-third of prior-year statewide average annual wage",
+      "flag_type": "prompt_correction"
+    },
+    {
+      "spec_claim": "Iowa hit flat 3.8% in 2026 ahead of original 2026 schedule",
+      "verified_actual": "Flat 3.8% took effect in 2025, one year ahead of original Iowa HF 2317 (2022) schedule which set it for 2026. Acceleration via Iowa SF 2442 (May 2024). 2026 is the second flat-tax year, not the first.",
+      "source": "Iowa DOR press release 21 October 2025; Iowa SF 2442 (May 2024)",
+      "flag_type": "prompt_correction"
+    },
+    {
+      "spec_claim": "New-employer UI rate ~1.0 percent",
+      "verified_actual": "1.000 percent for non-construction; 5.400 percent for construction industry",
+      "source": "Iowa Workforce Development UI Employer Handbook (Table D 2026)",
+      "flag_type": "verified_accurate"
+    }
+  ],
+  "flags": [
+    {"flag": "prompt_correction:ui_wage_base", "severity": "low", "detail": "Spec said $39,500 UI wage base for 2026. Actual is $20,400 (spec referenced 2025 figure). Corrected in page + compliance cache."},
+    {"flag": "prompt_correction:flat_tax_first_year", "severity": "low", "detail": "Spec said Iowa hit flat 3.8% in 2026. Actual: 2025 was the first flat-tax year (accelerated via Iowa SF 2442 May 2024); 2026 is the second. Corrected in page + cache."},
+    {"flag": "link_gate_warn:iowa_siblings_wave_4", "severity": "low", "detail": "Five Iowa sibling pages referenced in chip-nav and links-rail don't exist yet: ../wage-overtime-and-meal-break-law/, ../worker-classification-state-test/, ../paid-family-and-sick-leave/, ../termination-law-and-at-will-exceptions/, plus the Iowa overview ../. Iowa is a new state cluster (this is the first Iowa page). Chip-nav anchors left intact; links-rail entries for non-existent siblings rendered as plain text per link gate rule. Resolves as Iowa cluster builds out."},
+    {"flag": "kernel_cache_used", "severity": "low", "detail": "Used sprint/kernel-cache.json snapshot for Teamed voice + anchor claims rather than live KERNAL pull, per sprint orchestration."},
+    {"flag": "country_specialist_named_in_text_only", "severity": "low", "detail": "Page references 'named country specialist for the United States' and 'in-house payroll lead' without naming a specific individual. Default reviewer rendered as 'Teamed Compliance Team' in meta-footer. Retrofit named US country specialist if/when bio shipped."},
+    {"flag": "neighbour_state_links_pending", "severity": "low", "detail": "Iowa-vs-neighbour-state comparison in body references Illinois (4.95% flat), Minnesota (9.85% top), Wisconsin (~7.65% top), Missouri (4.70% top), Nebraska (5.20%), South Dakota (0%). Internal anchor links to those pages not yet built. Links-rail mentions Illinois + Minnesota as plain text per link gate."}
+  ],
+  "compliance_cache_written": "sprint/compliance-cache/iowa.json",
+  "audit_score_estimate": 92,
+  "reviewer": "Teamed Compliance Team",
+  "review_date": "2026-05-27"
+}

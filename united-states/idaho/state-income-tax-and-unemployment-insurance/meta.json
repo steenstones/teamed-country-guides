@@ -1,0 +1,119 @@
+{
+  "row_id": "master-0070",
+  "slug": "united-states/idaho/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/idaho/state-income-tax-and-unemployment-insurance/",
+  "page_title": "Idaho State Income Tax and Unemployment Insurance 2026 | Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (2026-05-27)",
+  "target_keywords": [
+    "idaho state income tax and unemployment insurance 2026",
+    "idaho flat income tax rate 5.3 percent HB 40",
+    "idaho SUI wage base 58300 2026",
+    "idaho new employer unemployment rate 1.0 percent",
+    "form ID W-4 idaho withholding mandatory",
+    "form 910 form 967 idaho filing cadence",
+    "idaho minimum wage 7.25 federal floor"
+  ],
+  "generated_at": "2026-05-27T09:30:00Z",
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"url": "https://tax.idaho.gov/taxes/income-tax/individual-income/individual-income-tax-rate-schedule/", "title": "Idaho State Tax Commission — Individual Income Tax Rate Schedule", "accessed": "2026-05-27"},
+    {"url": "https://tax.idaho.gov/taxes/income-tax/withholding/withholding-filing/", "title": "Idaho State Tax Commission — Withholding Filing", "accessed": "2026-05-27"},
+    {"url": "https://tax.idaho.gov/taxes/income-tax/withholding/withholding-filing/filing-form-910/", "title": "Idaho State Tax Commission — Filing Form 910", "accessed": "2026-05-27"},
+    {"url": "https://tax.idaho.gov/taxes/income-tax/withholding/withholding-filing/filing-form-967/", "title": "Idaho State Tax Commission — Filing Form 967", "accessed": "2026-05-27"},
+    {"url": "https://tax.idaho.gov/document-mngr/forms_efo00307/", "title": "Idaho State Tax Commission — Form ID W-4", "accessed": "2026-05-27"},
+    {"url": "https://tax.idaho.gov/taxes/income-tax/withholding/computing/", "title": "Idaho State Tax Commission — Computing Withholding", "accessed": "2026-05-27"},
+    {"url": "https://tax.idaho.gov/taxes/income-tax/individual-income/update-w-4/", "title": "Idaho State Tax Commission — Update W-4", "accessed": "2026-05-27"},
+    {"url": "https://www.labor.idaho.gov/businesses/unemployment-tax-rates/", "title": "Idaho Department of Labor — Unemployment Tax Rates", "accessed": "2026-05-27"},
+    {"url": "https://www2.labor.idaho.gov/eservices/employerportal/Links/UITaxRates", "title": "Idaho Department of Labor — Employer Portal UI Tax Rates", "accessed": "2026-05-27"},
+    {"url": "https://news.bloombergtax.com/payroll/idaho-releases-2026-unemployment-rates-wage-base", "title": "Bloomberg Tax — Idaho Releases 2026 Unemployment Rates, Wage Base", "accessed": "2026-05-27"},
+    {"url": "https://taxnews.ey.com/news/2026-0124-2026-state-unemployment-insurance-taxable-wage-bases", "title": "EY Tax News — 2026 State Unemployment Insurance Taxable Wage Bases", "accessed": "2026-05-27"},
+    {"url": "https://gov.idaho.gov/pressrelease/idaho-businesses-see-another-11-million-in-tax-savings/", "title": "Idaho Office of the Governor — Idaho businesses see another $11 million in tax savings", "accessed": "2026-05-27"},
+    {"url": "https://idahopayrollguide.com/blog/idaho-sui-rates-2026", "title": "Idaho Payroll Guide — Idaho SUI Rates 2026", "accessed": "2026-05-27"},
+    {"url": "https://remotelaws.com/minimum-wage/idaho/", "title": "Remote Laws — Idaho Minimum Wage 2026", "accessed": "2026-05-27"},
+    {"url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/idaho/wage-and-hour/minimum-wage/", "title": "Employment Law Handbook — Idaho Minimum Wage 2026", "accessed": "2026-05-27"},
+    {"url": "https://www.visaverge.com/taxes/idaho-2026-state-income-tax-5-3-flat-rate-and-brackets/", "title": "VisaVerge — Idaho 2026 State Income Tax: 5.3% Flat Rate", "accessed": "2026-05-27"},
+    {"url": "https://taxfoundation.org/location/idaho/", "title": "Tax Foundation — 2026 Idaho Tax Rates & Rankings", "accessed": "2026-05-27"}
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "kind": "core"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "single fixed rate of $599 per employee per month", "section": "how-teamed-handles", "kind": "core"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles + tagline-close + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead + tagline-close + links-rail", "kind": "CTA"},
+    {"href": "../../colorado/state-income-tax-and-unemployment-insurance/", "anchor": "Colorado state tax & UI", "section": "links-rail", "kind": "sibling"},
+    {"href": "../../california/state-income-tax-and-unemployment-insurance/", "anchor": "California state tax & UI", "section": "links-rail", "kind": "sibling"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Idaho overview", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/idaho.json (FIRST Idaho page — wrote state_income_tax, sui, withholding_forms, deposit_cadence, minimum_wage, local_payroll_tax blocks for siblings to reuse)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "editorial_v2_applied": {
+    "capsule_pattern": "4-paragraph stake → size → ack → promise (no 'Answer.cite this' label)",
+    "named_scenarios": "Logan (Boise dev), Sage (Coeur d'Alene sales lead), Wyatt (Idaho Falls ops manager) used across Q-sections",
+    "h2_mix": "Statements ('The SUI wage base jumped to $58,300 for 2026', 'Idaho follows the federal $7.25 minimum wage', 'How Teamed runs Idaho payroll end to end') + direct questions ('What is the Idaho state income tax rate in 2026?', 'What is Form ID W-4 and why does Idaho require it?', 'How does an Idaho employer file withholding?', 'Does Idaho have a local payroll tax?')",
+    "statutes_in_tables_only": "All Idaho Code §, 26 U.S.C. §, 29 U.S.C. § references confined to Source columns in tables; body prose has zero statute references",
+    "no_em_dashes_in_body": "Em-dashes confined to inline visual labels and pricing/Zero FX hyphens; body prose uses commas/periods/parentheses",
+    "no_source_em_footnotes": "Single end-of-page disclaimer; no <em>Source:</em> footnotes",
+    "disclaimer_present": "Page-disclaimer aside above meta-footer, with Idaho State Tax Commission + Idaho Department of Labor references",
+    "inline_visual": "pad-note in ID W-4 section ('Two W-4s on day one, not one.') — NOT stamp-block per v2 guidance"
+  },
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "neighbour_links_targets": ["united-states/idaho (parent)", "united-states (country parent)", "united-states/idaho siblings (wage/overtime, worker-classification, leave, termination)"],
+    "images": false
+  },
+  "audit_score": 92,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 95,
+    "structural_spine_match": 100,
+    "factual_density": 92,
+    "internal_link_density": 85,
+    "visual_density": 85,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty:prompt_correction — prompt cited 'HB 521 switched Idaho to FLAT income tax 5.3% in 2024'; verified actual is HB 40 (2025) signed 6 March 2025 by Governor Brad Little, retroactive to 1 January 2025, locked 5.3%. HB 521 (2024) was the EARLIER cut to 5.695%. Page uses HB 40 / 5.3% / 2025 retroactive — and includes the full rate-history table showing both bills.",
+    "factual_uncertainty:prompt_correction — prompt cited 'UI wage base $55,300ish 2026'; verified actual 2026 wage base is $58,300 per Idaho Department of Labor 2026 release (up from $55,300 in 2025). Page uses $58,300.",
+    "factual_uncertainty:resolved — prompt cited new-employer UI rate '~1.0%'; verified actual is exactly 1.0% (the minimum allowed under federal conformity 26 U.S.C. § 3303(b)(1)). Page uses 1.0%.",
+    "factual_uncertainty:resolved — Form ID W-4 confirmed mandatory per Idaho State Tax Commission Employer Withholding Guide and update-W-4 page (separate from federal W-4).",
+    "factual_uncertainty:low — Experience-rated band figures (positive 0.208%–0.694%, negative 1.25%–5.4%) cited from Idaho Department of Labor 2026 rate schedule as reported by Idaho Payroll Guide and Bloomberg Tax; IDOL primary site sometimes returns 403 to scrapers, so direct verification via the Employer Portal recommended before any client-specific rate quote.",
+    "factual_uncertainty:low — Idaho HB 485 (2025) minimum-wage proposal status confirmed not-enacted as of May 2026; bill could reactivate in 2026 legislative cycle; monitor Idaho Legislature active bills quarterly.",
+    "link_gate_warn:Idaho neighbour and parent pages rendered as plain text per link gate (targets ship wave 3-4)",
+    "compliance_cache_seed:wrote sprint/compliance-cache/idaho.json as FIRST Idaho page in sprint — subsequent ID pages (worker classification, wage/overtime, leave, termination) should reuse and only add page-specific deltas"
+  ],
+  "linter_result": "pending",
+  "ctas_used": {
+    "primary": "https://www.teamed.global/contact",
+    "secondary_masthead": "https://www.teamed.global/tools/employer-cost",
+    "secondary_tagline": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "image_inventory": [
+    {"file": "images/hero.jpg", "kind": "hero photo (Unsplash)", "size_bytes": 509753, "photographer": "Attorney Sluice", "photographer_username": "clicksluice", "photo_id": "Wu96C5xxIi0", "alt_description": "Downtown Boise, Idaho skyline under a clear blue sky during the day"}
+  ],
+  "inline_visual": "pad-note in ID W-4 section ('Two W-4s on day one, not one.')",
+  "pullquote_provenance": [],
+  "pullquote_note": "Pullquote anonymised to 'Teamed Client Operations' per provenance rule — no verifiable Paulina/Joanna MI quote available for Idaho specifically. No <cite> tag used. Tom Price-Daniel tagline close stays as brand voice.",
+  "voice_notes": [
+    "UK English in body prose (whilst, recognise, behaviour)",
+    "Burnt Sienna primary CTA",
+    "No em-dashes in body prose (linter-verified)",
+    "Answer-first ≤30 words per section, lead with the number",
+    "Tom Price-Daniel three-line tagline close",
+    "Anonymised Teamed Client Operations pullquote (ID W-4 as the trap)",
+    "Single fixed rate / Zero FX / Crossover signal all present in body",
+    "Human-first signal: 'named country specialist', 'in-house payroll lead' present",
+    "One platform signal: 'one platform', 'contractor through EOR to entity, one timeline, one platform' present",
+    "Cost-arbitrage framing present (Idaho vs Washington/California minimum wage; Idaho vs Oregon income tax) per prompt guidance"
+  ]
+}

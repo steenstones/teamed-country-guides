@@ -1,0 +1,120 @@
+{
+  "row_id": "master-0076",
+  "country": "United States",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "country_slug": "united-states",
+  "page_title": "State income tax and unemployment insurance — Illinois",
+  "target_keyword": "illinois state income tax and unemployment insurance 2026",
+  "slug": "united-states/illinois/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/illinois/state-income-tax-and-unemployment-insurance/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "spec": "phase-1.0",
+  "editorial_standard": "v2",
+  "generated_at": "2026-05-27T08:30:00Z",
+  "last_reviewed": "2026-05-27",
+  "tax_year": 2026,
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"title": "Illinois Withholding Tax Tables 2026 Booklet IL-700-T (4.95% flat rate)", "url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/withholding/documents/currentyear/il-700-t.pdf"},
+    {"title": "Illinois IL-501 Withholding Payment Coupon Instructions 2026", "url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/withholding/documents/currentyear/il-501.pdf"},
+    {"title": "Illinois Publication 131 — Withholding Income Tax Filing and Payment Requirements Rev 01/26", "url": "https://tax.illinois.gov/content/dam/soi/en/web/tax/research/publications/pubs/documents/pub-131.pdf"},
+    {"title": "Illinois FY 2026-15 — What's New for Illinois Income Taxes", "url": "https://tax.illinois.gov/research/publications/bulletins/fy-2026-15.html"},
+    {"title": "Illinois Department of Revenue — Personal Exemption Allowance ($2,925 for 2026)", "url": "https://tax.illinois.gov/questionsandanswers/answer.851.html"},
+    {"title": "Illinois IDES EA-50 2026 — State Experience Factor and Employers' UI Contribution Rates", "url": "https://ides.illinois.gov/content/dam/soi/en/web/ides/ides_forms_and_publications/EA-50_2026.pdf"},
+    {"title": "Bloomberg Tax — Illinois Releases 2026 Unemployment Insurance Tax Rates ($14,250 wage base; 3.35%/3.45% new-employer; 0.75–7.05% experience range)", "url": "https://news.bloombergtax.com/payroll/illinois-releases-2026-unemployment-insurance-tax-rates"},
+    {"title": "EY Tax News — 2026 State Unemployment Insurance Taxable Wage Bases (confirms IL $14,250)", "url": "https://taxnews.ey.com/news/2026-0124-2026-state-unemployment-insurance-taxable-wage-bases"},
+    {"title": "Illinois IDES — Annual Employer Contribution Tax Rates page", "url": "https://ides.illinois.gov/employer-resources/taxes-reporting/rates.html"},
+    {"title": "Illinois Department of Labor — Paid Leave for All Workers Act overview", "url": "https://labor.illinois.gov/laws-rules/paidleave.html"},
+    {"title": "Illinois Department of Labor — PLAWA FAQ", "url": "https://labor.illinois.gov/faqs/paidleavefaq.html"},
+    {"title": "Illinois Public Act 102-1143 — PLAWA enabling legislation, codified at 820 ILCS 192/1 et seq.", "url": "https://www.ilga.gov/legislation/publicacts/102/PDF/102-1143.pdf"},
+    {"title": "Chicago Paid Leave and Paid Sick Leave Ordinance Rules — Final 14 May 2026", "url": "https://www.chicago.gov/content/dam/city/depts/dol/rulesandregs/2026%20OLS_PL-PSL%20RULES_Final_20260514.pdf"},
+    {"title": "City of Chicago — Paid Leave and Paid Sick Leave Ordinance", "url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/paidsickleaveinfo.html"},
+    {"title": "Illinois Department of Labor — Minimum Wage Law $15.00/hour from 1 January 2025", "url": "https://labor.illinois.gov/laws-rules/fls/minimum-wage-law.html"},
+    {"title": "Illinois Workers' Compensation Commission", "url": "https://www.iwcc.illinois.gov/"}
+  ],
+  "internal_links_used": [
+    "https://www.teamed.global/contact",
+    "https://www.teamed.global/tools/employer-cost",
+    "https://www.teamed.global/tools/crossover-calculator",
+    "/employer-of-record/",
+    "/pricing/zero-fx-fixed/"
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Teamed Client Operations",
+      "type": "anonymous_team",
+      "note": "Anonymous-team voice per memory rule: Teamed Client Operations is the canonical anonymisation when no MI extraction supports a named-individual quote. Quote drafts the in-house view on PLAWA frontload-versus-accrue and the Chicago overlay; no MI provenance required because no individual is named."
+    }
+  ],
+  "prompt_corrections": [
+    {
+      "field": "ui.taxable_wage_base_usd_2026",
+      "prompt_value": 13916,
+      "verified_value": 14250,
+      "primary_source": "Bloomberg Tax (Dec 2025) + EY Tax News (Jan 2026)",
+      "note": "Page-builder guidance gave $13,916 which is the 2025 wage base. Verified 2026 figure is $14,250 (a $334 YoY increase)."
+    },
+    {
+      "field": "ui.new_employer_rate_percent",
+      "prompt_value": 3.95,
+      "verified_value": 3.35,
+      "primary_source": "Bloomberg Tax 'Illinois Releases 2026 Unemployment Insurance Tax Rates'",
+      "note": "Page-builder guidance gave ~3.95% which appears to be an older/inflated figure. Verified 2026 default new-employer rate is 3.35% (3.45% for NAICS sector 56 administrative-support and waste-management)."
+    },
+    {
+      "field": "chicago_overlay_lease_tax_framing",
+      "prompt_value": "Chicago has SEPARATE City of Chicago lease + amusement taxes (not income tax, but worth flagging for multi-city payroll).",
+      "verified_value": "Reframed: Chicago Lease Transaction Tax and Amusement Tax are business-side, not payroll. The page-relevant Chicago overlays for payroll/HR are: (1) the Chicago Paid Leave and Paid Sick Leave Ordinance (dual 40+40 bucket, more generous than PLAWA), and (2) the Chicago minimum wage ($16.60/hour through 30 June 2026, with 1 July annual reset).",
+      "note": "The actual payroll-relevant Chicago overlays are the dual-bucket Paid Leave Ordinance and the Chicago minimum wage, not the Lease/Amusement Tax. The lease/amusement taxes are noted in passing as a business-side levy but are not the central Chicago story for an EOR/payroll page."
+    }
+  ],
+  "factual_uncertainty_flags": [
+    {
+      "field": "chicago_minimum_wage_2026_post_1_july",
+      "level": "medium",
+      "note": "Chicago minimum wage resets 1 July annually per CPI or 2.5%, whichever is lower. The $16.60 figure is valid only through 30 June 2026. The 1 July 2026 rate is not yet announced at time of writing — schedule a check in late Q2 2026."
+    },
+    {
+      "field": "chicago_paid_leave_cure_period_expiry",
+      "level": "low",
+      "note": "16-day cure auto-expires 1 July 2026. Calendar entry recommended."
+    },
+    {
+      "field": "ides_2026_rate_notice_per_employer",
+      "level": "low",
+      "note": "Each employer's specific experience-rated SUI rate must be verified against their own MyTax Illinois rate notice for accuracy; the 0.75-7.05% range is the system-wide band."
+    },
+    {
+      "field": "il_personal_exemption_allowance_2026",
+      "level": "low",
+      "note": "$2,925 verified per IDOR Q&A page; consistent with the 2025 base of $2,850. The 2026 figure may receive a late-year revision in FY 2026-15 bulletin updates — re-verify against IDOR publications page each January."
+    }
+  ],
+  "high_concern_flags": [],
+  "scheduled_data_update": [
+    {
+      "date": "2026-07-01",
+      "field": "chicago.minimum_wage_2026_post_1_july",
+      "action": "Re-verify Chicago minimum wage after 1 July 2026 reset (currently $16.60; could rise per CPI ≤ 2.5% rule)."
+    },
+    {
+      "date": "2026-07-01",
+      "field": "chicago.paid_leave_cure_period_expiry",
+      "action": "Update copy on the page to remove cure-period language after 1 July 2026 auto-expiry; verify whether OLS extends or supersedes the rule."
+    },
+    {
+      "date": "2026-12-01",
+      "field": "ides.2026_rate_notices_to_2027",
+      "action": "Re-verify IDES 2027 wage base, new-employer rate, and experience-rated range from the late-November 2026 EA-50 publication."
+    }
+  ],
+  "compliance_cache_written": [
+    "sprint/compliance-cache/illinois.json"
+  ],
+  "v2_applied": true,
+  "editor_rounds": 1,
+  "retrofit_needed": false,
+  "audit_score": 94
+}
