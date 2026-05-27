@@ -211,48 +211,55 @@
     <a href="../hiring-guide/">Hiring guide</a>
   </nav>
 
-  <div class="capsule film-grain">
-    <div class="label">Answer.cite this</div>
-    <p class="text">IR35 is HMRC&rsquo;s off-payroll working rules. They reclassify a contractor as a &ldquo;disguised employee&rdquo; for tax purposes when the working arrangement looks like employment. Since the <strong>2021 private-sector reform</strong>, the client (not the contractor) is usually liable for getting the classification right and for paying employment tax if it&rsquo;s wrong. <strong>An EOR doesn&rsquo;t solve IR35.</strong> Putting an at-risk contractor through an EOR can be HMRC&rsquo;s evidence the worker was already deemed an employee.</p>
+  <div class="capsule">
+    <p class="text">Get a UK contractor&rsquo;s IR35 status wrong and the bill lands on you, the engager. Not the contractor. Back-tax, employer National Insurance, interest, and penalties, for up to <strong>6 tax years</strong>.</p>
+    <p class="text">On a single contractor at &pound;500 a day, a re-classification covering three years of engagement can pass <strong>&pound;120,000</strong> in tax, NIC, and penalties before legal fees. Multiply by a 10-contractor bench and the number gets ugly fast.</p>
+    <p class="text">Most UK hirers have heard of IR35. Fewer understand how the 2021 reform moved the liability onto the engager, or why moving an at-risk contractor onto an Employer of Record can make HMRC&rsquo;s case for them.</p>
+    <p class="text">This page covers the Status Determination Statement process, where the Check Employment Status for Tax tool falls short, the Small Company Exemption, and how Teamed Guard and Teamed Protect carry the misclassification risk away from your balance sheet.</p>
   </div>
 
   <section class="q" id="what-is-ir35">
     <h2>What is IR35 and what does it actually do?</h2>
-    <p class="answer-first">IR35 (formally the <strong>off-payroll working rules</strong>) is a tax anti-avoidance regime. It tests whether a worker engaged via their own limited company would, ignoring that company, look like an employee of the client. If yes, the engagement is &ldquo;inside IR35&rdquo;, employment taxes apply.</p>
-    <div class="body"><p>The rules were originally introduced in <strong>2000</strong> under Schedule 12 of the Finance Act and rewritten into Chapter 8 of the Income Tax (Earnings and Pensions) Act 2003. The objective then and now: stop workers from disguising employment income as dividends to dodge <a href="../tax-and-payroll/">employer National Insurance</a> and the income-tax-vs-dividend-tax differential.</p>
-
-      <p>The rules apply when:</p>
+    <p class="answer-first">IR35 is HMRC&rsquo;s name for the <strong>off-payroll working rules</strong>. It is a tax test, not a contract test.</p>
+    <p class="answer-first">It asks one question. Ignore the contractor&rsquo;s limited company for a moment. Would the worker look like an employee of the client? If yes, the engagement is &ldquo;inside IR35&rdquo;, and you pay the employment taxes.</p>
+    <p class="answer-first">Olivia is a limited-company contractor in London. She bills you &pound;500 a day through her own Ltd. Inside IR35, you operate Pay As You Earn (PAYE) on her invoice, deduct income tax and employee National Insurance Contributions (NIC), and pay employer NIC on top. Outside IR35, she invoices and you pay gross.</p>
+    <div class="body">
+      <p>The rules bite when three things are true at the same time:</p>
       <ul>
-        <li>A <strong>worker</strong> personally provides services to a client</li>
-        <li>Via an <strong>intermediary</strong> (usually a personal service company, or PSC)</li>
-        <li>And the working arrangement, looked at without the PSC, would be employment under the standard common-law tests (control, mutuality of obligation, personal service, integration)</li>
+        <li>A worker personally provides services to a client.</li>
+        <li>They do it through an intermediary, usually their own personal service company (PSC).</li>
+        <li>The working arrangement, looked at without the PSC, would be employment under the common-law tests.</li>
       </ul>
 
-      <p>If the arrangement is &ldquo;inside IR35&rdquo;, the entity paying the worker&rsquo;s PSC must deduct PAYE income tax and employee NIC, and the engager pays employer NIC. The contractor still operates through the PSC commercially, but tax flows as if they were an employee.</p></div>
+      <p>The original anti-avoidance objective was to stop workers disguising employment income as dividends and skipping <a href="../tax-and-payroll/">employer National Insurance</a>. The 2021 reform changed who carries the risk of getting it wrong, not the underlying test.</p>
+      </div>
   </section>
   <section class="q" id="2021-reform">
-    <h2>The 2017 and 2021 reforms, who carries the risk now?</h2>
-    <p class="answer-first">Until 2017, the <strong>contractor</strong> assessed and paid IR35 tax. The 2017 public-sector reform shifted assessment to the public-sector client. The <strong>2021 private-sector reform</strong> did the same for medium and large private clients. Liability for getting IR35 wrong now sits with the fee-payer, usually the client or an agency in the chain.</p>
-    <div class="body"><p>The reforms moved the &ldquo;deemed employer&rdquo; status from the contractor&rsquo;s PSC to the entity paying the PSC. That entity must operate PAYE and employer NIC on the engagement, even though the worker isn&rsquo;t their employee.</p>
+    <h2>Since 2021, the engager carries the risk</h2>
+    <p class="answer-first">Until 2017, the contractor assessed IR35 and paid the tax if they got it wrong.</p>
+    <p class="answer-first">The 2017 reform moved that responsibility to public-sector clients. The <strong>2021 private-sector reform</strong> did the same for every medium and large private client in the UK.</p>
+    <p class="answer-first">Today, the engager (you) is the &ldquo;deemed employer&rdquo; for IR35 purposes. If the assessment is wrong, you owe back PAYE, employer NIC, interest, and penalties. HMRC can reach back up to <strong>6 tax years</strong>, longer for deliberate behaviour.</p>
+    <div class="body">
+      <h3>Who counts as the deemed employer</h3>
+      <p>Ben is a personal service company (PSC) consultant in Edinburgh, contracted to you directly. You are the deemed employer for Ben&rsquo;s engagement, full stop.</p>
+      <p>Add an agency in the middle and the fee-payer position usually shifts to the agency closest to Ben&rsquo;s PSC. You still issue the Status Determination Statement and you can still carry the liability if that determination is wrong.</p>
 
-      <h3>Who is the deemed employer in 2026?</h3>
-      <p>If you, the end client, contract directly with a contractor&rsquo;s PSC: you are the deemed employer for IR35 purposes (assuming you&rsquo;re a medium or large business, see Small Company Exemption below).</p>
-
-      <p>If there&rsquo;s an agency between you and the PSC: the agency closest to the PSC is usually the deemed employer, but the end client retains <strong>liability for issuing the Status Determination Statement</strong> and can be liable if the SDS is incorrect.</p>
-
-      <h3>Small Company Exemption</h3>
-      <p>End clients qualifying as &ldquo;small&rdquo; under the Companies Act 2006 definition (2 of: turnover ≤£10.2m, balance sheet ≤£5.1m, employees ≤50) are out of scope of the 2021 reform. For small clients, the IR35 assessment and tax liability stay with the contractor&rsquo;s PSC, as under the original 2000 rules.</p></div>
+      <h3>The Small Company Exemption keeps some hirers out of scope</h3>
+      <p>End clients that meet the &ldquo;small company&rdquo; definition stay out of the 2021 reform. To qualify you need two of the following three: turnover at or under <strong>&pound;10.2m</strong>, balance sheet total at or under <strong>&pound;5.1m</strong>, employees at or under <strong>50</strong>.</p>
+      <p>If you qualify, the assessment and the tax risk stay with the contractor&rsquo;s PSC, as they did under the original 2000 rules. Cross either threshold for two consecutive years and the reform applies to your next contractor engagement.</p>
+      </div>
   </section>
   <section class="q" id="sds">
     <h2>What is a Status Determination Statement (SDS)?</h2>
-    <p class="answer-first">The SDS is the formal IR35 determination the client must give to <strong>both the contractor and the next party in the supply chain</strong>. It states whether the engagement is inside or outside IR35 and the reasons. Failure to issue an SDS = client becomes the deemed employer by default.</p>
+    <p class="answer-first">The Status Determination Statement (SDS) is the written IR35 verdict you give the contractor and every party between you and them in the chain.</p>
+    <p class="answer-first">It says inside or outside, with reasons. Issue no SDS and the law puts you in the deemed-employer seat by default. Whatever the working arrangement actually looks like, you owe the tax.</p>
     <div class="body">
       <div class="stamp-block">
         <div class="stamp">
           <span class="stamp-num">01</span>
           <span class="stamp-text">Status Determination Statement</span>
         </div>
-        <p class="stamp-body">Four things HMRC checks if it opens an enquiry: the SDS is in writing, the conclusion is stated, the reasons are recorded, and reasonable care was taken. Miss any one and the client becomes the deemed employer by default, regardless of what the working arrangement actually looks like. Your in-house UK employment specialist reviews each SDS edge case before it lands with HMRC, not a ticket queue.</p>
+        <p class="stamp-body">Four things HMRC checks if it opens an enquiry: the SDS is in writing, the conclusion is stated, the reasons are recorded, and reasonable care was taken. Miss any one and you become the deemed employer by default, regardless of what the working arrangement looks like. Your in-house UK employment specialist reviews each SDS edge case before it lands with HMRC, not a ticket queue.</p>
         <div class="tape-row">
           <span class="tape-label">In Writing</span>
           <span class="tape-label">Inside / Outside</span>
@@ -260,67 +267,80 @@
           <span class="tape-label">Reasonable Care</span>
         </div>
       </div>
-      <p>The SDS must:</p>
+
+      <p>Priya is a Bristol freelance designer who works for you through her own Ltd. Before her first invoice, you issue an SDS that says &ldquo;outside IR35&rdquo; with reasons. You send it to Priya. If an agency sits in the chain, you send it to them too, and they pass it on. The SDS travels with the engagement.</p>
+
+      <p>Four things every SDS has to do:</p>
       <ul>
-        <li>Be in writing</li>
-        <li>State the conclusion (inside or outside IR35)</li>
-        <li>Provide reasons for the conclusion</li>
-        <li>Have been arrived at with <strong>reasonable care</strong> by the client</li>
-        <li>Be passed to the worker and to every entity in the contractual chain</li>
+        <li>Be in writing.</li>
+        <li>State the conclusion: inside or outside.</li>
+        <li>Set out the reasons.</li>
+        <li>Be reached with reasonable care, not lifted from a template.</li>
       </ul>
 
-      <p>HMRC&rsquo;s own <a href="https://www.gov.uk/guidance/check-employment-status-for-tax" target="_blank" rel="noopener">CEST tool (Check Employment Status for Tax)</a> can be used to support an SDS, but only if the answers honestly reflect the working arrangement. Plenty of CEST determinations have been overturned at tribunal because the inputs were optimistic.</p>
+      <p>HMRC&rsquo;s own <a href="https://www.gov.uk/guidance/check-employment-status-for-tax" target="_blank" rel="noopener">Check Employment Status for Tax (CEST) tool</a> can support the SDS. But only if the answers reflect the actual working arrangement, not the one you wish you had.</p>
 
-      <h3>The disagreement process</h3>
-      <p>If the contractor disagrees with the SDS, they have a statutory right to challenge it. The client must consider the challenge and respond within <strong>45 days</strong>. Failure to follow the process = the client takes on deemed-employer liability.</p></div>
+      <h3>The 45-day disagreement clock</h3>
+      <p>If Priya disagrees with the SDS, she has a statutory right to challenge it. You have <strong>45 days</strong> to consider the challenge and respond.</p>
+      <p>Miss the deadline and you inherit the deemed-employer position by default, even if your original determination was correct on the facts. Calendar the response date the day the challenge lands.</p>
+      </div>
   </section>
   <section class="q" id="cest-limits">
-    <h2>Why CEST isn&rsquo;t a safe harbour</h2>
-    <p class="answer-first">HMRC publishes CEST and says it will stand behind determinations made via the tool, but with the proviso that the answers reflect the <strong>true working arrangement</strong>. Many tribunal cases have found CEST-supported determinations to be wrong because the inputs were aspirational rather than actual.</p>
-    <div class="body"><p>Specific weaknesses:</p>
+    <h2>CEST is a starting point, not a safe harbour</h2>
+    <p class="answer-first">HMRC will stand behind CEST determinations on one condition: the answers reflect the true working arrangement.</p>
+    <p class="answer-first">Tribunals routinely overturn CEST verdicts when the inputs were optimistic. The tool gives you a written answer in fifteen minutes. It does not give you cover if you fed it the wrong picture.</p>
+    <div class="body">
+      <p>Three blind spots show up in the case law:</p>
       <ul>
-        <li>CEST doesn&rsquo;t weight <strong>Mutuality of Obligation (MOO)</strong> properly. Tribunals routinely treat MOO as decisive; CEST treats it as background context.</li>
-        <li>CEST handles substitution as a binary &ldquo;can the worker send a substitute&rdquo;, but tribunals look at <strong>genuine and unfettered</strong> substitution, which is much more demanding.</li>
-        <li>CEST is short. The questions can be answered honestly two different ways depending on which day of the engagement you look at.</li>
+        <li><strong>Mutuality of Obligation (MOO).</strong> Tribunals often treat MOO as decisive. CEST treats it as background.</li>
+        <li><strong>Substitution.</strong> CEST asks a yes/no on substitution. Tribunals look for genuine, unfettered substitution, which is much harder to evidence.</li>
+        <li><strong>Snapshot risk.</strong> CEST runs short. The same engagement, asked about on day 30 and day 300, can produce two honest answers.</li>
       </ul>
 
-      <p>Best practice: use CEST as a starting point, then run an experienced IR35 specialist over the engagement contract and the day-to-day working pattern. <a href="https://www.teamed.global/tools/contractor-classification" target="_blank" rel="noopener">Run the Contractor Classifier</a>. If they disagree with CEST, weight the specialist&rsquo;s view higher.</p></div>
+      <p>Ben&rsquo;s engagement is a useful test. He started on a 6-week piece of work with a defined deliverable. By month nine he is on a rolling extension, attending Monday stand-ups, and the project manager allocates him work like a permanent. CEST run on day one might have said outside. The day-300 reality looks inside.</p>
+
+      <p>The defensible move is to run CEST, then put the contract and the working pattern in front of an experienced IR35 specialist. <a href="https://www.teamed.global/tools/contractor-classification" target="_blank" rel="noopener">Run the Contractor Classifier</a> for a structured second opinion. If the specialist disagrees with CEST, weight their view higher.</p>
+      </div>
   </section>
   <section class="q" id="eor-doesnt-solve">
-    <h2>Why an EOR doesn&rsquo;t solve IR35</h2>
-    <p class="answer-first">Putting an at-risk contractor through an EOR creates a textbook PAYE arrangement, which HMRC reads as <strong>confirmation</strong> that the worker should have been an employee. The EOR move can become the evidence used against you.</p>
-    <div class="body"><p>The reasoning: IR35 asks whether the working arrangement <em>looks like employment</em>. If you move a contractor onto an EOR, the working arrangement becomes employment, same role, same client, same hours, just routed through a different employer. HMRC&rsquo;s likely view: the arrangement was already employment, you just made it explicit.</p>
-
-      <p>This matters because HMRC&rsquo;s lookback period for IR35 enquiries is <strong>6 tax years</strong> (longer for deliberate behaviour). Moving someone to an EOR doesn&rsquo;t prevent HMRC opening an enquiry into the prior 6 years of PSC engagement.</p>
-
-      <h3>When EOR is the right answer for an &ldquo;inside IR35&rdquo; engagement</h3>
-      <p>If the contractor relationship is honestly assessed as inside IR35 from the start, i.e., the worker is genuinely a disguised employee and the client is content to engage them as such, EOR is one of three options:</p>
+    <h2>An EOR move can be HMRC&rsquo;s evidence, not your defence</h2>
+    <p class="answer-first">Move an at-risk PSC contractor onto an Employer of Record and you create a textbook PAYE arrangement. Same role, same client, same hours, now plainly an employee of the EOR.</p>
+    <p class="answer-first">HMRC&rsquo;s reading of that move is rarely flattering. The working arrangement looked like employment all along. You just made it official.</p>
+    <p class="answer-first">The lookback for an IR35 enquiry is <strong>6 tax years</strong>. Switching Olivia to an EOR next Monday does nothing about the prior six years of PSC invoices. It can, however, focus HMRC&rsquo;s attention on them.</p>
+    <div class="body">
+      <h3>When EOR <em>is</em> the right answer</h3>
+      <p>Once you have honestly assessed an engagement as inside IR35, three structures are available:</p>
       <ol>
-        <li><strong>Direct employment</strong> via your own UK entity</li>
-        <li><strong>EOR engagement</strong> via Teamed Ltd as the legal employer</li>
-        <li><strong>Continue PSC engagement</strong> but apply PAYE deduction via the deemed-employer mechanism</li>
+        <li>Direct employment on your own UK entity.</li>
+        <li>EOR employment via Teamed Ltd as the legal employer.</li>
+        <li>Continue the PSC engagement, but operate PAYE through the deemed-employer mechanism.</li>
       </ol>
 
-      <p>EOR is cleanest for sub-12-month engagements or when you don&rsquo;t want to add to your own entity&rsquo;s payroll. It does not retroactively cure prior IR35 risk.</p></div>
+      <p>EOR fits cleanest for engagements under twelve months, or where you do not want to add the headcount to your own UK payroll. It does not retroactively cure historical IR35 exposure, and nothing else does either.</p>
+      </div>
   </section>
   <section class="q" id="tests">
-    <h2>The common-law tests HMRC and tribunals actually use</h2>
-    <p class="answer-first">Four pillars: <strong>personal service, mutuality of obligation, control, and integration</strong>. The first two are necessary for an employment finding; the second two are weighty but not decisive. The contract terms matter; the actual working arrangement matters more.</p>
-    <div class="body"><h3>1. Personal service</h3>
-      <p>Is the worker personally required to perform the service, or can they send a substitute? Genuine, unfettered substitution rights are strong evidence of self-employment. &ldquo;The client must approve the substitute&rdquo; or &ldquo;substitute must be qualified&rdquo; clauses weaken the defence considerably.</p>
+    <h2>Four common-law tests do the real work</h2>
+    <p class="answer-first">HMRC and the tribunals weigh four pillars: <strong>personal service, mutuality of obligation, control, and integration</strong>.</p>
+    <p class="answer-first">The first two have to be present for an employment finding. The second two carry weight but are not decisive on their own. The contract matters. The day-to-day reality matters more.</p>
+    <div class="body">
+      <h3>1. Personal service</h3>
+      <p>Can the worker send a genuine substitute? Priya, the Bristol designer, runs a two-person studio and routinely sends her partner to client review meetings. That is real substitution and it cuts strongly toward self-employment. A clause that says &ldquo;the client must approve any substitute&rdquo; or &ldquo;the substitute must hold the same accreditation&rdquo; weakens that defence on contact with HMRC.</p>
 
       <h3>2. Mutuality of Obligation (MOO)</h3>
-      <p>Does the client have to offer work and does the worker have to accept it? Continuous obligation over time, even informally, indicates employment. Genuine ability to refuse work or finish an engagement without further obligation indicates self-employment.</p>
+      <p>Are you obliged to offer work and is the contractor obliged to accept it? Continuous flow, even by habit rather than contract, points to employment. The freedom to refuse the next piece of work, or to end the engagement, points the other way. Tribunals often treat this pillar as decisive.</p>
 
       <h3>3. Control</h3>
-      <p>Who controls what work is done, where, when, and how? A self-employed contractor is engaged for an outcome; an employee is directed on method. Day-to-day supervision, fixed working hours, and required attendance at internal meetings push toward employment.</p>
+      <p>Who decides what gets done, where, when, and how? A contractor is engaged for an outcome. An employee is directed on method. Set hours, mandatory attendance at internal stand-ups, and a line manager allocating Ben&rsquo;s tickets all push the engagement toward employment.</p>
 
       <h3>4. Integration</h3>
-      <p>Is the worker part of the client&rsquo;s organisation or genuinely external? Internal email addresses, line management of/by other staff, performance reviews, attendance at all-hands, these push toward employment. Branded as part of the team in customer-facing materials is the most-cited example.</p></div>
+      <p>Is the contractor part of your organisation or genuinely external? Internal email addresses, performance reviews, attendance at all-hands, and a place on the org chart point inside. Olivia listed on your &ldquo;Meet the Team&rdquo; page with a staff headshot is the example most often cited in tribunal judgments.</p>
+      </div>
   </section>
   <section class="q" id="teamed-guard-protect">
-    <h2>Teamed Guard and Teamed Protect: the two IR35 products</h2>
-    <p class="answer-first">Teamed Guard and Teamed Protect are purpose-built for UK contractor classification risk. <strong>Guard</strong> layers misclassification cover on top of contractors you engage directly. <strong>Protect</strong> transfers the liability to Teamed by routing the engagement through us. Pick by how much risk you want to retain.</p>
+    <h2>Guard layers cover. Protect transfers the liability.</h2>
+    <p class="answer-first">Teamed Guard and Teamed Protect are built for UK contractor classification risk.</p>
+    <p class="answer-first"><strong>Guard</strong> layers misclassification cover on top of contractors you engage directly. <strong>Protect</strong> transfers the liability to Teamed by routing the engagement through us. Pick by how much risk you want to keep on your own books.</p>
     <div class="body">
       <table class="data">
         <thead>
@@ -336,20 +356,20 @@
         </tbody>
       </table>
 
-      <h3>Teamed Guard, keep the engagement, add the cover</h3>
-      <p>Use Guard when the contractor relationship is genuinely outside IR35 in your honest assessment, you want to keep the direct commercial relationship with the contractor (often because they prefer it), and you want quarterly independent review plus a defined liability cap if HMRC challenges. Guard sits over the top of your existing PSC arrangement; the contractor invoices you, you pay them, and Teamed runs the classification review on the cadence.</p>
+      <h3>Guard: keep the engagement, add the cover</h3>
+      <p>Reach for Guard when you have honestly assessed an engagement as outside IR35 and you want to keep the direct commercial relationship with the contractor. Olivia keeps her Ltd. You keep your existing contract. Teamed runs the quarterly classification review and carries a defined liability cap if HMRC challenges. Guard sits on top of your existing PSC arrangement, nothing about the day-to-day changes.</p>
 
-      <h3>Teamed Protect, transfer the engagement, transfer the risk</h3>
-      <p>Use Protect when you want full liability transfer to Teamed. Mechanically: Teamed engages the contractor under our agreement, the contractor delivers the work to you, and we carry the IR35 risk in full. You get the work; we hold the deemed-employer position. This is the right answer for high-stakes engagements where the cost of an IR35 finding would be material to the business.</p>
+      <h3>Protect: transfer the engagement, transfer the risk</h3>
+      <p>Reach for Protect when you want the IR35 liability fully off your balance sheet. Teamed engages Priya under our agreement, Priya delivers the work to you, and we hold the deemed-employer position. You get the output. We carry the tax risk. This is the right call when the cost of an adverse IR35 finding would be material to the business.</p>
 
-      <h3>The other two engagement models</h3>
+      <h3>Two other engagement models when classification shifts</h3>
       <p>Beyond Guard and Protect, Teamed supports:</p>
       <ul>
-        <li><strong>EOR employment</strong> via Teamed Ltd as legal employer, for relationships that are genuinely employment dressed up as contracting. Switch the worker to direct employment via our EOR and the IR35 question disappears.</li>
-        <li><strong>Graduation Model</strong>, for converting contractors to employees on your own entity when you&rsquo;re ready to scale, with continuous service preserved.</li>
+        <li><strong>EOR employment</strong> via Teamed Ltd as legal employer, for relationships that are honestly employment dressed up as contracting. Switch Ben from his PSC onto our EOR payroll and the IR35 question disappears.</li>
+        <li><strong>Graduation Model</strong>, for converting contractors to employees on your own UK entity once the headcount makes that the right move. Continuous service is preserved.</li>
       </ul>
 
-      <p>Teamed&rsquo;s view on IR35: it&rsquo;s a tax-status question, not a contractual-magic question. If the working arrangement looks like employment, structure it as employment via EOR. If it&rsquo;s genuinely external, use Guard or Protect to back the position. Don&rsquo;t buy synthetic outside-IR35 status through clever contracting; HMRC looks through it.</p>
+      <p>Teamed&rsquo;s view on IR35 is simple. It is a tax-status question, not a contracting question. If the engagement is employment in substance, structure it as employment through EOR. If it is genuinely external, back the position with Guard or Protect. Do not try to buy outside-IR35 status through clever contracting. HMRC looks through it.</p>
 
       <div class="callout">
         <div class="label">Which product, which engagement</div>
@@ -357,9 +377,9 @@
       </div>
 
       <h3 id="honesty-on-cost">Honesty on cost, one platform, one contract</h3>
-      <p>Teamed Guard layers misclassification cover on top of contractors you engage directly, from <strong>$130 per contractor per month</strong>; Teamed Protect transfers the liability and starts at <strong>$189 per contractor per month</strong>. EOR employment via Teamed Ltd runs on a <strong>single fixed rate of $599 per employee per month</strong>. Statutory employer cost passes through at cost, itemised on the invoice, auditable line by line, with no markup on statutory items. Pay UK contractors in GBP from your USD account at ECB mid-market &ndash; <strong>Zero FX mark-up</strong> in any currency pairing.</p>
+      <p>Teamed Guard runs at <strong>$130 per contractor per month</strong>. Teamed Protect transfers the liability and starts at <strong>$189 per contractor per month</strong>. EOR employment via Teamed Ltd runs on a <strong>single fixed rate of $599 per employee per month</strong>. Statutory employer cost passes through at cost, itemised on the invoice, auditable line by line, with no markup on statutory items. Pay your UK contractor in GBP from your USD account at ECB mid-market: <strong>Zero FX mark-up</strong> in any currency pairing.</p>
 
-      <p>Start with one UK contractor under Guard or Protect, graduate to direct EOR employment if the working pattern shifts, then switch to your own UK entity at crossover &ndash; one platform, one contract, one named country specialist behind every call. The in-house compliance team owns the SDS edge cases end-to-end, the contractor invoices stay tidy, the EOR payroll runs on the same platform, and the audit trail is continuous from first contractor to first crossover hire on your own entity. No ticket queue, no handoff between vendors, no real human at the other end pretending to be a chatbot.</p>
+      <p>Start with one UK contractor under Guard or Protect. Graduate to EOR employment if the working pattern shifts. Switch to your own UK entity at crossover. One platform, one contract, one named country specialist behind every call. The in-house compliance team owns the SDS edge cases end-to-end. Contractor invoices stay tidy. EOR payroll runs on the same system. The audit trail is continuous from first contractor to first crossover hire on your own entity. No ticket queue, no handoff between vendors, no chatbot pretending to be a person.</p>
     </div>
   </section>
   <div class="pullquote">
@@ -389,6 +409,10 @@
       <li><a href="https://www.teamed.global/tools/contractor-classification" target="_blank" rel="noopener">Contractor Classifier</a><span class="context">tool</span></li>
       <li><a href="https://www.teamed.global/contact">Talk to an expert</a><span class="context">CTA</span></li>
     </ul>
+  </aside>
+
+  <aside class="page-disclaimer" style="max-width: 960px; margin: 48px auto 24px; padding: 20px 24px; background: var(--parchment-100); border-left: 3px solid var(--parchment-400); border-radius: 4px; font-size: 14px; color: var(--parchment-700); line-height: 1.55;">
+    <strong style="color: var(--parchment-900);">A note on this page.</strong> This is a guide, not legal advice. IR35 status determinations turn on the facts of each engagement and HMRC guidance changes. Confirm with an IR35 specialist, HMRC, or your Teamed UK specialist before relying on a specific framework.
   </aside>
 
   <div class="meta-footer">
