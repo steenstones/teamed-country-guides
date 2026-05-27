@@ -1,0 +1,132 @@
+{
+  "row_id": "master-0085",
+  "slug": "united-states/indiana/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/indiana/paid-family-and-sick-leave/",
+  "page_title": "Indiana Paid Family and Sick Leave 2026 | FMLA Floor.Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (2026-05-27)",
+  "target_keywords": [
+    "indiana paid family leave and sick leave 2026",
+    "indiana FMLA 50 employees 12 weeks unpaid",
+    "indiana HEA 1393 local leave preemption 2023",
+    "indiana HEA 1309 pregnancy accommodation 2024",
+    "indiana voluntary parental leave benchmark",
+    "indiana illinois PLAWA cross-border employer",
+    "indiana pregnant workers fairness act PWFA"
+  ],
+  "generated_at": "2026-05-27T10:45:00Z",
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"url": "https://www.dol.gov/agencies/whd/fmla", "title": "US Department of Labor — Family and Medical Leave Act (FMLA)", "accessed": "2026-05-27"},
+    {"url": "https://www.eeoc.gov/pregnant-workers-fairness-act", "title": "EEOC — Pregnant Workers Fairness Act (PWFA)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/vets/programs/userra", "title": "US Department of Labor — USERRA", "accessed": "2026-05-27"},
+    {"url": "https://iga.in.gov/legislative/2023/bills/house/1393", "title": "Indiana General Assembly — House Enrolled Act 1393 (2023), local-government preemption on private-employer mandates", "accessed": "2026-05-27"},
+    {"url": "https://iga.in.gov/legislative/2024/bills/house/1309", "title": "Indiana General Assembly — House Enrolled Act 1309 (2024), Indiana Civil Rights Law pregnancy accommodation (IC 22-9-12)", "accessed": "2026-05-27"},
+    {"url": "https://iga.in.gov/laws/2024/ic/titles/22#22-9-12", "title": "Indiana Code 22-9-12 — Civil Rights Law: Pregnancy Accommodations", "accessed": "2026-05-27"},
+    {"url": "https://iga.in.gov/laws/2024/ic/titles/10#10-16-7-21", "title": "Indiana Code 10-16-7-21 — Indiana National Guard employment protection", "accessed": "2026-05-27"},
+    {"url": "https://iga.in.gov/laws/2024/ic/titles/33#33-28-5", "title": "Indiana Code 33-28-5 — Jury service rules", "accessed": "2026-05-27"},
+    {"url": "https://iga.in.gov/laws/2024/ic/titles/22#22-2-9-2.1", "title": "Indiana Code 22-2-9-2.1 — Jury duty employer protections", "accessed": "2026-05-27"},
+    {"url": "https://www.in.gov/icrc/", "title": "Indiana Civil Rights Commission — overview and pregnancy accommodation guidance", "accessed": "2026-05-27"},
+    {"url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=4156&ChapterID=68", "title": "Illinois Compiled Statutes 820 ILCS 192 — Paid Leave for All Workers Act (PLAWA)", "accessed": "2026-05-27"},
+    {"url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/paid-sick-leave1.html", "title": "Chicago Department of Business Affairs and Consumer Protection — Paid Leave and Paid Sick and Safe Leave Ordinance", "accessed": "2026-05-27"},
+    {"url": "https://www.shrm.org/topics-tools/research/2025-employee-benefits-survey", "title": "SHRM 2025 Employee Benefits Survey", "accessed": "2026-05-27"},
+    {"url": "https://www.bls.gov/news.release/ecec.toc.htm", "title": "US Bureau of Labor Statistics — Employer Costs for Employee Compensation March 2026", "accessed": "2026-05-27"},
+    {"url": "https://www.epi.org/preemption-map/", "title": "Economic Policy Institute — State Preemption Map (2026 update)", "accessed": "2026-05-27"}
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "kind": "core"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "kind": "core"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles + tagline-close + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead + tagline-close + links-rail", "kind": "CTA"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Indiana state income tax and unemployment insurance", "section": "links-rail", "kind": "sibling"},
+    {"href": "../../idaho/paid-family-and-sick-leave/", "anchor": "Idaho paid family and sick leave", "section": "links-rail", "kind": "sibling"},
+    {"href": "../../california/paid-family-and-sick-leave/", "anchor": "California paid family and sick leave", "section": "links-rail", "kind": "sibling"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Indiana overview", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/indiana.json (reused state-context — no PFL/PSL data was in cache because Indiana has neither; cache provided HEA 1393 preemption context implicitly via the no-state-PSL minimum_wage structure)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "editorial_v2_applied": {
+    "capsule_pattern": "4-paragraph stake → size → ack → promise (no 'Answer.cite this' label); size paragraph cites 1.5–2.5% payroll cost and six-figure replacement cost",
+    "named_scenarios": "Owen (Indianapolis SaaS engineer at 35-person company, federal-only FMLA below threshold, voluntary benchmarking vs Chicago), Maya (Fort Wayne 90-person manufacturing ops, sick-day cap + pregnancy accommodation), Reid (Bloomington 180-person research firm with Chicago + Evanston remote staff — Illinois PLAWA cross-border)",
+    "h2_mix": "Mixed statements ('What happens when your Indiana team has Illinois staff too?', 'How does Teamed handle Indiana leave end to end?') + direct questions ('Does Indiana require paid family leave?', 'Does Indiana require paid sick leave?', 'What is Indiana's HEA 1393 local-leave preemption?', 'What does federal FMLA give Indiana employees?', 'What protections apply for pregnancy and disability in Indiana?', 'What about military leave and jury duty in Indiana?', 'What about employers with fewer than 50 employees in Indiana?') — ~75% question rate, within v2 band",
+    "statutes_in_tables_only": "All Indiana Code, ILCS, 29 U.S.C., 42 U.S.C. references confined to Source columns in tables; body prose uses plain English (HEA 1393, HEA 1309, PLAWA, PWFA spelled out on first mention)",
+    "no_em_dashes_in_body": "Em-dashes confined to inline visual labels and tape-row separators; body prose uses commas/periods/parentheses",
+    "no_source_em_footnotes": "Single end-of-page disclaimer per spec; no <em>Source:</em> footnotes",
+    "disclaimer_present": "Page-disclaimer aside above meta-footer using exact prompt-provided copy",
+    "inline_visual": "stamp-block in FMLA section ('29 U.S.C. § 2601 · FMLA') with tape-row labels — matches Idaho/Georgia/Alabama PFL pattern. Plus one pad-note in pregnancy accommodation section for Indiana Civil Rights Law verification disclaimer.",
+    "pullquote": "Anonymised to 'Teamed Client Operations' per provenance rule. No <cite> tag used. Subject: voluntary policy design + cross-border Illinois PLAWA conflict as the distinctive Indiana leave operational point."
+  },
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "neighbour_links_targets": ["united-states/indiana (parent)", "united-states (country parent)", "united-states/indiana siblings (wage/overtime, worker-classification, termination)", "united-states/illinois/paid-family-and-sick-leave (sibling for cross-border PLAWA reference)"],
+    "images": false
+  },
+  "audit_score": 93,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 95,
+    "structural_spine_match": 100,
+    "factual_density": 92,
+    "internal_link_density": 88,
+    "visual_density": 90,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty:medium — Indiana Civil Rights Law pregnancy accommodation (IC 22-9-12, added by HEA 1309 in 2024): exact employer-size threshold and effective date for the state-level pregnancy accommodation rule not fully confirmed against ICRC guidance. Page positions IC 22-9-12 as a parallel-path claim to federal PWFA and explicitly flags the verification in body prose (the pregnancy-accommodation pad-note). Confirm against current Indiana Civil Rights Commission published guidance before relying on a state-only claim in any specific employee matter.",
+    "factual_uncertainty:medium — HEA 1393 (2023) preemption framing: page states it locks every Indiana city out of paid-leave ordinances. The bill is real and the preemption pattern matches the well-established Indiana labour preemption framework (also covers minimum wage). Confirm the exact statutory citation and codification location against the IGA bill history before relying for a specific local-ordinance challenge.",
+    "factual_uncertainty:low — Illinois PLAWA cross-border framing: PLAWA is real (820 ILCS 192, effective 1 January 2024) and accrual is 1 hr per 40 worked up to 40 hrs/year. Chicago Paid Leave Ordinance and Cook County Earned Sick Leave Ordinance are also real overlays. Confirm current 2026 Chicago and Cook County rules against city/county published guidance before any client-pricing decision.",
+    "factual_uncertainty:resolved — FMLA 50-employee/75-mile threshold, 12-month/1250-hour eligibility, 12-week unpaid entitlement confirmed against 29 U.S.C. § 2611–2612 and 29 CFR § 825.",
+    "factual_uncertainty:resolved — PWFA 15-employee threshold and 27 June 2023 effective date confirmed against EEOC guidance.",
+    "factual_uncertainty:resolved — No state PFL, no state PSL, no state bone-marrow/organ-donor/bereavement/voting-leave statute for Indiana private employers, confirmed against IGA statute search and 2026 state-by-state surveys.",
+    "factual_uncertainty:resolved — Indiana National Guard job protection at IC 10-16-7-21 (state National Guard active duty mirrors USERRA scope).",
+    "factual_uncertainty:resolved — Indiana jury-duty employer protection split across IC 33-28-5 (jury service rules) and IC 22-2-9-2.1 (jury duty employer protections).",
+    "prompt_correction:medium — Prompt cited 'HEA 1393 (2023)' as preempting local paid sick/leave ordinances. Verified the policy lever is real; specific citation framing in page leaves room for ICRC/IGA confirmation of the exact statutory location. Page treats HEA 1393 as the preemption mechanism without naming a specific Ind. Code section beyond a pointer to the bill itself.",
+    "prompt_correction:low — Prompt cited 'Indiana Civil Rights Law IC 22-9-12 — pregnancy accommodation (added by HEA 1309, 2024).' Used as stated in the source column of the pregnancy reference table; flagged 'verify against current ICRC guidance' in the pad-note for the employer-size threshold and effective date.",
+    "prompt_correction:resolved — Prompt cited IN bone marrow/organ donor, bereavement, and voting leave as having NO state mandate. Verified and applied in the military-jury table as 'No state mandate' rows.",
+    "link_gate_warn:Indiana parent and US country parent rendered as plain text per link gate (targets ship wave 3-4)",
+    "compliance_cache_reuse:Reused sprint/compliance-cache/indiana.json state context for the no-state-PSL minimum-wage framing; cache had no PFL/PSL block because Indiana has none; pregnancy / HEA 1393 / HEA 1309 added on top from prompt-provided facts (verified)"
+  ],
+  "linter_result": "pass",
+  "linter_checks_total": 26,
+  "linter_checks_passed": 26,
+  "linter_block_failures": 0,
+  "linter_warn_failures": 0,
+  "ctas_used": {
+    "primary": "https://www.teamed.global/contact",
+    "secondary_masthead": "https://www.teamed.global/tools/employer-cost",
+    "secondary_tagline": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "image_inventory": [
+    {"file": "images/hero.jpg", "kind": "hero photo (Unsplash, reused from Indiana state-tax sibling page)", "size_bytes": 189369, "photographer": "Ryan De Hamer", "photographer_username": "rdehamer", "photo_id": "yilpftAIsSA", "alt_description": "Aerial view of downtown Indianapolis, Indiana, with city buildings in daylight"}
+  ],
+  "inline_visual": "stamp-block in FMLA section ('29 U.S.C. § 2601 · FMLA') with four tape-row labels covering 50+ employees, 12 months tenure, 12 weeks unpaid, health coverage; pad-note in pregnancy section flagging Indiana Civil Rights Commission verification ask for IC 22-9-12 employer-size threshold",
+  "pullquote_provenance": [],
+  "pullquote_note": "Pullquote anonymised to 'Teamed Client Operations' per provenance rule. Subject: cross-border Illinois PLAWA conflict as the distinctive Indiana leave operational point. No <cite> tag used. Tom Price-Daniel tagline close stays as brand voice.",
+  "voice_notes": [
+    "v2 editorial standard applied: 4-paragraph capsule (stake → size → ack → promise), no statute refs in body prose, statutes only in tables (Ind. Code, ILCS, 29 U.S.C., 42 U.S.C.)",
+    "Three named Indiana scenarios introduced and reused: Owen (Indianapolis SaaS engineer at 35-person company, federal-only), Maya (Fort Wayne 90-person manufacturing ops, sick-day cap + pregnancy accommodation), Reid (Bloomington 180-person research firm with cross-state Illinois remote staff)",
+    "H2 ratio: 2 statements + 7 direct questions (~75% question rate, within v2 target band)",
+    "UK English in body prose (whilst — not used, but recognise, behaviour patterns followed)",
+    "Burnt Sienna primary CTA",
+    "No em-dashes in body prose (linter-verified — &mdash; entities confined to source columns and stamp/tape labels)",
+    "Answer-first ≤30 words per section, lead with the number",
+    "Tom Price-Daniel three-line tagline close",
+    "Anonymised Teamed Client Operations pullquote (voluntary policy + cross-border PLAWA as discipline points)",
+    "Single fixed rate / Zero FX / Crossover signal all present in body",
+    "Human-first signal: 'named country specialist', 'in-house HR specialist', 'real human picks up the phone', 'message the same person', 'no support tickets', 'no chatbot triage' present",
+    "One platform signal: 'one platform', 'contractor through EOR to entity, one timeline, one platform' present",
+    "End-of-page disclaimer aside present above .meta-footer, parchment styling per v2 spec",
+    "Distinctive Indiana angle leans on prompt's framing: 'one of the most laissez-faire paid-leave states in the country, FMLA is the floor, ceiling, and walls' (Tom tagline close) — paired with HEA 1393 preemption + Illinois PLAWA cross-border as the operationally consequential layer"
+  ]
+}

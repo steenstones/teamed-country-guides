@@ -1,0 +1,143 @@
+{
+  "row_id": "master-0078",
+  "country": "United States",
+  "state": "Illinois",
+  "slug": "united-states/illinois/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/illinois/worker-classification-state-test/",
+  "page_title": "Illinois Worker Classification State Test 2026 | Teamed",
+  "page_type": "us_state_child",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (2026-05-27)",
+  "generated_at": "2026-05-27T10:05:00Z",
+  "sources_verified_at": "2026-05-27",
+  "target_keywords": [
+    "illinois worker classification state test 2026",
+    "illinois independent contractor test",
+    "illinois 1099 vs w-2 classification",
+    "illinois employee classification act 820 ilcs 185 construction",
+    "illinois freelance worker protection act 1 july 2024",
+    "illinois biometric information privacy act bipa 740 ilcs 14",
+    "illinois wage payment and collection act 820 ilcs 115",
+    "illinois department of employment security ides abc test",
+    "illinois department of labor idol misclassification audit",
+    "construction abc test illinois $1500 per day penalty"
+  ],
+  "sources": [
+    {"url": "https://www.ilga.gov/legislation/ilcs/ilcs5.asp?ActID=2682&ChapterID=68", "title": "Illinois Employee Classification Act 820 ILCS 185 (construction industry strict ABC test)", "accessed": "2026-05-27"},
+    {"url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2402&ChapterID=68", "title": "Illinois Wage Payment and Collection Act 820 ILCS 115 (personal liability for owners and officers)", "accessed": "2026-05-27"},
+    {"url": "https://www.ilga.gov/legislation/publicacts/103/PDF/103-0481.pdf", "title": "Public Act 103-0481 — Illinois Freelance Worker Protection Act (820 ILCS 185.5; effective 1 July 2024)", "accessed": "2026-05-27"},
+    {"url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3004&ChapterID=57", "title": "Illinois Biometric Information Privacy Act 740 ILCS 14 (BIPA)", "accessed": "2026-05-27"},
+    {"url": "https://www.ilga.gov/legislation/publicacts/103/PDF/103-0769.pdf", "title": "Public Act 103-0769 (Aug 2024) — BIPA Cothron amendment (per-person counting)", "accessed": "2026-05-27"},
+    {"url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2367&ChapterID=68", "title": "Illinois Unemployment Insurance Act 820 ILCS 405/212 (state ABC test for UI coverage)", "accessed": "2026-05-27"},
+    {"url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2418&ChapterID=68", "title": "Illinois Workers' Compensation Act 820 ILCS 305 (right-of-control test)", "accessed": "2026-05-27"},
+    {"url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2683&ChapterID=68", "title": "Illinois Day and Temporary Labor Services Act 820 ILCS 175 (equal pay + benefits after 90 days)", "accessed": "2026-05-27"},
+    {"url": "https://labor.illinois.gov/laws-rules/conmed.html", "title": "Illinois Department of Labor — Employee Classification Act enforcement guidance", "accessed": "2026-05-27"},
+    {"url": "https://ides.illinois.gov/employer-resources.html", "title": "Illinois Department of Employment Security — Employer Resources (UI classification)", "accessed": "2026-05-27"},
+    {"url": "https://iwcc.illinois.gov/", "title": "Illinois Workers' Compensation Commission", "accessed": "2026-05-27"},
+    {"url": "https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee", "title": "IRS — Independent Contractor or Employee (common-law factors)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking", "title": "US DOL — Final Rule on Independent Contractor Classification (effective 11 March 2024)", "accessed": "2026-05-27"}
+  ],
+  "compliance_cache": {
+    "file": "sprint/compliance-cache/illinois.json",
+    "fetched_at": "2026-05-27T00:00:00Z",
+    "in_window": true,
+    "ttl_days": 30
+  },
+  "kernel_cache_used": true,
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Illinois state income tax and unemployment insurance", "state": "live"},
+    {"href": "../../georgia/worker-classification-state-test/", "anchor": "Georgia worker classification test", "state": "live"},
+    {"href": "../../idaho/worker-classification-state-test/", "anchor": "Idaho worker classification test", "state": "live"},
+    {"href": "../../california/worker-classification-state-test/", "anchor": "California worker classification (ABC) test", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "state": "live"},
+    {"href": "https://www.teamed.global/tools/contractor-classification", "anchor": "Contractor Classifier", "state": "external"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "state": "external"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "state": "external"}
+  ],
+  "internal_links_pending_retrofit": [
+    {"label": "Illinois overview parent", "state": "wave-4"},
+    {"label": "Illinois wage, overtime, and meal-break law", "state": "wave-4"},
+    {"label": "Illinois paid family and sick leave", "state": "wave-4"},
+    {"label": "Illinois termination law and at-will exceptions", "state": "wave-4"},
+    {"label": "Hiring in the United States, overview", "state": "wave-3"}
+  ],
+  "hero_image": {
+    "source": "Unsplash",
+    "credit_name": "Rohan Gangopadhyay",
+    "credit_url": "https://unsplash.com/@rohan_gangopadhyay",
+    "subject": "Chicago downtown skyline along the Chicago River",
+    "reused_from_sibling": "state-income-tax-and-unemployment-insurance",
+    "filename": "hero.jpg"
+  },
+  "inline_visuals": [
+    {"type": "pad-note", "section_id": "freelance-worker-protection", "title": "Freelance Worker Protection Act, in one line"}
+  ],
+  "pullquote": {
+    "provenance": "anonymised",
+    "label": "Teamed Legal Operations",
+    "speaker_named": false,
+    "mi_extraction_id": null,
+    "cite_line_present": false,
+    "rule_applied": "Pullquote-provenance rule (2026-05-22) — no Meeting Intelligence quote available for Illinois-specific worker classification analysis; anonymised to function-line per skill spec; no fabricated cite line."
+  },
+  "editor_rounds": 0,
+  "editor_notes": "Drafted using V2 editorial standard (Stripe register, capsule = stake/size/ack/promise, THREE named Illinois scenarios — Aaliyah/Ezra/Priya, body prose has zero statutes in capsule paragraphs; statutes confined to source columns and disclaimer). Linter (verify-page.py) treated as deterministic Stage-6 substitute for sprint mode. Linter PASSED 26/26 first run.",
+  "v2_applied": true,
+  "v2_named_scenarios": [
+    {"name": "Aaliyah", "context": "Chicago fintech backend developer, freelance LLC with three clients (clean contractor pass; appears in which-test, freelance-worker-protection, biometric-data-bipa sections)", "section": "which-test"},
+    {"name": "Ezra", "context": "Springfield construction GC with framing crew (ABC test trigger; construction-abc section)", "section": "construction-abc"},
+    {"name": "Priya", "context": "Naperville data analyst running single-client engagement for insurer (borderline 1099, employee-shaped facts; vs-other-states section)", "section": "vs-other-states"}
+  ],
+  "audit_score": null,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "topic": "Day and Temporary Labor Services Act 90-day equal-pay trigger",
+      "detail": "Page references the Day and Temporary Labor Services Act 820 ILCS 175 equal-pay-plus-benefits trigger after 90 days at a host company in the cost-of-getting-it-wrong section. The 90-day trigger follows from HB 2862 (2023) and the SB 3650 (2024) implementing revisions. Verify the current comparator-employee equal-pay rule and benefit-equivalency methodology against the most recent Illinois Department of Labor rulemaking before relying on a specific compensation calculation for a client engagement."
+    },
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "topic": "Construction Employee Classification Act civil-penalty figure",
+      "detail": "Page cites the $1,500 per worker per day civil penalty under Employee Classification Act 820 ILCS 185/40, with doubling for second offence within five years and three-year state-contract debarment under 820 ILCS 185/45. Both figures follow primary statute and Illinois Department of Labor enforcement bulletins. Verify the exact penalty schedule against the current statute compilation before any client-pricing decision."
+    },
+    {
+      "flag": "prompt_correction_applied",
+      "severity": "info",
+      "topic": "Compliance cache prompt corrections inherited from sibling state-income-tax page",
+      "detail": "Compliance cache for Illinois already records the 2026 SUI wage base correction ($14,250, not $13,916) and the new-employer rate correction (3.35% default, 3.45% NAICS 56, not the ~3.95% in older prompt guidance). This worker-classification page uses the corrected figures throughout the cost-of-misclassification table and the vs-other-states comparison section."
+    },
+    {
+      "flag": "scheduled_data_update",
+      "severity": "info",
+      "topic": "BIPA Cothron amendment per-person counting",
+      "detail": "Page cites the August 2024 Cothron amendment (Public Act 103-0769) that limits BIPA damages to per-person rather than per-scan counting. Active class-action litigation continues to test the amendment's scope and retroactive application. Monitor 2026 Illinois Supreme Court rulings before relying on the per-person framing for any specific exposure calculation."
+    }
+  ],
+  "spec_notes": [
+    "Modelled on Idaho sibling structure (most recent V2 mixed-test page) with Illinois-specific statute swaps throughout.",
+    "Three classification regimes distinguished in capsule + which-test section: IRS common-law for non-construction wage and hour; state ABC for UI under 820 ILCS 405/212; strict ABC for construction under 820 ILCS 185.",
+    "Freelance Worker Protection Act (820 ILCS 185.5; effective 1 July 2024) treated as a distinctive Illinois angle — written-contract rule for $500+ hires from a single hirer over any 120-day period.",
+    "BIPA (740 ILCS 14) covered as a contractor-relevant exposure because biometric authentication is common in fintech, healthcare, and warehousing workflows.",
+    "Personal liability for owners and officers under Wage Payment and Collection Act 820 ILCS 115/13 referenced in capsule and cost table — this is one of Illinois's most distinctive features vs other midwest common-law states.",
+    "Section 530 federal safe harbour treatment distinguished from state-side exposure.",
+    "Three named Illinois scenarios per task brief: Aaliyah (Chicago fintech dev, freelance; appears across multiple sections); Ezra (Springfield construction GC, ABC trigger); Priya (Naperville data analyst, borderline single-client 1099).",
+    "Capsule = 4-paragraph stake/size/ack/promise. Body prose statute-free per V2; statutes confined to Source columns of data tables and the end-of-page disclaimer.",
+    "End-of-page disclaimer uses task-brief exact specification."
+  ],
+  "stage_provenance": {
+    "research": "Used compliance cache illinois.json plus task-brief provisional facts list: construction ABC under 820 ILCS 185; common-law for non-construction; Day and Temporary Labor Services Act 820 ILCS 175 with HB 2862 (2023) and SB 3650 (2024) revisions; Wage Payment and Collection Act 820 ILCS 115 personal liability; Freelance Worker Protection Act 820 ILCS 185.5 (eff 1 Jul 2024); BIPA 740 ILCS 14; coordinated enforcement across IDOL + IDES + IDR; penalty schedule under 820 ILCS 185/40 ($1,500/day/worker for construction). Cross-checked against Idaho sibling (most recent V2 mixed-test page) and California sibling (pure ABC contrast).",
+    "brief": "Sprint mode — generated directly in deploy directory without separate brief.md. Autopilot mode, no human approval pause.",
+    "draft": "Single-pass mirror of Idaho sibling structure with Illinois-specific content swapped throughout. V2 editorial standard applied at draft time. Three named Illinois scenarios distributed across sections per task-brief spec.",
+    "images": "Hero reused from Illinois sibling (state-income page) per task brief. Inline pad-note visual composed in-HTML per CSS classes already in _shared/child-base.css. No gpt-image-1 calls.",
+    "internal_links": "8 live + 5 plain-text wave-N per 4-state link gate.",
+    "editor": "Skipped LLM round per sprint mode discipline; deterministic linter (verify-page.py) ran as Stage-6 substitute. Linter PASSED 26/26 block-checks first run.",
+    "output": "Wrote to ~/.claude/skills/teamed-page-builder/output/country-guides/united-states/illinois/worker-classification-state-test/. No git operations performed."
+  }
+}

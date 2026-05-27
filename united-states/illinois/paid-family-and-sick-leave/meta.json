@@ -1,0 +1,103 @@
+{
+  "row_id": "master-0079",
+  "country": "United States",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "country_slug": "united-states",
+  "page_title": "Paid family and sick leave — Illinois",
+  "target_keyword": "illinois paid family and sick leave 2026",
+  "slug": "united-states/illinois/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/illinois/paid-family-and-sick-leave/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "spec": "phase-1.0",
+  "editorial_standard": "v2",
+  "generated_at": "2026-05-27T09:30:00Z",
+  "last_reviewed": "2026-05-27",
+  "tax_year": 2026,
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"title": "Paid Leave for All Workers Act, 820 ILCS 192/1 et seq. (Public Act 102-1143)", "url": "https://www.ilga.gov/legislation/publicacts/102/PDF/102-1143.pdf"},
+    {"title": "Illinois Department of Labor — Paid Leave for All Workers Act overview and FAQ", "url": "https://labor.illinois.gov/laws-rules/paidleave.html"},
+    {"title": "Illinois Department of Labor — PLAWA FAQ", "url": "https://labor.illinois.gov/faqs/paidleavefaq.html"},
+    {"title": "Chicago Paid Leave and Paid Sick and Safe Leave Ordinance Rules — Final 14 May 2026", "url": "https://www.chicago.gov/content/dam/city/depts/dol/rulesandregs/2026%20OLS_PL-PSL%20RULES_Final_20260514.pdf"},
+    {"title": "City of Chicago — Paid Leave and Paid Sick Leave Ordinance", "url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/paidsickleaveinfo.html"},
+    {"title": "Victims' Economic Security and Safety Act, 820 ILCS 180", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2502&ChapterID=68"},
+    {"title": "Illinois Department of Labor — VESSA overview", "url": "https://labor.illinois.gov/laws-rules/vessa.html"},
+    {"title": "Family Bereavement Leave Act, 820 ILCS 154", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=4222&ChapterID=68"},
+    {"title": "School Visitation Rights Act, 820 ILCS 147", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2477&ChapterID=68"},
+    {"title": "Illinois Human Rights Act, 775 ILCS 5 (pregnancy accommodation, § 2-102(I))", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2266&ChapterID=64"},
+    {"title": "Illinois Department of Human Rights — Pregnancy in the Workplace guidance", "url": "https://dhr.illinois.gov/filing-a-charge/pregnancy.html"},
+    {"title": "Federal Family and Medical Leave Act, 29 U.S.C. §§ 2601 et seq.; 29 CFR Part 825", "url": "https://www.dol.gov/agencies/whd/fmla"},
+    {"title": "Federal PUMP Act, 29 U.S.C. § 218d (lactation accommodation)", "url": "https://www.dol.gov/agencies/whd/pump-at-work"},
+    {"title": "Illinois Wage Payment and Collection Act, 820 ILCS 115 (combined-PTO payout rules on separation)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2402&ChapterID=68"}
+  ],
+  "internal_links_used": [
+    "https://www.teamed.global/contact",
+    "https://www.teamed.global/tools/employer-cost",
+    "https://www.teamed.global/tools/crossover-calculator",
+    "/employer-of-record/",
+    "/pricing/zero-fx-fixed/"
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Teamed Client Operations",
+      "type": "anonymous_team",
+      "note": "Anonymous-team voice per memory rule (feedback_pullquote_provenance): Teamed Client Operations is the canonical anonymisation when no MI extraction supports a named-individual quote. Quote drafts the in-house view on PLAWA frontload-versus-accrue, the six onboarding decisions, and the Chicago overlay; no MI provenance required because no individual is named, no cite tag included."
+    }
+  ],
+  "prompt_corrections": [],
+  "factual_uncertainty_flags": [
+    {
+      "field": "chicago_paid_leave_cure_period_expiry",
+      "level": "low",
+      "note": "16-day cure period auto-expires 1 July 2026. Calendar entry recommended. After expiry the only remedy is the up-to-3x civil action."
+    },
+    {
+      "field": "chicago_minimum_wage_pay_rate_for_paid_leave_post_1_july_2026",
+      "level": "medium",
+      "note": "Chicago minimum wage ($16.60 through 30 June 2026) drives the floor pay rate during Chicago paid-leave use. The 1 July 2026 rate is not yet published; re-verify in late Q2 2026 once the Office of Labor Standards announcement lands."
+    },
+    {
+      "field": "vessa_size_bands",
+      "level": "low",
+      "note": "Page cites the three-band ladder at 820 ILCS 180/20(a). Confirm against current IDOL VESSA guidance and any 2025-2026 amendments to the Act before relying on a specific band for a client matter."
+    },
+    {
+      "field": "fbla_school_visitation_thresholds",
+      "level": "low",
+      "note": "Family Bereavement Leave Act (820 ILCS 154) and School Visitation Rights Act (820 ILCS 147) thresholds cited at 50+ employer per current statute summaries. Verify exact employee-count test and qualifying-event list against the latest IDOL guidance before client-specific advice."
+    },
+    {
+      "field": "plawa_combined_pto_carve_out",
+      "level": "low",
+      "note": "IDOL guidance on whether separately-tracked PLAWA can lapse without payout when employer otherwise has a paid-vacation policy continues to mature. The combined-PTO payout rule under 820 ILCS 115 is settled; the PLAWA-as-its-own-line carve-out has FAQ support but should be re-checked against the latest IDOL FAQ before relying on the lapse mechanic."
+    }
+  ],
+  "high_concern_flags": [],
+  "scheduled_data_update": [
+    {
+      "date": "2026-07-01",
+      "field": "chicago.paid_leave_cure_period_expiry",
+      "action": "Update page to remove cure-period language after 1 July 2026 auto-expiry; verify whether OLS extends or supersedes the rule."
+    },
+    {
+      "date": "2026-07-01",
+      "field": "chicago.minimum_wage_post_1_july_2026",
+      "action": "Re-verify Chicago minimum wage after 1 July 2026 reset (currently $16.60; could rise per CPI ≤ 2.5% rule). Update the Chicago Ordinance pay-rate table accordingly."
+    },
+    {
+      "date": "2026-12-01",
+      "field": "plawa.idol_guidance_refresh",
+      "action": "Re-check IDOL PLAWA FAQ for any 2026 clarifications on combined-PTO tracking, carry-over arithmetic, and frontload reset mechanics."
+    }
+  ],
+  "compliance_cache_written": [],
+  "compliance_cache_used": [
+    "sprint/compliance-cache/illinois.json"
+  ],
+  "v2_applied": true,
+  "editor_rounds": 1,
+  "retrofit_needed": false,
+  "audit_score": 94
+}

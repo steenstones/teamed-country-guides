@@ -1,0 +1,133 @@
+{
+  "row_id": "master-0077",
+  "country": "United States",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "country_slug": "united-states",
+  "page_title": "Termination law and at-will exceptions — Illinois",
+  "target_keyword": "illinois termination law and at-will exceptions 2026",
+  "slug": "united-states/illinois/termination-law-and-at-will-exceptions",
+  "target_url": "/hire-in-united-states/illinois/termination-law-and-at-will-exceptions/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "spec": "phase-1.0",
+  "editorial_standard": "v2",
+  "generated_at": "2026-05-27T10:15:00Z",
+  "last_reviewed": "2026-05-27",
+  "tax_year": 2026,
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"title": "Palmateer v. International Harvester Co., 85 Ill. 2d 124, 421 N.E.2d 876 (Illinois Supreme Court 1981) — leading public-policy retaliatory-discharge tort", "url": "https://law.justia.com/cases/illinois/supreme-court/1981/53780-6.html"},
+    {"title": "Duldulao v. St. Mary of Nazareth Hospital Center, 115 Ill. 2d 482, 505 N.E.2d 314 (Illinois Supreme Court 1987) — three-part handbook-as-contract test", "url": "https://law.justia.com/cases/illinois/supreme-court/1987/62737-7.html"},
+    {"title": "Kelsay v. Motorola, Inc., 74 Ill. 2d 172, 384 N.E.2d 353 (Illinois Supreme Court 1978) — workers' compensation retaliatory-discharge tort", "url": "https://law.justia.com/cases/illinois/supreme-court/1978/50293-6.html"},
+    {"title": "Illinois Wage Payment and Collection Act, 820 ILCS 115 (final compensation rule at section 115/5; statutory damages and treble damages at section 115/14)", "url": "https://law.justia.com/codes/illinois/chapter-820/act-820-ilcs-115/"},
+    {"title": "Illinois Department of Labor — Wage Payment and Collection Act FAQ (final-pay timing)", "url": "https://labor.illinois.gov/faqs/wage-payment-faq.html"},
+    {"title": "Illinois WARN Act, 820 ILCS 65 (75-employee threshold; 25/250 mass-layoff trigger; 60-day notice; back-pay cap; $500/day penalty)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2617&ChapterID=68"},
+    {"title": "Illinois Department of Labor — WARN Act (Conciliation and Mediation Division)", "url": "https://labor.illinois.gov/laws-rules/conmed/warn.html"},
+    {"title": "Illinois Department of Commerce and Economic Opportunity — WARN notice filings", "url": "https://dceo.illinois.gov/workforcedevelopment/warn.html"},
+    {"title": "Illinois Human Rights Act, 775 ILCS 5 (protected classes; 300-day filing window with IDHR)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2266&ChapterID=64"},
+    {"title": "Illinois Department of Human Rights — Filing a Charge of Discrimination overview", "url": "https://dhr.illinois.gov/filing-a-charge.html"},
+    {"title": "Illinois Whistleblower Act, 740 ILCS 174", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2418&ChapterID=57"},
+    {"title": "Illinois Workers' Compensation Act anti-retaliation provision, 820 ILCS 305/4(h)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2430&ChapterID=68"},
+    {"title": "Illinois Victims' Economic Security and Safety Act (VESSA), 820 ILCS 180", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2447&ChapterID=68"},
+    {"title": "Illinois Personnel Records Review Act, 820 ILCS 40 (former-employee one-year inspection right; 7-working-day response window; ban on arrest record and lawful off-duty conduct as adverse-decision basis)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2438&ChapterID=68"},
+    {"title": "Illinois Freedom to Work Act, 820 ILCS 90 (non-compete void at or below $75,000 annual earnings; non-solicit void at or below $45,000)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3522&ChapterID=68"},
+    {"title": "Hotel and Casino Employee Job Recall and Retention Act and related hospitality-employment statutes (820 ILCS 137 series — verify exact section reference before client-pricing decision)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs.asp?ChapterID=68"},
+    {"title": "Federal WARN Act, 29 U.S.C. ch. 23 (100-employee threshold; 50-employee plant closing; 50/500 mass-layoff trigger)", "url": "https://www.law.cornell.edu/uscode/text/29/chapter-23"},
+    {"title": "Older Workers Benefit Protection Act, 29 U.S.C. § 626(f) (ADEA release safe harbour; 21-day individual / 45-day group consideration; 7-day revocation; decisional-unit disclosure)", "url": "https://www.law.cornell.edu/uscode/text/29/626"},
+    {"title": "EEOC — Time Limits for Filing a Charge (Illinois as a 300-day deferral state)", "url": "https://www.eeoc.gov/time-limits-filing-charge"}
+  ],
+  "internal_links_used": [
+    "https://www.teamed.global/contact",
+    "https://www.teamed.global/tools/employer-cost",
+    "https://www.teamed.global/tools/crossover-calculator",
+    "/employer-of-record/",
+    "/pricing/zero-fx-fixed/"
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Teamed Legal Operations",
+      "type": "anonymous_team",
+      "note": "Anonymous-team voice per memory rule (Pullquote provenance — anonymous-team functions need no MI extraction). Quote dramatises a representative pre-termination-screen catch of the IL WARN 75-employee trap on a 92-employee, 28-person reduction; no named individual; figures derived from statute math (28 affected × ~$90k avg salary × 60-day cap = ~$400k+ back-pay floor). Anonymisation pattern matches the canonical 'Teamed Legal Operations' label."
+    }
+  ],
+  "prompt_corrections": [
+    {
+      "field": "il_warn_mass_layoff_threshold",
+      "prompt_value": "25+ employees if ≥33% of workforce, OR 250+ employees regardless",
+      "verified_value": "25+ full-time employees IF they constitute one-third or more of full-time employees at a single site, OR 250+ full-time employees regardless of percentage, in a 30-day (or in some cases 90-day) period",
+      "primary_source": "820 ILCS 65 + IDOL WARN guidance (labor.illinois.gov/laws-rules/conmed/warn.html); Burke Law commentary on aggregation",
+      "note": "Prompt language was substantially correct; tightened to add the 'full-time' qualifier (mass-layoff math uses full-time headcount only) and the 30-day / 90-day aggregation window. The 75-employee employer threshold reads either '75+ full-time' OR '75+ total employees who in aggregate work 4,000+ hours per week excluding overtime' — second prong added to the threshold table for completeness."
+    },
+    {
+      "field": "il_human_rights_act_filing_window",
+      "prompt_value": "300-day filing window for IDHR complaints",
+      "verified_value": "300 days from the alleged violation — confirmed as the current IDHR window after the 2020 amendment extending the window from the prior 180 days. The same 300-day window applies to the federal Title VII / ADA / ADEA clocks because Illinois is an EEOC deferral state.",
+      "primary_source": "775 ILCS 5/7A-102 (IDHR charge filing); EEOC time-limits page (Illinois as deferral state)",
+      "note": "Confirmed correct. Worth noting the 300-day window is post-2020 (previously 180 days) — older guidance and templates may still cite 180."
+    },
+    {
+      "field": "il_final_pay_rule",
+      "prompt_value": "at time of separation if possible, no later than next regularly scheduled payday",
+      "verified_value": "Verified verbatim against 820 ILCS 115/5: 'Every employer shall pay the final compensation of separated employees in full, at the time of separation, if possible, but in no case later than the next regularly scheduled payday for such employee.'",
+      "primary_source": "820 ILCS 115/5; IDOL Wage Payment FAQ",
+      "note": "Same deadline applies to voluntary quits and involuntary discharge — no separate 72-hour rule (Illinois reads as a single deadline). Final compensation includes earned vacation under default rule."
+    },
+    {
+      "field": "hrta_citation",
+      "prompt_value": "HRTA 820 ILCS 137",
+      "verified_value": "Treated cautiously: Illinois Chapter 820 has multiple hospitality-employment statutes; the exact section reference for the Hotel and Casino Employee Job Recall and Retention Act needs primary-source verification. Page references the doctrine area (covered hospitality terminations require recall and severance) without committing to a precise § number in body prose. Table cell cites '820 ILCS 137' with the act name; verify before client-pricing decision.",
+      "primary_source": "Illinois Chapter 820 employment statute search at ilga.gov; LegalClarity overview",
+      "note": "Flagged as factual_uncertainty:low. Recommend re-verification of the precise § number and current scope before relying on the hospitality-specific layer for any client matter."
+    }
+  ],
+  "factual_uncertainty_flags": [
+    {
+      "field": "hrta_exact_section_reference",
+      "level": "low",
+      "note": "820 ILCS 137 cited in table as the Hotel and Casino Employee Job Recall and Retention Act / hospitality-termination layer. Illinois Chapter 820 has multiple hospitality-employment statutes; verify the exact section number and operative provisions against ilga.gov before any client-pricing decision. Body prose treats this as a generalised hospitality layer without committing to specifics."
+    },
+    {
+      "field": "vessa_size_band_thresholds",
+      "level": "low",
+      "note": "VESSA leave entitlements operate on a size-band model (smaller employers get reduced leave; 50+ employers get the full 12 weeks). Page treats the structure at table level without enumerating every band. Verify the current bands against 820 ILCS 180 and IDOL guidance for any specific client matter."
+    },
+    {
+      "field": "vacation_payout_use_it_or_lose_it_carve_out",
+      "level": "low",
+      "note": "Illinois treats earned vacation as wages by default under 820 ILCS 115. A use-it-or-lose-it policy can avoid payout beyond an accrual cap IF the policy meets the IDOL drafting standards and is consistently applied. The specific drafting requirements have evolved through IDOL guidance and case law; verify any specific policy against current IDOL bulletins before relying."
+    },
+    {
+      "field": "il_warn_aggregation_window_90_days",
+      "level": "low",
+      "note": "Illinois WARN aggregation window can extend from 30 to 90 days when separate layoff rounds together exceed the mass-layoff threshold and the employer cannot show independent causation. The 90-day analysis follows federal-WARN aggregation principles but Illinois case law is sparse. Verify against IDOL guidance for any multi-round restructure."
+    }
+  ],
+  "high_concern_flags": [],
+  "scheduled_data_update": [
+    {
+      "date": "2027-01-15",
+      "field": "freedom_to_work_act_compensation_thresholds",
+      "action": "Re-verify Freedom to Work Act non-compete ($75,000) and non-solicit ($45,000) annual-earnings thresholds — Illinois indexes the thresholds modestly each year. Confirm the 2027 figures against the current 820 ILCS 90 text before relying for an executive separation."
+    },
+    {
+      "date": "2026-12-01",
+      "field": "il_warn_threshold_static_check",
+      "action": "Confirm Illinois WARN 75-employee threshold and mass-layoff trigger remain unchanged (no 2026 legislative session amendment to 820 ILCS 65). Check ilga.gov Public Acts feed in late Q4 2026."
+    }
+  ],
+  "compliance_cache_written": [],
+  "compliance_cache_extended": [
+    "sprint/compliance-cache/illinois.json — termination doctrine layer (Palmateer 1981, Duldulao 1987, Kelsay 1978), Illinois WARN mechanics (75-employee threshold + 25-or-one-third mass-layoff trigger), 820 ILCS 115/5 final-pay rule, IDHR 300-day window, VESSA + Personnel Records Review Act + Freedom to Work Act citations now anchored on this page for downstream Illinois siblings."
+  ],
+  "v2_applied": true,
+  "editor_rounds": 1,
+  "retrofit_needed": false,
+  "linter_passes": "26/26 first run",
+  "named_scenarios": [
+    {"name": "Aaliyah", "role": "Chicago fintech developer (4 years tenure, 2 written warnings)", "tied_to": "Duldulao handbook-as-contract trap and OWBPA group-release execution"},
+    {"name": "Ezra", "role": "Springfield operations lead ($110k base, bi-weekly cycle)", "tied_to": "820 ILCS 115/5 final-pay arithmetic and Personnel Records Review Act post-termination access"},
+    {"name": "Priya", "role": "Naperville data analyst at 92-employee software firm", "tied_to": "Illinois WARN 75-employee threshold trap on 30-person restructure (federal WARN does not apply)"}
+  ],
+  "audit_score": 93
+}

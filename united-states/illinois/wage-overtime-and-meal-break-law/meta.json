@@ -1,0 +1,162 @@
+{
+  "row_id": "master-0080",
+  "country": "United States",
+  "state": "Illinois",
+  "state_slug": "illinois",
+  "country_slug": "united-states",
+  "page_title": "Wage, overtime and meal-break law — Illinois",
+  "target_keyword": "illinois wage overtime and meal break law 2026",
+  "slug": "united-states/illinois/wage-overtime-and-meal-break-law",
+  "target_url": "/hire-in-united-states/illinois/wage-overtime-and-meal-break-law/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "spec": "phase-1.0",
+  "editorial_standard": "v2",
+  "generated_at": "2026-05-27T10:00:00Z",
+  "last_reviewed": "2026-05-27",
+  "tax_year": 2026,
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"title": "Illinois Department of Labor — Minimum Wage Law ($15.00/hour from 1 January 2025; tipped $9.00; youth $13.00)", "url": "https://labor.illinois.gov/laws-rules/fls/minimum-wage-law.html"},
+    {"title": "Illinois Minimum Wage Law, 820 ILCS 105 (consolidated statute)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2399"},
+    {"title": "Illinois Public Act 101-0001 — Lift the Cap minimum-wage phased increase (2019 enabling legislation)", "url": "https://www.ilga.gov/legislation/publicacts/101/PDF/101-0001.pdf"},
+    {"title": "Illinois One Day Rest in Seven Act, 820 ILCS 140 (ODRISA; 20-min meal break before hour 5 on 7.5-hr shifts; 24-hr weekly rest)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2412"},
+    {"title": "Illinois Department of Labor — ODRISA FAQ and IDOL notice", "url": "https://labor.illinois.gov/laws-rules/fls/one-day-rest-in-seven-act.html"},
+    {"title": "Illinois Wage Payment and Collection Act, 820 ILCS 115 (semi-monthly pay; written wage statement; 2% per month interest + 5% damages)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2402"},
+    {"title": "Illinois Equal Pay Act of 2003, 820 ILCS 112 (with 2023 pay-transparency amendments effective 1 January 2025; wage range disclosure in job postings)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2401"},
+    {"title": "Illinois Department of Labor — Equal Pay Act FAQ (pay-transparency disclosure rules; 15+ employee threshold; up to $10,000 per posting for repeat violations)", "url": "https://labor.illinois.gov/laws-rules/fls/equal-pay-act.html"},
+    {"title": "Illinois Personnel Records Review Act, 820 ILCS 40 (employee right to inspect personnel records; 7-working-day response window)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2406"},
+    {"title": "Municipal Code of Chicago § 1-24 — Chicago Minimum Wage Ordinance ($16.60/hour through 30 June 2026; tipped $12.54; youth $16.50; 80-hour-in-120-day coverage trigger)", "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2641880"},
+    {"title": "City of Chicago Office of Labor Standards — Minimum Wage page (current rate, annual reset 1 July per CPI ≤2.5%)", "url": "https://www.chicago.gov/city/en/depts/bacp/supp_info/minimumwageinformation.html"},
+    {"title": "Cook County Minimum Wage Ordinance ($15.40/hour through 30 June 2026, unincorporated areas only — most municipalities opted out)", "url": "https://www.cookcountyil.gov/service/minimum-wage-ordinance"},
+    {"title": "US Department of Labor Wage and Hour Division — FLSA Overtime ($684 weekly salary basis floor; 29 U.S.C. § 207(a) weekly OT trigger; 29 CFR Part 541)", "url": "https://www.dol.gov/agencies/whd/overtime"},
+    {"title": "US Department of Labor — Fair Labor Standards Act statutory text (29 U.S.C. §§ 201–219)", "url": "https://www.dol.gov/agencies/whd/flsa"},
+    {"title": "29 CFR § 778 — Federal regular-rate-of-pay rules for overtime calculation (includes non-discretionary bonuses, commissions, shift differentials)", "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-A/part-778"},
+    {"title": "Plano Chamber of Commerce v. US Department of Labor, E.D. Tex. November 2024 (vacated 2024 DOL salary-basis rule; restored 2019 $684/week floor)", "url": "https://www.dol.gov/agencies/whd/overtime/rulemaking"},
+    {"title": "Illinois Sales Representative Act, 820 ILCS 120 (commission late-payment exemplary damages 3x unpaid commission + mandatory attorneys' fees)", "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2403"}
+  ],
+  "internal_links_used": [
+    "https://www.teamed.global/contact",
+    "https://www.teamed.global/tools/employer-cost",
+    "https://www.teamed.global/tools/crossover-calculator",
+    "/employer-of-record/",
+    "/pricing/zero-fx-fixed/"
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Teamed Client Operations",
+      "type": "anonymous_team",
+      "note": "Anonymous-team voice per memory rule: Teamed Client Operations is the canonical anonymisation when no MI extraction supports a named-individual quote. Quote drafts the in-house view on ODRISA meal-break timing as the most common Illinois trip-up versus the more visible Chicago-vs-state minimum-wage layer; no MI provenance required because no individual is named."
+    }
+  ],
+  "prompt_corrections": [
+    {
+      "field": "il_min_wage_2026_step",
+      "prompt_value": "$15.00/hr from 1 Jan 2025; VERIFY whether any 2026 adjustment scheduled",
+      "verified_value": "$15.00/hr from 1 Jan 2025; holds through all of 2026 with no scheduled state escalator",
+      "primary_source": "Illinois Department of Labor Minimum Wage Law page + 820 ILCS 105/4 + Public Act 101-0001",
+      "note": "State minimum-wage phase-in completed 1 January 2025 at $15.00; the Lift the Cap statute does not schedule a further state-level increase. Any future increase requires fresh legislation."
+    },
+    {
+      "field": "il_tipped_wage_2026_step",
+      "prompt_value": "Tipped wage: $9.00/hr (60% of state min); VERIFY whether 2026 step",
+      "verified_value": "$9.00/hr cash for 2026, no scheduled step; 60% of $15.00 state floor",
+      "primary_source": "Illinois Department of Labor + 820 ILCS 105/4(c)",
+      "note": "Tipped wage tracks the state floor at 60% under 820 ILCS 105/4(c). Holds at $9.00 through 2026. No tip-credit phase-out at the state level (Chicago is a separate matter with its own phase-out schedule)."
+    },
+    {
+      "field": "chicago_min_wage_2026",
+      "prompt_value": "Chicago Minimum Wage Ordinance: $16.20/hr (Jul 2024) for 4+ employees; VERIFY July 2025 + scheduled Jul 2026 step",
+      "verified_value": "$16.60/hr from 1 July 2025 through 30 June 2026 for 4+ employees; 1 July 2026 rate not yet announced (CPI ≤ 2.5% formula applies)",
+      "primary_source": "City of Chicago Office of Labor Standards Minimum Wage page + Municipal Code of Chicago § 1-24-020(d)",
+      "note": "Page-builder guidance gave $16.20 (July 2024 rate). Verified 2026 figure is $16.60/hour for the 1 July 2025 to 30 June 2026 period. The 1 July 2026 rate is flagged as a scheduled data-update entry."
+    },
+    {
+      "field": "chicago_tipped_wage",
+      "prompt_value": "(not specified)",
+      "verified_value": "$12.54/hour through 30 June 2026; on a phase-out path to zero tip credit by 1 July 2028 under Chicago Ord. 2023-0001",
+      "primary_source": "Municipal Code of Chicago § 1-24-040 + Chicago Ord. 2023-0001",
+      "note": "Added Chicago tipped-wage layer plus the tip-credit phase-out schedule for full context. The phase-out is a Chicago-specific policy distinct from the state tipped rule."
+    },
+    {
+      "field": "il_overtime_framing",
+      "prompt_value": "OT: federal FLSA standard only (weekly >40 hrs); no state daily OT",
+      "verified_value": "Confirmed: 820 ILCS 105/4a follows FLSA weekly trigger at 1.5x over 40 hrs/workweek; no Illinois daily OT, no double-time, no seventh-day premium. Federal exempt salary basis floor sits at $684/week per 29 CFR Part 541 (2019 rule restored after Plano Chamber of Commerce v. DOL November 2024 vacated the 2024 lift to $43,888 / $58,656)",
+      "primary_source": "29 CFR Part 541 + Plano Chamber of Commerce v. DOL (E.D. Tex. Nov 2024) + DOL Wage and Hour Division updates",
+      "note": "Provisional fact confirmed; added context on Plano vacatur because Illinois follows the federal exempt floor verbatim and any future DOL rulemaking propagates automatically."
+    },
+    {
+      "field": "odrisa_meal_break",
+      "prompt_value": "ODRISA — 24-hr rest in workweek + 20-min meal break if shift ≥7.5 hrs (must be within first 5 hrs)",
+      "verified_value": "Confirmed: 820 ILCS 140/3 requires 20-min meal break for shifts of 7.5+ hours starting no later than the end of the 5th hour. Second 20-min meal required for shifts of 12+ hours. 820 ILCS 140/2 sets the 24-hour weekly rest right. Penalties under 820 ILCS 140/7 are $250/offence for under-25 employers, $500/offence for 25+. ODRISA is silent on a general rest-break rule; only hotel attendants get a 15-min paid rest under 820 ILCS 140/3(c).",
+      "primary_source": "820 ILCS 140 + IDOL ODRISA FAQ",
+      "note": "Provisional fact confirmed; added second-meal trigger, day-of-rest framing, and the absence of a general paid rest-break rule to avoid the common California-style misread."
+    },
+    {
+      "field": "wage_payment_collection_act",
+      "prompt_value": "Wage Payment & Collection Act 820 ILCS 115 — semi-monthly pay minimum, written wage statement",
+      "verified_value": "Confirmed: 820 ILCS 115/3 sets semi-monthly minimum for non-exempt (monthly allowed for exempt salary). 820 ILCS 115/4 sets the 13-day pay-deadline after period end. 820 ILCS 115/10 sets the written wage-statement requirement. Penalties: 2% per month interest on underpayment + 5% damages + mandatory attorneys' fees; treble damages possible for wilful violation.",
+      "primary_source": "820 ILCS 115 + IL Admin Code tit. 56, § 300",
+      "note": "Provisional fact confirmed; added the 2%/month + 5% damages + attorneys'-fee penalty stack and the wage-statement rate-and-hours rule."
+    },
+    {
+      "field": "pay_transparency_2025",
+      "prompt_value": "Equal Pay Act 820 ILCS 112 + 2023 pay transparency amendments (eff 1 Jan 2025 — wage range disclosure in job postings)",
+      "verified_value": "Confirmed: 820 ILCS 112 as amended in 2023 (HB 3129) requires employers with 15+ employees to include the wage or salary range and a general description of benefits on every job posting from 1 January 2025. IDOL can fine repeat violators up to $10,000 per posting.",
+      "primary_source": "820 ILCS 112 + Illinois Department of Labor Equal Pay Act FAQ",
+      "note": "Provisional fact confirmed; added 15-employee threshold and the per-posting fine ceiling for context."
+    }
+  ],
+  "factual_uncertainty_flags": [
+    {
+      "field": "chicago_minimum_wage_2026_post_1_july",
+      "level": "medium",
+      "note": "Chicago minimum wage resets each 1 July per CPI or 2.5%, whichever is lower. The $16.60 figure is valid only through 30 June 2026. The 1 July 2026 rate is not yet announced at time of writing — schedule a check in late Q2 2026."
+    },
+    {
+      "field": "federal_exempt_salary_basis_floor",
+      "level": "medium",
+      "note": "$684 weekly federal exempt salary basis floor is the 2019 rule restored after Plano Chamber of Commerce v. DOL (E.D. Tex. November 2024) vacated the 2024 DOL rule that would have lifted to $43,888 / $58,656. Further federal rulemaking on the exempt floor is possible and any change applies to Illinois automatically. Verify against US DOL Wage and Hour Division updates before any client-pricing decision."
+    },
+    {
+      "field": "chicago_tip_credit_phaseout_step",
+      "level": "low",
+      "note": "Chicago tip-credit phase-out under Ord. 2023-0001 is on a multi-year path to zero by 1 July 2028. The $12.54 tipped rate is the figure for the 1 July 2025 to 30 June 2026 window. Re-verify each 1 July as the credit steps down further."
+    },
+    {
+      "field": "il_state_minimum_wage_post_2026",
+      "level": "low",
+      "note": "Illinois state minimum wage holds at $15.00 throughout 2026 under PA 101-0001. No further scheduled increase until new legislation passes. Monitor General Assembly minimum-wage bills quarterly."
+    },
+    {
+      "field": "cook_county_municipalities_opt_out",
+      "level": "low",
+      "note": "Most Cook County municipalities opted out of the Cook County Minimum Wage Ordinance. The $15.40 rate applies only in unincorporated areas. Verify the work-address jurisdiction by city before applying the Cook County rate."
+    }
+  ],
+  "high_concern_flags": [],
+  "scheduled_data_update": [
+    {
+      "date": "2026-07-01",
+      "field": "chicago.minimum_wage_2026_post_1_july",
+      "action": "Re-verify Chicago minimum wage after 1 July 2026 reset (currently $16.60; could rise per CPI ≤ 2.5% rule)."
+    },
+    {
+      "date": "2026-07-01",
+      "field": "chicago.tipped_wage_phaseout",
+      "action": "Verify Chicago tipped minimum step (currently $12.54) under Ord. 2023-0001 phase-out schedule; phasing to zero credit by 1 July 2028."
+    },
+    {
+      "date": "2026-12-01",
+      "field": "federal.exempt_salary_basis_floor",
+      "action": "Re-verify federal exempt salary basis floor against US DOL Wage and Hour Division updates; further rulemaking possible after Plano Chamber of Commerce v. DOL November 2024 vacatur."
+    }
+  ],
+  "compliance_cache_referenced": [
+    "sprint/compliance-cache/illinois.json"
+  ],
+  "v2_applied": true,
+  "editor_rounds": 1,
+  "retrofit_needed": false,
+  "audit_score": 94
+}
