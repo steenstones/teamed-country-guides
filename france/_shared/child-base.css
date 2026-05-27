@@ -212,6 +212,7 @@ h1 em { font-style: italic; font-weight: 700; color: var(--sienna-700); }
   font-weight: 400;
 }
 .capsule .text strong { background: rgba(212, 165, 116, 0.3); padding: 0 4px; }
+.capsule .text + .text { margin-top: 18px; }
 
 /* SECTIONS */
 section.q {
