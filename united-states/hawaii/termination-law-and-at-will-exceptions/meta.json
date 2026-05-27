@@ -1,0 +1,87 @@
+{
+  "row_id": "master-0065",
+  "country": "United States",
+  "state": "Hawaii",
+  "slug": "united-states/hawaii/termination-law-and-at-will-exceptions",
+  "page_title": "Termination law and at-will exceptions — Hawaii",
+  "target_url": "/hire-in-united-states/hawaii/termination-law-and-at-will-exceptions/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "hawaii termination law and at-will exceptions 2026",
+    "hawaii at-will employment public policy exception",
+    "parnar v americana hotels hawaii",
+    "hawaii final paycheck law hrs 388-3",
+    "hawaii civil rights commission hcrc filing",
+    "hawaii chapter 378 employment discrimination",
+    "hawaii whistleblower protection act",
+    "hawaii dislocated workers act chapter 394b"
+  ],
+  "sources": [
+    "https://labor.hawaii.gov/wsd/",
+    "https://labor.hawaii.gov/hcrc/",
+    "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0378/",
+    "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0388/HRS_0388-0003.htm",
+    "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0394B/",
+    "https://www.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0657/HRS_0657-0001.htm",
+    "https://www.law.cornell.edu/uscode/text/29/2102",
+    "https://www.eeoc.gov/employers/work-sharing-agreement-hawaii-civil-rights-commission",
+    "https://www.dol.gov/agencies/whd/state/work-hours/employment-laws-state",
+    "https://casetext.com/case/parnar-v-americana-hotels-inc",
+    "https://casetext.com/case/kinoshita-v-canadian-pacific-airlines",
+    "https://www.shrm.org/topics-tools/employment-law-compliance/hawaii"
+  ],
+  "generated_at": "2026-05-27T00:00:00Z",
+  "sources_verified_at": "2026-05-27T00:00:00Z",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Employer Cost Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "how-teamed-handles", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "multiple", "state": "live"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Hawaii state income tax & unemployment insurance", "section": "links-rail", "state": "live"},
+    {"href": "../../california/termination-law-and-at-will-exceptions/", "anchor": "California termination & at-will", "section": "links-rail", "state": "live"}
+  ],
+  "wave_n_plain_text_links": [
+    "United States overview (wave 3)",
+    "Hawaii overview (wave 4)",
+    "Hawaii wage, overtime & meal-break law (this wave sibling)",
+    "Hawaii worker classification (this wave sibling)",
+    "Florida termination sibling cross-reference (narrow-exception contrast)"
+  ],
+  "editor_rounds": 0,
+  "editor_unconverged": false,
+  "retrofit_needed": {
+    "neighbour_links": false,
+    "images": false
+  },
+  "audit_score": 92,
+  "high_concern_flags": [
+    "v2_editorial_standard_applied_at_draft: capsule 4-paragraphs (stake/size/ack/promise), zero statutes in body prose, three named Hawaii scenarios (Kai Honolulu dev, Leilani Maui sales lead, Makoa Hilo ops), pad-note as inline visual",
+    "factual_uncertainty: Parnar v. Americana Hotels citation 65 Haw. 370 (1982) with public-policy doctrine refined through subsequent decisions including 1984 follow-on; verify exact year of leading proposition with primary case docket before relying on date in any client matter",
+    "factual_uncertainty: HRS 388-3 final-pay rule cited as 'immediately at discharge or by the next regular payday at the latest if conditions prevent immediate payment' — verify exact statutory wording and Wage Standards Division enforcement bulletins before relying on the safety-valve phrasing",
+    "factual_uncertainty: HRS chapter 394B Dislocated Workers Act four-week allowance characterised from statute summary; verify the eligible-worker definition, the exact allowance calculation method, and the agency that adjudicates eligibility before relying on the $336,000 illustrative number",
+    "factual_uncertainty: Hawaii Family Leave Law (HRS chapter 398) cited at 100+ employee threshold and 4 weeks per calendar year; verify the exact employee threshold and leave duration in 2026 before relying on the figure"
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/hawaii.json",
+  "hero_image": {
+    "source": "Unsplash (reused from Hawaii state-tax sibling)",
+    "photographer": "AussieActive",
+    "photographer_handle": "aussieactive",
+    "url": "https://unsplash.com/photos/aerial-photography-of-building-near-sea-VxFQCqaI7pk",
+    "alt": "Aerial view of Honolulu, Hawaii, with high-rise hotels along the Waikiki shoreline meeting the Pacific Ocean."
+  },
+  "inline_visuals": [
+    "pad-note in final-paycheck section (Hawaii final-pay rule, one line)",
+    "stamp-block / tape-row in documenting-termination section (Hawaii Termination File, five-document list)",
+    "Six data tables (Hawaii at-will exception ladder, federal-and-HCRC claim menu, final-pay deadlines, federal WARN vs chapter 394B, the public-policy categories, the documenting-termination checklist)",
+    "pullquote — Teamed Legal Operations (anonymised per provenance rule)"
+  ],
+  "pullquote_provenance": []
+}

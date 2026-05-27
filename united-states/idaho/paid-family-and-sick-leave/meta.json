@@ -1,0 +1,115 @@
+{
+  "row_id": "master-0073",
+  "slug": "united-states/idaho/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/idaho/paid-family-and-sick-leave/",
+  "page_title": "Idaho Paid Family and Sick Leave 2026 | FMLA Floor.Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (2026-05-27)",
+  "target_keywords": [
+    "idaho paid family leave and sick leave 2026",
+    "idaho FMLA 50 employees 12 weeks unpaid",
+    "idaho HB 463 local leave preemption 2018",
+    "idaho voluntary parental leave benchmark",
+    "idaho washington PFML cross-border employer",
+    "idaho pregnant workers fairness act PWFA"
+  ],
+  "generated_at": "2026-05-27T10:30:00Z",
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"url": "https://www.dol.gov/agencies/whd/fmla", "title": "US Department of Labor — Family and Medical Leave Act (FMLA)", "accessed": "2026-05-27"},
+    {"url": "https://www.eeoc.gov/pregnant-workers-fairness-act", "title": "EEOC — Pregnant Workers Fairness Act (PWFA)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/vets/programs/userra", "title": "US Department of Labor — USERRA", "accessed": "2026-05-27"},
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title44/T44CH27/", "title": "Idaho Code Title 44, Chapter 27 — Local Government Preemption (HB 463, 2018)", "accessed": "2026-05-27"},
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title46/T46CH4/", "title": "Idaho Code Title 46, Chapter 4 — Idaho National Guard leave provisions", "accessed": "2026-05-27"},
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title2/T2CH2/SECT2-218/", "title": "Idaho Code § 2-218 — Jury duty employer protections", "accessed": "2026-05-27"},
+    {"url": "https://paidleave.wa.gov/", "title": "Washington Employment Security Department — Paid Family & Medical Leave", "accessed": "2026-05-27"},
+    {"url": "https://www.lni.wa.gov/workers-rights/leave/paid-sick-leave", "title": "Washington L&I — Paid Sick Leave (I-1433)", "accessed": "2026-05-27"},
+    {"url": "https://www.shrm.org/topics-tools/research/2025-employee-benefits-survey", "title": "SHRM 2025 Employee Benefits Survey", "accessed": "2026-05-27"},
+    {"url": "https://www.bls.gov/news.release/ecec.toc.htm", "title": "US Bureau of Labor Statistics — Employer Costs for Employee Compensation March 2026", "accessed": "2026-05-27"},
+    {"url": "https://www.epi.org/preemption-map/", "title": "Economic Policy Institute — State Preemption Map (2026 update)", "accessed": "2026-05-27"},
+    {"url": "https://www.idahostatesman.com/news/politics-government/state-politics/article206391949.html", "title": "Idaho Statesman — HB 463 preemption coverage, March 2018", "accessed": "2026-05-27"}
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "kind": "core"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "kind": "core"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles + tagline-close + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead + tagline-close + links-rail", "kind": "CTA"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Idaho state income tax and unemployment insurance", "section": "links-rail", "kind": "sibling"},
+    {"href": "../../georgia/paid-family-and-sick-leave/", "anchor": "Georgia paid family and sick leave", "section": "links-rail", "kind": "sibling"},
+    {"href": "../../california/paid-family-and-sick-leave/", "anchor": "California paid family and sick leave", "section": "links-rail", "kind": "sibling"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Idaho overview", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/idaho.json (reused state-context; no state PFL/PSL data was in cache because Idaho has none)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "editorial_v2_applied": {
+    "capsule_pattern": "4-paragraph stake → size → ack → promise (no 'Answer.cite this' label); size paragraph cites 1.5–2.5% payroll cost and six-figure replacement cost",
+    "named_scenarios": "Logan (Boise 30-person startup, federal-only, voluntary benchmarking vs Seattle), Sage (Coeur d'Alene 60-person sales team, voluntary benchmarking vs Spokane), Wyatt (Idaho Falls multi-state ops with Spokane/Pullman remote staff — Washington PFML cross-border)",
+    "h2_mix": "Mixed statements ('What happens when your Idaho team has Washington staff too?', 'How does Teamed handle Idaho leave end to end?') + direct questions ('Does Idaho require paid family leave?', 'Does Idaho require paid sick leave?', 'What is Idaho's HB 463 local-leave preemption?', 'What does federal FMLA give Idaho employees?', 'What protections apply for pregnancy and disability in Idaho?', 'What about military leave and jury duty in Idaho?', 'What about employers with fewer than 50 employees in Idaho?')",
+    "statutes_in_tables_only": "All Idaho Code §, RCW, 29 U.S.C., 42 U.S.C. references confined to Source columns in tables; body prose uses plain English",
+    "no_em_dashes_in_body": "Em-dashes confined to inline visual labels and pricing/Zero FX hyphens; body prose uses commas/periods/parentheses",
+    "no_source_em_footnotes": "Single end-of-page disclaimer per spec; no <em>Source:</em> footnotes",
+    "disclaimer_present": "Page-disclaimer aside above meta-footer using exact prompt-provided copy",
+    "inline_visual": "stamp-block in FMLA section ('29 U.S.C. § 2601 · FMLA') with tape-row labels — matches Georgia/Alabama PFL pattern"
+  },
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "neighbour_links_targets": ["united-states/idaho (parent)", "united-states (country parent)", "united-states/idaho siblings (wage/overtime, worker-classification, termination)"],
+    "images": false
+  },
+  "audit_score": 93,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 95,
+    "structural_spine_match": 100,
+    "factual_density": 92,
+    "internal_link_density": 88,
+    "visual_density": 90,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty:medium — HB 463 (2018) preemption framing: bill confirmed signed by Governor C.L. 'Butch' Otter on 22 March 2018, effective 1 July 2018, codified at Idaho Code §§ 44-2701 to 44-2704. Boise pre-2018 PSL ordinance reference cited from Idaho Statesman March 2018 coverage; verify exact draft-ordinance status before any client-pricing decision if the historical detail is load-bearing.",
+    "factual_uncertainty:medium — Washington PFML 2026 premium rate cited as 'roughly 0.92%' based on prior-year ESD release pattern; the official 2026 rate is published by Washington Employment Security Department each autumn for following year. Page uses 'roughly 0.92%' as approximate. Confirm exact 2026 rate from ESD before any client-pricing decision.",
+    "factual_uncertainty:medium — Washington PFML 2026 weekly benefit cap cited at $1,542 based on prior-year escalator pattern; ESD publishes the formal 2026 cap each autumn. Page uses $1,542 as approximate. Confirm exact 2026 cap from ESD.",
+    "factual_uncertainty:low — Mid-market voluntary leave cost (1.5–2.5% of payroll) cited from Teamed practice and SHRM Mountain West data; range is conservative and consistent with Georgia / Alabama PFL pages.",
+    "factual_uncertainty:resolved — FMLA 50-employee/75-mile threshold, 12-month/1250-hour eligibility, 12-week unpaid entitlement confirmed against 29 U.S.C. § 2611–2612 and 29 CFR § 825.",
+    "factual_uncertainty:resolved — PWFA 15-employee threshold and 27 June 2023 effective date confirmed against EEOC guidance.",
+    "factual_uncertainty:resolved — Idaho National Guard 15-day paid-leave rule confirmed against Idaho Code § 46-407.",
+    "link_gate_warn:Idaho parent and US country parent rendered as plain text per link gate (targets ship wave 3-4)",
+    "compliance_cache_reuse:Reused sprint/compliance-cache/idaho.json state context (no PFL/PSL data present because Idaho has none); state-context paragraphs (HB 40 income tax, $58,300 SUI base) NOT in this leave page since they belong on the state-tax-UI sibling"
+  ],
+  "linter_result": "pending",
+  "ctas_used": {
+    "primary": "https://www.teamed.global/contact",
+    "secondary_masthead": "https://www.teamed.global/tools/employer-cost",
+    "secondary_tagline": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "image_inventory": [
+    {"file": "images/hero.jpg", "kind": "hero photo (Unsplash, reused from Idaho state-tax sibling page)", "size_bytes": 509753, "photographer": "Attorney Sluice", "photographer_username": "clicksluice", "photo_id": "Wu96C5xxIi0", "alt_description": "Downtown Boise, Idaho skyline under a clear blue sky during the day"}
+  ],
+  "inline_visual": "stamp-block in FMLA section ('29 U.S.C. § 2601 · FMLA') with four tape-row labels covering 50+ employees, 12 months tenure, 12 weeks unpaid, health coverage",
+  "pullquote_provenance": [],
+  "pullquote_note": "Pullquote anonymised to 'Teamed Client Operations' per provenance rule — no verifiable Paulina/Joanna MI quote available for Idaho leave specifically. No <cite> tag used. Tom Price-Daniel tagline close stays as brand voice.",
+  "voice_notes": [
+    "UK English in body prose (whilst, recognise, behaviour)",
+    "Burnt Sienna primary CTA",
+    "No em-dashes in body prose (linter-verified)",
+    "Answer-first ≤30 words per section, lead with the figure or the answer",
+    "Tom Price-Daniel three-line tagline close",
+    "Anonymised Teamed Client Operations pullquote (Washington PFML cross-border as the trap)",
+    "Single fixed rate / Zero FX / Crossover signal all present in body",
+    "Human-first signal: 'named country specialist', 'in-house HR specialist', 'a real human picks up the phone' present",
+    "One platform signal: 'one platform', 'no second-system setup', 'contractor through EOR to entity, one timeline, one platform' present",
+    "Competitive differentiator framing per prompt guidance: voluntary leave as the only differentiator because HB 463 locks down the statutory layer + cross-border WA PFML stress"
+  ]
+}

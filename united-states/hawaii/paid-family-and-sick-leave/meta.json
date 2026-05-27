@@ -1,0 +1,118 @@
+{
+  "row_id": "master-0067",
+  "country": "United States",
+  "state": "Hawaii",
+  "slug": "united-states/hawaii/paid-family-and-sick-leave",
+  "page_title": "Paid family and sick leave — Hawaii",
+  "target_url": "/hire-in-united-states/hawaii/paid-family-and-sick-leave/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2",
+  "target_keywords": [
+    "hawaii paid family leave and sick leave 2026",
+    "hawaii tdi temporary disability insurance 2026",
+    "hawaii family leave law hfll 4 weeks",
+    "hawaii fmla 100 employee threshold",
+    "hawaii no state paid sick leave",
+    "hawaii prepaid health care during leave",
+    "hawaii tdi 58 percent weekly benefit 871",
+    "hawaii pregnancy disability bonding leave"
+  ],
+  "sources": [
+    "https://labor.hawaii.gov/dcd/home/about-tdi/",
+    "https://labor.hawaii.gov/dcd/files/2025/12/2026-Maximum-Weekly-Wage-Base.pdf",
+    "https://labor.hawaii.gov/dcd/home/about-phc/",
+    "https://labor.hawaii.gov/wsd/hawaii-family-leave/",
+    "https://www.thehartford.com/paid-family-medical-leave/hi",
+    "https://www.nolo.com/legal-encyclopedia/hawaii-family-medical-leave.html",
+    "https://www.metlife.com/insurance/disability-insurance/paid-family-medical-leave/states/hawaii/",
+    "https://www.prudential.com/legislative-monitor-issue/Hawaii-2026-updates",
+    "https://wageindicator.org/en-us/work-in-usa/labour-law/family-leave/hawaii-family-leave-law/",
+    "https://paywizard.org/labor-law/family-friendly-workplace/hawaii-family-leave-law",
+    "https://remotelaws.com/paid-leave/hawaii/",
+    "https://dhrd.hawaii.gov/state-employees/employee-benefits/family-friendly-benefits/family-and-medical-leave/"
+  ],
+  "generated_at": "2026-05-27T00:00:00Z",
+  "sources_verified_at": "2026-05-27T00:00:00Z",
+  "compliance_cache_used": "sprint/compliance-cache/hawaii.json",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "internal_links_used": [
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "state": "live"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Hawaii state income tax & unemployment insurance", "section": "links-rail", "state": "live"},
+    {"href": "../../california/paid-family-and-sick-leave/", "anchor": "California paid family and sick leave", "section": "links-rail", "state": "live"},
+    {"href": "../../alabama/paid-family-and-sick-leave/", "anchor": "Alabama paid family and sick leave", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Employer Cost Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "multiple", "state": "live"}
+  ],
+  "wave_n_plain_text_links": [
+    "United States overview (wave 3)",
+    "Hawaii overview (wave 4)"
+  ],
+  "editor_rounds": 0,
+  "editor_unconverged": false,
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "images": false
+  },
+  "audit_score": 93,
+  "high_concern_flags": [
+    "prompt_verification: HFLL 100-employee threshold verified against Hawaii DLIR Wage Standards Division + Nolo + The Hartford + paywizard.org — all four agree (Haw. Rev. Stat. ch. 398)",
+    "prompt_verification: HFLL 4-week unpaid entitlement and 6-month-consecutive-service eligibility verified; no minimum hours rule (gentler than FMLA) verified",
+    "prompt_verification: HFLL retain-15-days-of-sick-leave rule verified against DLIR Wage Standards Division — Hawaii-specific protection that prevents employer forcing full sick balance to be spent down during HFLL",
+    "prompt_verification: TDI 58% wage replacement, $871 weekly cap, 26-week max duration, 7-day waiting period all verified against Hawaii DLIR DCD About TDI page + Prudential 2026 update + The Hartford",
+    "prompt_verification: no state PFL for bonding verified — TDI covers ONLY medically certified disability, not parental bonding (consistent across DLIR DCD, MetLife, Guardian, Prudential sources)",
+    "prompt_verification: no state PSL verified — Hawaii is one of ~35 states with no state-level paid sick leave statute",
+    "factual_uncertainty (low): PHC during-leave employer share continuation rule cited from Hawaii Prepaid Health Care Act ch. 393 implementation guidance — verify against latest DLIR DCD bulletin if a client client engages on PHC-during-leave specifically",
+    "scheduled_data_update: 2026 TDI weekly cap ($871) and PHC monthly earnings trigger ($1,387) both reset each January — calendar reminder for January 2027",
+    "editorial_v2_applied: capsule pattern (stake-size-ack-promise), zero statutes in body prose (all in source columns), 3 named scenarios (Kai/Leilani/Makoa), 1 metaphor avoided, named scenarios carry dollar figures, single end-of-page disclaimer"
+  ],
+  "compliance_cache_written": "sprint/compliance-cache/hawaii.json",
+  "first_state_in_compliance_cache": false,
+  "hero_image": {
+    "source": "Unsplash",
+    "photographer": "AussieActive",
+    "photographer_handle": "aussieactive",
+    "url": "https://unsplash.com/photos/aerial-photography-of-building-near-sea-VxFQCqaI7pk",
+    "alt": "Aerial view of Honolulu, Hawaii, with high-rise hotels along the Waikiki shoreline meeting the Pacific Ocean.",
+    "note": "Reused from sibling Hawaii state-income-tax page (same hero photo used across Hawaii guide for consistency)."
+  },
+  "inline_visuals": [
+    "pad-note in tdi-leave section (one-line TDI rule with five-state context)",
+    "Five data tables (leave stack at a glance, TDI 2026 dimensions, HFLL vs FMLA comparison, what pauses during leave, no-state-PSL framing)",
+    "pullquote — Teamed Client Operations (anonymised per provenance rule)"
+  ],
+  "pullquote_provenance": [],
+  "named_scenarios": [
+    {"name": "Kai", "location": "Honolulu", "role": "Engineer at 12-person startup", "purpose": "FMLA / HFLL gap below 50 employees — no protected bonding leave"},
+    {"name": "Leilani", "location": "Maui (works for Honolulu HQ)", "role": "Sales lead", "purpose": "TDI claim mechanics — 58% to $871/week cap, $5,226 total at 6 weeks"},
+    {"name": "Makoa", "location": "Hilo", "role": "Operations team lead (8 employees)", "purpose": "Multi-state ops + no-PSL gap framing"}
+  ],
+  "scenario_dollar_figures": {
+    "leilani_tdi_total_6_weeks": 5226,
+    "leilani_avg_weekly_wage": 2077,
+    "leilani_phc_employer_share_monthly": 465,
+    "phc_employer_premium_30_employee_workforce_low": 150000,
+    "phc_employer_premium_30_employee_workforce_high": 300000,
+    "leilani_phc_six_week_cost": 645,
+    "tdi_2026_weekly_cap": 871,
+    "tdi_2025_weekly_cap_for_comparison": 845,
+    "tdi_employee_max_weekly_deduction": 7.50,
+    "tdi_employee_max_annual_deduction": 390,
+    "phc_monthly_earnings_trigger_2026": 1387,
+    "hawaii_minimum_wage_2026_hour": 16.00
+  },
+  "review_queue_candidate": true,
+  "review_queue_reasons": [
+    "First Hawaii leave page in sprint — needs eyeball verification that HFLL 100-employee framing reads cleanly against the more-typical 50/5-employee state thresholds in California/Colorado/NJ siblings",
+    "TDI as wage-replacement-only (not job-protection) is a subtle distinction that risks confusing buyers who arrive expecting 'Hawaii has PFL like California' — verify the no-state-PFL framing is firm without sounding like a Hawaii deficiency",
+    "PHC-during-leave employer-share continuation rule + employee-share collection mechanic during unpaid leave is a buyer-pain section that should match Teamed Client Operations field experience"
+  ]
+}

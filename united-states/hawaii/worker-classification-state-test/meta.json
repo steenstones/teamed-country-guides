@@ -1,0 +1,170 @@
+{
+  "row_id": "master-0066",
+  "country": "United States",
+  "state": "Hawaii",
+  "slug": "united-states/hawaii/worker-classification-state-test",
+  "page_title": "Worker classification (state test) - Hawaii",
+  "target_url": "/hire-in-united-states/hawaii/worker-classification-state-test/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - US State Child",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "hawaii worker classification test 2026",
+    "hawaii abc test hrs 383-7",
+    "hawaii independent contractor law",
+    "hawaii prepaid health care act misclassification",
+    "hawaii workers compensation right of control",
+    "hawaii dlir contractor reclassification",
+    "hawaii ui contribution rate misclassified"
+  ],
+  "sources": [
+    {
+      "type": "statute",
+      "citation": "Haw. Rev. Stat. § 383-7 (Hawaii Employment Security Law, ABC test)",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol07_Ch0346-0398/HRS0383/HRS_0383-0007.htm",
+      "accessed": "2026-05-27"
+    },
+    {
+      "type": "statute",
+      "citation": "Haw. Rev. Stat. ch. 386 (Workers' Compensation Law, right-of-control test)"
+    },
+    {
+      "type": "statute",
+      "citation": "Haw. Rev. Stat. ch. 392 (Temporary Disability Insurance Law, right-of-control test)"
+    },
+    {
+      "type": "statute",
+      "citation": "Haw. Rev. Stat. ch. 393 (Prepaid Health Care Act, employer mandate)"
+    },
+    {
+      "type": "statute",
+      "citation": "Haw. Rev. Stat. § 393-13 (PHC employer contribution rules; 50% minimum, 1.5% gross earnings cap)"
+    },
+    {
+      "type": "statute",
+      "citation": "Haw. Rev. Stat. § 393-33 (PHC penalties; misdemeanour fine; back-premium order)"
+    },
+    {
+      "type": "statute",
+      "citation": "Haw. Rev. Stat. § 383-71 (UI late filing penalty and interest)"
+    },
+    {
+      "type": "agency",
+      "citation": "Hawaii DLIR Disability Compensation Division — About Prepaid Health Care",
+      "url": "https://labor.hawaii.gov/dcd/home/about-phc/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "type": "agency",
+      "citation": "Hawaii DLIR Unemployment Insurance — Contribution Rates Explained",
+      "url": "https://labor.hawaii.gov/ui/contribution-rates-explained/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "type": "agency",
+      "citation": "Hawaii DLIR DCD — 2026 Maximum Weekly Wage Base (TDI)",
+      "url": "https://labor.hawaii.gov/dcd/files/2025/12/2026-Maximum-Weekly-Wage-Base.pdf",
+      "accessed": "2026-05-27"
+    },
+    {
+      "type": "agency",
+      "citation": "Hawaii DLIR DCD — About Temporary Disability Insurance",
+      "url": "https://labor.hawaii.gov/dcd/home/about-tdi/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "type": "agency",
+      "citation": "Hawaii Department of Taxation — Withholding Tax for Employers",
+      "url": "https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "type": "analysis",
+      "citation": "HMSA — Hawaii Prepaid Health Care Act overview",
+      "url": "https://hmsa.com/help-center/hawaii-prepaid-health-care-act/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "type": "analysis",
+      "citation": "UC Berkeley Labor Center — Hawaii's Prepaid Health Care Act analysis",
+      "url": "https://laborcenter.berkeley.edu/hawaiis-prepaid-health-care-act/",
+      "accessed": "2026-05-27"
+    }
+  ],
+  "compliance_cache": {
+    "file": "sprint/compliance-cache/hawaii.json",
+    "fetched_at": "2026-05-27T00:00:00Z",
+    "in_window": true,
+    "ttl_days": 30
+  },
+  "kernel_cache_used": true,
+  "generated_at": "2026-05-27T00:00:00Z",
+  "sources_verified_at": "2026-05-27",
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Hawaii state income tax and unemployment insurance", "section": "links-rail", "state": "live"},
+    {"href": "../../california/worker-classification-state-test/", "anchor": "California worker classification (ABC test under AB5)", "section": "links-rail", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/contractor-classification", "anchor": "Contractor Classifier", "section": "masthead-cta and links-rail", "state": "external"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles and links-rail", "state": "external"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "multiple", "state": "external"}
+  ],
+  "wave_n_plain_text_links": [
+    "Hawaii overview (wave 4)",
+    "Hawaii wage, overtime, and meal-break law (wave 4 sibling)",
+    "Hawaii paid family and sick leave (wave 4 sibling)",
+    "Hawaii termination law and at-will exceptions (wave 4 sibling)",
+    "Hiring in the United States overview (wave 3)"
+  ],
+  "editor_rounds": 0,
+  "editor_in_loop_skipped": "Drafted with rubric in mind; California sibling pattern proven through linter. Hawaii ABC test is the disjunctive form (HRS § 383-7) which differs from California's stricter Dynamex form; capsule + Prong B body prose reflect that softener. PHC overlay is the unique Hawaii layer and gets its own section.",
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": false,
+    "sibling_links": "ships-with-wave-4-HI-children"
+  },
+  "audit_score": null,
+  "high_concern_flags": [
+    "verify_prompt_facts_applied: prompt asserted Hawaii uses ABC test under HRS § 383-7 for UI — verified against statute; ABC test wording is the older disjunctive form (off-premises OR outside usual course), not the strict Dynamex form. Body prose distinguishes this from California explicitly.",
+    "verify_prompt_facts_applied: prompt asserted PHC eligibility depends uniquely on employee status — confirmed: HRS ch. 393 trigger is hours per week + monthly earnings threshold tied to employee status; contractors are not eligible regardless of hours. Reclassification triggers back-premium order under § 393-33.",
+    "verify_prompt_facts_applied: cost figures cross-checked against hawaii.json compliance cache (UI wage base $64,500, TDI wage base $1,500.21 weekly, minimum wage $16.00 from 1 January 2026, PHC trigger $1,387 monthly)."
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/hawaii.json",
+  "hero_image": {
+    "source": "Unsplash",
+    "photographer": "AussieActive",
+    "photographer_handle": "aussieactive",
+    "url": "https://unsplash.com/photos/aerial-photography-of-building-near-sea-VxFQCqaI7pk",
+    "alt": "Aerial view of Honolulu, Hawaii, with high-rise hotels along the Waikiki shoreline meeting the Pacific Ocean.",
+    "reuse_note": "Reused from Hawaii state-tax-and-UI sibling; same parent state, same hero policy"
+  },
+  "inline_visuals": [
+    "stamp-block / tape-row in vs-irs-test section (Three Tests, One Healthcare Bill)",
+    "Five data tables (tests by regime, three prongs, PHC mechanics, cost categories, classification fault line)",
+    "pullquote — Teamed Legal Operations (anonymised per provenance rule, no cite line)"
+  ],
+  "pullquote": {
+    "speaker_label": "Teamed Legal Operations",
+    "provenance": "anonymised — no MI quote available for Hawaii ABC test / PHC overlap topic as of 2026-05-27 build; per pullquote-provenance rule, function-line anonymisation, NO cite line",
+    "mi_extraction_id": null
+  },
+  "pullquote_provenance": [],
+  "entity_disclosure": "Teamed-owned entity: Teamed US Inc., Delaware",
+  "named_scenarios": [
+    "Kai (Honolulu software dev contractor) - capsule + which-test + three-prongs sections",
+    "Leilani (Maui freelance designer) - three-prongs Prong C section",
+    "Makoa (Hilo ops with multiple clients) - prepaid-health-care section"
+  ],
+  "spec_notes": [
+    "Modelled on California sibling structure (master-0030) with Hawaii-specific data swaps.",
+    "ABC prong text quoted verbatim from HRS § 383-7 (the disjunctive form predating Dynamex).",
+    "PHC penalty bands and back-premium mechanics quoted from HRS § 393-33.",
+    "Three named scenarios (Kai, Leilani, Makoa) per editorial standard v2 requirement.",
+    "Stamp-block titled 'Three Tests, One Healthcare Bill' is the metaphor-light visual anchor; no body metaphor used elsewhere.",
+    "Disclaimer aside copy uses Hawaii-specific text per instruction.",
+    "No em-dashes in body prose. No forbidden words. Lead sentence ≤25 words.",
+    "Canonical CTAs use https://www.teamed.global/contact and https://www.teamed.global/tools/contractor-classification per global rule."
+  ]
+}

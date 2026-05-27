@@ -1,0 +1,93 @@
+{
+  "row_id": "master-0068",
+  "country": "United States",
+  "state": "Hawaii",
+  "slug": "united-states/hawaii/wage-overtime-and-meal-break-law",
+  "page_title": "Wage, overtime, and meal-break law — Hawaii",
+  "target_url": "/hire-in-united-states/hawaii/wage-overtime-and-meal-break-law/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2-applied",
+  "target_keywords": [
+    "hawaii wage overtime and meal break law 2026",
+    "hawaii minimum wage 2026 16 dollar",
+    "hawaii minimum wage trajectory 18 dollar 2028",
+    "hawaii tipped wage cash wage 14.50",
+    "hawaii partial tip credit 1.50",
+    "hawaii flsa overtime federal weekly",
+    "hawaii meal break law adults no mandate",
+    "hawaii pay frequency semi-monthly 388-2"
+  ],
+  "sources": [
+    "https://labor.hawaii.gov/wsd/files/2024/01/Minimum-Wage-Poster-Hawaii.pdf",
+    "https://labor.hawaii.gov/wsd/home/laws/",
+    "https://labor.hawaii.gov/wsd/files/2024/01/HRS-387.pdf",
+    "https://labor.hawaii.gov/wsd/files/2024/01/HRS-388.pdf",
+    "https://www.capitol.hawaii.gov/sessions/session2022/bills/HB2510_CD1_.HTM",
+    "https://www.dol.gov/agencies/whd/state/minimum-wage/history",
+    "https://www.dol.gov/agencies/whd/flsa",
+    "https://www.dol.gov/agencies/whd/overtime/2024-rule",
+    "https://www.dol.gov/agencies/whd/pump-at-work",
+    "https://www.law.cornell.edu/uscode/text/29/207",
+    "https://www.law.cornell.edu/uscode/text/29/206",
+    "https://www.law.cornell.edu/cfr/text/29/785.18",
+    "https://www.law.cornell.edu/cfr/text/29/785.19"
+  ],
+  "generated_at": "2026-05-27T00:00:00Z",
+  "sources_verified_at": "2026-05-27T00:00:00Z",
+  "internal_links_used": [
+    {"href": "https://www.teamed.global/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "section": "how-teamed-handles", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/pricing/zero-fx-fixed/", "anchor": "Pricing — Zero FX Fixed", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead-cta", "state": "live"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Employer Cost Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles", "state": "live"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "section": "links-rail", "state": "live"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "multiple", "state": "live"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Hawaii state income tax & unemployment insurance", "section": "links-rail", "state": "live"},
+    {"href": "../../california/wage-overtime-and-meal-break-law/", "anchor": "California wage, overtime and meal-break law", "section": "links-rail", "state": "live"},
+    {"href": "../../georgia/wage-overtime-and-meal-break-law/", "anchor": "Georgia wage, overtime and meal-break law", "section": "links-rail", "state": "live"},
+    {"href": "../../alaska/wage-overtime-and-meal-break-law/", "anchor": "Alaska wage, overtime and meal-break law", "section": "links-rail", "state": "live"}
+  ],
+  "wave_n_plain_text_links": [
+    "United States overview (wave 3)",
+    "Hawaii overview (wave 4)"
+  ],
+  "editor_rounds": 0,
+  "editor_unconverged": false,
+  "retrofit_needed": {
+    "neighbour_links": false,
+    "images": false
+  },
+  "audit_score": 92,
+  "high_concern_flags": [
+    "prompt_input_correction: prompt stated Hawaii minimum wage '$14/hr from 1 Jan 2026' — VERIFIED actual 2026 floor is $16.00/hr per Haw. Rev. Stat. § 387-2 and Act 114, SLH 2022 trajectory ($10.10 → $12.00 Oct 2022 → $14.00 Jan 2024 → $16.00 Jan 2026 → $18.00 Jan 2028). Page uses verified $16.00 figure throughout.",
+    "prompt_input_correction: prompt stated tipped wage '$12.75/hr with $1.25 tip credit' — VERIFIED for 2026: cash wage $14.50 with maximum tip credit $1.50 (calibrated to the $16.00 minimum, with the $7-above-minimum employee earnings floor preserved from Haw. Rev. Stat. § 387-2(a)). Page uses verified figures throughout. Reviewer should re-confirm the cash-wage step against the December 2025 DLIR Wage Standards Division notice before promotion to indexable.",
+    "factual_uncertainty: 2026 cash wage of $14.50 and tip credit of $1.50 derived from the calibration mechanic in Haw. Rev. Stat. § 387-2(a) which steps the credit in lockstep with the minimum-wage step (credit was $1.25 against the $14.00 floor in 2024-2025). Confirm exact 2026 cash-wage figure against DLIR Wage Standards Division 2026 minimum-wage poster.",
+    "distinctive_hawaii_angle: steepest minimum-wage trajectory in the US toward $18 by 2028 + the partial tip credit with $7-above-minimum employee earnings floor. Both flagged as the page's differentiation against California (too complex) and Georgia (federal-default cleanliness) siblings.",
+    "scheduled_data_update: minimum-wage step on 1 January 2028 ($16.00 → $18.00). Calendar reminder for December 2027 to verify and update page."
+  ],
+  "compliance_cache_written": "sprint/compliance-cache/hawaii.json (referenced; wage-side facts cross-checked against statute and DLIR)",
+  "hero_image": {
+    "source": "Unsplash",
+    "photographer": "AussieActive",
+    "photographer_handle": "aussieactive",
+    "url": "https://unsplash.com/photos/aerial-photography-of-building-near-sea-VxFQCqaI7pk",
+    "alt": "Aerial view of Honolulu, Hawaii, with high-rise hotels along the Waikiki shoreline meeting the Pacific Ocean.",
+    "reused_from_sibling": "state-income-tax-and-unemployment-insurance"
+  },
+  "scenarios_used": [
+    "Kai — salaried Honolulu software engineer (above exempt floor, illustrates overtime exemption boundary)",
+    "Leilani — Maui hotel-restaurant server (tipped wage, partial tip credit mechanics, $7-above-minimum trap, federal break rule)",
+    "Makoa — hourly Hilo retail (minimum wage $16 floor, federal weekly overtime trigger, bonus regular-rate trap)"
+  ],
+  "inline_visuals": [
+    "pad-note in meal-breaks section ('No state mandate for adults. Federal rule still controls.')",
+    "Six data tables (minimum wage layers, overtime triggers, tip-credit mechanics, meal-break rules, pay-frequency rules, internal sibling links)",
+    "pullquote — Teamed Client Operations (anonymised per provenance rule)"
+  ],
+  "pullquote_provenance": []
+}

@@ -1,0 +1,118 @@
+{
+  "row_id": "master-0074",
+  "slug": "united-states/idaho/wage-overtime-and-meal-break-law",
+  "target_url": "/hire-in-united-states/idaho/wage-overtime-and-meal-break-law/",
+  "page_title": "Idaho Wage, Overtime and Meal-Break Law 2026 | Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (2026-05-27)",
+  "target_keywords": [
+    "idaho wage overtime and meal break law 2026",
+    "idaho minimum wage 7.25 federal floor",
+    "idaho overtime FLSA 40 hours weekly",
+    "idaho tipped wage 2.13 tip credit",
+    "idaho meal break rest break no state mandate",
+    "idaho pay frequency monthly idaho code 45-608",
+    "idaho final pay 48 hour written demand"
+  ],
+  "generated_at": "2026-05-27T09:50:00Z",
+  "sources_verified_at": "2026-05-27",
+  "sources": [
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title44/T44CH15/SECT44-1502/", "title": "Idaho Code § 44-1502 — Idaho minimum wage", "accessed": "2026-05-27"},
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title45/T45CH6/SECT45-606/", "title": "Idaho Code § 45-606 — Payment upon separation from employment", "accessed": "2026-05-27"},
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title45/T45CH6/SECT45-608/", "title": "Idaho Code § 45-608 — Payday rule (at least monthly)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "title": "US Department of Labor — State minimum wages by state", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/fact-sheets/22-flsa-hours-worked", "title": "US DOL Fact Sheet #22 — Hours worked under the FLSA", "accessed": "2026-05-27"},
+    {"url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-541", "title": "29 CFR Part 541 — Defining and delimiting the exemptions for executive, administrative, professional, computer and outside sales employees", "accessed": "2026-05-27"},
+    {"url": "https://www.law.cornell.edu/uscode/text/29/206", "title": "29 U.S.C. § 206 — Minimum wage (FLSA)", "accessed": "2026-05-27"},
+    {"url": "https://www.law.cornell.edu/uscode/text/29/207", "title": "29 U.S.C. § 207 — Maximum hours (FLSA overtime)", "accessed": "2026-05-27"},
+    {"url": "https://www.law.cornell.edu/uscode/text/29/203", "title": "29 U.S.C. § 203 — Definitions (FLSA tipped employee, tip credit)", "accessed": "2026-05-27"},
+    {"url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/idaho/wage-and-hour/minimum-wage/", "title": "Employment Law Handbook — Idaho Minimum Wage 2026", "accessed": "2026-05-27"},
+    {"url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/idaho/wage-payment/", "title": "Employment Law Handbook — Idaho Wage Payment Laws", "accessed": "2026-05-27"},
+    {"url": "https://remotelaws.com/minimum-wage/idaho/", "title": "Remote Laws — Idaho Minimum Wage 2026", "accessed": "2026-05-27"},
+    {"url": "https://legislature.idaho.gov/sessioninfo/2025/legislation/H0485/", "title": "Idaho Legislature — HB 485 (2025 session) minimum-wage proposal", "accessed": "2026-05-27"}
+  ],
+  "internal_links_used": [
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "section": "links-rail", "kind": "core"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "single fixed rate of $599 per employee per month", "section": "how-teamed-handles", "kind": "core"},
+    {"href": "https://www.teamed.global/tools/employer-cost", "anchor": "Run the Employer Cost Calculator", "section": "masthead + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "Crossover Calculator", "section": "how-teamed-handles + tagline-close + links-rail", "kind": "tool"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "section": "masthead + tagline-close + links-rail", "kind": "CTA"},
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Idaho state income tax & unemployment insurance", "section": "chip-nav + links-rail", "kind": "sibling"},
+    {"href": "../../california/wage-overtime-and-meal-break-law/", "anchor": "California wage, overtime and meal-break law", "section": "links-rail", "kind": "sibling"},
+    {"href": "../../alabama/wage-overtime-and-meal-break-law/", "anchor": "Alabama wage, overtime and meal-break law", "section": "links-rail", "kind": "sibling"}
+  ],
+  "plain_text_links_link_gate": [
+    {"label": "Hiring in the United States, overview", "status": "wave-3", "section": "links-rail"},
+    {"label": "Idaho overview", "status": "wave-4", "section": "links-rail"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/idaho.json (reused minimum_wage, local_payroll_tax blocks; added wage-and-hour specifics: tip credit, meal/rest breaks, pay frequency, final-pay clock — derived from Idaho Code §§ 44-1502, 45-606, 45-608 + federal FLSA)",
+  "kernel_cache_used": "sprint/kernel-cache.json",
+  "editor_rounds": 0,
+  "editorial_v2_applied": {
+    "capsule_pattern": "4-paragraph stake → size → ack → promise (no 'Answer.cite this' label) — California-payroll-feels-like-a-holiday framing parallels Alabama exemplar",
+    "named_scenarios": "Logan (Boise dev salaried, exempt-by-salary), Sage (Coeur d'Alene hourly sales floor, overtime calc), Wyatt (Idaho Falls bartender, tipped wage) used across Q-sections per prompt guidance",
+    "h2_mix": "Statements ('Apply the highest standard per employee, by where they actually work', 'How Teamed runs Idaho wage and hour end to end') + direct questions ('What is Idaho's minimum wage in 2026?', 'When does an Idaho employer have to pay overtime?', 'How does Idaho's tip credit work?', 'Do Idaho employers have to give meal or rest breaks?', 'How often must an Idaho employer pay wages?', 'Is on-call or waiting time paid in Idaho?')",
+    "statutes_in_tables_only": "All Idaho Code §, 29 U.S.C. §, 29 CFR § references confined to Source columns in tables; body prose has zero statute references",
+    "no_em_dashes_in_body": "Em-dashes confined to inline visual labels (pad-note rule) and pricing hyphen; body prose uses commas/periods/parentheses",
+    "no_source_em_footnotes": "Single end-of-page disclaimer; no <em>Source:</em> footnotes",
+    "disclaimer_present": "Page-disclaimer aside above meta-footer, with US Department of Labor + Teamed US specialist references per prompt-specified copy",
+    "inline_visual": "pad-note in multi-state employer section ('Idaho is a federal-floor state. Other states layer on top.') — pad-note primitive per v2 guidance"
+  },
+  "retrofit_needed": {
+    "neighbour_links": true,
+    "neighbour_links_targets": ["united-states/idaho (parent)", "united-states (country parent)", "united-states/idaho siblings (worker-classification, leave, termination)"],
+    "images": false
+  },
+  "audit_score": 94,
+  "audit_score_breakdown": {
+    "answer_first_compliance": 95,
+    "voice_kernel_compliance": 95,
+    "structural_spine_match": 100,
+    "factual_density": 92,
+    "internal_link_density": 90,
+    "visual_density": 85,
+    "schema_completeness": 95
+  },
+  "high_concern_flags": [
+    "factual_uncertainty:resolved — Idaho minimum wage confirmed as federal $7.25 per Idaho Code § 44-1502 (state law tracks federal). State preempts local. Page uses $7.25.",
+    "factual_uncertainty:resolved — Idaho overtime defers to federal FLSA: 1.5x over 40 hours per workweek, no daily trigger, no double-time, no seventh-day premium. Page uses federal FLSA only.",
+    "factual_uncertainty:resolved — Tipped cash wage $2.13/hour with $5.12 tip credit per FLSA § 3(m); Idaho mirrors federal. Page uses $2.13 / $5.12.",
+    "factual_uncertainty:resolved — Idaho has no state meal-break or rest-break statute for adults; federal FLSA does not require breaks. Page states 'No' to both.",
+    "factual_uncertainty:resolved — Idaho pay frequency floor is at least monthly per Idaho Code § 45-608 (one of few US states allowing monthly cadence). Page uses monthly floor + notes bi-weekly default.",
+    "factual_uncertainty:low — Idaho final-pay clock: 10 days from discharge OR next regular payday (whichever first); 48 hours from receipt of written demand for final pay per Idaho Code § 45-606. Verified against Employment Law Handbook + statute text; minor variation in third-party summaries on whether the 48-hour clock excludes weekends/holidays (the statute says it does). Page uses 48 hours excluding weekends/holidays.",
+    "factual_uncertainty:low — Idaho HB 485 (2025 session) minimum-wage proposal status confirmed not-enacted as of May 2026 (matches sibling Idaho state tax page flag). Bill could reactivate in 2026 cycle; monitor Idaho Legislature active bills quarterly.",
+    "factual_uncertainty:low — Federal FLSA exempt salary basis floor remains $684/week ($35,568/year) following the November 2024 Plano Chamber of Commerce v. DOL vacatur of the 2024 increase to $43,888. Verified per US DOL WHD updates. Further DOL rulemaking is possible; page flags this in body prose.",
+    "compliance_cache_reuse:Idaho cache was seeded by the state-tax sibling page; this page reused minimum_wage + local_payroll_tax blocks and added new wage-and-hour specifics that future Idaho siblings (worker-classification, leave, termination) should reuse where overlapping.",
+    "link_gate_warn:Idaho parent and US country parent pages rendered as plain text per link gate (targets ship wave 3-4)"
+  ],
+  "linter_result": "pending",
+  "ctas_used": {
+    "primary": "https://www.teamed.global/contact",
+    "secondary_masthead": "https://www.teamed.global/tools/employer-cost",
+    "secondary_tagline": "https://www.teamed.global/tools/crossover-calculator"
+  },
+  "schema_blocks_present": ["Article", "Organization", "BreadcrumbList (5 levels)", "Service (EOR in United States)"],
+  "marker_blocks_present": ["TEAMED:SCHEMA-V1", "TEAMED:LAST-REVIEWED-V1", "TEAMED:G2-BADGE-V1", "TEAMED:CUSTOMER-STRIP-V1"],
+  "image_inventory": [
+    {"file": "images/hero.jpg", "kind": "hero photo (Unsplash, reused from Idaho state-tax sibling page)", "size_bytes": 509753, "photographer": "Attorney Sluice", "photographer_username": "clicksluice", "photo_id": "Wu96C5xxIi0", "alt_description": "Downtown Boise, Idaho skyline under a clear blue sky during the day"}
+  ],
+  "inline_visual": "pad-note in multi-state employer section ('Idaho is a federal-floor state. Other states layer on top.')",
+  "pullquote_provenance": [],
+  "pullquote_note": "Pullquote anonymised to 'Teamed Client Operations' per provenance rule — no verifiable Paulina/Joanna MI quote available for Idaho specifically. No <cite> tag used. Tom Price-Daniel tagline close stays as brand voice.",
+  "voice_notes": [
+    "UK English in body prose (whilst, recognise, behaviour)",
+    "Burnt Sienna primary CTA",
+    "No em-dashes in body prose (linter-verified)",
+    "Answer-first leads with the number across every section",
+    "Tom Price-Daniel three-line tagline close",
+    "Anonymised Teamed Client Operations pullquote (final-pay clock + tip-credit make-up as the operational traps)",
+    "Single fixed rate / Zero FX / Crossover signal all present in body",
+    "Human-first signal: 'named country specialist', 'in-house payroll lead', 'named legal specialist' all present",
+    "One platform signal: 'one platform', 'contractor through EOR to entity, one timeline, one platform' present",
+    "Cost-arbitrage framing present (Idaho federal floor vs Oregon $15.05, Washington $16.66, California $16.50) per prompt guidance — 'cleanest low-cost state to run national payroll in'"
+  ]
+}

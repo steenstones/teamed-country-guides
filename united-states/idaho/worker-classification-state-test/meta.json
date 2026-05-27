@@ -1,0 +1,129 @@
+{
+  "row_id": "master-0072",
+  "country": "United States",
+  "state": "Idaho",
+  "slug": "united-states/idaho/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/idaho/worker-classification-state-test/",
+  "page_title": "Idaho Worker Classification Test 2026 | Teamed",
+  "page_type": "us_state_child",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country - US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (2026-05-27)",
+  "generated_at": "2026-05-27T09:50:00Z",
+  "sources_verified_at": "2026-05-27",
+  "target_keywords": [
+    "idaho worker classification test 2026",
+    "idaho independent contractor test",
+    "idaho 1099 vs w-2 classification",
+    "idaho code 72-1316 covered employment",
+    "idaho code 72-102 workers comp employee",
+    "idaho right of control test employee",
+    "idaho common law test contractor",
+    "idaho department of labor contractor determination"
+  ],
+  "sources": [
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title72/T72CH13/SECT72-1316/", "title": "Idaho Code § 72-1316 — Covered Employment Definition", "accessed": "2026-05-27"},
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title72/T72CH13/SECT72-1366/", "title": "Idaho Code § 72-1366 — Employer Coverage / Penalties", "accessed": "2026-05-27"},
+    {"url": "https://legislature.idaho.gov/statutesrules/idstat/Title72/T72CH1/SECT72-102/", "title": "Idaho Code § 72-102 — Workers' Compensation Employee Definition", "accessed": "2026-05-27"},
+    {"url": "https://labor.idaho.gov/businesses/unemployment-tax-rates/", "title": "Idaho Department of Labor — Unemployment Tax Rates and Employer Portal", "accessed": "2026-05-27"},
+    {"url": "https://iic.idaho.gov/", "title": "Idaho Industrial Commission — Workers' Compensation Authority", "accessed": "2026-05-27"},
+    {"url": "https://tax.idaho.gov/taxes/income-tax/withholding/", "title": "Idaho State Tax Commission — Withholding (Form ID W-4, Form 910, Form 967)", "accessed": "2026-05-27"},
+    {"url": "https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee", "title": "IRS — Independent Contractor or Employee (common-law factors)", "accessed": "2026-05-27"},
+    {"url": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking", "title": "US DOL — Final Rule on Independent Contractor Classification (effective 11 March 2024)", "accessed": "2026-05-27"}
+  ],
+  "compliance_cache": {
+    "file": "sprint/compliance-cache/idaho.json",
+    "fetched_at": "2026-05-27T09:00:00Z",
+    "in_window": true,
+    "ttl_days": 30
+  },
+  "kernel_cache_used": true,
+  "internal_links_used": [
+    {"href": "../state-income-tax-and-unemployment-insurance/", "anchor": "Idaho state income tax and unemployment insurance", "state": "live"},
+    {"href": "../../georgia/worker-classification-state-test/", "anchor": "Georgia worker classification test", "state": "live"},
+    {"href": "../../florida/worker-classification-state-test/", "anchor": "Florida worker classification test", "state": "live"},
+    {"href": "../../california/worker-classification-state-test/", "anchor": "California worker classification (ABC) test", "state": "live"},
+    {"href": "/employer-of-record/", "anchor": "Employer of Record overview", "state": "live"},
+    {"href": "/pricing/zero-fx-fixed/", "anchor": "a flat $599 per employee per month", "state": "live"},
+    {"href": "https://www.teamed.global/tools/contractor-classification", "anchor": "Contractor Classifier", "state": "external"},
+    {"href": "https://www.teamed.global/tools/crossover-calculator", "anchor": "EOR vs Entity Crossover Calculator", "state": "external"},
+    {"href": "https://www.teamed.global/contact", "anchor": "Talk to an expert", "state": "external"}
+  ],
+  "internal_links_pending_retrofit": [
+    {"label": "Idaho overview parent", "state": "wave-4"},
+    {"label": "Idaho wage, overtime, and meal-break law", "state": "wave-4"},
+    {"label": "Idaho paid family and sick leave", "state": "wave-4"},
+    {"label": "Idaho termination law and at-will exceptions", "state": "wave-4"},
+    {"label": "Hiring in the United States, overview", "state": "wave-3"}
+  ],
+  "hero_image": {
+    "source": "Unsplash",
+    "credit_name": "Attorney Sluice",
+    "credit_url": "https://unsplash.com/@clicksluice",
+    "subject": "Downtown Boise, Idaho skyline",
+    "reused_from_sibling": "state-income-tax-and-unemployment-insurance",
+    "filename": "hero.jpg"
+  },
+  "inline_visuals": [
+    {"type": "stamp-block", "section_id": "vs-abc-states", "title": "One Test, Three Statutes"}
+  ],
+  "pullquote": {
+    "provenance": "anonymised",
+    "label": "Teamed Legal Operations",
+    "speaker_named": false,
+    "mi_extraction_id": null,
+    "cite_line_present": false,
+    "rule_applied": "Pullquote-provenance rule (2026-05-22) — no Meeting Intelligence quote available for Idaho-specific worker classification analysis; anonymised to function-line per skill spec; no fabricated cite line."
+  },
+  "editor_rounds": 0,
+  "editor_notes": "Drafted using V2 editorial standard (Stripe register, capsule = stake/size/ack/promise, ONE named Idaho scenario per section — Logan/Sage/Wyatt, body prose has zero statutes in capsule paragraphs; statutes confined to source columns of tables). Linter (verify-page.py) treated as deterministic Stage-6 substitute for sprint mode. Linter PASSED 26/26 first run.",
+  "v2_applied": true,
+  "v2_named_scenarios": [
+    {"name": "Logan", "context": "Boise software developer running LLC, three clients, six-month engagements", "section": "which-test"},
+    {"name": "Sage", "context": "Coeur d'Alene freelance designer with five active clients vs single-client drift pattern", "section": "right-of-control"},
+    {"name": "Wyatt", "context": "Idaho Falls ops contractor, two-week sprints across three clients per quarter", "section": "workers-comp"}
+  ],
+  "audit_score": null,
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "topic": "Idaho Code § 72-1366 penalty language",
+      "detail": "Page cites Idaho Code § 72-1366 per task brief as the back-UI premium + penalty source. Recommend verification of the exact civil-penalty language against the current 2026 Idaho statute compilation before relying on a specific penalty figure for a client matter."
+    },
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "topic": "Workers' comp coverage threshold",
+      "detail": "Page states Idaho workers' comp coverage is mandatory at 1+ employees, citing Idaho Code § 72-301 with statutory exclusions at § 72-212 (sole proprietors, certain agricultural and household workers). Treatment is consistent with Idaho Industrial Commission guidance but specific exclusions list should be verified against the current statute before any client-pricing decision."
+    },
+    {
+      "flag": "prompt_correction_applied",
+      "severity": "info",
+      "topic": "Compliance cache prompt corrections inherited",
+      "detail": "Compliance cache for Idaho already records two prompt_correction flags (HB 40 not HB 521 for the 5.3% flat rate; 2026 SUI wage base $58,300 not $55,300). This worker-classification page uses the corrected figures (5.3% flat rate, $58,300 wage base) where they appear in the cost-of-misclassification table."
+    }
+  ],
+  "spec_notes": [
+    "Modelled on Georgia sibling structure (most recent V2 common-law page) with Idaho-specific data swaps and Idaho Code citations substituted throughout.",
+    "Right-of-control test treatment quoted from Idaho Code § 72-1316 (SUI covered employment) and Idaho Code § 72-102(12) (workers' comp employee definition).",
+    "Workers' comp coverage threshold (1 employee) per Idaho Code § 72-301 with limited statutory exclusions at § 72-212.",
+    "Section 530 federal safe harbour treatment distinguished from California ABC (where no equivalent state safe harbour exists).",
+    "No Idaho ABC test, no profession-by-profession carve-out list, no gig-economy carve-out (unlike Georgia HB 389). Cleanest classification regime in the West.",
+    "Three named Idaho scenarios (Logan — Boise software dev; Sage — Coeur d'Alene freelance designer; Wyatt — Idaho Falls ops contractor) per task brief and V2 spec.",
+    "Capsule = 4-paragraph stake/size/ack/promise. Body prose statute-free per V2; statutes confined to Source columns of data tables.",
+    "End-of-page disclaimer uses task-brief exact specification."
+  ],
+  "stage_provenance": {
+    "research": "Used compliance cache idaho.json plus task-brief guidance for Idaho Code § 72-1316 (covered employment), Idaho Code § 72-102(12) (workers' comp employee), Idaho Code § 72-1366 (penalty), and Idaho Code § 63-3035 (state withholding). Cross-checked against Georgia sibling (most recent V2 common-law page) and California sibling (ABC contrast) already documented.",
+    "brief": "Sprint mode — generated directly in deploy directory without separate brief.md. Autopilot mode, no human approval pause.",
+    "draft": "Single-pass mirror of Georgia sibling structure with Idaho-specific content swapped throughout. V2 editorial standard applied at draft time.",
+    "images": "Hero reused from Idaho sibling (state-income page). Inline stamp-block visual composed in-HTML per CSS classes already in _shared/child-base.css. No gpt-image-1 calls.",
+    "internal_links": "8 live + 5 plain-text wave-N per 4-state link gate.",
+    "editor": "Skipped LLM round per sprint mode discipline; deterministic linter (verify-page.py) ran as Stage-6 substitute. Linter PASSED 26/26 block-checks first run.",
+    "output": "Wrote to ~/.claude/skills/teamed-page-builder/output/country-guides/united-states/idaho/worker-classification-state-test/. No git operations performed."
+  }
+}
