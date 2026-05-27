@@ -9,9 +9,42 @@
   <!-- United Kingdom — live -->
   <url>
     <loc>https://teamed-country-guides.vercel.app/united-kingdom/</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-  <!-- Future countries added here as they ship (Wave 3, Jun–Jul 2026) -->
+  <url>
+    <loc>https://teamed-country-guides.vercel.app/united-kingdom/cost-breakdown/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Germany — live -->
+  <url>
+    <loc>https://teamed-country-guides.vercel.app/germany/tax-and-payroll/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- United States — live (sample set; full 53-page US cluster parked while we manage Vercel bandwidth) -->
+  <url>
+    <loc>https://teamed-country-guides.vercel.app/united-states/california/wage-overtime-and-meal-break-law/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://teamed-country-guides.vercel.app/united-states/california/state-income-tax-and-unemployment-insurance/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Contractors — live -->
+  <url>
+    <loc>https://teamed-country-guides.vercel.app/hire-contractors/united-states/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- The full 62-page bundle exists in the git repo (output/country-guides/) for Brett's Webflow handoff and future Next.js migration. -->
 </urlset>
