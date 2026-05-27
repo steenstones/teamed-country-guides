@@ -178,7 +178,7 @@
     </div>
     <span class="partner-badge">Served by Teamed-owned entity: Teamed US Inc., Delaware</span>
     <h1>How does <em>Delaware state income tax and unemployment insurance</em> work in 2026?</h1>
-    <p class="subhead">Delaware runs a seven-bracket progressive income tax topping out at 6.6 percent above $60,000 of taxable income, pairs it with one of the lowest new-employer UI rates in the United States at 1.0 percent on a phased-in $14,500 wage base, and uses a state-specific DE-W4 form because Delaware kept the allowance-count withholding model after the federal redesign removed it.</p>
+    <p class="subhead">A seven-bracket income tax topping out at 6.6 percent above $60,000. A 1.0 percent new-employer UI rate on a $14,500 wage base. And the trap most multi-state founders walk into &mdash; incorporation in Delaware is not the same as payroll in Delaware.</p>
     <!-- TEAMED:LAST-REVIEWED-V1 BEGIN -->
 <p class="last-reviewed">
   <time datetime="2026-05-26">Last reviewed 26 May 2026</time> &middot; Delaware, United States guide
@@ -214,15 +214,24 @@
     <a href="../termination-law-and-at-will-exceptions/">At-will termination</a>
   </nav>
 
-  <div class="capsule film-grain">
-    <div class="label">Answer.cite this</div>
-    <p class="text">Delaware payroll in 2026: state income tax runs a seven-band statutory ladder from <strong>0 percent to 6.6 percent</strong> under Del. Code Title 30 &sect; 1102, with the top rate triggering at just <span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="60000"><meta itemprop="unitCode" content="USD"><meta itemprop="unitText" content="USD top-bracket threshold">$60,000</span> of taxable income (same threshold for every filing status). Unemployment Insurance costs <strong>1.0 percent on the first $14,500 of wages</strong> for new employers under Schedule B in 2026, with an experience-rated band of <strong>0.3 percent to 5.4 percent</strong> and a separate <strong>0.2 percent Operations and Technology Assessment</strong> billed quarterly. Every new hire completes <strong>Form DE-W4</strong>, distinct from the federal W-4 because Delaware kept the allowance-count model. Withholding deposits scale on a lookback period: <strong>Form W-1Q quarterly</strong> if annual withholding stayed at or below $6,020, <strong>Form W-1 monthly</strong> through $33,460, and <strong>Form W-1A eighth-monthly</strong> above that. The critical buyer trap: incorporating in Delaware (Title 8) creates <strong>no Delaware payroll obligation by itself</strong>; the trigger is paying a Delaware-resident employee or a non-resident performing personal services inside Delaware.</p>
+  <div class="capsule">
+    <p class="text">If you run a Delaware C-Corp and assume that means you owe Delaware payroll tax on every employee, you will spend the next twelve months filing returns you don&rsquo;t owe and missing the ones you do.</p>
+    <p class="text">A Delaware-resident employee on $100,000 costs you roughly <strong><span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="5150"><meta itemprop="unitCode" content="USD"><meta itemprop="unitText" content="USD per employee per year">$5,150 a year</span></strong> in state withholding plus another $145 in unemployment insurance. A New York-based VP at the same Delaware-incorporated startup costs you zero in Delaware payroll tax. Different employee, different state, same parent.</p>
+    <p class="text">Most US founders know Delaware is the corporate-incorporation capital. Fewer realise the franchise tax and the payroll tax are completely independent statutes.</p>
+    <p class="text">This page covers the seven-bracket income tax, the 1.0 percent UI rate on a $14,500 wage base from 1 January 2026, Form DE-W4, the lookback-period deposit cadence, and the rule that decides whether any of it applies to your specific hire.</p>
   </div>
 
   <section class="q" id="incorporation-vs-employment">
-    <h2>Does incorporating in Delaware create a Delaware payroll obligation?</h2>
-    <p class="answer-first">No. Incorporating in Delaware under <strong>Title 8 of the Delaware Code</strong> creates a Delaware franchise-tax liability (an annual fee on the entity) and potentially a corporate income tax filing at <strong>8.7 percent</strong> on apportioned federal taxable income, but it creates <strong>zero Delaware withholding obligation</strong> by itself. Delaware payroll is triggered by <strong>Title 30 Chapter 11</strong>, which kicks in only when you pay a Delaware-resident employee or a non-resident performing personal services within Delaware. The two statutes are independent.</p>
-    <div class="body"><p>This is the single most common point of confusion for multi-state founders. Roughly two-thirds of Fortune 500 companies are incorporated in Delaware. Almost none of them run payroll there. Their employees sit in California, New York, Texas, Washington, and a hundred other states, and payroll obligations follow the employee's residency and place of personal-services performance, not the parent's state of incorporation.</p>
+    <h2>Incorporating in Delaware does not create a Delaware payroll obligation.</h2>
+    <p class="answer-first">Two completely separate statutes. Two completely separate triggers.</p>
+    <p class="answer-first">Incorporating in Delaware makes you a Delaware corporation. That bills you an annual franchise tax and, if you have apportioned activity in the state, a corporate income tax. It does not put a single dollar of payroll tax on your books.</p>
+    <p class="answer-first">Delaware payroll only kicks in when you pay a Delaware-resident employee, or a non-resident performing personal services inside Delaware. The trigger is the employee, not the parent.</p>
+    <div class="body">
+      <p>Reese is the New York-based VP of Sales at a 30-person Delaware-incorporated startup. She lives in Brooklyn, works from a Manhattan office, and has never set foot in Wilmington. Her paycheque carries New York state withholding, New York SUI, and the New York City local tax. Delaware withholding on Reese: zero. Delaware UI on Reese: zero. The Delaware Division of Revenue will never see a return from this employer that mentions Reese&rsquo;s wages.</p>
+
+      <p>Jordan is a back-end developer at the same company, working from Wilmington. The company has to register with the Delaware Division of Revenue and the Department of Labor on Jordan&rsquo;s first paycheque. Jordan&rsquo;s wages drive Delaware withholding, Delaware UI, and (because Wilmington adds a 1.25 percent earned-income tax on wages earned inside city limits) a third local layer.</p>
+
+      <p>Same parent. Same payroll system. Two completely different sets of state filings.</p>
 
       <table class="data">
         <thead>
@@ -233,53 +242,59 @@
           <tr><td>Delaware corporate income tax (8.7%)</td><td>Apportioned share of federal taxable income from Delaware activity (single sales factor since 2020)</td><td>Del. Code Title 30 &sect; 1903</td><td>Division of Revenue</td></tr>
           <tr><td>Delaware withholding</td><td>Paying a Delaware-resident employee OR a non-resident performing personal services in Delaware</td><td>Del. Code Title 30 &sect; 1151 (Chapter 11)</td><td>Division of Revenue</td></tr>
           <tr><td>Delaware unemployment insurance</td><td>Same trigger as withholding once first wage paid to a covered worker</td><td>Del. Code Title 19 Chapter 33</td><td>Department of Labor</td></tr>
+          <tr><td>City of Wilmington Earned Income Tax</td><td>Wages earned inside Wilmington city limits, regardless of employee residency</td><td>Wilmington City Code Ch. 38</td><td>City of Wilmington Department of Finance</td></tr>
         </tbody>
       </table>
 
-      <h3>The two common buyer scenarios</h3>
-      <p><strong>Scenario A: Delaware C-Corp, all employees in California.</strong> The company files Delaware franchise tax annually and a Delaware corporate income tax return reporting apportioned activity. It pays California state withholding, California UI, California SDI, California ETT on every paycheque. Delaware withholding obligation: zero. Delaware UI obligation: zero. The Delaware Division of Revenue never sees a W-1Q from this employer.</p>
-
-      <p><strong>Scenario B: California LLC, one remote employee living in Wilmington, Delaware.</strong> The company registers with the Delaware Division of Revenue under Title 30 &sect; 1151 and with the Delaware Department of Labor under Title 19 Chapter 33. It files Form W-1Q or W-1 depending on the lookback period and Form UC-8 plus UC-8A quarterly. No Delaware franchise tax (no Delaware incorporation), no Delaware corporate income tax (no Delaware corporate activity), but full Delaware payroll obligations from day one.</p>
-
-      <h3>The Wilmington wage tax layer</h3>
-      <p>If the Delaware-resident employee in Scenario B happens to work inside Wilmington city limits, a third layer attaches: a <strong>1.25 percent City of Wilmington Earned Income Tax</strong> on every wage dollar earned within city limits, regardless of the employee's residency. Wilmington is the only Delaware municipality with a payroll-level wage tax. Employer registers separately with the City of Wilmington Department of Finance. <em>Source: Wilmington City Code Chapter 38, accessed 26 May 2026.</em></p></div>
+      <h3>The two scenarios in dollars</h3>
+      <p>Take the same company &mdash; a Delaware C-Corp with $5 million in revenue and 30 employees.</p>
+      <p>Scenario one: every employee lives in California. Delaware franchise tax: a few thousand dollars a year, depending on the calculation method. Delaware payroll filings: none. California payroll filings: every paycheque, every employee.</p>
+      <p>Scenario two: same company, one employee (Jordan) in Wilmington, 29 in California. Delaware franchise tax unchanged. Delaware payroll filings now active &mdash; one quarterly W-1Q (or monthly W-1, depending on cadence), one UC-8 and UC-8A for Jordan, plus the Wilmington earned-income tax registration. California payroll filings unchanged for the other 29.</p>
+      <p>The cleanest mental model: franchise tax follows the entity, payroll tax follows the employee.</p>
+    </div>
   </section>
 
   <section class="q" id="state-income-tax">
     <h2>What is the Delaware state income tax rate in 2026?</h2>
-    <p class="answer-first">Delaware charges a <strong>seven-bracket progressive income tax</strong> running from 0 percent on the first $2,000 of taxable income up to a <strong>top rate of 6.6 percent</strong> on income above $60,000. The full ladder is 0, 2.2, 3.9, 4.8, 5.2, 5.55, and 6.6 percent. Same brackets apply to every filing status, set by Del. Code Title 30 &sect; 1102. The rate ladder has been unchanged since 2014 and the thresholds are <strong>not inflation-indexed</strong>.</p>
-    <div class="body"><table class="data">
+    <p class="answer-first">Delaware runs a <strong>seven-bracket progressive income tax</strong> from 0 percent on the first $2,000 of taxable income to a <strong>top rate of 6.6 percent</strong> above $60,000.</p>
+    <p class="answer-first">Same ladder for every filing status. The top bracket kicks in earlier than almost any other progressive-rate state, and the thresholds are <strong>not inflation-indexed</strong>.</p>
+    <p class="answer-first">Married-filing-jointly does not double the brackets. A Delaware household on $120,000 hits the top rate the same way a single filer on $120,000 does.</p>
+    <div class="body">
+      <table class="data">
         <thead>
-          <tr><th>Bracket</th><th>Taxable income (all filing statuses)</th><th>Rate</th><th>Base tax at floor</th></tr>
+          <tr><th>Bracket</th><th>Taxable income (all filing statuses)</th><th>Rate</th><th>Base tax at floor</th><th>Source</th></tr>
         </thead>
         <tbody>
-          <tr><td>1</td><td>$0 to $2,000</td><td>0.00%</td><td>$0</td></tr>
-          <tr><td>2</td><td>$2,000 to $5,000</td><td>2.20%</td><td>$0</td></tr>
-          <tr><td>3</td><td>$5,000 to $10,000</td><td>3.90%</td><td>$66</td></tr>
-          <tr><td>4</td><td>$10,000 to $20,000</td><td>4.80%</td><td>$261</td></tr>
-          <tr><td>5</td><td>$20,000 to $25,000</td><td>5.20%</td><td>$741</td></tr>
-          <tr><td>6</td><td>$25,000 to $60,000</td><td>5.55%</td><td>$1,001</td></tr>
-          <tr><td>7 (top)</td><td>Above $60,000</td><td>6.60%</td><td>$2,943.50</td></tr>
+          <tr><td>1</td><td>$0 to $2,000</td><td>0.00%</td><td>$0</td><td>Del. Code Title 30 &sect; 1102</td></tr>
+          <tr><td>2</td><td>$2,000 to $5,000</td><td>2.20%</td><td>$0</td><td>Del. Code Title 30 &sect; 1102</td></tr>
+          <tr><td>3</td><td>$5,000 to $10,000</td><td>3.90%</td><td>$66</td><td>Del. Code Title 30 &sect; 1102</td></tr>
+          <tr><td>4</td><td>$10,000 to $20,000</td><td>4.80%</td><td>$261</td><td>Del. Code Title 30 &sect; 1102</td></tr>
+          <tr><td>5</td><td>$20,000 to $25,000</td><td>5.20%</td><td>$741</td><td>Del. Code Title 30 &sect; 1102</td></tr>
+          <tr><td>6</td><td>$25,000 to $60,000</td><td>5.55%</td><td>$1,001</td><td>Del. Code Title 30 &sect; 1102</td></tr>
+          <tr><td>7 (top)</td><td>Above $60,000</td><td>6.60%</td><td>$2,943.50</td><td>Del. Code Title 30 &sect; 1102</td></tr>
         </tbody>
       </table>
 
-      <h3>The no-doubling rule for joint filers</h3>
-      <p>Delaware does not double the bracket thresholds for joint filers the way most states do. A married-filing-jointly Delaware household with $120,000 of combined taxable income pays the top 6.6 percent on the portion above $60,000, identical treatment to a single filer with $120,000. For high-earning dual-income Delaware households this is a meaningful negative against most other states' tax codes. <em>Source: Del. Code Title 30 &sect; 1102, accessed 26 May 2026.</em></p>
+      <h3>What the rate looks like on a real offer letter</h3>
+      <p>Avery runs operations from Newark, Delaware. You offer her $100,000. After the standard deduction of $3,250 single and one personal credit of $110, she owes Delaware roughly <strong>$5,150</strong> in state income tax for 2026.</p>
+      <p>The same offer to a Pennsylvania resident pays about $3,070 in state tax (flat 3.07 percent). To a New Jersey resident, about $5,920 (mid-bracket). To a Texan, zero. Bake the Delaware ladder into your offer-letter take-home calculator before the first Delaware hire, because the 6.6 percent top rate triggers at $60,000 of taxable income &mdash; well inside entry-level professional comp.</p>
 
-      <h3>The standard deduction and personal credit</h3>
-      <p>Delaware allows a standard deduction of <strong>$3,250</strong> single or <strong>$6,500</strong> married-filing-jointly, plus a personal credit of <strong>$110 per exemption</strong> under Title 30 &sect; 1110. The credit applies as a flat reduction against tax liability, not as an above-the-line deduction from gross. So a single Delaware employee earning $60,000 with one personal exemption pays roughly $2,635 in state income tax for 2026 ($2,745 statutory tax less the $110 personal credit). The same employee on $120,000 pays about $6,475.</p>
+      <h3>Why the no-doubling rule hurts dual-income households</h3>
+      <p>Most progressive-rate states double the bracket thresholds for joint filers. Delaware does not. A married-filing-jointly household on $120,000 of combined taxable income pays the same top 6.6 percent on the portion above $60,000 as a single filer earning $120,000.</p>
+      <p>For dual-income households earning $150,000-plus combined, this is a meaningful negative against most other states&rsquo; tax codes. It is also a useful talking point on offer letters: a candidate moving from Maryland or Virginia who didn&rsquo;t hit those states&rsquo; top brackets on their portion will hit Delaware&rsquo;s.</p>
 
-      <h3>How Delaware compares regionally</h3>
-      <p>Delaware's 6.6 percent top rate sits in the middle of the Mid-Atlantic pack. New Jersey tops out at 10.75 percent, Maryland at 5.75 percent (plus county piggyback rates of 2.25 to 3.20 percent), Pennsylvania has a flat 3.07 percent, and Virginia has a 5.75 percent top. The Delaware structure is unusual for one reason: the top bracket triggers at just $60,000, lower than almost any other progressive-rate state, which means a senior individual contributor on a $150,000 base pays the same marginal rate as a $1 million executive. <em>Source: Tax Foundation 2026 state-rate tables, accessed 26 May 2026.</em></p>
-
-      <h3>What this means for offer letters</h3>
-      <p>A Delaware employee earning $100,000 pays roughly $5,150 in state income tax for 2026 at the 6.6 percent top bracket; the same offer in Pennsylvania pays about $3,070 (flat 3.07 percent), in New Jersey about $5,920 (mid-bracket), and in Texas $0 (no state income tax). Bake the full Delaware ladder into your offer-letter take-home calculator before the first Delaware hire. The 6.6 percent top kicks in at $60,000 of taxable income, well within entry-level professional comp.</p></div>
+      <h3>Standard deduction and personal credit</h3>
+      <p>Delaware allows a standard deduction of $3,250 single or $6,500 married-filing-jointly, plus a $110 personal credit per exemption. The credit reduces tax liability directly, not the income base. Build both into the take-home calculator alongside the bracket maths.</p>
+    </div>
   </section>
 
   <section class="q" id="suta">
-    <h2>What does a Delaware employer pay in unemployment insurance (UI / SUTA)?</h2>
-    <p class="answer-first">New Delaware employers pay <strong><span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="1.0"><meta itemprop="unitCode" content="P1"><meta itemprop="unitText" content="percent of taxable wages">1.0 percent</span> on the first $14,500 of each employee&rsquo;s annual wages</strong> under Schedule B in 2026, capped at <strong>$145 per employee per year</strong>. After two to three full calendar years of contribution-and-benefit experience, the rate moves into the experience-rated band of <strong>0.3 percent to 5.4 percent</strong>. Delinquent employers pay <strong>6.3 percent</strong>. A separate <strong>0.2 percent Operations and Technology Assessment</strong> is now billed quarterly as its own line, starting in 2026.</p>
-    <div class="body"><table class="data">
+    <h2>What does a Delaware employer pay in unemployment insurance?</h2>
+    <p class="answer-first">New Delaware employers pay <strong><span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="1.0"><meta itemprop="unitCode" content="P1"><meta itemprop="unitText" content="percent of taxable wages">1.0 percent</span> on the first $14,500</strong> of each employee&rsquo;s annual wages in 2026. That caps at <strong>$145 per employee per year</strong>.</p>
+    <p class="answer-first">After two to three full calendar years of contribution-and-benefit history, you move into the experience-rated band of <strong>0.3 percent to 5.4 percent</strong>. Delinquent employers pay 6.3 percent.</p>
+    <p class="answer-first">A separate <strong>0.2 percent Operations and Technology Assessment</strong> is billed quarterly as its own line, starting in 2026.</p>
+    <div class="body">
+      <table class="data">
         <thead>
           <tr><th>Stage</th><th>Rate</th><th>Max per employee / year</th><th>Source</th></tr>
         </thead>
@@ -288,43 +303,56 @@
           <tr><td>Experience-rated, lowest step</td><td>0.3%</td><td>$43.50</td><td>Delaware DOL, Schedule B 2026</td></tr>
           <tr><td>Experience-rated, top step</td><td>5.4%</td><td>$783.00</td><td>Delaware DOL, Schedule B 2026</td></tr>
           <tr><td>Delinquent employer rate</td><td>6.3%</td><td>$913.50</td><td>Delaware DOL, Schedule B 2026</td></tr>
-          <tr><td>Operations &amp; Technology Assessment</td><td>0.2%</td><td>$29.00</td><td>Billed separately quarterly from 2026</td></tr>
+          <tr><td>Operations &amp; Technology Assessment</td><td>0.2%</td><td>$29.00</td><td>Del. DOL; billed separately quarterly from 2026</td></tr>
+          <tr><td>Wage-base phase-in</td><td>$12,500 (2025); $14,500 (2026); $16,500 (2027 onwards)</td><td>n/a</td><td>HB 433 (2024)</td></tr>
+          <tr><td>FUTA after full state credit</td><td>0.6% on first $7,000</td><td>$42.00</td><td>IRS Topic 759; Form 940 Schedule A</td></tr>
         </tbody>
       </table>
 
-      <h3>The HB 433 wage-base phase-in</h3>
-      <p>Delaware passed House Bill 433 in 2024 to put the UI taxable wage base on a permanent statutory schedule. The phase-in is $12,500 in 2025, <strong>$14,500 in 2026</strong>, and $16,500 from 2027 onwards. Before the phase-in, the wage base sat at $10,500 and got adjusted ad hoc through the legislative cycle. HB 433 also reduced the new-employer rate to 1.0 percent for the 2025 to 2026 transition and shifts the rate-calculation methodology from Benefit Wage to Benefit Ratio for 2027 onwards. Build the higher 2027 wage base into multi-year payroll budgets now. <em>Source: Delaware General Assembly HB 433 (2024); EY Tax News 2026, accessed 26 May 2026.</em></p>
+      <h3>Most of your UI bill lands in Q1</h3>
+      <p>Jordan, the Wilmington dev on $80,000, hits the $14,500 wage base by the end of February. After that, UI on Jordan is zero for the rest of the year. The annual UI bill for any full-time Delaware employee earning above $14,500 is concentrated in Q1 and early Q2, not spread evenly.</p>
+      <p>On a ten-person Delaware team all earning above the wage base, you owe $1,450 in UI for the calendar year &mdash; all of it by early March. Forecast the cap-date per employee before the first January payroll runs, not as a surprise on the Q1 close.</p>
 
       <h3>The April rate-notice cadence is unusual</h3>
-      <p>Most US states issue UI rate notices in December for the following calendar year. Delaware issues them in <strong>early April</strong> for the calendar year already in progress. The 2026 rate notices went out on 6 April 2026 with a compliance deadline of 29 May 2026, meaning Q1 was already filed at the prior year's rate and Q2 is the first quarter at the new rate. Annual budgets built on the December rate-notice assumption need a Delaware adjustment line. <em>Source: Delaware Department of Labor employer-services page, accessed 26 May 2026.</em></p>
+      <p>Most US states issue UI rate notices in December for the following calendar year. Delaware issues them in <strong>early April</strong> for the calendar year already in progress. The 2026 notices went out on 6 April with a compliance deadline of 29 May, meaning Q1 was already filed at the prior year&rsquo;s rate and Q2 is the first quarter at the new one.</p>
+      <p>Annual budgets built on the December rate-notice assumption need a Delaware adjustment line. If your finance team plans state taxes in December for the year ahead, flag Delaware as the exception.</p>
 
-      <h3>FUTA credit interaction</h3>
-      <p>Federal Unemployment Tax (FUTA) is 6.0 percent on the first $7,000. A Delaware employer that pays state UI in full and on time receives a FUTA credit of <strong>5.4 percent</strong>, leaving an effective FUTA of <strong>0.6 percent ($42 per employee per year)</strong>. Delaware has not been subject to FUTA credit reduction in the recent five-year window. Verify the current-year status via IRS Schedule A (Form 940) each January. <em>Source: IRS Topic 759 and Form 940 Schedule A, accessed 26 May 2026.</em></p>
-
-      <h3>The early-year cash-flow point</h3>
-      <p>Because the $14,500 wage base is moderate, a full-time Delaware employee earning $80,000 hits the UI cap in late February. After that, UI is zero on every paycheque for the remainder of the year. The annual UI bill is concentrated in Q1 and early Q2, not spread evenly. Teamed&rsquo;s payroll engine forecasts the cap-date per employee so the early-year cash spike is on your books before the first January payroll runs, not a surprise on the Q1 close.</p></div>
+      <h3>How the wage base got here</h3>
+      <p>Delaware passed HB 433 in 2024 to put the UI taxable wage base on a permanent statutory schedule. Before that, the wage base sat at $10,500 and got adjusted ad hoc through the legislative cycle. The phase-in moves it to $14,500 in 2026 and $16,500 in 2027. From 2027 onwards the rate-calculation methodology also shifts from Benefit Wage to Benefit Ratio &mdash; a quieter change that will move some employer rates up or down within the experience band. Multi-year payroll budgets should carry the higher 2027 wage base now.</p>
+    </div>
   </section>
 
   <section class="q" id="form-de-w4">
-    <h2>What is Form DE-W4 and how does Delaware withholding work?</h2>
-    <p class="answer-first">Form DE-W4 is the <strong>Delaware Employee&rsquo;s Withholding Allowance Certificate</strong>, the state equivalent of the federal Form W-4 but built on the allowance-count model Delaware kept after the federal redesign in 2020 removed allowances. Every new Delaware hire should complete a DE-W4 alongside the federal W-4. If the employee does not file a DE-W4, the employer defaults to <strong>single with zero allowances</strong>, the most aggressive rate on the Delaware withholding tables.</p>
-    <div class="body"><p>Three Delaware-specific withholding forms exist, and they get confused often:</p>
+    <h2>What is Form DE-W4?</h2>
+    <p class="answer-first">Form DE-W4 is the <strong>Delaware Employee&rsquo;s Withholding Allowance Certificate</strong>. Every new Delaware hire should complete one alongside the federal W-4.</p>
+    <p class="answer-first">It exists because the federal W-4 redesign in 2020 removed allowances and switched to a dollar-amount-of-deductions model. Delaware kept the allowance-count model. The two forms now do different jobs.</p>
+    <p class="answer-first">If an employee does not file a DE-W4, the employer defaults to <strong>single with zero allowances</strong> &mdash; the highest withholding rate on the Delaware tables. The employee gets a refund instead of accurate take-home all year.</p>
+    <div class="body">
+      <p>Three Delaware-specific withholding forms exist, and they get confused often:</p>
       <ul>
         <li><strong>Form DE-W4 (or SD/W4A)</strong> &mdash; the standard state withholding certificate for resident employees. Captures filing status, allowance count, and any additional-dollar over-withholding. Use this for almost every Delaware hire.</li>
-        <li><strong>Form W-4NR</strong> &mdash; for non-residents performing personal services in Delaware. Allowance mechanics differ from the resident form because non-residents are taxed only on Delaware-source income.</li>
-        <li><strong>Form W-4DE</strong> &mdash; a separate, narrow exemption form used <em>only</em> by military spouses claiming exemption from Delaware withholding under the Servicemembers Civil Relief Act. The name confusingly mirrors DE-W4 but the use case is different. Do not collect this from non-military hires.</li>
+        <li><strong>Form W-4NR</strong> &mdash; for non-residents performing personal services in Delaware. Allowance mechanics differ because non-residents are taxed only on Delaware-source income.</li>
+        <li><strong>Form W-4DE</strong> &mdash; a narrow exemption form used <em>only</em> by military spouses claiming exemption from Delaware withholding under the Servicemembers Civil Relief Act. The name confusingly mirrors DE-W4 but the use case is different. Do not collect this from non-military hires.</li>
       </ul>
 
-      <h3>Why employees should always file a DE-W4</h3>
-      <p>The 2020 federal W-4 removed allowances and switched to a dollar-amount-of-deductions model. Delaware kept the allowance-count model on the DE-W4, including a $110 personal credit per exemption under Title 30 &sect; 1110. An employer that accepts only the federal W-4 has to make assumptions about the Delaware allowance count, and Delaware Division of Revenue guidance defaults to single with zero allowances when no state-specific form is on file. For a $100,000 Delaware employee that&rsquo;s roughly $580 a year over-withheld against a properly completed DE-W4 claiming one personal credit. The gap accumulates and the employee gets a refund instead of accurate take-home.</p>
+      <h3>What the default withholding costs your employee</h3>
+      <p>Avery accepts the Newark ops role on $100,000 and signs only the federal W-4. Payroll defaults her DE-W4 to single, zero allowances. Over the year she has roughly <strong>$580 over-withheld</strong> against the figure she would have hit on a properly completed DE-W4 claiming the personal credit. She gets a $580 refund the following April instead of an extra $48 a month in her pay packet.</p>
+      <p>That is not a compliance failure &mdash; the employer remitted the right amount &mdash; but it is a recruitment and retention failure. Take-home is the number the candidate compared on the offer letter, and the take-home is wrong.</p>
 
-      <h3>The allowance-count math</h3>
-      <p>DE-W4 worksheet drives the allowance count. One allowance for the employee, one for the spouse, one per dependent, plus additional allowances for itemised deductions and adjustments to income that lower the Delaware tax base. The employer looks up the wage on the Delaware Withholding Tables (revenue.delaware.gov) using filing status and allowance count, then withholds the table figure plus any DE-W4 additional dollar amount. Teamed&rsquo;s onboarding flow captures DE-W4 alongside Form I-9 and federal W-4 on day one in a single digital signing session, so the highest-rate default never fires. <em>Source: Delaware Division of Revenue Employer&rsquo;s Guide, accessed 26 May 2026.</em></p></div>
+      <h3>The allowance-count maths</h3>
+      <p>The DE-W4 worksheet drives the allowance count. One allowance for the employee, one for the spouse, one per dependent, plus additional allowances for itemised deductions and adjustments to income that lower the Delaware tax base.</p>
+      <p>The employer looks up the wage on the Delaware Withholding Tables at revenue.delaware.gov using filing status and allowance count, then withholds the table figure plus any DE-W4 additional dollar amount. The simpler path is to capture DE-W4 alongside Form I-9 and federal W-4 in one digital signing session at onboarding, so the highest-rate default never fires.</p>
+
+      <h3>What changes when the employee&rsquo;s situation changes</h3>
+      <p>An employee who marries, divorces, has a child, takes on a second job, or buys a house that changes their itemised deductions should refile a DE-W4 within 10 days of the event. The 10-day window is statutory. Most employers send a once-a-year prompt in late autumn to refresh DE-W4s ahead of the new calendar year.</p>
+    </div>
   </section>
 
   <section class="q" id="filing-cadence">
-    <h2>How does a Delaware employer file payroll tax returns (W-1Q, W-1, W-1A)?</h2>
-    <p class="answer-first">Delaware uses a <strong>three-tier deposit cadence driven by a lookback period</strong>. Every employer files <strong>Form W-1Q quarterly</strong> if annual withholding stays at or below $6,020, <strong>Form W-1 monthly</strong> through $33,460, and <strong>Form W-1A eighth-monthly</strong> above $33,460.01. UI runs on a parallel quarterly cadence: <strong>Form UC-8 plus UC-8A</strong> by the last day of the month after each quarter. The lookback period is <strong>1 July through 30 June</strong> immediately preceding the calendar year. New employers default to monthly until the first lookback period completes.</p>
+    <h2>How does a Delaware employer file payroll tax returns?</h2>
+    <p class="answer-first">Three deposit tiers, set by a lookback period.</p>
+    <p class="answer-first"><strong>W-1Q quarterly</strong> if your annual Delaware withholding stayed at or below $6,020. <strong>W-1 monthly</strong> through $33,460. <strong>W-1A eighth-monthly</strong> above that &mdash; due within three banking days of each period end.</p>
+    <p class="answer-first">UI runs on a parallel quarterly cadence: <strong>Form UC-8 plus UC-8A</strong> by the last day of the month after each quarter. New employers default to monthly until the first lookback period completes.</p>
     <div class="body">
 
       <div class="stamp-block">
@@ -332,7 +360,7 @@
           <span class="stamp-num">02</span>
           <span class="stamp-text">Delaware Filing Cadence</span>
         </div>
-        <p class="stamp-body">Delaware uses a lookback-based three-tier deposit cadence for state withholding plus a separate quarterly UI cadence. The lookback period runs 1 July to 30 June preceding the calendar year, so the cadence each employer falls into is set by withholding totals from the prior twelve-month window. Annual reconciliation Form W-3 is due 28 February.</p>
+        <p class="stamp-body">A lookback-based three-tier deposit cadence for state withholding, plus a separate quarterly UI cadence. The lookback period runs 1 July to 30 June preceding the calendar year, so the cadence each employer falls into is set by withholding totals from the prior twelve-month window. Annual reconciliation Form W-3 is due 28 February.</p>
         <div class="tape-row">
           <span class="tape-label">W-1Q &middot; quarterly withholding return</span>
           <span class="tape-label">W-1 &middot; monthly withholding return</span>
@@ -345,26 +373,29 @@
 
       <table class="data">
         <thead>
-          <tr><th>Form</th><th>Filer category</th><th>Annual withholding threshold</th><th>Due</th></tr>
+          <tr><th>Form</th><th>Filer category</th><th>Annual withholding threshold</th><th>Due</th><th>Source</th></tr>
         </thead>
         <tbody>
-          <tr><td>Form W-1Q</td><td>Quarterly filer</td><td>$6,020.00 or less</td><td>Last day of the month after each quarter</td></tr>
-          <tr><td>Form W-1</td><td>Monthly filer (default for new employers)</td><td>$6,020.01 to $33,460.00</td><td>15th of the month following</td></tr>
-          <tr><td>Form W-1A</td><td>Eighth-monthly filer</td><td>$33,460.01 and greater</td><td>Within 3 banking days after the period end</td></tr>
-          <tr><td>Form W-3</td><td>Annual reconciliation (all employers)</td><td>n/a</td><td>28 February following the tax year</td></tr>
-          <tr><td>Form UC-8</td><td>Quarterly UI tax return</td><td>All employers paying covered wages</td><td>30 April, 31 July, 31 October, 31 January</td></tr>
-          <tr><td>Form UC-8A</td><td>Quarterly wage report (per-employee detail)</td><td>Same as UC-8</td><td>Same as UC-8</td></tr>
+          <tr><td>Form W-1Q</td><td>Quarterly filer</td><td>$6,020.00 or less</td><td>Last day of the month after each quarter</td><td>Del. Div. of Revenue Employer&rsquo;s Guide</td></tr>
+          <tr><td>Form W-1</td><td>Monthly filer (default for new employers)</td><td>$6,020.01 to $33,460.00</td><td>15th of the following month</td><td>Del. Div. of Revenue Employer&rsquo;s Guide</td></tr>
+          <tr><td>Form W-1A</td><td>Eighth-monthly filer</td><td>$33,460.01 and greater</td><td>Within 3 banking days after period end</td><td>Del. Div. of Revenue Employer&rsquo;s Guide</td></tr>
+          <tr><td>Form W-3</td><td>Annual reconciliation (all employers)</td><td>n/a</td><td>28 February following the tax year</td><td>Del. Div. of Revenue Employer&rsquo;s Guide</td></tr>
+          <tr><td>Form UC-8</td><td>Quarterly UI tax return</td><td>All employers paying covered wages</td><td>30 April, 31 July, 31 October, 31 January</td><td>Del. DOL</td></tr>
+          <tr><td>Form UC-8A</td><td>Quarterly wage report (per-employee detail)</td><td>Same as UC-8</td><td>Same as UC-8</td><td>Del. DOL</td></tr>
         </tbody>
       </table>
 
-      <h3>The lookback-period mechanic</h3>
-      <p>The lookback period runs <strong>1 July through 30 June</strong> immediately preceding the calendar year for which cadence is being set. So the 2026 cadence is driven by total Delaware withholding during 1 July 2024 through 30 June 2025. The Division of Revenue notifies each employer in late autumn of the cadence for the following calendar year. An employer that grows past $33,460 in annual withholding during 2025 moves up to eighth-monthly cadence for 2026, then files Form W-1A within three banking days of each eighth-monthly period end. That is a meaningful operational step-up. Teamed&rsquo;s payroll engine forecasts the cross-over month so the cadence switch is on your books before the autumn notice arrives. <em>Source: Delaware Division of Revenue Employer&rsquo;s Guide, accessed 26 May 2026.</em></p>
+      <h3>The lookback period sets next year&rsquo;s cadence</h3>
+      <p>The lookback period runs <strong>1 July through 30 June</strong> immediately preceding the calendar year. So the 2026 cadence is driven by total Delaware withholding from 1 July 2024 through 30 June 2025.</p>
+      <p>The Division of Revenue notifies each employer in late autumn of the cadence for the following calendar year. An employer that grows past $33,460 in annual withholding during 2025 moves up to eighth-monthly cadence for 2026 &mdash; filing Form W-1A within three banking days of each eighth-monthly period end. That is a meaningful operational step-up. Forecast the cross-over month so the cadence switch is on your books before the autumn notice arrives.</p>
 
-      <h3>Electronic filing through OneStop Delaware</h3>
-      <p>OneStop Delaware (onestop.delaware.gov) is the canonical registration portal for the Combined Registration Application that handles both Division of Revenue and Department of Labor enrolment in a single submission. Once registered, employers file W-1Q, W-1, W-1A, and W-3 electronically through the Division of Revenue portal, and UC-8 plus UC-8A through the Department of Labor portal. EFT deposit is mandatory for any employer required to deposit federal employment taxes electronically under IRC &sect; 6302, one year after the federal requirement attaches. <em>Source: Delaware Division of Revenue, accessed 26 May 2026.</em></p>
+      <h3>OneStop Delaware handles registration</h3>
+      <p>OneStop Delaware (onestop.delaware.gov) is the canonical registration portal for the Combined Registration Application that handles both Division of Revenue and Department of Labor enrolment in a single submission.</p>
+      <p>Once registered, employers file W-1Q, W-1, W-1A, and W-3 electronically through the Division of Revenue portal, and UC-8 plus UC-8A through the Department of Labor portal. EFT deposit is mandatory for any employer required to deposit federal employment taxes electronically, one year after the federal requirement attaches.</p>
 
       <h3>Zero-filing rule</h3>
-      <p>An employer with no Delaware wages for a period still files a zero return, otherwise the Division of Revenue and the Department of Labor each flag a missing filing and start the delinquency clock. The W-1Q is required even in a zero quarter if the employer is still registered. <em>Source: Delaware Division of Revenue, accessed 26 May 2026.</em></p></div>
+      <p>A registered employer with no Delaware wages in a period still files a zero return. Skip it and both the Division of Revenue and the Department of Labor flag a missing filing and start the delinquency clock. The W-1Q is required even in a zero quarter if you are still registered.</p>
+    </div>
   </section>
 
   <div class="pullquote">
@@ -374,41 +405,69 @@
 
   <section class="q" id="abc-test-payroll-link">
     <h2>Does Delaware&rsquo;s ABC test affect payroll tax obligations?</h2>
-    <p class="answer-first">Yes. Delaware uses a <strong>three-prong ABC test</strong> under Del. Code Title 19 &sect; 3302(10)(K) to define employment for UI coverage purposes. A worker misclassified as an independent contractor under that test is retroactively an <strong>employee</strong> for Delaware UI, meaning the employer owes back contributions, interest, and statutory penalties for the full misclassification period. Workers&rsquo; compensation classification follows a separate Borello-style multi-factor analysis under Title 19 &sect; 2301.</p>
-    <div class="body"><p>The Delaware ABC test asks three questions about the worker, and all three must be satisfied for the worker to be classified as a contractor:</p>
+    <p class="answer-first">Yes. Delaware uses a <strong>three-prong ABC test</strong> to define employment for UI coverage.</p>
+    <p class="answer-first">A worker misclassified as an independent contractor under that test is retroactively an <strong>employee</strong> for Delaware UI. The employer owes back contributions, interest, and statutory penalties for the full misclassification period.</p>
+    <p class="answer-first">Workers&rsquo; compensation classification follows a separate Borello-style multi-factor analysis.</p>
+    <div class="body">
+      <p>The Delaware ABC test asks three questions, and all three must be satisfied for the worker to be a contractor:</p>
       <ol>
         <li><strong>Prong A &mdash; control:</strong> the individual is free from control and direction over the work performed, both under the contract and in fact.</li>
-        <li><strong>Prong B &mdash; usual course or location:</strong> the service is performed either outside the usual course of business or outside all places of business of the enterprise. Delaware&rsquo;s Prong B is broader than California&rsquo;s strict outside-the-usual-course-only version because the Delaware statute allows the location alternative.</li>
+        <li><strong>Prong B &mdash; usual course or location:</strong> the service is performed either outside the usual course of business or outside all places of business of the enterprise. Delaware&rsquo;s Prong B is broader than California&rsquo;s because the Delaware statute allows the location alternative.</li>
         <li><strong>Prong C &mdash; independent business:</strong> the individual is customarily engaged in an independently established trade, occupation, profession, or business.</li>
       </ol>
 
-      <p>The hiring entity bears the burden of proving all three prongs. Failure on any one prong reclassifies the worker as an employee for UI. The Delaware Department of Labor will assess back UI contributions on every dollar the misclassified worker earned during the contractor period plus interest. Unlike California, Delaware does not maintain a statutory list of profession-by-profession ABC carve-outs; the test applies uniformly. <em>Source: Del. Code Title 19 &sect; 3302(10), accessed 26 May 2026.</em></p>
+      <p>The hiring entity bears the burden of proving all three. Failure on any one prong reclassifies the worker as an employee for UI. The Department of Labor then assesses back UI contributions on every dollar the misclassified worker earned during the contractor period, plus interest.</p>
+      <p>Unlike California, Delaware does not maintain a statutory list of profession-by-profession ABC carve-outs. The test applies uniformly.</p>
 
-      <h3>How Delaware differs from California on ABC</h3>
-      <p>Delaware&rsquo;s Prong B is meaningfully broader than California&rsquo;s. California requires that the work be outside the usual course of the hiring entity&rsquo;s business, period. Delaware allows either outside the usual course OR outside all places of business of the enterprise. So a remote contractor performing services from their own location, never at the company&rsquo;s offices, satisfies Delaware Prong B on the location alternative even if the work is in the company&rsquo;s core business. That alternative does not exist under California Labor Code &sect; 2775. For Delaware-resident remote contractors, the location prong is often easier to satisfy than it would be for the same engagement in California. Run every Delaware engagement through Teamed&rsquo;s <a href="https://www.teamed.global/tools/contractor-classification" target="_blank" rel="noopener">Contractor Classifier</a> before the first invoice clears. <em>Source: Del. Code Title 19 &sect; 3302(10)(K), accessed 26 May 2026.</em></p>
+      <table class="data">
+        <thead>
+          <tr><th>Element</th><th>Detail</th><th>Source</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Three-prong ABC test for UI coverage</td><td>All three prongs (control, usual course or location, independent business) must be satisfied</td><td>Del. Code Title 19 &sect; 3302(10)(K)</td></tr>
+          <tr><td>Prong B alternatives</td><td>Outside the usual course of business OR outside all places of business of the enterprise</td><td>Del. Code Title 19 &sect; 3302(10)(K)</td></tr>
+          <tr><td>Workers&rsquo; comp classification</td><td>Separate Borello-style multi-factor analysis</td><td>Del. Code Title 19 &sect; 2301</td></tr>
+          <tr><td>Federal employment tax test</td><td>IRS twenty-factor common-law control test applies independently</td><td>IRS Rev. Rul. 87-41</td></tr>
+        </tbody>
+      </table>
 
-      <h3>Federal IRS overlay</h3>
-      <p>Even when a worker satisfies Delaware&rsquo;s ABC test as a contractor for state UI purposes, the IRS applies its own twenty-factor common-law control test for federal employment-tax purposes. Federal misclassification can attach federal income tax withholding, FICA, and FUTA liabilities independently of the Delaware state analysis. The safe operating posture is to satisfy both tests on every contractor engagement before the relationship starts. Teamed handles the dual analysis automatically through the EOR model so the misclassification risk never sits on your books.</p></div>
+      <h3>How Delaware&rsquo;s Prong B differs from California&rsquo;s</h3>
+      <p>California requires the work to be outside the usual course of the hiring entity&rsquo;s business, period. Delaware allows either outside the usual course OR outside all places of business of the enterprise.</p>
+      <p>So a remote contractor performing services from their own location, never at the company&rsquo;s offices, satisfies Delaware Prong B on the location alternative even if the work is in the company&rsquo;s core business. That alternative does not exist under California law. For Delaware-resident remote contractors, the location prong is often the easier one to clear.</p>
+      <p>Run every Delaware contractor engagement through Teamed&rsquo;s <a href="https://www.teamed.global/tools/contractor-classification" target="_blank" rel="noopener">Contractor Classifier</a> before the first invoice clears.</p>
+
+      <h3>The federal IRS overlay</h3>
+      <p>Even when a worker satisfies Delaware&rsquo;s ABC test as a contractor for state UI, the IRS applies its own twenty-factor common-law control test for federal employment tax. Federal misclassification can attach federal income tax withholding, FICA, and FUTA liabilities independently of the Delaware state analysis.</p>
+      <p>The safe operating posture is to satisfy both tests on every contractor engagement before the relationship starts.</p>
+    </div>
   </section>
 
   <section class="q" id="how-teamed-handles">
     <h2>How does Teamed handle Delaware payroll end to end?</h2>
-    <p class="answer-first">Teamed becomes your legal Employer of Record in Delaware for <a href="/pricing/zero-fx-fixed/">a flat <span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="599"><meta itemprop="unitCode" content="USD"><meta itemprop="unitText" content="USD per employee per month">$599 per employee per month</span></a>, billed as a single fixed rate in any currency you pay us in, with zero FX mark-up. You hire the person; we run payroll, register with the Division of Revenue and Department of Labor, file every state return on the right cadence, and run ABC-test analysis on every contractor engagement. Statutory employer cost (FICA, FUTA, UI) passes through at cost, itemised on the invoice. No setup fees, no offboarding fees.</p>
-    <div class="body"><p>What a Delaware hire through Teamed looks like operationally:</p>
+    <p class="answer-first">Teamed becomes your legal Employer of Record in Delaware for <a href="/pricing/zero-fx-fixed/">a flat <span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="599"><meta itemprop="unitCode" content="USD"><meta itemprop="unitText" content="USD per employee per month">$599 per employee per month</span></a>.</p>
+    <p class="answer-first">You hire the person. We register with the Division of Revenue and the Department of Labor, run payroll on the right deposit cadence, file every state return on time, and run an ABC-test analysis on every contractor engagement.</p>
+    <p class="answer-first">Zero FX mark-up. Statutory employer cost (FICA, FUTA, UI) passes through at cost, itemised on every invoice. No setup fees. No exit fees.</p>
+    <div class="body">
+      <p>What a Delaware hire through Teamed looks like, day by day:</p>
       <ul>
-        <li><strong>Day 0:</strong> Combined Registration Application through OneStop Delaware. Teamed&rsquo;s US entity (Teamed US Inc., Delaware) is the legal employer of record. Note: our entity is Delaware-incorporated for legal reasons unrelated to payroll location; the actual Delaware payroll trigger is your specific Delaware-resident hire.</li>
-        <li><strong>Day 1:</strong> employee onboarded with Form DE-W4 (filing status, allowance count, additional withholding), federal W-4, and Form I-9 in a single digital signing session.</li>
-        <li><strong>Ongoing:</strong> deposit cadence matched to the lookback period (W-1Q quarterly, W-1 monthly, or W-1A eighth-monthly), UI calculated and remitted on the correct Schedule B rate, Q1 UI cap-date forecast surfaced before the January payroll runs.</li>
+        <li><strong>Day 0:</strong> Combined Registration Application through OneStop Delaware. Teamed&rsquo;s US entity (Teamed US Inc., Delaware) is the legal employer. Our entity is Delaware-incorporated for unrelated legal reasons &mdash; the actual Delaware payroll trigger is your specific Delaware-resident hire.</li>
+        <li><strong>Day 1:</strong> Employee onboarded with Form DE-W4 (filing status, allowance count, additional withholding), federal W-4, and Form I-9 in a single digital signing session.</li>
+        <li><strong>Ongoing:</strong> Deposit cadence matched to the lookback period (W-1Q quarterly, W-1 monthly, or W-1A eighth-monthly). UI calculated and remitted on the correct Schedule B rate. Q1 UI cap-date forecast surfaced before the January payroll runs.</li>
         <li><strong>Quarterly:</strong> W-1Q or final-month W-1 filed alongside UC-8 and UC-8A, with per-employee wage detail reconciled against the deposit history.</li>
         <li><strong>Year end:</strong> Federal W-2 plus Delaware Form W-3 annual reconciliation, due 28 February. April UI rate notice received from the Department of Labor and applied to the next quarter&rsquo;s payroll.</li>
       </ul>
 
-      <p>Pricing is one number per employee per month, in any currency you pay us in, with zero FX mark-up between your billing currency and the US dollars Teamed remits to the Delaware Division of Revenue and Department of Labor. Statutory employer cost (FICA, FUTA, UI) passes through at cost, itemised line-by-line on the invoice. We have a 99 percent logo retention rate; clients who left for a competitor relationship typically return within twelve months.</p>
+      <p>Behind the platform sits a named country specialist for the United States and an in-house payroll lead who knows the lookback-period maths, the DE-W4 allowance math, the April rate-notice cadence, and the ABC-test analysis that needs to run on every contractor engagement. When something looks off on a payslip, you message the same person. No support tickets. No chatbot triage.</p>
 
-      <p>Behind the platform sits a named country specialist for the United States and an in-house payroll specialist who knows Delaware&rsquo;s three-tier deposit cadence, the lookback-period mechanic, the DE-W4 allowance math, the April rate-notice cadence, and the ABC test analysis that needs to run on every contractor engagement. When something looks off on a payslip, you message the same real human; there is no rota of generic support tickets and no chatbot routing. Contractor onboarding, EOR payroll, and entity graduation live on one platform, so a Delaware contractor who converts to W-2 keeps their record, and that same employee can graduate from EOR to your own Delaware-registered entity without changing system. Contractor through EOR to entity, one timeline, one platform.</p>
+      <p>Contractor onboarding, EOR payroll, and entity graduation live on one platform. A Delaware contractor who converts to W-2 keeps their record. That same employee can graduate from EOR to your own Delaware-registered entity without changing systems. One timeline. One platform.</p>
+
+      <p>Pricing is one number per employee per month, in any currency you pay us in. Zero FX mark-up between your billing currency and the US dollars we remit. Statutory employer cost passes through itemised on every invoice.</p>
 
       <h3>When EOR is the right call (and when it isn&rsquo;t)</h3>
-      <p>EOR works while you&rsquo;re testing the Delaware market, ramping a small remote team, or running one or two Delaware hires alongside a larger US payroll elsewhere. Delaware payroll compliance is moderate by US-state standards: the rate ladder is straightforward, the wage base is moderate, and there is no SDI or paid-family-leave overlay to manage. The math of running your own Delaware-registered payroll entity starts to win once you cross roughly twelve to fifteen Delaware-based employees, later than in higher-complexity states like California. Teamed&rsquo;s <a href="https://www.teamed.global/tools/crossover-calculator" target="_blank" rel="noopener">Crossover Calculator</a> shows you the month it flips. We will tell you when. The graduation conversation is built into the relationship.</p></div>
+      <p>EOR works while you&rsquo;re testing the Delaware market, ramping a small remote team, or running one or two Delaware hires alongside a larger US payroll elsewhere.</p>
+      <p>Delaware compliance is moderate by US-state standards &mdash; the rate ladder is straightforward, the wage base is moderate, there is no SDI or paid-family-leave overlay to manage. The maths of running your own Delaware-registered payroll entity starts to win once you cross roughly twelve to fifteen Delaware-based employees. Later than in higher-complexity states like California.</p>
+      <p>Teamed&rsquo;s <a href="https://www.teamed.global/tools/crossover-calculator" target="_blank" rel="noopener">Crossover Calculator</a> shows you the month it flips. The conversation is built into the relationship.</p>
+    </div>
   </section>
 
   <div class="pullquote">
@@ -443,12 +502,16 @@
     </ul>
   </aside>
 
+  <aside class="page-disclaimer" style="max-width: 960px; margin: 48px auto 24px; padding: 20px 24px; background: var(--parchment-100); border-left: 3px solid var(--parchment-400); border-radius: 4px; font-size: 14px; color: var(--parchment-700); line-height: 1.55;">
+    <strong style="color: var(--parchment-900);">A note on this page.</strong> This is a guide, not legal advice. Delaware income-tax bands and SUI wage bases update annually. Confirm with the Delaware Division of Revenue, Delaware Department of Labor, or your Teamed US specialist before relying on a specific figure.
+  </aside>
+
   <div class="meta-footer">
     <h3>Page metadata &middot; preview-only</h3>
     <ul>
       <li>Target keyword: <code>delaware state income tax and unemployment insurance 2026</code></li>
-      <li>Word count: ~3,100 words</li>
-      <li>H2 literal-query ratio: 88%</li>
+      <li>Word count: ~2,500 words</li>
+      <li>H2 literal-query ratio: 67%</li>
       <li>Internal links: 5 live + 3 plain text per link gate</li>
       <li>Schema: Article + Organization + BreadcrumbList (5 levels) + Service</li>
       <li>Status: live-noindex (publishing rail pending)</li>
