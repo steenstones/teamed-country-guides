@@ -1,0 +1,69 @@
+# Vercel deploy exclusions
+#
+# All 62 pages remain in git as the source-of-truth for Brett's handoff and
+# for future Next.js migration. Only the 6 listed below are LIVE on
+# teamed-country-guides.vercel.app while we manage bandwidth.
+#
+# To restore a page: delete its line below. To park a page: add it.
+#
+# Live (kept):
+#   /                                       (root hub index)
+#   /united-kingdom/                        (UK parent)
+#   /united-kingdom/cost-breakdown/
+#   /germany/tax-and-payroll/
+#   /united-states/california/wage-overtime-and-meal-break-law/    (v2 template)
+#   /united-states/california/state-income-tax-and-unemployment-insurance/
+#   /hire-contractors/united-states/
+
+# ─── Brett handoff bundle (never live on Vercel) ───────────────────────
+handoff-brett/
+
+# ─── France ────────────────────────────────────────────────────────────
+france/eor-vs-entity/
+
+# ─── Spain ─────────────────────────────────────────────────────────────
+spain/cost-breakdown/
+
+# ─── United Kingdom (10 children parked; parent + cost-breakdown kept) ──
+united-kingdom/benefits/
+united-kingdom/compliance-and-day-one-rights/
+united-kingdom/eor-vs-entity/
+united-kingdom/hiring-guide/
+united-kingdom/ir35-off-payroll-working/
+united-kingdom/permanent-establishment-risk/
+united-kingdom/probation-and-onboarding/
+united-kingdom/tax-and-payroll/
+united-kingdom/termination-and-severance/
+united-kingdom/working-time-and-leave/
+
+# ─── United States — Alabama (5) ───────────────────────────────────────
+united-states/alabama/
+
+# ─── United States — Alaska (5) ────────────────────────────────────────
+united-states/alaska/
+
+# ─── United States — Arizona (5) ───────────────────────────────────────
+united-states/arizona/
+
+# ─── United States — Arkansas (5) ──────────────────────────────────────
+united-states/arkansas/
+
+# ─── United States — California (3 parked; wage-OT + state-tax kept) ───
+united-states/california/termination-law-and-at-will-exceptions/
+united-states/california/worker-classification-state-test/
+united-states/california/paid-family-and-sick-leave/
+
+# ─── United States — Colorado (5) ──────────────────────────────────────
+united-states/colorado/
+
+# ─── United States — Connecticut (5) ───────────────────────────────────
+united-states/connecticut/
+
+# ─── United States — Delaware (5) ──────────────────────────────────────
+united-states/delaware/
+
+# ─── United States — Florida (5) ───────────────────────────────────────
+united-states/florida/
+
+# ─── United States — Georgia (1) ───────────────────────────────────────
+united-states/georgia/
