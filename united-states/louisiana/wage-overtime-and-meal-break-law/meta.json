@@ -1,0 +1,96 @@
+{
+  "row_id": "master-0110",
+  "slug": "united-states/louisiana/wage-overtime-and-meal-break-law",
+  "target_url": "/hire-in-united-states/louisiana/wage-overtime-and-meal-break-law/",
+  "country": "United States",
+  "state": "Louisiana",
+  "page_title": "Wage, overtime and meal-break law — Louisiana",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "target_keywords": [
+    "louisiana wage overtime law 2026",
+    "louisiana minimum wage 2026",
+    "louisiana overtime rules",
+    "louisiana meal break law",
+    "louisiana final paycheck law",
+    "RS 23:631 louisiana",
+    "RS 23:632 penalty louisiana"
+  ],
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "sources": [
+    {
+      "name": "LA R.S. 23:631 — Payment of wages on discharge or resignation",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=83945",
+      "accessed": "2026-05-30",
+      "layer": 1
+    },
+    {
+      "name": "LA R.S. 23:632 — Liability for failure to pay; penalty wages",
+      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-23/rs-23-632/",
+      "accessed": "2026-05-30",
+      "layer": 1
+    },
+    {
+      "name": "LA R.S. 23:213 — Minors under sixteen; meal period requirement",
+      "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-23/rs-23-213/",
+      "accessed": "2026-05-30",
+      "layer": 1
+    },
+    {
+      "name": "US DOL FLSA — Fair Labor Standards Act overview",
+      "url": "https://www.dol.gov/agencies/whd/flsa",
+      "accessed": "2026-05-30",
+      "layer": 1
+    },
+    {
+      "name": "Employment Law Handbook — Louisiana Wage and Hour Laws",
+      "url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/louisiana/wage-and-hour/",
+      "accessed": "2026-05-30",
+      "layer": 3
+    },
+    {
+      "name": "Jibble — Louisiana Meal and Rest Break Laws 2026",
+      "url": "https://www.jibble.io/labor-laws/us-state-labor-laws/louisiana/break-laws",
+      "accessed": "2026-05-30",
+      "layer": 4
+    },
+    {
+      "name": "Louisiana Compliance Cache (master-0106) — louisiana.json",
+      "url": "internal",
+      "accessed": "2026-05-30",
+      "note": "State tax, UI, and entity-vs-partner data from master-0106 cache run"
+    },
+    {
+      "name": "TED — Teamed Digital Workforce (US ICP structure)",
+      "url": "internal",
+      "accessed": "2026-05-30",
+      "note": "SUNA Solutions confirmed as primary US ICP. [TEAMED — partner: SUNA Solutions]"
+    }
+  ],
+  "pullquote_provenance": [],
+  "internal_links_used": [
+    { "anchor": "Louisiana hiring overview", "href": "../", "state": "wave-4" },
+    { "anchor": "Louisiana state income tax and UI", "href": "../state-income-tax-and-unemployment-insurance/", "state": "wave-4" },
+    { "anchor": "Louisiana termination law and at-will exceptions", "href": "../termination-law-and-at-will-exceptions/", "state": "wave-4" },
+    { "anchor": "Louisiana paid family and sick leave", "href": "../paid-family-and-sick-leave/", "state": "wave-4" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live" }
+  ],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "images": false,
+    "internal_links_neighbour": true,
+    "note": "Louisiana parent page and sibling state pages are wave-4 — relative links rendered as anchors, will be promoted when targets ship"
+  },
+  "audit_score": 88,
+  "high_concern_flags": [],
+  "compliance_cache_used": true,
+  "compliance_cache_source": "sprint/compliance-cache/louisiana.json (written by master-0106)",
+  "hero_source": "Unsplash — Ricky Beron (@nacio1966) — New Orleans cityscape with Mississippi River",
+  "hero_reused_from_sibling": "louisiana/state-income-tax-and-unemployment-insurance (Unsplash rate limit on fresh fetch; same state, same photographer)"
+}

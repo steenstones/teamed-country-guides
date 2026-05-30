@@ -1,0 +1,73 @@
+{
+  "row_id": "master-0108",
+  "slug": "united-states/louisiana/worker-classification-state-test",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+
+  "target_keywords": [
+    "louisiana worker classification test",
+    "louisiana independent contractor test 2026",
+    "louisiana abc test employment",
+    "louisiana misclassification penalty",
+    "louisiana rs 23:1472 employee test"
+  ],
+
+  "sources": [
+    { "name": "Louisiana Revised Statutes R.S. 23:1472", "url": "https://www.legis.la.gov/legis/Law.aspx?d=83555", "accessed": "2026-05-30", "layer": 1 },
+    { "name": "LWC — Worker Misclassification Information", "url": "https://www.laworks.net/UnemploymentInsurance/MisclassWorker.asp", "accessed": "2026-05-30", "layer": 1 },
+    { "name": "LWC — UI Contractors Guidelines PDF", "url": "https://www.laworks.net/Downloads/UI/WTS/UI_ContractorsGuidelines.pdf", "accessed": "2026-05-30", "layer": 1 },
+    { "name": "LWC Performance Audit — Detection and Prevention of Worker Misclassification", "url": "https://dam.ldr.la.gov/miscellaneous/LWC%20Performance%20Audit%20-%20Detection%20and%20Prevention%20of%20Worker%20Misclassification.pdf", "accessed": "2026-05-30", "layer": 1 },
+    { "name": "Louisiana RS 23:1711.1 — Rebuttable presumption", "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-23/rs-23-1711-1/", "accessed": "2026-05-30", "layer": 1 },
+    { "name": "Louisiana Civil Code Art. 2747", "url": "https://law.justia.com/codes/louisiana/2021/civil-code/article-2747/", "accessed": "2026-05-30", "layer": 1 },
+    { "name": "MSD Lawyers — LA Employers Face $5,000–$25,000 Fines", "url": "https://msdlawyers.com/la-employers-face-5000-25000-fines-for-worker-misclassification/", "accessed": "2026-05-30", "layer": 3 },
+    { "name": "DOL NPRM 2026 — Independent contractor rulemaking", "url": "https://www.dol.gov/agencies/whd/flsa/misclassification/2026rulemaking", "accessed": "2026-05-30", "layer": 1 },
+    { "name": "WorkforceHub — Louisiana Classification Laws", "url": "https://www.workforcehub.com/hr-laws-and-regulations/louisiana/work-and-labor-classification-laws-in-louisiana/", "accessed": "2026-05-30", "layer": 4 },
+    { "name": "louisiana.json cache (master-0106)", "url": "internal", "accessed": "2026-05-30", "layer": 6, "note": "State-level compliance facts: UI wage base, income tax, partner badge" }
+  ],
+
+  "pullquote_provenance": [],
+
+  "internal_links_used": [
+    { "anchor": "Louisiana tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live" }
+  ],
+
+  "retrofit_needed": {
+    "images": false,
+    "internal_links": true,
+    "note": "Louisiana state parent (/hire-in-united-states/louisiana/) and sibling pages are wave-4; rendered as plain text. Promote to anchor when those pages ship."
+  },
+
+  "editor_rounds": 1,
+
+  "audit_score": 89,
+
+  "high_concern_flags": [
+    "image_hero_reused_sibling",
+    "link_gate_warn_wave4_louisiana_parent",
+    "link_gate_warn_wave4_louisiana_siblings",
+    "dol_nprm_2026_proposed_not_final"
+  ],
+
+  "page_type": "us_state_child",
+  "schema_types_present": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "word_count_estimate": 1800,
+  "h2_literal_query_ratio": 1.0,
+  "live_internal_links_count": 5,
+  "wave4_plain_text_count": 4,
+
+  "factual_uncertainty": [
+    {
+      "field": "lwc_admin_penalty_per_worker",
+      "note": "$500/worker after written warning is LWC administrative enforcement track. $5,000–$25,000 civil penalties are a separate enforcement track. Both sourced from different statutes. Both cited in page copy with distinction maintained."
+    },
+    {
+      "field": "dol_2026_nprm",
+      "note": "DOL NPRM proposed 26th February 2026; not yet final as of 30th May 2026. Page copy marks it as 'proposed' and 'not yet final'."
+    }
+  ]
+}

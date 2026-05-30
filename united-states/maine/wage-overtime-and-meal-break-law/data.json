@@ -1,0 +1,111 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Maine",
+    "slug": "maine",
+    "abbreviation": "ME"
+  },
+  "page": {
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "1. Country",
+    "sub_cluster": "Country — US State Child",
+    "topic": "wage-overtime-and-meal-break-law",
+    "row_id": "master-0116"
+  },
+  "hero": {
+    "headline": "What are the wage, overtime and meal-break rules in Maine in 2026?",
+    "subhead": "$14.65/hr minimum wage, CPI-indexed each January. Overtime at 1.5× over 40 hours. Meal break required after 6 consecutive hours.",
+    "primary_cta": { "label": "Talk to a specialist", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the EOR vs entity crossover", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "answer_capsule": "Maine's minimum wage is $14.65 per hour in 2026, automatically indexed to CPI each January under 26 M.R.S. §664(1). Overtime kicks in at 1.5× for hours over 40 per workweek (26 M.R.S. §664(3)). After 6 consecutive hours, employees get a 30-minute break — paid only if they must stay on duty (26 M.R.S. §601). Final wages on the next regular payday or within 2 weeks of written demand.",
+  "sections": {
+    "minimum_wage": {
+      "question": "What is Maine's minimum wage in 2026?",
+      "answer_first": "Maine's minimum wage is $14.65 per hour effective 1 January 2026, set by CPI adjustment under 26 M.R.S. §664(1). It rises automatically each year.",
+      "key_facts": {
+        "rate_2026": "$14.65/hr",
+        "rate_2025": "$14.15/hr",
+        "rate_2024": "$13.80/hr",
+        "tipped_minimum": "$6.90/hr (employees receiving ≥$30/mo in tips)",
+        "indexing_mechanism": "CPI — Northeast Urban region, rounded to nearest nickel",
+        "statute": "26 M.R.S. §664(1)"
+      }
+    },
+    "overtime": {
+      "question": "Does Maine have its own overtime law?",
+      "answer_first": "Maine overtime law under 26 M.R.S. §664(3) mirrors the FLSA: 1.5× the regular rate for all hours over 40 per workweek. No daily overtime beyond 8 hours.",
+      "statute": "26 M.R.S. §664(3)"
+    },
+    "meal_break": {
+      "question": "Is a meal break required in Maine?",
+      "answer_first": "Yes. Under 26 M.R.S. §601, employees working 6 or more consecutive hours get a 30-minute break. Unpaid unless required to remain on duty.",
+      "statute": "26 M.R.S. §601",
+      "paid_threshold": "Unpaid when employee is duty-free; paid when employee must stay on station"
+    },
+    "final_pay": {
+      "question": "When must a final paycheck be paid in Maine?",
+      "answer_first": "Maine requires final wages on the next regular payday or within 2 weeks of the employee's written demand, whichever comes first, under 26 M.R.S. §626.",
+      "statute": "26 M.R.S. §626"
+    },
+    "pay_frequency": {
+      "question": "How often must Maine employers pay wages?",
+      "answer_first": "Maine's default pay frequency is weekly under 26 M.R.S. §621. Employers may pay bi-weekly or semi-monthly only with written employee agreement.",
+      "statute": "26 M.R.S. §621",
+      "default": "weekly",
+      "alternatives": ["bi-weekly (written consent)", "semi-monthly (written consent)"]
+    },
+    "eor_approach": {
+      "question": "Do you need an entity to hire in Maine?",
+      "answer_first": "No. Teamed acts as the employer of record in Maine from day one.",
+      "entity_threshold_approx": "8–10 Maine employees"
+    }
+  },
+  "faq_schema": [
+    {
+      "q": "What is Maine's minimum wage in 2026?",
+      "a": "Maine's minimum wage is $14.65 per hour in 2026, automatically adjusted each January 1 to reflect CPI changes under 26 M.R.S. §664(1). The tipped minimum is $6.90/hr for employees who regularly receive at least $30/month in tips."
+    },
+    {
+      "q": "Does Maine have its own overtime law?",
+      "a": "Maine overtime law under 26 M.R.S. §664(3) mirrors the federal FLSA standard: 1.5× the regular rate for all hours worked beyond 40 per workweek. Maine does not require daily overtime beyond 8 hours."
+    },
+    {
+      "q": "Is a meal break required in Maine?",
+      "a": "Yes. Under 26 M.R.S. §601, employees who work 6 or more consecutive hours are entitled to a 30-minute break. The break is unpaid unless the employee is required to remain on duty, in which case it must be paid as working time."
+    },
+    {
+      "q": "When must a final paycheck be paid in Maine?",
+      "a": "Under 26 M.R.S. §626, Maine employers must pay all final wages on the next regular payday, or within 2 weeks of the employee's written demand, whichever comes first."
+    },
+    {
+      "q": "How often must Maine employers pay wages?",
+      "a": "Maine law under 26 M.R.S. §621 sets a default weekly pay frequency. Employers may pay less frequently only if employees agree in writing, but cannot drop below bi-weekly."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_photographer": "Brett Wharton",
+    "hero_photographer_url": "https://unsplash.com/@brettwharton?utm_source=teamed&utm_medium=referral",
+    "hero_source": "Unsplash"
+  },
+  "meta": {
+    "title": "Maine Wage, Overtime and Meal-Break Law 2026.Teamed",
+    "description": "Maine minimum wage is $14.65/hr in 2026, CPI-indexed annually. Overtime at 1.5x over 40 hrs/wk. 30-min meal break after 6 hrs. EOR hiring via Teamed at $599/month flat.",
+    "target_keywords": [
+      "Maine minimum wage 2026",
+      "Maine overtime law",
+      "Maine meal break requirements",
+      "Maine wage law employer",
+      "hire employees Maine"
+    ],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

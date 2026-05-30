@@ -1,0 +1,98 @@
+{
+  "row_id": "master-0115",
+  "slug": "united-states/maine/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/maine/paid-family-and-sick-leave/",
+  "page_title": "Paid family and sick leave — Maine | Employer Guide 2026",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "target_keywords": [
+    "Maine paid family leave employer",
+    "Maine paid leave law 2026",
+    "Maine PFML employer contribution",
+    "Maine earned paid leave requirements",
+    "hire employees Maine paid leave"
+  ],
+  "sources": [
+    {
+      "label": "Maine Earned Paid Leave statute",
+      "url": "https://legislature.maine.gov/statutes/26/title26sec637-2.html",
+      "accessed": "2026-05-30",
+      "section": "epl_block"
+    },
+    {
+      "label": "Maine PFML programme official page",
+      "url": "https://www.maine.gov/paidleave/",
+      "accessed": "2026-05-30",
+      "section": "pfml_block"
+    },
+    {
+      "label": "Ogletree — Maine PFML benefits start May 2026",
+      "url": "https://ogletree.com/insights-resources/blog-posts/maine-will-launch-pfml-benefits-in-may-2026/",
+      "accessed": "2026-05-30",
+      "section": "pfml_block"
+    },
+    {
+      "label": "Maine DOL — minimum wage $15.10 effective 1 January 2026",
+      "url": "https://www.maine.gov/labor/news_events/article.shtml?id=13338762",
+      "accessed": "2026-05-30",
+      "section": "good_to_know"
+    },
+    {
+      "label": "Maine PFML employer FAQ 2026",
+      "url": "https://www.maine.gov/paidleave/docs/2026/employers/faq/employerFAQenglish.pdf",
+      "accessed": "2026-05-30",
+      "section": "pfml_block"
+    },
+    {
+      "label": "Maine Earned Paid Leave — LegalClarity (LD 55 carryover analysis)",
+      "url": "https://legalclarity.org/maine-earned-paid-leave-faq-what-employees-and-employers-should-know/",
+      "accessed": "2026-05-30",
+      "section": "epl_block"
+    },
+    {
+      "label": "compliance-cache/maine.json (master-0112 primer)",
+      "url": "sprint/compliance-cache/maine.json",
+      "accessed": "2026-05-30",
+      "section": "at_a_glance"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "status": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "status": "live" }
+  ],
+  "pullquote_provenance": [],
+  "editor_rounds": 1,
+  "linter_result": "pass",
+  "linter_block_failures": 0,
+  "linter_warn_failures": 1,
+  "linter_warn_detail": "cta.staging_url_warn — crso-cal.vercel.app is the canonical live URL per internal-links.json; warn is batch-wide",
+  "audit_score": 88,
+  "high_concern_flags": [
+    "prompt_correction_min_wage",
+    "link_gate_warn_crossover_staging"
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "person_schema": true,
+    "note": "Neighbour links to other Maine children will be added when remaining Maine children ship. Person schema deferred to Pass 2."
+  },
+  "compliance_cache_used": "sprint/compliance-cache/maine.json",
+  "compliance_cache_written_by": "master-0112 (PRIMER)",
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 163142,
+    "photographer": "Michael Denning",
+    "unsplash_handle": "coffeeguy77",
+    "unsplash_url": "https://unsplash.com/photos/LXomcUwf4vQ",
+    "query": "Portland Maine harbor lighthouse coast"
+  },
+  "inline_visual": "compact-postcard (HTML/CSS) — Maine PFML law postcard (26 M.R.S. §850, 1 May 2026 live date)",
+  "batch": "2026-05-30",
+  "sibling_rows": ["master-0112", "master-0113", "master-0114", "master-0116"],
+  "sameness_check_notes": "Opening paragraph references dual-mandate uniqueness specific to Maine. Tom tagline references 1 May 2026, 40 hours/any reason, 12 weeks/$1,198.84/week. Maximally distinct from Iowa/Kansas/Kentucky/Louisiana (no-state-PFL pages)."
+}

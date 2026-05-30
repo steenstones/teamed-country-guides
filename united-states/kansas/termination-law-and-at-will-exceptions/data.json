@@ -1,0 +1,112 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Kansas",
+    "slug": "united-states/kansas/termination-law-and-at-will-exceptions",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "hero": {
+    "headline": "What is Kansas termination law and when does at-will not apply?",
+    "subhead": "No notice, no mandatory severance, next regular payday for final pay. Three exceptions change everything.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the EOR vs entity crossover", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "at_a_glance": {
+    "at_will": "Yes",
+    "notice_required": "None (statutory)",
+    "final_pay_deadline": "Next regular payday (KSA 44-315)",
+    "severance_required": "No",
+    "kaad_threshold": "4 employees",
+    "federal_title_vii_threshold": "15 employees",
+    "kwpa_penalty": "1% daily from day 9, cap 100% unpaid wages",
+    "public_policy_exception_case": "Palmer v. Brown, 242 Kan. 893 (1988)",
+    "implied_contract_case": "Morriss v. Coleman Co., 241 Kan. 501 (1987)",
+    "verified_date": "2026-05-30"
+  },
+  "sections": {
+    "at_will": {
+      "question": "Is Kansas an at-will employment state?",
+      "answer_first": "Yes. Kansas follows the at-will doctrine: either party may end employment at any time, for any lawful reason, or for no reason. No statutory notice period exists for private-sector employees.",
+      "body": "At-will means what it says in Kansas. You can terminate without performance documentation, without a warning process, and without giving a reason, provided the termination doesn't run into one of the three established exceptions. Three exceptions narrow the rule in ways that matter in practice. Understand them before your first separation."
+    },
+    "exceptions": {
+      "question": "What are the exceptions to at-will employment in Kansas?",
+      "answer_first": "Three exceptions limit at-will termination in Kansas: the public policy doctrine, the implied contract exception, and statutory anti-discrimination protections under KAAD.",
+      "body": "Public policy exception from Palmer v. Brown (1988): retaliation for good-faith whistleblowing, workers' compensation claims, FELA claims, and public-employee First Amendment exercise. Implied contract exception from Morriss v. Coleman Co. (1987): handbook language and oral promises. KAAD: covers employers with 4+ employees — well below Title VII's 15-employee federal floor."
+    },
+    "notice": {
+      "question": "Does Kansas require advance notice of termination?",
+      "answer_first": "No. Kansas imposes no statutory advance notice requirement for at-will employees. The federal WARN Act applies to mass layoffs of 50+ employees at employers with 100+ workers.",
+      "body": "The absence of a notice requirement applies in both directions. Contracts and handbooks may specify notice periods. Federal WARN requires 60 days for qualifying mass layoffs."
+    },
+    "final_pay": {
+      "question": "When is the final paycheck due in Kansas after termination?",
+      "answer_first": "The Kansas Wage Payment Act (KSA 44-315) sets the deadline as the next regular payday, regardless of whether the employee was fired or resigned.",
+      "body": "Same deadline for fired and resigned employees. Final paycheck must include all earned wages. KWPA penalty: 1% daily from day 9, up to 100% of unpaid wages. Cannot be conditioned on return of equipment or signing of separation agreement.",
+      "notice_period_table": [
+        { "scenario": "Termination by employer", "deadline": "Next regular payday", "statute": "KSA 44-315" },
+        { "scenario": "Voluntary resignation", "deadline": "Next regular payday", "statute": "KSA 44-315" },
+        { "scenario": "Penalty start", "deadline": "Day 9 (1% / day, excl. Sundays and legal holidays)", "statute": "KSA 44-315" },
+        { "scenario": "Penalty cap", "deadline": "100% of unpaid wages", "statute": "KSA 44-315" }
+      ]
+    },
+    "severance": {
+      "question": "Is severance pay required in Kansas?",
+      "answer_first": "No. Kansas law does not require severance pay. The Kansas Department of Labor confirms it is voluntary unless stated in a contract, company policy, or collective bargaining agreement.",
+      "body": "Severance is a business decision. OWBPA requirements apply to waivers of age discrimination claims from employees aged 40+: 21-day consideration period and 7-day revocation right."
+    },
+    "discrimination_protections": {
+      "question": "What anti-discrimination protections apply at termination in Kansas?",
+      "answer_first": "The Kansas Act Against Discrimination (KAAD, KSA 44-1001 et seq.) prohibits termination based on protected characteristics for employers with 4 or more employees.",
+      "body": "KAAD covers race, colour, ancestry, national origin, sex, religion, disability, HIV/AIDS, genetic information, military status. KADEA covers age (40+). Both apply at 4 employees. KHRC complaints must be filed within 180 days. Retaliation prohibited under KSA 44-1009."
+    },
+    "safe_termination": {
+      "question": "How do you terminate an employee in Kansas without legal risk?",
+      "answer_first": "Document performance or business reason, issue the final paycheck by the next regular payday, and verify the termination doesn't cross one of the three at-will exceptions.",
+      "body": "Pre-termination: confirm reason isn't tied to KAAD protected class, WC claim, discrimination complaint, or handbook-implied process. Issue written notice. Collect equipment. Final paycheck on next regular payday, not conditioned on post-termination actions. WARN Act at 100+ employees, 50+ layoffs."
+    }
+  },
+  "faq_schema": [
+    {
+      "q": "Is Kansas an at-will employment state?",
+      "a": "Yes. Kansas is an at-will employment state. Either party may end the employment relationship at any time, for any lawful reason, or for no reason. Three exceptions limit this: public policy, implied contract, and statutory anti-discrimination protections under the Kansas Act Against Discrimination (KSA 44-1001)."
+    },
+    {
+      "q": "When is the final paycheck due after termination in Kansas?",
+      "a": "Under the Kansas Wage Payment Act (KSA 44-315), the final paycheck is due no later than the next regular payday, whether the employee was fired or resigned. Wilful non-payment triggers a 1% daily wage penalty from day 9, capped at 100% of unpaid wages."
+    },
+    {
+      "q": "Does Kansas require advance notice before termination?",
+      "a": "No. Kansas law does not require employers to give advance notice of termination unless a contract or collective bargaining agreement specifies otherwise. The federal WARN Act requires 60 days' notice for qualifying mass layoffs."
+    },
+    {
+      "q": "Is severance pay required in Kansas?",
+      "a": "No. Kansas does not require severance pay by statute. It is voluntary unless stated in a contract, policy, or collective bargaining agreement. OWBPA requirements apply to waivers involving employees aged 40 and over."
+    },
+    {
+      "q": "What is the KAAD employer threshold in Kansas?",
+      "a": "The Kansas Act Against Discrimination (KAAD) applies to employers with 4 or more employees — significantly lower than the federal Title VII threshold of 15 employees."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live", "context": "core" },
+    { "anchor": "GEMO entity management", "href": "/entity-management/", "state": "live", "context": "core" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live", "context": "tool" },
+    { "anchor": "Pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live", "context": "pricing" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "state": "live", "context": "CTA" }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "Kansas State Capitol building in Topeka, its Renaissance Revival dome rising above the surrounding plains landscape.",
+    "hero_credit": "Nils Huenerfuerst via Unsplash"
+  },
+  "meta": {
+    "title": "Kansas Termination Law and At-Will Exceptions 2026.Teamed",
+    "description": "Kansas final pay is due next regular payday under KSA 44-313. No notice required. KAAD covers employers with just 4 employees. EOR compliance guide from Teamed.",
+    "target_keywords": ["Kansas termination law", "Kansas at-will employment exceptions", "Kansas final paycheck law", "employer of record Kansas"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

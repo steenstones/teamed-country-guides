@@ -1,0 +1,133 @@
+{
+  "row_id": "master-0113",
+  "slug": "united-states/maine/termination-law-and-at-will-exceptions",
+  "target_url": "/hire-in-united-states/maine/termination-law-and-at-will-exceptions/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "generated_at": "2026-05-30T00:00:00Z",
+  "sources_verified_at": "2026-05-30T00:00:00Z",
+  "batch_spec_version": "phase-1.0",
+  "sprint_mode": true,
+  "sibling_row": true,
+  "compliance_cache_used": true,
+  "compliance_cache_file": "sprint/compliance-cache/maine.json",
+  "compliance_cache_fetched_by": "master-0112",
+
+  "target_keywords": [
+    "Maine at-will employment exceptions",
+    "Maine termination law 2026",
+    "Maine final paycheck law",
+    "Maine Earned Paid Leave termination payout",
+    "Maine wrongful termination",
+    "Maine MHRA"
+  ],
+
+  "sources": [
+    {
+      "claim": "At-will doctrine — Maine common law",
+      "url": "https://www.mainelegislature.org/legis/statutes/26/title26sec626.html",
+      "type": "primary_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "claim": "Final pay — 26 M.R.S. §626",
+      "url": "https://www.mainelegislature.org/legis/statutes/26/title26sec626.html",
+      "type": "primary_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "claim": "Earned Paid Leave — 26 M.R.S. §637, payout obligation",
+      "url": "https://www.mainelegislature.org/legis/statutes/26/title26sec637.html",
+      "type": "primary_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "claim": "EPL payout obligation on termination — Maine DOL guidance",
+      "url": "https://www.maine.gov/labor/labor_laws/earned_paid_leave.shtml",
+      "type": "regulatory_guidance",
+      "verified": "2026-05-30"
+    },
+    {
+      "claim": "Maine Human Rights Act — 5 M.R.S. §4572",
+      "url": "https://www.mainelegislature.org/legis/statutes/5/title5sec4572.html",
+      "type": "primary_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "claim": "Workers' comp retaliation — 39-A M.R.S. §353",
+      "url": "https://www.mainelegislature.org/legis/statutes/39-A/title39-Asec353.html",
+      "type": "primary_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "claim": "Maine PFML — benefits May 2026, anti-retaliation",
+      "url": "https://www.maine.gov/paidleave/",
+      "type": "regulatory_guidance",
+      "verified": "2026-05-30"
+    },
+    {
+      "claim": "Maine income tax brackets, UI wage base, minimum wage — from maine.json cache",
+      "url": "https://www.maine.gov/revenue",
+      "type": "regulatory_cache",
+      "verified": "2026-05-30"
+    }
+  ],
+
+  "internal_links_used": [
+    { "anchor": "Maine state guide overview", "href": "../", "state": "local" },
+    { "anchor": "Maine state income tax and UI", "href": "../state-income-tax-and-unemployment-insurance/", "state": "local" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "state": "live" }
+  ],
+
+  "editor_rounds": 1,
+  "editor_model": "haiku",
+  "editor_converged": true,
+  "editor_violations_final": [],
+
+  "retrofit_needed": {
+    "images": false,
+    "internal_links": false,
+    "neighbour_links": true,
+    "note": "Neighbour US state links (Iowa, Kansas, Kentucky, Louisiana) to be added when those pages are promoted to live status"
+  },
+
+  "high_concern_flags": [],
+
+  "factual_uncertainty_flags": [
+    {
+      "field": "epl_payout_statutory_text",
+      "note": "26 M.R.S. §637 does not explicitly enumerate 'termination payout' in the statute text; Maine DOL FAQ interprets it as required. Content relies on Maine DOL guidance as authoritative. If employer policy says no payout, conflict with DOL FAQ exists. Treated as DOL-authoritative per agency guidance rule.",
+      "severity": "warn"
+    }
+  ],
+
+  "link_gate_warnings": [
+    {
+      "anchor": "Maine state guide overview",
+      "href": "../",
+      "state": "local — not yet a live teamed.global URL",
+      "note": "Renders as <a> within the bundle; will resolve when state parent page ships"
+    }
+  ],
+
+  "audit_score": 88,
+  "audit_score_breakdown": {
+    "information_gain": 10,
+    "answer_capsule_entity_density": 9,
+    "h2_literal_query_ratio": 9,
+    "stat_density": 8,
+    "primary_source_citations": 9,
+    "table_count": 9,
+    "schema_stack_complete": 10,
+    "teamed_difference_density": 9,
+    "tom_tagline_topic_specific": 10,
+    "word_count_in_range": 5
+  },
+  "audit_notes": "Word count deduction: ~1,550 words, within 500-2,000 band but near the compact end for a termination page. All Teamed-difference rules satisfied. Tom tagline references EPL §637 payout and §626 demand trigger — two Maine-specific statutory facts."
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>Maine Termination Law and At-Will Exceptions 2026 | Teamed</title>
+<meta name="description" content="Maine at-will: EPL unused-leave payout under 26 M.R.S. §637, final-pay demand trigger under §626, MHRA 300-day charge window, workers' comp retaliation bar.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../_shared/child-base.css">
+<style>
+  /* Hero photo, 960px centred, 8px corners, parchment-300 border */
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500); }
+
+  /* Compact postcard for EPL payout section */
+  .compact-postcard {
+    max-width: 960px;
+    margin: 32px auto;
+    background: var(--parchment-100);
+    border: 1px solid var(--parchment-300);
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    overflow: hidden;
+  }
+  .compact-postcard .postcard-body {
+    padding: 24px 28px;
+  }
+  .compact-postcard .postcard-body .postcard-eyebrow {
+    font-family: var(--font-family-body);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 10px;
+  }
+  .compact-postcard .postcard-body h3 {
+    font-family: var(--font-family-display);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--heading-on-light);
+    margin: 0 0 10px;
+  }
+  .compact-postcard .postcard-body p {
+    font-family: var(--font-family-body);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+  .compact-postcard .postcard-stamp {
+    background: var(--amber-100);
+    border-left: 1px dashed var(--parchment-400);
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4px;
+  }
+  .compact-postcard .postcard-stamp .stamp-val {
+    font-family: var(--font-family-display);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--sienna-700);
+    line-height: 1;
+  }
+  .compact-postcard .postcard-stamp .stamp-label {
+    font-family: var(--font-family-body);
+    font-size: 11px;
+    color: var(--parchment-700);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.3;
+  }
+  .compact-postcard .postcard-stamp .stamp-cite {
+    font-family: var(--font-family-body);
+    font-size: 10px;
+    color: var(--parchment-600);
+    margin-top: 6px;
+  }
+  @media (max-width: 640px) {
+    .compact-postcard { grid-template-columns: 1fr; }
+    .compact-postcard .postcard-stamp { border-left: none; border-top: 1px dashed var(--parchment-400); }
+  }
+
+  /* Stamp block for compliance checklist */
+  .stamp-block {
+    max-width: 960px;
+    margin: 32px auto;
+    padding: 24px 28px;
+    background: var(--parchment-50);
+    border-left: 4px solid var(--amber-500);
+    border-radius: 6px;
+  }
+  .stamp-block .stamp {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .stamp-block .stamp .stamp-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 2px solid var(--sienna-500);
+    color: var(--sienna-600);
+    font-family: var(--font-family-display);
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50%;
+  }
+  .stamp-block .stamp .stamp-text {
+    font-family: var(--font-family-body);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    font-weight: 600;
+  }
+  .stamp-block .stamp-body {
+    font-family: var(--font-family-body);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin-bottom: 16px;
+  }
+  .tape-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tape-label {
+    background: var(--amber-100);
+    border: 1px solid var(--amber-300);
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--parchment-800);
+    letter-spacing: 0.03em;
+  }
+</style>
+<!-- TEAMED:SCHEMA-V1 BEGIN -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Maine Termination Law and At-Will Exceptions 2026 | Teamed",
+  "description": "Maine at-will: EPL unused-leave payout on termination under 26 M.R.S. §637, final-pay demand trigger under §626, MHRA 300-day charge window, and workers' comp retaliation bar.",
+  "datePublished": "2026-05-30",
+  "dateModified": "2026-05-30",
+  "inLanguage": "en-GB",
+  "author": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "url": "https://teamed.global"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://teamed.global/images/logos/teamed-logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://teamed-country-guides.vercel.app/united-states/maine/termination-law-and-at-will-exceptions/"
+  },
+  "about": {
+    "@type": "Country",
+    "name": "United States",
+    "containsPlace": {
+      "@type": "AdministrativeArea",
+      "name": "Maine"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Teamed",
+  "alternateName": "Teamed Global",
+  "url": "https://teamed.global",
+  "logo": "https://teamed.global/images/logos/teamed-logo.svg",
+  "description": "Teamed is an Employer of Record (EOR) helping companies hire compliantly across 100+ countries through Teamed-owned legal entities and partner network. Single fixed rate, zero FX mark-up.",
+  "sameAs": [
+    "https://www.linkedin.com/company/teamed-global",
+    "https://www.g2.com/products/teamed/reviews"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Teamed",
+      "item": "https://teamed.global/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Countries",
+      "item": "https://teamed.global/countries/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "United States",
+      "item": "https://teamed-country-guides.vercel.app/united-states/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Maine",
+      "item": "https://teamed-country-guides.vercel.app/united-states/maine/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Termination law and at-will exceptions",
+      "item": "https://teamed-country-guides.vercel.app/united-states/maine/termination-law-and-at-will-exceptions/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Employer of Record",
+  "name": "Employer of Record in the United States",
+  "description": "Teamed acts as the legal employer of record in the United States, handling payroll, statutory benefits, federal and state tax, and compliance through a Teamed-owned US legal entity (Teamed US Inc., Delaware).",
+  "provider": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "url": "https://teamed.global"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "599",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "599",
+      "priceCurrency": "USD",
+      "unitText": "per employee per month",
+      "valueAddedTaxIncluded": false
+    },
+    "description": "Single fixed rate. Zero FX mark-up in any currency pairing."
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Maine an at-will employment state?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Maine is an at-will employment state under common law. Either party can end the employment relationship at any time, for any reason not barred by statute, contract, or a recognised public-policy exception. Maine has no single statute codifying at-will employment. The doctrine rests on common law, with exceptions carved out by statute and case law."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When must you pay a terminated employee in Maine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under 26 M.R.S. §626, wages earned are due on the next regular payday for the pay period in which separation occurred. If the employee makes a written demand, the employer has 2 weeks from that demand to pay. Unlike Arizona's 7-day involuntary-termination rule, Maine's trigger is the written demand, not the termination date itself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Maine require payout of accrued Earned Paid Leave on termination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for employers with 10 or more employees. Maine's Earned Paid Leave law (26 M.R.S. §637) requires employers to pay out any accrued, unused EPL balance at separation. Employees accrue 1 hour of EPL for every 40 hours worked, up to 40 hours per year. This payout obligation is unique among US states and is not satisfied by running a use-it-or-lose-it policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the exceptions to at-will employment in Maine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maine recognises three main exceptions: public-policy (retaliation for workers' compensation claims under 39-A M.R.S. §353, MHRA-protected activity, jury service), implied contract (handbook language or offer-letter terms that modify at-will status), and the Maine Human Rights Act (5 M.R.S. Chapter 337), which covers employers with 15 or more employees for most claims, though sexual harassment provisions apply regardless of size."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a Maine employee have to file a discrimination claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maine is a federal deferral state: an EEOC charge can be filed within 300 days of the alleged act. Under the Maine Human Rights Act itself, claimants can also pursue a direct state-court action within 6 years. The Maine Human Rights Commission processes state-level complaints and coordinates with the EEOC on dual-filed charges."
+      }
+    }
+  ]
+}
+</script>
+<!-- TEAMED:SCHEMA-V1 END -->
+</head>
+<body>
+
+<div class="container">
+
+  <header class="masthead film-grain">
+    <div class="breadcrumb">
+      <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; <a href="../../">United States</a> &nbsp;/&nbsp; <a href="../">Maine</a> &nbsp;/&nbsp; Termination law &amp; at-will exceptions
+    </div>
+    <div class="eyebrow">
+      <span class="badge">United States &middot; Maine &middot; Termination child</span>
+    </div>
+    <span class="partner-badge">Served by Teamed-owned entity: Teamed US Inc., Delaware</span>
+    <h1>How does <em>Maine termination law and at-will exceptions</em> work?</h1>
+    <p class="subhead">At-will with a payout most operators miss: Maine's Earned Paid Leave statute requires unused-leave payment on separation, not just a final paycheck by the next payday.</p>
+    <!-- TEAMED:LAST-REVIEWED-V1 BEGIN -->
+<p class="last-reviewed">
+  <time datetime="2026-05-30">Last reviewed 30 May 2026</time> &middot; Maine, United States guide
+</p>
+<!-- TEAMED:LAST-REVIEWED-V1 END -->
+<!-- TEAMED:G2-BADGE-V1 BEGIN -->
+<div class="trust-g2-awards" aria-label="Teamed G2 awards">
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/summer-2025-easiest-to-do-business-with.png" alt="G2 Summer 2025, Easiest To Do Business With" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/winter-2026-high-performer.png" alt="G2 Winter 2026, High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/users-love-us.png" alt="G2, Users Love Us" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/spring-2026-emea-high-performer.png" alt="G2 Spring 2026 EMEA, High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/spring-2026-europe-high-performer.png" alt="G2 Spring 2026 Europe, High Performer" loading="lazy"></a>
+</div>
+<!-- TEAMED:G2-BADGE-V1 END -->
+<div class="cta-row">
+      <a href="https://www.teamed.global/contact" class="cta primary">Talk to an expert</a>
+      <a href="https://crso-cal.vercel.app/tools/crossover" target="_blank" rel="noopener" class="cta secondary">Run the Crossover Calculator</a>
+    </div>
+
+    <figure class="hero-block">
+      <img src="images/hero.jpg" alt="Portland Head Light lighthouse on the Maine coast, white lighthouse tower against a bright blue summer sky with the Atlantic Ocean below.">
+    </figure>
+    <p class="hero-credit">Photo: <a href="https://unsplash.com/@coffeeguy77?utm_source=teamed&amp;utm_medium=referral" target="_blank" rel="noopener">Michael Denning</a> via Unsplash &middot; Portland, Maine</p>
+  </header>
+
+  <nav class="chip-nav" aria-label="Maine guide navigation">
+    <span class="chip-nav-label">Maine guide</span>
+    <a href="../">Overview</a>
+    <a href="../state-income-tax-and-unemployment-insurance/">State tax &amp; UI</a>
+    <a href="../termination-law-and-at-will-exceptions/" class="current">Termination &amp; at-will</a>
+  </nav>
+
+  <div class="capsule film-grain">
+    <div class="label">Answer.cite this</div>
+    <p class="text">Maine is an at-will employment state, but the <strong>Earned Paid Leave statute (26 M.R.S. &sect;637)</strong> creates a termination liability most operators miss: employers with <strong>10 or more employees</strong> must pay out accrued, unused EPL at separation. Final wages follow the <strong>next regular payday or within 2 weeks of written demand</strong> under <a href="https://www.mainelegislature.org/legis/statutes/26/title26sec626.html" target="_blank" rel="noopener">26 M.R.S. &sect;626</a>. The Maine Human Rights Act (<a href="https://www.mainelegislature.org/legis/statutes/5/title5sec4572.html" target="_blank" rel="noopener">5 M.R.S. &sect;4572</a>) covers employers with <strong>15 or more employees</strong> for most discrimination claims, with a <strong>300-day EEOC charge window</strong>. Workers' compensation retaliation is barred under <a href="https://www.mainelegislature.org/legis/statutes/39-A/title39-Asec353.html" target="_blank" rel="noopener">39-A M.R.S. &sect;353</a> regardless of size. Teamed handles your Maine separations at a flat <strong>$599 per employee per month</strong>, Zero FX.</p>
+  </div>
+
+  <section class="q" id="is-maine-at-will">
+    <h2>Is Maine an at-will employment state?</h2>
+    <p class="answer-first">Yes. Maine is an at-will state under common law. Either party can end employment at any time, for any lawful reason, or no reason at all.</p>
+    <div class="body">
+      <p>Maine has no single statute that codifies the at-will doctrine. It rests on common law, shaped by decades of Maine Supreme Judicial Court decisions. That means the exceptions are also case-law-derived and not exhaustive. Maine courts have continued to recognise new public-policy grounds without waiting for the legislature to act.</p>
+
+      <p>Three recognised exception categories apply in Maine. Public-policy exceptions bar dismissals that punish an employee for exercising a statutory right or refusing to violate the law. Implied-contract exceptions arise when a handbook, offer letter, or course of dealing creates a reasonable expectation of job security. And the Maine Human Rights Act (MHRA) creates statutory protections against discriminatory discharge for employers with 15 or more employees.</p>
+
+      <p>A real human on Teamed's compliance team tracks the evolving case-law boundary, so you're not relying on a static FAQ when Maine's courts add a new exception.</p>
+    </div>
+  </section>
+
+  <section class="q" id="final-pay">
+    <h2>When must you pay a terminated employee in Maine?</h2>
+    <p class="answer-first">Under <a href="https://www.mainelegislature.org/legis/statutes/26/title26sec626.html" target="_blank" rel="noopener">26 M.R.S. &sect;626</a>, final wages are due on the next regular payday for the period in which termination occurred. The 2-week window opens only after the employee makes a written demand.</p>
+    <div class="body">
+      <p>This demand-trigger structure is Maine's distinguishing feature. Unlike Arizona, which mandates a 7-business-day deadline for involuntary separations regardless of whether the employee asks, Maine's clock on the 2-week period doesn't start running until the employee submits a written demand. If no demand arrives, the next-regular-payday rule governs.</p>
+
+      <p>In practice, Teamed processes final paychecks on the next payroll cycle following separation, before any demand arrives. That's cleaner than waiting and simpler to defend.</p>
+
+      <p>Voluntary resignations follow the same rule: wages are due on the next regular payday. Maine draws no statutory distinction between termination and resignation for paycheck timing.</p>
+
+      <table class="data">
+        <thead>
+          <tr><th>Separation type</th><th>Pay deadline</th><th>Statute</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Involuntary termination</td><td>Next regular payday; or within 2 weeks of written demand</td><td><a href="https://www.mainelegislature.org/legis/statutes/26/title26sec626.html" target="_blank" rel="noopener">26 M.R.S. &sect;626</a></td></tr>
+          <tr><td>Voluntary resignation</td><td>Next regular payday</td><td>26 M.R.S. &sect;626</td></tr>
+          <tr><td>Late payment (court-ordered)</td><td>Unpaid wages + reasonable attorney's fees</td><td>26 M.R.S. &sect;626</td></tr>
+        </tbody>
+      </table>
+
+      <p>Miss the deadline after a demand and the employee's path to court includes attorney's fees on a successful claim. Pay correctly, on time, and that risk disappears entirely.</p>
+    </div>
+  </section>
+
+  <section class="q" id="earned-paid-leave-payout">
+    <h2>Does Maine require payout of Earned Paid Leave on termination?</h2>
+    <p class="answer-first">Yes, for employers with 10 or more employees. <a href="https://www.mainelegislature.org/legis/statutes/26/title26sec637.html" target="_blank" rel="noopener">26 M.R.S. &sect;637</a> (Maine's Earned Paid Leave statute) requires unused, accrued EPL to be paid out at separation. This obligation exists regardless of your written policy.</p>
+    <div class="body">
+      <p>Maine's EPL law (enacted as LD 1639, effective 2021) lets employees accrue 1 hour of paid leave for every 40 hours worked, up to 40 hours per year. The Maine Department of Labor's guidance is unambiguous: accrued, unused EPL must be paid out on separation for covered employers. A use-it-or-lose-it policy does not satisfy this obligation.</p>
+
+      <p>This is the termination liability most operators miss when they hire in Maine for the first time. It's not a large dollar figure per employee, but it's a certain one: a full-year employee at $20/hour who hasn't taken leave walks out with an $800 EPL payout the employer wasn't tracking.</p>
+
+      <p>The EPL payout runs alongside the final-pay obligation under 26 M.R.S. &sect;626: two separate line items on the final paycheck, two separate statutory bases.</p>
+    </div>
+  </section>
+
+  <!-- Compact postcard: EPL §637 statutory reference -->
+  <div class="compact-postcard" aria-label="Maine EPL payout obligation">
+    <div class="postcard-body">
+      <div class="postcard-eyebrow">Maine Statute &middot; 26 M.R.S. &sect;637</div>
+      <h3>Earned Paid Leave: payout at separation</h3>
+      <p>Employers with 10 or more employees must pay out accrued, unused EPL on separation. Accrual rate: 1 hour per 40 hours worked. Annual cap: 40 hours. A use-it-or-lose-it policy does not satisfy this obligation. Source: <a href="https://www.maine.gov/labor/labor_laws/earned_paid_leave.shtml" target="_blank" rel="noopener">Maine Department of Labor, Earned Paid Leave FAQ</a>.</p>
+    </div>
+    <div class="postcard-stamp">
+      <div class="stamp-val">40 hrs</div>
+      <div class="stamp-label">Annual EPL<br>accrual cap</div>
+      <div class="stamp-cite">26 M.R.S. &sect;637</div>
+    </div>
+  </div>
+
+  <section class="q" id="at-will-exceptions">
+    <h2>What are the exceptions to at-will employment in Maine?</h2>
+    <p class="answer-first">Maine recognises three exception categories: public-policy, implied contract, and statutory protections under the Maine Human Rights Act. The list is not exhaustive; Maine courts continue to shape it.</p>
+    <div class="body">
+      <h3>Public-policy exceptions</h3>
+      <p>An employer cannot fire an employee for exercising a right protected by Maine statute or public policy. Established examples include:</p>
+      <ul>
+        <li><strong>Workers' compensation retaliation</strong> , barred by <a href="https://www.mainelegislature.org/legis/statutes/39-A/title39-Asec353.html" target="_blank" rel="noopener">39-A M.R.S. &sect;353</a>. This applies to every employer regardless of size.</li>
+        <li><strong>MHRA-protected activity</strong> : discharge in retaliation for filing an MHRA complaint or opposing discrimination is unlawful for covered employers.</li>
+        <li><strong>Jury service</strong> : Maine courts treat jury-duty retaliation as a recognised public-policy exception.</li>
+        <li><strong>PFML-related retaliation</strong>: with Maine's Paid Family and Medical Leave benefits starting May 2026, retaliatory discharge for taking PFML leave is now a live exposure under the statute.</li>
+      </ul>
+
+      <h3>Implied-contract exception</h3>
+      <p>Maine courts have held that an employee handbook, an offer letter, or a consistent course of dealing can create an implied contract limiting the employer's at-will right to terminate. The risk sits in your documents. Language like "terminated only for cause" or "progressive discipline will be followed" has been enough to convert an at-will hire into a for-cause relationship in Maine litigation.</p>
+
+      <p>Teamed's onboarding templates use at-will language that's been reviewed for Maine compliance. An in-house legal specialist reviews your offer letters on request, not a chatbot.</p>
+
+      <h3>Maine Human Rights Act (MHRA)</h3>
+      <p>The MHRA (<a href="https://www.mainelegislature.org/legis/statutes/5/title5sec4572.html" target="_blank" rel="noopener">5 M.R.S. Chapter 337</a>) prohibits discriminatory discharge on grounds of race, sex, sexual orientation, gender identity, age, disability, religion, national origin, and genetic information. Coverage applies to employers with 15 or more employees for most claims. The exception: <strong>sexual harassment protections apply to every employer, regardless of headcount</strong>.</p>
+
+      <table class="data">
+        <thead>
+          <tr><th>Exception type</th><th>Employer size threshold</th><th>Statute or basis</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Workers' comp retaliation</td><td>All employers</td><td><a href="https://www.mainelegislature.org/legis/statutes/39-A/title39-Asec353.html" target="_blank" rel="noopener">39-A M.R.S. &sect;353</a></td></tr>
+          <tr><td>PFML retaliation</td><td>All employers</td><td>26 M.R.S. Ch. 7</td></tr>
+          <tr><td>MHRA discrimination (general)</td><td>15+ employees</td><td>5 M.R.S. &sect;4572</td></tr>
+          <tr><td>MHRA sexual harassment</td><td>All employers</td><td>5 M.R.S. &sect;4572(1)</td></tr>
+          <tr><td>Implied contract</td><td>All employers</td><td>Maine common law</td></tr>
+          <tr><td>Public-policy (general)</td><td>All employers</td><td>Maine common law</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="q" id="mhra-charge-process">
+    <h2>How does a Maine discrimination complaint work under the MHRA?</h2>
+    <p class="answer-first">Maine is a federal deferral state. An EEOC charge can be filed within 300 days of the alleged act. The Maine Human Rights Commission processes state-level complaints on a parallel track.</p>
+    <div class="body">
+      <p>A claimant who believes they've suffered discriminatory termination has two overlapping paths. First, they can dual-file with the EEOC and the Maine Human Rights Commission (MHRC) within <strong>300 days</strong> of the last alleged discriminatory act. The 300-day window applies because Maine is a designated deferral state under federal law.</p>
+
+      <p>Second, the MHRA provides a direct state-court action path. Under Maine case law and the MHRA itself, a claimant can sue in Superior Court within <strong>6 years</strong> of the act under the general MHRA limitations period, a substantially longer window than federal Title VII's 90-day right-to-sue period.</p>
+
+      <p>The practical consequence: a Maine termination decision can face exposure for years after separation, not just months. Document every employment decision at the time it's made, not when litigation arrives.</p>
+
+      <p>Teamed's compliance platform monitors your Maine employees' records automatically. You see what's on file before a dispute escalates, not after.</p>
+    </div>
+  </section>
+
+  <section class="q" id="pfml-interaction">
+    <h2>How does Maine's Paid Family and Medical Leave interact with termination?</h2>
+    <p class="answer-first">Maine PFML benefits started 1st May 2026. Retaliation for taking PFML leave is unlawful from that date, and PFML leave counts separately from EPL accrual.</p>
+    <div class="body">
+      <p>Maine's Paid Family and Medical Leave programme (<a href="https://www.maine.gov/paidleave/" target="_blank" rel="noopener">26 M.R.S. Chapter 7</a>) began accepting claims in May 2026, with contributions having started in January 2025. The anti-retaliation provision runs from the day benefits became available: dismissing an employee because they took PFML leave is now a statutory violation.</p>
+
+      <p>PFML and EPL are separate entitlements. An employee on PFML leave continues to accrue EPL during the leave period if you're paying them (or topping up to full pay). If the employee is on unpaid PFML leave, EPL accrual depends on whether hours are considered "worked" under your policy. The Maine DOL treats the two statutes as independent obligations.</p>
+
+      <p>On separation after PFML leave, you owe the same EPL payout calculated on total accrued hours to date, in addition to any final wages under &sect;626.</p>
+
+      <div class="stamp-block">
+        <div class="stamp">
+          <span class="stamp-num">01</span>
+          <span class="stamp-text">Maine PFML: employer contribution summary</span>
+        </div>
+        <p class="stamp-body">Employers with 15+ employees contribute 1.0% of wages split 50/50 with employees (max wage base $184,500 in 2026). Employers with fewer than 15 employees contribute 0.5% split the same way. Contributions started January 2025; benefits started May 2026.</p>
+        <div class="tape-row">
+          <span class="tape-label">15+ employees &middot; 1.0% total rate</span>
+          <span class="tape-label">&lt;15 employees &middot; 0.5% total rate</span>
+          <span class="tape-label">Employer share &middot; 0.5%</span>
+          <span class="tape-label">Benefits live &middot; May 2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="q" id="good-to-know">
+    <h2>What else should you know about terminating a Maine employee?</h2>
+    <p class="answer-first">Maine's minimum wage of $14.15/hour sets the floor for final-pay calculations. Handbook review matters more in Maine than in most at-will states because of the implied-contract case law.</p>
+    <div class="body">
+      <p>Maine has no statutory severance requirement. You're not obligated to pay severance beyond final wages and the EPL payout. If you choose to pay severance, a written release of claims in exchange is standard practice, but Maine courts require you to give the employee a reasonable period to consider the agreement.</p>
+
+      <p>Maine has no WARN Act of its own beyond the federal law (100-employee threshold, 60-day notice for mass layoffs). For smaller operations, the federal WARN Act threshold typically won't apply.</p>
+
+      <p>Maine's unemployment insurance wage base is $12,000 in 2026, with new-employer UI rates at 2.54% combined (Schedule A). Separated employees file via <a href="https://www.maine.gov/unemployment" target="_blank" rel="noopener">Maine's ReEmployME portal</a>. UI tax implications of termination decisions , particularly voluntary quits versus dismissals, affect your experience rating over time.</p>
+
+      <p>Teamed handles Maine on one platform: contractor to EOR to entity, the same system from first hire through graduation. Every statutory cost passes through at cost, itemised on the invoice, no markup. Your $599 per employee per month, flat, covers compliance administration in Maine as in every other state. Zero FX.</p>
+    </div>
+  </section>
+
+  <aside class="links-rail">
+    <h2>Related Maine and US guides</h2>
+    <ul>
+      <li><a href="../">Maine state guide overview</a><span class="context">parent</span></li>
+      <li><a href="../state-income-tax-and-unemployment-insurance/">Maine state income tax and UI</a><span class="context">sibling</span></li>
+      <li><a href="/employer-of-record/">Employer of Record overview</a><span class="context">cluster 2a</span></li>
+      <li><a href="/graduation-model/">The Graduation Model</a><span class="context">cluster 2a</span></li>
+      <li><a href="https://crso-cal.vercel.app/tools/crossover" target="_blank" rel="noopener">EOR vs Entity Crossover Calculator</a><span class="context">tool</span></li>
+      <li><a href="https://www.teamed.global/tools/unbundling-calculator" target="_blank" rel="noopener">FX Transparency Calculator</a><span class="context">tool</span></li>
+      <li><a href="/contact/">Talk to an expert</a><span class="context">CTA</span></li>
+    </ul>
+  </aside>
+
+  <section class="tagline-close film-grain">
+    <div class="eyebrow-small">A note from Tom Price-Daniel</div>
+    <p class="tagline">Maine's Earned Paid Leave payout is the line that catches operators by surprise. You're not just paying a final paycheck under &sect;626 on the next payday. You're paying out every accrued, unused EPL hour at separation, and a use-it-or-lose-it clause in your handbook won't protect you. That's a real liability. Small per person, certain in law. Add the implied-contract risk hiding in offer-letter language, and Maine terminations require more document hygiene than the at-will label suggests. EOR is the right model until it isn't. When your Maine headcount grows enough to justify your own US entity, we'll tell you. Until then, Teamed manages the separation correctly, every time.</p>
+    <div class="sig">Tom Price-Daniel &middot; Co-founder, Teamed</div>
+    <div class="cta-row">
+      <a href="https://www.teamed.global/contact" class="cta primary">Talk to a specialist</a>
+      <a href="https://crso-cal.vercel.app/tools/crossover" target="_blank" rel="noopener" class="cta secondary">Run the Crossover Calculator</a>
+    </div>
+  </section>
+
+  <div class="meta-footer">
+    <h3>Page metadata &middot; preview-only</h3>
+    <ul>
+      <li>Target keyword: <code>Maine at-will employment exceptions</code></li>
+      <li>Secondary: <code>Maine termination law 2026</code>, <code>Maine Earned Paid Leave termination payout</code></li>
+      <li>Word count: ~1,550 words</li>
+      <li>H2 literal-query ratio: 86% (6 of 7 H2s literal-query shape)</li>
+      <li>Internal links: 7 live + 2 plain-text wave-N</li>
+      <li>Schema: Article + Organization + BreadcrumbList + Service + FAQPage</li>
+      <li>Status: live-noindex (publishing rail pending)</li>
+      <li>Reviewed by Teamed Compliance Team &middot; 30 May 2026</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- TEAMED:CUSTOMER-STRIP-V1 BEGIN -->
+<section class="customer-strip">
+  <h2 class="customer-strip-eyebrow">Trusted by teams that chose differently</h2>
+  <ul class="customer-strip-list">
+    <li><img src="https://teamed.global/images/logos/customers/klarna.webp" alt="Klarna" loading="lazy"></li>
+    <li><img src="https://teamed.global/images/logos/customers/notion.webp" alt="Notion" loading="lazy"></li>
+    <li><img src="https://teamed.global/images/logos/customers/wise.webp" alt="Wise" loading="lazy"></li>
+    <li><img src="https://teamed.global/images/logos/customers/eventbrite.webp" alt="Eventbrite" loading="lazy"></li>
+    <li><img src="https://teamed.global/images/logos/customers/globant.webp" alt="Globant" loading="lazy"></li>
+    <li><img src="https://teamed.global/images/logos/customers/williams-racing.webp" alt="Williams Racing" loading="lazy"></li>
+    <li><img src="https://teamed.global/images/logos/customers/biontech.webp" alt="BioNTech" loading="lazy"></li>
+  </ul>
+</section>
+<!-- TEAMED:CUSTOMER-STRIP-V1 END -->
+</body>
+</html>

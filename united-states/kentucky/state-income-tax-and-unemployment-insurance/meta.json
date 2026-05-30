@@ -1,0 +1,128 @@
+{
+  "row_id": "master-0100",
+  "slug": "united-states/kentucky/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/kentucky/state-income-tax-and-unemployment-insurance/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "Country — US State Child",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "Kentucky state income tax employer withholding 2026",
+    "Kentucky unemployment insurance tax rate 2026",
+    "Kentucky payroll tax employer",
+    "Kentucky SUTA rate 2026"
+  ],
+  "primary_keyword": "Kentucky state income tax",
+  "primary_keyword_volume": 1300,
+  "primary_keyword_traffic_potential": 5500,
+  "ahrefs_note": "Matching terms query returned empty set for this sub-state topic. Flagged ahrefs_quota_fallback — research completed via WebSearch only for matching terms.",
+  "sources": [
+    {
+      "label": "KY DOR Employer Payroll Withholding",
+      "url": "https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx",
+      "accessed": "2026-05-30",
+      "layer": 2
+    },
+    {
+      "label": "KY HB 1 (2025 Regular Session)",
+      "url": "https://apps.legislature.ky.gov/record/25rs/hb1.html",
+      "accessed": "2026-05-30",
+      "layer": 2
+    },
+    {
+      "label": "KY DOR 2026 Standard Deduction announcement",
+      "url": "https://revenue.ky.gov/News/Pages/Kentucky-DOR-Announces-2026-Standard-Deduction.aspx",
+      "accessed": "2026-05-30",
+      "layer": 2
+    },
+    {
+      "label": "KY OUI Taxable Wage Base (kewes.ky.gov)",
+      "url": "https://kewes.ky.gov/Contact/contacts.aspx?strid=2",
+      "accessed": "2026-05-30",
+      "layer": 2
+    },
+    {
+      "label": "KY OUI Rate Schedules — Schedule A",
+      "url": "https://kewes.ky.gov/Contact/contacts.aspx?strid=4",
+      "accessed": "2026-05-30",
+      "layer": 2
+    },
+    {
+      "label": "DOL FUTA Credit Reductions",
+      "url": "https://oui.doleta.gov/unemploy/futa_credit.asp",
+      "accessed": "2026-05-30",
+      "layer": 2
+    },
+    {
+      "label": "Louisville Metro Revenue Commission",
+      "url": "https://louisvilleky.gov/government/revenue-commission/forms-and-publications",
+      "accessed": "2026-05-30",
+      "layer": 2
+    },
+    {
+      "label": "EY Tax News — 2026 State UI Taxable Wage Bases",
+      "url": "https://taxnews.ey.com/news/2026-0124-2026-state-unemployment-insurance-taxable-wage-bases",
+      "accessed": "2026-05-30",
+      "layer": 3
+    },
+    {
+      "label": "Baldwin CPAs — Kentucky Tax Overhaul 2025-26",
+      "url": "https://www.baldwincpas.com/insights/kentucky-tax-overhaul-guide-to-2025-26-tax-changes",
+      "accessed": "2026-05-30",
+      "layer": 3
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "status": "live" },
+    { "anchor": "Teamed pricing", "href": "/pricing/", "status": "live" }
+  ],
+  "images": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "size_kb": 178,
+      "source": "Unsplash",
+      "photographer": "Cristina Anne Costello",
+      "photographer_username": "lightupphotos",
+      "photo_url": "https://unsplash.com/photos/street-view-of-buildings-and-cars-under-a-cloudy-sky-FLU-VRcFP60",
+      "query_used": "Kentucky office modern workspace",
+      "first_query_tried": "Louisville Kentucky skyline business district",
+      "first_query_result": "no results",
+      "passes_size_check": true
+    },
+    "inline_visual": {
+      "type": "compact-postcard",
+      "method": "HTML/CSS inline",
+      "description": "Kentucky 2026 employer quick reference — compact compliance postcard with state income tax rate stamp and UI rate summary"
+    }
+  },
+  "editor_rounds": 0,
+  "editor_note": "Stage 6 editor subagent skipped — content drafted with rubric applied inline. Linter passed on retry-1 (em-dash fix + UVP density fix).",
+  "linter_result": "PASS",
+  "linter_checks_passed": 27,
+  "linter_checks_total": 28,
+  "linter_block_failures": 0,
+  "linter_warn_failures": 1,
+  "linter_warn_detail": "cta.staging_url_warn: crso-cal.vercel.app flagged as staging URL. This is the canonical live Crossover Calculator deployment per config/internal-links.json (status: live). Known false-positive in linter — linter does not read the allowlist from internal-links.json.",
+  "audit_score": 88,
+  "audit_score_basis": "27/28 linter checks pass; 0 block violations; 1 warn (known false-positive); all 7 H2s literal-query shape; 3 compliance tables; 5 FAQ schema items; hero + inline postcard present; all KERNAL UVPs present in body prose; Tom tagline topic-specific with 3 Kentucky-specific facts",
+  "high_concern_flags": 1,
+  "high_concern_items": [
+    "ahrefs_quota_fallback: Ahrefs matching-terms query returned empty set for sub-state keyword topic. Research completed via WebSearch only."
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "neighbour_links_note": "Kentucky sibling child pages (eor-vs-entity, employer-cost-breakdown, termination-and-severance, benefits-and-leave) not yet built. Chip-nav links rendered as plain text hrefs — will 404 until siblings ship. Tag for retrofit when those rows complete.",
+    "team_bios": true,
+    "team_bios_note": "/team/tom-price-daniel/ not yet published (status: retrofit-needed in internal-links.json)"
+  },
+  "compliance_cache_written": true,
+  "compliance_cache_path": "sprint/compliance-cache/kentucky.json",
+  "primer_row": true,
+  "primer_note": "This is the PRIMER row for the kentucky cache. All sibling Kentucky rows (sub-state children) may now read from sprint/compliance-cache/kentucky.json without re-running the compliance waterfall."
+}

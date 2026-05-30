@@ -1,0 +1,120 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Maine",
+    "slug": "maine"
+  },
+  "page": {
+    "title": "Paid family and sick leave in Maine",
+    "slug": "united-states/maine/paid-family-and-sick-leave",
+    "target_url": "/hire-in-united-states/maine/paid-family-and-sick-leave/",
+    "type": "programmatic",
+    "tier": "US-State"
+  },
+  "hero": {
+    "headline": "What are Maine's paid family and sick leave requirements for employers?",
+    "subhead": "Two live mandates, one state. Here's what you owe every Maine hire.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "at_a_glance": {
+    "state": "Maine",
+    "epl_accrual": "1 hour per 40 hours worked",
+    "epl_annual_cap": "40 hours",
+    "epl_employer_threshold": "10+ employees",
+    "epl_effective": "1 January 2021",
+    "pfml_benefits_start": "1 May 2026",
+    "pfml_large_employer_rate": "1.0% of wages",
+    "pfml_leave_duration": "Up to 12 weeks",
+    "pfml_max_weekly_benefit": "$1,198.84",
+    "minimum_wage_2026": "$15.10/hr",
+    "state_income_tax_top": "7.15%",
+    "verified_date": "2026-05-30"
+  },
+  "answer_capsule": "Maine employers with more than 10 staff must provide Earned Paid Leave under 26 M.R.S. §637: 1 hour accrued per 40 hours worked, 40 hours per year, usable for any reason with no documentation requirement. From 1 May 2026, Maine's PFML programme (26 M.R.S. §850) also pays up to 12 weeks of family or medical leave, funded by a 1% payroll contribution split equally between employer and employee for employers with 15 or more staff.",
+  "epl_block": {
+    "question": "How does Maine's Earned Paid Leave work — who must provide it?",
+    "answer_first": "Maine's Earned Paid Leave law (26 M.R.S. §637) applies to any employer with more than 10 employees in the state for at least 120 days per year. Employees accrue 1 hour of paid leave for every 40 hours worked, up to 40 hours annually.",
+    "body": "The defining feature of Maine's Earned Paid Leave isn't the accrual rate — it's the usage rule. Employees may take accrued leave for any reason whatsoever: illness, vacation, a personal emergency, or simply wanting a day off. You cannot require documentation, you cannot restrict the purpose of leave, and you cannot retaliate. That's a harder rule than most US states impose on sick leave specifically.\n\nEmployees become eligible to use their accrued leave after 120 days of employment. Once eligible, there's no minimum increment mandated — though employers may set reasonable minimums in their policy, typically no larger than one hour.\n\nFor planned leave, you may require up to 4 weeks' advance notice. For illness or emergencies, employees must notify you as soon as practicable. As a 2025 amendment (LD 55) clarified, unused hours carry over into the next year, and that carried-over balance does not offset the employee's fresh 40-hour accrual entitlement. An employee who carries over 30 unused hours still earns a full fresh 40 in the new year.\n\nAn EOR manages the accrual tracking, notice procedures, and policy documentation so you stay clean with Maine Department of Labor requirements.",
+    "stat_callout": "40 hours per year, any reason, no documentation — Maine's Earned Paid Leave is one of the most permissive in the US."
+  },
+  "pfml_block": {
+    "question": "When did Maine PFML benefits start and what do they cost employers?",
+    "answer_first": "Maine's Paid Family and Medical Leave programme (26 M.R.S. §850) began paying benefits on 1 May 2026. Payroll contributions started 1 January 2025. For employers with 15 or more employees, the total contribution rate is 1.0% of wages, split equally between employer and employee.",
+    "body": "Maine's PFML is the bigger structural change — and the newer one. Contributions have been running since January 2025, but 1 May 2026 is the date that matters now: employees can start filing and receiving claims.\n\nFor large employers (15 or more employees), the 1.0% rate splits 0.5% employer and up to 0.5% employee. You may deduct the employee share from wages. For small employers (fewer than 15 employees), the rate is 0.5%, which the employer covers — you cannot pass it to employees. Both rates apply to wages up to the Social Security wage base: $184,500 for 2026.\n\nIn practice, the maximum any employee contributes in 2026 is $922.50. The maximum weekly benefit is $1,198.84 — matching Maine's State Average Weekly Wage (SAWW). Leave covers up to 12 weeks per year for qualifying medical, family, military family, and safe-leave purposes.\n\nJob protection applies to employees who have been with you for at least 120 consecutive days. On return, they go back to the same role, or an equivalent in pay, conditions, and benefits. Your named Teamed payroll specialist registers the contribution account, runs withholding, and coordinates claims administration — that's not a task to discover in the middle of a leave request.",
+    "contribution_table": [
+      { "employer_size": "15+ employees (large)", "total_rate": "1.0%", "employer_share": "0.5%", "employee_share": "Up to 0.5%" },
+      { "employer_size": "Fewer than 15 employees (small)", "total_rate": "0.5%", "employer_share": "0.5%", "employee_share": "0%" }
+    ]
+  },
+  "interaction_block": {
+    "question": "How do Maine's Earned Paid Leave and PFML interact?",
+    "answer_first": "They're separate entitlements running in parallel. PFML provides wage replacement for qualifying leave. Earned Paid Leave is an unrestricted balance the employee controls. An employee can use both in sequence, or use EPL during a PFML gap.",
+    "body": "Most employers trip up on the stacking question. Here's the clean version: Earned Paid Leave and Maine PFML are legally distinct. PFML provides wage replacement through the state fund — up to 12 weeks of paid time for qualifying reasons. Earned Paid Leave is a bank of employer-funded paid time that the employee may use for any reason, including to top up PFML payments when the PFML benefit doesn't cover 100% of wages.\n\nAn employer can require employees to exhaust accrued EPL concurrently with PFML — but only if the employer's written policy states that. If you don't have that policy in writing, the employee may choose to take EPL separately, before or after PFML leave.\n\nThat policy decision needs to be in your Maine employment handbook before any employee requests leave. Teamed includes that policy language in the onboarding documentation as a standard condition of Maine hiring — you don't have to write it from scratch."
+  },
+  "cost_block": {
+    "question": "What is the total paid-leave cost burden for Maine employers in 2026?",
+    "answer_first": "Beyond salary, Maine employers pay 0.5% of wages (up to $184,500) into PFML for large employers, plus carry the cost of Earned Paid Leave accrual. At $15.10/hour state minimum wage, a full-time worker earns roughly 40 hours of EPL worth $604 per year.",
+    "body": "The direct contribution cost is the PFML employer share: 0.5% of wages per employee per year, capped at $184,500 in 2026. On a $70,000 annual salary, that's $350/year per employee in PFML employer contributions.\n\nEarned Paid Leave is a liability, not a cash contribution: you pay employees for up to 40 hours of leave per year that they may take for any reason. At minimum wage ($15.10/hr), the maximum EPL liability is $604/employee/year. At higher salaries, the liability scales with the hourly equivalent.\n\nTeamed's fee — $599/employee/month, flat, Zero FX — covers payroll administration, PFML contribution filing, EPL policy and tracking, statutory filings, and your named payroll specialist. Statutory costs (PFML contributions, state income tax, unemployment insurance) pass through at cost on every itemised invoice. No markup. No FX spread.\n\nUse the FX Transparency Calculator to see exactly what a Maine hire costs in your home currency before you commit."
+  },
+  "compliance_block": {
+    "question": "What notice and documentation can a Maine employer require for paid leave?",
+    "answer_first": "For Earned Paid Leave, you may require up to 4 weeks' notice for planned leave and 'as soon as practicable' for emergencies. For PFML, the state programme sets notice and certification requirements — employers cannot add their own documentation rules on top.",
+    "body": "The documentation rules differ by programme. Under Earned Paid Leave (§637), you cannot require an employee to explain why they need leave, and you cannot ask for a doctor's note for EPL. The 4-week advance notice rule is the outer limit for planned absences; anything more is not enforceable.\n\nFor PFML claims, the state administers the programme directly. Employees file claims with Maine DOL; the state reviews supporting documentation. You receive notice of the claim and the expected leave dates — but you don't adjudicate the claim or demand your own medical evidence.\n\nThe practical compliance obligation is threefold: keep your written leave policy current (EPL rules and PFML rights), respond to state claim notifications promptly, and don't retaliate. Maine takes retaliation on both programmes seriously — any adverse action after a leave request creates a prima facie claim.\n\nOne platform, one specialist, one set of documented policies: that's how Teamed manages this across all your Maine hires."
+  },
+  "eor_frame": {
+    "question": "Does an EOR handle Maine PFML and Earned Paid Leave on your behalf?",
+    "answer_first": "Yes. When Teamed employs your Maine hire, Teamed US Inc. registers as the PFML contributing employer, runs EPL accrual, and holds the compliant Maine employment policies as the legal employer.",
+    "body": "This is the core EOR value in a state with layered leave mandates. Teamed registers in Maine's Paid Leave Contributions Portal as the employer of record. PFML contributions come out of payroll automatically. EPL accrual tracks with hours worked. If an employee files a PFML claim, your named Teamed specialist coordinates with you and with the state.\n\nYou stay out of the administration loop on leave compliance. What you control: when to grant additional leave above the mandates, what employer-paid top-up you want to offer, and the offer letter terms. What Teamed controls: the statutory filings, the EPL and PFML policy language, the contribution calculations, and the claim notification process.\n\nMaine is a state where the compliance rules genuinely interact, and a 30-minute conversation with an actual person on your payroll team is worth more than reading the statute twice. When you hire through Teamed, you get both the compliant infrastructure and the human who understands it."
+  },
+  "good_to_know": {
+    "question": "What should you know before hiring in Maine?",
+    "body": "Maine is one of approximately 13 US states where both Earned Paid Leave and a state PFML programme are simultaneously active. The state's EPL law is unusual nationally for permitting leave for any reason — not just sick leave — which means your Maine employees have broader paid-time flexibility than those in most other states. Maine's minimum wage rose to $15.10/hour on 1 January 2026, up from $14.65. For tipped workers, the direct wage floor is $7.55/hour. Maine's state income tax tops out at 7.15% for income above $64,850 (single) — relevant for offer-letter gross-to-net conversations. Culturally, Maine's workforce is concentrated in healthcare, tourism, manufacturing, and professional services, with significant remote-worker migration from larger metro areas post-pandemic."
+  },
+  "faq_schema": [
+    {
+      "q": "What is Maine's Earned Paid Leave accrual rate in 2026?",
+      "a": "Maine's Earned Paid Leave law (26 M.R.S. §637) requires employers with more than 10 employees to let staff accrue 1 hour of paid leave for every 40 hours worked, up to 40 hours per year. Employees may use this leave for any reason after 120 days of employment."
+    },
+    {
+      "q": "When did Maine PFML benefits become payable?",
+      "a": "Maine Paid Family and Medical Leave benefits became payable from 1 May 2026. Payroll contributions at 1% of wages (for employers with 15 or more employees) began on 1 January 2025. The programme provides up to 12 weeks of paid leave per year."
+    },
+    {
+      "q": "How much does Maine PFML cost employers in 2026?",
+      "a": "For employers with 15 or more employees, the PFML contribution rate is 1.0% of wages up to the Social Security wage base ($184,500 in 2026). The employer pays 0.5%; up to 0.5% may be deducted from employee wages. Small employers (fewer than 15) pay 0.5% in full."
+    },
+    {
+      "q": "Can a Maine employer require documentation for Earned Paid Leave?",
+      "a": "No. Under Maine's Earned Paid Leave law, employees may take leave for any reason and employers cannot require documentation or explanation. Employers may require up to 4 weeks' advance notice for planned leave, and notice as soon as practicable for emergencies."
+    },
+    {
+      "q": "What is Maine's minimum wage in 2026?",
+      "a": "Maine's minimum wage is $15.10 per hour effective 1 January 2026, up from $14.65 in 2025. The tipped worker minimum wage is $7.55 per hour. The increase was triggered by a 3.1% CPI-W increase per the state's automatic adjustment formula."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live", "context": "core" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live", "context": "cta" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "status": "live", "context": "commercial" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "context": "tool" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "status": "live", "context": "tool" }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "inline": "postcard (HTML/CSS compact-postcard)"
+  },
+  "meta": {
+    "title": "Paid family and sick leave — Maine | Employer Guide 2026",
+    "description": "$599/month flat EOR fee. Maine has two live paid-leave mandates: Earned Paid Leave (40 hrs/yr, any reason) and PFML (12 weeks, benefits from 1 May 2026). Teamed handles both.",
+    "target_keywords": ["Maine paid family leave employer", "Maine paid leave law 2026", "Maine PFML employer contribution", "Maine earned paid leave requirements"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

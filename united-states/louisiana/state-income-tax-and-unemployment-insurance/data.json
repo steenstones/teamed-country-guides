@@ -1,0 +1,157 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Louisiana",
+    "slug": "united-states/louisiana",
+    "iso2": "US",
+    "iso3": "USA",
+    "state_abbr": "LA"
+  },
+  "page": {
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "Country — US State Child",
+    "target_url": "/hire-in-united-states/louisiana/state-income-tax-and-unemployment-insurance/",
+    "slug": "united-states/louisiana/state-income-tax-and-unemployment-insurance",
+    "parent_url": "/hire-in-united-states/louisiana/"
+  },
+  "hero": {
+    "headline": "Louisiana state income tax and unemployment insurance in 2026",
+    "subhead": "Flat 3%, $7,000 UI wage base, zero parish payroll tax.",
+    "eyebrow": "United States · Louisiana · Tax child",
+    "partner_badge": "Served by Teamed US partner network: SUNA Solutions, Inc.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "See your real FX exposure", "href": "https://www.teamed.global/tools/unbundling-calculator" }
+  },
+  "chip_nav": [
+    { "label": "Overview", "href": "../" },
+    { "label": "Income tax", "href": "#income-tax", "current": false },
+    { "label": "Withholding", "href": "#withholding", "current": false },
+    { "label": "Unemployment insurance", "href": "#ui", "current": false },
+    { "label": "Filing", "href": "#filing", "current": false },
+    { "label": "Good to know", "href": "#good-to-know", "current": false }
+  ],
+  "answer_capsule": "Louisiana employer payroll taxes in 2026: a flat 3% state income tax (Act 11, Third Extraordinary Session 2024, effective 1st January 2025), withheld via Form L-4 at a 3.09% annualised rate per LDR R-1306. State UI (SUTA) sits on a $7,000 wage base at 1.16% for new employers — maximum $81.20 per employee per year. No parish-level payroll tax anywhere in Louisiana.",
+  "sections": {
+    "income_tax": {
+      "id": "income-tax",
+      "question": "What is Louisiana's state income tax rate for employers in 2026?",
+      "answer_first": "Louisiana's income tax is a flat 3% on all taxable income, effective 1st January 2025 under Act 11 of the Third Extraordinary Session 2024. It replaced a graduated structure that topped out at 4.25%.",
+      "body": "The reform — the largest income tax cut in Louisiana history — collapsed three income brackets into a single rate. You withhold at 3.09% annualised (per LDR R-1306 2026, the official withholding tables), not 3% directly. The 0.09 percentage point gap is mechanical: Louisiana uses a tax-credit system where you annualise wages, apply 3.09% gross, then subtract a credit equal to the employee's standard deduction allowances. The net result equals 3% of taxable income. Statute: LA R.S. 47:32 as amended.\n\nThe standard deduction nearly tripled under the same reform: $12,500 for single filers (up from $4,500) and $25,000 for married-joint filers. LDR's withholding tables use $12,875 single and $25,750 married-joint — a small LDR approximation for PAYE accuracy. Your employees' annual returns use the $12,500 / $25,000 statutory figures. Your payroll engine follows R-1306.\n\nEvery new employee completes Form L-4 (Employee's Withholding Exemption Certificate). One exemption per qualifying person. If an employee doesn't submit L-4 within the first pay period, you withhold with no deductions applied — the highest effective rate.",
+      "stat_table": [
+        { "label": "Income tax rate (flat)", "value": "3%", "source": "LA R.S. 47:32 / Act 11 (3ES 2024)" },
+        { "label": "Withholding rate (LDR R-1306)", "value": "3.09% annualised", "source": "LDR R-1306 2026" },
+        { "label": "Standard deduction, single (statutory)", "value": "$12,500", "source": "RS 47:294" },
+        { "label": "Standard deduction, single (withholding table)", "value": "$12,875", "source": "LDR R-1306 2026" },
+        { "label": "Standard deduction, married-joint (statutory)", "value": "$25,000", "source": "RS 47:294" },
+        { "label": "Prior top bracket (pre-2025)", "value": "4.25%", "source": "RSM advisory" },
+        { "label": "Effective date", "value": "1st January 2025", "source": "Act 11, Third Extraordinary Session 2024" }
+      ],
+      "source_url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/"
+    },
+    "withholding": {
+      "id": "withholding",
+      "question": "How does Louisiana employer income tax withholding work?",
+      "answer_first": "Louisiana uses Form L-4 for employee exemption elections. You annualise wages, apply 3.09%, subtract the employee's credit amount, then de-annualise. Three filing frequencies: quarterly, monthly, or semi-monthly.",
+      "body": "The withholding computation in LDR R-1306 runs as follows: take the employee's gross wages for the pay period, annualise them for the pay frequency, subtract the annualised standard deduction (based on L-4 exemptions), multiply by 3.09%, subtract a dependent tax credit of $1,000 per qualifying dependent claimed, then divide back to the pay-period amount. That final number is your withholding obligation.\n\nThe quarterly return is Form L-1, filed by the last day of the month following each quarter (1st quarter due 15th May 2026; 3rd quarter due 2nd November 2026). The annual reconciliation, Form L-3, bundles W-2 transmittal and is due 2nd February each year for the prior tax year. File and pay via LaTAP (Louisiana Taxpayer Access Point) at latap.revenue.louisiana.gov.\n\nDeposit schedule: under $500/month withheld — quarterly deposits; $500 to $4,999/month — monthly deposits; $5,000 or more — semi-monthly. The L-1 quarterly return is due regardless of your deposit frequency.",
+      "filing_table": [
+        { "threshold": "Less than $500/month withheld", "deposit_frequency": "Quarterly" },
+        { "threshold": "$500 to $4,999/month withheld", "deposit_frequency": "Monthly" },
+        { "threshold": "$5,000+ per month withheld", "deposit_frequency": "Semi-monthly" }
+      ],
+      "key_forms": [
+        { "form": "Form L-4", "what": "Employee's Withholding Exemption Certificate (employee completes at hire)", "url": "https://dam.ldr.la.gov/taxforms/1300-1-26F.pdf" },
+        { "form": "Form L-1", "what": "Employer's Quarterly Return of Louisiana Withholding Tax", "url": "https://revenue.louisiana.gov/calendar/2026" },
+        { "form": "Form L-3", "what": "Employer's Annual Reconciliation of Withholding Tax (includes W-2 transmittal)", "due": "2nd February annually" },
+        { "form": "R-1306", "what": "Louisiana Withholding Tables and Formulas (employer reference)", "url": "https://dam.ldr.la.gov/taxforms/1306-1-26.pdf" }
+      ]
+    },
+    "ui": {
+      "id": "ui",
+      "question": "What is Louisiana's unemployment insurance rate and wage base for 2026?",
+      "answer_first": "Louisiana's UI wage base dropped to $7,000 in 2026 (down from $7,700 in 2025). New employers pay 1.16%, making the maximum UI cost $81.20 per employee per year.",
+      "body": "Louisiana is one of four US states that reduced its UI taxable wage base for 2026. The $7,000 base is tied with the federal FUTA floor — the lowest in the country. This change, announced December 2025 by the Louisiana Workforce Commission, reduces the average employer's UI burden by roughly 9 to 10 percent versus 2025.\n\nExperienced employers are rated on a positive-to-negative scale. Positive-rated employers (better-than-average claims experience) pay 0.09% to 1.94% on the first $7,000 of each employee's wages — a maximum of $135.80 per employee per year at the top of the positive range. Negative-rated employers pay 2.2% to 6.2%, up to $434 per employee per year. Most EOR-employed workers land the company in the positive or new-employer band because the EOR (SUNA Solutions in Louisiana's case) carries the experience rating, not your company directly.\n\nFile quarterly via LAWATS (Louisiana Wage and Tax System) at laworks.net. The UI return accompanies wage reports for each employee. Statute: Louisiana Employment Security Law, LA R.S. 23:1471 et seq.",
+      "ui_table": [
+        { "category": "New employer rate", "rate": "1.16%", "wage_base": "$7,000", "max_per_employee_yr": "$81.20" },
+        { "category": "Positive-rated employers", "rate": "0.09% to 1.94%", "wage_base": "$7,000", "max_per_employee_yr": "$6.30 to $135.80" },
+        { "category": "Negative-rated employers", "rate": "2.2% to 6.2%", "wage_base": "$7,000", "max_per_employee_yr": "$154 to $434" }
+      ],
+      "source_url": "https://www.laworks.net/unemploymentinsurance/ui_lainsurancetaxrates.asp",
+      "source_secondary": "https://news.bloombergtax.com/payroll/louisiana-releases-2026-unemployment-rates-wage-base"
+    },
+    "filing": {
+      "id": "filing",
+      "question": "When are Louisiana employer payroll returns due in 2026?",
+      "answer_first": "L-1 quarterly returns are due the month after each quarter closes. L-3 annual reconciliation is due 2nd February. New-hire reporting goes to DCFS within 20 days of each hire.",
+      "body": "Four key filing obligations: (1) Form L-1 quarterly withholding returns — due 2nd February (Q4 prior year), 15th May (Q1), around 15th August (Q2), and 2nd November (Q3); (2) Form L-3 annual reconciliation with W-2 transmittal — due 2nd February each year; (3) quarterly UI returns via LAWATS at laworks.net; and (4) new-hire reporting to the Louisiana Department of Children and Family Services within 20 days of hire via la-newhire.com.\n\nRegistration: income tax withholding via LaTAP using Form R-16019; UI via LAWATS at laworks.net. Louisiana has no state equivalent of the federal SUTA surcharge or a FUTA credit-reduction penalty — Louisiana is not currently a credit-reduction state, meaning federal FUTA is the standard 0.6% net rate.\n\nTeamed handles every one of these filings for your Louisiana employees on one platform, dates tracked automatically. You approve payroll; we handle the calendar."
+    },
+    "good_to_know": {
+      "id": "good-to-know",
+      "question": "What makes Louisiana unusual for employer payroll tax?",
+      "body": "Two things distinguish Louisiana's employer tax picture. First, the 2024 tax reform collapsed the old graduated brackets (top 4.25%) to a flat 3% from 1st January 2025 — most competitor EOR guides still show the old rates. Second, the UI wage base fell to $7,000 in 2026, the lowest in the US and down from $7,700 in 2025. A new employer's total Louisiana state payroll tax cost peaks at $81.20 per employee per year in UI plus a 3.09% income-tax withholding obligation. No parish, city, or local payroll tax exists anywhere in Louisiana. Combined with federal-floor UI and a flat income tax, Louisiana is one of the quietest employer tax states in the South."
+    }
+  },
+  "pullquote": {
+    "speaker": "Teamed US Operations",
+    "role": "",
+    "text": "Most Louisiana payroll surprises we see come from old data. The graduated brackets disappeared on 1st January 2025. The UI wage base dropped again for 2026. A new employer filing their first L-1 with 2024-era data will over-withhold and over-report. The numbers are simpler now — but only if you're using the right tables.",
+    "source_type": "anonymised",
+    "mi_provenance": null,
+    "note": "No Meeting Intelligence quote found for Louisiana. Anonymised to Teamed US Operations per pullquote provenance rule."
+  },
+  "tagline_close": {
+    "speaker": "Tom Price-Daniel",
+    "role": "Co-founder, Teamed",
+    "text": "Louisiana is the quiet one on the US tax map. The 3% flat rate replaced brackets that topped at 4.25% on 1st January 2025. The UI wage base just dropped to $7,000 — the federal floor, the lowest in the country. And there's no parish payroll tax, anywhere. That combination means a new employer's total Louisiana state tax cost outside income-tax withholding is $81.20 per employee per year. EOR is the right model for Louisiana until your headcount and comp stack justify a dedicated US entity. We track that crossover for you.",
+    "primary_cta": { "label": "Talk to a US specialist", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live", "context": "core" },
+    { "anchor": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live", "context": "pricing" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live", "context": "tool" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "state": "live", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "state": "live", "context": "cta" }
+  ],
+  "faq_schema": [
+    {
+      "q": "What is Louisiana's state income tax rate for employers in 2026?",
+      "a": "Louisiana has a flat 3% state income tax effective 1st January 2025 under Act 11 of the Third Extraordinary Session 2024. Employers withhold at 3.09% annualised per LDR R-1306 2026, applying a credit-offset methodology. There are no graduated brackets."
+    },
+    {
+      "q": "What is Louisiana's unemployment insurance wage base in 2026?",
+      "a": "Louisiana's UI taxable wage base is $7,000 in 2026, down from $7,700 in 2025. New employers pay 1.16%, a maximum of $81.20 per employee per year. Experienced employers range from 0.09% to 6.2% depending on claims history."
+    },
+    {
+      "q": "Does Louisiana have any local or parish payroll taxes?",
+      "a": "No. Louisiana has no parish, city, or local income or occupational payroll tax. Employers register only at the state level via LaTAP for withholding and LAWATS for unemployment insurance."
+    },
+    {
+      "q": "When are Louisiana withholding returns due in 2026?",
+      "a": "Form L-1 quarterly returns are due monthly after each quarter: 2nd February (Q4 2025), 15th May (Q1 2026), approximately 15th August (Q2), and 2nd November (Q3). The annual L-3 reconciliation is due 2nd February."
+    },
+    {
+      "q": "How much does Louisiana income tax withholding cost an employer?",
+      "a": "Louisiana income tax withholding is a pass-through cost — you remit what you deduct from employee wages. The 3% flat rate on Louisiana taxable income is borne by the employee. Your employer cost is the administrative compliance, not the tax itself."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "New Orleans riverfront at midday, the Mississippi River and the Central Business District visible from above.",
+    "hero_photographer": "Ricky Beron",
+    "hero_photographer_url": "https://unsplash.com/@nacio1966?utm_source=teamed&utm_medium=referral",
+    "hero_photo_url": "https://unsplash.com/photos/a-river-running-through-a-city-next-to-tall-buildings-siqx1F7q-78"
+  },
+  "meta": {
+    "title": "Louisiana State Income Tax & UI 2026 | Employer Guide | Teamed",
+    "description": "Louisiana: flat 3% income tax (Act 11, Jan 2025), $7,000 UI wage base at 1.16% for new employers, zero parish payroll tax. EOR guide for 2026.",
+    "target_keywords": [
+      "Louisiana state income tax employer 2026",
+      "Louisiana unemployment insurance rate 2026",
+      "Louisiana payroll tax employer withholding"
+    ],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

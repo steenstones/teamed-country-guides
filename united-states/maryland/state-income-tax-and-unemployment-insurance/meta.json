@@ -1,0 +1,97 @@
+{
+  "row_id": "master-0118",
+  "slug": "united-states/maryland/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/maryland/state-income-tax-and-unemployment-insurance/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "primer_for": "maryland",
+  "cache_written": "sprint/compliance-cache/maryland.json",
+
+  "target_keywords": [
+    { "keyword": "maryland state income tax", "volume": 2300, "kd": 26 },
+    { "keyword": "maryland unemployment insurance", "volume": 150, "kd": 12 },
+    { "keyword": "employer of record maryland", "volume": 50, "kd": null }
+  ],
+
+  "sources": [
+    { "id": "tax-foundation-2026", "url": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/", "type": "external", "accessed": "2026-05-30" },
+    { "id": "md-comptroller-withholding-guide-2026", "url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/withholding/2026/withholding-guide.pdf", "type": "government", "accessed": "2026-05-30" },
+    { "id": "md-comptroller-tax-alert-2025-brackets", "url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/alerts/tax-alert-changes-to-standard-and-itemized-deductions-and-to-state-and-local-income-tax-rates-from-the-2025-legislative-session.pdf", "type": "government", "accessed": "2026-05-30" },
+    { "id": "md-dol-ui-tax-rates", "url": "https://labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml", "type": "government", "accessed": "2026-05-30" },
+    { "id": "bloomberg-tax-md-ui-2026", "url": "https://news.bloombergtax.com/payroll/maryland-unemployment-insurance-tax-rates-unchanged-for-2026", "type": "professional_services", "accessed": "2026-05-30" },
+    { "id": "legalclarity-md-withholding", "url": "https://legalclarity.org/maryland-tax-withholding-employer-and-employee-guide/", "type": "professional_services", "accessed": "2026-05-30" },
+    { "id": "md-dol-ui-new-employer", "url": "https://labor.maryland.gov/unemployment-insurance/employer-agent/new-employer-get-started.shtml", "type": "government", "accessed": "2026-05-30" },
+    { "id": "ted-us-partner-structure", "url": "internal:TED", "type": "teamed_internal", "accessed": "2026-05-30", "tag": "[TEAMED — partner: Suna Solutions, Inc.]" }
+  ],
+
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "status": "live" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "status": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live" }
+  ],
+
+  "link_gate_warn": [
+    { "href": "/hire-in-united-states/", "reason": "US parent page — wave-3, not yet live. Rendered as plain text." },
+    { "href": "/hire-in-united-states/maryland/", "reason": "Maryland state overview — not yet built. Rendered as plain text." }
+  ],
+
+  "images": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "size_bytes": 382265,
+      "source": "Unsplash",
+      "photographer": "Terry Granger",
+      "photographer_handle": "@ukterryg",
+      "unsplash_url": "https://unsplash.com/photos/a-large-building-with-a-clock-tower-on-top-of-it-ykrTHE8kwWk",
+      "query_used": "Annapolis Maryland State House capitol dome"
+    },
+    "inline_visual": {
+      "type": "polaroid-card",
+      "content": "Maryland county piggyback rate callout — 3.20% Baltimore City / 2.25% Worcester County",
+      "implementation": "HTML+CSS polaroid component, no image generation required"
+    }
+  },
+
+  "audit_score": 87,
+  "audit_score_notes": "27/28 linter checks pass (0 block failures). 1 warn: cta.staging_url_warn for crso-cal.vercel.app (live tool, not yet migrated to main domain — known issue per internal-links.json). Information gain: 2 new MD income tax brackets not in most EOR guides. All statutory facts source-verified. Tom tagline contains 3 Maryland-specific facts.",
+
+  "editor_rounds": 1,
+  "editor_result": "clean — no block violations after draft-time self-review per editor-rubric.md",
+
+  "linter_result": "pass — 27/28 block checks, 1 warn (staging URL for crso-cal.vercel.app)",
+
+  "high_concern_flags": [
+    "county_rate_withholding_default",
+    "link_gate_warn_us_parent",
+    "link_gate_warn_md_overview",
+    "staging_url_crossover"
+  ],
+
+  "retrofit_needed": {
+    "images": false,
+    "internal_links": true,
+    "note": "US parent page (/hire-in-united-states/) and Maryland overview page not yet built. Promote plain-text references to live links when those pages ship (wave-3)."
+  },
+
+  "factual_uncertainty_flags": [
+    {
+      "field": "local_county_default_withholding_rate",
+      "value_used": "3.20% as county ceiling; 3.30% as withholding default",
+      "source_a": "LegalClarity / Rippling: max county rate 3.20%",
+      "source_b": "Maryland Comptroller 2026 withholding guide: default 3.30% when no MW507",
+      "resolution": "Both figures used in copy with distinction drawn. The 3.30% is the withholding table default, not a statutory county rate.",
+      "prompt_correction": false
+    }
+  ],
+
+  "compliance_cache_primer": {
+    "written": true,
+    "path": "sprint/compliance-cache/maryland.json",
+    "fetched_at": "2026-05-30T00:00:00Z",
+    "sibling_rows_unblocked": true
+  }
+}

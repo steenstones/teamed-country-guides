@@ -1,0 +1,133 @@
+{
+  "page": {
+    "row_id": "master-0114",
+    "slug": "united-states/maine/worker-classification-state-test",
+    "target_url": "/hire-in-united-states/maine/worker-classification-state-test/",
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "1. Country",
+    "sub_cluster": "Country — US State Child",
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30",
+    "spec_version": "phase-1.0"
+  },
+  "country": {
+    "name": "United States",
+    "state": "Maine",
+    "slug": "united-states",
+    "state_slug": "maine",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "meta": {
+    "title": "Maine Worker Classification Test | Independent Contractor Rules",
+    "description": "Maine's worker classification test uses a 5-required + 3-of-7 structure under 26 M.R.S. § 1043. Different tests apply for UI, workers' comp, and federal tax. Teamed's EOR eliminates all three.",
+    "target_keywords": ["Maine worker classification", "Maine independent contractor test", "Maine ABC test unemployment", "worker misclassification Maine"],
+    "canonical_url": "https://teamed.global/hire-in-united-states/maine/worker-classification-state-test/"
+  },
+  "hero": {
+    "headline": "How does Maine classify workers as employees or independent contractors?",
+    "subhead": "Three tests, three statutes — failing any one makes your contractor an employee",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the Contractor Classifier", "href": "https://cntrctr-cal.vercel.app" },
+    "partner_badge": "Served by Teamed US Inc., Delaware · US payroll via SUNA Solutions",
+    "last_reviewed": "2026-05-30",
+    "hero_image": "images/hero.jpg",
+    "hero_alt": "Portland, Maine harbour at midday, white lighthouse and coastal buildings against a clear blue sky"
+  },
+  "answer_capsule": {
+    "text": "Maine classifies workers using a hybrid test under 26 M.R.S. § 1043(11)(E): all five required prongs must be met, plus at least three of seven additional factors. Failure on any single required prong makes the worker an employee — regardless of the additional factors. Workers' compensation uses a structurally identical test under 39-A M.R.S.A. § 102(13-A), but a WCB-267 filing creates a rebuttable presumption that has no force in unemployment or wage-and-hour proceedings. Maine's PFML programme launched benefits on 1st May 2026; misclassified contractors lose 12 weeks of paid leave immediately. Teamed's EOR removes the classification question entirely."
+  },
+  "sections": {
+    "ui_test": {
+      "id": "ui-test",
+      "question": "What is Maine's worker classification test for unemployment insurance?",
+      "answer_first": "Maine's UI test under 26 M.R.S. § 1043(11)(E) requires all five mandatory prongs plus at least three of seven additional factors. All services are presumed employment; the employer bears the burden of proof.",
+      "body": "The five required prongs are not weighted — all five must be satisfied. If a worker fails even one, Maine's Bureau of Unemployment Compensation treats the relationship as employment, regardless of how many of the seven additional factors favour independent contractor status.\n\nThe five required criteria are: (1) the individual has the essential right to control the means and progress of the work except as to final results; (2) the individual is customarily engaged in an independently established trade, occupation, profession, or business; (3) the individual has the opportunity for profit and loss; (4) the individual hires, pays, and supervises their own assistants; (5) the individual makes their services available to a client or customer community.\n\nIn addition, at least three of seven additional factors must also be met: substantive investment in tools and facilities; not required to work exclusively for one entity; contractually responsible for work completion; written contract defining the relationship; payment based on work performed rather than time spent; work outside the usual course of the hiring entity's business; and prior IRS determination as an independent contractor.\n\nThe presumption runs against classification. Every Maine employer treating a worker as a contractor should document evidence for all five required prongs before the first invoice.",
+      "statute_url": "https://legislature.maine.gov/statutes/26/title26sec1043.html"
+    },
+    "multi_test_discrepancy": {
+      "id": "multi-test",
+      "question": "Why do Maine's worker classification tests differ across unemployment, workers' comp, and wage law?",
+      "answer_first": "Maine applies three distinct legal tests depending on the context: the § 1043 hybrid test for UI, a structurally identical but separate § 102(13-A) test for workers' comp, and the federal FLSA Economic Realities test for wage and hour.",
+      "body": "The structural similarity between the UI and WC tests disguises a critical operational gap. Employers who file Form WCB-267 with the Maine Workers' Compensation Board create a rebuttable presumption of independent contractor status for workers' comp purposes only. That filing has zero effect on how Maine Revenue Services or the Bureau of Unemployment Compensation view the same worker.\n\nFor wage and hour purposes, the FLSA's Economic Realities test applies — six factors focused on economic dependence rather than control. The IRS Common-Law test (three categories: behavioural control, financial control, type of relationship) governs federal tax treatment. A worker can pass the WCB-267 screen and still be an employee under all three other frameworks.\n\nThis means an audit from any one of four agencies — Maine DOL (UI), Maine Workers' Compensation Board, Maine Revenue Services, or the IRS — can reach a different conclusion about the same working relationship. A UK or European company hiring a Maine-based contractor without an EOR faces four simultaneous classification risk surfaces, not one.",
+      "test_table": [
+        { "context": "Unemployment Insurance", "test": "5-required + ≥3 of 7 (hybrid)", "authority": "26 M.R.S. § 1043(11)(E)", "presumption": "Employee" },
+        { "context": "Workers' Compensation", "test": "5-required + ≥3 of 7 (separate statute)", "authority": "39-A M.R.S.A. § 102(13-A)", "presumption": "Employee (WCB-267 creates rebuttable presumption only)" },
+        { "context": "Wage & Hour", "test": "FLSA Economic Realities (6 factors)", "authority": "29 U.S.C. § 201 et seq.", "presumption": "Case-by-case" },
+        { "context": "Federal Tax", "test": "IRS Common-Law (3 categories)", "authority": "IRS Rev. Rul. 87-41", "presumption": "Case-by-case" }
+      ]
+    },
+    "wcb267_trap": {
+      "id": "wcb267",
+      "question": "Does filing Form WCB-267 protect you from Maine worker misclassification audits?",
+      "answer_first": "No. Form WCB-267 creates a rebuttable presumption for workers' comp purposes only, valid for one year. It has no effect on UI, wage-and-hour, or federal tax classification.",
+      "body": "Form WCB-267 became available on 25th October 2023. An individual files the statement with the Maine Workers' Compensation Board, creating a rebuttable presumption of independent contractor status. The form is valid for 12 months; it must be renewed annually.\n\nHere is what the WCB-267 does not do: it does not protect against a Maine Bureau of Unemployment Compensation audit under § 1043. It does not protect against a Maine Revenue Services payroll tax assessment. It does not satisfy the FLSA Economic Realities test. The WCB-267 is a workers' comp-specific administrative mechanism, nothing more.\n\nA company using WCB-267 as its sole compliance strategy can find itself paying back UI contributions (up to three years retroactive), workers' comp retroactive premiums for any period the presumption was rebutted, back wages and overtime under the FLSA, and civil penalties from the Maine DOL. The misclassification tip line at (207) 621-5120 accepts anonymous reports."
+    },
+    "pfml_stakes": {
+      "id": "pfml",
+      "question": "How does Maine's new PFML programme affect worker classification decisions?",
+      "answer_first": "Maine PFML benefits launched 1st May 2026. Misclassified contractors miss 12 weeks of paid leave. Employers owe back contributions at 1% of wages for the period of misclassification.",
+      "body": "Maine's Paid Family and Medical Leave programme started collecting contributions on 1st January 2025. Benefits became available on 1st May 2026. Under the programme, large employers (15 or more employees) contribute 1% of wages (0.5% employer, 0.5% employee-share deductible). Small employers (fewer than 15 employees) contribute 0.5% total.\n\nThe wage ceiling for 2026 is $184,500. An employee earning above that contributes a maximum of $922.50 per year. Covered workers receive up to 12 weeks of paid leave per year for family, medical, military deployment, or safety leave.\n\nA misclassified contractor in Maine during 2025 or 2026 is entitled to claim those 12 weeks retroactively once correctly classified — and the employer owes back PFML contributions with interest. For a full-year misclassification at the $184,500 ceiling, that is $922.50 per year in missed employee contributions plus the employer's matching $922.50, before penalties. PFML enforcement sits with the Maine Department of Labor alongside UI enforcement.",
+      "sources": [
+        { "label": "Maine PFML official site", "url": "https://www.maine.gov/paidleave/" }
+      ]
+    },
+    "penalties": {
+      "id": "penalties",
+      "question": "What are the penalties for misclassifying a worker in Maine?",
+      "answer_first": "Misclassification in Maine can trigger back UI contributions up to three years retroactive, workers' comp retroactive premiums, back wages with liquidated damages, and civil penalties across multiple agencies.",
+      "body": "Maine DOL investigates misclassification through its Bureau of Unemployment Compensation and enforces through multiple channels. Back UI contributions carry interest and penalties; the state can assess up to three years of unpaid contributions. Workers' comp violations can include retroactive premium assessments for any period the worker was uninsured.\n\nFor wage and hour violations, misclassified employees are entitled to minimum wage ($15.10/hour in 2026 under Title 26 MRSA § 664), overtime, and liquidated damages equal to the unpaid amount. For PFML misclassification, back contributions apply from the contribution start date of 1st January 2025.\n\nAny person can report suspected misclassification anonymously to the Maine DOL at (207) 621-5120. State and federal law, not contractual agreement, determine classification. A contract calling a worker an 'independent contractor' provides no protection if the substantive relationship fails any of the applicable tests."
+    },
+    "eor_solution": {
+      "id": "eor",
+      "question": "How does an EOR eliminate worker classification risk in Maine?",
+      "answer_first": "An Employer of Record employs the worker directly, making classification a non-issue. You skip all four tests — UI, workers' comp, wage-and-hour, and IRS — because the EOR is the legal employer.",
+      "body": "When a company hires through Teamed as an EOR, Teamed US Inc. (Delaware) becomes the legal employer for all statutory purposes. The worker is an employee on Teamed's payroll from day one — enrolled in Maine PFML, covered by workers' comp, subject to UI contributions, and paid through compliant payroll. There is no classification question to answer.\n\nFor companies at contractor scale, Teamed's Contractor Classifier surfaces your real misclassification exposure before it becomes an audit. For companies ready to hire directly in Maine, the EOR model at $599 per employee per month (flat, Zero FX) handles payroll, PFML administration, workers' comp enrolment, and Maine income tax withholding on one platform. A named payroll specialist handles your Maine hires — not a bot, not a queue.\n\nWhen your headcount in Maine grows to the point where your own entity makes economic sense, Teamed tells you. That's the graduation model — EOR is the right structure for Maine hiring, until it isn't.",
+      "pricing_mention": "$599 per employee per month flat, Zero FX",
+      "tool_links": [
+        { "label": "Run the Contractor Classifier", "href": "https://cntrctr-cal.vercel.app" },
+        { "label": "Model the EOR vs entity crossover", "href": "https://crso-cal.vercel.app/tools/crossover" }
+      ]
+    },
+    "good_to_know": {
+      "id": "good-to-know",
+      "question": "What else should you know before hiring in Maine?",
+      "body": "Maine's minimum wage is $15.10 per hour from 1st January 2026, covering agricultural workers for the first time under legislation signed June 2025. The overtime exemption threshold for salaried workers moved to $871.16 per week ($45,300/year) from 2026. Maine's income tax runs from 5.80% to 7.15% across three brackets. Maine Revenue Services withholds via the Federal W-4 (no separate Maine withholding form); filings go through Maine Tax Portal at revenue.maine.gov. New employer UI rate for 2026 is 2.54% combined on the first $12,000 of wages. PFML contributions sit alongside UI, both filed quarterly."
+    }
+  },
+  "faq_schema": [
+    {
+      "q": "What is Maine's worker classification test?",
+      "a": "Maine applies a hybrid test under 26 M.R.S. § 1043(11)(E): all five required prongs must be met, plus at least three of seven additional factors. All workers are presumed employees; the employer must rebut the presumption."
+    },
+    {
+      "q": "Does Form WCB-267 protect against Maine UI misclassification audits?",
+      "a": "No. Form WCB-267 creates a rebuttable presumption for workers' compensation purposes only. It has no effect on unemployment insurance classification under 26 M.R.S. § 1043, wage-and-hour enforcement, or federal tax treatment."
+    },
+    {
+      "q": "When did Maine PFML benefits start?",
+      "a": "Maine PFML benefit payments began 1st May 2026. Contributions started 1st January 2025. Large employers (15+ employees) contribute 1% of wages; small employers contribute 0.5%. Workers receive up to 12 weeks of paid leave."
+    },
+    {
+      "q": "What are the penalties for misclassifying a worker in Maine?",
+      "a": "Penalties include back UI contributions up to three years retroactive with interest, workers' comp retroactive premiums, back wages and overtime under the FLSA (minimum $15.10/hour in 2026), PFML back contributions from January 2025, and Maine DOL civil penalties."
+    },
+    {
+      "q": "How does an EOR handle Maine worker classification?",
+      "a": "An Employer of Record employs the worker directly, eliminating the classification question. The EOR handles PFML enrolment, workers' comp, UI contributions, and Maine income tax withholding. Teamed's US EOR runs through Teamed US Inc. (Delaware) at $599/employee/month flat."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live", "context": "core" },
+    { "anchor": "the graduation model", "href": "/graduation-model/", "status": "live", "context": "core" },
+    { "anchor": "Zero FX Fixed pricing", "href": "/pricing/zero-fx-fixed/", "status": "live", "context": "commercial" },
+    { "anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "status": "live", "context": "tool" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live", "context": "CTA" }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_attribution": "Michael Denning (@coffeeguy77) via Unsplash — Portland, Maine harbour"
+  }
+}

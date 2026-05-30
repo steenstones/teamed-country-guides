@@ -1,0 +1,105 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Louisiana",
+    "slug": "united-states/louisiana/termination-law-and-at-will-exceptions",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "hero": {
+    "headline": "Louisiana at-will employment and termination law",
+    "subhead": "The only US state where at-will sits in a civil code, not common law. Final paycheck due the sooner of 15 days or next payday.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Check your EOR vs entity crossover", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "at_a_glance": {
+    "currency": "USD ($)",
+    "at_will": "Yes — La. Civ. Code art. 2747",
+    "at_will_source": "Civil code (not common law) — unique among US states",
+    "final_paycheck_deadline": "Sooner of next regular payday or 15 calendar days (R.S. 23:631)",
+    "penalty_for_late_pay": "Up to 90 days wages at daily rate OR running wages from demand, whichever lesser (R.S. 23:632)",
+    "ledl_threshold_race_sex": "15 employees, 20+ weeks/year",
+    "ledl_threshold_age": "20 employees, 20+ weeks/year",
+    "ledl_threshold_pregnancy": "25 employees, 20+ weeks/year",
+    "fixed_term_trap": "La. Civ. Code art. 2749 — employer owes balance of term if dismissed early without cause",
+    "state_warn_act": "None — federal WARN only (100+ employees)",
+    "verified_date": "2026-05-30"
+  },
+  "termination": {
+    "question": "What is Louisiana's at-will employment rule?",
+    "answer_first": "Louisiana is an at-will employment state under La. Civ. Code art. 2747, the only US state where the at-will rule derives from a civil code rather than common-law precedent.",
+    "at_will_basis": "La. Civ. Code art. 2747 (Napoleonic civil code origin). Art. 2749 creates liability for fixed-term contract dismissal without cause.",
+    "exceptions": [
+      "Statutory anti-retaliation (LA R.S. 23:1361 workers comp; R.S. 23:967 whistleblower; jury service; USERRA)",
+      "Implied contract (handbook without at-will disclaimer; progressive discipline language)",
+      "Narrow public-policy exception requiring specific statutory ground (not a freestanding tort)"
+    ]
+  },
+  "final_paycheck": {
+    "question": "When is the final paycheck due in Louisiana?",
+    "answer_first": "Under LA R.S. 23:631, final wages are due the sooner of the next regular payday or 15 calendar days after discharge or resignation.",
+    "rule_type": "Sooner of",
+    "days_cap": 15,
+    "penalty_statute": "LA R.S. 23:632",
+    "penalty_amount": "90 days wages at daily rate OR running wages from demand, whichever lesser",
+    "attorney_fees": "Payable after well-founded suit filed 3+ days after first demand",
+    "good_faith_exception": "Disputed amount plus judicial interest only; no penalty wages if court finds good-faith dispute"
+  },
+  "discrimination_thresholds": {
+    "question": "What discrimination law applies to terminations in Louisiana?",
+    "statute": "Louisiana Employment Discrimination Law, LA R.S. 23:301 et seq.",
+    "thresholds": [
+      { "class": "Race, sex, religion, national origin", "louisiana_threshold": "15 employees, 20+ weeks/year", "federal": "15 (Title VII)" },
+      { "class": "Age discrimination (40+)", "louisiana_threshold": "20 employees, 20+ weeks/year", "federal": "20 (ADEA)" },
+      { "class": "Disability", "louisiana_threshold": "15 employees, 20+ weeks/year", "federal": "15 (ADA)" },
+      { "class": "Pregnancy and childbirth", "louisiana_threshold": "25 employees, 20+ weeks/year", "federal": "15 (PWFA/PDA)" },
+      { "class": "Natural/protective/cultural hairstyle", "louisiana_threshold": "15 employees", "federal": "Covered under race (Title VII)" }
+    ]
+  },
+  "faq_schema": [
+    {
+      "q": "What is Louisiana's at-will employment rule?",
+      "a": "Louisiana is an at-will employment state under La. Civ. Code art. 2747, which gives employers the right to dismiss a hired servant without assigning any reason. Unlike the 49 other US states, this rule derives from civil-code origin rather than common law. Exceptions are narrower and require a specific statutory ground."
+    },
+    {
+      "q": "When is the final paycheck due in Louisiana?",
+      "a": "Under LA R.S. 23:631, final wages are due on or before the next regular payday or no later than 15 calendar days after discharge or resignation, whichever occurs first. This sooner-of rule is the operational inverse of states that use a later-of framework."
+    },
+    {
+      "q": "What is the penalty for late final pay in Louisiana?",
+      "a": "Under LA R.S. 23:632, an employer who fails to pay timely is liable for 90 days wages at the daily rate, or full wages from the date of demand until payment, whichever is lesser. Reasonable attorney fees are also payable after a well-founded suit filed at least 3 days after the first demand."
+    },
+    {
+      "q": "What discrimination law applies to terminations in Louisiana?",
+      "a": "The Louisiana Employment Discrimination Law applies at 15 employees for race, sex, religion, and national origin; 20 employees for age discrimination; and 25 employees for pregnancy and childbirth. These thresholds differ materially from federal law."
+    },
+    {
+      "q": "Does Louisiana have a state WARN Act?",
+      "a": "No. Louisiana has no state-level plant-closing or mass-layoff notice law. Federal WARN applies to employers with 100 or more employees, requiring 60 days written notice before a qualifying plant closing or mass layoff affecting 50 or more workers at a single site."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_credit": "Ricky Beron (@nacio1966) via Unsplash — New Orleans, Louisiana"
+  },
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "core", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "context": "core", "status": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "context": "CTA", "status": "live" },
+    { "anchor": "Louisiana tax and unemployment insurance", "href": "/hire-in-united-states/louisiana/state-income-tax-and-unemployment-insurance/", "context": "sibling", "status": "wave-4" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tool", "status": "live" }
+  ],
+  "meta": {
+    "title": "Louisiana Termination Law and At-Will Exceptions | Teamed",
+    "description": "Louisiana at-will derives from Civil Code art. 2747, not common law. Final paycheck due sooner of 15 days or next payday (R.S. 23:631). EOR at $599/month, Zero FX.",
+    "target_keywords": [
+      "louisiana at-will employment termination law",
+      "louisiana termination law 2026",
+      "louisiana final paycheck law",
+      "louisiana civil code article 2747",
+      "louisiana wrongful termination"
+    ],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

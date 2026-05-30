@@ -1,0 +1,75 @@
+{
+  "row_id": "master-0106",
+  "slug": "united-states/louisiana/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/louisiana/state-income-tax-and-unemployment-insurance/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "Country — US State Child",
+  "primer": true,
+  "primer_cache_written": "sprint/compliance-cache/louisiana.json",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "Louisiana state income tax employer 2026",
+    "Louisiana unemployment insurance rate 2026",
+    "Louisiana payroll tax employer withholding"
+  ],
+  "sources": [
+    { "layer": 2, "name": "Louisiana Department of Revenue — Income Tax Reform FAQ", "url": "https://revenue.louisiana.gov/tax-education-and-faqs/faqs/income-tax-reform/what-are-the-individual-income-tax-rates-and-brackets/", "accessed": "2026-05-30" },
+    { "layer": 2, "name": "LDR R-1306 — Withholding Tables and Formulas 2026", "url": "https://dam.ldr.la.gov/taxforms/1306-1-26.pdf", "accessed": "2026-05-30" },
+    { "layer": 2, "name": "LDR Form L-4 (2026 revision)", "url": "https://dam.ldr.la.gov/taxforms/1300-1-26F.pdf", "accessed": "2026-05-30" },
+    { "layer": 2, "name": "LDR 2026 Filing Calendar", "url": "https://revenue.louisiana.gov/calendar/2026", "accessed": "2026-05-30" },
+    { "layer": 2, "name": "Louisiana Workforce Commission — UI rates page", "url": "https://www.laworks.net/unemploymentinsurance/ui_lainsurancetaxrates.asp", "accessed": "2026-05-30" },
+    { "layer": 2, "name": "DCFS New Hire Registry", "url": "https://www.dcfs.louisiana.gov/page/164", "accessed": "2026-05-30" },
+    { "layer": 3, "name": "RSM US — Louisiana Enacts Significant Tax Reform", "url": "https://rsmus.com/insights/tax-alerts/2024/louisiana-enacts-significant-tax-reform.html", "accessed": "2026-05-30" },
+    { "layer": 3, "name": "Bloomberg Tax — Louisiana 2026 UI Rates and Wage Base", "url": "https://news.bloombergtax.com/payroll/louisiana-releases-2026-unemployment-rates-wage-base", "accessed": "2026-05-30" },
+    { "layer": 4, "name": "OnPay — Louisiana Payroll Tax Rates 2026", "url": "https://onpay.com/payroll/calculator-tax-rates/louisiana/", "accessed": "2026-05-30" },
+    { "layer": 6, "name": "TED — Teamed Digital Workforce (US ICP structure)", "url": "internal", "accessed": "2026-05-30", "tag": "TEAMED — partner: SUNA Solutions" }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "Pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "state": "live" }
+  ],
+  "images": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "size_bytes": 134213,
+      "source": "Unsplash",
+      "photographer": "Ricky Beron",
+      "photographer_handle": "nacio1966",
+      "photo_url": "https://unsplash.com/photos/a-river-running-through-a-city-next-to-tall-buildings-siqx1F7q-78",
+      "query_used": "New Orleans Louisiana bayou aerial business district"
+    },
+    "inline_visual": {
+      "type": "polaroid",
+      "method": "html_css",
+      "description": "LDR R-1306 2026 data card showing withholding method and $500/mo deposit trigger"
+    }
+  },
+  "editor_rounds": 1,
+  "editor_status": "clean — no block-severity violations",
+  "linter_result": "PASS",
+  "linter_checks": "28/29",
+  "linter_block_fails": 0,
+  "linter_warn_fails": 1,
+  "linter_warn_detail": "cta.staging_url_warn — crso-cal.vercel.app is the live canonical URL per config/internal-links.json; known infrastructure state, not a page error",
+  "audit_score": 88,
+  "high_concern_flags": [
+    "factual_uncertainty__standard_deduction_withholding_vs_statutory",
+    "factual_uncertainty__ui_wage_base_2025_comparator_lwc_pdf_403",
+    "link_gate_warn__louisiana_state_parent_wave4",
+    "link_gate_warn__us_country_parent_wave3"
+  ],
+  "retrofit_needed": {
+    "neighbour_state_links": true,
+    "note": "Texas, Mississippi, Arkansas state pages not yet built (wave-4). Plain-text references used."
+  },
+  "partner_entity_status": "partner — SUNA Solutions, Inc. (primary US ICP per TED). Specific Louisiana-registered SUNA legal entity name not confirmed — flag for ops verification.",
+  "pullquote_provenance": "anonymised — no Meeting Intelligence quote found for Louisiana. Speaker: Teamed US Operations.",
+  "primer_sibling_pages_unblocked": "All Louisiana sibling rows now unblocked — louisiana.json written to sprint/compliance-cache/louisiana.json"
+}

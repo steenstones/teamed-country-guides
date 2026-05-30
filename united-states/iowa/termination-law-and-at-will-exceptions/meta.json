@@ -1,0 +1,106 @@
+{
+  "row_id": "master-0089",
+  "slug": "united-states/iowa/termination-law-and-at-will-exceptions",
+  "page_type": "us_state_child",
+  "batch": "phase-1.0",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "target_keywords": [
+    "iowa at will employment exceptions",
+    "iowa termination law 2026",
+    "iowa final paycheck rules",
+    "iowa wage payment collection act employer",
+    "iowa wrongful termination"
+  ],
+  "sources": [
+    {
+      "url": "https://www.legis.iowa.gov/docs/ico/chapter/91A.pdf",
+      "title": "Iowa Code Chapter 91A — Iowa Wage Payment Collection Act",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/ico/section/85.18.pdf",
+      "title": "Iowa Code § 85.18 — Workers' Compensation discharge protection",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/ico/chapter/216.pdf",
+      "title": "Iowa Code Chapter 216 — Iowa Civil Rights Act",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/ico/section/70A.28.pdf",
+      "title": "Iowa Code § 70A.28 — Public-employee whistleblower protection",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/ico/section/607A.45.pdf",
+      "title": "Iowa Code § 607A.45 — Jury duty protection",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://icrc.iowa.gov/",
+      "title": "Iowa Civil Rights Commission — filing information",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://www.dol.gov/agencies/eta/layoffs/warn",
+      "title": "Federal WARN Act — U.S. Department of Labor",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://workforce.iowa.gov/rapid-response",
+      "title": "Iowa Workforce Development — Rapid Response",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://revenue.iowa.gov/press-release/2025-10-21/idr-announces-2026-individual-income-tax-and-interest-rates",
+      "title": "Iowa DOR — 2026 Individual Income Tax and Interest Rates (compliance cache)",
+      "accessed": "2026-05-27"
+    },
+    {
+      "url": "https://workforce.iowa.gov/press-release/2025-09-05/unemployment-insurance-rates-iowa-employers-remain-lowest-possible-level-2026",
+      "title": "Iowa Workforce Development — UI Rates 2026 (compliance cache)",
+      "accessed": "2026-05-27"
+    }
+  ],
+  "pullquote_provenance": [],
+  "internal_links_used": [
+    { "anchor": "Iowa state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live" },
+    { "anchor": "Arizona termination law and at-will exceptions", "href": "../../arizona/termination-law-and-at-will-exceptions/", "state": "live" },
+    { "anchor": "Alabama termination law and at-will exceptions", "href": "../../alabama/termination-law-and-at-will-exceptions/", "state": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live" },
+    { "anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "state": "live" }
+  ],
+  "link_gate_warns": [
+    { "href": "Hiring in the United States overview", "reason": "US country parent not yet live (wave-3)", "flag": "link_gate_warn:us_parent_wave_3" },
+    { "href": "Iowa overview", "reason": "Iowa state parent not yet commissioned (wave-4)", "flag": "link_gate_warn:iowa_overview_not_built" }
+  ],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "images": false,
+    "internal_links_neighbour": true,
+    "team_bios": true
+  },
+  "compliance_cache_used": "sprint/compliance-cache/iowa.json",
+  "compliance_cache_fetched_at": "2026-05-27",
+  "audit_score": 90,
+  "high_concern_flags": [
+    "link_gate_warn:us_parent_wave_3",
+    "link_gate_warn:iowa_overview_not_built",
+    "linter_warn:crossover_staging_url"
+  ],
+  "sameness_check": {
+    "opening_para_iowa_specific": true,
+    "tom_tagline_iowa_specific": true,
+    "iowa_facts_anchored": [
+      "IWPCA § 91A.8 double-wages penalty",
+      "Iowa Civil Rights Act 4-employee threshold",
+      "Case-law based exceptions (not closed statute like AEPA)",
+      "Iowa Code § 85.18 workers comp protection",
+      "Next-regular-payday rule vs Arizona 7-day clock"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "abbreviation": "KY"
+  },
+  "page": {
+    "slug": "united-states/kentucky/wage-overtime-and-meal-break-law",
+    "target_url": "/hire-in-united-states/kentucky/wage-overtime-and-meal-break-law/",
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "1. Country",
+    "sub_cluster": "Country — US State Child",
+    "row_id": "master-0104",
+    "batch": "phase-1.0"
+  },
+  "hero": {
+    "headline": "What are the wage, overtime and meal-break rules in Kentucky?",
+    "subhead": "$7.25 minimum, FLSA overtime, plus one of the few state paid-break mandates in the US.",
+    "partner_badge": "Served by Teamed partner network in Kentucky: SUNA Solutions",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Check your crossover point", "href": "https://crso-cal.vercel.app/tools/crossover" },
+    "hero_image": "images/hero.jpg",
+    "hero_alt": "Louisville Kentucky city skyline at dusk reflected in the Ohio River",
+    "hero_credit": {
+      "photographer": "Chris Marlin",
+      "photographer_username": "mitchbagnet",
+      "source": "Unsplash",
+      "photo_url": "https://unsplash.com/photos/city-skyline-at-dusk-with-water-reflections-VNGVZ6m4WfU"
+    }
+  },
+  "answer_capsule": "Kentucky's minimum wage is $7.25 per hour under KRS 337.275, matching the federal FLSA floor. Overtime is 1.5x the regular rate for hours over 40 per workweek under FLSA (no separate Kentucky OT rate). Where Kentucky stands apart: paid 10-minute rest periods every 4 hours under KRS 337.365, and a meal period after no more than 5 continuous hours under KRS 337.355. These break mandates apply to adult employees in Kentucky regardless of FLSA. Final wages are due on the next regular payday after separation under KRS 337.055. Teamed runs Kentucky employment via SUNA Solutions at $599 per employee per month, Zero FX.",
+  "sections": {
+    "minimum_wage": {
+      "question": "What is the minimum wage in Kentucky in 2026?",
+      "answer_first": "Kentucky's minimum wage is $7.25 per hour as of 2026, set under KRS 337.275 by reference to the federal FLSA floor. No state increase above the federal rate has been enacted.",
+      "statute": "KRS 337.275",
+      "statute_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3315",
+      "rate_per_hour_usd": 7.25,
+      "effective_date": "2026-01-01",
+      "note": "Louisville Metro local ordinance contested — verify at hire for Louisville employees"
+    },
+    "overtime": {
+      "question": "Does Kentucky have its own overtime law beyond FLSA?",
+      "answer_first": "Kentucky follows federal FLSA overtime rules: 1.5 times the regular rate for all hours worked beyond 40 in a single workweek. Kentucky has no separate state overtime rate or daily overtime threshold.",
+      "federal_statute": "FLSA 29 USC 207",
+      "weekly_threshold_hours": 40,
+      "ot_multiplier": 1.5,
+      "daily_ot": false,
+      "salary_exemption_floor_weekly_usd": 684,
+      "salary_exemption_floor_annual_usd": 35568
+    },
+    "meal_breaks": {
+      "question": "Are meal breaks legally required in Kentucky?",
+      "answer_first": "Yes. Under KRS 337.355, Kentucky employers must provide a reasonable meal period (typically 30 minutes) to employees working more than 5 continuous hours.",
+      "statute": "KRS 337.355",
+      "statute_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3325",
+      "trigger_hours": 5,
+      "shorter_period_allowed_below_hours": 5,
+      "shorter_period_minimum_hours": 3,
+      "paid_if_fully_relieved": false,
+      "paid_if_on_duty": true
+    },
+    "rest_breaks": {
+      "question": "Are paid rest breaks required by law in Kentucky?",
+      "answer_first": "Yes. KRS 337.365 requires a paid 10-minute rest period for each 4-hour work period or major fraction thereof. These breaks are compensable work time and cannot be waived.",
+      "statute": "KRS 337.365",
+      "statute_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3326",
+      "break_duration_minutes": 10,
+      "break_per_hours": 4,
+      "paid": true,
+      "waivable": false,
+      "national_context": "Kentucky is one of approximately 12 US states with a statutory adult paid rest-break mandate"
+    },
+    "final_paycheck": {
+      "question": "When must a final paycheck be issued in Kentucky?",
+      "answer_first": "Under KRS 337.055, Kentucky requires final wages to be paid on or before the next regular payday after separation, whether the termination is voluntary or involuntary.",
+      "statute": "KRS 337.055",
+      "statute_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3295",
+      "deadline": "next_regular_payday",
+      "applies_to_voluntary": true,
+      "applies_to_involuntary": true,
+      "disputed_wages_rule": "Employer must pay undisputed portion on time; may withhold only genuinely contested amount"
+    },
+    "payroll_taxes": {
+      "question": "What payroll taxes does a Kentucky employer pay?",
+      "state_income_tax_rate_pct": 3.5,
+      "state_income_tax_from": "2026-01-01",
+      "state_income_tax_legislation": "KRS 141.020; HB 1 (2025 Regular Session)",
+      "state_income_tax_source_url": "https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx",
+      "standard_deduction_usd": 3360,
+      "ui_new_employer_rate_pct": 2.7,
+      "ui_taxable_wage_base_usd": 12000,
+      "ui_source_url": "https://kewes.ky.gov/Contact/contacts.aspx?strid=2",
+      "futa_effective_rate_pct": 0.6,
+      "futa_credit_reduction": false,
+      "local_occupational_tax": {
+        "applies": true,
+        "coverage": "87 of 120 counties plus hundreds of cities",
+        "louisville_resident_rate_pct": 2.2,
+        "louisville_nonresident_rate_pct": 1.45
+      }
+    }
+  },
+  "faq": [
+    {
+      "q": "What is the minimum wage in Kentucky in 2026?",
+      "a": "Kentucky's minimum wage in 2026 is $7.25 per hour, matching the federal FLSA floor under KRS 337.275. Louisville Metro has historically passed higher local ordinances, though state preemption has limited local increases. Verify the applicable rate for your employee's work location before setting pay."
+    },
+    {
+      "q": "Does Kentucky have its own overtime law?",
+      "a": "Kentucky follows the federal FLSA overtime rule: 1.5 times the regular rate for all hours worked beyond 40 in a single workweek. Kentucky has no separate state overtime rate or daily overtime threshold. Most exemptions mirror FLSA executive, administrative, professional, and outside-sales categories."
+    },
+    {
+      "q": "Are meal breaks required by law in Kentucky?",
+      "a": "Yes. Under KRS 337.355, Kentucky employers must provide a reasonable meal period (typically 30 minutes) to employees who work more than 5 continuous hours. Employees must be completely relieved of duties; otherwise the break counts as paid work time."
+    },
+    {
+      "q": "Are rest breaks required in Kentucky?",
+      "a": "Yes. KRS 337.365 requires a paid 10-minute rest period for each 4-hour work period or major fraction thereof. These breaks are compensable work time and cannot be waived by the employer or employee. Kentucky is one of approximately 12 US states with a statutory adult rest-break mandate for hourly workers."
+    },
+    {
+      "q": "When must a final paycheck be issued in Kentucky?",
+      "a": "Under KRS 337.055, Kentucky requires final wages to be paid on or before the next regular payday following separation, whether the termination is voluntary or involuntary. If the amount is disputed, the employer must pay the undisputed portion on time and may withhold only the genuinely contested amount."
+    }
+  ],
+  "teamed_pricing": {
+    "fee_usd": 599,
+    "fee_display": "$599 / employee / month",
+    "pricing_model": "Single Fixed Rate",
+    "zero_fx": true,
+    "partner": "SUNA Solutions (primary), PGC (secondary)",
+    "payroll_schedule": "Semi-monthly: 15th and last business day of month"
+  },
+  "meta": {
+    "title": "Kentucky Wage, Overtime and Meal-Break Law 2026 | Teamed",
+    "description": "Kentucky minimum wage $7.25/hr, FLSA overtime at 1.5x, paid 10-min rest per 4 hrs under KRS 337.365, meal period after 5 hrs, final pay on next regular payday. Teamed EOR $599/mo.",
+    "target_keywords": ["kentucky overtime law", "kentucky meal break law", "kentucky wage and hour", "KRS 337", "kentucky minimum wage 2026", "kentucky final paycheck law"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

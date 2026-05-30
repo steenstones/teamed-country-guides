@@ -1,0 +1,119 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Kansas",
+    "slug": "united-states/kansas/paid-family-and-sick-leave",
+    "iso2": "US",
+    "state_code": "KS"
+  },
+  "hero": {
+    "headline": "Kansas paid family and sick leave 2026",
+    "subhead": "SB 376 failed. No state mandate. Your offer letter is the policy.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "at_a_glance": {
+    "currency": "USD",
+    "state_pfl": "None (SB 376, 2024, failed committee)",
+    "state_psl": "None",
+    "federal_fmla": "Unpaid, 12 weeks/year",
+    "fmla_threshold": "50 employees within 75 miles",
+    "fmla_employee_eligibility": "12 months tenure + 1,250 hours/year",
+    "typical_employer_sick_days": "5-10 days (voluntary)",
+    "verified_date": "2026-05-30"
+  },
+  "opening_differentiator": "SB 376 (2024 session, failed committee) — named failed bill as Kansas-specific anchor. Iowa draft used 'no mandate' generic lead; this draft opens on the legislative history.",
+  "sections": [
+    {
+      "id": "state-law",
+      "question": "Does Kansas have a paid family leave law?",
+      "answer_first": "Kansas Senate Bill 376, introduced in the 2024 legislative session, was the state's most recent attempt to create a paid family leave programme. It did not advance out of committee, and with a Republican legislative trifecta in place after the 2024 elections, no comparable bill is on the near-term legislative calendar.",
+      "body": "SB 376 proposed a state-funded paid family and medical leave programme financed through a payroll contribution shared between employers and employees. The Kansas Senate Committee on Commerce did not move it forward. The political environment for new payroll mandates in Kansas remains unfavourable through the current legislative cycle, and Kansas employers should plan around a federal FMLA-only baseline for the foreseeable future. Kansas is among the majority of US states with no state-level paid family leave programme. Unlike California, New York, Washington, or Massachusetts, Kansas has not enacted a state PFL insurance scheme funded by payroll deductions. Your offer letter is Kansas's paid leave policy."
+    },
+    {
+      "id": "sick-leave",
+      "question": "Does Kansas have a paid sick leave requirement?",
+      "answer_first": "Kansas has no paid sick leave requirement. There is no state statute, no enforceable local ordinance, and no federal mandate for private employers as of 2026.",
+      "body": "Roughly 20 states and Washington DC have enacted mandatory paid sick leave laws; Kansas is not among them. No Kansas city or county has a paid sick leave requirement currently in force. Wichita, Overland Park, and Kansas City, Kansas are all without any local paid sick leave floor as of 2026. The market benchmark for professional and technical roles in Kansas is 5 to 10 days of paid sick leave per year, or combined PTO pools of 15 to 20 days. Aerospace employers in the Wichita corridor and tech-sector employers in the Overland Park metro have moved toward more generous voluntary policies to compete nationally for skilled workers."
+    },
+    {
+      "id": "fmla",
+      "question": "Does federal FMLA apply to Kansas employers?",
+      "answer_first": "Federal FMLA applies to Kansas employers with 50 or more employees within a 75-mile radius. Eligible employees need 12 months of tenure and 1,250 hours in the prior year to qualify for 12 weeks of unpaid, job-protected leave.",
+      "postcard": {
+        "title": "Federal FMLA at a glance, Kansas",
+        "label": "KANSAS · FEDERAL LAW ONLY",
+        "items": [
+          { "label": "Employer threshold", "value": "50+ employees within 75 miles" },
+          { "label": "Employee eligibility", "value": "12 months tenure + 1,250 hours/year" },
+          { "label": "Duration", "value": "12 weeks / year (26 weeks for military caregiver)" },
+          { "label": "Pay", "value": "Unpaid (employer may require concurrent PTO use)" },
+          { "label": "Job protection", "value": "Return to same or equivalent role" },
+          { "label": "Reasons", "value": "Serious health condition, birth/adoption, qualifying military exigency" },
+          { "label": "Notice required", "value": "30 days advance where foreseeable" },
+          { "label": "State supplement", "value": "None — FMLA is the ceiling and the floor" }
+        ],
+        "statute": "29 U.S.C. § 2601 (FMLA) · 29 CFR Part 825"
+      },
+      "body": "The 75-mile count includes all employees at locations within 75 miles of the work site. A named Teamed specialist handles FMLA paperwork, benefit continuation, and return-to-work coordination so you don't have to build an in-house FMLA compliance function."
+    },
+    {
+      "id": "federal-outlook",
+      "question": "Is there a federal paid leave law on the way?",
+      "answer_first": "No enacted federal paid leave law covers Kansas private employers as of 30 May 2026. The Paid Leave for All Workers Act and related bills have not passed either chamber of Congress.",
+      "body": "When federal paid leave legislation passes, Teamed updates payroll configurations across all administered US states. You don't track it state by state."
+    },
+    {
+      "id": "competitive-offer",
+      "question": "What paid leave do Kansas employers typically offer?",
+      "answer_first": "Kansas market norms run at 10 to 15 days of PTO for professional roles, with 5 to 8 additional days of company-paid short-term disability for medical absences longer than 1 to 3 days.",
+      "table": {
+        "headers": ["Leave type", "Kansas statutory minimum", "Market norm (professional roles)"],
+        "rows": [
+          ["Paid family leave", "None", "4 to 12 weeks voluntary"],
+          ["Paid sick leave", "None", "5 to 10 days/year or PTO pool"],
+          ["Annual PTO", "None", "10 to 20 days/year"],
+          ["Short-term disability", "None", "60% to 100% of salary for 30 to 90 days"],
+          ["FMLA (unpaid)", "12 weeks (at 50+ employees only)", "Often topped up voluntarily"]
+        ]
+      },
+      "body": "Aerospace and aviation employers in Wichita and tech-sector employers in Overland Park have increasingly matched national professional benchmarks on voluntary leave. Because Kansas has no state PFL premium, the voluntary paid leave benefit you offer costs exactly what you choose to fund."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Kansas have paid family leave?",
+      "a": "No. Kansas has no state-mandated paid family leave law as of 2026. Senate Bill 376 (2024 session), the state's most recent paid leave proposal, did not advance out of committee. The only leave protection in Kansas is federal FMLA, which provides 12 weeks of unpaid, job-protected leave and applies only to employers with 50 or more employees within a 75-mile radius."
+    },
+    {
+      "q": "Does Kansas have paid sick leave?",
+      "a": "No. Kansas has no state-mandated paid sick leave law as of 2026. No Kansas city or county has enacted a paid sick leave ordinance. Any paid sick leave a Kansas employee receives comes from voluntary employer policy."
+    },
+    {
+      "q": "Does federal FMLA apply to Kansas employers?",
+      "a": "Yes, if you meet the threshold. Federal FMLA (29 U.S.C. section 2601) applies to employers with 50 or more employees within a 75-mile radius. Eligible employees need 12 months of tenure and 1,250 hours worked in the prior year. FMLA provides 12 weeks of unpaid, job-protected leave per year."
+    },
+    {
+      "q": "What leave do Kansas employers typically offer voluntarily?",
+      "a": "Kansas professional employers typically offer 10 to 15 days of PTO for professional roles. Aerospace and tech-sector employers in Wichita and Overland Park often match national benchmarks of 4 to 12 weeks of voluntary paid parental leave to remain competitive for talent."
+    },
+    {
+      "q": "What happens to Kansas employees at employers below 50 people?",
+      "a": "Below the FMLA threshold, Kansas employers have no statutory leave obligation beyond what they have committed to in the offer letter. No federal law and no state law applies. What you write into the employment contract is what you owe."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Arizona paid family and sick leave", "href": "/hire-in-united-states/arizona/paid-family-and-sick-leave/", "context": "sibling_state" },
+    { "anchor": "Iowa paid family and sick leave", "href": "/hire-in-united-states/iowa/paid-family-and-sick-leave/", "context": "sibling_state" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "context": "core" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tool" }
+  ],
+  "meta": {
+    "title": "Kansas Paid Family and Sick Leave 2026 | FMLA, No State Law. Teamed",
+    "description": "Kansas SB 376 (2024) failed. No state paid family or sick leave law. Federal FMLA applies at 50+ employees. Teamed EOR at $599/month flat, Zero FX.",
+    "target_keywords": ["Kansas paid family leave", "Kansas paid sick leave", "Kansas FMLA requirements", "does Kansas have paid family leave"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

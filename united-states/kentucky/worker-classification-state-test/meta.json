@@ -1,0 +1,102 @@
+{
+  "row_id": "master-0102",
+  "country": "United States",
+  "state": "Kentucky",
+  "slug": "united-states/kentucky/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/kentucky/worker-classification-state-test/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "kentucky worker classification test",
+    "kentucky independent contractor test",
+    "KRS 341 worker classification",
+    "kentucky ABC test contractor"
+  ],
+  "audit_score": 88,
+  "editor_rounds": 1,
+  "high_concern_flags": [],
+  "retrofit_needed": {
+    "images": false,
+    "internal_links": false,
+    "person_schema": false,
+    "notes": "US hiring overview page is wave-3 — linked as plain text. Kentucky state overview is wave-4 — linked as plain text."
+  },
+  "sources": [
+    {
+      "name": "KRS 341.050 — Kentucky Revised Statutes (ABC test for UI)",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55454",
+      "accessed": "2026-05-30",
+      "tag": "LAW"
+    },
+    {
+      "name": "KRS 341.330 — Penalties on past-due UI contributions",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55492",
+      "accessed": "2026-05-30",
+      "tag": "LAW"
+    },
+    {
+      "name": "KRS Chapter 342 — Workers' Compensation (common-law control test)",
+      "url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39366",
+      "accessed": "2026-05-30",
+      "tag": "LAW"
+    },
+    {
+      "name": "Kentucky HB 1 (2025) — income tax rate 3.5% effective 2026-01-01",
+      "url": "https://apps.legislature.ky.gov/record/25rs/hb1.html",
+      "accessed": "2026-05-30",
+      "tag": "LAW"
+    },
+    {
+      "name": "Kentucky UI wage base 2026 — $12,000 (kewes.ky.gov)",
+      "url": "https://kewes.ky.gov/Contact/contacts.aspx?strid=2",
+      "accessed": "2026-05-30",
+      "tag": "LAW"
+    },
+    {
+      "name": "Kentucky DOR 2026 Withholding Formula (Form 42A003)",
+      "url": "https://revenue.ky.gov/Forms/2026%20Withholding%20Formula.pdf",
+      "accessed": "2026-05-30",
+      "tag": "LAW"
+    },
+    {
+      "name": "Louisville Jefferson County occupational tax — Form 220-221",
+      "url": "https://louisvilleky.gov/government/revenue-commission/forms-and-publications",
+      "accessed": "2026-05-30",
+      "tag": "LAW"
+    },
+    {
+      "name": "Kentucky occupational tax registry (sos.ky.gov)",
+      "url": "https://web.sos.ky.gov/occupationaltax/",
+      "accessed": "2026-05-30",
+      "tag": "LAW"
+    },
+    {
+      "name": "IRS Publication 15-A — Employer's Supplemental Tax Guide (common-law test)",
+      "url": "https://www.irs.gov/publications/p15a",
+      "accessed": "2026-05-30",
+      "tag": "external"
+    },
+    {
+      "name": "compliance-cache/kentucky.json — batch-prewarmed state-level data",
+      "url": "local",
+      "accessed": "2026-05-30",
+      "tag": "TEAMED"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Kentucky state income tax and unemployment insurance 2026", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live" },
+    { "anchor": "Kentucky termination law and at-will exceptions", "href": "../termination-law-and-at-will-exceptions/", "state": "live" },
+    { "anchor": "Hire contractors in the United States", "href": "/hire-contractors/united-states/", "state": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "state": "live" },
+    { "anchor": "United States hiring overview", "href": "", "state": "wave-3", "note": "rendered as plain text" }
+  ],
+  "pullquote_provenance": [],
+  "linter_result": "pass-26/27 (1 warn: cntrctr-cal.vercel.app staging URL — expected, canonical tool URL per internal-links.json)",
+  "cross_batch_sameness_notes": "Opening capsule centres on KRS 341 ABC dual-test structure and Prong B as Kentucky-specific trap. Iowa page centres on IWD common-law control alignment + Chapter 85 workers comp. Kansas page centres on KSA 44-703 + HB 2570 wage base indexing. Tom taglines are state-specific: Kentucky = Prong B + 25% penalty + local occ tax; Iowa = Chapter 85 workers comp; Kansas = HB 2570 wage base trajectory."
+}

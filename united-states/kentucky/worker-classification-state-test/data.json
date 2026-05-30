@@ -1,0 +1,82 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Kentucky",
+    "slug": "united-states/kentucky/worker-classification-state-test",
+    "iso2": "US"
+  },
+  "hero": {
+    "headline": "How does Kentucky classify workers as employees or contractors?",
+    "subhead": "Two tests, one state: KRS 341 ABC for UI, KRS 342 common-law for workers' comp.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the Contractor Classifier", "href": "https://cntrctr-cal.vercel.app" }
+  },
+  "classification_framework": {
+    "ui_test": "ABC test under KRS 341.050 — all three prongs required",
+    "workers_comp_test": "Common-law control test under KRS Chapter 342",
+    "irs_alignment": "Common-law test tracks IRS Publication 15-A; ABC test does not (Prong B has no IRS equivalent)",
+    "kedc_enforcement": "Kentucky Education and Development Cabinet — can issue retroactive employee determinations"
+  },
+  "misclassification_exposure": {
+    "ui_wage_base_2026_usd": 12000,
+    "penalty_pct": 25,
+    "interest_rate_monthly_pct": 1.5,
+    "state_income_tax_back_withholding_pct": 3.5,
+    "local_occ_tax_counties": "87 of 120 counties plus hundreds of cities",
+    "authority": "KRS 341.330"
+  },
+  "abc_test_prongs": [
+    {
+      "prong": "A",
+      "requirement": "Free from direction and control in performance of services, under contract and in fact",
+      "irs_analogue": "Behavioural control (IRS Pub 15-A)"
+    },
+    {
+      "prong": "B",
+      "requirement": "Services performed outside usual course of business, OR outside all places of business",
+      "irs_analogue": "None — no IRS equivalent",
+      "highest_risk": true
+    },
+    {
+      "prong": "C",
+      "requirement": "Customarily engaged in independently established trade, occupation, profession, or business",
+      "irs_analogue": "Type of relationship category (partially)"
+    }
+  ],
+  "pricing": {
+    "fee_usd": 599,
+    "fee_gbp": 479,
+    "model": "Single fixed rate, Zero FX mark-up",
+    "statutory_pass_through": "at cost, itemised on invoice"
+  },
+  "partner": {
+    "name": "SUNA Solutions",
+    "type": "partner",
+    "secondary": "PGC (Precision Global Consulting)"
+  },
+  "faq_schema": [
+    {
+      "q": "How does Kentucky classify workers for unemployment insurance?",
+      "a": "Kentucky uses the ABC test under KRS 341.050. All three prongs must be satisfied: (A) free from direction and control, (B) services outside usual course of business or outside the company's premises, and (C) individually engaged in an independently established trade or business."
+    },
+    {
+      "q": "What is the penalty for misclassifying a worker in Kentucky?",
+      "a": "Back UI contributions on the $12,000 2026 wage base, a 25% penalty under KRS 341.330, interest at 1.5% per month, back state income tax at 3.5%, and occupational licence fees across applicable counties."
+    },
+    {
+      "q": "Is a Kentucky contractor who passes the IRS test also safe for UI purposes?",
+      "a": "Not automatically. KRS 341's Prong B (outside usual course of business) has no IRS equivalent. An IRS-defensible relationship can still fail Prong B if the contractor's work falls within the company's core business function."
+    },
+    {
+      "q": "Does Kentucky use a different test for workers' comp vs UI?",
+      "a": "Yes. Kentucky is a dual-test state. KRS 341.050 (ABC test) governs UI; KRS Chapter 342 (common-law control) governs workers' compensation. Satisfying one does not satisfy the other."
+    }
+  ],
+  "meta": {
+    "title": "Kentucky Worker Classification State Test | KRS 341 ABC Test 2026",
+    "description": "Kentucky uses a dual test: ABC test under KRS 341.050 for UI, common-law control under KRS 342 for workers' comp. Misclassification triggers 25% penalty + 1.5%/month.",
+    "target_keywords": ["kentucky worker classification test", "kentucky independent contractor test", "KRS 341 worker classification"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Iowa",
+    "slug": "iowa",
+    "abbreviation": "IA"
+  },
+  "page": {
+    "slug": "united-states/iowa/termination-law-and-at-will-exceptions",
+    "target_url": "/hire-in-united-states/iowa/termination-law-and-at-will-exceptions/",
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "1. Country",
+    "sub_cluster": "Country — US State Child"
+  },
+  "hero": {
+    "headline": "How does Iowa termination law and at-will exceptions work?",
+    "subhead": "At-will with case-law exceptions, not a closed statutory list. The IWPCA final-pay rule is gentler than Arizona's 7-day clock, until you read what double-wages-plus-fees looks like on a $5,000 dispute.",
+    "primary_cta": { "label": "Talk to an expert", "href": "https://www.teamed.global/contact" },
+    "secondary_cta": { "label": "Run the Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost" }
+  },
+  "at_a_glance": {
+    "at_will": "Yes — common law (no codifying statute)",
+    "exception_basis": "Case law — open public-policy tort (Springer v. Weeks & Leo Co., Iowa 1988)",
+    "icra_employer_threshold": "4+ employees",
+    "final_pay_deadline": "Next regular payday (IWPCA § 91A.4)",
+    "final_pay_penalty": "Double wages + attorney's fees (IWPCA § 91A.8)",
+    "icrc_charge_deadline": "300 days (deferral state)",
+    "state_warn": "None — federal WARN only",
+    "mandatory_severance": "None",
+    "entity_status": "Teamed US Inc., Delaware",
+    "verified_date": "2026-05-30"
+  },
+  "sections": {
+    "is_iowa_at_will": {
+      "question": "Is Iowa really an at-will employment state?",
+      "answer_first": "Yes. Iowa at-will employment rests on common law, not a codified statute. Either party can end the relationship at any time, for any reason not prohibited by law or contract.",
+      "body": "Iowa does not have a statute equivalent to Arizona's Employment Protection Act (AEPA) that locks at-will into legislation while listing exceptions. Iowa's exceptions come from case law. The Iowa Supreme Court established the public-policy tort in Springer v. Weeks & Leo Co., 429 N.W.2d 558 (Iowa 1988), and case law has extended that doctrine in specific directions since."
+    },
+    "at_will_exceptions": {
+      "question": "What are the exceptions to at-will employment in Iowa?",
+      "answer_first": "Iowa recognises five categories of at-will exception, all case-law or statute-based. There is no closed legislative list: plaintiffs can argue a public-policy anchor from any Iowa statute or the Iowa Constitution.",
+      "exceptions": [
+        {
+          "name": "Workers' compensation retaliation",
+          "basis": "Iowa Code § 85.18",
+          "scope": "Cannot discharge or threaten discharge because an employee filed or intends to file a workers' compensation claim."
+        },
+        {
+          "name": "Iowa Civil Rights Act (ICRA) discrimination",
+          "basis": "Iowa Code Ch. 216",
+          "scope": "Applies to employers with 4+ employees. Protected classes: race, colour, creed, sex, sexual orientation, gender identity, national origin, religion, age (18+), disability, familial status."
+        },
+        {
+          "name": "Jury duty retaliation",
+          "basis": "Iowa Code § 607A.45",
+          "scope": "Cannot discharge an employee for responding to a jury summons or serving on a jury."
+        },
+        {
+          "name": "Military service retaliation",
+          "basis": "Iowa Code Ch. 29A; USERRA (federal)",
+          "scope": "Cannot discharge or disadvantage an employee for past, present, or future military service."
+        },
+        {
+          "name": "Public-employee whistleblower",
+          "basis": "Iowa Code § 70A.28",
+          "scope": "Protects state employees who in good faith report a violation of law. Does not apply directly to private-sector employees — private-sector protection must be argued as a common-law public-policy tort."
+        },
+        {
+          "name": "Implied contract (handbook)",
+          "basis": "Springer v. Weeks & Leo Co. (Iowa 1988) and progeny",
+          "scope": "Handbook language promising 'termination only for cause' or 'progressive discipline' may create an implied employment contract. Iowa courts apply objective-expectation test."
+        }
+      ]
+    },
+    "iowa_civil_rights_act": {
+      "question": "How does the Iowa Civil Rights Act change your termination exposure?",
+      "answer_first": "The Iowa Civil Rights Act covers employers with 4 or more employees. Federal Title VII requires 15. Iowa state anti-discrimination protection applies to far more employers than the federal statute.",
+      "icrc_charge_deadline_days": 300,
+      "employer_size_threshold": 4
+    },
+    "final_pay_iwpca": {
+      "question": "What is the Iowa final-pay rule under the Iowa Wage Payment Collection Act?",
+      "answer_first": "Iowa Code § 91A.4 requires wages to be paid on the next regular payday for the pay period in which the employee's last day fell. Iowa does not impose a separate, accelerated pay deadline for involuntary terminations.",
+      "penalty_statute": "Iowa Code § 91A.8",
+      "penalty_description": "Double the unpaid wages plus reasonable attorney's fees and costs if employer wilfully fails to pay",
+      "cure_window_days": 7
+    },
+    "mass_layoffs": {
+      "question": "What about mass layoffs in Iowa?",
+      "answer_first": "Iowa has no state mini-WARN Act. Federal WARN — 29 U.S.C. § 2101 — is the only advance-notice statute that applies to Iowa layoffs.",
+      "federal_warn_threshold_employees": 100,
+      "federal_warn_notice_days": 60
+    },
+    "how_teamed_handles": {
+      "question": "How Teamed runs Iowa terminations end to end",
+      "pricing_usd_per_employee_month": 599,
+      "zero_fx": true,
+      "one_platform": true
+    }
+  },
+  "faq_schema": [
+    {
+      "q": "Is Iowa an at-will employment state?",
+      "a": "Yes. Iowa is an at-will employment state under common law. Either party can end the employment relationship at any time, for any reason not barred by statute, contract, or a recognised public-policy exception. Iowa has no statute that codifies at-will employment — the doctrine rests on case law, including the Iowa Supreme Court's decision in Springer v. Weeks & Leo Co. (Iowa 1988)."
+    },
+    {
+      "q": "What are the exceptions to at-will employment in Iowa?",
+      "a": "Iowa's public-policy exceptions are case-law based, not a closed statutory list. Recognised exceptions include: workers' compensation retaliation (Iowa Code § 85.18), discrimination under the Iowa Civil Rights Act (Iowa Code Ch. 216, covering employers with 4 or more employees), jury-duty retaliation (Iowa Code § 607A.45), military-service retaliation (Iowa Code Ch. 29A), and whistleblowing by state employees (Iowa Code § 70A.28). An implied contract from handbook language can also override at-will status."
+    },
+    {
+      "q": "When must you pay a terminated employee in Iowa?",
+      "a": "Under the Iowa Wage Payment Collection Act (Iowa Code § 91A.4), wages are due on the next regular payday for the pay period in which the employee's last day fell. Iowa does not impose a special accelerated pay deadline for involuntary terminations. The employee must give written demand before suing; the employer then has 7 days to cure before litigation exposure under Iowa Code § 91A.10 attaches."
+    },
+    {
+      "q": "What is the penalty for unpaid wages in Iowa?",
+      "a": "Under Iowa Code § 91A.8, if an employer wilfully fails to pay wages due, the employee can recover the unpaid wages plus liquidated damages equal to the unpaid amount — effectively double the shortfall — plus reasonable attorney's fees and costs. A $5,000 wage dispute can become $10,000 in statutory exposure plus attorney's fees before the case reaches a judge."
+    },
+    {
+      "q": "How long does an Iowa employee have to file a discrimination claim?",
+      "a": "Iowa is a deferral state, so an EEOC federal discrimination charge can be filed within 300 days of the alleged discriminatory act. The Iowa Civil Rights Commission (ICRC) handles state-level claims under the Iowa Civil Rights Act and operates on the same 300-day timeline. Plaintiffs often dual-file with both bodies, running both timelines in parallel."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "Iowa farm landscape in autumn, golden fields stretching to the horizon under a wide midwestern sky.",
+    "hero_credit": "Ottis Bunning via Unsplash"
+  },
+  "meta": {
+    "title": "Iowa Termination Law and At-Will Exceptions 2026 | Teamed",
+    "description": "Iowa at-will: common-law public-policy exceptions, IWPCA next-payday final-pay rule, double-wages penalty under Iowa Code § 91A.8, and the 300-day ICRC charge clock.",
+    "target_keywords": [
+      "iowa at will employment exceptions",
+      "iowa termination law 2026",
+      "iowa final paycheck rules",
+      "iowa wage payment collection act employer",
+      "iowa wrongful termination"
+    ],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

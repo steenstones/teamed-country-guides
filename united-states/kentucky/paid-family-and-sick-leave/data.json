@@ -1,0 +1,140 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "abbreviation": "KY"
+  },
+  "page_type": "US-State Child",
+  "cluster": "1. Country — US State Child",
+  "target_url": "/hire-in-united-states/kentucky/paid-family-and-sick-leave/",
+  "hero": {
+    "headline": "Does Kentucky require paid family or sick leave in 2026?",
+    "subhead": "No state mandate. Federal FMLA at 50+ employees is the only floor. KRS 337.015 makes vacation accrual a wage liability on termination.",
+    "primary_cta": { "label": "Talk to an expert", "href": "https://www.teamed.global/contact" },
+    "secondary_cta": { "label": "Run the Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "partner_badge": "Served by Teamed partner network: SUNA Solutions (primary US partner)",
+  "sections": {
+    "state_pfl": {
+      "question": "Does Kentucky require paid family leave?",
+      "answer_first": "Kentucky has no state paid family leave law. No Kentucky PFL statute exists; no payroll deduction fund is established; no benefit claim portal operates in Kentucky.",
+      "key_differentiator": "No state PFL withholding line, no claim portal, no mandate — policy design is 100% voluntary."
+    },
+    "state_psl": {
+      "question": "Does Kentucky require paid sick leave?",
+      "answer_first": "Kentucky has no state paid sick leave law. No Kentucky city or county has a municipal paid sick leave ordinance.",
+      "key_differentiator": "Louisville, Lexington, and every other Kentucky municipality follow state-law default: nothing. No city-level PSL ordinances."
+    },
+    "vacation_payout": {
+      "question": "Does Kentucky require paid vacation payout on termination?",
+      "answer_first": "Kentucky Revised Statutes KRS 337.015 classifies accrued but unused vacation as earned wages. That makes it a wage liability on termination.",
+      "statute": "KRS 337.015",
+      "statute_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3485",
+      "key_risk": "A 'use it or lose it' policy without an explicit written exclusion of lump-sum payout on termination can trigger a wage claim at separation under the Kentucky Labour Cabinet.",
+      "body": "KRS 337.015 puts vacation accrual in the same category as unpaid salary. Defensible policy designs: (1) pay out on separation; (2) explicit written exclusion of lump-sum payout; (3) no-accrual model (unlimited PTO). Indefensible: accrual schedule + 'use it or lose it' + silence on termination payout."
+    },
+    "fmla": {
+      "question": "What does federal FMLA give Kentucky employees?",
+      "answer_first": "Federal FMLA gives qualifying Kentucky employees up to 12 weeks of unpaid, job-protected leave per 12-month period under 29 U.S.C. § 2601. Group health continues at employer's normal contribution.",
+      "employer_threshold": "50+ employees within 75-mile radius",
+      "employee_eligibility": "12 months tenure, 1,250 hours worked",
+      "leave_entitlement": "12 weeks unpaid, job-protected",
+      "military_caregiver": "26 weeks in single 12-month period",
+      "statute": "29 U.S.C. § 2601",
+      "statute_url": "https://www.dol.gov/agencies/whd/fmla"
+    },
+    "pregnancy": {
+      "question": "What protections apply for pregnancy in Kentucky?",
+      "answer_first": "Federal PWFA, PDA, and ADA apply to all Kentucky employers at the relevant thresholds. The Kentucky Civil Rights Act (KRS Chapter 344) adds state-level pregnancy discrimination protection at 8+ Kentucky employees.",
+      "federal_laws": [
+        { "name": "Pregnant Workers Fairness Act (PWFA)", "threshold": "15+ employees", "effective": "27 June 2023", "statute": "42 U.S.C. § 2000gg" },
+        { "name": "Pregnancy Discrimination Act (PDA)", "threshold": "15+ employees", "statute": "42 U.S.C. § 2000e(k)" },
+        { "name": "ADA", "threshold": "15+ employees", "statute": "42 U.S.C. § 12112" },
+        { "name": "PUMP Act (lactation)", "threshold": "All employers", "statute": "29 U.S.C. § 218d" }
+      ],
+      "kentucky_state_law": {
+        "name": "Kentucky Civil Rights Act",
+        "chapter": "KRS Chapter 344",
+        "statute_url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=38707",
+        "threshold": "8+ employees in Kentucky",
+        "protection": "State-level pregnancy and sex discrimination protection"
+      }
+    },
+    "military_jury": {
+      "question": "What about jury duty and military leave in Kentucky?",
+      "answer_first": "Federal USERRA protects civilian jobs for service members. Kentucky requires employers with 6+ employees to hold jobs open for jury duty under KRS 29A.160. Neither is a paid-leave mandate.",
+      "jury_duty_statute": "KRS 29A.160",
+      "jury_duty_statute_url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3401",
+      "military_leave_statute": "38 U.S.C. § 4301 et seq."
+    }
+  },
+  "teamed_callout": {
+    "rate_usd": 599,
+    "currency": "USD",
+    "rate_description": "Single fixed rate, Zero FX mark-up",
+    "kentucky_ui_new_employer_rate_pct": 2.7,
+    "partner": "SUNA Solutions (primary US partner)",
+    "platform": "One platform — contractor through EOR to entity"
+  },
+  "tom_tagline": {
+    "text": "Kentucky has no state paid leave mandate. That looks simple until you read KRS 337.015. Accrued vacation is wages in Kentucky, which means the handbook clause you copied from Alabama may be a wage liability here. Federal FMLA only triggers at 50 employees, and below that threshold, you're running on the policy you wrote. We make sure the policy is defensible, administered correctly, and built into payroll from day one. When the model stops being right for your Kentucky headcount, you'll hear from us first.",
+    "specific_facts": ["KRS 337.015 vacation-as-wages", "50-employee FMLA threshold", "policy-as-wages liability angle"],
+    "graduation_hook": "When the model stops being right for your Kentucky headcount, you'll hear from us first."
+  },
+  "pullquote": {
+    "speaker": "Teamed Legal Operations",
+    "attribution_type": "anonymised_team",
+    "mi_provenance": null,
+    "quote": "The KRS 337.015 vacation-payout issue catches multi-state employers most often. They roll out a single 'use it or lose it' policy across all US states and assume it's uniform. Kentucky treats that accrued balance as unpaid wages, and the Labour Cabinet will tell them so on the termination claim. The fix is one paragraph in the handbook. The miss is a payroll audit."
+  },
+  "faq_schema": [
+    {
+      "q": "Does Kentucky require paid family leave?",
+      "a": "No. Kentucky has no state paid family leave law. The only statutory leave protection in Kentucky is federal FMLA, which provides 12 weeks of unpaid, job-protected leave and applies only to employers with 50 or more employees within a 75-mile radius."
+    },
+    {
+      "q": "Does Kentucky require paid sick leave?",
+      "a": "No. Kentucky has no state paid sick leave mandate. No Kentucky city or county has enacted a municipal paid sick leave ordinance. Any paid sick leave is voluntary employer policy."
+    },
+    {
+      "q": "Does Kentucky require vacation pay on termination?",
+      "a": "Kentucky Revised Statutes KRS 337.015 treats accrued vacation as earned wages. Unless an employer's written policy explicitly excludes a lump-sum payout on termination, accrued vacation may be owed as wages on separation."
+    },
+    {
+      "q": "Does federal FMLA apply to Kentucky employers?",
+      "a": "Yes. Federal FMLA applies to Kentucky employers with 50 or more employees within a 75-mile radius. Eligible employees receive up to 12 weeks of unpaid, job-protected leave per 12-month period after 12 months of tenure and 1,250 hours worked."
+    },
+    {
+      "q": "What is the PWFA obligation in Kentucky?",
+      "a": "Federal PWFA requires reasonable accommodation for pregnancy at employers with 15 or more employees (effective 27 June 2023). The Kentucky Civil Rights Act (KRS Chapter 344) provides parallel state-level pregnancy discrimination protection at 8+ Kentucky employees."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Kentucky state tax and UI", "href": "../state-income-tax-and-unemployment-insurance/", "context": "sibling", "state": "live-sibling" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "core", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "context": "core", "state": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "context": "commercial", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tool", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "context": "CTA", "state": "live" }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "Street view of buildings and cars in Kentucky under a cloudy sky.",
+    "hero_credit": "Cristina Anne Costello via Unsplash · Kentucky",
+    "inline_visual": "compact-postcard",
+    "inline_visual_type": "HTML/CSS — no image file required"
+  },
+  "meta": {
+    "title": "Kentucky Paid Family and Sick Leave 2026 | KRS 337.015 Wage Rule.Teamed",
+    "description": "Kentucky mandates no state PFL or paid sick leave. Federal FMLA at 50+ employees is the only floor. KRS 337.015 treats accrued vacation as wages on termination — Teamed explains.",
+    "target_keywords": ["kentucky paid family leave 2026", "kentucky paid sick leave law", "KRS 337.015 vacation wages Kentucky", "FMLA Kentucky"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

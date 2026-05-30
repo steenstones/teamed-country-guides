@@ -1,0 +1,73 @@
+{
+  "row_id": "master-0090",
+  "slug": "united-states/iowa/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/iowa/worker-classification-state-test/",
+  "page_title": "Iowa Worker Classification State Test | Employee vs Contractor | Teamed",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "editorial_standard": "v2 (2026-05-30)",
+  "target_keywords": [
+    "iowa worker classification test",
+    "iowa independent contractor vs employee",
+    "iowa ABC test",
+    "iowa common-law test contractor",
+    "iowa workforce development independent contractor determination",
+    "iowa misclassification penalty",
+    "iowa worker classification 2026"
+  ],
+  "generated_at": "2026-05-30T00:00:00Z",
+  "sources_verified_at": "2026-05-30",
+  "sources": [
+    {"url": "https://workforce.iowa.gov/employers/unemployment-insurance/unemployment-insurance-employer-handbook/unemployment-insurance-taxes", "title": "Iowa Workforce Development — UI Employer Handbook: UI Taxes (independent contractor determination)", "accessed": "2026-05-27"},
+    {"url": "https://www.legis.iowa.gov/docs/ico/chapter/85.pdf", "title": "Iowa Code Chapter 85 — Workers' Compensation", "accessed": "2026-05-27"},
+    {"url": "https://dial.iowa.gov/hearings/workers-comp/compliance", "title": "Iowa DIAL — Workers' Compensation Compliance", "accessed": "2026-05-27"},
+    {"url": "https://workforce.iowa.gov/press-release/2025-09-05/unemployment-insurance-rates-iowa-employers-remain-lowest-possible-level-2026", "title": "Iowa Workforce Development — UI Rates Remain at Lowest Possible Level in 2026 (5 September 2025)", "accessed": "2026-05-27"},
+    {"url": "https://revenue.iowa.gov/press-release/2025-10-21/idr-announces-2026-individual-income-tax-and-interest-rates", "title": "Iowa DOR — 2026 Individual Income Tax and Interest Rates (21 October 2025)", "accessed": "2026-05-27"},
+    {"url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF607", "title": "Iowa Legislature — Senate File 607 (2025 — UI wage base reduction)", "accessed": "2026-05-27"},
+    {"url": "https://taxnews.ey.com/news/2025-2555-iowa-law-lowers-sui-wage-base-and-maximum-sui-tax-rate-for-2026", "title": "EY Tax News — Iowa law lowers SUI wage base and max SUI rate for 2026", "accessed": "2026-05-27"},
+    {"url": "https://www.irs.gov/businesses/small-businesses-self-employed/worker-classification-101-employee-or-independent-contractor", "title": "IRS — Worker Classification 101: Employee or Independent Contractor", "accessed": "2026-05-30"}
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Teamed Legal Operations",
+      "speaker_type": "anonymous_team",
+      "provenance_note": "Anonymous team function label per pullquote provenance rule. No named individual; no MI extraction required. Framing reflects Teamed in-house legal team's standard classification intake briefing for Iowa hires, particularly around the Iowa Code Chapter 85 workers' comp one-employee threshold."
+    }
+  ],
+  "compliance_cache_read": "sprint/compliance-cache/iowa.json",
+  "compliance_cache_written": false,
+  "hero_image": {
+    "source": "Reused from sibling page united-states/iowa/state-income-tax-and-unemployment-insurance",
+    "file": "images/hero.jpg",
+    "size_bytes": 535026,
+    "attribution": "Des Moines skyline, Iowa — via Unsplash"
+  },
+  "inline_visual": "stamp-block (CSS-only) in worker classification factors section",
+  "editor_rounds": 1,
+  "audit_score_estimate": 93,
+  "internal_links_used": [
+    {"anchor": "Iowa state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live"},
+    {"anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "state": "live"},
+    {"anchor": "hire contractors in the United States", "href": "/hire-contractors/united-states/", "state": "live"},
+    {"anchor": "employer of record overview", "href": "/employer-of-record/", "state": "live"},
+    {"anchor": "Iowa overview", "href": "../", "state": "wave-4 plain-text"},
+    {"anchor": "United States hiring overview", "href": "/hire-in-united-states/", "state": "wave-3 plain-text"}
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "person_schema": false
+  },
+  "flags": [
+    {"flag": "link_gate_warn:iowa_siblings_wave_4", "severity": "low", "detail": "Iowa sibling pages referenced in chip-nav and links-rail (wage-overtime-and-meal-break-law, paid-family-and-sick-leave, termination-law-and-at-will-exceptions, state parent) don't exist yet. Chip-nav anchors left intact mirroring sibling convention; links-rail plain-text for unavailable pages. Resolves as Iowa cluster builds out."},
+    {"flag": "link_gate_warn:us_parent_wave_3", "severity": "low", "detail": "United States parent /hire-in-united-states/ not yet shipped (wave-3). Links-rail rendered as plain text per link gate. Auto-promote when wave-3 US parent ships."},
+    {"flag": "kernel_cache_used", "severity": "low", "detail": "Used sprint/kernel-cache.json snapshot for Teamed voice and anchor claims rather than live KERNAL pull, per sprint orchestration."},
+    {"flag": "hero_reused_from_sibling", "severity": "info", "detail": "Hero photo (Des Moines skyline, 535KB JPG) reused verbatim from sibling Iowa state-income-tax page. Same visual family; saves an Unsplash call."},
+    {"flag": "pullquote_anonymised", "severity": "info", "detail": "No Meeting Intelligence query attempted for Iowa worker classification quotes. Per pullquote provenance rule, anonymised speaker label to 'Teamed Legal Operations' (no named individual, no cite). Tom Price-Daniel tagline close stays as brand voice (exempt). No fabricated cite sources."}
+  ],
+  "reviewer": "Teamed Compliance Team",
+  "review_date": "2026-05-30"
+}

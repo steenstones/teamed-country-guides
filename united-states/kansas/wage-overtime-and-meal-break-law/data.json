@@ -1,0 +1,114 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Kansas",
+    "slug": "united-states/kansas/wage-overtime-and-meal-break-law",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "page": {
+    "type": "us-state-child",
+    "topic": "wage-overtime-and-meal-break-law",
+    "tier": "US-State",
+    "cluster": "Country — US State Child"
+  },
+  "hero": {
+    "headline": "Kansas wage, overtime and meal-break law",
+    "subhead": "No state break mandate. Overtime at 40 or 46 hours — know which threshold your hire triggers.",
+    "partner_badge": "Served by Teamed-owned entity: Teamed US Inc., Delaware",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "See your real FX exposure", "href": "/tools/unbundling-calculator" }
+  },
+  "at_a_glance": {
+    "state_minimum_wage_usd_hour": "7.25",
+    "ot_threshold_flsa_covered": "40 hours / week",
+    "ot_threshold_non_flsa": "46 hours / week (KSA 44-1204)",
+    "ot_rate": "1.5× regular rate",
+    "meal_break_requirement": "None (state law)",
+    "rest_break_requirement": "None (state law)",
+    "final_paycheck_deadline": "Next regular payday",
+    "final_paycheck_penalty": "1%/day after 8-day grace, capped at 100% of unpaid wages",
+    "exempt_salary_threshold_usd_week": "844",
+    "verified_date": "2026-05-30"
+  },
+  "sections": {
+    "minimum_wage": {
+      "question": "What is the minimum wage in Kansas in 2026?",
+      "answer_first": "Kansas minimum wage is $7.25 per hour — matching the federal floor. Kansas has not enacted a state rate above the federal minimum.",
+      "body": "The $7.25 rate is set by the Kansas Minimum Wage and Maximum Hours Law (KSA 44-1201 et seq.) and tracks the federal Fair Labor Standards Act floor. Kansas last adjusted its state minimum wage in 2009, when it moved to match the then-current federal rate. No increase has been enacted since.\n\nFor employers hiring knowledge workers, the more operationally relevant floor is the federal FLSA white-collar exemption threshold: $844 per week ($43,888 per year). Employees earning above that threshold on a salary basis and performing executive, administrative, or professional duties are overtime-exempt regardless of hours worked.\n\nTeamed runs Kansas payroll at $599 per employee per month, flat. Statutory wages pass through at cost — the Teamed fee is a separate, itemised line on every invoice. Zero FX mark-up, no setup fees."
+    },
+    "overtime": {
+      "question": "Does Kansas have a 40-hour or 46-hour overtime threshold?",
+      "answer_first": "Both — which applies depends on whether the employer is covered by the federal FLSA. FLSA-covered employers pay overtime after 40 hours. Non-FLSA employers face Kansas's 46-hour state threshold under KSA 44-1204.",
+      "body": "This is the dual-regime trap. Most companies hiring remote employees in Kansas are covered by the FLSA (the test is primarily whether the employer engages in interstate commerce or has $500,000+ in annual revenue). For those employers, the federal 40-hour threshold governs and the state 46-hour threshold is moot.\n\nFor the smaller employers outside FLSA coverage — typically very small local businesses operating purely intrastate — KSA 44-1204 sets the threshold at 46 hours. The statute specifically excludes FLSA-covered employers from its reach.\n\nIn both cases, the overtime rate is 1.5 times the employee's regular hourly wage. The FLSA also requires overtime pay to be calculated on the 'regular rate of pay,' which can include non-discretionary bonuses and commissions — not just base hourly wages.\n\nFire protection, law enforcement, and emergency medical personnel have alternative thresholds (258 hours over a 28-day period under Kansas law, mirroring the FLSA's 7(k) exemption). That's the only structural carve-out from the standard weekly calculation.\n\nA named Teamed payroll specialist reviews your Kansas team's classification on onboarding — FLSA coverage, exempt status, and regular rate calculation. You don't need to run the analysis yourself."
+    },
+    "meal_and_rest_breaks": {
+      "question": "Does Kansas require meal breaks or rest periods for adult employees?",
+      "answer_first": "No. Kansas has no state law mandating meal breaks or rest periods for adult employees. The federal FLSA sets the rule if breaks are provided voluntarily.",
+      "body": "Kansas defers entirely to federal law on breaks. The Kansas Department of Labor does recommend a 10-minute rest break for every four hours worked, but this is guidance, not a legal requirement.\n\nIf you voluntarily provide breaks, federal FLSA rules govern:\n- Rest breaks of 5–20 minutes are counted as hours worked and must be paid.\n- Meal breaks of 30+ minutes do not need to be paid, as long as the employee is fully relieved of all duties during that time.\n- A 'break' that requires the employee to remain at a workstation or respond to work matters is compensable regardless of its length.\n\nThe practical implication for remote teams: build break policies in your employment contract, not just your employee handbook. Kansas contracts managed through Teamed include a standard break-policy clause that aligns with FLSA requirements — no paid-break liability if the structure is right from day one.\n\nNote that minors (under 18) have separate Kansas requirements: employees under 18 must receive a 30-minute meal break for shifts exceeding five consecutive hours. Adult employees have no equivalent protection under state law."
+    },
+    "final_paycheck": {
+      "question": "When must a Kansas employer pay a final paycheck?",
+      "answer_first": "Kansas requires final wages by the next regular payday — the same deadline applies whether the employee quit or was terminated. KSA 44-315 governs.",
+      "body": "Unlike states that require immediate or next-business-day payment on involuntary terminations, Kansas uses a single standard regardless of how the employment ended. The employer must pay all earned wages no later than the next regular scheduled payday the employee would have received if still employed.\n\nPayment can be made through regular payroll channels or by mail — if the employee requests mail, the postmark date is the compliance date.\n\nThe penalty for willful non-payment is steep: 1% of the unpaid wages per day (excluding Sundays and legal holidays) after an 8-day grace period, capped at 100% of unpaid wages. An employer who delays a $5,000 final paycheck for 30 business days past the grace period faces up to $5,000 in additional liability.\n\nTeamed manages final payroll runs on the next scheduled payroll cycle, ensuring compliance with the next-regular-payday rule. Offboarding processing starts the same day you initiate the separation on the platform — you don't need to track the deadline manually.",
+      "penalty_example": {
+        "unpaid_wages_usd": 5000,
+        "daily_penalty_rate_pct": 1,
+        "grace_days": 8,
+        "cap": "100% of unpaid wages ($5,000)"
+      }
+    },
+    "employer_exemptions": {
+      "question": "Which Kansas wage and overtime exemptions apply in 2026?",
+      "answer_first": "FLSA white-collar exemptions apply statewide: executive, administrative, and professional employees earning $844/week or more are overtime-exempt. Kansas adds limited state-specific carve-outs.",
+      "body": "The primary exemptions are federal. Kansas law largely mirrors FLSA exemption categories:\n\n- **Exempt employees (white-collar):** Salary of at least $844/week ($43,888/year) plus duties test (executive, administrative, professional). Highly compensated employees at $107,432+ face a lighter duties test.\n- **Computer professionals:** Can be exempt if paid at least $27.63/hour (or the FLSA salary threshold if salaried).\n- **Outside sales:** No salary requirement; compensation structure and duties determine exempt status.\n\nKansas-specific: the state overtime law (KSA 44-1204) explicitly exempts motor vehicle salespeople at non-manufacturing dealerships from the 46-hour overtime requirement. This is a state carve-out with no direct FLSA equivalent.\n\nMisclassification risk is real. A worker classified as exempt who doesn't meet the duties test is owed back overtime for up to two years (three years for willful violations) under the FLSA. The Contractor Classifier tool helps you assess classification risk before onboarding, not after a claim arrives."
+    },
+    "good_to_know": {
+      "question": "What should you know about hiring in Kansas on wage and hour compliance?",
+      "body": "Kansas is a federal-floor state on wages and a pass-through state on breaks — the state adds complexity primarily through its dual overtime regime and the next-regular-payday final-pay rule.\n\nThree things trip up remote-first teams most often:\n\n**The FLSA coverage question.** Most employers hiring Kansas remote workers are FLSA-covered and should plan on the 40-hour OT threshold. Confirm coverage before classifying anyone as non-FLSA — the penalties for getting it wrong run up to $10,000 per violation for willful FLSA breaches.\n\n**Break policies in contracts, not handbooks.** Kansas has no break mandate, but the FLSA compensability rules mean informal break practices can create wage claims. Document the policy in the employment agreement.\n\n**Final paycheck planning.** The next-regular-payday rule is more forgiving than same-day states, but the 1%/day penalty after the 8-day grace is punishing. For involuntary separations, have payroll close ready the same day you notify the platform."
+    }
+  },
+  "faq": [
+    {
+      "q": "What is the minimum wage in Kansas in 2026?",
+      "a": "Kansas minimum wage is $7.25 per hour, matching the federal minimum. Kansas has not enacted a state rate above the federal floor. The FLSA exempt salary threshold for white-collar employees is $844 per week."
+    },
+    {
+      "q": "Does Kansas require employers to provide meal breaks?",
+      "a": "No. Kansas has no state law requiring meal or rest breaks for adult employees. If an employer voluntarily provides breaks, federal FLSA rules apply: short breaks of 5–20 minutes must be paid; meal breaks of 30+ minutes where the employee is fully relieved of duties need not be paid."
+    },
+    {
+      "q": "What is the overtime threshold in Kansas?",
+      "a": "FLSA-covered employers pay overtime after 40 hours per week at 1.5× the regular rate. Employers not covered by the FLSA are subject to Kansas's state threshold of 46 hours per week under KSA 44-1204. Most employers with remote hires are FLSA-covered."
+    },
+    {
+      "q": "When does a Kansas employer have to pay a final paycheck?",
+      "a": "Under KSA 44-315, final wages must be paid by the next regular scheduled payday, for both voluntary and involuntary separations. Willful delay after an 8-day grace period triggers a 1% per day penalty, capped at 100% of unpaid wages."
+    },
+    {
+      "q": "Is Kansas an at-will employment state?",
+      "a": "Yes. Kansas is an at-will state — employment can be terminated by either party at any time for any lawful reason. Exceptions include public policy protections, implied contract claims, and federal anti-discrimination statutes."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live", "context": "core" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "status": "live", "context": "tool" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "context": "tool" },
+    { "anchor": "Contact — Talk to an expert", "href": "/contact/", "status": "live", "context": "cta" }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "Topeka Kansas State Capitol building dome against clear sky, seat of Kansas government",
+    "hero_photographer": "Nils Huenerfuerst",
+    "hero_photographer_username": "nhuenerfuerst",
+    "hero_unsplash_url": "https://unsplash.com/photos/a-large-building-with-a-dome-on-top-of-it-gcwIEH5_xok"
+  },
+  "meta": {
+    "title": "Kansas Wage, Overtime and Meal-Break Law 2026 | Teamed",
+    "description": "Kansas minimum wage $7.25/hr. Overtime at 40 hrs (FLSA) or 46 hrs (state, KSA 44-1204). No state meal-break mandate. Final pay by next regular payday. EOR guide for Kansas hires.",
+    "target_keywords": ["kansas overtime law 2026", "kansas minimum wage 2026", "kansas meal break law", "KSA 44-1204 overtime", "kansas wage and hour law"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

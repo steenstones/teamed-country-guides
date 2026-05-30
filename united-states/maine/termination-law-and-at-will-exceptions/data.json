@@ -1,0 +1,129 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Maine",
+    "slug": "maine",
+    "abbreviation": "ME"
+  },
+  "page_type": "termination-child",
+  "target_url": "/hire-in-united-states/maine/termination-law-and-at-will-exceptions/",
+  "hero": {
+    "headline": "How does Maine termination law and at-will exceptions work?",
+    "subhead": "At-will with a payout most operators miss: Maine's Earned Paid Leave statute requires unused-leave payment on separation, not just a final paycheck by the next payday.",
+    "primary_cta": { "label": "Talk to an expert", "href": "https://www.teamed.global/contact" },
+    "secondary_cta": { "label": "Run the Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "answer_capsule": "Maine is an at-will state, but the Earned Paid Leave statute (26 M.R.S. §637) creates a termination liability most operators miss: employers with 10 or more employees must pay out accrued, unused EPL at separation. Final wages follow the next regular payday or within 2 weeks of written demand under 26 M.R.S. §626. The Maine Human Rights Act (5 M.R.S. §4572) covers employers with 15 or more employees for most discrimination claims, with a 300-day EEOC charge window.",
+  "sections": {
+    "is_at_will": {
+      "question": "Is Maine an at-will employment state?",
+      "answer_first": "Yes. Maine is an at-will state under common law. Either party can end employment at any time, for any lawful reason — or no reason at all.",
+      "body": "Maine has no single statute that codifies the at-will doctrine. It rests on common law, shaped by decades of Maine Supreme Judicial Court decisions. Three recognised exception categories apply: public-policy, implied contract, and the Maine Human Rights Act."
+    },
+    "final_pay": {
+      "question": "When must you pay a terminated employee in Maine?",
+      "answer_first": "Under 26 M.R.S. §626, final wages are due on the next regular payday for the period in which termination occurred. The 2-week window opens only after the employee makes a written demand.",
+      "pay_table": [
+        { "type": "Involuntary termination", "deadline": "Next regular payday; or within 2 weeks of written demand", "statute": "26 M.R.S. §626" },
+        { "type": "Voluntary resignation", "deadline": "Next regular payday", "statute": "26 M.R.S. §626" },
+        { "type": "Late payment (court-ordered)", "deadline": "Unpaid wages + reasonable attorney's fees", "statute": "26 M.R.S. §626" }
+      ]
+    },
+    "epl_payout": {
+      "question": "Does Maine require payout of Earned Paid Leave on termination?",
+      "answer_first": "Yes, for employers with 10 or more employees. 26 M.R.S. §637 requires unused, accrued EPL to be paid out at separation. This obligation exists regardless of your written policy.",
+      "epl_accrual_rate": "1 hour per 40 hours worked",
+      "annual_cap_hours": 40,
+      "employer_size_threshold": 10,
+      "statute": "26 M.R.S. §637"
+    },
+    "at_will_exceptions": {
+      "question": "What are the exceptions to at-will employment in Maine?",
+      "answer_first": "Maine recognises three exception categories: public-policy, implied contract, and statutory protections under the Maine Human Rights Act. The list is not exhaustive.",
+      "exceptions_table": [
+        { "type": "Workers' comp retaliation", "threshold": "All employers", "basis": "39-A M.R.S. §353" },
+        { "type": "PFML retaliation", "threshold": "All employers", "basis": "26 M.R.S. Ch. 7" },
+        { "type": "MHRA discrimination (general)", "threshold": "15+ employees", "basis": "5 M.R.S. §4572" },
+        { "type": "MHRA sexual harassment", "threshold": "All employers", "basis": "5 M.R.S. §4572(1)" },
+        { "type": "Implied contract", "threshold": "All employers", "basis": "Maine common law" },
+        { "type": "Public-policy (general)", "threshold": "All employers", "basis": "Maine common law" }
+      ]
+    },
+    "mhra": {
+      "question": "How does a Maine discrimination complaint work under the MHRA?",
+      "answer_first": "Maine is a federal deferral state. An EEOC charge can be filed within 300 days of the alleged act. The Maine Human Rights Commission processes state-level complaints on a parallel track.",
+      "eeoc_window_days": 300,
+      "state_court_window": "6 years",
+      "statute": "5 M.R.S. Chapter 337"
+    },
+    "pfml": {
+      "question": "How does Maine's Paid Family and Medical Leave interact with termination?",
+      "answer_first": "Maine PFML benefits started 1st May 2026. Retaliation for taking PFML leave is unlawful from that date, and PFML leave counts separately from EPL accrual.",
+      "pfml_large_employer_rate_pct": 1.0,
+      "pfml_small_employer_rate_pct": 0.5,
+      "employer_share_pct": 0.5,
+      "wage_ceiling_2026": 184500,
+      "benefits_start": "2026-05-01",
+      "statute": "26 M.R.S. Chapter 7"
+    },
+    "good_to_know": {
+      "question": "What else should you know about terminating a Maine employee?",
+      "answer_first": "Maine's minimum wage of $14.15/hour sets the floor for final-pay calculations. Handbook review matters more in Maine than in most at-will states because of the implied-contract case law.",
+      "minimum_wage_2026": 14.15,
+      "ui_wage_base_2026": 12000,
+      "new_employer_ui_rate_pct": 2.54,
+      "severance_required": false,
+      "state_warn_act": false,
+      "federal_warn_act_threshold": 100
+    }
+  },
+  "faq_schema": [
+    {
+      "q": "Is Maine an at-will employment state?",
+      "a": "Yes. Maine is an at-will employment state under common law. Either party can end the employment relationship at any time, for any reason not barred by statute, contract, or a recognised public-policy exception."
+    },
+    {
+      "q": "When must you pay a terminated employee in Maine?",
+      "a": "Under 26 M.R.S. §626, wages earned are due on the next regular payday for the pay period in which separation occurred. If the employee makes a written demand, the employer has 2 weeks from that demand to pay."
+    },
+    {
+      "q": "Does Maine require payout of accrued Earned Paid Leave on termination?",
+      "a": "Yes, for employers with 10 or more employees. Maine's Earned Paid Leave law (26 M.R.S. §637) requires employers to pay out any accrued, unused EPL balance at separation. Employees accrue 1 hour of EPL for every 40 hours worked, up to 40 hours per year."
+    },
+    {
+      "q": "What are the exceptions to at-will employment in Maine?",
+      "a": "Maine recognises three main exceptions: public-policy (retaliation for workers' compensation claims, MHRA-protected activity, jury service), implied contract (handbook or offer-letter terms), and the Maine Human Rights Act covering employers with 15 or more employees for most claims."
+    },
+    {
+      "q": "How long does a Maine employee have to file a discrimination claim?",
+      "a": "Maine is a federal deferral state: an EEOC charge can be filed within 300 days of the alleged act. Under the Maine Human Rights Act, claimants can also pursue a direct state-court action within 6 years."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Maine state guide overview", "href": "../", "context": "parent" },
+    { "anchor": "Maine state income tax and UI", "href": "../state-income-tax-and-unemployment-insurance/", "context": "sibling" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "cluster 2a" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "context": "cluster 2a" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tool" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "context": "CTA" }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "Portland Head Light lighthouse on the Maine coast, white lighthouse tower against a bright blue summer sky with the Atlantic Ocean below.",
+    "hero_credit": "Michael Denning via Unsplash · Portland, Maine",
+    "hero_credit_url": "https://unsplash.com/@coffeeguy77"
+  },
+  "meta": {
+    "title": "Maine Termination Law and At-Will Exceptions 2026 | Teamed",
+    "description": "Maine at-will: EPL unused-leave payout on termination under 26 M.R.S. §637, final-pay demand trigger under §626, MHRA 300-day charge window, and workers' comp retaliation bar.",
+    "target_keywords": ["Maine at-will employment exceptions", "Maine termination law 2026", "Maine final paycheck law", "Maine Earned Paid Leave termination payout"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

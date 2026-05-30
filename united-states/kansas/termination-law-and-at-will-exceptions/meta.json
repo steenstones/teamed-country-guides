@@ -1,0 +1,84 @@
+{
+  "row_id": "master-0095",
+  "slug": "united-states/kansas/termination-law-and-at-will-exceptions",
+  "page_type": "us_state_child",
+  "cluster": "Country — US State Child",
+  "target_keywords": [
+    "Kansas termination law",
+    "Kansas at-will employment exceptions",
+    "Kansas final paycheck law",
+    "Kansas wrongful termination",
+    "employer of record Kansas"
+  ],
+  "sources": [
+    {
+      "url": "https://ksrevisor.gov/statutes/chapters/ch44/044_003_0013.html",
+      "title": "KSA 44-313 — Kansas Wage Payment Act definitions",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://ksrevisor.gov/statutes/chapters/ch44/044_003_0015.html",
+      "title": "KSA 44-315 — Final paycheck timing and penalty",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://law.justia.com/cases/kansas/supreme-court/1988/61-102-2.html",
+      "title": "Palmer v. Brown, 242 Kan. 893 (1988) — public policy exception",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "http://www.khrc.net/pdf/kaadtext.pdf",
+      "title": "Kansas Act Against Discrimination — full text KSA 44-1001 et seq.",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://dol.ks.gov/-/does-my-employer-have-to-pay-severance-pay-",
+      "title": "Kansas Department of Labor — severance pay FAQ",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://www.dol.ks.gov/employers/workplace-laws/workplace-laws-faqs",
+      "title": "Kansas Department of Labor — Workplace Laws FAQs",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://remotelaws.com/termination-laws/u-s-states/kansas/",
+      "title": "Kansas Termination Laws 2026 — RemoteLaws",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://www.bakerdonelson.com/easy-guide-kansas",
+      "title": "Quick Guide to Kansas Labor and Employment Law — Baker Donelson",
+      "accessed": "2026-05-30"
+    }
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Tom Price-Daniel",
+      "type": "brand_voice",
+      "note": "Tom-bylined pullquote — brand voice, no MI provenance required per SKILL.md Stage 3 pullquote rule"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "GEMO entity management", "href": "/entity-management/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live" },
+    { "anchor": "Pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "state": "live" }
+  ],
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "editor_rounds": 0,
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "note": "US state sibling pages (Iowa, Kentucky, Louisiana, Maine termination law pages) not yet in internal-links.json; to be retro-linked when those pages ship"
+  },
+  "audit_score": 88,
+  "high_concern_flags": [],
+  "linter_result": "pass-27/28 (0 block, 1 warn: cta.staging_url_warn for crso-cal.vercel.app — canonical tool deployment per internal-links.json)",
+  "compliance_cache_used": "kansas.json (master-0094 wrote tax/UI data; termination-law facts researched fresh)",
+  "kernel_cache_used": true,
+  "batch": "2026-05-30-us-state-termination"
+}

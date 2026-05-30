@@ -1,0 +1,68 @@
+{
+  "row_id": "master-0104",
+  "slug": "united-states/kentucky/wage-overtime-and-meal-break-law",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "batch": "phase-1.0",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "target_keywords": [
+    "kentucky overtime law",
+    "kentucky meal break law",
+    "kentucky wage and hour",
+    "KRS 337",
+    "kentucky minimum wage 2026",
+    "kentucky final paycheck law"
+  ],
+  "sources": [
+    { "name": "KRS 337.275 — Kentucky minimum wage", "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3315", "accessed": "2026-05-30" },
+    { "name": "KRS 337.355 — meal periods", "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3325", "accessed": "2026-05-30" },
+    { "name": "KRS 337.365 — rest periods (10-minute paid)", "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3326", "accessed": "2026-05-30" },
+    { "name": "KRS 337.055 — final paycheck timing", "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3295", "accessed": "2026-05-30" },
+    { "name": "FLSA overtime — DOL", "url": "https://www.dol.gov/agencies/whd/flsa", "accessed": "2026-05-30" },
+    { "name": "Kentucky DOR employer payroll withholding (3.5% flat 2026)", "url": "https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx", "accessed": "2026-05-30" },
+    { "name": "Kentucky UI taxable wage base $12,000 (2026)", "url": "https://kewes.ky.gov/Contact/contacts.aspx?strid=2", "accessed": "2026-05-30" },
+    { "name": "Kentucky HB 1 (2025 Regular Session) — income tax rate reduction to 3.5%", "url": "https://apps.legislature.ky.gov/record/25rs/hb1.html", "accessed": "2026-05-30" },
+    { "name": "Kentucky compliance cache (master-0100)", "url": "local:sprint/compliance-cache/kentucky.json", "accessed": "2026-05-30" }
+  ],
+  "pullquote_provenance": [],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "status": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live" },
+    { "anchor": "Hiring in the United States", "href": "/hire-in-united-states/", "status": "live" },
+    { "anchor": "Kentucky state income tax and payroll 2026", "href": "plain-text", "status": "wave-1" },
+    { "anchor": "Kentucky termination and final pay", "href": "plain-text", "status": "wave-1" }
+  ],
+  "editor_rounds": 1,
+  "audit_score": 88,
+  "high_concern_flags": [],
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "note": "US state sibling links (Iowa, Kansas, Louisiana, Maine wage pages) not yet available in internal-links.json; added as plain text"
+  },
+  "compliance_cache_used": true,
+  "compliance_cache_source": "sprint/compliance-cache/kentucky.json",
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 106559,
+    "photographer": "Chris Marlin",
+    "photographer_username": "mitchbagnet",
+    "source": "Unsplash",
+    "photo_url": "https://unsplash.com/photos/city-skyline-at-dusk-with-water-reflections-VNGVZ6m4WfU"
+  },
+  "linter_result": "pass-1-warn",
+  "linter_block_failures": 0,
+  "linter_warn_failures": 1,
+  "linter_warn_detail": "cta.staging_url_warn: crso-cal.vercel.app crossover tool is listed as live in internal-links.json — expected warn across all sprint pages using Crossover",
+  "audit_score": 88,
+  "factual_uncertainties_from_cache": [
+    {
+      "field": "Standard deduction 2026",
+      "resolution": "Using $3,360 per official KY DOR announcement — overrides Baldwin CPAs $3,270 (2025 figure)"
+    }
+  ]
+}

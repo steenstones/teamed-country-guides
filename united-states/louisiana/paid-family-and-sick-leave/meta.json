@@ -1,0 +1,86 @@
+{
+  "row_id": "master-0109",
+  "slug": "united-states/louisiana/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/louisiana/paid-family-and-sick-leave/",
+  "page_type": "us_state_child",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "batch_spec_version": "phase-1.0",
+  "target_keywords": [
+    "Louisiana paid family leave",
+    "Louisiana paid sick leave",
+    "Louisiana pregnancy leave law",
+    "Louisiana FMLA"
+  ],
+  "sources": [
+    {
+      "layer": 1,
+      "name": "Louisiana R.S. 23:341 — Pregnancy Disability Leave",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=78697",
+      "accessed": "2026-05-30",
+      "note": "Primary statute. Employer threshold 25+ employees. Up to 4 months unpaid job-protected leave. Enacted 1983. [LAW]"
+    },
+    {
+      "layer": 1,
+      "name": "Louisiana R.S. 23:642 — Local preemption of paid leave mandates",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=78997",
+      "accessed": "2026-05-30",
+      "note": "Act 97 of 1997. Bars parishes and municipalities from enacting paid leave ordinances. [LAW]"
+    },
+    {
+      "layer": 1,
+      "name": "Federal FMLA — DOL guidance",
+      "url": "https://www.dol.gov/agencies/whd/fmla",
+      "accessed": "2026-05-30",
+      "note": "50-employee threshold, 12 weeks unpaid job-protected leave. Applies in Louisiana. [LAW]"
+    },
+    {
+      "layer": 1,
+      "name": "EEOC — Pregnant Workers Fairness Act (PWFA)",
+      "url": "https://www.eeoc.gov/wysk/what-you-should-know-about-pregnant-workers-fairness-act",
+      "accessed": "2026-05-30",
+      "note": "Effective June 2023. 15+ employees. Reasonable accommodations for pregnancy. [LAW]"
+    },
+    {
+      "layer": 2,
+      "name": "Louisiana Commission on Human Rights — pregnancy leave guidance",
+      "url": "https://lchr.louisiana.gov",
+      "accessed": "2026-05-30",
+      "note": "State enforcement agency for R.S. 23:341. [LAW]"
+    },
+    {
+      "layer": 4,
+      "name": "Louisiana compliance cache (master-0106)",
+      "url": "internal: sprint/compliance-cache/louisiana.json",
+      "accessed": "2026-05-30",
+      "note": "UI wage base $7,000 (2026), 3% flat income tax, SUNA Solutions partner, at-will state. [TEAMED]"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Louisiana state income tax & UI", "href": "../state-income-tax-and-unemployment-insurance/", "status": "live_sibling", "section": "links-rail" },
+    { "anchor": "EOR vs entity crossover calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "section": "multiple" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live", "section": "links-rail" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live", "section": "links-rail" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live", "section": "cta" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "status": "live", "section": "links-rail" }
+  ],
+  "editor_rounds": 1,
+  "audit_score": 92,
+  "high_concern_flags": [
+    "image_fallback_sibling_reuse",
+    "link_gate_warn:louisiana_siblings_wave_4"
+  ],
+  "retrofit_needed": {
+    "images": false,
+    "hero_note": "Hero copied from Louisiana state-tax sibling (same Unsplash session, API rate-limited). Should replace with a distinct Louisiana photo in a fresh Unsplash session.",
+    "internal_links": true,
+    "internal_links_note": "Louisiana state parent and US country parent pages render as plain text per link gate (both wave-3/4). Auto-promote when targets ship.",
+    "person_schema": false
+  },
+  "pullquote_provenance": [],
+  "compliance_cache_source": "sprint/compliance-cache/louisiana.json (written by master-0106)",
+  "cross_batch_sameness_anchors": {
+    "opening_para_unique_fact": "R.S. 23:341 applies at 25 employees — 25 fewer than FMLA threshold",
+    "tom_tagline_unique_facts": ["R.S. 23:341 1983 statute", "25-employee threshold", "Act 97 of 1997 blocks parishes"]
+  }
+}

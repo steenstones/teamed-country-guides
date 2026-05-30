@@ -1,0 +1,85 @@
+{
+  "row_id": "master-0116",
+  "slug": "united-states/maine/wage-overtime-and-meal-break-law",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "batch_spec_version": "phase-1.0",
+  "compliance_cache_used": true,
+  "compliance_cache_source": "sprint/compliance-cache/maine.json (master-0112 PRIMER)",
+  "kernel_cache_used": true,
+  "entity_status": "Teamed US Inc., Delaware — payroll partner SUNA Solutions",
+  "target_keywords": [
+    "Maine minimum wage 2026",
+    "Maine overtime law",
+    "Maine meal break requirements",
+    "Maine wage law employer",
+    "hire employees Maine"
+  ],
+  "sources": [
+    {
+      "type": "statute",
+      "title": "26 M.R.S. §664 — Minimum wage and overtime",
+      "url": "https://legislature.maine.gov/statutes/26/title26sec664.html",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "statute",
+      "title": "26 M.R.S. §601 — Meal breaks",
+      "url": "https://legislature.maine.gov/statutes/26/title26sec601.html",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "statute",
+      "title": "26 M.R.S. §626 — Final pay",
+      "url": "https://legislature.maine.gov/statutes/26/title26sec626.html",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "statute",
+      "title": "26 M.R.S. §621 — Pay frequency",
+      "url": "https://legislature.maine.gov/statutes/26/title26sec621.html",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "authority",
+      "title": "Maine DOL — Minimum wage",
+      "url": "https://www.maine.gov/labor/labor_laws/minimum_wage.shtml",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "authority",
+      "title": "Maine PFML programme",
+      "url": "https://www.maine.gov/paidleave/",
+      "accessed": "2026-05-30"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live" },
+    { "anchor": "GEMO — Global Entity Management", "href": "/entity-management/", "status": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "status": "live" },
+    { "anchor": "Zero FX Fixed pricing", "href": "/pricing/zero-fx-fixed/", "status": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live" }
+  ],
+  "pullquote_provenance": [],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "images": false,
+    "internal_links": false,
+    "neighbour_state_links": true,
+    "notes": "Sibling US-state child pages (Iowa, Kansas, Kentucky, Louisiana) are wave-4; link as plain text until they ship."
+  },
+  "high_concern_flags": [
+    "factual_uncertainty"
+  ],
+  "audit_score": 88,
+  "linter_result": "pass-1",
+  "linter_block_failures": 0,
+  "linter_warn_failures": 1,
+  "linter_warn_detail": "crso-cal.vercel.app flagged as staging — this is the live Crossover Calculator deployment per internal-links.json, not a migration issue"
+}

@@ -1,0 +1,110 @@
+{
+  "row_id": "master-0114",
+  "slug": "united-states/maine/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/maine/worker-classification-state-test/",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "audit_score": 86,
+  "linter_result": "pass",
+  "linter_checks_passed": 26,
+  "linter_checks_total": 27,
+  "linter_block_fails": 0,
+  "linter_warn_fails": 1,
+  "linter_warn_detail": "cta.staging_url_warn — cntrctr-cal.vercel.app flagged as staging by linter; this is the canonical live deployment per config/internal-links.json (status: live). No action required.",
+  "editor_rounds": 1,
+  "editor_status": "clean",
+  "high_concern_flags": 2,
+  "retrofit_needed": {
+    "images": false,
+    "internal_links_neighbour": true,
+    "note": "No Maine sibling pages exist yet in wave. Neighbour links to Iowa/Kansas/Kentucky/Louisiana worker-classification pages should be added when those pages ship."
+  },
+  "target_keywords": [
+    "Maine worker classification",
+    "Maine independent contractor test",
+    "Maine ABC test unemployment",
+    "worker misclassification Maine"
+  ],
+  "sources": [
+    {
+      "label": "26 M.R.S. § 1043(11)(E) — UI worker classification test",
+      "url": "https://legislature.maine.gov/statutes/26/title26sec1043.html",
+      "accessed": "2026-05-30"
+    },
+    {
+      "label": "Maine Workers' Compensation Board — IC FAQ (39-A M.R.S.A. § 102(13-A))",
+      "url": "https://www1.maine.gov/wcb/Departments/coverage/independentcontractorFAQ.html",
+      "accessed": "2026-05-30"
+    },
+    {
+      "label": "Maine WCB — Independent Contractor / WCB-267",
+      "url": "https://www.maine.gov/wcb/Departments/coverage/independentcontractor.html",
+      "accessed": "2026-05-30"
+    },
+    {
+      "label": "Maine DOL — Worker Misclassification and the Law",
+      "url": "https://www.maine.gov/labor/misclass/legal.shtml",
+      "accessed": "2026-05-30"
+    },
+    {
+      "label": "Maine Paid Family and Medical Leave (PFML)",
+      "url": "https://www.maine.gov/paidleave/",
+      "accessed": "2026-05-30"
+    },
+    {
+      "label": "Maine minimum wage 2026 — $15.10/hr (Title 26 MRSA § 664)",
+      "url": "https://www.maine.gov/labor/news_events/article.shtml?id=13338762",
+      "accessed": "2026-05-30"
+    },
+    {
+      "label": "Maine UI tax rates 2026 — MDOL",
+      "url": "https://www.maine.gov/labor/news_events/article.shtml?id=13331230",
+      "accessed": "2026-05-30"
+    },
+    {
+      "label": "Maine income tax / UI / PFML facts — compliance-cache/maine.json (master-0112 PRIMER)",
+      "url": "local:sprint/compliance-cache/maine.json",
+      "accessed": "2026-05-30"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "the graduation model", "href": "/graduation-model/", "status": "live" },
+    { "anchor": "Zero FX Fixed pricing", "href": "/pricing/zero-fx-fixed/", "status": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "status": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live" }
+  ],
+  "factual_uncertainty_flags": [
+    {
+      "field": "ui.experience_rated_max_pct",
+      "value_used": "6.03%",
+      "conflict": "Paycom March 2026 shows 6.29%; Paper Trails shows 0.28–6.03%. Used 6.03% conservative upper bound. Original flag carried forward from master-0112 compliance cache.",
+      "resolution": "Verify against official MDOL UI tax rates PDF when next audit runs.",
+      "prompt_correction": true
+    }
+  ],
+  "visual_inventory": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "size_kb": 159,
+      "source": "Unsplash",
+      "photographer": "Michael Denning (@coffeeguy77)",
+      "query": "Portland Maine harbor lighthouse coast",
+      "verified": true
+    },
+    "inline_visual": {
+      "type": "compact-postcard",
+      "section": "wcb267",
+      "description": "WCB-267 compliance postcard with statute reference and '4 tests apply' stamp"
+    }
+  },
+  "cross_batch_sameness_check": {
+    "opening_para_unique": true,
+    "opening_para_angle": "Maine-specific: WCB-267 false-security trap, 5-required + 3-of-7 test structure, May 2026 PFML launch as new stakes",
+    "tom_tagline_unique": true,
+    "tom_tagline_angle": "Maine-specific facts: WCB-267 scope limitation, § 1043 hybrid test prong structure, PFML May 2026, three-year retroactive UI exposure",
+    "similarity_risk": "low"
+  }
+}

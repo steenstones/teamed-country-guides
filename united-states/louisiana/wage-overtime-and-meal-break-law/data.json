@@ -1,0 +1,100 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "abbreviation": "LA"
+  },
+  "hero": {
+    "headline": "Louisiana wage, overtime and meal-break law in 2026",
+    "subhead": "No state minimum wage, no state OT, no adult break mandate. The R.S. 23:632 penalty is where Louisiana gets specific.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "When does entity formation make sense?", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "at_a_glance": {
+    "currency": "USD",
+    "language": "English",
+    "payroll_frequency": "Biweekly or semi-monthly (typical)",
+    "state_minimum_wage": "None — federal $7.25/hr applies",
+    "state_overtime_rule": "None — FLSA 1.5x over 40h/wk",
+    "adult_meal_break_required": false,
+    "minor_meal_break_required": true,
+    "minor_meal_break_detail": "30 min after 5 consecutive hours (under 18)",
+    "final_paycheck_discharge_days": 15,
+    "final_paycheck_statute": "LA R.S. 23:631",
+    "penalty_statute": "LA R.S. 23:632",
+    "penalty_detail": "90 days wages or wages from demand to payment, whichever is less",
+    "at_will": true,
+    "state_income_tax_rate_pct": 3.0,
+    "ui_wage_base_usd_2026": 7000,
+    "new_employer_suta_rate_pct": 1.16,
+    "local_payroll_tax": false,
+    "verified_date": "2026-05-30"
+  },
+  "minimum_wage": {
+    "question": "What is the minimum wage in Louisiana in 2026?",
+    "answer_first": "Louisiana's minimum wage is $7.25 per hour, the federal FLSA floor. The state has no state minimum wage law of its own.",
+    "state_rate_usd": null,
+    "federal_floor_usd": 7.25,
+    "local_preemption": true,
+    "local_preemption_note": "1997 state law prohibits parishes and municipalities from setting a higher local minimum wage",
+    "tipped_cash_wage_usd": 2.13,
+    "recent_legislation": "HB 353 (proposed $12 by 2027) failed in committee April 2026",
+    "statute": "FLSA (no state statute)"
+  },
+  "overtime": {
+    "question": "Does Louisiana have state overtime rules beyond the FLSA?",
+    "answer_first": "No. Louisiana has no state overtime premium. Non-exempt employees get 1.5x their regular rate for hours over 40 per workweek under the FLSA.",
+    "daily_ot_trigger": false,
+    "weekly_threshold_hours": 40,
+    "weekly_premium_multiplier": 1.5,
+    "double_time_required": false,
+    "seventh_day_rule": false,
+    "statute": "FLSA Section 207 (no state statute)"
+  },
+  "meal_breaks": {
+    "question": "Are employers required to provide meal breaks in Louisiana?",
+    "answer_first": "No state law requires meal or rest breaks for employees 18 and older in Louisiana. For employees under 18, a 30-minute break is required after every 5 consecutive hours worked under LA R.S. 23:213.",
+    "adult_break_required": false,
+    "minor_break_required": true,
+    "minor_break_trigger_hours": 5,
+    "minor_break_duration_minutes": 30,
+    "minor_break_statute": "LA R.S. 23:213",
+    "voluntary_short_break_must_be_paid": true,
+    "voluntary_meal_break_unpaid_if_relieved": true
+  },
+  "final_paycheck": {
+    "question": "When must an employer pay a final paycheck in Louisiana?",
+    "answer_first": "Louisiana R.S. 23:631 requires a discharged employee's final pay within 15 days or the next regular payday, whichever comes first. Resigned employees must be paid by the next regular payday.",
+    "discharge_deadline_days": 15,
+    "discharge_alternative": "next regular payday if sooner",
+    "resignation_deadline": "next regular payday",
+    "statute": "LA R.S. 23:631",
+    "penalty_statute": "LA R.S. 23:632",
+    "penalty_detail": "90 days wages at daily rate, or wages from date of demand until employer pays, whichever is less",
+    "good_faith_exception": true,
+    "good_faith_exception_note": "Good-faith dispute reduces liability to disputed amount plus judicial interest from suit date",
+    "partnership_exclusion": "Profits-interest distributions from federal-partnership-taxed entities excluded from 15-day rule (effective 1 August 2025, R.S. 23:631(F))"
+  },
+  "enforcement": {
+    "question": "Who enforces wage and overtime law in Louisiana?",
+    "answer_first": "Federal wage and hour enforcement in Louisiana falls to the US Department of Labor Wage and Hour Division (WHD). Louisiana has no state agency dedicated to minimum wage enforcement.",
+    "federal_agency": "US DOL Wage and Hour Division",
+    "state_agency": null,
+    "final_paycheck_enforcement": "Private lawsuit in Louisiana state court (LA R.S. 23:632)",
+    "flsa_private_right": true,
+    "flsa_liquidated_damages": true
+  },
+  "meta": {
+    "title": "Louisiana Wage, Overtime and Meal-Break Law 2026 | Teamed",
+    "description": "Louisiana: no state minimum wage (federal $7.25 applies), no state OT premium, no adult meal-break mandate. But R.S. 23:632 penalty — 90 days wages — is real.",
+    "target_keywords": ["louisiana wage overtime law 2026", "louisiana minimum wage 2026", "louisiana final paycheck law RS 23:631"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

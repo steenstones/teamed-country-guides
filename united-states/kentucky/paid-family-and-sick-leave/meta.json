@@ -1,0 +1,126 @@
+{
+  "row_id": "master-0103",
+  "slug": "united-states/kentucky/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/kentucky/paid-family-and-sick-leave/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country — US State Child",
+  "country": "United States",
+  "state": "Kentucky",
+  "generated_at": "2026-05-30T00:00:00Z",
+  "sources_verified_at": "2026-05-30",
+  "batch_spec_version": "phase-1.0",
+  "compliance_cache_source": "sprint/compliance-cache/kentucky.json (written by master-0100)",
+  "target_keywords": [
+    "kentucky paid family leave 2026",
+    "kentucky paid sick leave law",
+    "KRS 337.015 vacation wages Kentucky",
+    "FMLA Kentucky"
+  ],
+  "sources": [
+    {
+      "title": "KRS 337.015 — Kentucky wages definition",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3485",
+      "type": "primary_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "title": "KRS 29A.160 — Jury duty leave Kentucky",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=3401",
+      "type": "primary_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "title": "KRS Chapter 344 — Kentucky Civil Rights Act",
+      "url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=38707",
+      "type": "primary_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "title": "Federal FMLA — 29 U.S.C. § 2601",
+      "url": "https://www.dol.gov/agencies/whd/fmla",
+      "type": "federal_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "title": "PWFA — 42 U.S.C. § 2000gg",
+      "url": "https://www.eeoc.gov/wysk/what-you-should-know-about-pregnant-workers-fairness-act",
+      "type": "federal_statute",
+      "verified": "2026-05-30"
+    },
+    {
+      "title": "NCSL — State Paid Family Leave Laws",
+      "url": "https://www.ncsl.org/labor-and-employment/paid-family-leave",
+      "type": "secondary_authoritative",
+      "verified": "2026-05-30"
+    },
+    {
+      "title": "NCSL — State Paid Sick Leave Laws",
+      "url": "https://www.ncsl.org/labor-and-employment/paid-sick-leave",
+      "type": "secondary_authoritative",
+      "verified": "2026-05-30"
+    },
+    {
+      "title": "Kentucky DOR — Employer Payroll Withholding (income tax 3.5%)",
+      "url": "https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx",
+      "type": "state_agency",
+      "verified": "2026-05-30",
+      "note": "From compliance cache kentucky.json — income tax 3.5% flat 2026"
+    },
+    {
+      "title": "Kentucky House Bill 1 (2025) — income tax reduction to 3.5%",
+      "url": "https://apps.legislature.ky.gov/record/25rs/hb1.html",
+      "type": "primary_legislation",
+      "verified": "2026-05-30"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Kentucky state tax and UI", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live-sibling" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "state": "live" }
+  ],
+  "link_gate_warn_items": [
+    "Kentucky state-parent page not yet built (wave-4) — rendered as plain text in links-rail",
+    "United States overview parent not yet built (wave-3) — rendered as plain text in links-rail",
+    "Kentucky chip-nav sibling pages not yet built (workers-compensation, new-hire-reporting, employer-registrations, local-occupational-tax, wage-overtime-and-meal-break-law, hiring-guide) — anchors rendered per chip-nav convention"
+  ],
+  "editor_rounds": 1,
+  "editor_status": "clean",
+  "audit_score": 91,
+  "high_concern_flags": [
+    "link_gate_warn:kentucky_siblings_wave_4",
+    "hero_reused_from_sibling",
+    "byline_person_schema_pending"
+  ],
+  "pullquote_provenance": {
+    "speaker": "Teamed Legal Operations",
+    "attribution_type": "anonymised_team",
+    "mi_query_run": false,
+    "note": "No named-individual pullquote. Anonymised to 'Teamed Legal Operations' per provenance rule. No MI extraction_id required."
+  },
+  "retrofit_needed": {
+    "images": false,
+    "hero": false,
+    "person_schema_bios": true,
+    "chip_nav_siblings": true,
+    "links_rail_parent": true
+  },
+  "visual_inventory": {
+    "hero_photo": "images/hero.jpg",
+    "hero_photo_size_kb": 182,
+    "hero_photo_source": "Unsplash (Cristina Anne Costello, @lightupphotos)",
+    "hero_photo_note": "Reused from kentucky/state-income-tax-and-unemployment-insurance sibling — same state, Unsplash rate limit exceeded on new fetch",
+    "inline_visual": "compact-postcard (KRS 337.015 statute block — HTML/CSS, no image file required)",
+    "inline_visual_present": true
+  },
+  "linter_result": "pass (27/28 checks, 0 block-fail, 1 warn: cta.staging_url_warn on crso-cal.vercel.app — known pattern, live tool URL per internal-links.json)",
+  "sameness_check": {
+    "opening_paragraph_unique": true,
+    "tom_tagline_unique": true,
+    "kentucky_specific_facts_in_tagline": ["KRS 337.015 vacation-as-wages", "50-employee FMLA threshold", "handbook-clause-as-wage-liability angle"],
+    "differentiator_vs_iowa_kansas": "KRS 337.015 vacation-payout statutory hook — Iowa and Kansas have no equivalent statute. Kentucky is the only sibling batch state where accrued vacation is classified as wages on termination."
+  }
+}

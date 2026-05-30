@@ -1,0 +1,147 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Iowa",
+    "slug": "iowa",
+    "abbrev": "IA"
+  },
+  "page": {
+    "row_id": "master-0091",
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "1. Country",
+    "sub_cluster": "Country — US State Child",
+    "topic": "paid-family-and-sick-leave",
+    "url": "/hire-in-united-states/iowa/paid-family-and-sick-leave/",
+    "slug": "united-states/iowa/paid-family-and-sick-leave"
+  },
+  "hero": {
+    "headline": "Does Iowa have paid family leave or sick leave in 2026?",
+    "subhead": "No state mandate. Federal FMLA only — and only at 50 employees.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "answer_capsule": "Iowa has no state-mandated paid family leave and no state-mandated paid sick leave as of 2026. The only statutory protection in Iowa is federal FMLA (29 U.S.C. § 2601), which provides 12 weeks of unpaid, job-protected leave per year and applies only to employers with 50 or more employees within a 75-mile radius. Below that threshold, no federal or state paid leave law applies. Iowa House File 295 (2017) also preempted local employment ordinances, so no Iowa city or county can mandate paid sick leave. Any paid leave an Iowa employee receives comes from a voluntary employer policy. The federal Paid Leave for All Act has been introduced in Congress but is not enacted. Teamed structures and administers paid leave policies for Iowa hires through the offer letter and payroll, at $599 per employee per month, Zero FX, single fixed rate.",
+  "sections": {
+    "state_law": {
+      "id": "state-law",
+      "question": "Does Iowa have a paid family leave law?",
+      "answer_first": "Iowa has no paid family leave law. The state legislature has not passed a state-level PFL statute as of 30 May 2026, leaving Iowa employers governed only by federal FMLA.",
+      "body": "Iowa is among the majority of US states with no state-level paid family leave programme. Unlike California, New York, Washington, or Massachusetts, Iowa has not enacted a state PFL insurance scheme funded by employer or employee payroll deductions. Iowa also preempted local employment ordinances via Iowa House File 295 (signed 30 March 2017), eliminating city and county authority to set wages or employment benefits above the state floor. No Iowa municipality can pass a paid sick leave or paid family leave ordinance that would survive a legal challenge. The federal landscape has not filled this gap. As of 30 May 2026, no enacted federal paid family leave mandate applies to private employers. Your offer letter is Iowa's paid leave policy."
+    },
+    "sick_leave": {
+      "id": "sick-leave",
+      "question": "Does Iowa have a paid sick leave requirement?",
+      "answer_first": "Iowa has no paid sick leave requirement. There is no state statute, no enforceable local ordinance, and no federal mandate for private employers as of 2026.",
+      "body": "Iowa is one of a shrinking group of states where paid sick leave is entirely voluntary. Roughly 20 states and Washington DC have enacted mandatory paid sick leave laws; Iowa is not among them. The preemption under Iowa HF 295 (2017) means no Iowa city or county can impose a paid sick leave requirement. Iowa employers set their own sick-day policy. The market benchmark for professional and technical roles in Iowa is 5 to 10 days of paid sick leave per year, or combined PTO pools of 15 to 20 days."
+    },
+    "fmla": {
+      "id": "fmla",
+      "question": "Does federal FMLA apply to Iowa employers?",
+      "answer_first": "Federal FMLA applies to Iowa employers with 50 or more employees within a 75-mile radius. Eligible employees need 12 months of tenure and 1,250 hours in the prior year to qualify for 12 weeks of unpaid, job-protected leave.",
+      "fmla_quick_facts": {
+        "employer_threshold": "50+ employees within 75 miles",
+        "employee_eligibility": "12 months tenure + 1,250 hours/year",
+        "duration": "12 weeks / year (26 weeks for military caregiver)",
+        "pay": "Unpaid",
+        "job_protection": "Return to same or equivalent role",
+        "notice_required": "30 days advance where foreseeable",
+        "statute": "29 U.S.C. § 2601 / 29 CFR Part 825"
+      },
+      "body": "The 75-mile count uses all employees at locations within 75 miles of the work site. FMLA is unpaid but requires you to maintain group health insurance coverage during leave. Below the FMLA threshold, Iowa employers have no statutory leave obligation beyond what they've promised in the offer letter."
+    },
+    "federal_outlook": {
+      "id": "federal-outlook",
+      "question": "Is there a federal paid leave law on the way?",
+      "answer_first": "No enacted federal paid leave law covers Iowa private employers as of 30 May 2026. The Comprehensive Paid Leave for All Workers Act and related bills are in Congress but are not law.",
+      "body": "Multiple paid leave proposals have been introduced in recent sessions. None has passed either chamber. Federal employees have separate protections under the Federal Employees Paid Leave Act (2020). Iowa employers with distributed teams should watch for federal developments, particularly if headcount crosses 50."
+    },
+    "competitive_offer": {
+      "id": "competitive-offer",
+      "question": "What paid leave do Iowa employers typically offer?",
+      "answer_first": "Iowa market norms run at 10 to 15 days of PTO for professional roles, with 5 to 8 additional days of company-paid short-term disability for medical absences longer than 1 to 3 days.",
+      "leave_benchmark_table": [
+        { "type": "Paid family leave", "statutory_minimum": "None", "market_norm": "4 to 12 weeks voluntary" },
+        { "type": "Paid sick leave", "statutory_minimum": "None", "market_norm": "5 to 10 days/year or PTO pool" },
+        { "type": "Annual PTO", "statutory_minimum": "None", "market_norm": "10 to 20 days/year" },
+        { "type": "Short-term disability", "statutory_minimum": "None", "market_norm": "60% to 100% of salary for 30 to 90 days" },
+        { "type": "FMLA (unpaid)", "statutory_minimum": "12 weeks (at 50+ employees only)", "market_norm": "Often topped up voluntarily" }
+      ],
+      "body": "Iowa employers competing nationally for talent have moved toward unlimited PTO or annual PTO pools of 20-plus days at the senior level. Iowa has no state PFL premium, unlike California (1.1% SDI) or Washington (1.0% PFML), so voluntary paid leave costs exactly what you choose to fund — no state fund to register with, no quarterly premium filing."
+    },
+    "eor_iowa": {
+      "id": "eor-iowa-leave",
+      "question": "How does an EOR handle paid leave in Iowa?",
+      "answer_first": "An Employer of Record in Iowa administers whatever paid leave policy you define in the offer letter. There's no state fund to register with, no premium to withhold, and no state leave tax to file.",
+      "body": "Teamed is the employer of record through Teamed US Inc., Delaware. Iowa's flat 3.8% state income tax and $20,400 UI wage base (2026, reduced from $39,500 in 2025 by Iowa Senate File 607) make payroll arithmetic simple. Teamed passes statutory contributions through at cost, itemised on every invoice. The $599 / month fee covers contracts, payroll, filings, and a named US specialist."
+    }
+  },
+  "pullquote": {
+    "speaker": "Teamed Legal Operations",
+    "text": "Iowa's no-mandate status is genuinely simple from a statutory standpoint — there's no state leave tax to register for, no quarterly premium filing, no state leave fund. What we watch instead is the offer letter. Because Iowa employees have no floor below FMLA, the language you write is the language that governs. Teamed reviews it for consistency before the first payroll runs.",
+    "mi_provenance": null,
+    "note": "No MI search run in sprint mode; using Teamed Legal Operations anonymised attribution per pullquote provenance rule."
+  },
+  "faq_schema": [
+    {
+      "q": "Does Iowa have paid family leave?",
+      "a": "No. Iowa has no state-mandated paid family leave law as of 2026. The only leave protection in Iowa is federal FMLA, which provides 12 weeks of unpaid, job-protected leave and applies only to employers with 50 or more employees within a 75-mile radius."
+    },
+    {
+      "q": "Does Iowa have paid sick leave?",
+      "a": "No. Iowa has no state-mandated paid sick leave law. Iowa also preempted local ordinances under House File 295 (2017), so no Iowa city or county can impose a paid sick leave requirement either. Any paid sick leave in Iowa is voluntary employer policy."
+    },
+    {
+      "q": "Does federal FMLA apply to Iowa employers?",
+      "a": "Yes, if you meet the threshold. Federal FMLA applies to employers with 50 or more employees within a 75-mile radius. Eligible employees must have 12 months of tenure and 1,250 hours worked in the prior year. FMLA provides 12 weeks of unpaid, job-protected leave per year."
+    },
+    {
+      "q": "What paid leave do Iowa employers typically offer?",
+      "a": "Iowa employers set their own paid leave policies. The market norm in Iowa for professional and tech roles is 10 to 15 days of PTO plus company-paid short-term disability for longer absences. Teamed structures paid time off in the offer letter and administers it through payroll with no hidden markup."
+    },
+    {
+      "q": "Is there a federal paid sick leave law for private employers?",
+      "a": "No. As of 2026, there is no enacted federal paid sick leave mandate for private employers. The federal Paid Leave for All Act and related bills have been introduced in Congress but are not law."
+    }
+  ],
+  "tom_tagline": {
+    "body": "Iowa has no paid leave floor. Federal FMLA only kicks in at 50 employees within 75 miles, and below that threshold, the offer letter you write is the only policy your Iowa hire has. That's either a gap or an opportunity, depending on what you put in it. We help you write it compliantly, administer it through payroll, and tell you when the EOR model stops being right for your Iowa headcount.",
+    "iowa_specific_facts": [
+      "No paid leave floor — no state PFL, no state sick leave mandate",
+      "Federal FMLA threshold: 50 employees within 75 miles",
+      "Offer letter governs below FMLA threshold"
+    ],
+    "signer": "Tom Price-Daniel · Co-founder, Teamed"
+  },
+  "internal_links": [
+    { "anchor": "Hiring in Iowa, overview", "href": "/hire-in-united-states/iowa/", "context": "parent", "state": "wave-3" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "cluster 2a", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "context": "cluster 2a", "state": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "context": "commercial", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tool", "state": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "context": "tool", "state": "live" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "context": "tool", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "context": "CTA", "state": "live" }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_credit": "Brandon Lehman (@lumenspectral) on Unsplash"
+  },
+  "meta": {
+    "title": "Iowa Paid Family and Sick Leave 2026 | No State Mandate, FMLA Explained | Teamed",
+    "description": "Iowa has no state paid family or sick leave law. Federal FMLA applies at 50+ employees. Here's what Iowa employers must provide — and how to set a competitive offer.",
+    "target_keywords": [
+      "Iowa paid family leave",
+      "Iowa sick leave law 2026",
+      "Iowa FMLA employer requirements",
+      "Iowa employee benefits EOR"
+    ],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

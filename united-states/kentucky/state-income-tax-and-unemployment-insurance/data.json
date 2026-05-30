@@ -1,0 +1,136 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA",
+    "state": "Kentucky",
+    "state_slug": "kentucky"
+  },
+  "page": {
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "Country — US State Child",
+    "target_url": "/hire-in-united-states/kentucky/state-income-tax-and-unemployment-insurance/",
+    "parent_url": "/hire-in-united-states/",
+    "state_parent_url": "/hire-in-united-states/kentucky/"
+  },
+  "hero": {
+    "headline": "Kentucky state income tax and unemployment insurance for employers",
+    "subhead": "3.5% flat rate, $12,000 UI wage base, what you owe in 2026.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the cost calculator", "href": "/tools/employee-cost/" }
+  },
+  "answer_capsule": "Kentucky employers withhold state income tax at a flat 3.5% on wages above the $3,360 standard deduction, per House Bill 1 effective 1st January 2026. Unemployment insurance (UI) tax applies at 0.3%–2.4% (Schedule A, positive-rated employers) on the first $12,000 of each employee's wages — a $300 increase from 2025. New employers pay 2.7%. Kentucky is not on the 2026 FUTA credit reduction list, so the federal effective rate stays at 0.6% on the first $7,000.",
+  "sections": {
+    "income_tax": {
+      "question": "What is Kentucky's state income tax rate for employers in 2026?",
+      "answer_first": "Kentucky's 2026 flat income tax rate is 3.5%, down from 4.0% in 2025, enacted via House Bill 1. You withhold on wages above the $3,360 annual standard deduction.",
+      "body": "The 3.5% rate applies to all Kentucky taxable wages after the $3,360 standard deduction (increased from $3,270 in 2025). The formula is straightforward: subtract $3,360 from annual gross wages, multiply by 3.5%, then divide by the number of pay periods. You file and pay electronically through MyTaxes.ky.gov — paper is not accepted.\n\nEmployees complete a K-4 form (Form 42A804) to declare their withholding status. Unlike federal W-4s, the K-4 is a simple one-pager with no complex allowance calculation — the flat rate does most of the work.\n\nYour filing frequency depends on your annual withholding liability: quarterly if you withhold less than $400 per year, monthly for $400–$49,999, and twice-monthly once you cross $50,000. W-2s and 1099s are due to the Kentucky Department of Revenue by 31st January each year via Form K-5 or EFW2 electronic format.\n\nThe rate cut is part of a multi-year legislative path under 2022 HB 8. A further reduction to 3.0% in 2027 is possible, subject to Budget Reserve Trust Fund conditions reviewed by 1st September 2025. Your payroll system should treat the current rate as confirmed through end-2026.",
+      "data_table": {
+        "label": "Kentucky income tax withholding — 2026",
+        "rows": [
+          ["Flat rate", "3.5%", "KRS 141.020; HB 1 (2025)"],
+          ["Standard deduction", "$3,360/year", "KRS 141.081; DOR announcement 4 Sept 2025"],
+          ["Prior year rate (2025)", "4.0%", "KRS 141.020"],
+          ["Employee form", "K-4 (Form 42A804 2026)", "KY DOR"],
+          ["Filing portal", "MyTaxes.ky.gov (mandatory electronic)", "103 KAR 18:150"],
+          ["Quarterly filing threshold", "< $400/year withheld", "KY DOR"],
+          ["Monthly filing threshold", "$400–$49,999/year withheld", "KY DOR"],
+          ["Twice-monthly filing threshold", "$50,000+/year withheld", "KY DOR"],
+          ["W-2 deadline", "31 January", "KY DOR"]
+        ]
+      },
+      "sources": [
+        { "url": "https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx", "label": "KY DOR Employer Payroll Withholding" },
+        { "url": "https://apps.legislature.ky.gov/record/25rs/hb1.html", "label": "HB 1 (2025 Regular Session)" },
+        { "url": "https://revenue.ky.gov/News/Pages/Kentucky-DOR-Announces-2026-Standard-Deduction.aspx", "label": "KY DOR 2026 Standard Deduction" }
+      ]
+    },
+    "unemployment_insurance": {
+      "question": "What is Kentucky's unemployment insurance tax rate for employers in 2026?",
+      "answer_first": "Kentucky UI uses Rate Schedule A. Positive-rated employers pay 0.3%–2.4% on the first $12,000 of each employee's wages. New employers pay 2.7%. The UI surcharge is suspended at 0.00% for 2026.",
+      "body": "The taxable wage base increased $300 from $11,700 (2025) to $12,000 for 2026. Every employee's wages up to $12,000 are subject to SUTA. Once an employee's year-to-date wages cross $12,000, you stop paying UI on additional earnings for that worker for the rest of the year.\n\nRate Schedule A, in effect since 2019, has two experience bands. Positive-rated employers — those whose reserve account balance exceeds their benefit charges — pay 0.3% to 2.4%. Negative-rated employers pay 6.5% to 9.0%. Your reserve account is an accounting record maintained by the Office of Unemployment Insurance (OUI): contributions in, benefit charges out. The ratio of your account balance to your average annual payroll determines where you land on the schedule.\n\nNew employers (outside contract construction) pay 2.7% while they build their claims history, usually for the first two to three calendar years. Contract construction new employers start at 9.0%.\n\nUI tax is due quarterly to OUI via the KEWES portal at kewes.ky.gov. Deadlines: 30th April, 31st July, 31st October, and 31st January. Late payments accrue interest and penalties under KRS 341.",
+      "data_table": {
+        "label": "Kentucky UI at a glance — 2026",
+        "rows": [
+          ["Taxable wage base", "$12,000 per employee/year", "Kentucky OUI (kewes.ky.gov)"],
+          ["Rate schedule in effect", "Schedule A", "Kentucky OUI"],
+          ["Positive-rated range", "0.3% – 2.4%", "Schedule A"],
+          ["Negative-rated range", "6.5% – 9.0%", "Schedule A"],
+          ["New employer rate", "2.7%", "Kentucky OUI"],
+          ["New construction employer rate", "9.0%", "Kentucky OUI"],
+          ["UI surcharge 2026", "0.00% (suspended)", "Kentucky OUI"],
+          ["FUTA credit reduction status", "Not affected — full 5.4% credit applies", "IRS/DOL"],
+          ["Effective FUTA rate", "0.6% on first $7,000", "FUTA standard rate"],
+          ["Filing portal", "kewes.ky.gov (KEWES)", "Kentucky OUI"],
+          ["Quarterly deadlines", "30 Apr / 31 Jul / 31 Oct / 31 Jan", "KRS 341"]
+        ]
+      },
+      "sources": [
+        { "url": "https://kewes.ky.gov/Contact/contacts.aspx?strid=2", "label": "KY OUI Taxable Wage Base" },
+        { "url": "https://kewes.ky.gov/Contact/contacts.aspx?strid=4", "label": "KY OUI Rate Schedules" },
+        { "url": "https://oui.doleta.gov/unemploy/futa_credit.asp", "label": "DOL FUTA Credit Reductions" }
+      ]
+    },
+    "local_tax": {
+      "question": "Does Kentucky have a local occupational tax employers must withhold?",
+      "answer_first": "Yes. 87 of Kentucky's 120 counties levy an occupational license tax, and city taxes can stack on top. Louisville charges 2.2% for residents. There is no unified state portal — each jurisdiction administers its own returns.",
+      "body": "The occupational tax is a percentage of gross wages earned within a jurisdiction, regardless of where the employee lives. Louisville/Jefferson County sets the highest-profile rate: 2.2% for residents (1.25% Metro + 0.20% TARC transit authority + 0.75% school board) and 1.45% for non-residents who work inside the county but live elsewhere.\n\nLexington-Fayette, Covington, Newport, Owensboro, Bowling Green, and dozens of smaller cities all run separate regimes. A remote-first team with workers scattered across Kentucky could face five or six distinct filings — each with its own forms, deadlines, and thresholds.\n\nFor Louisville specifically, employers file Form 220-221 (Employer's Return of License Fee Withheld) quarterly. If you withhold more than $3,000 in a quarter, monthly deposits are required for the following four quarters, even if you subsequently withhold less.\n\nTeamed's country specialists track the occupational tax obligations for each Kentucky employee's work location as part of payroll setup. You don't need to map the 87-county patchwork yourself.",
+      "sources": [
+        { "url": "https://louisvilleky.gov/government/revenue-commission/forms-and-publications", "label": "Louisville Metro Revenue Commission" },
+        { "url": "https://web.sos.ky.gov/occupationaltax/", "label": "KY Secretary of State — Occupational Tax Registry" }
+      ]
+    },
+    "teamed_difference": {
+      "pricing_block": "$599 / employee / month flat. Zero FX. Every statutory cost — UI contributions, state withholding remittances, occupational tax filings — passes through at cost, itemised on your invoice.",
+      "crossover_signal": "When your Kentucky headcount or salary base makes an owned US entity cost-efficient, Teamed's Crossover Calculator flags the graduation point. EOR is the right hiring model for Kentucky, until it isn't.",
+      "human_first": "Your named Teamed payroll specialist handles Kentucky withholding registration, KEWES enrollment, and local occupational tax setup. You won't interact with a bot or a shared inbox — a real human runs your Kentucky payroll compliance from day one.",
+      "platform": "One platform tracks your state withholding filings, UI contributions, and occupational tax obligations across every Kentucky jurisdiction where your employees work."
+    },
+    "good_to_know": {
+      "question": "What should you know before hiring in Kentucky in 2026?",
+      "body": "Kentucky is aggressively reducing its income tax burden: the rate has dropped from 5% in 2022 to 3.5% today, with a potential 3.0% in 2027 if revenue triggers hit. That trajectory matters when modelling multi-year employment costs.\n\nThe local occupational tax is the compliance layer most employers miss. 87 counties and hundreds of cities each run their own regime. A worker in Lexington's core area faces Fayette County occupational tax plus the city levy; a Louisville worker triggers the Metro + TARC + school board stack. Getting this wrong doesn't just mean a penalty — it means you've under-withheld from the employee's pay, and recovering that after the fact is a headache.\n\nKentucky's at-will employment doctrine is as clean as any US state, with no additional notice requirements beyond the federal baseline. Onboarding speed through SUNA (Teamed's primary US partner) is typically 3–5 business days from signed contract to first payroll cycle."
+    }
+  },
+  "faq_schema": [
+    {
+      "q": "What is the Kentucky state income tax rate for 2026?",
+      "a": "Kentucky's state income tax rate for 2026 is 3.5%, a flat rate applied to all taxable income above the $3,360 standard deduction. The rate was reduced from 4.0% under House Bill 1 enacted during the 2025 legislative session, effective 1st January 2026."
+    },
+    {
+      "q": "What is Kentucky's unemployment insurance taxable wage base for 2026?",
+      "a": "Kentucky's UI taxable wage base for 2026 is $12,000 per employee per year, up from $11,700 in 2025. Employers pay UI contributions on each employee's wages up to this threshold, then stop for the rest of the calendar year."
+    },
+    {
+      "q": "What is the new employer UI rate in Kentucky?",
+      "a": "New employers in Kentucky (outside contract construction) pay a 2.7% unemployment insurance rate until they have sufficient claims history to be experience-rated under Schedule A. Contract construction new employers pay 9.0%."
+    },
+    {
+      "q": "Is Kentucky on the 2026 FUTA credit reduction list?",
+      "a": "No. Kentucky is not on the 2026 FUTA credit reduction list. Kentucky employers receive the full 5.4% credit against the standard 6.0% FUTA rate, leaving an effective rate of 0.6% on the first $7,000 of each employee's wages."
+    },
+    {
+      "q": "Do Kentucky employers have to withhold local occupational tax?",
+      "a": "Yes. 87 of Kentucky's 120 counties levy an occupational license tax on wages earned within the jurisdiction. Cities can stack their own levy on top. Louisville/Jefferson County charges 2.2% for residents and 1.45% for non-residents. Each jurisdiction is administered independently with its own forms and deadlines."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "core", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "context": "core", "status": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "context": "tool", "status": "live" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "context": "tool", "status": "live" },
+    { "anchor": "Teamed pricing", "href": "/pricing/", "context": "core", "status": "live" }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "postcard": "images/postcard-ky-tax.png"
+  },
+  "meta": {
+    "title": "Kentucky State Income Tax and UI for Employers 2026 | Teamed",
+    "description": "Kentucky employers withhold state income tax at 3.5% flat (down from 4.0%) and pay UI at 0.3%–2.4% on the first $12,000. Full employer guide for 2026.",
+    "target_keywords": ["Kentucky state income tax employer", "Kentucky unemployment insurance 2026", "Kentucky payroll tax withholding", "Kentucky SUTA rate 2026"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

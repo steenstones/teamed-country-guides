@@ -1,0 +1,106 @@
+{
+  "row_id": "master-0092",
+  "slug": "united-states/iowa/wage-overtime-and-meal-break-law",
+  "target_url": "/hire-in-united-states/iowa/wage-overtime-and-meal-break-law/",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "iowa minimum wage 2026",
+    "iowa overtime law",
+    "iowa meal break law",
+    "iowa wage payment collection act",
+    "iowa final paycheck law"
+  ],
+  "sources": [
+    {
+      "url": "https://www.legis.iowa.gov/docs/ico/chapter/91D.pdf",
+      "title": "Iowa Code Chapter 91D — Minimum Wage",
+      "accessed": "2026-05-30",
+      "used_in": ["minimum-wage section"]
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/ico/chapter/91A.pdf",
+      "title": "Iowa Code Chapter 91A — Iowa Wage Payment Collection Act",
+      "accessed": "2026-05-30",
+      "used_in": ["final-pay section", "iowa-wage-payment-act section"]
+    },
+    {
+      "url": "https://www.legis.iowa.gov/docs/ico/chapter/92.pdf",
+      "title": "Iowa Code Chapter 92 — Child Labour (includes §92.7 meal-break rule)",
+      "accessed": "2026-05-30",
+      "used_in": ["meal-rest-breaks section"]
+    },
+    {
+      "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+      "title": "U.S. DOL — State Minimum Wage Laws",
+      "accessed": "2026-05-30",
+      "used_in": ["minimum-wage section"]
+    },
+    {
+      "url": "https://www.dol.gov/agencies/whd/overtime",
+      "title": "U.S. DOL WHD — Overtime",
+      "accessed": "2026-05-30",
+      "used_in": ["overtime section"]
+    },
+    {
+      "url": "https://workforce.iowa.gov/labor/wage-claims",
+      "title": "Iowa Workforce Development — Wage Claims",
+      "accessed": "2026-05-30",
+      "used_in": ["iowa-wage-payment-act section"]
+    },
+    {
+      "url": "https://revenue.iowa.gov/taxes/tax-guidance/withholding-tax/iowa-withholding-tax-information",
+      "title": "Iowa DOR — Withholding Tax Information",
+      "accessed": "2026-05-30",
+      "used_in": ["background context from iowa.json cache"]
+    }
+  ],
+  "compliance_cache_used": true,
+  "compliance_cache_path": "sprint/compliance-cache/iowa.json",
+  "compliance_cache_fetched_at": "2026-05-27T00:00:00Z",
+  "internal_links_used": [
+    {"anchor": "Iowa state income tax & unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live"},
+    {"anchor": "Iowa worker classification", "href": "../worker-classification-state-test/", "state": "live"},
+    {"anchor": "Iowa termination and at-will exceptions", "href": "../termination-law-and-at-will-exceptions/", "state": "live"},
+    {"anchor": "Arizona wage, overtime and meal-break law", "href": "../../arizona/wage-overtime-and-meal-break-law/", "state": "live"},
+    {"anchor": "Alabama wage, overtime and meal-break law", "href": "../../alabama/wage-overtime-and-meal-break-law/", "state": "live"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live"},
+    {"anchor": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live"},
+    {"anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live"},
+    {"anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "state": "live"},
+    {"anchor": "Hiring in the United States, overview", "state": "wave-3", "note": "rendered as plain text per link-gate rule"},
+    {"anchor": "Iowa overview", "state": "wave-4", "note": "rendered as plain text per link-gate rule"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 91,
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": false,
+    "team_bios": false
+  },
+  "high_concern_flags": 0,
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 224224,
+    "photographer": "Niko Vassios",
+    "photographer_username": "cappyvas",
+    "source": "Unsplash",
+    "photo_url": "https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-XXtKegCa6gM"
+  },
+  "inline_visual": "compact-postcard (Iowa Code §92.7 minor meal-break rule)",
+  "pullquote_type": "anonymised",
+  "pullquote_label": "Teamed Client Operations",
+  "pullquote_mi_provenance": null,
+  "tom_tagline_iowa_specific_facts": [
+    "$7.25 floor unchanged since 24 July 2009",
+    "Iowa Wage Payment Collection Act — final pay on next regular payday",
+    "30 days to respond to written wage dispute",
+    "itemised payslips required by statute"
+  ],
+  "cross_batch_sameness_note": "Opening paragraph references Iowa Code §91D, 24 July 2009, Iowa House File 295 (2017), and Iowa Code §91A. Tom tagline names the July 2009 date and the Wage Payment Collection Act by statute. Distinct from Kansas (no mini-wage law), Kentucky (2x wage claim penalty), Louisiana (no state law), Maine (CPI-indexed rate)."
+}

@@ -1,0 +1,103 @@
+{
+  "page": {
+    "slug": "united-states/kansas/state-income-tax-and-unemployment-insurance",
+    "target_url": "/hire-in-united-states/kansas/state-income-tax-and-unemployment-insurance/",
+    "type": "programmatic",
+    "tier": "US-State",
+    "row_id": "master-0094"
+  },
+  "state": {
+    "name": "Kansas",
+    "parent_country": "United States",
+    "iso2": "US",
+    "abbreviation": "KS"
+  },
+  "hero": {
+    "headline": "Kansas state income tax and unemployment insurance in 2026",
+    "subhead": "Two brackets, one reformed wage base, zero state PFL.",
+    "primary_cta": { "label": "Talk to a Kansas specialist", "href": "/contact/" },
+    "secondary_cta": { "label": "See your real FX exposure", "href": "/tools/unbundling-calculator" }
+  },
+  "at_a_glance": {
+    "currency": "USD",
+    "state_income_tax_rates": "5.20% / 5.58%",
+    "income_tax_brackets": "2 brackets (since June 2024)",
+    "ui_wage_base_2026_usd": 15100,
+    "new_employer_ui_rate_pct": "2.7% (non-construction)",
+    "social_security_exempt": "Yes (fully, since 2024)",
+    "withholding_form": "K-4 (Rev. July 2024)",
+    "state_minimum_wage_usd": "7.25 (equals federal)",
+    "state_pfl": "No",
+    "verified_date": "2026-05-30"
+  },
+  "income_tax_block": {
+    "question": "What is the Kansas state income tax rate in 2026?",
+    "answer_first": "Kansas income tax uses two brackets: 5.20% on income up to $23,000 (single) and 5.58% above that. Senate Bill 1, signed June 2024, created this structure.",
+    "body": "Kansas moved from three income tax brackets to two in June 2024 when Governor Laura Kelly signed Senate Bill 1 during a special legislative session. The old top rate of 5.7% dropped to 5.58%; the 5.25% rate fell to 5.20%; and the lowest 3.1% bracket was eliminated entirely.\n\nFor married couples filing jointly, the same rates apply with a higher threshold: 5.20% up to $46,000 and 5.58% above.\n\nThe same reform raised the personal exemption significantly. Single filers now claim $9,160 (up from $2,250). Married couples filing jointly claim $18,320. Each dependent adds $2,320. The standard deduction is $3,605 for single filers and $8,240 for married couples.\n\nSocial Security income is fully exempt from Kansas income tax for all filers, also effective from tax year 2024. This was one of the most meaningful changes for employees nearing retirement in your Kansas workforce.",
+    "brackets_single": [
+      {"band": "$0 to $23,000", "rate_percent": 5.20},
+      {"band": "Above $23,000", "rate_percent": 5.58}
+    ],
+    "brackets_mfj": [
+      {"band": "$0 to $46,000", "rate_percent": 5.20},
+      {"band": "Above $46,000", "rate_percent": 5.58}
+    ],
+    "source": "Tax Foundation 2026; Kansas SB 1 (2024 Special Session)"
+  },
+  "withholding_block": {
+    "question": "How does Kansas income tax withholding work for employers?",
+    "answer_first": "Every employer paying Kansas wages must register with the Kansas Department of Revenue and withhold using the K-4 form. New hires complete a K-4 on or before their first day.",
+    "body": "The K-4 is Kansas's equivalent of the federal W-4. Employees hired after 31st December 2007 must complete a K-4 before or on the date of employment if they earn Kansas source wages. If an employee does not submit a K-4, you withhold at the single rate with no allowances.\n\nThe current form is K-4 (Rev. July 2024). Employees should update the form any time their marital status or number of exemptions changes.\n\nFiling frequency for remitting withheld tax is set by the Kansas Department of Revenue based on your annual withholding volume. Monthly filers (withholding $1,200 to $8,000 per year) file Form KW-5 by the 15th of the following month. Quarterly filers (under $1,200 annually) file by the 25th of the month following each quarter. Semi-monthly and quad-monthly schedules apply to larger payrolls.\n\nThe annual reconciliation (Form KW-3) is due 15th February of the following year, filed together with W-2s. A 15% penalty applies to late deposits or returns.",
+    "source": "Kansas KW-100 Withholding Tax Guide (Rev. July 2024); Kansas Department of Revenue"
+  },
+  "ui_block": {
+    "question": "What is the Kansas unemployment insurance rate for 2026?",
+    "answer_first": "Kansas unemployment insurance applies to the first $15,100 of wages per employee in 2026, up from $14,000 in 2025. New employers pay approximately 2.7% on that base.",
+    "body": "Kansas House Bill 2570, signed by Governor Laura Kelly on 24th April 2024, replaced the fixed $14,000 wage base with an annually-indexed formula tied to the statewide average annual wage (SAAW). The 2026 wage base is $15,100, a rise of $1,100. The indexing formula increases the percentage progressively: 25% of SAAW in 2026 and 2027, rising to 30% from 2028, 35% from 2029, and 40% from 2032.\n\nFor new employers, the rate is typically 2.7% under standard schedule assignment, though HB 2570 restructured Kansas's 13 rate schedules to lower rates for positive-rated experienced employers and raise them for negative-rated ones. The most positively rated employers can now reach a 0% rate, a provision unavailable under the old structure. Construction industry new employers are assigned a higher rate (approximately 5.55%).\n\nExperienced employers receive rates between 0.0% and 7.60% based on their benefit-charges-to-taxable-wages ratio. Rates are assigned annually by the Kansas Department of Labor.\n\nFederal FUTA applies separately: 6.0% on the first $7,000 of wages, reduced to an effective 0.6% for Kansas employers who pay state UI on time (the 5.4% FUTA credit).",
+    "wage_base_2026_usd": 15100,
+    "new_employer_rate_pct": 2.7,
+    "experience_rate_min_pct": 0.0,
+    "experience_rate_max_pct": 7.60,
+    "source": "EY Tax News January 2026; Nextep 2026 Wage Base Rundown; Kansas HB 2570 (2024)"
+  },
+  "cost_block": {
+    "question": "How much does Kansas payroll cost an employer in 2026?",
+    "answer_first": "A $70,000 Kansas hire costs roughly $75,500 to $76,500 loaded: FICA (7.65%), Kansas UI up to $407 per employee, plus the Teamed fee at $599/month.",
+    "body": "Kansas has no state disability insurance (SDI) and no state paid family leave (PFL) programme, which keeps the statutory employer cost below states like California or New York. The Kansas-specific additions to your federal FICA bill are relatively thin: state income tax withholding is an employee-side cost only (you administer it, you don't pay it), and state UI tops out at $407.70 per employee per year at the 2026 wage base.\n\nFor a $70,000 Kansas hire, the employer cost breakdown looks like this: Social Security (6.2% on first $176,100): $4,340. Medicare (1.45%): $1,015. Federal FUTA after credit (0.6% on first $7,000): $42. Kansas UI at 2.7% new employer rate on first $15,100: $407. Total statutory employer taxes: approximately $5,804. Add Teamed's $599/month ($7,188/year) and the loaded annual employer cost is approximately $83,000 — about 119% of gross salary.\n\nStatutory costs pass through at cost on every Teamed invoice, itemised line by line. You pay $599 per employee per month, flat. Zero FX mark-up whether you pay in dollars or any other currency.",
+    "source": "IRS 2026; EY Tax News January 2026; Teamed pricing"
+  },
+  "good_to_know": {
+    "question": "What should you know before running payroll in Kansas?",
+    "body": "Kansas has no state paid family leave and no state disability insurance programme. Federal FMLA applies at 50 employees. Kansas also skipped the state-level income tax exemption for overtime pay that some other states enacted. The two key reforms employers still miss: SB 1 (June 2024) fully exempted Social Security from state income tax and raised personal exemptions significantly, and HB 2570 (April 2024) permanently converted the UI wage base from a flat $14,000 to an annually-rising indexed amount. Kansas new hire reporting must land with the state within 20 days of hire via KansasEmployer.gov, with no monetary penalty for late reports though the obligation is statutory.",
+    "source": "Kansas Department of Labor; Kansas SB 1 (2024); Kansas HB 2570 (2024)"
+  },
+  "faq_schema": [
+    {
+      "q": "What is the Kansas state income tax rate for 2026?",
+      "a": "Kansas uses two brackets in 2026: 5.20% on income up to $23,000 for single filers and 5.58% on income above that, following Senate Bill 1 signed in June 2024 which replaced the old three-bracket system."
+    },
+    {
+      "q": "What is the Kansas unemployment insurance wage base for 2026?",
+      "a": "The Kansas UI taxable wage base is $15,100 for 2026, up from $14,000 in 2025. Kansas HB 2570 (signed April 2024) replaced the fixed wage base with a formula tied to 25% of the statewide average annual wage."
+    },
+    {
+      "q": "What is the Kansas K-4 form?",
+      "a": "The K-4 is the Kansas Employee's Withholding Allowance Certificate. Employees hired after 31st December 2007 must complete a K-4 on or before their first day of employment. Employers who receive no K-4 must withhold at the single rate with no allowances."
+    },
+    {
+      "q": "Does Kansas have paid family leave?",
+      "a": "No. Kansas has no state paid family leave programme and no state disability insurance. Federal FMLA (unpaid, job-protected leave for up to 12 weeks) applies to employers with 50 or more employees within 75 miles."
+    },
+    {
+      "q": "What changed in Kansas income tax in 2024?",
+      "a": "Kansas Senate Bill 1 (June 2024 Special Session) collapsed three income tax brackets into two (5.20% and 5.58%), raised personal exemptions to $9,160 single and $18,320 married, and fully exempted Social Security income from Kansas state tax."
+    }
+  ],
+  "meta": {
+    "title": "Kansas Income Tax and UI 2026 | Employer Guide",
+    "description": "Kansas income tax: 5.20%/5.58% two-bracket system since June 2024. UI wage base $15,100 in 2026 (up from $14,000). K-4 form, filing deadlines, EOR costs.",
+    "target_keywords": ["kansas state income tax employer", "kansas unemployment insurance rate 2026", "kansas SUTA rate 2026", "kansas payroll tax 2026"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

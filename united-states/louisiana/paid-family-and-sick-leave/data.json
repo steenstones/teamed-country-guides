@@ -1,0 +1,138 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "state": "Louisiana",
+    "state_slug": "louisiana"
+  },
+  "page": {
+    "type": "us_state_child",
+    "cluster": "1. Country",
+    "sub_cluster": "Country — US State Child",
+    "row_id": "master-0109",
+    "target_url": "/hire-in-united-states/louisiana/paid-family-and-sick-leave/",
+    "slug": "united-states/louisiana/paid-family-and-sick-leave",
+    "title": "Paid family and sick leave — Louisiana"
+  },
+  "hero": {
+    "headline": "Does Louisiana require paid family or sick leave?",
+    "subhead": "No state mandate. One pregnancy statute. Here's what you actually owe Louisiana employees.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the EOR vs entity calculator", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "answer_capsule": {
+    "text": "Louisiana has no state paid family leave and no state paid sick leave mandate. A 1997 state statute (R.S. 23:642) bars parishes from filling that gap. What Louisiana does have is a pregnancy disability leave law (R.S. 23:341) that applies to employers with 25 or more employees and requires unpaid, job-protected leave up to four months — a threshold 25 employees tighter than federal FMLA's 50.",
+    "entity_density_pct": 21,
+    "entities": ["Louisiana", "R.S. 23:642", "1997", "R.S. 23:341", "25 employees", "four months", "FMLA", "50 employees"]
+  },
+  "sections": {
+    "paid_family_leave": {
+      "id": "paid-family-leave",
+      "question": "Does Louisiana require paid family leave?",
+      "answer_first": "No. Louisiana has no state paid family leave law, and a 1997 statute prohibits parishes from creating one.",
+      "key_fact": "R.S. 23:642 (1997) bars any parish or municipality from enacting paid leave mandates",
+      "statute_primary": "LA R.S. 23:642",
+      "statute_url": "https://www.legis.la.gov/legis/Law.aspx?d=78997"
+    },
+    "paid_sick_leave": {
+      "id": "paid-sick-leave",
+      "question": "Does Louisiana require paid sick leave?",
+      "answer_first": "No. Louisiana has no state paid sick leave law, and the same 1997 preemption blocks any local mandate.",
+      "key_fact": "No state PSL + no local override = employer policy is the only floor"
+    },
+    "pregnancy_leave": {
+      "id": "pregnancy-leave-law",
+      "question": "What is Louisiana's pregnancy disability leave law?",
+      "answer_first": "Louisiana R.S. 23:341 applies to employers with 25 or more employees and requires unpaid, job-protected leave for pregnancy disability for a reasonable period not to exceed four months.",
+      "statute": "Louisiana Revised Statutes Title 23, Section 341",
+      "statute_url": "https://www.legis.la.gov/legis/Law.aspx?d=78697",
+      "employer_threshold": "25+ employees",
+      "leave_duration_max": "4 months",
+      "leave_nature": "unpaid, job-protected",
+      "enactment_year": 1983,
+      "key_differentiator": "Applies to employers with 25-49 employees not covered by FMLA"
+    },
+    "fmla": {
+      "id": "fmla-louisiana",
+      "question": "How does federal FMLA apply in Louisiana?",
+      "answer_first": "Federal FMLA applies in Louisiana for employers with 50 or more employees within 75 miles, providing 12 weeks of unpaid, job-protected leave per rolling 12-month period.",
+      "statute": "29 U.S.C. Chapter 28 (Family and Medical Leave Act)",
+      "employer_threshold": "50+ employees within 75 miles",
+      "leave_duration": "12 weeks per rolling 12-month period",
+      "employee_eligibility": "12 months employed + 1,250 hours in prior 12 months"
+    },
+    "federal_protections": {
+      "id": "pwfa-pump",
+      "question": "What federal pregnancy protections apply to all Louisiana employers?",
+      "answer_first": "Two federal laws apply regardless of Louisiana employer size: the Pregnant Workers Fairness Act (effective June 2023) and the PUMP for Nursing Mothers Act (effective April 2023).",
+      "pwfa_threshold": "15+ employees",
+      "pwfa_url": "https://www.eeoc.gov/wysk/what-you-should-know-about-pregnant-workers-fairness-act",
+      "pump_act": "Reasonable break time + private space for nursing, all employers"
+    },
+    "employer_practice": {
+      "id": "employer-practice",
+      "question": "What do Louisiana employers offer voluntarily?",
+      "answer_first": "Louisiana's low payroll burden — a flat 3% state income tax and the US's joint-lowest UI wage base at $7,000 — gives employers budget headroom that most other states don't.",
+      "ui_wage_base_2026_usd": 7000,
+      "state_income_tax_pct": 3.0,
+      "new_employer_ui_rate_pct": 1.16,
+      "new_employer_max_per_year_usd": 81.20
+    },
+    "eor_advantage": {
+      "id": "eor-advantage",
+      "question": "Why use EOR for Louisiana paid-leave compliance?",
+      "answer_first": "The complexity is running two simultaneous frameworks (R.S. 23:341 and FMLA) for different employee populations and tracking the 25-employee and 50-employee thresholds as headcount changes.",
+      "threshold_watch_points": ["25 employees: R.S. 23:341 kicks in", "50 employees: FMLA adds on top"]
+    }
+  },
+  "faq_schema": [
+    {
+      "q": "Does Louisiana have paid family leave?",
+      "a": "No. Louisiana has no state-mandated paid family leave law. Louisiana also prohibits parishes and municipalities from enacting their own paid leave mandates under R.S. 23:642. Federal FMLA provides 12 weeks of unpaid job-protected leave for employers with 50 or more employees."
+    },
+    {
+      "q": "Does Louisiana require paid sick leave?",
+      "a": "No. Louisiana has no state mandatory paid sick leave law, and a 1997 state statute (R.S. 23:642) bars local governments from passing their own paid sick leave requirements. Any paid sick leave a Louisiana employee receives comes from a voluntary employer policy."
+    },
+    {
+      "q": "What is Louisiana's pregnancy leave law?",
+      "a": "Louisiana R.S. 23:341 requires employers with 25 or more employees to provide a reasonable period of job-protected leave for pregnancy disability, not to exceed four months. The leave is unpaid. Employees return to the same or a comparable position."
+    },
+    {
+      "q": "Does federal FMLA apply in Louisiana?",
+      "a": "Yes. The federal Family and Medical Leave Act applies in Louisiana for employers with 50 or more employees within 75 miles. Eligible employees receive 12 weeks of unpaid, job-protected leave per rolling 12-month period."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "New Orleans Louisiana architecture and street scene",
+    "hero_source": "Unsplash (copied from Louisiana sibling, Unsplash API rate-limited at time of build)"
+  },
+  "compliance_snapshot": {
+    "state_pfl_mandate": false,
+    "state_psl_mandate": false,
+    "local_override_allowed": false,
+    "local_preemption_statute": "LA R.S. 23:642 (Act 97 of 1997)",
+    "pregnancy_leave_statute": "LA R.S. 23:341",
+    "pregnancy_leave_threshold_employees": 25,
+    "pregnancy_leave_max_months": 4,
+    "pregnancy_leave_paid": false,
+    "fmla_threshold_employees": 50,
+    "fmla_weeks": 12,
+    "pwfa_threshold_employees": 15,
+    "verified_date": "2026-05-30"
+  },
+  "pricing": {
+    "fee_usd_per_employee_per_month": 599,
+    "fee_gbp_per_employee_per_month": 479,
+    "fx_markup": "Zero",
+    "setup_fee": 0,
+    "exit_fee": 0
+  },
+  "partner": {
+    "status": "partner",
+    "partner_name": "SUNA Solutions, Inc.",
+    "badge_text": "Served by Teamed US partner network: SUNA Solutions, Inc."
+  }
+}

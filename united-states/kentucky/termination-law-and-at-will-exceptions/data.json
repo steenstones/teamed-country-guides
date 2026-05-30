@@ -1,0 +1,116 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Kentucky",
+    "slug": "united-states/kentucky/termination-law-and-at-will-exceptions",
+    "iso2": "US",
+    "iso3": "USA",
+    "state_abbr": "KY"
+  },
+  "page": {
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "1. Country",
+    "sub_cluster": "Country — US State Child",
+    "row_id": "master-0101",
+    "spec_version": "phase-1.0",
+    "target_url": "/hire-in-united-states/kentucky/termination-law-and-at-will-exceptions/"
+  },
+  "hero": {
+    "headline": "Kentucky at-will employment and termination law",
+    "subhead": "At-will with three real exceptions. Final paycheck due the later of next payday or 14 days. KCRA fires at 8 employees, not 15.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Check your EOR vs entity crossover", "href": "https://crso-cal.vercel.app/tools/crossover" }
+  },
+  "at_a_glance": {
+    "at_will": "Yes — common law default",
+    "final_paycheck_deadline": "Later of next regular payday or 14 calendar days",
+    "final_paycheck_statute": "KRS 337.055",
+    "vacation_payout": "Not required by law; governed by employer policy",
+    "kcra_threshold_general": "8 employees, 20+ weeks/year",
+    "kcra_threshold_disability_pregnancy": "15 employees, 20+ weeks/year",
+    "kcra_limitations_period": "3 years (from 15 July 2024, HB 320)",
+    "state_warn_act": "None — federal WARN (100+ employees, 60 days) governs",
+    "mini_cobra_duration": "18 months (employers with <20 employees, fully-insured plans)",
+    "state_income_tax_2026": "3.5% flat (HB 1, 2025 session)",
+    "verified_date": "2026-05-30"
+  },
+  "sections": {
+    "at_will_rule": {
+      "question": "What is Kentucky's at-will employment rule?",
+      "answer_first": "Kentucky is an at-will employment state: either party can end the relationship at any time, for any lawful reason or no reason, with no mandatory notice period. Three exceptions limit that default.",
+      "statutes": ["KRS common law"],
+      "word_count_approx": 270
+    },
+    "exceptions": {
+      "question": "What are the exceptions to at-will employment in Kentucky?",
+      "answer_first": "Kentucky recognises three exceptions: public policy, implied contract, and statutory anti-retaliation protections. Each has a distinct trigger and a distinct exposure window.",
+      "statutes": ["KRS 342.197", "Firestone Textile v. Meadows (1983)", "Nork v. Fetter Printing Co. (1987)", "KRS Chapter 344"],
+      "word_count_approx": 380
+    },
+    "final_paycheck": {
+      "question": "When is the final paycheck due in Kentucky?",
+      "answer_first": "Under KRS 337.055, final wages are due the later of the next regular payday or 14 calendar days after separation. Not the sooner — the later.",
+      "statutes": ["KRS 337.055", "KRS 337.060", "KRS 337.385"],
+      "deadline_table": [
+        { "separation_type": "Involuntary dismissal", "deadline": "Later of: next regular payday or 14 calendar days" },
+        { "separation_type": "Voluntary resignation", "deadline": "Later of: next regular payday or 14 calendar days" },
+        { "separation_type": "Accrued vacation payout", "deadline": "Required only if employer policy mandates payout" }
+      ],
+      "penalty": "Unpaid wages + equal amount as liquidated damages (KRS 337.385)",
+      "word_count_approx": 340
+    },
+    "kcra_protections": {
+      "question": "How many employees does the Kentucky Civil Rights Act apply to?",
+      "answer_first": "The KCRA (KRS Chapter 344) applies at 8 employees for most protected classes and 15 employees for disability and pregnancy, both requiring 20 or more weeks of employment per year.",
+      "statutes": ["KRS Chapter 344", "HB 320 (2024)"],
+      "threshold_table": [
+        { "class": "Race, sex, age (40+), religion, national origin", "kcra": "8 employees, 20+ weeks/year", "federal": "15 employees" },
+        { "class": "Disability", "kcra": "15 employees, 20+ weeks/year", "federal": "15 employees (ADA)" },
+        { "class": "Pregnancy / childbirth", "kcra": "15 employees, 20+ weeks/year", "federal": "15 employees (PDA / PWFA)" },
+        { "class": "Smoking / non-smoking status", "kcra": "8 employees, 20+ weeks/year", "federal": "No federal analog" }
+      ],
+      "limitations_period_change": "Reduced from 5 years to 3 years effective 15 July 2024 (HB 320)",
+      "word_count_approx": 310
+    },
+    "warn_act": {
+      "question": "Does Kentucky have a state WARN Act?",
+      "answer_first": "No. Kentucky has no state-level plant-closing or mass-layoff notice law. Federal WARN applies to employers with 100 or more employees, requiring 60 days' written notice of a qualifying event.",
+      "statutes": ["29 USC 2101 (federal WARN)"],
+      "word_count_approx": 240
+    },
+    "cobra_continuation": {
+      "question": "What happens to health insurance coverage after termination in Kentucky?",
+      "answer_first": "Federal COBRA applies if you employ 20 or more workers. Kentucky's state continuation law covers employers with fewer than 20 employees, providing up to 18 months of continued group coverage.",
+      "statutes": ["ERISA / COBRA federal law", "KRS Chapter 304"],
+      "coverage_table": [
+        { "type": "Federal COBRA", "applies_to": "Employers with 20+ employees", "duration": "18 months general; 36 months for dependents on second qualifying event", "authority": "ERISA / COBRA" },
+        { "type": "Kentucky mini-COBRA", "applies_to": "Employers with fewer than 20 employees, fully-insured plans", "duration": "18 months", "authority": "KRS Chapter 304" }
+      ],
+      "word_count_approx": 300
+    },
+    "good_to_know": {
+      "question": "What should you know before terminating a Kentucky employee?",
+      "answer_first": "Three Kentucky-specific facts most out-of-state employers miss: the 'later of' final paycheck rule, the 8-employee KCRA threshold, and the implied-contract risk in unqualified handbook language.",
+      "word_count_approx": 320
+    }
+  },
+  "compliance_cache_source": "sprint/compliance-cache/kentucky.json",
+  "partner": {
+    "name": "SUNA Solutions",
+    "type": "partner",
+    "disclosure": "Served by Teamed partner: SUNA Solutions (US)"
+  },
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "Louisville, Kentucky skyline reflected in the Ohio River at dusk, bridges and downtown office towers visible against a fading sky.",
+    "hero_credit": "Joshua Michaels via Unsplash"
+  },
+  "meta": {
+    "title": "Kentucky Termination Law and At-Will Exceptions | Teamed",
+    "description": "Kentucky is at-will with a 3-exception rule. Final paycheck due the later of next payday or 14 days (KRS 337.055). KCRA fires at 8 employees. EOR via Teamed at $599/month flat, Zero FX.",
+    "target_keywords": ["kentucky at-will employment", "kentucky termination law", "kentucky final paycheck law", "KRS 337.055", "kentucky wrongful termination exceptions"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

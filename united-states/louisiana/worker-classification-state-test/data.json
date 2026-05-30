@@ -1,0 +1,150 @@
+{
+  "row_id": "master-0108",
+  "slug": "united-states/louisiana/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/louisiana/worker-classification-state-test/",
+  "page_title": "Worker classification — state test — Louisiana",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "country": "United States",
+  "state": "Louisiana",
+  "generated_at": "2026-05-30",
+
+  "meta": {
+    "title": "Louisiana Worker Classification Test 2026 | R.S. 23:1472.Teamed",
+    "description": "Louisiana uses a three-prong test under R.S. 23:1472(12)(E) for UI classification. Misclassification carries $5,000–$25,000 civil penalties. EOR removes the risk entirely.",
+    "target_keywords": [
+      "louisiana worker classification test",
+      "louisiana independent contractor test 2026",
+      "louisiana abc test employment",
+      "louisiana misclassification penalty",
+      "louisiana rs 23:1472 employee test"
+    ]
+  },
+
+  "hero": {
+    "headline": "What is Louisiana's worker classification test in 2026?",
+    "subhead": "Three prongs, all required. Louisiana's R.S. 23:1472 and Civil Code Art. 2747 run on separate tracks.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the Contractor Classifier", "href": "https://cntrctr-cal.vercel.app" }
+  },
+
+  "answer_capsule": "Louisiana classifies workers under two concurrent legal tracks. For unemployment insurance, the Louisiana Workforce Commission applies the three-prong test in R.S. 23:1472(12)(E): the employer must prove (A) free from control or direction; (B) service outside usual course of business or premises; (C) customarily engaged in an independently established trade. A separate common-law control analysis runs in workers' compensation cases under Louisiana Civil Code Article 2747. Civil penalties for misclassification run $5,000 to $25,000 per violation. The DOL proposed a revised federal rule on 26th February 2026.",
+
+  "sections": [
+    {
+      "id": "lwc-test",
+      "heading": "What is Louisiana's three-prong worker classification test under R.S. 23:1472?",
+      "answer_first": "Louisiana's unemployment insurance classification test requires the employer to satisfy all three prongs of R.S. 23:1472(12)(E). Failing any single prong means the worker is an employee for Louisiana UI purposes.",
+      "key_facts": {
+        "prong_a": "Free from control or direction — both under contract and in fact",
+        "prong_b": "Service outside the usual course of the employer's business, OR performed outside all employer places of business",
+        "prong_c": "Customarily engaged in an independently established trade, occupation, profession, or business",
+        "burden": "Employer bears burden of proof on all three prongs",
+        "statute": "LA R.S. 23:1472(12)(E)",
+        "source_url": "https://www.legis.la.gov/legis/Law.aspx?d=83555"
+      }
+    },
+    {
+      "id": "civil-code-overlay",
+      "heading": "How does Louisiana Civil Code Article 2747 change the classification analysis?",
+      "answer_first": "Louisiana is a civil-law state. Civil Code Article 2747, in the Louisiana statutes since 1808, underpins at-will employment and anchors the 'control or direction' test courts use in workers' compensation and tort cases — separate from the LWC's UI three-prong test.",
+      "key_facts": {
+        "statute": "La. Civ. Code Art. 2747",
+        "enacted": "1808 (original Louisiana Civil Code)",
+        "application": "Workers' compensation and tort liability — separate from LWC UI test",
+        "source_url": "https://law.justia.com/codes/louisiana/2021/civil-code/article-2747/"
+      }
+    },
+    {
+      "id": "rs-1711-safe-harbour",
+      "heading": "What is the Louisiana RS 23:1711.1 independent contractor safe harbour?",
+      "answer_first": "Louisiana RS 23:1711.1 creates a rebuttable presumption of independent contractor status when the contracting party does not control the worker's performance methods and the worker meets prescribed criteria.",
+      "key_facts": {
+        "statute": "LA R.S. 23:1711.1",
+        "source_url": "https://law.justia.com/codes/louisiana/revised-statutes/title-23/rs-23-1711-1/"
+      }
+    },
+    {
+      "id": "irs-overlap",
+      "heading": "How does the IRS worker classification test overlap with Louisiana's tests?",
+      "answer_first": "The IRS runs a three-category common-law test — behavioural control, financial control, and type of relationship — for federal employment tax purposes. It operates independently of Louisiana's state tests.",
+      "key_facts": {
+        "dol_nprm_date": "26th February 2026",
+        "dol_nprm_url": "https://www.dol.gov/agencies/whd/flsa/misclassification/2026rulemaking",
+        "note": "NPRM proposed only as of 30th May 2026 — not yet final"
+      }
+    },
+    {
+      "id": "penalties",
+      "heading": "What are the penalties for worker misclassification in Louisiana?",
+      "answer_first": "Louisiana misclassification penalties run on two enforcement tracks. The LWC's administrative penalty is up to $500 per misclassified worker after a written warning. A separate civil enforcement track carries $5,000 to $15,000 per violation and $10,000 to $25,000 for a pattern or practice.",
+      "key_facts": {
+        "lwc_admin_penalty_per_worker_usd": 500,
+        "civil_penalty_per_violation_min_usd": 5000,
+        "civil_penalty_per_violation_max_usd": 15000,
+        "civil_penalty_pattern_min_usd": 10000,
+        "civil_penalty_pattern_max_usd": 25000,
+        "retroactive_ui_years": 3,
+        "debarment_years": 3,
+        "lwc_audits_2014_2018": 3042,
+        "lwc_unpaid_ui_recovered_2014_2018_usd": 3000000,
+        "source_primary": "https://dam.ldr.la.gov/miscellaneous/LWC%20Performance%20Audit%20-%20Detection%20and%20Prevention%20of%20Worker%20Misclassification.pdf",
+        "source_penalties": "https://msdlawyers.com/la-employers-face-5000-25000-fines-for-worker-misclassification/"
+      }
+    },
+    {
+      "id": "eor-solution",
+      "heading": "Does hiring through an EOR solve the Louisiana classification problem?",
+      "answer_first": "Yes. When Teamed acts as employer of record in Louisiana, the worker is unambiguously an employee of Teamed's US partner. None of the three classification tests can fire against your company, because you're not the employer.",
+      "key_facts": {
+        "partner": "SUNA Solutions, Inc.",
+        "pricing_usd": 599,
+        "pricing_fx": "Zero FX mark-up",
+        "louisiana_ui_wage_base_2026_usd": 7000,
+        "louisiana_income_tax_flat_pct": 3.0
+      }
+    }
+  ],
+
+  "faq": [
+    {
+      "q": "What is Louisiana's worker classification test?",
+      "a": "Louisiana applies a three-prong test under R.S. 23:1472(12)(E) for unemployment insurance classification. A worker is presumed an employee unless the employer proves all three: (A) free from control or direction in fact and by contract; (B) service outside the usual course of business or its premises; (C) customarily engaged in an independently established trade."
+    },
+    {
+      "q": "What are the penalties for worker misclassification in Louisiana?",
+      "a": "The Louisiana Workforce Commission can impose administrative penalties of up to $500 per misclassified worker after a written warning. Civil penalties under separate enforcement run $5,000 to $15,000 per violation and $10,000 to $25,000 for a pattern or practice. A three-year bar from state agency contracts and retroactive UI contributions also apply."
+    },
+    {
+      "q": "Does Louisiana use the ABC test for worker classification?",
+      "a": "Louisiana uses a three-prong test under R.S. 23:1472(12)(E) that mirrors the structure commonly called the ABC test. For workers' compensation cases, a separate common-law control analysis applies under Louisiana Civil Code Article 2747. Both tracks run concurrently."
+    },
+    {
+      "q": "How does Louisiana's classification test differ from the IRS test?",
+      "a": "Louisiana's R.S. 23:1472(12)(E) test governs state unemployment insurance. The IRS applies a three-category test for federal employment taxes. A worker can pass Louisiana's test and still trigger IRS employee status if behavioural control is high."
+    },
+    {
+      "q": "What is the safe harbour under Louisiana RS 23:1711.1?",
+      "a": "RS 23:1711.1 provides a rebuttable presumption of independent contractor status when the contracting party does not control performance methods and the worker meets prescribed criteria including operating an independent business and accepting all tax liability."
+    }
+  ],
+
+  "internal_links": [
+    { "anchor": "Louisiana tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live", "context": "sibling-child" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live", "context": "core" },
+    { "anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "state": "live", "context": "tool" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live", "context": "tool" },
+    { "anchor": "Louisiana state parent", "href": "../", "state": "wave-4", "context": "parent" },
+    { "anchor": "Louisiana paid family and sick leave", "href": "../paid-family-and-sick-leave/", "state": "wave-4", "context": "sibling" },
+    { "anchor": "Louisiana termination law", "href": "../termination-law-and-at-will-exceptions/", "state": "wave-4", "context": "sibling" }
+  ],
+
+  "partner": {
+    "status": "partner",
+    "partner_name": "SUNA Solutions, Inc.",
+    "badge_text": "Served by Teamed US partner network: SUNA Solutions, Inc."
+  }
+}

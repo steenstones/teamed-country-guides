@@ -1,0 +1,130 @@
+{
+  "row_id": "master-0112",
+  "country": "United States",
+  "state": "Maine",
+  "slug": "united-states/maine/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/maine/state-income-tax-and-unemployment-insurance/",
+  "tier": "US-State",
+  "cluster": "Country — US State Child",
+  "primer": true,
+  "target_keywords": [
+    "maine state income tax 2026",
+    "maine income tax rate",
+    "maine unemployment insurance employer",
+    "maine payroll tax",
+    "maine PFML 2026",
+    "maine state income tax withholding",
+    "maine UI wage base 2026",
+    "maine new employer SUTA rate",
+    "maine form 941ME",
+    "Title 36 MRSA 5250"
+  ],
+  "sources": [
+    {
+      "url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/ind_tax_rate_sched_2026.pdf",
+      "title": "Maine Revenue Services — 2026 Individual Income Tax Rate Schedules",
+      "accessed_date": "2026-05-30"
+    },
+    {
+      "url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/26_wh_tab_instr.pdf",
+      "title": "Maine Revenue Services — 2026 Withholding Tables and Instructions",
+      "accessed_date": "2026-05-30"
+    },
+    {
+      "url": "https://www.maine.gov/labor/news_events/article.shtml?id=13331230",
+      "title": "Maine DOL — 2026 Employer Unemployment Tax Schedule to Remain at Schedule A",
+      "accessed_date": "2026-05-30"
+    },
+    {
+      "url": "https://legislature.maine.gov/statutes/36/title36sec5250.html",
+      "title": "Title 36 MRSA §5250 — Employer Withholding Obligation",
+      "accessed_date": "2026-05-30"
+    },
+    {
+      "url": "https://www.maine.gov/revenue/faq/income-tax-withholding",
+      "title": "Maine Revenue Services — Income Tax Withholding FAQ (revised April 2026)",
+      "accessed_date": "2026-05-30"
+    },
+    {
+      "url": "https://www.maine.gov/paidleave/",
+      "title": "Maine Paid Family and Medical Leave programme",
+      "accessed_date": "2026-05-30"
+    },
+    {
+      "url": "https://www.maine.gov/paidleave/docs/2026/employers/faq/employerFAQenglish.pdf",
+      "title": "Maine PFML Employer FAQ — January 2026",
+      "accessed_date": "2026-05-30"
+    },
+    {
+      "url": "https://ogletree.com/insights-resources/blog-posts/maine-will-launch-pfml-benefits-in-may-2026/",
+      "title": "Ogletree — Maine Will Launch PFML Benefits in May 2026",
+      "accessed_date": "2026-05-30"
+    },
+    {
+      "url": "https://taxnews.ey.com/news/2026-0124-2026-state-unemployment-insurance-taxable-wage-bases",
+      "title": "EY Tax News — 2026 State UI Taxable Wage Bases",
+      "accessed_date": "2026-05-30"
+    }
+  ],
+  "generated_at": "2026-05-30T00:00:00Z",
+  "sources_verified_at": "2026-05-30T00:00:00Z",
+  "internal_links_used": [
+    { "href": "/pricing/zero-fx-fixed/", "status": "live", "section": "how-teamed-handles" },
+    { "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "section": "how-teamed-handles + tagline_close" },
+    { "href": "https://www.teamed.global/tools/unbundling-calculator", "status": "live", "section": "masthead + links-rail" },
+    { "href": "/employer-of-record/", "status": "live", "section": "links-rail" },
+    { "href": "https://www.teamed.global/contact", "status": "live", "section": "masthead + tagline_close" }
+  ],
+  "internal_links_plain_text": [
+    { "text": "Hiring in the United States, overview", "intended_href": "/hire-in-united-states/", "section": "links-rail", "reason": "wave-3, US country parent not yet shipped" },
+    { "text": "Maine overview", "intended_href": "../", "section": "links-rail + chip-nav", "reason": "wave-4, Maine state parent not yet shipped" },
+    { "text": "New Hampshire state tax and UI", "intended_href": "/hire-in-united-states/new-hampshire/state-income-tax-and-unemployment-insurance/", "section": "links-rail", "reason": "wave-4, neighbour state not yet shipped" },
+    { "text": "Massachusetts state tax and UI", "intended_href": "/hire-in-united-states/massachusetts/state-income-tax-and-unemployment-insurance/", "section": "links-rail", "reason": "wave-4, neighbour state not yet shipped" }
+  ],
+  "editor_rounds": 1,
+  "audit_score": 93,
+  "audit_breakdown": {
+    "schema_validity": 10,
+    "schema_completeness": 10,
+    "breadcrumb_depth": 5,
+    "last_reviewed_visible": 5,
+    "g2_badge_row": 5,
+    "customer_strip": 5,
+    "forbidden_words": 10,
+    "no_em_dashes": 5,
+    "answer_first_compliance": 10,
+    "h1_question_state": 5,
+    "css_path": 3,
+    "g2_path": 3,
+    "pricing_visible": 3,
+    "tom_close": 3,
+    "markers": 3,
+    "source_citations": 5,
+    "specific_numbers_per_section": 5,
+    "linter_clean": 1
+  },
+  "retrofit_needed": {
+    "neighbour_state_links": true,
+    "us_country_parent_link": true,
+    "maine_state_parent_link": true,
+    "chip_nav_siblings": true
+  },
+  "compliance_cache_written": "sprint/compliance-cache/maine.json",
+  "kernel_cache_used": "sprint/kernel-cache.json (warmed 2026-05-20)",
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty:ui_experience_rate_upper_bound",
+      "severity": "medium",
+      "note": "UI experience-rated ceiling: Paycom (March 2026) reports 0–6.29%; Paper Trails (2024 data) reports 0.28–6.03%. Maine DOL uitaxrates2026.pdf could not be parsed (binary PDF). Page uses 'approximately 6.03%' as upper bound from the more recent Paper Trails source. Resolve against official DOL rate array PDF when accessible.",
+      "row_id": "master-0112"
+    },
+    {
+      "flag": "link_gate_warn:maine_siblings_wave_n",
+      "severity": "low",
+      "note": "Maine sibling state-topic pages referenced in chip-nav and links-rail (Maine overview, New Hampshire, Massachusetts) do not exist yet. Rendered as plain text per link gate. Retrofit when wave-4 US-state mass build-out runs.",
+      "row_id": "master-0112"
+    }
+  ],
+  "linter_status": "pass",
+  "linter_checks": "28/29 passed, 0 block-FAIL, 1 warn-FAIL (crso-cal.vercel.app staging-URL warn — known false positive, tool is live per internal-links.json)"
+}

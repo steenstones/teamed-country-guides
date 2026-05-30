@@ -1,0 +1,140 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA",
+    "state": "Maryland",
+    "state_slug": "maryland"
+  },
+  "page": {
+    "slug": "united-states/maryland/state-income-tax-and-unemployment-insurance",
+    "target_url": "/hire-in-united-states/maryland/state-income-tax-and-unemployment-insurance/",
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "Country — US State Child"
+  },
+  "hero": {
+    "headline": "How does Maryland state income tax work for employers?",
+    "subhead": "Ten brackets, county piggyback, $8,500 UI wage base — here's what changes in 2026.",
+    "primary_cta": { "label": "Talk to an expert", "href": "/contact/" },
+    "secondary_cta": { "label": "See your real FX exposure", "href": "/tools/unbundling-calculator" },
+    "hero_image": "images/hero.jpg",
+    "hero_alt": "Annapolis, Maryland: the Maryland State House dome rising above the historic district, clear blue sky.",
+    "hero_credit_name": "Terry Granger",
+    "hero_credit_handle": "@ukterryg",
+    "hero_credit_url": "https://unsplash.com/photos/a-large-building-with-a-clock-tower-on-top-of-it-ykrTHE8kwWk"
+  },
+  "answer_capsule": "Maryland state income tax runs on ten progressive brackets from 2% to 6.50% in 2026 — the two top brackets (6.25% on $500k–$1M, 6.50% above $1M for single filers) were added by the Maryland General Assembly retroactively from 1st January 2025. Every employee also pays a county piggyback tax of 2.25%–3.20% depending on where they live; employers must withhold both on the same paycheck. Unemployment insurance runs through BEACON, Maryland's online portal — rates range from 0.30% to 7.50% (Table A, unchanged for 2026), new employers start at 2.60%, and the taxable wage base is $8,500 per employee per year. Teamed runs Maryland payroll through Suna Solutions at $599/employee/month, Zero FX.",
+  "sections": {
+    "state_income_tax": {
+      "question": "What is Maryland's state income tax rate in 2026?",
+      "answer_first": "Maryland state income tax runs on ten progressive brackets in 2026, from 2% on the first $1,000 up to 6.50% above $1 million for single filers. The two top brackets are new — added retroactively from 1st January 2025.",
+      "body": "Maryland's income tax starts at 2% on the first $1,000 of taxable income and steps up through eight more bands. For most employees earning $3,000 to $100,000 (single), the rate sits at 4.75%. The 5% to 5.75% range applies on income between $100,000 and $500,000. The Maryland General Assembly added two new top brackets in the 2025 legislative session: 6.25% on $500,000–$1,000,000 and 6.50% above $1,000,000 for single filers. These applied retroactively from 1st January 2025 and are fully in effect for 2026 withholding. Married filing jointly thresholds are roughly doubled: the 6.25% bracket starts at $600,000 and 6.50% at $1,200,000. Most employers withholding for Maryland employees earning under $100,000 will work within the 4.75% state bracket. The standard deduction for 2026 is $3,350 (single) or $6,700 (married filing jointly).",
+      "bracket_table": [
+        { "bracket": "$0–$1,000", "rate": "2.00%" },
+        { "bracket": "$1,000–$2,000", "rate": "3.00%" },
+        { "bracket": "$2,000–$3,000", "rate": "4.00%" },
+        { "bracket": "$3,000–$100,000", "rate": "4.75%" },
+        { "bracket": "$100,000–$125,000", "rate": "5.00%" },
+        { "bracket": "$125,000–$150,000", "rate": "5.25%" },
+        { "bracket": "$150,000–$250,000", "rate": "5.50%" },
+        { "bracket": "$250,000–$500,000", "rate": "5.75%" },
+        { "bracket": "$500,000–$1,000,000", "rate": "6.25% (new 2025)" },
+        { "bracket": "$1,000,000+", "rate": "6.50% (new 2025)" }
+      ],
+      "source_url": "https://taxfoundation.org/data/all/state/state-income-tax-rates-2026/",
+      "accessed_date": "2026-05-30"
+    },
+    "county_tax": {
+      "question": "Does Maryland have a local income tax on top of state tax?",
+      "answer_first": "Yes. Every Maryland resident pays a county piggyback tax of 2.25%–3.20% on top of state income tax. Employers withhold both together on the same paycheck. The county rate depends on where the employee lives, not where they work.",
+      "body": "Maryland has 24 distinct local jurisdictions — 23 counties plus Baltimore City — each setting its own income tax rate. The rates range from 2.25% (Worcester County) to 3.20% (Baltimore City, Montgomery County, Prince George's County, Howard County, Baltimore County, and others). Anne Arundel County and Frederick County use progressive schedules tied to income levels. Employers must collect county information via Form MW507. If an employee doesn't submit a completed MW507, Maryland law requires withholding at the maximum local rate of 3.20%, with the Comptroller's withholding tables using a conservative 3.30% default for employees with no county information on file. For a Maryland employee earning $75,000, county tax adds $1,688 (Worcester) to $2,400 (Baltimore City) to their annual tax bill — the difference matters to hiring cost models.",
+      "source_url": "https://legalclarity.org/maryland-tax-withholding-employer-and-employee-guide/",
+      "accessed_date": "2026-05-30"
+    },
+    "employer_withholding": {
+      "question": "How does Maryland employer withholding work?",
+      "answer_first": "Maryland employers withhold state and local income tax together from each paycheck using the tables in the 2026 Maryland Employer Withholding Guide. Payment frequency — annual, quarterly, monthly, or accelerated — depends on the size of your withholding liability.",
+      "body": "The mechanics start with Form MW507: every new employee submits this before their first paycheck, telling you their filing status, exemptions, and county of residence. Without it, you withhold at the maximum local rate (defaulting to 3.30%). Payment frequency is assigned based on prior-year withholding: under $250/year is annual (due 31st January); under $700/quarter is quarterly (last day of the month after quarter-end); over $700 in any quarter is monthly (15th of the following month); $15,000+ prior year with $700+ current accumulation triggers accelerated filers (within 3 business days of pay date). Annual reconciliation uses Form MW508, due 31st January each year. Employers with 25 or more W-2 or 1099 forms must file electronically. Teamed handles all withholding calculation, remittance, and MW508 filing for Maryland employees through our US payroll partner network.",
+      "schedule_table": [
+        { "category": "Annual", "threshold": "Less than $250/year", "due": "31st January" },
+        { "category": "Quarterly", "threshold": "Less than $700/quarter", "due": "Last day of month after quarter-end" },
+        { "category": "Monthly", "threshold": "More than $700 in any quarter", "due": "15th of following month" },
+        { "category": "Accelerated", "threshold": "$15,000+ prior year + $700+ current", "due": "Within 3 business days of payday" }
+      ],
+      "source_url": "https://legalclarity.org/maryland-tax-withholding-employer-and-employee-guide/",
+      "accessed_date": "2026-05-30"
+    },
+    "ui_registration": {
+      "question": "How do I register for Maryland unemployment insurance as an employer?",
+      "answer_first": "New Maryland employers register through BEACON — the Maryland Division of Unemployment Insurance online portal at employer.beacon.labor.md.gov. Registration is separate from your Maryland Comptroller withholding account.",
+      "body": "Maryland unemployment insurance (UI) is administered by the Maryland Department of Labor Division of Unemployment Insurance. To register, go to employer.beacon.labor.md.gov and select 'Register an Account' — the portal walks you through the steps. You'll need your Federal Employer Identification Number (FEIN). If you're registering for other Maryland state tax accounts at the same time, the Combined Registration Application (CRA) covers both. Contact the Employer Call Center (410-949-0033 or toll-free 1-800-492-5524, Monday–Friday 8 a.m.–4:30 p.m.) if you need help. Teamed's US payroll partners (Suna Solutions and PGC) handle UI registration and ongoing quarterly filings on behalf of employers using our EOR service.",
+      "source_url": "https://labor.maryland.gov/unemployment-insurance/employer-agent/new-employer-get-started.shtml",
+      "accessed_date": "2026-05-30"
+    },
+    "ui_rates": {
+      "question": "What is the Maryland unemployment insurance tax rate in 2026?",
+      "answer_first": "Maryland UI tax rates run 0.30%–7.50% in 2026 (Tax Table A, unchanged from 2025). New employers start at 2.60%. The taxable wage base is $8,500 per employee per year — meaning the maximum you'll pay per employee is $637.50/year at the new employer rate.",
+      "body": "Maryland's 2026 UI rates are set under Tax Table A — the state's lowest rate table — confirmed unchanged from 2025 by Bloomberg Tax. Your individual rate within the 0.30%–7.50% range depends on your benefit ratio: the dollar amount of UI benefits charged to your account divided by your taxable wages over the three prior fiscal years. The computation date is 1st July preceding the calendar year; rates take effect 1st January. You receive an Experience Rate Notice in January each year and have 30 days to challenge it. Employers who fail to file quarterly reports get the maximum 7.50% rate automatically. Maryland maintains full FUTA credit status — no outstanding federal loan balance — so employers receive the standard 5.4% credit against the 6.0% federal FUTA rate, leaving a net FUTA liability of 0.60% on the first $7,000 per employee.",
+      "rate_table": [
+        { "employer_type": "New employer (general)", "rate": "2.60%" },
+        { "employer_type": "Experienced employers (min)", "rate": "0.30%" },
+        { "employer_type": "Experienced employers (max)", "rate": "7.50%" },
+        { "employer_type": "Non-filer/non-compliant", "rate": "7.50%" }
+      ],
+      "wage_base_usd": 8500,
+      "max_tax_per_employee_usd": 637.50,
+      "source_url": "https://labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml",
+      "source_url_2": "https://news.bloombergtax.com/payroll/maryland-unemployment-insurance-tax-rates-unchanged-for-2026",
+      "accessed_date": "2026-05-30"
+    },
+    "beacon_filing": {
+      "question": "What is BEACON and how do employers file Maryland UI taxes?",
+      "answer_first": "BEACON is Maryland's online unemployment insurance portal for employers. Quarterly reports and payments are due within one month of each quarter-end. Filing through BEACON covers both wage reporting and UI tax payment in one step.",
+      "body": "BEACON (employer.beacon.labor.md.gov) is the Maryland Department of Labor's online portal for UI employer accounts. Each calendar quarter, you file a wage report showing each employee's taxable wages and pay the UI tax. The deadlines are: 30th April (Q1), 31st July (Q2), 31st October (Q3), 31st January (Q4). BEACON accepts e-check payment at time of filing. Paper checks go to P.O. Box 17291, Baltimore, MD 21297-0365. Missing the deadline costs 1.5% interest per month plus a $35 penalty per late report. BEACON also delivers your annual Experience Rate Notice in January. For employers running payroll through Teamed, all quarterly BEACON filings are handled by Suna Solutions or PGC as part of the EOR service.",
+      "source_url": "https://labor.maryland.gov/unemployment-insurance/employer-agent/tax-rate.shtml",
+      "accessed_date": "2026-05-30"
+    },
+    "good_to_know": {
+      "question": "What do out-of-state companies need to know before hiring in Maryland?",
+      "body": "Maryland has no reciprocity agreement with all its neighbours. If your Maryland employee works remotely from a different state part of the week, withholding allocation can split between states. The county piggyback rate is based on residency, not work location — a Baltimore City resident working for a DC company still owes 3.20% local tax withheld by their Maryland employer. Maryland has no state payroll tax on employers beyond UI; there is no state disability insurance or paid family leave tax as of 2026. The Maryland minimum wage is $15.00/hour statewide. Teamed handles new-hire reporting (Maryland New Hire Registry), W-4/MW507 collection, quarterly UI filings via BEACON, and annual MW508 reconciliation for every Maryland employee on your team."
+    }
+  },
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live", "context": "core" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "status": "live", "context": "commercial" },
+    { "anchor": "FX Transparency Calculator", "href": "/tools/unbundling-calculator", "status": "live", "context": "tool" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live", "context": "tool" }
+  ],
+  "faq_schema": [
+    {
+      "q": "What is Maryland's state income tax rate for employers in 2026?",
+      "a": "Maryland state income tax uses ten progressive brackets in 2026, from 2% on the first $1,000 to 6.50% above $1 million for single filers. The two new top brackets (6.25% and 6.50%) were added retroactively from 1st January 2025. Employers withhold both state and county piggyback taxes from each paycheck."
+    },
+    {
+      "q": "What is the Maryland unemployment insurance tax rate in 2026?",
+      "a": "Maryland UI rates run 0.30% to 7.50% under Tax Table A, unchanged from 2025. New employers start at 2.60%. The taxable wage base is $8,500 per employee per year, making the maximum UI tax per employee $637.50 annually at the new employer rate."
+    },
+    {
+      "q": "What is BEACON Maryland unemployment insurance?",
+      "a": "BEACON is the Maryland Division of Unemployment Insurance's online employer portal at employer.beacon.labor.md.gov. Employers use it to register for UI, file quarterly wage reports, pay UI taxes, and receive their annual Experience Rate Notice. Quarterly reports are due within one month of each quarter-end."
+    },
+    {
+      "q": "Does Maryland have a local income tax?",
+      "a": "Yes. Maryland has 24 local jurisdictions — 23 counties plus Baltimore City — each charging a piggyback income tax of 2.25% to 3.20% on top of state income tax. Employers withhold both together on the same paycheck. The county rate is based on where the employee lives, not where they work."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "Annapolis, Maryland: the Maryland State House dome and historic district skyline."
+  },
+  "meta": {
+    "title": "Maryland State Income Tax and Unemployment Insurance 2026 | Teamed",
+    "description": "Maryland employer withholding 2026: 10 tax brackets to 6.50%, county piggyback 2.25%–3.20%, UI rates 0.30%–7.50%, $8,500 wage base. File quarterly in BEACON.",
+    "target_keywords": ["maryland state income tax", "maryland unemployment insurance", "maryland employer withholding 2026"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

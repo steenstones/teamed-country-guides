@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>Maine Wage, Overtime and Meal-Break Law 2026.Teamed</title>
+<meta name="description" content="Maine minimum wage $14.65/hr in 2026, CPI-indexed annually. Overtime 1.5x over 40 hrs/wk. 30-min meal break after 6 hrs. EOR via Teamed, $599/month flat.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../_shared/child-base.css">
+<style>
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500); }
+
+  /* Compact postcard — compliance section */
+  .compact-postcard {
+    max-width: 960px;
+    margin: 32px auto;
+    background: var(--parchment-100);
+    border: 1.5px solid var(--amber-300);
+    border-radius: 8px;
+    padding: 24px 28px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+  }
+  .compact-postcard::before {
+    content: "";
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 40%;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 19px,
+      rgba(155,130,90,0.10) 19px,
+      rgba(155,130,90,0.10) 20px
+    );
+    pointer-events: none;
+  }
+  .compact-postcard .postcard-stamp {
+    flex-shrink: 0;
+    width: 72px;
+    height: 84px;
+    background: var(--sienna-700, #8e2e24);
+    border: 2px solid var(--amber-200, #f5d87a);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f5f1ea;
+    font-family: var(--font-family-display);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .compact-postcard .postcard-stamp .stamp-num {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .compact-postcard .postcard-stamp .stamp-label {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top: 4px;
+    opacity: 0.85;
+  }
+  .compact-postcard .postcard-body {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+  }
+  .compact-postcard .postcard-eyebrow {
+    font-family: var(--font-family-body);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 10px;
+  }
+  .compact-postcard .postcard-title {
+    font-family: var(--font-family-display);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--heading-on-light);
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+  .compact-postcard .postcard-text {
+    font-family: var(--font-family-body);
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+  }
+  .compact-postcard .postcard-statute {
+    font-family: var(--font-family-body);
+    font-size: 11px;
+    color: var(--ink-muted);
+    margin-top: 10px;
+    letter-spacing: 0.02em;
+  }
+  @media (max-width: 600px) {
+    .compact-postcard { flex-direction: column; }
+    .compact-postcard .postcard-stamp { width: 100%; height: 56px; flex-direction: row; gap: 12px; }
+    .compact-postcard::before { width: 100%; height: 40%; top: auto; }
+  }
+
+  /* Teamed-difference callout */
+  .teamed-callout {
+    max-width: 960px;
+    margin: 40px auto 48px;
+    padding: 28px 32px;
+    background: var(--parchment-100);
+    border-left: 4px solid var(--amber-500);
+    border-radius: 6px;
+  }
+  .teamed-callout .label {
+    font-family: var(--font-family-body);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700);
+    margin-bottom: 14px;
+  }
+  .teamed-callout p {
+    font-family: var(--font-family-body);
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--parchment-800);
+    margin-bottom: 12px;
+  }
+  .teamed-callout p:last-child { margin-bottom: 0; }
+  .teamed-callout .price-row {
+    font-family: var(--font-family-display);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--heading-on-light);
+    letter-spacing: -0.015em;
+    margin-bottom: 8px;
+  }
+</style>
+<!-- TEAMED:SCHEMA-V1 BEGIN -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Maine Wage, Overtime and Meal-Break Law 2026",
+  "description": "Maine minimum wage is $14.65/hr in 2026, automatically CPI-indexed each January under 26 M.R.S. §664(1). Overtime at 1.5× over 40 hours per week. 30-minute meal break after 6 consecutive hours, paid only if employee must stay on duty.",
+  "datePublished": "2026-05-30",
+  "dateModified": "2026-05-30",
+  "inLanguage": "en-GB",
+  "author": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "url": "https://teamed.global"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://teamed.global/images/logos/teamed-logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://teamed.global/hire-in-united-states/maine/wage-overtime-and-meal-break-law/"
+  },
+  "about": {
+    "@type": "State",
+    "name": "Maine",
+    "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Teamed",
+  "alternateName": "Teamed Global",
+  "url": "https://teamed.global",
+  "logo": "https://teamed.global/images/logos/teamed-logo.svg",
+  "description": "Teamed is an Employer of Record (EOR) helping companies hire compliantly across 100+ countries through Teamed-owned legal entities and partner network. Single fixed rate, zero FX mark-up.",
+  "sameAs": [
+    "https://www.linkedin.com/company/teamed-global",
+    "https://www.g2.com/products/teamed/reviews"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Teamed",
+      "item": "https://teamed.global/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Countries",
+      "item": "https://teamed.global/countries/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "United States",
+      "item": "https://teamed.global/hire-in-united-states/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Maine",
+      "item": "https://teamed.global/hire-in-united-states/maine/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Wage, overtime and meal-break law",
+      "item": "https://teamed.global/hire-in-united-states/maine/wage-overtime-and-meal-break-law/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Employer of Record",
+  "name": "Employer of Record in Maine, United States",
+  "description": "Teamed acts as the employer of record in Maine, handling payroll, statutory benefits, tax withholding, and compliance with Maine wage and overtime law — through Teamed US Inc., Delaware, with SUNA Solutions as payroll processing partner.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "url": "https://teamed.global"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "Maine"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "599",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "599",
+      "priceCurrency": "USD",
+      "unitText": "per employee per month",
+      "valueAddedTaxIncluded": false
+    },
+    "description": "Single fixed rate. Zero FX mark-up in any currency pairing."
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Maine's minimum wage in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maine's minimum wage is $14.65 per hour in 2026, automatically adjusted each January 1 to reflect CPI changes under 26 M.R.S. §664(1). The tipped minimum is $6.90/hr for employees who regularly receive at least $30/month in tips."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Maine have its own overtime law?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maine overtime law under 26 M.R.S. §664(3) mirrors the federal FLSA standard: 1.5× the regular rate for all hours worked beyond 40 per workweek. Maine does not require daily overtime beyond 8 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a meal break required in Maine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Under 26 M.R.S. §601, employees who work 6 or more consecutive hours are entitled to a 30-minute break. The break is unpaid unless the employee is required to remain on duty, in which case it must be paid as working time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When must a final paycheck be paid in Maine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under 26 M.R.S. §626, Maine employers must pay all final wages on the next regular payday, or within 2 weeks of the employee's written demand, whichever comes first. No distinction is made between voluntary resignation and termination."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often must Maine employers pay wages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maine law under 26 M.R.S. §621 sets a default weekly pay frequency. Employers may pay less frequently only if employees agree in writing, but cannot drop below bi-weekly. This weekly default is rarely cited but legally binding."
+      }
+    }
+  ]
+}
+</script>
+<!-- TEAMED:SCHEMA-V1 END -->
+</head>
+<body>
+
+<div class="container">
+
+  <header class="masthead film-grain">
+    <div class="breadcrumb">
+      <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; <a href="/hire-in-united-states/">United States</a> &nbsp;/&nbsp; <a href="/hire-in-united-states/maine/">Maine</a> &nbsp;/&nbsp; Wage, overtime &amp; meal-break law
+    </div>
+    <div class="eyebrow">
+      <span class="badge">Maine &middot; Wage &amp; overtime</span>
+    </div>
+    <span class="partner-badge">Served by Teamed US Inc., Delaware &middot; Payroll via SUNA Solutions</span>
+    <h1>What are the <em>wage, overtime and meal-break rules</em> in Maine in 2026?</h1>
+    <p class="subhead">$14.65/hr minimum wage, CPI-indexed each January. Overtime at 1.5&times; over 40 hours. Meal break required after 6 consecutive hours.</p>
+    <!-- TEAMED:LAST-REVIEWED-V1 BEGIN -->
+<p class="last-reviewed">
+  <time datetime="2026-05-30">Last reviewed 30 May 2026</time> &middot; Maine guide
+</p>
+<!-- TEAMED:LAST-REVIEWED-V1 END -->
+<!-- TEAMED:G2-BADGE-V1 BEGIN -->
+<div class="trust-g2-awards" aria-label="Teamed G2 awards">
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../../_shared/g2-badges/summer-2025-easiest-to-do-business-with.png" alt="G2 Summer 2025 Easiest To Do Business With" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../../_shared/g2-badges/winter-2026-high-performer.png" alt="G2 Winter 2026 High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../../_shared/g2-badges/users-love-us.png" alt="G2 Users Love Us" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../../_shared/g2-badges/spring-2026-emea-high-performer.png" alt="G2 Spring 2026 EMEA High Performer" loading="lazy"></a>
+  <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../../_shared/g2-badges/spring-2026-europe-high-performer.png" alt="G2 Spring 2026 Europe High Performer" loading="lazy"></a>
+</div>
+<!-- TEAMED:G2-BADGE-V1 END -->
+    <div class="cta-row">
+      <a href="/contact/" class="cta primary">Talk to a specialist</a>
+      <a href="https://crso-cal.vercel.app/tools/crossover" target="_blank" rel="noopener" class="cta secondary">Run the EOR vs entity crossover</a>
+    </div>
+
+    <figure class="hero-block">
+      <img src="images/hero.jpg" alt="Portland, Maine waterfront harbor with boats and waterfront buildings on a clear day.">
+    </figure>
+    <p class="hero-credit">Photo: <a href="https://unsplash.com/@brettwharton?utm_source=teamed&amp;utm_medium=referral" target="_blank" rel="noopener">Brett Wharton</a> via Unsplash &middot; Portland, Maine</p>
+  </header>
+
+  <nav class="chip-nav" aria-label="Maine guide navigation">
+    <span class="chip-nav-label">Maine guide</span>
+    <a href="/hire-in-united-states/">US overview</a>
+    <a href="/hire-in-united-states/maine/" class="current">Maine</a>
+    <a href="/hire-in-united-states/maine/wage-overtime-and-meal-break-law/" class="current">Wage &amp; overtime</a>
+  </nav>
+
+  <div class="capsule film-grain">
+    <div class="label">Answer.cite this</div>
+    <p class="text">Maine's minimum wage is <strong>$14.65 per hour</strong> in 2026, automatically indexed to CPI each January under <strong><a href="https://legislature.maine.gov/statutes/26/title26sec664.html" target="_blank" rel="noopener">26 M.R.S. &sect;664(1)</a></strong>. Overtime kicks in at 1.5&times; the regular rate for any hours beyond 40 per workweek under <strong>26 M.R.S. &sect;664(3)</strong>. After 6 consecutive hours of work, employees are entitled to a 30-minute break under <strong>26 M.R.S. &sect;601</strong> &mdash; paid only if the worker must stay on duty. Final wages land on the next regular payday or within 2 weeks of written demand under <strong>26 M.R.S. &sect;626</strong>. Maine's default pay frequency is weekly. Teamed handles Maine payroll, withholding, and compliance at a single fixed rate of <strong>$599 per employee per month</strong>, Zero FX. A named country specialist is on your account; there's no chatbot between you and the answer.</p>
+  </div>
+
+  <section class="q" id="minimum-wage">
+    <h2>What is Maine's minimum wage in 2026?</h2>
+    <p class="answer-first">Maine's minimum wage is <strong>$14.65 per hour</strong> effective 1 January 2026, set by CPI adjustment under <a href="https://legislature.maine.gov/statutes/26/title26sec664.html" target="_blank" rel="noopener">26 M.R.S. &sect;664(1)</a>. It rises automatically each year; employers can't plan on it staying flat.</p>
+    <div class="body">
+      <p>That CPI link is Maine's real differentiator. Iowa, Kansas, Kentucky, and Louisiana all have static minimum wages subject to legislative action. Maine's floor moves on its own, driven by the Consumer Price Index for the Northeast Urban region, rounded to the nearest nickel. For 2025 the rate was $14.15/hr. The 2026 jump to $14.65 reflects a 3.5% CPI adjustment.</p>
+
+      <table class="data">
+        <thead>
+          <tr><th>Year</th><th>Maine minimum wage</th><th>Change</th><th>Source</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>2024</td><td>$13.80/hr</td><td>+$0.35</td><td><a href="https://www.maine.gov/labor/labor_laws/minimum_wage.shtml" target="_blank" rel="noopener">Maine DOL</a></td></tr>
+          <tr><td>2025</td><td>$14.15/hr</td><td>+$0.35</td><td>Maine DOL</td></tr>
+          <tr><td>2026</td><td><strong>$14.65/hr</strong></td><td>+$0.50</td><td>Maine DOL, 26 M.R.S. &sect;664(1)</td></tr>
+        </tbody>
+      </table>
+
+      <p>The tipped minimum wage sits at <strong>$6.90/hr</strong> for employees who regularly receive at least $30/month in tips. The employer must guarantee the full $14.65 if tips fall short. Build that guarantee into your payroll process; Maine enforces it.</p>
+
+      <p>Offer letters should name the current hourly rate, not a generic reference to "minimum wage." The rate will change next January and the letter won't.</p>
+    </div>
+  </section>
+
+  <section class="q" id="overtime">
+    <h2>Does Maine have its own overtime law?</h2>
+    <p class="answer-first">Maine overtime law under <a href="https://legislature.maine.gov/statutes/26/title26sec664.html" target="_blank" rel="noopener">26 M.R.S. &sect;664(3)</a> mirrors the FLSA: <strong>1.5&times; the regular rate for all hours over 40 per workweek</strong>. Maine does not require daily overtime beyond 8 hours.</p>
+    <div class="body">
+      <p>The workweek is a fixed, regularly recurring period of 168 hours (seven consecutive 24-hour periods). Your payroll setup with Teamed locks that definition in from day one; shifting it later requires 30 days advance notice and can create retroactive overtime liability on weeks where the old cycle and new cycle overlap.</p>
+
+      <h3>Who qualifies and who doesn't</h3>
+      <p>FLSA exemptions apply in Maine: executive, administrative, and professional employees earning above the current FLSA salary threshold ($684/week as of mid-2026) are exempt from overtime. Maine does not layer additional exemptions on top of federal ones, nor does it raise the salary threshold above federal. If someone qualifies as exempt federally, they're exempt in Maine.</p>
+
+      <h3>Salaried non-exempt employees</h3>
+      <p>A salaried employee who doesn't meet the FLSA exemption threshold is still non-exempt. Their regular rate is calculated as weekly salary divided by total hours worked. Overtime applies to every hour beyond 40. Misclassifying a salaried non-exempt worker as exempt is one of the most frequent Maine wage violations. Your named Teamed specialist reviews classification during onboarding.</p>
+
+      <p>Maine has no daily-overtime trigger. A 12-hour shift doesn't automatically generate overtime unless the cumulative weekly total exceeds 40 hours.</p>
+    </div>
+  </section>
+
+  <div class="compact-postcard" aria-label="Maine meal-break rule quick reference">
+    <div class="postcard-stamp">
+      <div class="stamp-num">30</div>
+      <div class="stamp-label">min break</div>
+    </div>
+    <div class="postcard-body">
+      <div class="postcard-eyebrow">Maine meal-break rule &mdash; 26 M.R.S. &sect;601</div>
+      <div class="postcard-title">After 6 consecutive hours of work: 30 minutes</div>
+      <div class="postcard-text">Unpaid unless the employee is required to remain on duty. If you need them at their station during the break, it's paid working time. No exceptions for "just in case" coverage.</div>
+      <div class="postcard-statute">Source: <a href="https://legislature.maine.gov/statutes/26/title26sec601.html" target="_blank" rel="noopener">26 M.R.S. &sect;601</a> &mdash; Maine Revised Statutes</div>
+    </div>
+  </div>
+
+  <section class="q" id="meal-break">
+    <h2>Is a meal break required in Maine?</h2>
+    <p class="answer-first">Yes. Under <a href="https://legislature.maine.gov/statutes/26/title26sec601.html" target="_blank" rel="noopener">26 M.R.S. &sect;601</a>, employees working 6 or more consecutive hours get <strong>a 30-minute break</strong>. It's unpaid unless they're required to stay on duty.</p>
+    <div class="body">
+      <p>The nuance most employers miss: the break is only unpaid when the employee is truly relieved of all duties. If your on-call tech is expected to monitor a queue during lunch, that break is paid working time, full stop. "We don't require it, but..." is not a policy; it's a liability.</p>
+
+      <h3>Rest breaks (under 20 minutes)</h3>
+      <p>Maine has no separate rest-break mandate. Federal FLSA rules apply: breaks of 20 minutes or fewer must be counted as paid work time. Breaks over 20 minutes can be unpaid, provided the employee is genuinely relieved. In practice, most Maine employers offer two 10-minute paid rest breaks per 8-hour shift as an industry norm, not a legal requirement.</p>
+
+      <h3>What to put in your policy</h3>
+      <p>Your employee handbook should specify: the 30-minute meal break timing, whether it's paid or unpaid, and the duty-free test. Teamed's onboarding documentation includes a Maine-compliant break policy template. Your named specialist reviews it with you during the first two weeks.</p>
+
+      <p>Break violations carry civil penalties. The Maine Department of Labor investigates wage complaints, and meal-break violations are a frequent subject of individual complaints.</p>
+    </div>
+  </section>
+
+  <section class="q" id="final-pay">
+    <h2>When must a final paycheck be paid in Maine?</h2>
+    <p class="answer-first">Maine requires final wages on the <strong>next regular payday</strong> or within <strong>2 weeks of the employee's written demand</strong>, whichever comes first, under <a href="https://legislature.maine.gov/statutes/26/title26sec626.html" target="_blank" rel="noopener">26 M.R.S. &sect;626</a>. There's no "immediate on termination" rule.</p>
+    <div class="body">
+      <p>Maine makes no distinction between voluntary resignation and termination for final-pay timing. Both must follow the same schedule. The written-demand trigger is important: if the employee sends a demand letter and you miss the 2-week window, you're in violation regardless of the next regular payday.</p>
+
+      <h3>What must be included</h3>
+      <p>All accrued, unused vacation pay must be included in the final paycheck if your company policy or a contract says unused vacation is payable on separation. Maine does not mandate vacation payout by statute, but if your policy creates the entitlement, the final paycheck must honour it.</p>
+
+      <p>Deductions from the final paycheck are limited. Maine prohibits deductions for breakage, spoilage, or cash shortages unless the employee consented in a signed written agreement before the incident occurred. No retroactive deduction authorisations.</p>
+
+      <p>Teamed processes final paychecks within the statutory window. Our in-house payroll team handles the timing automatically; you confirm the separation date and we run the numbers.</p>
+    </div>
+  </section>
+
+  <section class="q" id="pay-frequency">
+    <h2>How often must Maine employers pay wages?</h2>
+    <p class="answer-first">Maine's default pay frequency is <strong>weekly</strong> under <a href="https://legislature.maine.gov/statutes/26/title26sec621.html" target="_blank" rel="noopener">26 M.R.S. &sect;621</a>. Employers may pay bi-weekly or semi-monthly only with written employee agreement.</p>
+    <div class="body">
+      <p>This is the rarely cited Maine quirk. Most employers default to bi-weekly and assume it's compliant. Technically, you need employee sign-off to move away from weekly. In practice, Maine MDOL focuses enforcement on employers that pay monthly or on irregular schedules; bi-weekly with written consent rarely triggers scrutiny. But document the consent.</p>
+
+      <table class="data">
+        <thead>
+          <tr><th>Pay frequency</th><th>Permissible</th><th>Requirement</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Weekly</td><td>Yes (default)</td><td>None</td></tr>
+          <tr><td>Bi-weekly</td><td>Yes</td><td>Written employee agreement</td></tr>
+          <tr><td>Semi-monthly</td><td>Yes</td><td>Written employee agreement</td></tr>
+          <tr><td>Monthly</td><td>Generally no</td><td>Requires MDOL waiver in most cases</td></tr>
+        </tbody>
+      </table>
+
+      <p>When you onboard through Teamed, pay frequency is set at bi-weekly with written employee confirmation captured during the digital onboarding flow. It's documented, stored, and auditable on the invoice.</p>
+
+      <p>One platform handles contractor classification, EOR payroll, and the path to your own entity when you're ready to graduate.</p>
+    </div>
+  </section>
+
+  <section class="q" id="eor-approach">
+    <h2>Do you need an entity to hire in Maine?</h2>
+    <p class="answer-first"><strong>No.</strong> Teamed acts as the employer of record in Maine from day one. You don't form a Maine entity, don't register as a foreign corporation for payroll-only purposes, and don't navigate Maine Revenue Services setup directly.</p>
+    <div class="body">
+      <p>The EOR model is the right hire-in-Maine answer for most companies building a team of fewer than 8 to 10 Maine employees. At that scale the cost of a registered US subsidiary, state registration, separate payroll, and compliance overhead exceeds the EOR fee by a meaningful margin.</p>
+
+      <p>When the numbers flip, Teamed tells you. That's not a sales pitch; it's the graduation model. The Crossover Calculator shows you the exact salary total and headcount where entity formation pays off. Your account isn't at risk when we point you toward your own entity, it's the model.</p>
+
+      <p>Teamed handles Maine-specific compliance automatically: CPI-updated minimum wage, PFML contributions (Maine's paid leave benefits started 1 May 2026 for large employers), UI filings via ReEmployME, and state income tax withholding filed on Form 941ME with Maine Revenue Services. Your named specialist monitors the compliance calendar.</p>
+
+      <p>Statutory costs pass through at cost, itemised on every invoice. No markup on the UI contributions, no hidden margin in the PFML line. $599 per employee per month flat, Zero FX whatever currency you pay in.</p>
+    </div>
+  </section>
+
+  <!-- TEAMED:CUSTOMER-STRIP-V1 BEGIN -->
+  <section class="customer-strip">
+    <h2 class="customer-strip-eyebrow">Trusted by teams that chose differently</h2>
+    <ul class="customer-strip-list">
+      <li><img src="https://teamed.global/images/logos/customers/klarna.webp" alt="Klarna" loading="lazy"></li>
+      <li><img src="https://teamed.global/images/logos/customers/notion.webp" alt="Notion" loading="lazy"></li>
+      <li><img src="https://teamed.global/images/logos/customers/wise.webp" alt="Wise" loading="lazy"></li>
+      <li><img src="https://teamed.global/images/logos/customers/eventbrite.webp" alt="Eventbrite" loading="lazy"></li>
+      <li><img src="https://teamed.global/images/logos/customers/globant.webp" alt="Globant" loading="lazy"></li>
+      <li><img src="https://teamed.global/images/logos/customers/williams-racing.webp" alt="Williams Racing" loading="lazy"></li>
+      <li><img src="https://teamed.global/images/logos/customers/biontech.webp" alt="BioNTech" loading="lazy"></li>
+    </ul>
+  </section>
+  <!-- TEAMED:CUSTOMER-STRIP-V1 END -->
+
+  <div class="teamed-callout">
+    <div class="label">Teamed pricing &mdash; Maine</div>
+    <div class="price-row">$599 <span class="secondary-rate" style="font-size:16px;font-weight:500;color:#666;margin-left:8px;">/ employee / month flat</span></div>
+    <p>Salaries, Maine income tax withholding, PFML contributions, and UI filings pass through at cost, itemised on every invoice. No setup fee, no exit fee, no FX markup. Zero FX means $599 stays $599 whether you pay in USD, GBP, EUR, or AUD.</p>
+    <p>Your named in-house payroll specialist handles Maine compliance and is reachable by phone or email &mdash; not a bot. If the CPI-indexed minimum wage moves again in January 2027, your payroll updates automatically.</p>
+  </div>
+
+  <section class="tagline-close film-grain">
+    <div class="eyebrow-small">A note from Tom Price-Daniel</div>
+    <p class="tagline">Maine's $14.65 floor resets every January whether you notice or not. The meal-break rule catches more employers than the overtime rule &mdash; specifically the "paid if they can't leave" clause most handbooks never address.<br>EOR is the right hiring model for Maine, until it isn't. When your headcount crosses the crossover point, we'll run the numbers with you.<br>Until then, one platform. One price. Your named contact answers the phone.</p>
+    <div class="sig">Tom Price-Daniel &middot; Co-founder, Teamed</div>
+    <div class="cta-row">
+      <a href="/contact/" class="cta primary">Talk to an expert</a>
+      <a href="https://crso-cal.vercel.app/tools/crossover" target="_blank" rel="noopener" class="cta secondary">Run the EOR vs entity crossover</a>
+    </div>
+  </section>
+
+  <aside class="links-rail">
+    <h2>Related guides</h2>
+    <ul>
+      <li><a href="/employer-of-record/">Employer of Record overview</a><span class="context">core</span></li>
+      <li><a href="/graduation-model/">The Graduation Model</a><span class="context">core</span></li>
+      <li><a href="/entity-management/">GEMO &mdash; Global Entity Management</a><span class="context">core</span></li>
+      <li><a href="https://crso-cal.vercel.app/tools/crossover" target="_blank" rel="noopener">EOR vs Entity Crossover Calculator</a><span class="context">tool</span></li>
+      <li><a href="/tools/unbundling-calculator">FX Transparency Calculator</a><span class="context">tool</span></li>
+      <li><a href="/pricing/zero-fx-fixed/">Zero FX Fixed pricing</a><span class="context">commercial</span></li>
+      <li><a href="/contact/">Talk to an expert</a><span class="context">CTA</span></li>
+    </ul>
+    <h2>External statutes</h2>
+    <ul>
+      <li><a href="https://legislature.maine.gov/statutes/26/title26sec664.html" target="_blank" rel="noopener">26 M.R.S. &sect;664 &mdash; Minimum wage and overtime</a><span class="context">primary law</span></li>
+      <li><a href="https://legislature.maine.gov/statutes/26/title26sec601.html" target="_blank" rel="noopener">26 M.R.S. &sect;601 &mdash; Meal breaks</a><span class="context">primary law</span></li>
+      <li><a href="https://legislature.maine.gov/statutes/26/title26sec626.html" target="_blank" rel="noopener">26 M.R.S. &sect;626 &mdash; Final pay</a><span class="context">primary law</span></li>
+      <li><a href="https://legislature.maine.gov/statutes/26/title26sec621.html" target="_blank" rel="noopener">26 M.R.S. &sect;621 &mdash; Pay frequency</a><span class="context">primary law</span></li>
+      <li><a href="https://www.maine.gov/labor/labor_laws/minimum_wage.shtml" target="_blank" rel="noopener">Maine DOL &mdash; Minimum wage</a><span class="context">authority</span></li>
+      <li><a href="https://www.maine.gov/paidleave/" target="_blank" rel="noopener">Maine PFML programme</a><span class="context">authority</span></li>
+    </ul>
+  </aside>
+
+</div><!-- /.container -->
+
+</body>
+</html>

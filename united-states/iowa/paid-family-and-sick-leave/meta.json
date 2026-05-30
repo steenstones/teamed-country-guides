@@ -1,0 +1,65 @@
+{
+  "row_id": "master-0091",
+  "slug": "united-states/iowa/paid-family-and-sick-leave",
+  "url": "/hire-in-united-states/iowa/paid-family-and-sick-leave/",
+  "generated_at": "2026-05-30T13:22:00Z",
+  "sources_verified_at": "2026-05-30T13:22:00Z",
+  "batch": "us-state-paid-leave-batch-2026-05-30",
+  "phase": "phase-1.0",
+  "target_keywords": [
+    "Iowa paid family leave",
+    "Iowa sick leave law 2026",
+    "Iowa FMLA employer requirements",
+    "Iowa employee benefits EOR"
+  ],
+  "sources": [
+    { "url": "https://www.dol.gov/agencies/whd/fmla", "title": "U.S. DOL FMLA overview", "type": "federal_statute", "accessed": "2026-05-30" },
+    { "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-C/part-825", "title": "29 CFR Part 825 — FMLA regulations", "type": "federal_regulation", "accessed": "2026-05-30" },
+    { "url": "https://www.dol.gov/agencies/whd/fmla/state-laws", "title": "DOL FMLA — State laws", "type": "federal_reference", "accessed": "2026-05-30" },
+    { "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=87&ba=HF295", "title": "Iowa House File 295 (2017) — preemption of local ordinances", "type": "state_statute", "accessed": "2026-05-30" },
+    { "url": "https://revenue.iowa.gov/press-release/2025-10-21/idr-announces-2026-individual-income-tax-and-interest-rates", "title": "Iowa DOR — 2026 income tax rates", "type": "state_agency", "accessed": "2026-05-27", "from_cache": true },
+    { "url": "https://workforce.iowa.gov/press-release/2025-09-05/unemployment-insurance-rates-iowa-employers-remain-lowest-possible-level-2026", "title": "Iowa Workforce Development — UI rates 2026", "type": "state_agency", "accessed": "2026-05-27", "from_cache": true },
+    { "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF607", "title": "Iowa Senate File 607 (2025) — UI wage base reduction", "type": "state_statute", "accessed": "2026-05-27", "from_cache": true },
+    { "url": "https://www.congress.gov", "title": "Congress.gov — Paid Leave for All bills status", "type": "federal_legislative", "accessed": "2026-05-30" }
+  ],
+  "internal_links_used": [
+    { "href": "/hire-in-united-states/iowa/", "state": "wave-3", "rendered_as": "plain-text" },
+    { "href": "/employer-of-record/", "state": "live", "rendered_as": "anchor" },
+    { "href": "/graduation-model/", "state": "live", "rendered_as": "anchor" },
+    { "href": "/pricing/zero-fx-fixed/", "state": "live", "rendered_as": "anchor" },
+    { "href": "https://crso-cal.vercel.app/tools/crossover", "state": "live", "rendered_as": "anchor" },
+    { "href": "https://cntrctr-cal.vercel.app", "state": "live", "rendered_as": "anchor" },
+    { "href": "/tools/unbundling-calculator", "state": "live", "rendered_as": "anchor" },
+    { "href": "/contact/", "state": "live", "rendered_as": "anchor" }
+  ],
+  "editor_rounds": 1,
+  "editor_status": "clean",
+  "retrofit_needed": {
+    "images": false,
+    "internal_links": ["iowa-parent-page — wave-3, rendered as plain text until live"],
+    "mi_quotes": true,
+    "person_bios": false
+  },
+  "compliance_cache_used": true,
+  "compliance_cache_path": "sprint/compliance-cache/iowa.json",
+  "compliance_cache_fetched_at": "2026-05-27T00:00:00Z",
+  "audit_score": 91,
+  "high_concern_flags": [
+    "cta_staging_url_warn"
+  ],
+  "linter_result": "pass-27/28-warn-1",
+  "notes": [
+    "US-State child page — topic: paid family and sick leave",
+    "Iowa has NO state PFL and NO state sick leave mandate — page correctly documents no-mandate status",
+    "Federal FMLA is the only statutory floor; threshold 50 employees within 75 miles",
+    "Federal Paid Leave for All Act: not enacted as of 2026-05-30",
+    "Tom tagline-close is Iowa-specific: references no paid leave floor, FMLA 50-employee threshold, offer letter as governing document",
+    "Pullquote uses Teamed Legal Operations anonymised attribution (no MI search run in sprint mode)",
+    "Hero image fetched from Unsplash (Brandon Lehman); 88KB — just below 100KB spec threshold; flagged hero_size_warn",
+    "Inline compact-postcard used as mandatory inline visual (FMLA facts postcard)",
+    "Pricing: $599/employee/month flat, Zero FX — correctly represented throughout",
+    "No Regional Rate mentioned anywhere",
+    "CTAs: uses only 4 real tools — Crossover, Contractor Classifier, FX Transparency, Employee Cost omitted (retrofit-needed)",
+    "Iowa-specific sameness check: opening paragraph references Iowa specifically (no state mandate, Iowa HF 295 2017, no city/county ordinances); Tom tagline Iowa-specific"
+  ]
+}

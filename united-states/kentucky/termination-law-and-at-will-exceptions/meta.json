@@ -1,0 +1,116 @@
+{
+  "row_id": "master-0101",
+  "slug": "united-states/kentucky/termination-law-and-at-will-exceptions",
+  "target_url": "/hire-in-united-states/kentucky/termination-law-and-at-will-exceptions/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "target_keywords": [
+    "kentucky at-will employment",
+    "kentucky termination law",
+    "kentucky final paycheck law",
+    "KRS 337.055",
+    "kentucky wrongful termination exceptions",
+    "kentucky civil rights act threshold",
+    "kentucky KCRA employees"
+  ],
+  "sources": [
+    {
+      "title": "KRS 337.055 — Payment of all wages upon dismissal or voluntary leaving",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=32050",
+      "accessed": "2026-05-30",
+      "type": "primary_statute"
+    },
+    {
+      "title": "KRS 337.385 — Liquidated damages for failure to pay wages",
+      "url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37710",
+      "accessed": "2026-05-30",
+      "type": "primary_statute"
+    },
+    {
+      "title": "KRS 342.197 — Workers compensation anti-retaliation",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36688",
+      "accessed": "2026-05-30",
+      "type": "primary_statute"
+    },
+    {
+      "title": "KRS Chapter 344 — Kentucky Civil Rights Act",
+      "url": "https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=38920",
+      "accessed": "2026-05-30",
+      "type": "primary_statute"
+    },
+    {
+      "title": "KY HB 320 (2024) — Statute of limitations reduction to 3 years",
+      "url": "https://apps.legislature.ky.gov/record/24rs/hb320.html",
+      "accessed": "2026-05-30",
+      "type": "legislation"
+    },
+    {
+      "title": "Firestone Textile Co. Div. v. Meadows, 666 S.W.2d 730 (Ky. 1983)",
+      "url": "https://law.justia.com/cases/kentucky/supreme-court/1983/666-s-w-2d-730-0.html",
+      "accessed": "2026-05-30",
+      "type": "case_law"
+    },
+    {
+      "title": "Kentucky Department of Insurance — State Continuation Coverage",
+      "url": "https://insurance.ky.gov/ppc/Documents/howcanikeepmycoverage071317.pdf",
+      "accessed": "2026-05-30",
+      "type": "regulatory"
+    },
+    {
+      "title": "US DOL — WARN Act: Plant Closings and Layoffs",
+      "url": "https://www.dol.gov/general/topic/termination/plantclosings",
+      "accessed": "2026-05-30",
+      "type": "regulatory"
+    },
+    {
+      "title": "Kentucky DOR — Employer Payroll Withholding",
+      "url": "https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx",
+      "accessed": "2026-05-30",
+      "type": "regulatory"
+    },
+    {
+      "title": "Fisher Phillips — New Kentucky Law Reduces Discrimination Claims Window",
+      "url": "https://www.fisherphillips.com/en/news-insights/kentucky-law-reduces-time-employees.html",
+      "accessed": "2026-05-30",
+      "type": "advisory"
+    },
+    {
+      "title": "Employment Law Handbook — Kentucky Wage Payment Laws",
+      "url": "https://www.employmentlawhandbook.com/employment-and-labor-laws/states/kentucky/wage-payment/",
+      "accessed": "2026-05-30",
+      "type": "advisory"
+    }
+  ],
+  "pullquote_provenance": [],
+  "internal_links_used": [
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live" },
+    { "anchor": "Check your EOR vs entity crossover", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live" }
+  ],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "sibling_kentucky_pages": true,
+    "team_bio_link": true
+  },
+  "high_concern_flags": [],
+  "audit_score": 91,
+  "compliance_cache": {
+    "source": "sprint/compliance-cache/kentucky.json",
+    "written_by": "master-0100",
+    "fetched_at": "2026-05-30T00:00:00Z"
+  },
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 187392,
+    "source": "Unsplash",
+    "photographer": "Joshua Michaels",
+    "query": "Louisville Kentucky skyline",
+    "verified_real_photography": true
+  }
+}

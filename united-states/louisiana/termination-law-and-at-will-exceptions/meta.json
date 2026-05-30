@@ -1,0 +1,65 @@
+{
+  "row_id": "master-0107",
+  "slug": "united-states/louisiana/termination-law-and-at-will-exceptions",
+  "page_title": "Termination law and at-will exceptions — Louisiana",
+  "target_url": "/hire-in-united-states/louisiana/termination-law-and-at-will-exceptions/",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "batch_spec_version": "phase-1.0",
+  "audit_score": 91,
+  "linter_result": {
+    "passed": true,
+    "block_failures": 0,
+    "warn_failures": 1,
+    "warn_details": ["cta.staging_url_warn — crso-cal.vercel.app (canonical live URL per config/internal-links.json; expected batch-wide warn)"]
+  },
+  "high_concern_flags": [
+    "hero_reused_from_sibling",
+    "mi_quotes_retrofit",
+    "link_gate_warn:louisiana_state_parent_wave4",
+    "link_gate_warn:us_country_parent_wave3",
+    "linter_warn:crossover_staging_url"
+  ],
+  "target_keywords": [
+    "louisiana at-will employment termination law",
+    "louisiana termination law 2026",
+    "louisiana final paycheck law",
+    "louisiana civil code article 2747",
+    "louisiana wrongful termination"
+  ],
+  "sources": [
+    { "name": "La. Civ. Code art. 2747 (at-will basis)", "url": "https://codes.findlaw.com/la/civil-code/la-civ-code-tit-ix-art-2747/", "accessed": "2026-05-30", "layer": 2 },
+    { "name": "La. Civ. Code art. 2749 (fixed-term dismissal liability)", "url": "https://law.justia.com/codes/louisiana/civil-code/article-2749/", "accessed": "2026-05-30", "layer": 2 },
+    { "name": "LA R.S. 23:631 (final paycheck)", "url": "https://www.legis.la.gov/legis/Law.aspx?d=83945", "accessed": "2026-05-30", "layer": 2 },
+    { "name": "LA R.S. 23:632 (penalty wages + attorney fees)", "url": "https://law.justia.com/codes/louisiana/revised-statutes/title-23/rs-23-632/", "accessed": "2026-05-30", "layer": 2 },
+    { "name": "LA R.S. 23:301 et seq. (LEDL thresholds PDF)", "url": "https://wwwcfprd.doa.louisiana.gov/boardsAndCommissions/StatutoryCitations/435_LRS%2023-301%20et%20seq.pdf", "accessed": "2026-05-30", "layer": 2 },
+    { "name": "LA R.S. 23:1361 (workers comp anti-retaliation)", "url": "https://legis.la.gov/legis/Law.aspx?d=99263", "accessed": "2026-05-30", "layer": 2 },
+    { "name": "Louisiana compliance cache (master-0106)", "url": "internal: sprint/compliance-cache/louisiana.json", "accessed": "2026-05-30", "layer": 6 }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "status": "live" },
+    { "anchor": "Louisiana tax and unemployment insurance", "href": "/hire-in-united-states/louisiana/state-income-tax-and-unemployment-insurance/", "status": "wave-4" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live" }
+  ],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "hero_image": true,
+    "hero_note": "Unsplash rate limit exceeded at build. Hero reused from sibling page (master-0106, Ricky Beron @nacio1966, New Orleans river view). Retrofit with a separate Louisiana Baton Rouge State Capitol or French Quarter photo when rate limit resets.",
+    "mi_quotes": true,
+    "mi_notes": "No Meeting Intelligence search run in sprint mode. Pullquote uses Tom Price-Daniel brand voice (exempt from MI provenance). Retrofit with Joanna/Paulina/Antony MI quote if Louisiana termination or civil-code discussion surfaces.",
+    "neighbour_links": true,
+    "neighbour_notes": "Iowa, Kansas, Kentucky, Maine sibling state pages exist but Louisiana-specific state pages (parent + other topic children) not yet built. Add cross-state links when wave-4 ships."
+  },
+  "sameness_check": {
+    "status": "pass",
+    "opening_anchor_1": "La. Civ. Code art. 2747 — only US state where at-will derives from civil code",
+    "opening_anchor_2": "R.S. 23:631 sooner-of-15-days rule (inverse of Kentucky later-of framework)",
+    "opening_anchor_3": "R.S. 23:632 90-day penalty wages",
+    "tagline_anchor_1": "La. Civ. Code art. 2749 fixed-term contract trap (offer letter with project duration)",
+    "tagline_anchor_2": "R.S. 23:631 sooner-of-15-days vs Kentucky later-of-14-days cross-batch contrast",
+    "tagline_anchor_3": "R.S. 23:632 90-day penalty as steepest in the batch",
+    "notes": "All three opening anchors and all three tagline anchors are Louisiana-specific facts not appearing in Iowa/Kansas/Kentucky/Maine pages. Civil-code origin is unique to Louisiana among all 50 US states."
+  }
+}

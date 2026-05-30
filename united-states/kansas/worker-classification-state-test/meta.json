@@ -1,0 +1,64 @@
+{
+  "row_id": "master-0096",
+  "slug": "united-states/kansas/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/kansas/worker-classification-state-test/",
+  "page_title": "Worker classification — state test — Kansas",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "kansas worker classification test",
+    "kansas employment security law 20 factor test",
+    "kansas independent contractor vs employee",
+    "ksa 44-703 contractor employee",
+    "kdol worker classification audit"
+  ],
+  "sources": [
+    {"url": "https://www.sos.ks.gov/publications/sessionlaws/2024/Chapter-83-HB-2570.html", "title": "Kansas HB 2570 — UI wage base and rate reform", "accessed": "2026-05-30"},
+    {"url": "https://kansasreflector.com/2024/06/21/gov-kelly-signs-tax-reduction-bill-passed-with-bipartisan-majorities-in-special-session/", "title": "Kansas SB 1 (2024 Special Session) — income tax reform", "accessed": "2026-05-30"},
+    {"url": "https://taxnews.ey.com/news/2026-0124-2026-state-unemployment-insurance-taxable-wage-bases", "title": "EY Tax News — 2026 State UI Taxable Wage Bases", "accessed": "2026-05-30"},
+    {"url": "https://www.dol.ks.gov/employers/unemployment-insurance", "title": "KDOL Unemployment Insurance — employer info", "accessed": "2026-05-30"},
+    {"url": "https://www.ksrevenue.gov/kw100.html", "title": "Kansas KW-100 Withholding Tax Guide", "accessed": "2026-05-30"},
+    {"url": "https://www.patriotsoftware.com/blog/payroll/what-is-my-state-unemployment-tax-rate/", "title": "Patriot Software — SUTA rates by state 2026 (source conflict noted)", "accessed": "2026-05-30"}
+  ],
+  "compliance_cache_used": "sprint/compliance-cache/kansas.json",
+  "compliance_cache_fetched_at": "2026-05-30T00:00:00Z",
+  "internal_links_used": [
+    {"anchor": "state-income-tax-and-unemployment-insurance", "href": "../state-income-tax-and-unemployment-insurance/", "status": "sibling-live"},
+    {"anchor": "Hire contractors in the United States", "href": "/hire-contractors/united-states/", "status": "live"},
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live"},
+    {"anchor": "Contractor Classifier", "href": "https://cntrctr-cal.vercel.app", "status": "live"},
+    {"anchor": "EOR vs Entity Crossover Calculator", "href": "https://crso-cal.vercel.app/tools/crossover", "status": "live"},
+    {"anchor": "Talk to an expert", "href": "/contact/", "status": "live"},
+    {"anchor": "Kansas overview", "href": "../", "status": "wave-4-plain-text"},
+    {"anchor": "United States hiring overview", "href": "/hire-in-united-states/", "status": "wave-3-plain-text"}
+  ],
+  "editor_rounds": 1,
+  "audit_score": 88,
+  "retrofit_needed": {
+    "images": false,
+    "internal_links_neighbour": true,
+    "person_schema_bylines": true
+  },
+  "high_concern_flags": [
+    "prompt_correction:new_employer_ui_rate_conflict",
+    "link_gate_warn:kansas_overview_wave4",
+    "link_gate_warn:us_overview_wave3"
+  ],
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_kb": 250,
+    "photographer": "Nils Huenerfuerst",
+    "unsplash_url": "https://unsplash.com/photos/a-large-building-with-a-dome-on-top-of-it-gcwIEH5_xok",
+    "alt": "Kansas State Capitol building in Topeka, the Renaissance-style dome rising against a clear sky",
+    "query_used": "Topeka Kansas capitol building golden hour"
+  },
+  "inline_visual": "compact-postcard (KS HB 2570 wage base callout)",
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "linter_result": "pass-27/28-0-block-1-warn",
+  "linter_warns": ["cta.staging_url_warn: cntrctr-cal.vercel.app flagged as staging URL (same warn on all US-state worker-classification pages in this batch; URL is canonical per config/internal-links.json)"]
+}
