@@ -99,8 +99,14 @@ united-states/kansas/
 # ─── United States — Kentucky (5, batch 5) ─────────────────────────────
 united-states/kentucky/
 
-# ─── United States — Louisiana (5, batch 5) ────────────────────────────
-united-states/louisiana/
+# ─── United States — Louisiana (5, batch 5: 1 surfaced for design review, 4 parked) ─
+# Surfaced for visual review:
+#   /united-states/louisiana/paid-family-and-sick-leave/   ← sample-and-audit pick (audit 92, R.S. 23:341 angle)
+
+united-states/louisiana/state-income-tax-and-unemployment-insurance/
+united-states/louisiana/termination-law-and-at-will-exceptions/
+united-states/louisiana/worker-classification-state-test/
+united-states/louisiana/wage-overtime-and-meal-break-law/
 
 # ─── United States — Maine (5, batch 5) ────────────────────────────────
 united-states/maine/
