@@ -1,0 +1,82 @@
+{
+  "row_id": "master-0167",
+  "country": "United States",
+  "state": "Nevada",
+  "page_title": "Termination law and at-will exceptions — Nevada",
+  "target_url": "/hire-in-united-states/nevada/termination-law-and-at-will-exceptions/",
+  "slug": "united-states/nevada/termination-law-and-at-will-exceptions",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-31",
+  "sources_verified_at": "2026-05-31",
+  "meta_title": "Nevada Termination Law and At-Will Exceptions 2026 | Teamed",
+  "meta_description": "Nevada at-will employment 2026: Hansen v. Harrah's public-policy exception, implied contract via handbook (D'Angelo v. Gardner), final pay immediately on dismissal (NRS 608.020), 30-day continuing wage penalty (NRS 608.040).",
+  "target_keywords": [
+    "Nevada termination law at-will",
+    "Nevada at-will employment exceptions",
+    "Nevada final paycheck law",
+    "NRS 608.020 final pay Nevada"
+  ],
+  "schema_types": ["Article", "FAQPage", "Organization", "BreadcrumbList", "Service"],
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 239673,
+    "source": "Unsplash",
+    "photo_id": "uxU_jyu9e7U",
+    "photographer": "Julian Paefgen",
+    "photographer_username": "julianpaefgen",
+    "alt": "Las Vegas Strip illuminated at night, Nevada skyline."
+  },
+  "compliance_sources": [
+    {
+      "cite": "NRS 608.020",
+      "fact": "Final wages due immediately on involuntary dismissal",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-608.html",
+      "provisional": true
+    },
+    {
+      "cite": "NRS 608.030",
+      "fact": "Voluntary quit: final pay on next payday or within 7 days, whichever first",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-608.html",
+      "provisional": true
+    },
+    {
+      "cite": "NRS 608.040",
+      "fact": "Up to 30 days continuing wages penalty for late final pay",
+      "url": "https://law.justia.com/codes/nevada/chapter-608/statute-608-040/",
+      "provisional": true
+    },
+    {
+      "cite": "NRS 613.330",
+      "fact": "Anti-discrimination and anti-retaliation in termination",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-613.html",
+      "provisional": true
+    },
+    {
+      "cite": "NRS 613.4392",
+      "fact": "Nevada state WARN-equivalent for mass layoffs",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-613.html",
+      "provisional": true
+    },
+    {
+      "cite": "Hansen v. Harrah's, 100 Nev. 60, 675 P.2d 394 (1984)",
+      "fact": "Nevada public-policy exception to at-will employment",
+      "url": null,
+      "provisional": true
+    },
+    {
+      "cite": "D'Angelo v. Gardner, 107 Nev. 704 (1991)",
+      "fact": "Implied-contract exception via handbook and course of dealing",
+      "url": null,
+      "provisional": true
+    }
+  ],
+  "rubric_status": "clean",
+  "block_violations": 0,
+  "warn_violations": 0,
+  "audit_flags": 4,
+  "status": "noindex",
+  "publishing_gate": "pending"
+}

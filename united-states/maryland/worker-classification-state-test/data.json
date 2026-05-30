@@ -1,0 +1,95 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Maryland",
+    "slug": "united-states/maryland/worker-classification-state-test",
+    "iso2": "US"
+  },
+  "hero": {
+    "headline": "Maryland worker classification state test",
+    "subhead": "Two tests. One state. Know which one applies before you hire.",
+    "eyebrow": "Maryland · Worker Classification",
+    "primary_cta": { "label": "Talk to a specialist", "href": "/contact/" },
+    "secondary_cta": { "label": "Run the Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification" }
+  },
+  "partner_badge": "Served by Teamed partner network: Suna Solutions, Inc. (primary)",
+  "breadcrumb": [
+    { "label": "Teamed", "href": "https://teamed.global/" },
+    { "label": "Hire in the United States", "href": "/hire-in-united-states/" },
+    { "label": "Maryland", "href": "/hire-in-united-states/maryland/" },
+    { "label": "Worker classification state test", "href": null }
+  ],
+  "sections": {
+    "intro": {
+      "answer_first": "Maryland uses two different tests depending on your industry. Construction and landscaping employers face the Workplace Fraud Act's ABC-style presumption of employment. Every other industry uses the common-law right-to-control test.",
+      "body": "Most states pick one approach. Maryland picked two. If you're hiring contractors in construction or landscaping, the Workplace Fraud Act (Md. Code Ann., Lab. & Empl. §§ 3-901 through 3-916) applies an ABC-style presumption: the worker is your employee unless you can prove all three exemption criteria. For every other industry — technology, professional services, marketing, finance — Maryland applies the traditional common-law right-to-control test. Federal IRS classification runs as a separate, third layer on top of both. Getting the right test wrong at the classification stage exposes you to penalties, back taxes, and workers' compensation liability before you've ever run a payroll."
+    },
+    "wfa": {
+      "question": "What does the Maryland Workplace Fraud Act require in construction and landscaping?",
+      "answer_first": "Workers are presumed to be your employees. You must overcome that presumption to treat anyone as an independent contractor in construction or landscaping.",
+      "body": "The Workplace Fraud Act, enacted 1st October 2009, applies to construction and landscaping. It creates a presumption of employment that four statutory exceptions can rebut. The first exception is the 'exempt person' — a sole proprietor with no employees other than an immediate family member. The second is the ABC test, which requires all three: the worker is free from direction and control in performing the work; the worker is customarily engaged in an independent business of the same nature; and the work is either outside the usual course of your business or performed outside your place of business. The third and fourth exceptions cover business-to-business subcontracting arrangements at the same location, and regulated subcontracting with a written contract, an affidavit of independent contractor status, department registration in good standing, and all required occupational licences. Miss any element of an exception and the presumption of employment stands. Your Teamed Legal Operations contact can map your specific contractor arrangement against each criterion before you issue the first payment."
+    },
+    "right_to_control": {
+      "question": "How does Maryland classify independent contractors outside construction and landscaping?",
+      "answer_first": "For all other industries, Maryland courts apply the common-law right-to-control test. The right to control — not the actual exercise of it — is the decisive factor.",
+      "body": "Maryland's Court of Special Appeals set the controlling principle in L.M.T. Steel Products v. Pierson: it's the right to control and direct the work, not whether you actively exercise it, that determines the relationship. Five factors feed the analysis. First, who has the right to control how the work is done, both in terms of results and method. Second, who selects and hires the worker. Third, who has the power to discharge. Fourth, whether you provide tools, materials, or a workplace. Fifth, whether the work is part of your regular business operations. None of these factors is individually decisive, but control is the closest thing to a trump card. Courts have held that if the right of control is present, the relationship is employment. Maryland also applies COMAR 09.32.01.18 in regulatory contexts, and for unemployment insurance specifically, Maryland Code Ann., Lab. & Empl. § 8-205 governs. For workers' compensation, § 9-402 is the operative provision. These are Maryland state tests, separate from the IRS's three-category behavioural-financial-relationship framework for federal employment tax purposes."
+    },
+    "federal_vs_state": {
+      "question": "How does Maryland's classification test differ from the federal IRS test?",
+      "answer_first": "They're separate. A worker classified as an independent contractor under IRS rules can still be an employee under Maryland law — and vice versa. You need to satisfy both.",
+      "body": "The IRS condensed its original 20-factor test into three categories: behavioural control (does your business direct how work gets done?), financial control (do you control the economic aspects of the job?), and type of relationship (written contracts, benefits, permanency, integration into the business). Maryland's common-law right-to-control test uses similar logic but is applied by state courts and state agencies independently. The Workplace Fraud Act's ABC test in construction and landscaping is stricter than the IRS standard in most cases, because it starts with a presumption of employment that you must actively rebut. The practical implication: satisfying the IRS test doesn't protect you from Maryland DOL enforcement on UI contributions or workers' compensation claims. You need a classification analysis that covers state and federal simultaneously. Teamed's Contractor Classifier tool runs both frameworks in a single assessment, and a Teamed employment law specialist reviews flagged borderline cases."
+    },
+    "penalties": {
+      "question": "What are the penalties for misclassifying workers in Maryland?",
+      "answer_first": "Up to $20,000 per misclassified worker for repeat violations under the Workplace Fraud Act. Plus treble economic damages owed to the worker.",
+      "body": "The Workplace Fraud Act (§ 3-903 and § 3-904) sets a graduated penalty schedule. Unintentional misclassification carries up to $1,000 per worker, but only after the employer fails to remediate within a 45-day cure window following a finding. Knowing misclassification starts at $5,000 per worker on the first offence, rises to $10,000 on the second, and reaches $20,000 per worker for employers with three or more violations. On top of those penalties, a court can award treble damages — three times the actual economic damages the worker suffered. Outside construction and landscaping, misclassification exposure comes through back UI contributions, the employer share of FICA and FUTA, workers' compensation premium shortfalls, and any wage-payment violations. Each agency runs its own enforcement mechanism. The Commissioner of Labor and Industry enforces the Workplace Fraud Act; the Maryland Division of Unemployment Insurance enforces back UI through BEACON. Teamed's EOR model transfers classification risk entirely. When you engage a worker through Teamed, they're employed by Suna Solutions (the Teamed partner entity in Maryland). You're a client, not the employer of record, and the classification question does not arise."
+    },
+    "eor_solution": {
+      "question": "How does an employer of record eliminate worker classification risk in Maryland?",
+      "answer_first": "EOR converts the relationship entirely. The worker becomes an employee of Teamed's partner entity. You direct the work; Teamed is the employer of record on every filing.",
+      "body": "When you hire through Teamed in Maryland, the employment relationship sits with Suna Solutions, Inc. — Teamed's primary US partner entity. Suna handles Maryland employer registration, MW507 collection, BEACON UI filings, workers' compensation coverage, and compliance with the Workplace Fraud Act. You get a named Teamed operations specialist as your single contact, not a support queue. You see every cost on every invoice — $599 flat per employee per month, statutory employer costs (FICA, FUTA, UI, workers' comp) passed through at cost on the same invoice with zero markup. That's the Zero FX model: one price, fully itemised, no hidden margin. When your Maryland headcount justifies your own entity, Teamed tells you. The Crossover Calculator estimates the point where entity formation pays off. Until you cross that line, the EOR model is the lower-cost, lower-risk path. EOR is the right hiring model for Maryland until it isn't. Teamed's graduation model means your first Maryland hire and your Maryland subsidiary formation can happen on one platform, not through two separate vendors."
+    },
+    "good_to_know": {
+      "question": "What do out-of-state companies miss about Maryland worker classification?",
+      "answer_first": "The dual-test structure is the most common gap. Most out-of-state companies assume one test applies everywhere and run the IRS checklist alone.",
+      "body": "Three things that catch first-time Maryland employers off guard. First, the Workplace Fraud Act's presumption of employment in construction and landscaping is stricter than the equivalent in most states — the burden sits with you to disprove employee status, not with the state to prove it. Second, Maryland has no single codified multi-factor list for the common-law test outside those two industries; classification disputes in general employment go back to court precedent (L.M.T. Steel and its progeny), which creates more ambiguity than a state that publishes an explicit factor checklist. Third, the federal IRS test and the Maryland state tests are entirely independent enforcement tracks. A worker the IRS accepts as a contractor can still be a Maryland employee for UI and workers' comp purposes. Teamed operates in Maryland through Suna Solutions. Your operations specialist handles the Maryland-specific compliance layer so your legal team doesn't have to map three simultaneous frameworks every time you bring on a new contractor."
+    }
+  },
+  "pullquote": {
+    "text": "The Workplace Fraud Act flips the presumption. In construction and landscaping, you're not proving employment — they're proving independence. Most out-of-state companies don't realise Maryland starts with that assumption against them.",
+    "attribution": "Teamed Legal Operations",
+    "cite": null
+  },
+  "faq": [
+    {
+      "q": "Does Maryland use the ABC test for worker classification?",
+      "a": "Maryland uses an ABC-style test only for construction and landscaping under the Workplace Fraud Act (Md. Code Ann., Lab. & Empl. §§ 3-901 through 3-916). All other industries use the common-law right-to-control test. The federal IRS three-category framework applies separately for federal tax purposes."
+    },
+    {
+      "q": "What is the Maryland Workplace Fraud Act?",
+      "a": "The Maryland Workplace Fraud Act, enacted 1st October 2009, prohibits misclassification of workers in the construction and landscaping industries. It creates a presumption that workers are employees, which employers must rebut through one of four statutory exceptions. Penalties range from $1,000 to $20,000 per misclassified worker plus treble damages."
+    },
+    {
+      "q": "What factors does Maryland use to classify workers outside construction?",
+      "a": "Maryland courts apply the common-law right-to-control test: (1) the right to control how work is done, (2) who selects and hires the worker, (3) the power to discharge, (4) whether the employer provides tools and workspace, and (5) whether the work is part of the employer's regular business. Control is the decisive factor."
+    },
+    {
+      "q": "What are the penalties for worker misclassification in Maryland?",
+      "a": "Under the Workplace Fraud Act: up to $1,000 per worker for unintentional misclassification (after a 45-day cure window), up to $5,000 for knowing misclassification on the first offence, up to $10,000 on the second offence, and up to $20,000 for employers with three or more violations. Courts can also award treble economic damages."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "context": "core", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "context": "core", "state": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "context": "tool", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "context": "tool", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "/contact/", "context": "CTA", "state": "live" }
+  ],
+  "meta": {
+    "title": "Maryland worker classification state test | Teamed",
+    "description": "Maryland uses two tests: the Workplace Fraud Act ABC-style test for construction and landscaping, plus the common-law right-to-control test for all other industries. Penalties up to $20,000 per worker.",
+    "target_keywords": ["Maryland worker classification test", "Maryland Workplace Fraud Act", "Maryland independent contractor test"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

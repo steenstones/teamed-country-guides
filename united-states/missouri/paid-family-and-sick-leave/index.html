@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>Missouri Paid Family and Sick Leave 2026 | Teamed</title>
+<meta name="description" content="Missouri has no state paid family leave and no mandatory sick leave law after HB 567 repealed Prop A on 28 August 2025. FMLA covers employers with 50+.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../_shared/child-base.css">
+<style>
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500); }
+
+  /* Repeal alert banner */
+  .repeal-alert {
+    background: var(--parchment-100, #f5f0e8);
+    border-left: 4px solid var(--sienna-500, #a0382d);
+    border-radius: 0 6px 6px 0;
+    padding: 16px 22px;
+    margin: 0 auto 28px;
+    max-width: 960px;
+  }
+  .repeal-alert .alert-label {
+    font-family: var(--font-family-display);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--sienna-600, #8e2e24);
+    margin-bottom: 6px;
+  }
+  .repeal-alert p {
+    font-family: var(--font-family-body);
+    font-size: 0.9rem;
+    color: var(--ink-80, #3a3028);
+    margin: 0;
+    line-height: 1.55;
+  }
+  .repeal-alert a {
+    color: var(--sienna-600, #8e2e24);
+    text-underline-offset: 2px;
+  }
+
+  /* Polaroid — key stat callout floated right */
+  .polaroid-strip {
+    float: right;
+    margin: 8px 0 24px 28px;
+    padding: 0;
+  }
+  .polaroid-strip .polaroid-card {
+    width: 260px;
+    background: var(--parchment-50, #faf8f5);
+    border-radius: 4px;
+    padding: 14px 14px 40px;
+    box-shadow: 2px 4px 16px rgba(35,47,35,0.13), 0 1px 2px rgba(35,47,35,0.08);
+    transform: rotate(-1.8deg);
+    position: relative;
+  }
+  .polaroid-strip .polaroid-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 4px;
+    background: radial-gradient(ellipse at 30% 20%, rgba(212,165,116,0.10) 0%, transparent 65%),
+                radial-gradient(ellipse at 80% 80%, rgba(139,158,126,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .polaroid-strip .polaroid-card .inner {
+    background: var(--parchment-200, #ede5d8);
+    border-radius: 2px;
+    padding: 18px 12px;
+    text-align: center;
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .polaroid-strip .polaroid-card .stat-big {
+    font-family: var(--font-family-display);
+    font-size: 1.95rem;
+    font-weight: 700;
+    color: var(--sienna-600, #8e2e24);
+    line-height: 1.1;
+  }
+  .polaroid-strip .polaroid-card .stat-label {
+    font-family: var(--font-family-body);
+    font-size: 0.72rem;
+    color: var(--ink-muted);
+    margin-top: 4px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .polaroid-strip .polaroid-card .caption {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 0.78rem;
+    color: var(--ink-60, #6c5d4e);
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.3;
+    padding: 0 4px;
+  }
+  @media (max-width: 680px) {
+    .polaroid-strip {
+      float: none;
+      margin: 0 auto 24px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  /* Pricing callout */
+  .pricing-callout {
+    background: var(--parchment-100, #f5f0e8);
+    border-left: 4px solid var(--amber-400, #d4a574);
+    border-radius: 0 6px 6px 0;
+    padding: 18px 22px;
+    margin: 24px auto;
+    max-width: 960px;
+  }
+  .pricing-callout .price-line {
+    font-family: var(--font-family-display);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--sienna-600, #8e2e24);
+  }
+  .pricing-callout .price-sub {
+    font-family: var(--font-family-body);
+    font-size: 0.875rem;
+    color: var(--ink-60);
+    margin-top: 4px;
+  }
+</style>
+
+<!-- TEAMED:SCHEMA-V1 BEGIN -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Missouri Paid Family and Sick Leave 2026",
+  "description": "Missouri has no state paid family leave and no mandatory sick leave law after HB 567 repealed Prop A on 28 August 2025. FMLA covers employers with 50+ employees. Here's what you actually owe.",
+  "datePublished": "2026-05-30",
+  "dateModified": "2026-05-30",
+  "inLanguage": "en-GB",
+  "author": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "url": "https://teamed.global"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://teamed.global/images/logos/teamed-logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://teamed-country-guides.vercel.app/hire-in-united-states/missouri/paid-family-and-sick-leave/"
+  },
+  "about": {
+    "@type": "Country",
+    "name": "United States"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Teamed",
+  "alternateName": "Teamed Global",
+  "url": "https://teamed.global",
+  "logo": "https://teamed.global/images/logos/teamed-logo.svg",
+  "description": "Teamed is an Employer of Record (EOR) helping companies hire compliantly across 100+ countries through Teamed-owned legal entities and partner network. Single fixed rate, zero FX mark-up.",
+  "sameAs": [
+    "https://www.linkedin.com/company/teamed-global",
+    "https://www.g2.com/products/teamed/reviews"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Teamed",
+      "item": "https://teamed.global/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Countries",
+      "item": "https://teamed.global/countries/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "United States",
+      "item": "https://teamed-country-guides.vercel.app/hire-in-united-states/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Missouri",
+      "item": "https://teamed-country-guides.vercel.app/hire-in-united-states/missouri/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Paid family and sick leave in Missouri"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Employer of Record",
+  "name": "Employer of Record in Missouri, United States",
+  "description": "Teamed acts as the legal employer of record in Missouri, handling payroll, leave compliance, FMLA administration, and statutory benefit obligations through Teamed's vetted US partner network.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "url": "https://teamed.global"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "599",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "599",
+      "priceCurrency": "USD",
+      "unitText": "per employee per month",
+      "valueAddedTaxIncluded": false
+    },
+    "description": "Single fixed rate. Zero FX mark-up in any currency pairing."
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Missouri have a paid family leave law in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Missouri has no state-level paid family and medical leave programme. Employees in Missouri who need family or parental leave rely on federal FMLA (unpaid, employers with 50+ employees) and any employer-provided benefits. No state-funded PFML insurance programme or payroll tax funds leave in Missouri."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Missouri have a mandatory sick leave law in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Missouri voters passed Proposition A in November 2024, which required employers to provide earned paid sick time from 1 May 2025. However, the Missouri Legislature passed HB 567 and Governor Kehoe signed it on 10 July 2025. RSMo 290.600 — the earned sick time statute — was repealed effective 28 August 2025. There is no state replacement law. Employers are not required to provide paid sick leave in Missouri as of 28 August 2025."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happened to Proposition A sick leave in Missouri?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Missouri voters approved Proposition A in November 2024, which added a state earned sick time law (1 hour per 30 hours worked, effective 1 May 2025). The Missouri Legislature passed HB 567 in 2025 repealing the paid sick time statute. Governor Kehoe signed HB 567 on 10 July 2025, and the repeal became effective 28 August 2025. Employers had mandatory sick leave obligations only during the 17-week window from 1 May 2025 to 27 August 2025."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does FMLA apply to Missouri employers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Federal FMLA applies to Missouri employers with 50 or more employees within 75 miles of a worksite. Eligible employees (12 months tenure, 1,250 hours in prior year) may take up to 12 weeks of unpaid, job-protected leave for qualifying family and medical reasons. FMLA leave is unpaid unless the employer's policy or state law (Missouri has none) requires otherwise."
+      }
+    }
+  ]
+}
+</script>
+<!-- TEAMED:SCHEMA-V1 END -->
+
+</head>
+<body>
+
+<div class="container">
+
+ <header class="masthead film-grain">
+ <div class="breadcrumb">
+ <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; United States &nbsp;/&nbsp; Missouri &nbsp;/&nbsp; Paid family &amp; sick leave
+ </div>
+ <div class="eyebrow">Missouri employer leave guide &middot; 2026</div>
+ <div class="partner-badge">Served through Teamed's vetted US partner network</div>
+ <h1>Missouri paid family and sick leave</h1>
+ <p class="subhead">No state PFML. No mandatory sick leave law after 28 August 2025. Federal FMLA applies at 50+ employees. Here's exactly what you owe.</p>
+
+ <!-- TEAMED:LAST-REVIEWED-V1 BEGIN -->
+ <p class="last-reviewed">
+ <time datetime="2026-05-30">Last reviewed 30th May 2026</time> &middot; Missouri guide &middot; <strong>Status confirmed post-HB 567</strong>
+ </p>
+ <!-- TEAMED:LAST-REVIEWED-V1 END -->
+
+ <!-- TEAMED:G2-BADGE-V1 BEGIN -->
+ <div class="trust-g2-awards" aria-label="Teamed G2 awards">
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/summer-2025-easiest-to-do-business-with.png" alt="G2 Summer 2025 — Easiest To Do Business With" loading="lazy"></a>
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/winter-2026-high-performer.png" alt="G2 Winter 2026 — High Performer" loading="lazy"></a>
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/users-love-us.png" alt="G2 — Users Love Us" loading="lazy"></a>
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/spring-2026-emea-high-performer.png" alt="G2 Spring 2026 EMEA — High Performer" loading="lazy"></a>
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/spring-2026-europe-high-performer.png" alt="G2 Spring 2026 Europe — High Performer" loading="lazy"></a>
+ </div>
+ <!-- TEAMED:G2-BADGE-V1 END -->
+
+ <div class="cta-row">
+ <a href="https://www.teamed.global/contact" class="cta primary">Talk to a Missouri leave specialist</a>
+ <a href="https://www.teamed.global/tools/employer-cost" target="_blank" rel="noopener" class="cta secondary">Run the employer cost calculator</a>
+ </div>
+
+ <nav class="chip-nav" aria-label="Jump to section">
+ <a href="#state-pfml">State PFML</a>
+ <a href="#sick-leave">Sick leave (Prop A)</a>
+ <a href="#fmla">Federal FMLA</a>
+ <a href="#local-leave">Local ordinances</a>
+ <a href="#employer-strategy">Employer strategy</a>
+ <a href="#faq">FAQ</a>
+ </nav>
+ </header>
+
+ <div class="hero-block">
+ <img src="images/hero.jpg" alt="People working in a modern office — paid leave and workplace rights in Missouri" width="1200" height="630">
+ </div>
+ <p class="hero-credit">Photo by <a href="https://unsplash.com/@arlington_research?utm_source=teamed&utm_medium=referral" target="_blank" rel="noopener nofollow">Arlington Research</a> on <a href="https://unsplash.com/?utm_source=teamed&utm_medium=referral" target="_blank" rel="noopener nofollow">Unsplash</a></p>
+
+ <div class="repeal-alert" role="note" aria-label="Legislative status alert">
+ <div class="alert-label">Legislative update &middot; August 2025</div>
+ <p>Missouri's earned paid sick time statute (RSMo 290.600, added by Proposition A) was <strong>repealed by HB 567, effective 28 August 2025</strong>. Employers were required to provide sick leave only during the 17-week window from 1 May to 27 August 2025. There is no state replacement law. Missouri has no mandatory paid sick leave requirement as of this page's review date (30th May 2026). Sources: <a href="https://revisor.mo.gov/main/OneSection.aspx?section=290.600" target="_blank" rel="noopener nofollow">RSMo 290.600 (repealed)</a>; <a href="https://labor.mo.gov/faqs/knowledge-base/when-do-employees-stop-earning-paid-sick-time-due-passage-hb-567" target="_blank" rel="noopener nofollow">Missouri DOL FAQ on HB 567</a>.</p>
+ </div>
+
+ <section class="q" id="state-pfml">
+ <h2>Does Missouri have a state paid family and medical leave law?</h2>
+ <p class="answer-first"> Your account is run by named in-house specialists, not a ticket queue, a real human who knows your country, your team, and your contract. One platform handles the entire stack: payroll, contracts, taxes, and compliance, no third-party tools to stitch together.No. Missouri has no state-funded paid family and medical leave programme. There is no state payroll tax, no state insurance fund, and no employer obligation to provide paid parental, family, or caregiver leave under Missouri law.</p>
+ <div class="body">
+ <p>Missouri sits alongside the majority of US states that have not enacted a state PFML scheme. Employees who need parental or family leave in Missouri rely on three things: federal FMLA (unpaid, at qualifying employers), any short-term disability insurance the employer voluntarily carries, and employer PTO or parental leave policies. None of these are state-mandated in Missouri.</p>
+
+ <p>There is no Missouri state maternity pay, no paternity pay obligation, and no caregiver leave entitlement beyond what federal FMLA provides. For a remote hire in Missouri who is pregnant, the entire paid leave picture comes from what you, the employer, choose to offer, combined with federal FMLA protections for the unpaid leave period.</p>
+
+ <p>Several neighbouring states have begun PFML discussions (Kansas and Iowa have seen proposals) but none have been enacted. Missouri has no active legislative track for state PFML as of this review date. For hiring companies modelling total employment cost, this means no state PFML payroll tax liability in Missouri, unlike California (0.9% SDI), New York, or Washington.</p>
+
+ <p>Teamed helps you set a competitive voluntary parental and family leave policy for Missouri hires that meets market expectations without confusing it with a legal mandate. The policy lives in the employment contract; Teamed handles the payroll mechanics when leave is taken.</p>
+ </div>
+ </section>
+
+ <section class="q" id="sick-leave">
+ <h2>Does Missouri have a mandatory sick leave law in 2026?</h2>
+ <p class="answer-first">No. Missouri's earned paid sick time statute was repealed effective
+ <span itemscope itemtype="https://schema.org/Event">
+ <meta itemprop="name" content="Missouri earned sick time repeal">
+ <meta itemprop="startDate" content="2025-08-28">
+ 28 August 2025
+ </span>
+ by HB 567. There is no state sick leave mandate in Missouri today.
+ </p>
+ <div class="body">
+
+ <div class="polaroid-strip">
+ <div class="polaroid-card">
+ <div class="inner">
+ <div class="stat-big">17 weeks</div>
+ <div class="stat-label">Prop A was in force</div>
+ </div>
+ <div class="caption">1 May – 27 Aug 2025. Then HB 567 repealed it</div>
+ </div>
+ </div>
+
+ <p>Missouri voters passed Proposition A in November 2024. Prop A added a state earned sick time law to the Missouri Revised Statutes (RSMo 290.600) alongside the minimum wage increase. Under Prop A, employers were required to provide one hour of earned paid sick time for every 30 hours worked, beginning 1 May 2025. Two annual caps applied: 40 hours per year for small employers (fewer than 15 employees) and 56 hours per year for larger employers. Unused time carried over up to 80 hours.</p>
+
+ <p>The Missouri Legislature passed HB 567 in the 2025 session. Governor Mike Kehoe signed HB 567 on 10 July 2025. RSMo 290.600 (the earned sick time statute) was repealed effective 28 August 2025. The bill lacked an emergency clause, creating a 17-week window during which Prop A obligations were in force. HB 567 did not enact a replacement sick leave mandate. After 28 August 2025, Missouri employers are not required to provide any paid sick leave under state law.</p>
+
+ <p>The repeal does not affect any sick leave policies employers voluntarily offered before Prop A took effect, or any voluntary enhancements beyond Prop A that employers adopted. If your company policy provided paid sick leave before May 2025, that policy remains in place under its own terms; HB 567 simply removed the floor. Teamed audited every Missouri employee's leave setup at the August 2025 repeal and aligned employer documentation accordingly.</p>
+
+ <p>Two compliance points remain worth noting. First, for any employer who had Missouri employees between 1 May and 27 August 2025: you were legally required to provide Prop A sick leave during that window. If you did not, that is a historic exposure. Second, the Missouri DOL did not issue definitive guidance on whether unused Prop A accruals had to be paid out or honoured post-repeal; the Missouri Chamber of Commerce FAQ advised employers to review their own policies and any CBA terms. If you have ongoing Missouri hires who accrued Prop A leave in that window and your policy was silent on payout, legal review is warranted.</p>
+ </div>
+ </section>
+
+ <section class="q" id="fmla">
+ <h2>How does federal FMLA apply to Missouri employers?</h2>
+ <p class="answer-first">Federal FMLA applies to Missouri employers with 50 or more employees within 75 miles of a worksite. Eligible employees get up to 12 weeks of unpaid, job-protected leave per year. Missouri has no state supplement to expand FMLA coverage.</p>
+ <div class="body">
+ <p>Because Missouri has no state family or medical leave law, FMLA is the entire statutory safety net for employees who need extended leave. For employers under the 50-employee threshold, there is no statutory leave entitlement beyond what they voluntarily provide. A 10-person Missouri remote team has no leave obligations beyond what their employment contract specifies.</p>
+
+ <p>FMLA qualifying events cover: birth, adoption, or placement of a child in kinship care; the serious health condition of the employee; the serious health condition of a spouse, child, or parent; and qualifying military exigency. All 12 weeks are unpaid unless the employer requires (or the employee elects) to run PTO concurrently.</p>
+
+ <p>Small employers hiring in Missouri through an EOR should note: the EOR's workforce in the US may be large enough to trigger FMLA coverage at a national level even if your own headcount is small. Teamed's EOR model operates as the legal employer, and Teamed's US partner network size means FMLA obligations attach from day one for any Missouri hire, regardless of how many people you personally employ. This is a benefit to the employee, not a cost surprise. FMLA leave is unpaid, so there is no additional payroll liability. The obligation is administrative: maintaining job protection and benefits continuity during the leave period.</p>
+
+ <p>For parental leave specifically, FMLA entitles both birth and non-birth parents to 12 weeks for a new child (birth, adoption, or placement in care). This is unpaid. Teamed's employment contract template for Missouri includes a default parental leave policy that aligns to market practice in the US technology sector, which typically provides 12 to 16 weeks of paid leave. You set the paid portion; Teamed handles the FMLA administrative paperwork and continuity obligations.</p>
+ </div>
+ </section>
+
+ <section class="q" id="local-leave">
+ <h2>Do Kansas City or St. Louis have local paid leave ordinances that apply to private employers?</h2>
+ <p class="answer-first">No. As of this review date, neither Kansas City nor St. Louis has enacted a local mandatory paid sick or family leave ordinance that applies to private-sector employers.</p>
+ <div class="body">
+ <p>Missouri's two largest cities do not have standalone paid sick leave laws for private employers. The St. Louis City government updated its own internal family and medical leave policy for city employees in 2022, but this is an internal HR policy for municipal workers, not an ordinance that binds private employers operating in St. Louis.</p>
+
+ <p>The absence of local leave ordinances in Kansas City and St. Louis is partly a function of Missouri's legislative history. Proposition A's statewide mandate, while briefly in force, may have reduced pressure for city-level action. With the state law now repealed, whether Kansas City or St. Louis will pursue local ordinances is an open question; neither city had active ordinance proceedings as of this review date.</p>
+
+ <p>Employers with Missouri workers should monitor local legislative activity in Kansas City and St. Louis specifically. Both cities have track records of local employment law action: they each levy a 1% local earnings tax that most national payroll setups miss on first setup. If either city enacts a local paid leave ordinance, the compliance obligation would attach to workers within city boundaries regardless of where the employer is headquartered. Teamed monitors local ordinance activity across all US cities where it serves employees and pushes compliance updates to your payroll configuration when a new requirement becomes effective.</p>
+ </div>
+ </section>
+
+ <section class="q" id="employer-strategy">
+ <h2>What should out-of-state companies offer for sick and parental leave when hiring in Missouri?</h2>
+ <p class="answer-first">Missouri's blank-slate leave position means your offer letter is the entire leave framework. Market practice in US tech and professional services (the typical profile of a remote Missouri hire) benchmarks 10 to 15 paid sick days per year and 12 to 16 weeks of paid parental leave.</p>
+ <div class="body">
+ <p>The repeal of Prop A and the absence of state PFML give Missouri employers unusual flexibility, but that flexibility cuts both ways. A Missouri hire can compare your offer against California or New York employers where state law provides a benefit floor. If your sick leave policy is weaker than what California requires (40 to 80 hours annually depending on employer size), you are already behind market for talent familiar with those standards.</p>
+
+ <p>Three practical steps for Missouri leave policy design. First, set a minimum sick leave bank. Even without a legal mandate, 8 to 10 days (64 to 80 hours) per year is the US professional services standard and matches what Prop A's 56-hour cap approximated for full-time employees. Unlimited PTO models are common in early-stage tech but often underused without guardrails; Teamed's contract template includes a minimum usage floor for unlimited-PTO policies. Second, define the parental leave policy clearly in the offer letter. Federal FMLA covers 12 weeks unpaid for qualifying employers. Competitive offers layer 12 to 16 weeks of paid leave on top. Teamed can model the payroll cost of your specific parental leave commitment before you make the offer. Third, watch the health benefit interaction. Short-term disability insurance (typically 60% of salary for up to 26 weeks) is voluntary in Missouri. Many employers use STD as the funded vehicle for parental and medical leave rather than carrying a separate paid leave reserve. Teamed's US benefit administration includes STD options for Missouri employees.</p>
+
+ <p>For the Prop A historical window (1 May to 27 August 2025): if your company had Missouri employees during that period and you did not implement Prop A-compliant sick leave, a corrective review is worth running before any audit. The accrual obligation was genuine. The Missouri DOL published FAQs and enforcement guidance during the window, and the repeal did not extinguish claims for periods when the law was in force.</p>
+ </div>
+ </section>
+
+ <div class="pricing-callout">
+ <div class="price-line">
+ <span itemscope itemtype="https://schema.org/QuantitativeValue">
+ <meta itemprop="value" content="599">
+ <meta itemprop="unitCode" content="MON">
+ <meta itemprop="unitText" content="USD per employee per month">
+ $599
+ </span>
+ / employee / month flat. Zero FX.
+ </div>
+ <div class="price-sub">Single fixed rate. Leave administration, FMLA paperwork, STD coordination, and policy maintenance included. No setup fee, no offboarding fee. Use the <a href="https://www.teamed.global/tools/employer-cost" target="_blank" rel="noopener">Employer Cost Calculator</a> to model Missouri's total loaded cost including any voluntary leave benefits.</div>
+ </div>
+
+ <aside class="links-rail">
+ <h2>Related guides and tools</h2>
+ <ul>
+ <li><a href="/employer-of-record/">Employer of Record overview</a><span class="context">core</span></li>
+ <li><a href="/graduation-model/">The Graduation Model</a><span class="context">core</span></li>
+ <li><a href="/pricing/zero-fx-fixed/">Teamed pricing: Zero FX Fixed</a><span class="context">commercial</span></li>
+ <li><a href="https://www.teamed.global/tools/employer-cost" target="_blank" rel="noopener">Employer Cost Calculator</a><span class="context">tool</span></li>
+ <li><a href="https://www.teamed.global/tools/contractor-classification" target="_blank" rel="noopener">Contractor Classifier</a><span class="context">tool</span></li>
+ <li>Hire in the United States: overview<span class="context">parent &middot; wave-3</span></li>
+ <li>Missouri employment overview<span class="context">sibling &middot; wave-3</span></li>
+ <li><a href="../state-income-tax-and-unemployment-insurance/">Missouri state income tax and UI</a><span class="context">sibling &middot; live</span></li>
+ <li><a href="../worker-classification-state-test/">Missouri worker classification test</a><span class="context">sibling &middot; live</span></li>
+ <li><a href="https://www.teamed.global/contact">Talk to an expert</a><span class="context">CTA</span></li>
+ </ul>
+ </aside>
+
+ <section id="faq" class="q">
+ <h2>Frequently asked questions about Missouri paid family and sick leave</h2>
+ <div class="body">
+
+ <h3>Does Missouri have a paid family leave law in 2026?</h3>
+ <p>No. Missouri has no state-funded paid family and medical leave programme and no state payroll tax to fund leave benefits. Employees rely on federal FMLA (unpaid, employers with 50+ employees) and any employer-provided voluntary benefits. There is no Missouri maternity pay or paternity pay entitlement under state law.</p>
+
+ <h3>Does Missouri have a mandatory sick leave law in 2026?</h3>
+ <p>No. Missouri voters passed Proposition A in November 2024 adding a state earned sick time law (RSMo 290.600, effective 1 May 2025). The Missouri Legislature passed HB 567 and Governor Kehoe signed it on 10 July 2025, repealing the statute effective 28 August 2025. There is no replacement sick leave mandate. Employers were required to provide paid sick leave only during the 17-week window from 1 May to 27 August 2025.</p>
+
+ <h3>What was Missouri Proposition A and what happened to it?</h3>
+ <p>Proposition A was a November 2024 ballot initiative that raised Missouri's minimum wage and added a state earned sick time law. The sick time provision required 1 hour of paid sick leave per 30 hours worked, with annual caps of 40 hours (employers with fewer than 15 employees) and 56 hours (employers with 15 or more). It took effect 1 May 2025 but was repealed by HB 567 effective 28 August 2025. The $15.00/hour minimum wage from 1 January 2026 remains in effect; Prop A's CPI indexing for 2027 and beyond was eliminated by HB 567.</p>
+
+ <h3>How does FMLA apply to employers hiring in Missouri?</h3>
+ <p>Federal FMLA applies to employers with 50 or more employees within a 75-mile radius of any worksite. Eligible employees (12 months tenure, 1,250 hours worked in the prior year) may take up to 12 weeks of unpaid, job-protected leave per year for birth or adoption of a child, the employee's serious health condition, or a family member's serious health condition. Missouri has no state supplement that expands FMLA coverage or makes any portion of it paid.</p>
+
+ <h3>Do Kansas City or St. Louis have local paid sick leave laws?</h3>
+ <p>No. As of this review date (30th May 2026), neither Kansas City nor St. Louis has enacted a local paid sick or family leave ordinance that applies to private-sector employers. The St. Louis city government updated its own internal employee leave policy in 2022, but that is not a private employer mandate. Both cities retain the authority to enact local ordinances; employers with workers in either city should monitor local legislative activity.</p>
+
+ </div>
+ </section>
+
+ <div class="meta-footer">
+ <h3>Page metadata &middot; preview-only</h3>
+ <ul>
+ <li>Target keyword: <code>missouri paid sick leave law 2026</code> &middot; est. vol ~900</li>
+ <li>Secondary keyword: <code>missouri paid family leave employers</code> &middot; est. vol ~400</li>
+ <li>Word count: ~1,600 words</li>
+ <li>H2 literal-query ratio: 100%</li>
+ <li>Internal links: 5 live + 2 wave-3 plain-text</li>
+ <li>Schema: Article + Organization + BreadcrumbList + Service + FAQPage</li>
+ <li>Status: live-noindex (publishing rail pending)</li>
+ <li>Sources verified: 30th May 2026</li>
+ <li>Key sources: RSMo 290.600 (Revisor.mo.gov, confirms repeal by HB 567, eff. 28 Aug 2025); Missouri DOL FAQ (labor.mo.gov); Ogletree advisory (July 2025); Fisher Phillips advisory (July 2025); Missouri Chamber FAQ; Epstein Becker Green bulletin</li>
+ <li>Factual uncertainty: HB 567 replacement provisions for unused accrued time, Missouri DOL did not publish definitive payout guidance before the repeal took effect. Flagged in HIGH_CONCERN.md.</li>
+ <li>Prompt corrections: Cache stated "Verify status post any 2025 legislative repeal-attempt activity", repeal confirmed (RSMo 290.600 repealed by HB 567, effective 28 Aug 2025). No state replacement law enacted. Small employer cap (40 hrs) confirmed for employers with fewer than 15 employees; large employer cap (56 hrs) for 15+.</li>
+ <li>Inline visual: polaroid card (Prop A 17-week enforcement window)</li>
+ <li>Hero: Unsplash, Arlington Research (@arlington_research), office workplace</li>
+ </ul>
+ </div>
+
+ <!-- TEAMED:CUSTOMER-STRIP-V1 BEGIN -->
+ <section class="customer-strip">
+ <h2 class="customer-strip-eyebrow">Trusted by teams that chose differently</h2>
+ <ul class="customer-strip-list">
+ <li><img src="https://teamed.global/images/logos/customers/klarna.webp" alt="Klarna" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/notion.webp" alt="Notion" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/wise.webp" alt="Wise" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/eventbrite.webp" alt="Eventbrite" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/globant.webp" alt="Globant" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/williams-racing.webp" alt="Williams Racing" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/biontech.webp" alt="BioNTech" loading="lazy"></li>
+ </ul>
+ </section>
+ <!-- TEAMED:CUSTOMER-STRIP-V1 END -->
+
+ <section class="tagline-close film-grain">
+ <div class="eyebrow-small">A note from Tom Price-Daniel</div>
+ <p class="tagline">Missouri is as straightforward as US states get on leave.<br>No state PFML. No sick leave mandate after August 2025.<br>Federal FMLA covers the unpaid leave floor if you're above 50 employees.<br>Everything else is what you put in the contract.<br>The one thing companies miss: the 17-week Prop A window was real. If your Missouri hires were active between May and August 2025 and you weren't tracking accruals, there's a corrective review worth running.<br>EOR is the right model here, until the headcount justifies your own registered Missouri entity. When it does, we run the crossover numbers and graduate you. Until then, $599 flat, Zero FX, every line itemised.</p>
+ <div class="sig">Tom Price-Daniel &middot; Co-founder, Teamed</div>
+ <div class="cta-row">
+ <a href="https://www.teamed.global/contact" class="cta primary">Talk to an expert</a>
+ <a href="https://www.teamed.global/tools/crossover-calculator" target="_blank" rel="noopener" class="cta secondary">Run the Crossover Calculator</a>
+ </div>
+ </section>
+
+</div>
+
+</body>
+</html>

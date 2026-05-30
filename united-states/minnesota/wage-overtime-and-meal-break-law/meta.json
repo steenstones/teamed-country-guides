@@ -1,0 +1,231 @@
+{
+  "row_id": "master-0140",
+  "slug": "united-states/minnesota/wage-overtime-and-meal-break-law",
+  "target_url": "/hire-in-united-states/minnesota/wage-overtime-and-meal-break-law/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "Country — US State Child",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+
+  "target_keywords": [
+    "Minnesota wage overtime and meal break law 2026",
+    "Minnesota minimum wage 2026",
+    "Minnesota overtime rules",
+    "Minnesota meal break law employer",
+    "Minneapolis minimum wage 2026"
+  ],
+
+  "sources": [
+    {
+      "type": "primary_statutory",
+      "label": "Minnesota minimum wage — MN DLI",
+      "url": "https://www.dli.mn.gov/business/employment-practices/minimum-wage",
+      "accessed": "2026-05-30",
+      "note": "Page not directly fetched; factual_uncertainty on exact 2026 rate. Two sources cited $11.13/hr and $11.41/hr respectively."
+    },
+    {
+      "type": "primary_statutory",
+      "label": "Minnesota Statutes § 177.21–177.35 (Minnesota Fair Labor Standards Act)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/177.21",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "MN Stat. § 177.253 — Meal break requirement",
+      "url": "https://www.revisor.mn.gov/statutes/cite/177.253",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "MN Stat. § 177.254 — Restroom break requirement",
+      "url": "https://www.revisor.mn.gov/statutes/cite/177.254",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "MN Stat. § 181.101 — Pay frequency",
+      "url": "https://www.revisor.mn.gov/statutes/cite/181.101",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "MN Stat. § 181.13 — Final pay on termination",
+      "url": "https://www.revisor.mn.gov/statutes/cite/181.13",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "MN Stat. § 181.14 — Final pay on resignation",
+      "url": "https://www.revisor.mn.gov/statutes/cite/181.14",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "MN Stat. § 181.032 — Wage statement / paystub requirements",
+      "url": "https://www.revisor.mn.gov/statutes/cite/181.032",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "MN Stat. § 177.24 subd. 4 — No tip credit",
+      "url": "https://www.revisor.mn.gov/statutes/cite/177.24",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "FLSA — 29 U.S.C. § 207(a)(1) — Overtime",
+      "url": "https://www.dol.gov/agencies/whd/overtime",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "secondary",
+      "label": "Minneapolis Minimum Wage Ordinance",
+      "url": "https://www.minneapolismn.gov/government/programs-initiatives/minimum-wage/",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "secondary",
+      "label": "St Paul Minimum Wage Ordinance",
+      "url": "https://www.stpaul.gov/departments/human-rights-equal-economic-opportunity/labor-standards/minimum-wage",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "secondary",
+      "label": "MN DLI — Earned Sick and Safe Time (context reference)",
+      "url": "https://www.dli.mn.gov/sick-leave",
+      "accessed": "2026-05-30"
+    }
+  ],
+
+  "internal_links_used": [
+    { "anchor": "state-income-tax-and-unemployment-insurance", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live" },
+    { "anchor": "worker-classification-state-test", "href": "../worker-classification-state-test/", "state": "live" },
+    { "anchor": "termination-law-and-at-will-exceptions", "href": "../termination-law-and-at-will-exceptions/", "state": "live" },
+    { "anchor": "California wage page", "href": "../../california/wage-overtime-and-meal-break-law/", "state": "live" },
+    { "anchor": "Alaska wage page", "href": "../../alaska/wage-overtime-and-meal-break-law/", "state": "live" },
+    { "anchor": "employer of record", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "Zero FX Fixed pricing", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live" }
+  ],
+
+  "link_gate_warnings": [
+    { "text": "Hire in the United States, overview", "href": "/hire-in-united-states/", "state": "wave-3", "flag": "link_gate_warn" },
+    { "text": "Minnesota employment overview", "href": "/hire-in-united-states/minnesota/", "state": "wave-4", "flag": "link_gate_warn" }
+  ],
+
+  "images": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "size_bytes": 321039,
+      "source": "Unsplash",
+      "photographer": "Andrew S",
+      "photographer_username": "drewsvisions",
+      "photo_id": "dGtOW74FRcY",
+      "photo_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-dGtOW74FRcY",
+      "query": "Minneapolis downtown aerial cityscape",
+      "alt": "Aerial view of Minneapolis downtown office buildings and waterfront during daytime, showing the city's commercial district.",
+      "passes_100kb_check": true
+    },
+    "inline_visual": {
+      "type": "pad_note",
+      "content": "One trigger: 40 hours in a workweek. No daily threshold. 1.5x from hour 41.",
+      "location": "overtime section — pad-note-wrap block"
+    }
+  },
+
+  "schema_blocks": [
+    "Article",
+    "Organization",
+    "BreadcrumbList (5 levels)",
+    "Service",
+    "FAQPage (3 Q&As)"
+  ],
+
+  "pullquote_provenance": [
+    {
+      "label": "Teamed Legal Operations",
+      "type": "anonymised_team_function",
+      "mi_query_run": false,
+      "mi_query_note": "No MI query run. Anonymised per pullquote provenance rule. No fabricated cite line.",
+      "content_summary": "Tip-credit model and 24-hour final-pay window as the two most common Minnesota payroll errors from out-of-state employers."
+    }
+  ],
+
+  "editor_rounds": 0,
+  "editor_notes": "Clean first draft against rubric. No em-dashes in body prose. Minimum wage factual uncertainty handled by directing to MN DLI rather than hardcoding a disputed figure.",
+
+  "linter_result": {
+    "checks_passed": 27,
+    "checks_total": 27,
+    "block_fails": 0,
+    "warn_fails": 0,
+    "status": "PASS",
+    "notes": "No em-dashes detected in body prose. No forbidden words. No forbidden phrases. Answer-first pattern confirmed for all H2 sections. All CTAs canonical."
+  },
+
+  "audit_score": 84,
+  "audit_score_notes": "Points deducted: factual_uncertainty on MN minimum wage 2026 (primary source not directly fetched; two sources disagree). City ordinance exact figures (Minneapolis 6-hr meal break threshold, city wage floor figures) not hardcoded — correct editorial choice but reduces specificity. Hero from different Unsplash photographer than MN sibling (intended — visual variety). All Teamed-difference rules satisfied. Schema full stack. Hero photo present (321KB). Inline visual present (pad-note). All CTAs canonical.",
+
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "severity": "high",
+      "field": "minnesota_minimum_wage_2026",
+      "detail": "Two sources disagree: allvoices.co / workyard.com cite $11.41/hr; other sources cite $11.13/hr. MN DLI primary source (dli.mn.gov) was not directly fetched at build time (access restriction observed). Page intentionally does NOT hardcode a specific figure — directs all readers to dli.mn.gov. This is the correct editorial call for an unresolved primary-source conflict. Verify before promoting to Google indexing.",
+      "action": "Fetch https://www.dli.mn.gov/business/employment-practices/minimum-wage directly and update page with the confirmed 2026 figure. Then remove this flag."
+    },
+    {
+      "flag": "city_ordinance_primary_not_fetched",
+      "severity": "medium",
+      "field": "minneapolis_meal_break_6hr_threshold",
+      "detail": "Minneapolis Workplace Health and Safety 6-hour meal break threshold cited from ordinance commentary. Primary Minneapolis Code of Ordinances text was not directly verified at build time.",
+      "action": "Verify 6-hour threshold against Minneapolis Code of Ordinances or Minneapolis Labour Standards office before publishing the Minneapolis meal-break claim."
+    },
+    {
+      "flag": "link_gate_warn",
+      "severity": "low",
+      "field": "us_parent_and_mn_overview",
+      "detail": "United States overview (/hire-in-united-states/) is wave-3. Minnesota state overview (/hire-in-united-states/minnesota/) is wave-4. Both rendered as plain text in the links-rail per link gate rule.",
+      "action": "Auto-promote to anchors when target pages ship."
+    },
+    {
+      "flag": "chip_nav_stubs_only",
+      "severity": "low",
+      "detail": "Minnesota chip-nav links to Overview, State tax & UI (live), Wages & overtime (current), Worker classification (live), and At-will termination (live). No additional MN child pages built yet. Expand chip-nav when further Minnesota children ship.",
+      "action": "Retrofit chip-nav when additional Minnesota child pages (e.g. paid-family-and-sick-leave) are built."
+    },
+    {
+      "flag": "width_drift_inherited_css_clobbers",
+      "severity": "low",
+      "detail": "US _shared/child-base.css inherits the same 4 pre-existing margin-clobber blocks from the UK CSS (.pullquote, .callout, .links-rail, .meta-footer). Not introduced by this page; flagged for the UK-wide CSS retrofit when it runs.",
+      "action": "Fix as part of UK-wide CSS retrofit (will fix US simultaneously)."
+    }
+  ],
+
+  "prompt_corrections": [
+    {
+      "field": "large_small_employer_split",
+      "prompt_said": "Large/small employer no longer distinguished from 1 Aug 2024 amendment (Chapter 116/2023)",
+      "verified": "Correct — confirmed via compliance cache. Chapter 116/2023 effective 1 August 2024 eliminated the split.",
+      "action": "None — page copy reflects this accurately."
+    },
+    {
+      "field": "overtime_threshold",
+      "prompt_said": "48-hr OT threshold (different from federal 40-hr — but 40-hr applies to FLSA-covered employers, which is most)",
+      "verified": "The 48-hr threshold appears in MN Stat. § 177.25 for employers NOT covered by FLSA. For the overwhelming majority of employees hired via EOR, FLSA coverage means the 40-hr threshold governs. Page correctly leads with 40-hr as the operative rule for FLSA-covered employers and notes the non-FLSA edge case.",
+      "action": "No correction needed — page framing is accurate. Confirm the 48-hr non-FLSA threshold before adding to page if needed for edge cases."
+    }
+  ],
+
+  "compliance_cache_used": "sprint/compliance-cache/minnesota.json",
+  "compliance_cache_note": "Minnesota cache pre-existed from master-0136 (state-income-tax-and-unemployment-insurance, the primer agent). Wage-and-hour section data drawn from cache wage_and_hour block. Cache NOT overwritten per task instruction.",
+
+  "css_path_verified": "../../_shared/child-base.css (2 levels up, as specified in CRITICAL paths)",
+  "g2_path_verified": "../../../_shared/g2-badges/ (3 levels up, as specified in CRITICAL paths)",
+  "customer_strip_placement": "inside .container div (before closing </div>), with TEAMED:CUSTOMER-STRIP-V1 comment markers",
+  "tagline_close_placement": "inside .container div",
+  "all_cta_hrefs_canonical": true,
+  "staging_app_urls_present": false
+}

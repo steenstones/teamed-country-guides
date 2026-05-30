@@ -1,0 +1,107 @@
+{
+  "row_id": "master-0166",
+  "slug": "united-states/nevada/state-income-tax-and-unemployment-insurance",
+  "page_title": "State income tax and unemployment insurance — Nevada",
+  "target_url": "/hire-in-united-states/nevada/state-income-tax-and-unemployment-insurance/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+
+  "target_keywords": [
+    "nevada state income tax",
+    "nevada unemployment insurance employer",
+    "nevada modified business tax 2026",
+    "nevada employer payroll taxes"
+  ],
+
+  "audit_score": 90,
+  "audit_score_notes": "27/27 linter checks passing. Deductions: factual_uncertainty on UI experience rate range (DETR 2026 schedule unconfirmed as of Bloomberg Tax Sep 2025 report; range consistent with prior years). All other statutory data sourced from primary Nevada statutes, DETR, and Nevada Dept of Taxation.",
+
+  "high_concern_flags": 1,
+  "flags": [
+    {
+      "flag": "factual_uncertainty",
+      "field": "ui_experience_rate_range",
+      "detail": "Nevada UI experience rate range 0.30%–5.40% sourced from OnPay. DETR had not published official 2026 rate schedule at Bloomberg Tax September 2025 report date. Range is consistent with prior years. Verify against DETR annual rate notice when published.",
+      "sources": [
+        "https://onpay.com/payroll/calculator-tax-rates/nevada/",
+        "https://news.bloombergtax.com/payroll/nevada-announces-2026-unemployment-taxable-wage-base"
+      ]
+    }
+  ],
+
+  "prompt_correction": null,
+
+  "sources": [
+    { "url": "https://www.leg.state.nv.us/nrs/NRS-363B.html", "label": "NRS 363B — Modified Business Tax", "type": "primary_statute" },
+    { "url": "https://www.leg.state.nv.us/nrs/nrs-608.html", "label": "NRS Chapter 608 — Compensation, Wages and Hours", "type": "primary_statute" },
+    { "url": "https://detr.nv.gov/Page/UI_Tax", "label": "Nevada DETR UI Tax information", "type": "government" },
+    { "url": "https://news.bloombergtax.com/payroll/nevada-announces-2026-unemployment-taxable-wage-base", "label": "Bloomberg Tax — Nevada 2026 UI wage base", "type": "trade_press" },
+    { "url": "https://onpay.com/payroll/calculator-tax-rates/nevada/", "label": "OnPay Nevada payroll tax rates 2026", "type": "vendor_reference" },
+    { "url": "https://nevada.public.law/statutes/nrs_608.0155", "label": "NRS 608.0155 — worker classification 123 test", "type": "primary_statute" },
+    { "url": "https://law.justia.com/codes/nevada/chapter-608/statute-608-040/", "label": "NRS 608.040 — final pay penalty", "type": "primary_statute" },
+    { "url": "https://www.nevadaemployers.org/2026-nevada-labor-law-update-what-employers-must-know/", "label": "Nevada Employers Association 2026 update", "type": "trade_association" },
+    { "url": "https://www.sixfifty.com/blog/nevada-paid-sick-leave-laws-and-requirements/", "label": "SixFifty — Nevada SB 312 paid leave", "type": "legal_reference" },
+    { "url": "https://advanstaff.com/articles/important-advisory-upcoming-changes-to-nevada-workers-compensation-premiums/", "label": "SB 317 workers comp cap change Oct 2026", "type": "industry_advisory" }
+  ],
+
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live" },
+    { "anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "state": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "state": "live" },
+    { "anchor": "Hire in the United States: overview", "href": "/hire-in-united-states/", "state": "wave-3", "rendered": "plain-text" },
+    { "anchor": "Nevada employment overview", "href": "/hire-in-united-states/nevada/", "state": "wave-3", "rendered": "plain-text" }
+  ],
+
+  "editor_rounds": 0,
+  "linter_result": "pass",
+  "linter_checks": "27/27",
+  "linter_block_fails": 0,
+  "linter_warn_fails": 0,
+
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "neighbour_links_note": "wave-3 sibling links (Nevada employment overview, US parent) will auto-promote to <a> when those pages ship"
+  },
+
+  "compliance_cache": "sprint/compliance-cache/nevada.json",
+  "compliance_cache_role": "primer",
+  "compliance_cache_written_by": "master-0166",
+
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 229262,
+    "source": "Unsplash",
+    "photographer": "David Vives",
+    "photographer_username": "davidvives",
+    "photo_url": "https://unsplash.com/photos/time-lapse-photography-of-city-during-night-time-NdBKbi1XwGw"
+  },
+
+  "inline_visual": {
+    "type": "polaroid-card",
+    "content": "MBT rate callout — 1.17% on quarterly wages above $50,000, NRS 363B. MBT wage comparison program Jan 2026.",
+    "implementation": "HTML+CSS, no image generation required"
+  },
+
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "schema_valid": true,
+
+  "css_path": "../../_shared/child-base.css",
+  "g2_badge_path": "../../../_shared/g2-badges/",
+  "customer_strip_inside_container": true,
+  "tagline_close_inside_container": true,
+
+  "pullquote": {
+    "type": "tom-bylined",
+    "mi_query_run": false,
+    "reason": "Tom-bylined editorial pullquote in tagline-close section. No Joanna/Paulina/Antony named individual pullquote. MI query not required for Tom voice."
+  }
+}

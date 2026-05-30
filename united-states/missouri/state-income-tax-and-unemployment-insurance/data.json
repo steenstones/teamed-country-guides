@@ -1,0 +1,138 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Missouri",
+    "slug": "united-states/missouri/state-income-tax-and-unemployment-insurance",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "hero": {
+    "headline": "Missouri state income tax and unemployment insurance",
+    "subhead": "4.7% top rate, $9,000 UI wage base — plus the KC and St. Louis 1% local tax most payroll setups miss.",
+    "primary_cta": { "label": "Talk to a Missouri specialist", "href": "https://www.teamed.global/contact" },
+    "secondary_cta": { "label": "Run the employer cost calculator", "href": "https://www.teamed.global/tools/employer-cost" }
+  },
+  "at_a_glance": {
+    "currency": "USD",
+    "language": "English",
+    "payroll_frequency": "Biweekly / semi-monthly (common)",
+    "minimum_wage_2026": "$15.00/hour",
+    "top_income_tax_rate": "4.7%",
+    "ui_wage_base_2026": "$9,000",
+    "new_employer_ui_rate": "2.376%",
+    "local_earnings_tax": "1% (Kansas City and St. Louis city only)",
+    "at_will": "Yes",
+    "verified_date": "2026-05-30"
+  },
+  "income_tax": {
+    "question": "What is Missouri's state income tax rate for employer withholding in 2026?",
+    "answer_first": "Missouri's top income tax rate is 4.7% in 2026. Eight progressive brackets apply, starting at 0% on the first ~$1,313 of Missouri taxable income.",
+    "top_rate": "4.7%",
+    "bracket_count": 8,
+    "brackets": [
+      { "from": 0, "to": 1313, "rate": "0%" },
+      { "from": 1313, "to": 2626, "rate": "1.5%" },
+      { "from": 2626, "to": 3939, "rate": "2.0%" },
+      { "from": 3939, "to": 5252, "rate": "2.5%" },
+      { "from": 5252, "to": 6565, "rate": "3.0%" },
+      { "from": 6565, "to": 7878, "rate": "3.5%" },
+      { "from": 7878, "to": 9191, "rate": "4.0%" },
+      { "from": 9191, "to": null, "rate": "4.7%" }
+    ],
+    "glide_path": "SB 3 (2022): 4.95% (2023) → 4.8% (2024) → 4.7% (2025/2026). Further reductions to 4.5% contingent on revenue triggers not yet met.",
+    "standard_deduction": {
+      "single": 15750,
+      "married_filing_joint": 31500,
+      "head_of_household": 23625
+    },
+    "supplemental_rate": "4.7% flat (optional method)",
+    "capital_gains": "100% subtraction from Missouri AGI (effective 1 Jan 2025)",
+    "statute": "RSMo § 143.011",
+    "source_url": "https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/"
+  },
+  "ui_tax": {
+    "question": "What is Missouri's unemployment insurance tax rate and wage base for 2026?",
+    "answer_first": "Missouri's UI taxable wage base dropped to $9,000 for 2026, down $500 from 2025. New employers pay 2.376%.",
+    "wage_base_2026": 9000,
+    "wage_base_2025": 9500,
+    "new_employer_rate": "2.376%",
+    "new_employer_rate_nonprofit": "1.0%",
+    "experience_rate_range": { "min": "0.0%", "max": "6.0%" },
+    "max_rate_surcharge": "Up to 1.5%",
+    "cra_adjustment": "±10%/20%/30% based on Trust Fund balance",
+    "automation_adjustment": "0.020% of taxable wages",
+    "futa_credit": "5.4% (effective federal rate 0.6%)",
+    "portal": "uinteract.labor.mo.gov",
+    "statute": "RSMo § 288.120 et seq.",
+    "source_url": "https://labor.mo.gov/des/employers/tax-rates"
+  },
+  "local_earnings_tax": {
+    "question": "Do Missouri employers need to withhold local earnings taxes?",
+    "answer_first": "Yes — if any employee works in Kansas City or St. Louis city. Both levy a 1% earnings tax that employers must withhold and remit separately from state tax.",
+    "kansas_city": "1% on wages earned within KC city limits (residents and non-residents)",
+    "st_louis_city": "1% on wages earned within St. Louis city limits only",
+    "st_louis_county": "No earnings tax",
+    "renewal": "Five-year voter approval (Proposition A, 2010)"
+  },
+  "wage_hour": {
+    "question": "What are Missouri's wage, overtime, and worker classification rules?",
+    "answer_first": "Missouri's minimum wage is $15.00 per hour from 1st January 2026, up from $13.75 in 2025. Overtime kicks in at 40 hours per week at 1.5x the regular rate.",
+    "minimum_wage_2026": "$15.00/hour",
+    "minimum_wage_2025": "$13.75/hour",
+    "overtime_threshold": "40 hours/week",
+    "overtime_rate": "1.5x regular rate",
+    "overtime_statute": "RSMo § 290.505",
+    "at_will": true,
+    "classification_test": "IRS 20-Factor Test (not ABC test)",
+    "misclassification_penalty": "$50–$1,000 per day per worker",
+    "final_wages": "Due at termination; 7-day certified-mail demand; up to 60-day penalty wage on non-payment",
+    "wage_reduction_notice": "30 days written advance notice"
+  },
+  "good_to_know": {
+    "question": "What do out-of-state companies need to know before hiring in Missouri?",
+    "answer_first": "Missouri's glide-path tax cuts attract talent, but the KC and St. Louis local earnings taxes, plus the UI wage base reduction, are the two numbers most payroll setups get wrong in the first quarter.",
+    "body": "Three things that catch first-time Missouri employers off guard. The UI wage base fell to $9,000 for 2026 — any model built on 2025's $9,500 overstates cost. Kansas City's 1% earnings tax is a registration requirement, not just a withholding line; most national payroll processors miss it on initial setup for new-to-Missouri companies. And the flat-tax proposals in the Missouri legislature are not yet law — plan for 4.7% until enacted."
+  },
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live", "context": "core" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "status": "live", "context": "commercial" },
+    { "anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "status": "live", "context": "tool" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "status": "live", "context": "tool" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "status": "live", "context": "tool" }
+  ],
+  "faq_schema": [
+    {
+      "q": "What is Missouri's state income tax rate for employers in 2026?",
+      "a": "Missouri uses eight progressive brackets in 2026, from 0% on the first ~$1,313 to 4.7% on income above ~$9,191. This is the third reduction under SB 3 (2022); the rate was 4.95% in 2023, 4.8% in 2024, and 4.7% from 2025 onward. Further cuts to 4.5% are contingent on revenue triggers not yet met."
+    },
+    {
+      "q": "What is Missouri's unemployment insurance wage base in 2026?",
+      "a": "Missouri's UI taxable wage base is $9,000 per employee for 2026, down $500 from the 2025 figure of $9,500. At the new employer rate of 2.376%, maximum annual UI cost per employee is $214.08 in 2026."
+    },
+    {
+      "q": "What is the new employer UI rate in Missouri for 2026?",
+      "a": "New employers in Missouri are assigned 2.376% for 2026 (the higher of the industry-average rate for their division or 2.7%). Nonprofit 501(c)(3) organisations pay 1.0%. After two full calendar years of UI liability, employers qualify for experience-rated assessment between 0.0% and 6.0%."
+    },
+    {
+      "q": "Does Missouri have a local earnings tax employers must withhold?",
+      "a": "Yes — Kansas City and St. Louis city each levy a 1% earnings tax on wages earned within city limits. Employers with workers inside either boundary must register separately and withhold accordingly. Suburban St. Louis County employees are not subject."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_credit": "Photo by Tiffany Cade (@tcade) on Unsplash",
+    "inline_visual": "polaroid-card (UI wage base callout)"
+  },
+  "meta": {
+    "title": "Missouri State Income Tax and Unemployment Insurance 2026 | Teamed",
+    "description": "Missouri employer withholding 2026: 4.7% top rate, 8 brackets, $9,000 UI wage base (down from $9,500), new employer rate 2.376%. Plus KC and St. Louis 1% local tax.",
+    "target_keywords": [
+      "missouri state income tax employer withholding 2026",
+      "missouri unemployment insurance tax rate 2026",
+      "missouri ui wage base 2026"
+    ],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

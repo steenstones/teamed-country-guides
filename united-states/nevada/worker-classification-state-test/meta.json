@@ -1,0 +1,139 @@
+{
+  "row_id": "master-0168",
+  "slug": "united-states/nevada/worker-classification-state-test",
+  "page_title": "Worker classification state test — Nevada",
+  "target_url": "/hire-in-united-states/nevada/worker-classification-state-test/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-31",
+  "sources_verified_at": "2026-05-31",
+
+  "target_keywords": [
+    "nevada worker classification test",
+    "NRS 608.0155 independent contractor",
+    "nevada independent contractor test 2026",
+    "nevada contractor misclassification penalties"
+  ],
+
+  "audit_score": 88,
+  "audit_score_notes": "2 provisional flags: (1) SB 224 (2023) final enrolled form not independently verified against enacted text — $2,500/$5,000 civil penalty enhancement sourced from secondary legal commentary; (2) NRS 612.085 ESD six-factor formulation derived from statute exemption structure and secondary commentary, not DETR primary guidance. All NRS 608.0155 three-part test criteria sourced from primary statute. Hero reused from sibling page (229KB, valid JPEG, passes ≥100KB requirement).",
+
+  "high_concern_flags": 2,
+  "flags": [
+    {
+      "flag": "factual_uncertainty",
+      "field": "sb224_civil_penalty_enhancement_final_form",
+      "detail": "SB 224 (2023) added civil penalty enhancements for worker misclassification in Nevada. The $2,500 (first offence) / $5,000 (subsequent) per-worker framework predates SB 224 under NRS 608.0155. SB 224 layered additional enforcement mechanisms. Final enrolled text of SB 224 not independently verified; penalty amounts and enhancement provisions sourced from Nevada Labor Commissioner secondary guidance and legal commentary.",
+      "sources": [
+        "https://nevada.public.law/statutes/nrs_608.0155",
+        "https://www.shouselaw.com/nv/labor/independent-contractor-misclassification/"
+      ]
+    },
+    {
+      "flag": "factual_uncertainty",
+      "field": "nrs_612_085_esd_six_factor_formulation",
+      "detail": "The Nevada ESD six-factor test for UI classification is derived from the statutory exemption structure in NRS 612.085 and secondary legal commentary. The exact six-factor enumeration (particularly factors 4-6 beyond the NRS 608.0155 overlap) should be confirmed against published DETR guidance or enrolled statutory text before relying on specific factor wording.",
+      "sources": [
+        "https://www.leg.state.nv.us/nrs/nrs-612.html",
+        "https://detr.nv.gov/Page/UI_Tax"
+      ]
+    }
+  ],
+
+  "prompt_correction": null,
+
+  "sources": [
+    { "url": "https://nevada.public.law/statutes/nrs_608.0155", "label": "NRS 608.0155 — worker classification 3-part test", "type": "primary_statute" },
+    { "url": "https://law.justia.com/codes/nevada/chapter-608/statute-608-0155/", "label": "NRS 608.0155 (Justia)", "type": "primary_statute" },
+    { "url": "https://www.leg.state.nv.us/nrs/nrs-608.html", "label": "NRS Chapter 608 — Compensation, Wages and Hours", "type": "primary_statute" },
+    { "url": "https://www.leg.state.nv.us/nrs/nrs-612.html", "label": "NRS Chapter 612 — Employment Security", "type": "primary_statute" },
+    { "url": "https://www.leg.state.nv.us/nrs/nrs-624.html", "label": "NRS Chapter 624 — Contractors (NSCB)", "type": "primary_statute" },
+    { "url": "https://www.leg.state.nv.us/nrs/nrs-616b.html", "label": "NRS Chapter 616B — Workers Compensation", "type": "primary_statute" },
+    { "url": "https://detr.nv.gov/Page/UI_Tax", "label": "Nevada DETR UI Tax — employer information", "type": "government" },
+    { "url": "https://labor.nv.gov/", "label": "Nevada Labor Commissioner", "type": "government" },
+    { "url": "https://www.irs.gov/pub/irs-utl/cm-20-16-rev-rul-87-41.pdf", "label": "IRS Rev. Rul. 87-41 — 20-factor common-law test", "type": "federal_authority" },
+    { "url": "https://www.shouselaw.com/nv/labor/independent-contractor-misclassification/", "label": "Shouselaw — Nevada contractor misclassification", "type": "legal_reference" }
+  ],
+
+  "internal_links_used": [
+    { "anchor": "Nevada state income tax and unemployment insurance", "href": "/united-states/nevada/state-income-tax-and-unemployment-insurance/", "state": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live" },
+    { "anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "state": "live" },
+    { "anchor": "Hire in the United States: overview", "href": "/hire-in-united-states/", "state": "wave-3", "rendered": "plain-text" },
+    { "anchor": "Nevada employment overview", "href": "/hire-in-united-states/nevada/", "state": "wave-3", "rendered": "plain-text" }
+  ],
+
+  "editor_rounds": 0,
+  "linter_result": "pass",
+  "linter_checks": "27/27",
+  "linter_block_fails": 0,
+  "linter_warn_fails": 0,
+
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "neighbour_links_note": "wave-3 sibling links (Nevada employment overview, US parent) will auto-promote to <a> when those pages ship"
+  },
+
+  "compliance_cache": "sprint/compliance-cache/nevada.json",
+  "compliance_cache_role": "child-consumer",
+  "compliance_cache_written_by": "master-0166",
+
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 229262,
+    "source": "Unsplash",
+    "photographer": "David Vives",
+    "photographer_username": "davidvives",
+    "photo_url": "https://unsplash.com/photos/time-lapse-photography-of-city-during-night-time-NdBKbi1XwGw",
+    "note": "Shared with sibling page master-0166 (state-income-tax-and-unemployment-insurance). Both pages cover Nevada; Las Vegas cityscape is appropriate state-level imagery for both."
+  },
+
+  "inline_visuals": [
+    {
+      "type": "test-matrix-card",
+      "content": "Six-row card mapping which classification test applies to each context: wage/hour (NRS 608.0155), minimum wage (economic realities), UI (NRS 612.085 ESD), workers comp (NRS 616B common-law), construction (NRS 624), federal payroll tax (IRS 20-factor). Floated right in section 1.",
+      "implementation": "HTML+CSS, no image generation required"
+    },
+    {
+      "type": "penalty-strip",
+      "content": "Visual callout: $2,500 first offence / $5,000 subsequent offence per misclassified worker. NRS 608.0155 civil penalties, SB 224 (2023) enhancements. Amber/orange treatment with statute citation and provisional flag.",
+      "implementation": "HTML+CSS, no image generation required"
+    }
+  ],
+
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "schema_valid": true,
+
+  "css_path": "../../_shared/child-base.css",
+  "g2_badge_path": "../../../_shared/g2-badges/",
+  "customer_strip_inside_container": true,
+  "tagline_close_inside_container": true,
+
+  "pullquote": {
+    "type": "tom-bylined",
+    "mi_query_run": false,
+    "reason": "Tom-bylined editorial tagline-close. No Joanna/Paulina/Antony named individual pullquote on this page. MI query not required for Tom voice."
+  },
+
+  "word_count_approx": 2800,
+  "h2_literal_query_ratio": "100%",
+  "sections": [
+    "which-test",
+    "nrs-608-test",
+    "ui-test",
+    "irs-test",
+    "construction",
+    "sb224-penalties",
+    "vs-other-states",
+    "red-flags",
+    "faq"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "row_id": "master-0148",
+  "slug": "united-states/missouri/state-income-tax-and-unemployment-insurance",
+  "target_url": "/hire-in-united-states/missouri/state-income-tax-and-unemployment-insurance/",
+  "page_title": "State income tax and unemployment insurance — Missouri",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "generated_at": "2026-05-30T00:00:00Z",
+  "sources_verified_at": "2026-05-30",
+  "sources": [
+    {
+      "url": "https://dor.mo.gov/forms/4282_2026.pdf",
+      "label": "Missouri Employer's Tax Guide Form 4282 (Revised 12-2025)",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/",
+      "label": "Missouri DOR — Individual Income Tax Year Changes 2025",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://labor.mo.gov/des/employers/tax-rates",
+      "label": "Missouri Division of Employment Security — UI Tax Rates",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://labor.mo.gov/dls/minimum-wage",
+      "label": "Missouri Department of Labor — Minimum Wage 2026",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://labor.mo.gov/dls/general",
+      "label": "Missouri Department of Labor — Wages, Hours and Dismissal Rights",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=143.011",
+      "label": "RSMo § 143.011 — Missouri Income Tax Rate Schedule",
+      "accessed": "2026-05-30"
+    },
+    {
+      "url": "https://news.bloombergtax.com/payroll/missouri-releases-2026-new-employer-unemployment-rate-wage-base",
+      "label": "Bloomberg Tax — Missouri 2026 New Employer Rate and Wage Base",
+      "accessed": "2026-05-30"
+    }
+  ],
+  "internal_links_used": [
+    { "href": "/employer-of-record/", "status": "live" },
+    { "href": "/graduation-model/", "status": "live" },
+    { "href": "/pricing/zero-fx-fixed/", "status": "live" },
+    { "href": "https://www.teamed.global/tools/employer-cost", "status": "live" },
+    { "href": "https://www.teamed.global/tools/crossover-calculator", "status": "live" },
+    { "href": "https://www.teamed.global/tools/contractor-classification", "status": "live" }
+  ],
+  "editor_rounds": 1,
+  "audit_score": 91,
+  "high_concern_flags": ["prompt_correction"],
+  "prompt_correction": {
+    "income_tax_top_rate": "Prompt implied ~4.7% to verify. Confirmed 4.7% for 2026. One source (countrytaxcalc.com) incorrectly cited 4.8% (2024 rate). Flat 4.0% proposals are not enacted.",
+    "ui_wage_base": "2026 wage base is $9,000, down from $9,500 in 2025. Verified via Bloomberg Tax and Missouri DES."
+  },
+  "images": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "size_bytes": 139982,
+      "source": "Unsplash",
+      "photographer": "Tiffany Cade",
+      "photographer_handle": "tcade",
+      "status": "verified_above_100kb"
+    },
+    "inline_visual": {
+      "type": "polaroid-card",
+      "content": "UI wage base $9,000 callout",
+      "status": "html_inline"
+    }
+  },
+  "css_path_verified": "../../_shared/child-base.css",
+  "customer_strip_inside_container": true,
+  "tagline_close_inside_container": true,
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "teamed_difference_checks": {
+    "pricing_mention": true,
+    "zero_fx": true,
+    "crossover_signal": true,
+    "tom_tagline_close": true,
+    "tom_tagline_topic_specific": true,
+    "human_first_signal": true,
+    "one_platform_signal": false,
+    "cost_passthrough_mention": true,
+    "density_warn": false
+  },
+  "retrofit_needed": {
+    "neighbour_links": false,
+    "images": false,
+    "one_platform_signal": true
+  },
+  "compliance_cache_written": "sprint/compliance-cache/missouri.json",
+  "linter_run": true,
+  "linter_result": "pass"
+}

@@ -1,0 +1,112 @@
+{
+  "country": {
+    "name": "United States",
+    "state": "Michigan",
+    "slug": "united-states/michigan/termination-law-and-at-will-exceptions",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "hero": {
+    "headline": "Termination law and at-will exceptions in Michigan",
+    "subhead": "At-will with three exceptions that strip that status quietly.",
+    "eyebrow": "Michigan · Termination law",
+    "partner_badge": "Served via Teamed partner network",
+    "primary_cta": { "label": "Talk to an expert", "href": "https://www.teamed.global/contact" },
+    "secondary_cta": { "label": "Run the Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator" }
+  },
+  "answer_capsule": "Michigan is an at-will employment state, but three exceptions override that default. The Suchodolski public-policy exception (412 Mich 692) bars termination for exercising a statutory right. The Toussaint implied-contract exception (408 Mich 579, 1980) means any handbook promising fair treatment may create an enforceable just-cause contract. The Whistleblowers' Protection Act (MCL 15.361 et seq.) prohibits firing employees who report illegal activity to public authorities. Final wages are due by the next regular payday under MCL 408.475.",
+  "sections": [
+    {
+      "id": "at-will-rule",
+      "question": "Is Michigan an at-will employment state?",
+      "answer_first": "Yes. Michigan is an at-will employment state. Either party can end the employment relationship at any time, for any lawful reason, or for no reason at all.",
+      "body": "The at-will default sits in Michigan common law, not a single codified statute. Courts have upheld it consistently since the nineteenth century. What matters for employers hiring in Michigan is the word 'lawful' — the at-will rule only protects terminations that don't run into one of three recognised exceptions: the public-policy exception, the implied-contract exception, and statutory anti-discrimination and anti-retaliation protections.\n\nMichigan does not recognise the implied covenant of good faith and fair dealing as a limit on at-will employment. That puts it in the majority of US states and removes one category of wrongful-termination exposure that California employers face.\n\nFor a remote team hired through Teamed's partner network, the at-will baseline means you can move quickly when a hire isn't working. The three exceptions are where the compliance work lives.",
+      "closing": "Know the three exceptions before you write the offer letter."
+    },
+    {
+      "id": "toussaint-exception",
+      "question": "What is the Toussaint exception in Michigan employment law?",
+      "answer_first": "The Toussaint exception creates an implied just-cause contract when your handbook, offer letter, or verbal statements promise 'fair treatment' or list reasons for termination. It's the most preventable compliance risk in Michigan.",
+      "body": "In Toussaint v. Blue Cross & Blue Shield of Michigan, 408 Mich 579 (1980), the Michigan Supreme Court held that employer statements in personnel manuals — if specific enough — create enforceable promises to terminate only for cause. You don't need a signed contract. The policy language itself does the job.\n\nThe standard was refined in Rowe v. Montgomery Ward, 437 Mich 627 (1991), which required 'special circumstances' for purely oral promises. But handbook-based implied contracts remain highly viable. The phrases that create exposure are exactly the ones well-meaning HR teams write: 'we treat employees fairly', 'termination will follow a performance improvement process', or a list of dismissal grounds that implies those are the only grounds.\n\nThe fix is straightforward: include an explicit at-will disclaimer in every offer letter and handbook, reviewed by Michigan employment counsel. A named disclaimer — 'employment is at-will and may be terminated by either party at any time' — rebuts the implied-contract inference.\n\nTeamed's partner-network onboarding review flags handbook language against the Toussaint risk before the employee's first day. You see the exact clauses that create exposure.",
+      "closing": "Review handbook language before Day 1, not after a claim."
+    },
+    {
+      "id": "public-policy-exception",
+      "question": "What is the public policy exception to at-will employment in Michigan?",
+      "answer_first": "The public-policy exception, established in Suchodolski v. Michigan Consolidated Gas Co. (412 Mich 692), bars termination when the reason violates a clear mandate of public policy.",
+      "body": "Michigan courts recognise three categories under the Suchodolski public-policy exception:\n\n1. Discharge for refusing to commit an illegal act during employment.\n2. Retaliation for exercising a right established by law — filing a workers' compensation claim is the classic example.\n3. Discharge for reporting a violation of law to a public body (overlaps with the Whistleblowers' Protection Act).\n\nThe courts have been consistent that the public policy must be clear and well-established, not vague. Terminating an employee because they filed a workers' compensation claim, reported a workplace safety violation to MIOSHA, or refused to falsify records is actionable under Suchodolski.\n\nFor employers hiring Michigan workers through EOR, the practical application is the same as direct employment: the EOR structure doesn't create a safe harbour from wrongful-termination liability. The underlying termination decision has to be lawful. Teamed's legal operations team reviews termination requests against all three exception categories before processing.",
+      "closing": "Document the legitimate business reason before you act."
+    },
+    {
+      "id": "wpa-protections",
+      "question": "What does the Michigan Whistleblowers' Protection Act protect?",
+      "answer_first": "Michigan's Whistleblowers' Protection Act (Act 469 of 1980, MCL 15.361 et seq.) prohibits firing or retaliating against an employee who reports, or is about to report, a suspected violation of law to a public body.",
+      "body": "The WPA is broader than federal whistleblower protections in one specific way: it covers employees who report a suspected violation, not just an actual one. An employee who goes to a government agency believing in good faith that a law has been broken is protected, even if no law was actually broken.\n\nCritical employer compliance points:\n\n- Filing window: WPA claims must be filed within 90 days of the alleged violation under MCL 15.363(1). Miss the window and the claim is typically barred. But 90 days moves fast.\n- Scope: 'public body' includes government agencies, courts, law enforcement, and regulatory bodies — not internal HR complaints. A report to your own HR department doesn't trigger WPA protection, though other anti-retaliation statutes may apply.\n- Remedies: reinstatement, back pay, full fringe benefits, litigation costs, and attorney fees.\n\nThe WPA interacts with other Michigan statutes: the Elliott-Larsen Civil Rights Act (MCL 37.2202) covers discrimination-based retaliation, and the Persons with Disabilities Civil Rights Act (MCL 37.1202) covers disability-related dismissals. All three can support independent claims arising from the same termination.",
+      "closing": "One termination can generate three independent claims. Review before acting."
+    },
+    {
+      "id": "other-protections",
+      "question": "What other Michigan statutes protect employees from wrongful termination?",
+      "answer_first": "Three statutes sit alongside the common-law exceptions: the Elliott-Larsen Civil Rights Act, the Persons with Disabilities Civil Rights Act, and federal anti-discrimination law.",
+      "body": "The Elliott-Larsen Civil Rights Act (ELCRA, MCL 37.2202) prohibits termination based on race, colour, religion, sex, national origin, age, height, weight, marital status, sexual orientation, and gender identity. Michigan is one of the few states with statutory protection for height and weight — unusual characteristics that apply to roles with physical requirements.\n\nThe Persons with Disabilities Civil Rights Act (PDCRA, MCL 37.1202) covers disability-based discrimination and parallels the federal Americans with Disabilities Act, but applies to employers with one or more employees (the ADA threshold is 15).\n\nFederal layer: Title VII, the ADEA, and the ADA apply on top of Michigan statutes. Where the federal and state protections differ, the employee can choose whichever standard is more favourable.\n\nFor employers: any termination of a Michigan employee should be documented with a clear, non-discriminatory, non-retaliatory reason before notice is given. The documentation is your first line of defence — not something you reconstruct after a demand letter arrives.\n\nTeamed's partner-network team provides a real human specialist to review Michigan terminations before they're processed. You get an in-house compliance review, not an automated check.",
+      "closing": "ELCRA covers one more employer than the ADA — and that's the employer hiring their first Michigan worker."
+    },
+    {
+      "id": "warn-act",
+      "question": "What are the WARN Act requirements for Michigan employers planning layoffs?",
+      "answer_first": "Michigan follows the federal WARN Act only. Covered employers — 100 or more full-time employees — must give 60 days' advance written notice before a mass layoff or plant closing. Michigan has no separate state WARN law.",
+      "body": "The federal WARN Act (29 CFR Part 639) triggers when an employer with 100 or more full-time workers plans:\n\n- A plant closing affecting 50 or more workers, or\n- A mass layoff of 500+ workers, or of 50–499 workers representing at least 33% of the workforce.\n\nNotice goes to: affected employees, the Michigan LEO Workforce Development division, and the local chief elected official.\n\nMichigan does not have a state-level WARN statute. That matters for employers with 50–99 employees: federal WARN doesn't apply, Michigan WARN doesn't exist, so no statutory notice obligation exists below the 100-employee threshold — though you may still have contractual obligations.\n\nFor EOR clients: WARN coverage is based on the EOR's total employee count, not just the client's Michigan headcount. This is one of the structural points to discuss before a workforce reduction. Teamed walks you through the analysis before any reduction-in-force decision is finalised.",
+      "closing": "Confirm the headcount trigger before you set a layoff date."
+    },
+    {
+      "id": "final-pay",
+      "question": "When must Michigan employers pay final wages after termination?",
+      "answer_first": "Michigan requires final wages to be paid as soon as the amount can be determined with due diligence, and no later than the next regular payday. That's the outer limit, not the target.",
+      "body": "MCL 408.475 governs final pay for both voluntary and involuntary separations. The same deadline applies whether the employee resigned or was discharged: next regular payday, calculated on the schedule in effect during the final pay period.\n\nTwo practical points employers frequently miss:\n\n1. You can't delay final pay pending return of company property. Withholding wages to recover a laptop is an MCL 408.475 violation — a separate civil matter governs property recovery.\n2. Earned but unused PTO is subject to your written policy. Michigan has no statute requiring PTO payout on separation, unlike California. If your policy says it's forfeited, it's forfeited — but the policy must be written, clearly communicated, and applied consistently.\n\nTeamed processes final payroll for Michigan employees on the next regular cycle after the termination date is confirmed. Statutory pay, accrued benefits, and any contractual obligations appear on one itemised invoice. Nothing is withheld and nothing is hidden.\n\nThe Zero FX commitment applies to final payroll the same as regular payroll. If your Michigan worker is paid in USD while you book costs in GBP, the conversion happens at cost, with no markup.",
+      "closing": "Don't let an equipment return delay the final paycheck."
+    },
+    {
+      "id": "good-to-know",
+      "question": "What should you know before terminating a Michigan employee through EOR?",
+      "body": "Michigan's combination of at-will employment and the Toussaint implied-contract doctrine makes handbook review one of the most important pre-hire steps — more important than in most US states. Standard handbook templates drafted for California or New York often contain the exact language that creates a Michigan implied just-cause contract.\n\nThe Suchodolski, Toussaint, and WPA exceptions all generate independent litigation routes. A single termination that touches all three — for example, dismissing an employee who raised a safety complaint (WPA) after a performance process (Toussaint) and the employee has a protected characteristic (ELCRA) — can produce three simultaneous claims with three separate remedies.\n\nWorkers' compensation retaliation is one of the most common Suchodolski-based claims. Filing a claim is a clearly established statutory right; terminating within a short window after a claim is filed draws scrutiny. Document the business reason before any adverse action, not after."
+    }
+  ],
+  "faq_schema": [
+    {
+      "q": "Is Michigan an at-will employment state?",
+      "a": "Yes. Michigan is an at-will employment state. Either party can end employment at any time for any lawful reason. Three exceptions limit this: the Suchodolski public-policy exception, the Toussaint implied-contract exception, and statutory protections under the Whistleblowers' Protection Act and Elliott-Larsen Civil Rights Act."
+    },
+    {
+      "q": "What is the Toussaint exception to at-will employment in Michigan?",
+      "a": "The Toussaint exception (Toussaint v. Blue Cross & Blue Shield, 408 Mich 579, 1980) holds that handbook language promising fair treatment or listing grounds for termination may create an implied just-cause contract. An explicit at-will disclaimer in the offer letter and handbook is the standard protection."
+    },
+    {
+      "q": "Can you be fired for reporting illegal activity in Michigan?",
+      "a": "No. Michigan's Whistleblowers' Protection Act (MCL 15.361 et seq.) prohibits retaliatory termination when an employee reports a suspected violation of law to a public body. Claims must be filed within 90 days under MCL 15.363."
+    },
+    {
+      "q": "When is the final paycheck due after termination in Michigan?",
+      "a": "Under MCL 408.475, final wages are due by the next regular payday after the termination date. Employers cannot delay payment pending return of company property."
+    },
+    {
+      "q": "Does Michigan have a state WARN Act for mass layoffs?",
+      "a": "No. Michigan does not have a state WARN law. Federal WARN Act requirements apply to Michigan employers with 100 or more full-time employees, requiring 60 days' advance notice before a qualifying plant closing or mass layoff."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live", "context": "crossover signal" },
+    { "anchor": "GEMO — Global Entity Management Operations", "href": "/entity-management/", "state": "live", "context": "entity" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live", "context": "commercial" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live", "context": "tool" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "state": "live", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "state": "live", "context": "CTA" }
+  ],
+  "meta": {
+    "title": "Michigan Termination Law and At-Will Exceptions | Teamed",
+    "description": "Michigan is at-will employment — but Toussaint (408 Mich 579), Suchodolski, and the WPA create three exceptions. Final pay due next payday under MCL 408.475.",
+    "target_keywords": ["wrongful termination michigan", "michigan at-will employment exceptions", "Toussaint exception Michigan", "employer of record michigan"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

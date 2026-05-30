@@ -1,0 +1,109 @@
+{
+  "page": {
+    "row_id": "master-0122",
+    "slug": "united-states/maryland/wage-overtime-and-meal-break-law",
+    "target_url": "/hire-in-united-states/maryland/wage-overtime-and-meal-break-law/",
+    "type": "programmatic",
+    "tier": "US-State",
+    "cluster": "Country — US State Child"
+  },
+  "country": {
+    "name": "United States",
+    "state": "Maryland",
+    "slug": "united-states",
+    "state_slug": "maryland",
+    "iso2": "US"
+  },
+  "hero": {
+    "headline": "Maryland wage, overtime, and meal break law",
+    "subhead": "No daily overtime. No general break mandate. One retail carve-out that bites.",
+    "eyebrow": "Maryland · US State compliance guide",
+    "partner_badge": "Served by Teamed partner network: Suna Solutions, Inc.",
+    "primary_cta": { "label": "Talk to an expert", "href": "https://www.teamed.global/contact" },
+    "secondary_cta": { "label": "Calculate employer cost", "href": "https://www.teamed.global/tools/employer-cost" }
+  },
+  "answer_capsule": {
+    "label": "Answer. Cite this.",
+    "text": "Maryland sets a $15.00/hour minimum wage statewide under the Fair Wage Act, with Montgomery County at $17.65/hr (51+ employees) and Howard County at $16.00/hr (15+ employees, January 2026). Overtime kicks in at 40 hours per week only — Maryland has no daily overtime trigger. Most adult employees have no statutory right to a meal break. Retail employers with 50 or more employees must comply with the Healthy Retail Employee Act (Maryland Labor and Employment § 3-710), which mandates a 15-minute break for 4–6-hour shifts and a 30-minute break for shifts over 6 hours. First-offence penalties reach $300 per employee; repeat violations open the door to treble damages in circuit court."
+  },
+  "minimum_wage_section": {
+    "id": "minimum-wage",
+    "question": "What is the minimum wage in Maryland in 2026?",
+    "answer_first": "Maryland's minimum wage is $15.00 per hour statewide. Montgomery County reaches $17.65/hr for large employers, and Howard County hit $16.00/hr for businesses with 15 or more staff from 1st January 2026.",
+    "body": "The Maryland Fair Wage Act set the statewide floor at $15.00 per hour effective 1st January 2024, and it has not changed since. Tipped employees can be paid a cash wage of $3.63/hr, provided tips bring the total to $15.00/hr.\n\nCounty-level floors layer on top of the state rate and matter for every Maryland hire. Montgomery County's rate scales by employer size: $17.65/hr for employers with 51 or more employees, $16.00/hr for 11 to 50, and $15.50/hr for 10 or fewer — all effective July 2025 and subject to annual CPI-W adjustment each 1st July. Howard County moved to $16.00/hr for businesses with 15 or more employees from 1st January 2026; the smaller-employer tier reaches $16.00/hr from 1st July 2026. Prince George's County sits at $15.30/hr from 1st January 2026.\n\nYour EOR is responsible for applying the correct local floor, not the state floor, for any hire at a Maryland county with a higher rate. Teamed's partner Suna Solutions runs Maryland payroll and monitors county rate changes annually."
+  },
+  "overtime_section": {
+    "id": "overtime",
+    "question": "Does Maryland require overtime for working more than 8 hours in a day?",
+    "answer_first": "No. Maryland overtime triggers at 40 hours per week only. You owe 1.5 times the regular rate for hours above that threshold — nothing extra for a 9-hour day within a 40-hour week.",
+    "body": "Maryland follows the federal FLSA weekly overtime model under Labor and Employment § 3-415. There is no daily overtime requirement. An employee who works 9 hours Monday and 3 hours every other day completes 31 hours — no overtime owed, regardless of the long Monday.\n\nThree narrow categories sit outside the 40-hour rule. Agricultural workers in Maryland reach overtime at 60 hours per week. Employees in residential care facilities and bowling alley staff hit the threshold at 48 hours per week. Every other category of Maryland employee uses the standard 40-hour weekly cut-off.\n\nWhere federal FLSA and Maryland state law conflict, the rule more favourable to the employee applies. In practice, the two are identical on overtime for most hires — but a misclassification that incorrectly exempts a worker under FLSA can still leave the employer exposed under the Maryland Wage Payment and Collection Law."
+  },
+  "meal_break_general_section": {
+    "id": "meal-breaks-general",
+    "question": "Are Maryland employers required to provide meal breaks?",
+    "answer_first": "Maryland state law does not require meal or rest breaks for employees aged 18 and over in most industries. There is no general statutory right to a lunch break.",
+    "body": "This surprises most out-of-state employers used to California or New York standards. Maryland's Employment Standards Service is explicit: no statute mandates break periods for adult employees outside of retail. If a contract or employee handbook promises breaks, that agreement is enforceable — but the baseline is silence.\n\nTwo obligations do exist regardless of industry. First, employees under 18 must receive a 30-minute break for every 5 consecutive hours worked (§ 3-210). Second, the federal FLSA requires that any break shorter than 20 minutes be counted as paid work time. So if your Maryland employer policy does offer short rest breaks, those minutes go on the timesheet.\n\nThe practical risk sits with retail employers. If your hire is at a retail establishment with 50 or more employees in Maryland, the Healthy Retail Employee Act (§ 3-710) applies — and penalties are real."
+  },
+  "healthy_retail_section": {
+    "id": "healthy-retail-employee-act",
+    "question": "What is the Maryland Healthy Retail Employee Act?",
+    "answer_first": "The Healthy Retail Employee Act (Maryland Labor and Employment § 3-710) requires retail employers with 50 or more Maryland employees to provide shift breaks: 15 minutes for a 4–6-hour shift, 30 minutes for 6 or more hours.",
+    "body": "The Act covers retail establishments whose primary purpose is selling goods to consumers present at the time of sale, where more than 50% of gross sales come from in-store transactions (not internet, mail, or phone orders). Multiple franchise locations with the same trade name aggregate their employee counts toward the 50-employee threshold.\n\n| Shift length | Break required |\n|---|---|\n| Up to 4 hours | None required |\n| More than 4 but up to 6 hours | 15-minute non-working break |\n| More than 6 hours | 30-minute break |\n| More than 8 hours | 30 minutes + 15 minutes per additional 4 hours |\n\nA 'working break' is permitted — where the nature of the role prevents the employee from being fully relieved — if the employee eats while working, the break counts as paid work time, and the employer and employee agree in writing.\n\nAn employee working a shift of 6 hours or fewer can waive their 15-minute break in writing.\n\nCertain workers are exempt: FLSA-exempt employees (executive, administrative, professional, outside sales), commissioned sales staff earning more than 1.5 times the minimum wage from commissions, state and local government employees, and employees at single locations with five or fewer staff.\n\nPenalties for non-compliance start at $300 per employee for a first offence. A repeat offence within 3 years carries $600 per employee and opens the door to treble damages — triple the employee's hourly rate per missed break — plus attorney fees in circuit court. That exposure compounds quickly across a retail workforce.",
+    "statute_ref": "Maryland Labor and Employment Article § 3-710"
+  },
+  "good_to_know": {
+    "id": "good-to-know",
+    "question": "What should you know before hiring in Maryland?",
+    "body": "Maryland is one of the few states where knowing whether a break obligation exists depends entirely on the employer's sector and headcount, not just the state floor. Most US compliance checklists treat Maryland as a simple FLSA-mirror state — it is, on overtime. It is not, on breaks for large retail employers.\n\nThe county wage patchwork adds a second compliance layer. Montgomery County adjusts its minimum wage annually every 1st July against the Washington metro CPI-W. If you build a payroll budget in January, recheck it against the July rate change before your offer letter goes out.\n\nTeamed's partner network in Maryland (Suna Solutions, Inc. as primary) administers payroll at the correct county rate and monitors the annual Montgomery County uplift. You won't miss a $1.65/hr gap between the state floor and the actual county obligation. A real person on the Teamed team reviews your Maryland hire's county classification before the first payroll run."
+  },
+  "teamed_difference": {
+    "id": "teamed-difference",
+    "pricing_mention": "$599 per employee per month",
+    "zero_fx": "Zero FX — no mark-up on any currency conversion",
+    "crossover_signal": "EOR is the right model for Maryland hires until your headcount graduates to your own US entity",
+    "human_first": "A named Teamed specialist reviews county wage classification before the first payroll run",
+    "one_platform": "From first hire in Maryland through to your own US entity on one platform"
+  },
+  "faq_schema": [
+    {
+      "q": "What is the minimum wage in Maryland in 2026?",
+      "a": "Maryland's statewide minimum wage is $15.00 per hour from 1st January 2024. Montgomery County reaches $17.65/hr for employers with 51 or more employees. Howard County is $16.00/hr for employers with 15 or more employees from 1st January 2026."
+    },
+    {
+      "q": "Does Maryland have daily overtime?",
+      "a": "No. Maryland requires overtime at 1.5 times the regular rate only after 40 hours in a workweek, under Labor and Employment § 3-415. There is no daily overtime trigger for most employees."
+    },
+    {
+      "q": "Do employers have to give meal breaks in Maryland?",
+      "a": "Not for most adult employees. Maryland state law does not mandate meal or rest breaks for workers aged 18 and over outside of retail. Employers with 50 or more retail employees must comply with the Healthy Retail Employee Act."
+    },
+    {
+      "q": "What is the Healthy Retail Employee Act in Maryland?",
+      "a": "Maryland Labor and Employment § 3-710 requires retail employers with 50 or more employees to provide a 15-minute break for 4–6-hour shifts and a 30-minute break for shifts over 6 hours. Penalties start at $300 per employee per offence."
+    },
+    {
+      "q": "What are the penalties for violating Maryland break laws?",
+      "a": "$300 per employee for a first Healthy Retail Employee Act offence; $600 for a repeat offence within 3 years; plus treble damages and attorney fees if an employee sues in circuit court."
+    }
+  ],
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live", "context": "core" },
+    { "anchor": "the graduation model", "href": "/graduation-model/", "state": "live", "context": "core" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live", "context": "tool" },
+    { "anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "state": "live", "context": "tool" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "state": "live", "context": "tool" }
+  ],
+  "meta": {
+    "title": "Maryland Wage, Overtime and Meal Break Law 2026 | Teamed",
+    "description": "$15/hr state minimum wage, no daily OT, Healthy Retail Employee Act breaks for 50+ employee retailers. Maryland employer compliance guide 2026.",
+    "target_keywords": [
+      "Maryland meal break law",
+      "Maryland overtime law 2026",
+      "Healthy Retail Employee Act Maryland",
+      "Maryland minimum wage 2026",
+      "Maryland wage law employer"
+    ],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

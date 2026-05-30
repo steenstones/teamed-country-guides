@@ -1,0 +1,74 @@
+{
+  "row_id": "master-0150",
+  "slug": "united-states/missouri/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/missouri/worker-classification-state-test/",
+  "page_title": "Worker classification state test — Missouri",
+  "title_tag": "Missouri Worker Classification State Test 2026 | Teamed",
+  "meta_description": "Missouri worker classification 2026: IRS 20-factor common-law test for tax, ABC test for unemployment (RSMo § 288.034), strict Construction Worker Independent Contractor Act (RSMo § 285.500). Misclassification is a Class A misdemeanour.",
+  "country": "United States",
+  "state": "Missouri",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "phase": "phase-1.0",
+  "canonical": "https://teamed.global/hire-in-united-states/missouri/worker-classification-state-test/",
+  "robots": "noindex, follow",
+  "lang": "en-GB",
+  "date_published": "2026-05-30",
+  "date_modified": "2026-05-30",
+  "hero_image": "images/hero.jpg",
+  "hero_alt": "Dusk silhouette of the Gateway Arch and St. Louis skyline reflected on the Mississippi River, Missouri.",
+  "hero_size_kb": 174,
+  "schema_types": ["Article", "Organization", "BreadcrumbList", "Service"],
+  "breadcrumb_depth": 5,
+  "target_keyword": "missouri worker classification state test 2026",
+  "primary_tests_covered": [
+    "IRS 20-factor common-law test (state withholding + workers comp)",
+    "DES ABC test RSMo § 288.034(12) (unemployment insurance)",
+    "Construction Worker Independent Contractor Act RSMo §§ 285.500-285.515"
+  ],
+  "key_statutes": [
+    "RSMo § 288.034(12) — DES ABC test for UI",
+    "RSMo §§ 285.500-285.515 — Construction Worker Independent Contractor Act",
+    "RSMo § 285.515 — Class A misdemeanour + $50/worker/day civil penalty",
+    "RSMo § 287.020 — Workers comp employee definition",
+    "RSMo § 143.191 — State income tax withholding",
+    "IRS Rev. Rul. 87-41 — 20-factor common-law test"
+  ],
+  "key_numbers": {
+    "construction_civil_penalty_per_worker_per_day": "$50",
+    "construction_criminal_penalty": "Class A misdemeanour",
+    "sui_wage_base_2026": 9000,
+    "sui_wage_base_2025": 9500,
+    "new_employer_sui_rate": "2.376%",
+    "state_income_tax_top_rate_2026": "4.7%",
+    "workers_comp_mandatory_threshold_general": "5 employees",
+    "workers_comp_mandatory_threshold_construction": "1 employee",
+    "eor_monthly_rate_usd": 599
+  },
+  "flags": [
+    "PROVISIONAL: All statutory rates and thresholds require verification against primary Missouri sources before publish",
+    "PROVISIONAL: Construction nine-factor checklist derived from RSMo § 285.505 — verify exact factor enumeration against current statute",
+    "PROVISIONAL: DES ABC test prong language derived from RSMo § 288.034(12) — verify against current enrolled bill",
+    "PULLQUOTE: Anonymised to 'Teamed Legal Operations' — no Meeting Intelligence match; verify before attributing to named individual"
+  ],
+  "word_count_approx": 3600,
+  "h2_literal_query_ratio": "100%",
+  "internal_links_live": 6,
+  "internal_links_plain_text": 6,
+  "cta_primary": "https://www.teamed.global/contact",
+  "cta_secondary": "https://www.teamed.global/tools/contractor-classification",
+  "partner_badge_text": "Served through Teamed's vetted US partner network",
+  "sibling_pages_live": [
+    "/hire-in-united-states/missouri/state-income-tax-and-unemployment-insurance/",
+    "/hire-in-united-states/missouri/termination-law-and-at-will-exceptions/"
+  ],
+  "sibling_pages_pending": [
+    "/hire-in-united-states/missouri/wage-overtime-and-minimum-wage-law/"
+  ],
+  "build_date": "2026-05-30",
+  "build_agent": "claude-sonnet-4-6",
+  "spec_version": "phase-1.0",
+  "git_push": false,
+  "status": "live-noindex (publishing rail pending)"
+}

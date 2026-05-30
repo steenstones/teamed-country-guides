@@ -1,0 +1,66 @@
+{
+  "row_id": "master-0137",
+  "slug": "united-states/minnesota/termination-law-and-at-will-exceptions",
+  "target_url": "/hire-in-united-states/minnesota/termination-law-and-at-will-exceptions/",
+  "page_title": "Termination law in Minnesota 2026 | At-will, exceptions, final pay",
+  "meta_description": "Minnesota at-will employment 2026: Whistleblower Act, Human Rights Act, drug-testing rules, final pay due within 24 hours of demand on involuntary dismissal.",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "date_modified": "2026-05-30",
+  "target_keywords": [
+    "minnesota at-will employment exceptions",
+    "minnesota final pay rules termination",
+    "minnesota whistleblower act employment",
+    "minnesota human rights act protected classes"
+  ],
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "FAQPage", "Service"],
+  "quantitative_value_microdata": ["final-pay-24hr", "fee-599-usd-monthly"],
+  "named_scenarios": ["Jordan", "Maya", "Carlos", "Dana", "Minneapolis benefits manager"],
+  "internal_links_count": 6,
+  "hero_image": "images/hero.jpg",
+  "hero_attribution": "images/.hero-attribution.json",
+  "hero_photographer": "Andrew S (@sita2) on Unsplash",
+  "hero_photo_url": "https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-dGtOW74FRcY",
+  "word_count_est": 1900,
+  "status": "live-noindex",
+  "prompt_correction": null,
+  "flags": [
+    {
+      "id": "cannabis_rules_provisional",
+      "severity": "medium",
+      "description": "Minnesota cannabis off-duty dismissal rules (post-Aug 2023, Minn. Stat. § 181.950 subd. 5 as amended) are subject to ongoing regulatory development. Page does not hardcode specific rules; includes a disclaimer and redirects to specialist. Verify current state before any cannabis-related dismissal.",
+      "action": "Confirm with Minnesota employment counsel or DEED before any client relies on this section."
+    },
+    {
+      "id": "city_ordinance_amounts_not_hardcoded",
+      "severity": "low",
+      "description": "Minneapolis and St Paul wage-theft ordinance penalty amounts are not hardcoded in the page — these update periodically. Page flags the existence of city-level penalties without citing specific dollar amounts.",
+      "action": "Add specific penalty amounts if current figures can be confirmed against city ordinance text."
+    },
+    {
+      "id": "css_path_depth_ambiguity",
+      "severity": "low",
+      "description": "Task CRITICAL spec says CSS path is ../../_shared/child-base.css (2 levels). For a US-state child at united-states/<state>/<topic>/index.html, the structural depth is 3 levels. G2 badges use ../../../_shared/g2-badges/ (3 levels) per schema-spec. CSS path used as specified in task CRITICAL block.",
+      "action": "Verify in live deployment that ../../_shared/child-base.css resolves correctly from the united-states/<state>/<topic>/ depth."
+    },
+    {
+      "id": "customer_strip_double_container",
+      "severity": "low",
+      "description": "customer-strip section is wrapped inside a nested <div class='container'> that sits within the outer container div. In the UK reference page, customer-strip closes the outer container. Review in live CSS that the nested pattern does not cause padding/max-width drift.",
+      "action": "QA in preview; move customer-strip to close outer container if double-nesting causes layout issues."
+    },
+    {
+      "id": "chip_nav_stubs_only",
+      "severity": "low",
+      "description": "chip-nav only links to Overview and the current page (Termination). No other Minnesota state child pages exist yet. Nav will need expansion when sibling pages build out.",
+      "action": "Update chip-nav when additional Minnesota child pages are generated."
+    }
+  ],
+  "pullquote_provenance": "anonymised — attributed to Teamed Legal Operations; no Meeting Intelligence match available for a Minnesota-specific quote",
+  "tagline_close_attribution": "Tom Price-Daniel, Co-founder — anonymised voice, no MI provenance required for founder tagline",
+  "audit_score": 91
+}

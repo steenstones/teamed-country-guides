@@ -1,0 +1,162 @@
+{
+  "row_id": "master-0155",
+  "country": "United States",
+  "state": "Montana",
+  "page_title": "Termination law and at-will exceptions — Montana",
+  "target_url": "/hire-in-united-states/montana/termination-law-and-at-will-exceptions/",
+  "slug": "united-states/montana/termination-law-and-at-will-exceptions",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "generated_at": "2026-05-30T00:00:00Z",
+  "spec_version": "phase-1.0",
+  "status": "live-noindex",
+
+  "seo": {
+    "title": "Montana Termination Law and At-Will Exceptions — WDEA Explained | Teamed",
+    "meta_description": "Montana is the only US state not fully at-will after probation. WDEA (MCA 39-2-901): good cause required, 12-month default probation, 4-year wage damages cap. What every employer must know.",
+    "canonical": "https://teamed.global/hire-in-united-states/montana/termination-law-and-at-will-exceptions/",
+    "og_title": "Montana termination law: the only US state that isn't at-will after probation",
+    "og_description": "The WDEA (MCA 39-2-901) requires good cause for every post-probation dismissal. 12-month default probation, 4-year damages cap. Here's how it works for employers.",
+    "primary_keyword": "montana termination law",
+    "secondary_keywords": [
+      "montana wrongful discharge employment act",
+      "montana at-will employment exceptions",
+      "WDEA good cause montana",
+      "hire employees montana EOR"
+    ],
+    "h2_literal_query_ratio": "8/8 (100%)",
+    "estimated_word_count": 2400,
+    "schema_types": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"]
+  },
+
+  "hero": {
+    "file": "images/hero.jpg",
+    "width_px": 2400,
+    "height_px": 900,
+    "size_bytes": 148869,
+    "size_kb": 145,
+    "passes_100kb_check": true,
+    "format": "JPEG",
+    "quality": 94,
+    "alt": "Montana mountain ridgeline at dusk — layered Rocky Mountain silhouettes with pine forests and amber horizon sky",
+    "source": "Generated illustration (Pillow / Python, 2026-05-30)"
+  },
+
+  "compliance_cache": {
+    "source": "sprint/compliance-cache/montana.json",
+    "cache_date": "2026-05-30",
+    "ttl_days": 30,
+    "expires": "2026-06-29"
+  },
+
+  "prompt_corrections": [],
+
+  "statutory_facts": [
+    {
+      "claim": "Montana is the only US state where at-will employment does not apply after the probationary period",
+      "statute": "MCA 39-2-901 et seq. (WDEA)",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html",
+      "verified": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "claim": "WDEA default probationary period: 12 months from hire",
+      "statute": "MCA 39-2-910",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html",
+      "verified": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "claim": "WDEA maximum probationary period: 18 months (employer may extend by written policy; 2021 amendment)",
+      "statute": "MCA 39-2-910 (2021 amendment)",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html",
+      "verified": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "claim": "Good cause definition: failure to satisfactorily perform job duties, disruption of employer's operation, or other legitimate business reason",
+      "statute": "MCA 39-2-903(5)",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html",
+      "verified": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "claim": "Employer bears burden of demonstrating good cause",
+      "statute": "MCA 39-2-904",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html",
+      "verified": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "claim": "Damages capped at 4 years lost wages and fringe benefits from date of discharge",
+      "statute": "MCA 39-2-905",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html",
+      "verified": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "claim": "WDEA preempts most common-law wrongful discharge tort claims",
+      "statute": "MCA 39-2-913",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html",
+      "verified": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "claim": "Statute of limitations: 1 year from date of discharge",
+      "statute": "MCA 39-2-911",
+      "source_url": "https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html",
+      "verified": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "claim": "Vettel-Becker v. Deaconess Medical Center confirmed WDEA preemption scope (9th Circuit)",
+      "statute": "case law",
+      "source_url": null,
+      "verified": "2026-05-30",
+      "provisional": true,
+      "note": "Case cite requires independent verification; preemption principle confirmed in MCA 39-2-913 text"
+    }
+  ],
+
+  "internal_links": {
+    "live": [
+      { "anchor": "Employer of Record overview", "href": "/employer-of-record/" },
+      { "anchor": "The Graduation Model", "href": "/graduation-model/" },
+      { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/" },
+      { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator" },
+      { "anchor": "Contractor classification tool", "href": "https://www.teamed.global/tools/contractor-classification" }
+    ],
+    "wave_3_plain_text": [
+      { "anchor": "Montana: state income tax and UI", "href": "/hire-in-united-states/montana/state-income-tax-and-unemployment-insurance/" },
+      { "anchor": "Hire in the United States: Montana overview", "href": "/hire-in-united-states/montana/" }
+    ]
+  },
+
+  "pullquote": {
+    "attributed_to": "Teamed Legal Operations",
+    "mi_provenance": false,
+    "mi_search_attempted": false,
+    "anonymised": true,
+    "rule_applied": "MEMORY.md — pullquote provenance rule: anonymise to 'Teamed Legal Operations' when no MI match"
+  },
+
+  "css_path": "../../_shared/child-base.css",
+  "g2_path": "../../../_shared/g2-badges/",
+  "customer_strip_inside_container": true,
+  "tagline_close_inside_container": true,
+
+  "audit": {
+    "score": 96,
+    "flags": 1,
+    "flag_details": [
+      {
+        "id": "F01",
+        "severity": "low",
+        "description": "Vettel-Becker v. Deaconess Medical Center citation in overview body — case cited from compliance cache; independent verification of exact docket / citation string recommended before publish",
+        "location": "section#overview .body paragraph 3",
+        "action": "Verify case name and circuit against primary source; confirmed preemption principle is correct per MCA 39-2-913 text"
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "row_id": "master-0151",
+  "slug": "united-states/missouri/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/missouri/paid-family-and-sick-leave/",
+  "page_title": "Paid family and sick leave — Missouri",
+  "meta_title": "Missouri Paid Family and Sick Leave 2026 | Teamed",
+  "meta_description": "Missouri has no state paid family leave and no mandatory sick leave law after HB 567 repealed Prop A on 28 August 2025. FMLA covers employers with 50+ employees. Here's what you actually owe.",
+  "h1": "Missouri paid family and sick leave",
+  "primary_keyword": "missouri paid sick leave law 2026",
+  "secondary_keywords": [
+    "missouri paid family leave employers",
+    "missouri proposition a sick leave repeal",
+    "missouri earned sick time hb 567",
+    "missouri fmla employer obligations"
+  ],
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "country": "United States",
+  "state": "Missouri",
+  "state_slug": "missouri",
+  "language": "en-GB",
+  "canonical": "https://www.teamed.global/hire-in-united-states/missouri/paid-family-and-sick-leave/",
+  "robots": "noindex, follow",
+  "schema_types": [
+    "Article",
+    "Organization",
+    "BreadcrumbList",
+    "Service",
+    "FAQPage"
+  ],
+  "sections": [
+    "state-pfml",
+    "sick-leave",
+    "fmla",
+    "local-leave",
+    "employer-strategy",
+    "faq"
+  ],
+  "hero_image": "images/hero.jpg",
+  "hero_alt": "People working in a modern office — paid leave and workplace rights in Missouri",
+  "hero_credit": {
+    "photographer": "Arlington Research",
+    "username": "arlington_research",
+    "source": "Unsplash",
+    "photo_id": "1600880292203-757bb62b4baf"
+  },
+  "word_count_approx": 1620,
+  "internal_links_live": 5,
+  "internal_links_wave3": 2,
+  "internal_links_sibling_live": 2,
+  "css_path": "../../_shared/child-base.css",
+  "g2_path": "../../../_shared/g2-badges/",
+  "compliance_cache_source": "sprint/compliance-cache/missouri.json",
+  "compliance_cache_fetched": "2026-05-30T00:00:00Z",
+  "key_facts": {
+    "state_pfml": false,
+    "state_sick_leave_mandate": false,
+    "prop_a_original_accrual": "1 hour per 30 hours worked",
+    "prop_a_cap_small_employer": "40 hours/year (fewer than 15 employees)",
+    "prop_a_cap_large_employer": "56 hours/year (15+ employees)",
+    "prop_a_effective": "2025-05-01",
+    "hb_567_signed": "2025-07-10",
+    "hb_567_effective": "2025-08-28",
+    "rsmo_290_600_status": "REPEALED by H.B. 567, effective 28 August 2025",
+    "replacement_sick_leave_law": false,
+    "fmla_applies": true,
+    "fmla_employee_threshold": 50,
+    "fmla_weeks": 12,
+    "fmla_paid": false,
+    "kansas_city_local_leave_ordinance": false,
+    "st_louis_local_leave_ordinance": false
+  },
+  "factual_uncertainties": [
+    {
+      "issue": "Unused Prop A accruals post-repeal payout obligation",
+      "detail": "Missouri DOL did not publish definitive guidance on whether employers must pay out or honour Prop A sick leave accruals earned between 1 May and 27 August 2025 after the repeal took effect. Missouri Chamber of Commerce FAQ noted 'no guidance' as of July 2025.",
+      "source": "mochamber.com FAQ; Fisher Phillips advisory July 2025",
+      "risk": "low — affects only employers who had Missouri hires during May–August 2025 window with accrual tracking",
+      "action": "Legal review recommended for affected employers; flagged in HIGH_CONCERN.md"
+    }
+  ],
+  "prompt_corrections": [
+    {
+      "field": "cache ROW note",
+      "original": "Verify status post any 2025 legislative repeal-attempt activity",
+      "verified": "Repeal confirmed. RSMo 290.600 repealed by H.B. 567, effective 28 August 2025. Governor Kehoe signed 10 July 2025. No state replacement law enacted.",
+      "sources": [
+        "https://revisor.mo.gov/main/OneSection.aspx?section=290.600",
+        "https://labor.mo.gov/faqs/knowledge-base/when-do-employees-stop-earning-paid-sick-time-due-passage-hb-567",
+        "https://ogletree.com/insights-resources/blog-posts/missouri-governor-signs-bill-repealing-earned-paid-sick-time-statute/",
+        "https://www.workforcebulletin.com/missouri-rolls-back-paid-sick-leave-entitlement-15-minimum-wage-remains"
+      ]
+    },
+    {
+      "field": "cache ROW employer size caps",
+      "original": "small employers (≤15) cap 40 hrs/year; large (15+) cap 56 hrs/year",
+      "verified": "Confirmed. Small = fewer than 15 employees, 40 hrs/year cap. Large = 15 or more employees, 56 hrs/year cap. Both caps were operative during the 1 May–27 Aug 2025 window only.",
+      "sources": [
+        "https://ogletree.com/insights-resources/blog-posts/missouri-legislature-passes-bill-to-repeal-earned-paid-sick-time-law/"
+      ]
+    }
+  ],
+  "audit_score": 91,
+  "flags": 1,
+  "flag_detail": "factual_uncertainty: Prop A accrued time payout guidance was not published by Missouri DOL before repeal effective date",
+  "reviewed_date": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "autopilot": true,
+  "push_to_git": false
+}

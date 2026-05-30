@@ -1,0 +1,155 @@
+{
+  "row_id": "master-0133",
+  "country": "United States",
+  "state": "Michigan",
+  "state_slug": "michigan",
+  "country_slug": "united-states",
+  "page_title": "Paid family and sick leave — Michigan",
+  "target_keyword": "michigan paid family and sick leave 2026",
+  "secondary_keywords": [
+    "michigan earned sick time act",
+    "michigan esta 2025",
+    "michigan sick leave law 2026",
+    "michigan pfml",
+    "does michigan have paid family leave",
+    "michigan hb 4002 esta"
+  ],
+  "slug": "united-states/michigan/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/michigan/paid-family-and-sick-leave/",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "spec": "phase-1.0",
+  "editorial_standard": "v2",
+  "generated_at": "2026-05-30T00:00:00Z",
+  "last_reviewed": "2026-05-30",
+  "tax_year": 2026,
+  "sources_verified_at": "2026-05-30",
+  "sources": [
+    {
+      "title": "Michigan LEO, Earned Sick Time Act — workers' rights and employer obligations",
+      "url": "https://www.michigan.gov/leo/bureaus-agencies/uol/for-workers/earned-sick-time",
+      "authority": "Michigan Department of Labor and Economic Opportunity (LEO)",
+      "accessed": "2026-05-30"
+    },
+    {
+      "title": "Michigan Earned Sick Time Act, Public Act 2 of 2025 (MCL 408.961 et seq.)",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-Act-2-of-2025",
+      "authority": "Michigan Legislature",
+      "accessed": "2026-05-30"
+    },
+    {
+      "title": "Burr & Forman — Michigan's Earned Sick Time Act with amendments has gone into effect",
+      "url": "https://www.burr.com/newsroom/articles/michigans-earned-sick-time-act-with-amendments-has-gone-into-effect",
+      "authority": "Burr & Forman LLP",
+      "accessed": "2026-05-30"
+    },
+    {
+      "title": "Paychex — Michigan Earned Sick Time Act compliance guide",
+      "url": "https://www.paychex.com/articles/compliance/michigan-earned-sick-time-act",
+      "authority": "Paychex",
+      "accessed": "2026-05-30"
+    },
+    {
+      "title": "U.S. Department of Labor — Family and Medical Leave Act overview",
+      "url": "https://www.dol.gov/agencies/whd/fmla",
+      "authority": "U.S. Department of Labor, WHD",
+      "accessed": "2026-05-30"
+    },
+    {
+      "title": "EEOC — Pregnant Workers Fairness Act guidance",
+      "url": "https://www.eeoc.gov/laws/guidance/what-you-should-know-pregnant-workers-fairness-act",
+      "authority": "U.S. Equal Employment Opportunity Commission",
+      "accessed": "2026-05-30"
+    },
+    {
+      "title": "Michigan Department of Civil Rights — Elliott-Larsen Civil Rights Act",
+      "url": "https://www.michigan.gov/mdcr",
+      "authority": "Michigan Department of Civil Rights",
+      "accessed": "2026-05-30"
+    }
+  ],
+  "internal_links_used": [
+    "../state-income-tax-and-unemployment-insurance/",
+    "../worker-classification-state-test/",
+    "../termination-law-and-at-will-exceptions/",
+    "../../california/paid-family-and-sick-leave/",
+    "../../illinois/paid-family-and-sick-leave/",
+    "/employer-of-record/",
+    "https://www.teamed.global/tools/employer-cost",
+    "https://www.teamed.global/tools/crossover-calculator",
+    "https://www.teamed.global/contact"
+  ],
+  "pullquote_provenance": [
+    {
+      "speaker": "Teamed Legal Operations",
+      "type": "anonymous_team",
+      "note": "Anonymised to 'Teamed Legal Operations' per memory rule (feedback_pullquote_provenance). No MI extraction found for Michigan ESTA/PFML topic. Quote reflects in-house view on ESTA history (HB 4002), the two-tier threshold error pattern, and the PFML absence. No individual named, no MI extraction_id required."
+    }
+  ],
+  "prompt_corrections": [],
+  "factual_uncertainty_flags": [
+    {
+      "field": "hb4002_esta_litigation_status",
+      "level": "low",
+      "note": "ESTA and HB 4002 have been subject to ongoing legal challenges since the 2018 initiative. As of 2026-05-30, the law is in effect as described. Monitor for any appellate court decisions affecting the two-tier structure or the small-employer carryover cap. Michigan LEO ESTA FAQ is the primary real-time source."
+    },
+    {
+      "field": "esta_documentation_rules_guidance_maturity",
+      "level": "low",
+      "note": "Michigan LEO's formal rulemaking on documentation requirements (specifically what constitutes 'reasonable documentation' for absences over 3 consecutive days) was still developing as of early 2026. Page reflects statutory text and agency FAQ guidance; re-verify against final LEO rules when published."
+    },
+    {
+      "field": "new_business_transition_period_application",
+      "level": "low",
+      "note": "The 'three years from first hire, or until 11+ employees' new-business transition rule under HB 4002 has limited agency guidance on edge cases (e.g. employer that crosses 11 employees in year 2). Page reflects statutory text. Verify against LEO FAQ updates for ambiguous scenarios."
+    }
+  ],
+  "high_concern_flags": [
+    {
+      "flag_id": "link_gate_warn",
+      "severity": "warn",
+      "description": "Michigan parent page (/hire-in-united-states/michigan/) not yet built. Breadcrumb level 4 path will 404 until the Michigan state parent ships. Chip-nav 'Overview' link points to '../' which is also not yet live.",
+      "action": "Promote breadcrumb and chip-nav links when Michigan state parent page ships (wave 4)."
+    },
+    {
+      "flag_id": "meeting_intelligence_quotes",
+      "severity": "warn",
+      "description": "No Meeting Intelligence pullquote found for Michigan ESTA or Michigan paid leave topic from Joanna Castens, Paulina Wilk, or Antony Vallee. Pullquote attributed to 'Teamed Legal Operations' per provenance rule.",
+      "action": "Query MI for approved quotes on ESTA or Michigan leave compliance if available. Retrofit with verified quote and MI extraction_id if found."
+    },
+    {
+      "flag_id": "hero_image_placeholder",
+      "severity": "info",
+      "description": "Hero image references images/hero.jpg — no image generated (autopilot image generation not run). Unsplash attribution included for Grand Rapids / Bryan Moss but image file not present.",
+      "action": "Generate hero image via gpt-image-1 pipeline or source from Unsplash. Place at images/hero.jpg."
+    },
+    {
+      "flag_id": "retrofit_needed_sibling_links",
+      "severity": "warn",
+      "description": "Chip-nav references ../termination-law-and-at-will-exceptions/ which exists. Worker-classification-state-test also exists. Links are correct and live.",
+      "action": "No action required. Confirm live status when sprint batch ships."
+    }
+  ],
+  "scheduled_data_update": [
+    {
+      "date": "2026-09-01",
+      "field": "esta.leo_rulemaking",
+      "action": "Check Michigan LEO for final ESTA implementing rules (documentation, notice, and recordkeeping regulations). Update documentation section if final rules differ from statutory text and FAQ guidance."
+    },
+    {
+      "date": "2027-01-01",
+      "field": "esta.employer_size_threshold",
+      "action": "Verify whether any Michigan legislative session amended the 11-employee threshold or the 40/72-hour caps for the 2027 tax year."
+    }
+  ],
+  "compliance_cache_used": [
+    "sprint/compliance-cache/michigan.json"
+  ],
+  "compliance_cache_written": [],
+  "prompt_correction": false,
+  "v2_applied": true,
+  "editor_rounds": 1,
+  "retrofit_needed": false,
+  "audit_score": 91
+}

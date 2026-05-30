@@ -1,0 +1,108 @@
+{
+  "row_id": "master-0131",
+  "slug": "united-states/michigan/termination-law-and-at-will-exceptions",
+  "target_url": "/hire-in-united-states/michigan/termination-law-and-at-will-exceptions/",
+  "page_title": "Termination law and at-will exceptions — Michigan",
+  "country": "United States",
+  "state": "Michigan",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "target_keywords": [
+    "wrongful termination michigan",
+    "michigan at-will employment exceptions",
+    "Toussaint exception Michigan",
+    "employer of record michigan"
+  ],
+  "primary_keyword_volume": 500,
+  "primary_keyword_kd": 0,
+  "sources": [
+    {
+      "id": "suchodolski-case",
+      "url": "https://law.justia.com/cases/michigan/supreme-court/1981/61042-0.html",
+      "description": "Suchodolski v. Michigan Consolidated Gas Co., 412 Mich 692 — public policy exception"
+    },
+    {
+      "id": "toussaint-case",
+      "url": "https://law.justia.com/cases/michigan/supreme-court/1980/59591-0.html",
+      "description": "Toussaint v. Blue Cross & Blue Shield of Michigan, 408 Mich 579 (1980) — implied contract exception"
+    },
+    {
+      "id": "wpa-act",
+      "url": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-Act-469-of-1980.pdf",
+      "description": "Michigan Whistleblowers' Protection Act, Act 469 of 1980, MCL 15.361 et seq."
+    },
+    {
+      "id": "mcl-408-475",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-408-475",
+      "description": "MCL 408.475 — final pay requirements"
+    },
+    {
+      "id": "mi-warn",
+      "url": "https://www.michigan.gov/leo/bureaus-agencies/wd/programs-services/worker-adjustment-and-retraining-notification-act-warn",
+      "description": "Michigan LEO WARN Act page — federal WARN applies, no state WARN"
+    },
+    {
+      "id": "elcra",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-37-2202",
+      "description": "Elliott-Larsen Civil Rights Act, MCL 37.2202"
+    },
+    {
+      "id": "compliance-cache",
+      "url": "local:sprint/compliance-cache/michigan.json",
+      "description": "Michigan compliance cache (fetched 2026-05-30)"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live" },
+    { "anchor": "GEMO — Global Entity Management Operations", "href": "/entity-management/", "state": "live" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "state": "live" },
+    { "anchor": "UK termination and severance", "href": "/hire-in-united-kingdom/termination-and-severance-united-kingdom/", "state": "wave-3", "gated": true }
+  ],
+  "editor_rounds": 1,
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "person_schema": true,
+    "notes": "Neighbour links to other US-state termination pages deferred (wave-4). Person schema deferred (Pass 2). UK termination sibling link gated (wave-3)."
+  },
+  "audit_score": 88,
+  "high_concern_flags": 1,
+  "flags": [
+    {
+      "code": "mi_pullquote_anonymised",
+      "severity": "warn",
+      "detail": "No Meeting Intelligence approved quotes found for Michigan/US termination topic. Pullquote anonymised to 'Teamed Legal Operations' per provenance rules."
+    }
+  ],
+  "prompt_corrections": [],
+  "partner_entity": {
+    "type": "partner",
+    "name": "Teamed partner network",
+    "disclosure_note": "Primary US EOR partner is Suna Solutions, Inc. Permission to name publicly not confirmed — badge defaults to 'Teamed partner network'."
+  },
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_kb": 138,
+    "source": "Unsplash",
+    "photographer": "William Duggan",
+    "photographer_handle": "dugganw",
+    "query": "Detroit skyline architecture",
+    "passes_size_gate": true
+  },
+  "inline_visual": {
+    "type": "pad-note",
+    "content": "Teamed Legal Operations quote on Toussaint risk",
+    "implementation": "HTML/CSS — no image generation required"
+  },
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "schema_valid": true,
+  "linter_result": "pass-26/26"
+}

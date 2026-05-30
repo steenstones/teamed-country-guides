@@ -1,0 +1,154 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "abbreviation": "MA"
+  },
+  "hero": {
+    "headline": "How does Massachusetts state income tax work for employers in 2026?",
+    "subhead": "Flat 5% on most income, 9% above $1.1M, UI new-employer 2.42% on $15,000 wage base. No local income tax.",
+    "primary_cta": { "label": "Talk to an expert", "href": "https://www.teamed.global/contact" },
+    "secondary_cta": { "label": "Calculate your Massachusetts cost", "href": "https://www.teamed.global/tools/employer-cost" }
+  },
+  "at_a_glance": {
+    "currency": "USD",
+    "language": "English",
+    "payroll_frequency": "Semi-monthly or bi-weekly (common)",
+    "state_income_tax_rate": "5% flat (9% above $1,107,750)",
+    "ui_new_employer_rate": "2.42%",
+    "ui_taxable_wage_base": "$15,000",
+    "pfml_large_employer_total": "0.88% (25+ employees)",
+    "pfml_small_employer_total": "0.46% employee-only (<25 employees)",
+    "minimum_wage": "$15.00/hr",
+    "local_income_tax": "None",
+    "verified_date": "2026-05-30"
+  },
+  "sections": {
+    "state_income_tax": {
+      "question": "What is the Massachusetts state income tax rate in 2026?",
+      "answer_first": "Massachusetts has a 5% flat income tax rate in 2026. Almost every dollar of wage income you pay to a Massachusetts employee will be withheld at exactly 5%.",
+      "statute": "M.G.L. c. 62",
+      "rates": {
+        "base_rate_pct": 5.0,
+        "surtax_rate_pct": 4.0,
+        "surtax_combined_pct": 9.0,
+        "surtax_threshold_2026_usd": 1107750,
+        "capital_gains_short_term_pct": 8.5,
+        "capital_gains_lt_collectibles_pct": 12.0,
+        "capital_gains_lt_other_pct": 5.0
+      }
+    },
+    "employer_withholding": {
+      "question": "How does Massachusetts employer withholding work?",
+      "withholding_form": "Form M-4",
+      "annual_reconciliation": "Form M-3 (due 31st January)",
+      "registration_portal": "MassTaxConnect (mtc.dor.state.ma.us)",
+      "filing_thresholds": [
+        { "category": "Annual", "threshold": "Less than $200/year withheld", "due": "31st January" },
+        { "category": "Quarterly", "threshold": "$200–$2,400/year withheld", "due": "Last day of month after quarter-end" },
+        { "category": "Monthly", "threshold": "$2,400–$25,000/year withheld", "due": "15th of following month" },
+        { "category": "Semi-weekly", "threshold": "$25,000+/year withheld", "due": "Within 3 business days of pay date" }
+      ]
+    },
+    "pfml": {
+      "question": "What is Massachusetts PFML and how much does it cost employers?",
+      "statute": "M.G.L. c. 175M",
+      "total_rate_large_employer_pct": 0.88,
+      "total_rate_small_employer_pct": 0.46,
+      "employer_size_threshold": 25,
+      "employer_required_share_pct": 0.42,
+      "employee_max_deduction_pct": 0.46,
+      "max_weekly_benefit_2026_usd": 1230.39,
+      "family_leave_max_weeks": 12,
+      "medical_leave_max_weeks": 20,
+      "combined_max_weeks": 26
+    },
+    "ui_rates": {
+      "question": "What is the Massachusetts unemployment insurance tax rate in 2026?",
+      "statute": "M.G.L. c. 151A",
+      "schedule_2026": "Schedule E",
+      "taxable_wage_base_usd": 15000,
+      "new_employer_rate_non_construction_pct": 2.42,
+      "new_employer_rate_construction_pct": 6.08,
+      "experienced_positive_low_pct": 0.94,
+      "experienced_positive_high_pct": 5.24,
+      "experienced_negative_low_pct": 7.03,
+      "experienced_negative_high_pct": 14.37,
+      "max_weekly_benefit_usd": 1105,
+      "max_benefit_weeks": 30
+    },
+    "ui_filing": {
+      "question": "How do Massachusetts employers file and pay unemployment insurance taxes?",
+      "portal": "UI Online (uionline.detma.org)",
+      "quarterly_deadlines": [
+        { "quarter": "Q1", "period": "January–March", "due": "30th April" },
+        { "quarter": "Q2", "period": "April–June", "due": "31st July" },
+        { "quarter": "Q3", "period": "July–September", "due": "31st October" },
+        { "quarter": "Q4", "period": "October–December", "due": "31st January" }
+      ],
+      "late_interest_rate": "12% per annum (1% per month)",
+      "experience_rate_notice_month": "January",
+      "challenge_window_days": 30
+    },
+    "good_to_know": {
+      "question": "What do out-of-state companies need to know before hiring in Massachusetts?",
+      "answer_first": "Massachusetts has no local income tax, one of the strictest independent contractor tests in the US, and a PFML program with a meaningful split between small and large employers.",
+      "key_facts": [
+        "No local income taxes — only 5% state rate withheld",
+        "ABC test (M.G.L. c. 149, § 148B) — all three prongs required; Prong B is the sticking point",
+        "PFML employer cost jumps from 0% to 0.42% when headcount crosses 25 covered individuals",
+        "Minimum wage $15.00/hr (unchanged since January 2023)",
+        "Final pay due immediately on termination; treble damages for late payment",
+        "Accrued vacation is wages; must be paid on separation"
+      ]
+    }
+  },
+  "faq_schema": [
+    {
+      "q": "What is the Massachusetts state income tax rate for employers in 2026?",
+      "a": "Massachusetts has a 5% flat state income tax rate in 2026. A 4% surtax applies on income above $1,107,750, bringing the combined marginal rate to 9% for high earners. There are no progressive brackets for most income."
+    },
+    {
+      "q": "What is the Massachusetts unemployment insurance tax rate in 2026?",
+      "a": "Massachusetts UI rates run 0.94% to 5.24% for positive-rated employers under Schedule E in 2026. New employers pay 2.42% (non-construction) or 6.08% (construction). Taxable wage base is $15,000 per employee."
+    },
+    {
+      "q": "What is Massachusetts PFML and how much does it cost employers?",
+      "a": "Massachusetts PFML under M.G.L. c. 175M requires a total contribution of 0.88% of eligible wages for employers with 25 or more covered individuals. Employers with fewer than 25 pay nothing — employees cover the 0.46% themselves."
+    },
+    {
+      "q": "Does Massachusetts have a local income tax?",
+      "a": "No. Massachusetts does not permit municipalities to levy a local income tax. There is no city or county payroll tax. You withhold only state income tax at 5% (plus the surtax for very high earners)."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "hero_alt": "Boston, Massachusetts: city skyline reflected across the harbour at night",
+    "hero_credit": "Sean Sweeney via Unsplash",
+    "inline_visual": "polaroid card (PFML rate callout)"
+  },
+  "internal_links": [
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live", "context": "core" },
+    { "anchor": "The Graduation Model", "href": "/graduation-model/", "state": "live", "context": "core" },
+    { "anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live", "context": "commercial" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live", "context": "tool" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "state": "live", "context": "tool" },
+    { "anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "state": "live", "context": "tool" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "state": "live", "context": "CTA" },
+    { "anchor": "Hire in the United States: overview", "href": "/hire-in-united-states/", "state": "wave-3", "context": "parent — plain text" },
+    { "anchor": "Massachusetts employment overview", "href": "/hire-in-united-states/massachusetts/", "state": "wave-3", "context": "sibling — plain text" }
+  ],
+  "meta": {
+    "title": "Massachusetts State Income Tax and Unemployment Insurance 2026 | Teamed",
+    "description": "Massachusetts employer taxes 2026: 5% flat income tax (9% above $1.1M), UI new-employer rate 2.42% on $15,000 wage base, PFML 0.88% (25+ employees). No local income tax.",
+    "target_keywords": ["massachusetts state income tax", "massachusetts unemployment insurance employer", "massachusetts PFML 2026"],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

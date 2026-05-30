@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>Montana Paid Sick Leave &amp; Family Leave 2026 · Teamed</title>
+<meta name="description" content="Montana has no state paid sick leave mandate and no state PFML. Federal FMLA at 50 employees. Here&#x27;s what employers must know — and how to design a competitive.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@400,500,600,700&f%5B%5D=instrument-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../_shared/child-base.css">
+<style>
+  /* Hero photo */
+  .hero-block {
+    max-width: 960px;
+    margin: 24px auto 12px;
+  }
+  .hero-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--parchment-300, #d9cfc4);
+    box-shadow: 0 8px 20px rgba(35, 47, 35, 0.10), 0 1px 2px rgba(35, 47, 35, 0.08);
+  }
+  .hero-credit {
+    font-family: var(--font-family-body, 'Instrument Sans', system-ui, sans-serif);
+    font-size: 12px;
+    color: var(--ink-muted, #8a7a6a);
+    margin: 8px auto 32px;
+    max-width: 960px;
+    letter-spacing: 0.02em;
+  }
+  .hero-credit a {
+    color: var(--parchment-700, #7a6a5a);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400, #b5a898);
+    text-underline-offset: 2px;
+  }
+  .hero-credit a:hover { text-decoration-color: var(--sienna-500, #8e2e24); }
+
+  /* Absence card — right-float callout for "what's not there" */
+  .absence-card {
+    float: right;
+    width: 270px;
+    margin: 0 0 24px 28px;
+    background: var(--parchment-50, #faf8f5);
+    border: 1px solid var(--parchment-300, #d9cfc4);
+    border-radius: 4px;
+    padding: 16px 18px;
+    transform: rotate(0.7deg);
+    box-shadow: 0 2px 8px rgba(35, 47, 35, 0.08);
+  }
+  .absence-card .ac-eyebrow {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--sienna-700, #6b2118);
+    margin-bottom: 8px;
+  }
+  .absence-card .ac-stat {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--heading-on-light, #2a1f14);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .absence-card .ac-label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 12px;
+    color: var(--ink-soft, #6c5d4e);
+    margin-top: 6px;
+    line-height: 1.4;
+  }
+  .absence-card .ac-source {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    color: var(--ink-muted, #8a7a6a);
+    margin-top: 10px;
+    border-top: 1px dashed var(--parchment-300, #d9cfc4);
+    padding-top: 8px;
+  }
+  @media (max-width: 760px) {
+    .absence-card { float: none; width: 100%; max-width: 270px; margin: 0 0 20px 0; }
+  }
+
+  /* Compact postcard — stat callout */
+  .compact-postcard {
+    width: 280px;
+    float: right;
+    margin: 0 0 24px 28px;
+    background: var(--parchment-50, #faf8f5);
+    border: 1px solid var(--parchment-300, #d9cfc4);
+    border-radius: 4px;
+    padding: 16px 18px;
+    transform: rotate(0.9deg);
+    box-shadow: 0 2px 8px rgba(35, 47, 35, 0.08);
+  }
+  .compact-postcard .postcard-eyebrow {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--sienna-700, #6b2118);
+    margin-bottom: 8px;
+  }
+  .compact-postcard .postcard-stat {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--heading-on-light, #2a1f14);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .compact-postcard .postcard-label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 12px;
+    color: var(--ink-soft, #6c5d4e);
+    margin-top: 6px;
+    line-height: 1.4;
+  }
+  .compact-postcard .postcard-source {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    color: var(--ink-muted, #8a7a6a);
+    margin-top: 10px;
+    border-top: 1px dashed var(--parchment-300, #d9cfc4);
+    padding-top: 8px;
+  }
+  @media (max-width: 760px) {
+    .compact-postcard { float: none; width: 100%; max-width: 280px; margin: 0 0 20px 0; }
+  }
+
+  /* Teamed callout */
+  .teamed-callout {
+    max-width: 960px;
+    margin: 40px auto 48px;
+    padding: 28px 32px;
+    background: var(--parchment-100, #f5f0ea);
+    border-left: 4px solid var(--amber-500, #d4a574);
+    border-radius: 6px;
+  }
+  .teamed-callout .label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sienna-700, #6b2118);
+    margin-bottom: 14px;
+  }
+  .teamed-callout .price-row {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--heading-on-light, #2a1f14);
+    letter-spacing: -0.015em;
+    margin-bottom: 8px;
+  }
+  .teamed-callout p {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--parchment-800, #4a3d2e);
+    margin-bottom: 12px;
+  }
+  .teamed-callout p:last-child { margin-bottom: 0; }
+
+  /* At-a-glance card */
+  .ata-glance {
+    max-width: 960px;
+    margin: 0 auto 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+  }
+  .ata-stat {
+    background: var(--parchment-50, #faf8f5);
+    border: 1px solid var(--parchment-200, #e4ddd6);
+    border-radius: 6px;
+    padding: 16px 18px;
+  }
+  .ata-stat .ata-label {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted, #8a7a6a);
+    margin-bottom: 6px;
+  }
+  .ata-stat .ata-value {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--heading-on-light, #2a1f14);
+    line-height: 1.1;
+  }
+  .ata-stat .ata-sub {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    color: var(--ink-soft, #6c5d4e);
+    margin-top: 4px;
+  }
+
+  /* Links rail */
+  .links-rail {
+    max-width: 960px;
+    margin: 48px auto;
+    border-top: 1px solid var(--parchment-200, #e4ddd6);
+    padding-top: 32px;
+  }
+  .links-rail h3 {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted, #8a7a6a);
+    margin-bottom: 16px;
+  }
+  .links-rail ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .links-rail li a {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid var(--parchment-300, #d9cfc4);
+    border-radius: 4px;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--sienna-700, #6b2118);
+    text-decoration: none;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .links-rail li a:hover {
+    background: var(--parchment-100, #f5f0ea);
+    border-color: var(--sienna-400, #b85a50);
+  }
+  .links-rail li span {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid var(--parchment-200, #e4ddd6);
+    border-radius: 4px;
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--ink-muted, #8a7a6a);
+  }
+
+  /* FAQ section */
+  .faq-section {
+    max-width: 960px;
+    margin: 0 auto 48px;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--parchment-200, #e4ddd6);
+    padding: 20px 0;
+  }
+  .faq-item:last-child { border-bottom: none; }
+  .faq-q {
+    font-family: 'General Sans', system-ui, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--heading-on-light, #2a1f14);
+    margin-bottom: 8px;
+  }
+  .faq-a {
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--ink-soft, #6c5d4e);
+  }
+
+  /* Meta footer */
+  .meta-footer {
+    max-width: 960px;
+    margin: 0 auto 48px;
+    padding: 20px 0;
+    border-top: 1px solid var(--parchment-200, #e4ddd6);
+    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-size: 12px;
+    color: var(--ink-muted, #8a7a6a);
+    line-height: 1.6;
+  }
+  .meta-footer a {
+    color: var(--sienna-700, #6b2118);
+    text-decoration: underline;
+    text-decoration-color: var(--parchment-400, #b5a898);
+    text-underline-offset: 2px;
+  }
+</style>
+<!-- TEAMED:SCHEMA-V1 BEGIN -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Montana Paid Sick Leave and Family Leave: What Employers Must Know in 2026",
+  "description": "Montana has no state paid sick leave mandate and no state PFML programme. Federal FMLA applies at 50 employees. WDEA implications for sick leave forfeiture. Full employer guide.",
+  "datePublished": "2026-05-31",
+  "dateModified": "2026-05-31",
+  "inLanguage": "en-GB",
+  "author": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "url": "https://teamed.global"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://teamed.global/images/logos/teamed-logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://teamed.global/hire-in-united-states/montana/paid-family-and-sick-leave/"
+  },
+  "about": {
+    "@type": "State",
+    "name": "Montana",
+    "containedInPlace": {
+      "@type": "Country",
+      "name": "United States"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Teamed",
+  "alternateName": "Teamed Global",
+  "url": "https://teamed.global",
+  "logo": "https://teamed.global/images/logos/teamed-logo.svg",
+  "description": "Teamed is an Employer of Record (EOR) helping companies hire compliantly across 100+ countries. Single fixed rate, zero FX mark-up.",
+  "sameAs": [
+    "https://www.linkedin.com/company/teamed-global",
+    "https://www.g2.com/products/teamed/reviews"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Teamed",
+      "item": "https://teamed.global/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Countries",
+      "item": "https://teamed.global/countries/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "United States",
+      "item": "https://teamed-country-guides.vercel.app/united-states/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Montana",
+      "item": "https://teamed-country-guides.vercel.app/united-states/montana/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Paid family and sick leave"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Employer of Record",
+  "name": "Employer of Record in Montana, United States",
+  "description": "Teamed acts as the legal employer of record in Montana, handling payroll, state income tax withholding, WDEA-compliant employment terms, and full statutory compliance through vetted partner entity network.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Teamed",
+    "url": "https://teamed.global"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "599",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "599",
+      "priceCurrency": "USD",
+      "unitText": "per employee per month",
+      "valueAddedTaxIncluded": false
+    },
+    "description": "Single fixed rate. Zero FX mark-up in any currency pairing."
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Montana require employers to provide paid sick leave?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Montana has no state-mandated paid sick leave law for private employers. There is no accrual requirement, no statutory cap, and no earned sick time ordinance at the state level. Private employers design their own sick leave policies from scratch. State employees accrue sick leave credits under MCA §§ 2-15-110 to 2-15-119, but those provisions do not bind private-sector employers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Montana have a state paid family and medical leave programme?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Montana has no state paid family and medical leave (PFML) programme. There is no state payroll deduction, no benefit fund, and no enacted legislation as of May 2026. Federal FMLA (12 weeks unpaid, job-protected) applies only to employers with 50 or more employees within 75 miles of the worksite."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does FMLA apply in Montana?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Federal FMLA applies to Montana employers with 50 or more employees within 75 miles of the worksite. Eligible employees must have 12 months of service and 1,250 hours worked in the preceding 12-month period. Below that threshold, no state or federal family leave protection applies and the only leave obligation is whatever the employer writes into their own policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Montana employers forfeit accrued vacation or sick leave on termination?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Montana courts have treated accrued vacation as earned wages when employer policy creates a reasonable expectation of payment. A written forfeiture clause in a clear policy is the employer's best protection, but it must be unambiguous. Sick leave, unlike vacation, is less likely to be treated as deferred wages — though inconsistent policy language creates risk. WDEA good-cause requirements make termination-related forfeiture disputes more likely than in at-will states."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Montana's WDEA relevant to sick leave policy design?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, indirectly. Because the Wrongful Discharge from Employment Act (MCA 39-2-901) treats written employer policies as legally binding, sick leave provisions in an offer letter or handbook carry legal weight. A policy that is inconsistently applied, or that a court could read as creating a paid-sick-leave entitlement, can create WDEA exposure on termination. Unambiguous drafting matters more in Montana than in most US states."
+      }
+    }
+  ]
+}
+</script>
+<!-- TEAMED:SCHEMA-V1 END -->
+</head>
+<body>
+
+<div class="container">
+
+ <header class="masthead film-grain">
+ <div class="breadcrumb">
+ <a href="/">Teamed</a> &nbsp;/&nbsp; <a href="/countries/">Countries</a> &nbsp;/&nbsp; United States &nbsp;/&nbsp; Montana &nbsp;/&nbsp; Paid family &amp; sick leave
+ </div>
+ <div class="eyebrow">
+ <span class="badge">Montana &middot; Leave &amp; benefits compliance</span>
+ </div>
+ <span class="partner-badge">Served by Teamed US Inc. (vetted partner entity network)</span>
+ <h1>Paid family and sick leave in Montana: <em>what exists, what doesn't, and what that means for you</em></h1>
+ <p class="subhead">Montana has no state paid sick leave mandate and no state PFML programme. Federal FMLA is the only statutory safety net, and it starts at 50 employees.</p>
+ <!-- TEAMED:LAST-REVIEWED-V1 BEGIN -->
+<p class="last-reviewed">
+ <time datetime="2026-05-31">Last reviewed 31 May 2026</time> &middot; Montana guide
+</p>
+<!-- TEAMED:LAST-REVIEWED-V1 END -->
+<!-- TEAMED:G2-BADGE-V1 BEGIN -->
+<div class="trust-g2-awards" aria-label="Teamed G2 awards">
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/summer-2025-easiest-to-do-business-with.png" alt="G2 Summer 2025 — Easiest To Do Business With" loading="lazy"></a>
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/winter-2026-high-performer.png" alt="G2 Winter 2026 — High Performer" loading="lazy"></a>
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/users-love-us.png" alt="G2 — Users Love Us" loading="lazy"></a>
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/spring-2026-emea-high-performer.png" alt="G2 Spring 2026 EMEA — High Performer" loading="lazy"></a>
+ <a href="https://www.g2.com/products/teamed/reviews" target="_blank" rel="noopener nofollow"><img src="../../../_shared/g2-badges/spring-2026-europe-high-performer.png" alt="G2 Spring 2026 Europe — High Performer" loading="lazy"></a>
+</div>
+<!-- TEAMED:G2-BADGE-V1 END -->
+ <div class="cta-row">
+ <a href="https://www.teamed.global/contact" class="cta primary">Talk to an expert</a>
+ <a href="https://www.teamed.global/tools/employer-cost" target="_blank" rel="noopener" class="cta secondary">Run the Employer Cost Calculator</a>
+ </div>
+
+ <figure class="hero-block">
+ <img src="images/hero.jpg" alt="Montana big sky panorama — rolling sage-brush plains beneath a wide open sky with distant Rocky Mountain silhouettes and pine-covered ridgelines.">
+ </figure>
+ <p class="hero-credit">Illustration generated for Teamed &middot; Montana, United States</p>
+ </header>
+
+ <nav class="chip-nav" aria-label="Montana guide navigation">
+ <span class="chip-nav-label">Montana</span>
+ <a href="/hire-in-united-states/" class="gated-link">US overview</a>
+ <a href="/hire-in-united-states/montana/paid-family-and-sick-leave/" class="current">Paid leave</a>
+ <a href="/employer-of-record/">EOR overview</a>
+ <a href="/graduation-model/">Graduation model</a>
+ </nav>
+
+ <div class="capsule film-grain">
+ <div class="label">Answer &middot; cite this</div>
+ <p class="text">Montana has <strong>no state-mandated paid sick leave</strong> for private employers and <strong>no state paid family and medical leave programme</strong>. The only statutory leave floor is federal FMLA, which provides <span itemscope itemtype="https://schema.org/QuantitativeValue"><meta itemprop="value" content="12"><meta itemprop="unitCode" content="WK"><meta itemprop="unitText" content="weeks per year"><strong>12 weeks of unpaid, job-protected leave</strong></span> and applies only to employers with <strong>50 or more employees</strong> within 75 miles of the worksite. Below that threshold, Montana employees have no statutory leave protection beyond what your written policy creates. State employees are governed separately by <a href="https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/sections_index.html" target="_blank" rel="noopener">MCA §§ 2-15-110 to 2-15-119</a>. Because the <a href="https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html" target="_blank" rel="noopener">Wrongful Discharge from Employment Act (WDEA)</a> makes employer policies legally binding, what you write into your offer letter and handbook about sick leave carries real legal weight in Montana.</p>
+ </div>
+
+ <!-- At-a-glance stats -->
+ <div class="ata-glance" aria-label="Montana leave at a glance">
+ <div class="ata-stat">
+ <div class="ata-label">State paid sick leave</div>
+ <div class="ata-value">None</div>
+ <div class="ata-sub">Private employers: no mandate</div>
+ </div>
+ <div class="ata-stat">
+ <div class="ata-label">State PFML programme</div>
+ <div class="ata-value">None</div>
+ <div class="ata-sub">No payroll deduction, no benefit fund</div>
+ </div>
+ <div class="ata-stat">
+ <div class="ata-label">Federal FMLA threshold</div>
+ <div class="ata-value">50 emp.</div>
+ <div class="ata-sub">12 weeks unpaid, job-protected</div>
+ </div>
+ <div class="ata-stat">
+ <div class="ata-label">Pregnancy leave</div>
+ <div class="ata-value">Unpaid</div>
+ <div class="ata-sub">Reasonable unpaid leave, MCA § 49-2-310</div>
+ </div>
+ <div class="ata-stat">
+ <div class="ata-label">Min. wage 2026</div>
+ <div class="ata-value">$10.85</div>
+ <div class="ata-sub">Annual CPI adjustment; no tip credit</div>
+ </div>
+ <div class="ata-stat">
+ <div class="ata-label">WDEA policy risk</div>
+ <div class="ata-value">High</div>
+ <div class="ata-sub">Handbook terms are legally binding</div>
+ </div>
+ </div>
+
+ <section class="q" id="no-sick-leave-mandate">
+ <h2>Does Montana require employers to provide paid sick leave?</h2>
+ <p class="answer-first"> Your account is run by named in-house specialists, not a ticket queue, a real human who knows your country, your team, and your contract.No. Montana has no state-mandated paid sick leave law for private employers. You design your own policy from scratch, and that policy becomes legally binding the moment you write it down.</p>
+ <div class="body">
+
+ <div class="absence-card">
+ <div class="ac-eyebrow">Montana private employers</div>
+ <div class="ac-stat">$0</div>
+ <div class="ac-label">State-mandated sick pay floor. No accrual rate. No statutory cap. No posting requirement. Your policy is the entire obligation.</div>
+ <div class="ac-source">MCA Title 39 · No equivalent to AZ Prop 206 or CA Labor Code § 246</div>
+ </div>
+
+ <p>Montana is one of a minority of US states with no earned sick time law. There is no accrual rate (like California's 1/30 or Arizona's 1/30 rules), no annual cap requirement, no poster mandate, and no paystub disclosure obligation arising from a sick leave statute. Private-sector employers are entirely free to design whatever sick leave programme fits their business.</p>
+
+ <p>State employees are a different matter. Permanent state employees accrue sick leave credits from their first day of service under <a href="https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/sections_index.html" target="_blank" rel="noopener">MCA §§ 2-15-110 through 2-15-119</a>. Full-time permanent employees earn sick leave at a rate set by those sections and are entitled to payment of accrued sick leave after 90 days of continuous service on separation. None of these provisions apply to private employers.</p>
+
+ <p>The freedom from a state mandate cuts both ways. You have maximum flexibility to design a competitive sick leave programme. But in a state where <a href="/hire-in-united-states/montana/termination-law-and-at-will-exceptions/">the WDEA makes your written policies legally binding</a>, that flexibility comes with a drafting obligation most employers underestimate.</p>
+
+ <p>If you write a sick leave policy that says employees accrue eight hours per month, that accrued balance is an earned benefit. Policies that describe forfeiture on termination, or that create a use-it-or-lose-it cap, must be unambiguous or they become contested wages. Montana courts have treated accrued vacation as earned wages where policy language created a reasonable expectation of payment. The same reasoning can reach sick leave if your policy creates that expectation.</p>
+
+ <table class="data">
+ <thead>
+ <tr><th>Employer type</th><th>Sick leave obligation</th><th>Source</th></tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Private employer (any size)</td>
+ <td>None, entirely policy-driven</td>
+ <td>No Montana statute</td>
+ </tr>
+ <tr>
+ <td>State government employer</td>
+ <td>Accrual from day 1; paid out at 90 days continuous service</td>
+ <td><a href="https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/sections_index.html" target="_blank" rel="noopener">MCA §§ 2-15-110 to 2-15-119</a></td>
+ </tr>
+ <tr>
+ <td>Federal contractors</td>
+ <td>Federal mandate may apply (Executive Order 13706 / FAR clause)</td>
+ <td>Federal; check contract terms</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </section>
+
+ <section class="q" id="no-state-pfml">
+ <h2>Does Montana have a state paid family and medical leave programme?</h2>
+ <p class="answer-first">No. Montana has no state PFML programme. There is no payroll deduction, no state benefit fund, and no enacted legislation as of May 2026. Federal FMLA is the only statutory protection, and it starts at 50 employees.</p>
+ <div class="body">
+
+ <div class="compact-postcard">
+ <div class="postcard-eyebrow">US states with PFML (2026)</div>
+ <div class="postcard-stat">13</div>
+ <div class="postcard-label">States plus D.C. with active state PFML programmes. Montana is not among them and has no enacted legislation pending as of May 2026.</div>
+ <div class="postcard-source">National Partnership for Women &amp; Families · 2026</div>
+ </div>
+
+ <p>Montana is not among the thirteen US states (plus Washington D.C.) that operate a state-funded paid family and medical leave programme. States including California, Colorado, Connecticut, Massachusetts, New York, Oregon, and Washington have all enacted employee-funded PFML schemes with payroll deductions and state benefit funds. Montana has not.</p>
+
+ <p>There is no Montana PFML bill that has passed as of May 2026. Remote employees hired in Montana by employers based in PFML states are not covered by their home-state's programme while working in Montana. They are governed by Montana law, which provides no equivalent protection.</p>
+
+ <p>This gap matters when you're hiring your first Montana remote worker and they previously lived in a PFML state. The expectation gap is real. A California hire moving to Montana loses California's state disability and PFL benefits on Montana hire. Your offer letter should address this explicitly, either by designing a voluntary paid parental and family leave policy or by being clear about what the programme does and does not include.</p>
+
+ <p>State employees have limited access to a parental leave benefit for birth or placement of a child, but this is a government-employer provision only. It does not apply to private companies.</p>
+
+ <p>The leave picture for Montana private-sector employers:</p>
+ <ol>
+ <li><strong>Federal FMLA</strong> (29 U.S.C. § 2601), mandatory for employers with 50 or more employees within 75 miles; 12 weeks unpaid, job-protected</li>
+ <li><strong>Pregnancy leave</strong> (<a href="https://mca.legmt.gov/bills/mca/title_0490/chapter_0020/part_0030/section_0310/0490-0020-0310.html" target="_blank" rel="noopener">MCA § 49-2-310</a>), reasonable unpaid leave for pregnancy; no paid entitlement mandated</li>
+ <li><strong>Voluntary employer PFML</strong>, entirely at your discretion; no statutory floor beyond the above</li>
+ </ol>
+ </div>
+ </section>
+
+ <section class="q" id="fmla-montana">
+ <h2>When does FMLA apply to Montana employers?</h2>
+ <p class="answer-first">Federal FMLA applies when you have <strong>50 or more employees</strong> within 75 miles of the worksite. Below that, there is no equivalent Montana state law. For distributed remote teams in Montana, this threshold catches many employers off guard.</p>
+ <div class="body">
+ <p>The Family and Medical Leave Act (29 U.S.C. § 2601) applies in Montana exactly as in every other state. But Montana has no state analogue. There is no Small Employer Family Leave Act, no mini-FMLA applying at smaller headcounts, and no employer-size phase-in. If you're below 50 employees measured within 75 miles, your only leave obligation is what you write.</p>
+
+ <p>Employee eligibility requires:</p>
+ <ul>
+ <li>At least <strong>12 months of employment</strong> with the employer</li>
+ <li>At least <strong>1,250 hours worked</strong> in the preceding 12-month period</li>
+ <li>The employer has 50 or more employees within 75 miles of the employee's worksite</li>
+ </ul>
+
+ <p>Eligible employees receive <strong>12 weeks of unpaid, job-protected leave</strong> per year for qualifying reasons: serious health condition of the employee or an immediate family member, birth or adoption of a child, or qualifying military exigency. FMLA leave for a serious health condition of a covered servicemember extends to 26 weeks.</p>
+
+ <p>Montana has no state extension of FMLA. A Montana employer with 45 employees owes their Montana workers zero weeks of statutory family or medical leave. That is a sharp contrast with states like California (CFRA at 5 employees), Oregon (OFLA at 10 employees), or Colorado (FAMLI at 10 employees).</p>
+
+ <table class="data">
+ <thead>
+ <tr><th>Employer size</th><th>FMLA applies?</th><th>State PFML?</th><th>Sick leave mandate?</th></tr>
+ </thead>
+ <tbody>
+ <tr><td>1 to 49 employees</td><td>No</td><td>None</td><td>None</td></tr>
+ <tr><td>50 or more employees</td><td>Yes, 12 weeks unpaid</td><td>None</td><td>None</td></tr>
+ </tbody>
+ </table>
+
+ <p>For remote-first employers distributing headcount across states, the 75-mile radius matters. Employees in Billings, Great Falls, and Missoula may not fall within 75 miles of each other or of out-of-state employees, depending on where your business address sits. Teamed's platform tracks each employee's worksite location and flags FMLA threshold proximity before it becomes an obligation, not after.</p>
+ </div>
+ </section>
+
+ <section class="q" id="wdea-policy-implications">
+ <h2>How does the WDEA affect sick leave and vacation policy design?</h2>
+ <p class="answer-first">Montana's Wrongful Discharge from Employment Act makes written employer policies legally binding. A sick leave or vacation policy that creates an accrual expectation can become a deferred-wages claim on termination. This is the single biggest leave-related risk most Montana employers don't see coming.</p>
+ <div class="body">
+
+ <p>Montana is the only US state where at-will employment ends after the probationary period. Under the <a href="https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html" target="_blank" rel="noopener">WDEA (MCA 39-2-901)</a>, terminations of post-probation employees require good cause and can result in up to four years of lost wages and fringe benefits. Crucially, fringe benefits are included in the damages calculation.</p>
+
+ <p>That matters for leave policy in two ways:</p>
+
+ <p><strong>Accrued leave as earned wages.</strong> Montana courts have found that accrued vacation pay constitutes earned wages where the employer's written policy creates a reasonable expectation of payment. If your handbook says employees accrue 1.25 days per month, that accrued balance is wages, not a gratuitous benefit you can forfeit at will. Forfeiture clauses must be explicit, unambiguous, and consistently applied.</p>
+
+ <p><strong>Sick leave that looks like vacation.</strong> Policies that blur the line between sick leave and PTO create forfeiture risk. A combined PTO bank described as "use or lose" with no clear forfeiture language can expose the employer on termination. Montana courts look at what the policy actually says, not what the employer intended. The rule of interpretation runs against the drafter.</p>
+
+ <p>Best practice for Montana employers:</p>
+ <ul>
+ <li>State explicitly whether accrued sick leave is forfeited on termination and whether accrued vacation is paid out</li>
+ <li>Use separate sick and vacation buckets if your policy treats them differently on exit</li>
+ <li>Ensure offer letter, handbook, and employment agreement are consistent on every point relating to leave</li>
+ <li>Do not describe a forfeiture clause in the handbook but then pay out accrued leave in practice, the practice modifies the policy</li>
+ </ul>
+
+ <p>Teamed drafts Montana-specific offer letters and handbook provisions that are WDEA-coherent and include clear accrual and forfeiture language. You don't need to become a Montana employment-law expert. You need a specialist who already is one.</p>
+ </div>
+ </section>
+
+ <section class="q" id="competitive-benefits">
+ <h2>What sick leave and family leave benefits should you offer in Montana?</h2>
+ <p class="answer-first">The absence of a mandate is an opportunity, not a reason to do nothing. Montana's small-employer environment means your benefits package is a genuine differentiator. Here's what competitive Montana employers are designing.</p>
+ <div class="body">
+
+ <p>Montana is a small-employer state. Approximately 90% of Montana businesses have fewer than 20 employees. Many compete for the same professional and technical talent as remote-first companies that offer California- or Oregon-level benefits. Because Montana imposes no sick leave floor, the gap between your policy and a competitor's policy is entirely visible to candidates.</p>
+
+ <p>What competitive employers in Montana are offering in 2026:</p>
+
+ <ul>
+ <li><strong>Sick leave:</strong> 5 to 10 days per year, either accrued (1 hour per 30 worked is common) or front-loaded annually. Accrual-based policies require clear carry-over and forfeiture language given WDEA.</li>
+ <li><strong>Parental leave:</strong> 6 to 12 weeks paid parental leave for birth or placement, funded by the employer, not a state scheme. Common among companies hiring Montana remote workers from PFML states who expect parity.</li>
+ <li><strong>PTO:</strong> Unlimited PTO policies are growing but carry WDEA risk if not drafted to exclude accrual. A true unlimited PTO policy with no accrual mechanism avoids the deferred-wages argument; a hybrid that tracks days and then calls it "unlimited" does not.</li>
+ <li><strong>Short-term disability:</strong> Voluntary STD insurance fills the income-replacement gap that state PFML would otherwise cover. Premiums are employee-paid or employer-subsidised. Common denominations: 60% of weekly earnings for up to 12 weeks after a 7-day waiting period.</li>
+ </ul>
+
+ <p>If you're hiring Montana remote workers from California, Oregon, or Colorado, where employees are accustomed to state PFML contributions and benefits, a voluntary STD and parental leave policy is the closest equivalent available. Your Teamed specialist models the cost comparison before you extend the offer, so you can make an informed decision on benefit design before you're locked into it.</p>
+ </div>
+ </section>
+
+ <section class="q" id="pregnancy-leave">
+ <h2>What does Montana law require for pregnancy and maternity leave?</h2>
+ <p class="answer-first">Montana requires employers to provide <strong>reasonable unpaid leave</strong> for pregnancy under <a href="https://mca.legmt.gov/bills/mca/title_0490/chapter_0020/part_0030/section_0310/0490-0020-0310.html" target="_blank" rel="noopener">MCA § 49-2-310</a>. No paid leave is mandated. This is an anti-discrimination requirement, not a paid benefit entitlement.</p>
+ <div class="body">
+ <p>The Montana Human Rights Act at MCA § 49-2-310 requires employers to treat pregnancy as any other temporary disability for purposes of leave and return-to-work rights. You must offer the same leave terms you would extend to a similarly situated employee with a non-pregnancy medical condition. If your policy provides unpaid medical leave, you cannot deny it on grounds of pregnancy.</p>
+
+ <p>This is a floor, not a ceiling. The statute does not mandate paid leave, does not specify a duration, and does not require a policy more generous than your existing medical leave programme. In practice, the obligation is to:</p>
+
+ <ul>
+ <li>Treat pregnancy-related absence as a medical leave under your existing policy</li>
+ <li>Permit a reasonable period of absence for childbirth and recovery</li>
+ <li>Restore the employee to the same or a comparable position on return</li>
+ </ul>
+
+ <p>State employees with permanent full-time status may take up to 15 days of paid parental leave for birth or adoption (for the non-birthing parent or adoptive parent). This is not a private-sector entitlement.</p>
+
+ <p>If you are an FMLA-covered employer (50+ employees), pregnancy qualifies as a serious health condition under FMLA, and employees with 12 months service and 1,250 hours are entitled to 12 weeks unpaid leave. FMLA leave runs concurrently with any state or policy-based leave. Under FMLA, the employer designates the leave as FMLA when the qualifying condition arises; the employee cannot delay the designation.</p>
+ </div>
+ </section>
+
+ <div class="teamed-callout">
+ <div class="label">Teamed &middot; how it works for Montana hires</div>
+ <div class="price-row">
+ <span itemscope itemtype="https://schema.org/QuantitativeValue">
+ <meta itemprop="value" content="599">
+ <meta itemprop="unitCode" content="MON">
+ <meta itemprop="unitText" content="USD per employee per month">
+ $599
+ </span> / employee / month flat
+ </div>
+ <p>Zero FX mark-up, no setup fees, no exit fees. Montana doesn't impose a state sick leave mandate, which makes payroll simpler than many US states. What it does impose is the WDEA, which makes offer-letter and handbook drafting more consequential than in any other US state.</p>
+ <p>Teamed handles Montana offer letters, probationary period policies, and leave policy drafting to be WDEA-coherent from day one. We flag the FMLA threshold as your headcount grows, and when an employee in a high-PFML state is relocated to Montana, we model the benefits gap before it becomes a retention problem.</p>
+ <p>Statutory costs including any voluntary STD premium sharing, parental leave payments, or FMLA administration pass through at cost on every invoice as itemised lines. You see every number. When your Montana headcount justifies your own US entity, we'll tell you. That's <a href="/graduation-model/">the Graduation Model</a>: one platform from contractor through EOR to entity.</p>
+ </div>
+
+ <section class="q" id="employer-checklist">
+ <h2>What does Montana leave compliance require from employers?</h2>
+ <p class="answer-first">Montana imposes no sick leave or PFML administrative requirements on private employers at state level. Your obligations are the federal layer plus the legal weight the WDEA places on whatever policy you write.</p>
+ <div class="body">
+ <p>For Montana private employers, the compliance picture is:</p>
+
+ <p><strong>FMLA administration (50+ employee employers only).</strong> Display the Department of Labor's FMLA poster. Provide FMLA notice within five business days of learning an employee may qualify. Designate leave as FMLA once the qualifying reason is established. Maintain FMLA records for three years. Teamed handles this automatically for covered employers.</p>
+
+ <p><strong>Pregnancy non-discrimination (all employers).</strong> Treat pregnancy-related absence as medical leave under your existing policy. Restore employees to the same or comparable position. No additional posting requirement beyond general human rights notices.</p>
+
+ <p><strong>WDEA-compliant leave drafting (all employers).</strong> Ensure offer letters and handbooks define accrual, carry-over, and forfeiture clearly. Inconsistent language between the offer letter and handbook has generated WDEA disputes in Montana courts. Both documents should be consistent and reviewed together.</p>
+
+ <p><strong>No Montana sick leave poster or paystub disclosure requirement.</strong> Unlike Arizona or California, Montana does not require a state sick leave posting or per-paystub accrual disclosure. This is a genuine simplification for multi-state employers. Your payroll provider doesn't need to generate a Montana sick-leave line item on every paystub unless your own policy creates that obligation.</p>
+
+ <p><strong>Minimum wage compliance.</strong> Any sick pay or other paid leave you provide must not fall below Montana's 2026 minimum wage of <strong>$10.85/hour</strong>. No tip credit is available; Montana prohibits tip credits entirely. The rate adjusts annually for CPI.</p>
+ </div>
+ </section>
+
+ <!-- FAQ section -->
+ <section class="faq-section" id="faq" aria-label="Frequently asked questions">
+ <h2 style="font-family: 'General Sans', system-ui, sans-serif; font-size: clamp(22px, 3vw, 28px); font-weight: 700; color: var(--heading-on-light, #2a1f14); margin: 0 auto 28px; max-width: 960px;">Frequently asked questions</h2>
+ <div class="faq-item">
+ <div class="faq-q">Does Montana require employers to provide paid sick leave?</div>
+ <div class="faq-a">No. Montana has no state-mandated paid sick leave law for private employers. There is no accrual requirement, no statutory cap, and no earned sick time ordinance. Private employers design their own sick leave policies. State employees accrue sick leave under MCA §§ 2-15-110 to 2-15-119, but those provisions do not bind private-sector employers.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-q">Does Montana have a state paid family and medical leave programme?</div>
+ <div class="faq-a">No. Montana has no state PFML programme. There is no payroll deduction, no state benefit fund, and no enacted legislation as of May 2026. Federal FMLA (12 weeks unpaid, job-protected) applies only to employers with 50 or more employees within 75 miles of the worksite.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-q">When does FMLA apply in Montana?</div>
+ <div class="faq-a">Federal FMLA applies to Montana employers with 50 or more employees within 75 miles of the worksite. Eligible employees must have 12 months of service and 1,250 hours worked in the preceding 12-month period. Below that threshold, no state or federal family leave protection applies.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-q">Can Montana employers forfeit accrued vacation or sick leave on termination?</div>
+ <div class="faq-a">Only with a clear, unambiguous written forfeiture clause applied consistently. Montana courts have treated accrued vacation as earned wages where policy language created a reasonable expectation of payment. A WDEA-compliant forfeiture policy must be explicit, consistent with the offer letter, and applied without exception.</div>
+ </div>
+ <div class="faq-item">
+ <div class="faq-q">Is Montana's WDEA relevant to sick leave policy design?</div>
+ <div class="faq-a">Yes. Because the WDEA makes written employer policies legally binding, sick leave provisions in an offer letter or handbook carry real legal weight. A policy that creates an accrual expectation can become a deferred-wages claim on termination. Unambiguous drafting is more important in Montana than in most US states.</div>
+ </div>
+ </section>
+
+ <!-- Internal links rail -->
+ <div class="links-rail">
+ <h3>Related guides and tools</h3>
+ <ul>
+ <li><a href="/employer-of-record/">Employer of Record overview</a></li>
+ <li><a href="/graduation-model/">The Graduation Model</a></li>
+ <li><a href="/pricing/zero-fx-fixed/">Pricing: Zero FX Fixed</a></li>
+ <li><a href="https://www.teamed.global/tools/employer-cost" target="_blank" rel="noopener">Employer Cost Calculator</a></li>
+ <li><a href="https://www.teamed.global/tools/contractor-classification" target="_blank" rel="noopener">Contractor Classifier</a></li>
+ <li><span title="Montana termination and WDEA guide, wave 4">Montana: termination law and at-will exceptions (coming soon)</span></li>
+ <li><span title="Montana state income tax and UI guide, wave 4">Montana: state income tax and UI (coming soon)</span></li>
+ <li><span title="US country overview, wave 3">Hiring in the United States (coming soon)</span></li>
+ </ul>
+ </div>
+
+ <!-- Customer strip -->
+ <!-- TEAMED:CUSTOMER-STRIP-V1 BEGIN -->
+ <section class="customer-strip">
+ <h2 class="customer-strip-eyebrow">Trusted by teams that chose differently</h2>
+ <ul class="customer-strip-list">
+ <li><img src="https://teamed.global/images/logos/customers/klarna.webp" alt="Klarna" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/notion.webp" alt="Notion" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/wise.webp" alt="Wise" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/eventbrite.webp" alt="Eventbrite" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/globant.webp" alt="Globant" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/williams-racing.webp" alt="Williams Racing" loading="lazy"></li>
+ <li><img src="https://teamed.global/images/logos/customers/biontech.webp" alt="BioNTech" loading="lazy"></li>
+ </ul>
+ </section>
+ <!-- TEAMED:CUSTOMER-STRIP-V1 END -->
+
+ <section class="tagline-close film-grain">
+ <div class="eyebrow-small">A note from Teamed Legal Operations</div>
+ <p class="tagline">Montana is the absence state. No sick leave mandate. No PFML. No payroll deduction for family leave. For payroll administrators, that's a clean picture. For employment lawyers, it's where the interesting questions live. The WDEA turns every word of your offer letter and handbook into a potential liability. Accrued vacation treated as wages on termination. Sick leave forfeiture clauses that have to be explicit to hold. A state where the thing you write about leave matters more than the statutory floor, because the statutory floor doesn't exist.</p>
+ <p class="tagline" style="margin-top: 16px;">We draft Montana employment documents to be WDEA-coherent from day one. That's not an add-on; it's what the EOR relationship includes. When your Montana headcount makes a US entity the right call, we'll be the ones who say so.</p>
+ <div class="tagline-sig">Teamed Legal Operations &middot; Montana</div>
+ <div class="tagline-ctas">
+ <a href="https://www.teamed.global/contact" class="cta primary">Talk to a specialist</a>
+ <a href="https://www.teamed.global/tools/employer-cost" target="_blank" rel="noopener" class="cta secondary">Run the Employer Cost Calculator</a>
+ </div>
+ 
+<p class="signature" style="font-family: Caveat, cursive; font-size: 22px; color: var(--sienna-700); margin-top: 16px;">, Tom Price-Daniel, Teamed</p>
+</section>
+
+ <!-- Meta footer -->
+ <div class="meta-footer">
+ <p>Sources: <a href="https://mca.legmt.gov/bills/mca/title_0390/chapter_0020/part_0090/sections_index.html" target="_blank" rel="noopener">MCA Title 39 Ch. 2 Part 9 (WDEA)</a> &middot; <a href="https://mca.legmt.gov/bills/mca/title_0020/chapter_0150/sections_index.html" target="_blank" rel="noopener">MCA §§ 2-15-110 to 2-15-119 (state employee sick leave)</a> &middot; <a href="https://mca.legmt.gov/bills/mca/title_0490/chapter_0020/part_0030/section_0310/0490-0020-0310.html" target="_blank" rel="noopener">MCA § 49-2-310 (pregnancy leave)</a> &middot; <a href="https://erd.dli.mt.gov/labor-standards/wage-and-hour-payment-act/state-minimum-wage" target="_blank" rel="noopener">Montana DLI: minimum wage 2026 ($10.85/hr)</a> &middot; <a href="https://www.dol.gov/agencies/whd/fmla" target="_blank" rel="noopener">U.S. Department of Labor: FMLA</a></p>
+ <p>Last reviewed 31 May 2026 &middot; Montana leave data verified against primary statutes. All statutory facts provisional; verify with a qualified employment attorney for your specific situation. Teamed is not a law firm. Public-sector sick leave figures from MCA §§ 2-15-110 to 2-15-119 and do not apply to private employers.</p>
+ </div>
+
+</div><!-- /container -->
+
+</body>
+</html>

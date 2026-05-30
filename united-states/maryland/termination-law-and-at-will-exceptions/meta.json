@@ -1,0 +1,97 @@
+{
+  "row_id": "master-0119",
+  "slug": "united-states/maryland/termination-law-and-at-will-exceptions",
+  "page_title": "Termination law and at-will exceptions — Maryland",
+  "target_url": "/hire-in-united-states/maryland/termination-law-and-at-will-exceptions/",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+  "target_keywords": [
+    "maryland at-will employment exceptions",
+    "maryland wrongful termination law",
+    "maryland termination notice period",
+    "maryland final paycheck law",
+    "maryland severance pay requirements",
+    "maryland WARN Act"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dllr.state.md.us/labor/wagepay/wpatwill.shtml",
+      "label": "MD DOL — Employment At-Will",
+      "accessed": "2026-05-30",
+      "used_for": "at-will baseline, exceptions list"
+    },
+    {
+      "url": "https://www.dllr.state.md.us/labor/wagepay/wppayonterm.shtml",
+      "label": "MD DOL — Termination Pay",
+      "accessed": "2026-05-30",
+      "used_for": "final pay rules, PTO, HWFA payout"
+    },
+    {
+      "url": "https://labor.maryland.gov/labor/wagepay/wpsevpay.shtml",
+      "label": "MD DOL — Severance Pay",
+      "accessed": "2026-05-30",
+      "used_for": "severance — not required"
+    },
+    {
+      "url": "https://labor.maryland.gov/employment/warn.shtml",
+      "label": "MD Labor — WARN and ESA",
+      "accessed": "2026-05-30",
+      "used_for": "mass layoff thresholds, ESA effective date, WARN thresholds"
+    },
+    {
+      "url": "https://law.justia.com/codes/maryland/state-government/title-20/subtitle-6/section-20-606/",
+      "label": "Maryland FEPA § 20-606",
+      "accessed": "2026-05-30",
+      "used_for": "protected classes, employer size thresholds"
+    },
+    {
+      "url": "https://labor.maryland.gov/paidleave/paidleavefaqs.shtml",
+      "label": "MD DOL — HWFA FAQs",
+      "accessed": "2026-05-30",
+      "used_for": "HWFA sick leave payout rules, 37-week reinstatement"
+    }
+  ],
+  "internal_links_used": [
+    { "anchor": "Employer of Record", "href": "/employer-of-record/", "status": "live" },
+    { "anchor": "graduation model", "href": "/graduation-model/", "status": "live" },
+    { "anchor": "employer cost calculator", "href": "https://www.teamed.global/tools/employer-cost", "status": "live" },
+    { "anchor": "crossover calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "status": "live" }
+  ],
+  "editor_rounds": 1,
+  "audit_score": 88,
+  "high_concern_flags": [],
+  "prompt_correction": null,
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "person_schema": true
+  },
+  "compliance_cache_used": true,
+  "compliance_cache_note": "Cache had tax/payroll data only; termination facts sourced fresh via WebSearch + primary MD DOL sources.",
+  "pullquote_mi_search": "no_embedding_available",
+  "pullquote_attribution": "Teamed Legal Operations (anonymous — no MI match)",
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_kb": 199,
+    "credit": "LJ Montague (@ljmontague) on Unsplash",
+    "credit_url": "https://unsplash.com/photos/white-concrete-building-under-blue-sky-during-daytime-HP-s-H8de8U"
+  },
+  "inline_visual": "pad-note (Maryland ESA/HWFA key dates)",
+  "schema_blocks": [
+    "Article",
+    "Organization",
+    "BreadcrumbList",
+    "FAQPage",
+    "Service"
+  ],
+  "teamed_difference_signals": {
+    "pricing_mention": true,
+    "zero_fx": true,
+    "crossover_signal": true,
+    "tom_tagline_close": true,
+    "human_first_signal": true,
+    "one_platform_signal": true,
+    "density_check": ["legal_specialist", "transparency_pricing"]
+  }
+}

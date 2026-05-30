@@ -1,0 +1,136 @@
+{
+  "row_id": "master-0169",
+  "country": "United States",
+  "state": "Nevada",
+  "slug": "united-states/nevada/paid-family-and-sick-leave",
+  "target_url": "/hire-in-united-states/nevada/paid-family-and-sick-leave/",
+  "page_title": "Paid family and sick leave — Nevada",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-31",
+  "sources_verified_at": "2026-05-31",
+
+  "target_keywords": [
+    "nevada paid leave law 2026",
+    "nevada SB 312 any-reason leave",
+    "nevada paid sick leave employer",
+    "nevada FMLA 2026",
+    "NRS 608.0197 employer requirements"
+  ],
+
+  "audit_score": 88,
+  "audit_score_notes": "All block-severity checks passing. Deductions: (1) AB 305 $30 FMLA fee cap sourced from Nevada Employers Association 2026 update only — not independently verified against enrolled bill text. (2) NRS 613.4353 Nevada pregnancy accommodation statute not independently verified against Nevada LCB database. (3) SB 312 amendment check flagged as provisional per task brief instruction — no SB amendments found in primary sources but 2025 session bills not exhaustively reviewed.",
+
+  "high_concern_flags": 3,
+  "flags": [
+    {
+      "flag": "factual_uncertainty",
+      "severity": "medium",
+      "field": "ab305_fmla_fee_cap",
+      "detail": "AB 305 (2025 session) $30 FMLA certification fee cap, effective 1st January 2026. Source: Nevada Employers Association 2026 update (nevadaemployers.org). Not independently verified against Nevada LCB enrolled bill text before publication. Verify before go-live.",
+      "sources": [
+        "https://www.nevadaemployers.org/2026-nevada-labor-law-update-what-employers-must-know/"
+      ]
+    },
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "field": "nrs_613_4353_pregnancy_accommodation",
+      "detail": "Nevada state pregnancy accommodation obligation under NRS 613.4353 cited per legal reference sources. Verify statute number against Nevada LCB statute database before publication.",
+      "sources": [
+        "https://www.leg.state.nv.us/nrs/nrs-613.html"
+      ]
+    },
+    {
+      "flag": "factual_uncertainty",
+      "severity": "low",
+      "field": "sb312_amendments",
+      "detail": "Task brief instructs verification against most recent SB amendments to NRS 608.0197. No amendment found in compliance cache (2026-05-30) or primary source review. 2025 Nevada session bills not exhaustively scanned. Verify against Nevada LCB 2025 session chaptered bills before publication.",
+      "sources": [
+        "https://www.leg.state.nv.us/nrs/nrs-608.html",
+        "https://www.leg.state.nv.us/Session/83rd2025/"
+      ]
+    }
+  ],
+
+  "prompt_correction": null,
+
+  "sources": [
+    { "url": "https://www.leg.state.nv.us/nrs/nrs-608.html", "label": "NRS Chapter 608 — SB 312 / NRS 608.0197 paid leave", "type": "primary_statute" },
+    { "url": "https://www.leg.state.nv.us/nrs/nrs-613.html", "label": "NRS Chapter 613 — Nevada pregnancy accommodation", "type": "primary_statute" },
+    { "url": "https://www.nevadaemployers.org/2026-nevada-labor-law-update-what-employers-must-know/", "label": "Nevada Employers Association 2026 update (includes AB 305)", "type": "trade_association" },
+    { "url": "https://www.sixfifty.com/blog/nevada-paid-sick-leave-laws-and-requirements/", "label": "SixFifty — Nevada SB 312 paid sick leave", "type": "legal_reference" },
+    { "url": "https://remotelaws.com/paid-leave/nevada/", "label": "Remotelaws — Nevada paid leave", "type": "legal_reference" },
+    { "url": "https://www.dol.gov/agencies/whd/fmla", "label": "US DOL — FMLA employer guide", "type": "government" },
+    { "url": "https://www.eeoc.gov/pregnant-workers-fairness-act", "label": "EEOC — Pregnant Workers Fairness Act", "type": "government" },
+    { "url": "https://www.ncsl.org/labor-and-employment/paid-family-leave-resources", "label": "NCSL — State paid family leave laws", "type": "government" },
+    { "url": "https://www.abetterbalance.org/paid-sick-time-laws/", "label": "A Better Balance — state paid sick time tracker", "type": "advocacy_reference" }
+  ],
+
+  "internal_links_used": [
+    { "anchor": "Nevada state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live", "rendered": "link" },
+    { "anchor": "Nevada worker classification state test", "href": "../worker-classification-state-test/", "state": "live", "rendered": "link" },
+    { "anchor": "Nevada termination law and at-will exceptions", "href": "../termination-law-and-at-will-exceptions/", "state": "live", "rendered": "link" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live", "rendered": "link" },
+    { "anchor": "Pricing — Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "state": "live", "rendered": "link" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live", "rendered": "link" },
+    { "anchor": "Employer Cost Calculator", "href": "https://www.teamed.global/tools/employer-cost", "state": "live", "rendered": "link" },
+    { "anchor": "California paid family and sick leave", "href": "../../california/paid-family-and-sick-leave/", "state": "live", "rendered": "link" },
+    { "anchor": "Hire in the United States, overview", "href": "/hire-in-united-states/", "state": "wave-3", "rendered": "plain-text" },
+    { "anchor": "Nevada employment overview", "href": "/hire-in-united-states/nevada/", "state": "wave-4", "rendered": "plain-text" }
+  ],
+
+  "editor_rounds": 0,
+  "linter_result": "pass",
+  "linter_checks": "27/27",
+  "linter_block_fails": 0,
+  "linter_warn_fails": 0,
+
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "neighbour_links_note": "wave-3 and wave-4 sibling links (US parent, Nevada state overview) will auto-promote to <a> when those pages ship"
+  },
+
+  "compliance_cache": "sprint/compliance-cache/nevada.json",
+  "compliance_cache_role": "child_consumer",
+  "compliance_cache_written_by": "master-0166",
+
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 497335,
+    "dimensions": "1600x1200",
+    "source": "Unsplash",
+    "alt_text": "Downtown Las Vegas Fremont Street district photographed in daylight, showing Nevada's urban character.",
+    "note": "Different photo from Nevada sibling page (master-0166 used David Vives Las Vegas night shot). No duplication."
+  },
+
+  "inline_visual": {
+    "type": "stamp-block",
+    "content": "NRS 608.0197 / SB 312 statutory reference — 0.01923 hrs per hr worked, 40 hrs/year, any reason, no documentation. Effective 1st January 2020.",
+    "implementation": "HTML+CSS stamp-block primitive, consistent with Nevada sibling pages"
+  },
+
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "schema_valid": true,
+  "faq_count": 4,
+
+  "css_path": "../../_shared/child-base.css",
+  "g2_badge_path": "../../../_shared/g2-badges/",
+  "customer_strip_inside_container": true,
+  "tagline_close_inside_container": true,
+
+  "pullquote": {
+    "type": "anonymised",
+    "attribution": "Teamed Legal Operations",
+    "mi_query_run": false,
+    "reason": "No named individual (Joanna/Paulina/Antony) pullquote required. Anonymised to 'Teamed Legal Operations' per pullquote provenance rules."
+  },
+
+  "editorial_angle": "Nevada mandates paid leave for any reason — broader than most US sick-leave states — but has no PFML programme. The any-reason provision is the source of most employer confusion and the page's editorial hook.",
+
+  "word_count_estimate": 2800
+}

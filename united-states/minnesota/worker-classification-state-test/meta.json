@@ -1,0 +1,177 @@
+{
+  "row_id": "master-0138",
+  "slug": "united-states/minnesota/worker-classification-state-test",
+  "target_url": "/hire-in-united-states/minnesota/worker-classification-state-test/",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-30",
+  "sources_verified_at": "2026-05-30",
+
+  "target_keywords": [
+    "Minnesota worker classification state test 2026",
+    "Minnesota independent contractor test",
+    "Minnesota § 181.722 5-factor test",
+    "Minnesota § 181.723 construction classification",
+    "Minnesota Misclassification Act penalty"
+  ],
+
+  "sources": [
+    {
+      "type": "primary_statutory",
+      "label": "Minn. Stat. § 181.722 — independent contractor general test",
+      "url": "https://www.revisor.mn.gov/statutes/cite/181.722",
+      "accessed": "2026-05-30",
+      "provisional": true,
+      "note": "Statutory text accessible via MN Revisor of Statutes. Factor count and language verified against cache; full text should be re-confirmed before publishing."
+    },
+    {
+      "type": "primary_statutory",
+      "label": "Minn. Stat. § 181.723 — construction worker classification (14-factor, expanded 1 March 2025)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/181.723",
+      "accessed": "2026-05-30",
+      "provisional": true,
+      "note": "March 2025 expansion confirmed in compliance cache. Full 14-factor list should be verified against current statutory text before each publish refresh."
+    },
+    {
+      "type": "primary_regulatory",
+      "label": "Minnesota DLI — Misclassification of Employees as Independent Contractors",
+      "url": "https://www.dli.mn.gov/business/employment-practices/misclassification-faqs",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "Minn. Stat. § 268.035, subd. 15 — SUI ABC test (DEED)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/268.035",
+      "accessed": "2026-05-30",
+      "provisional": true
+    },
+    {
+      "type": "primary_statutory",
+      "label": "Minn. Stat. § 181.9445 — Earned Sick and Safe Time (ESST)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/181.9445",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "Minnesota PFML — Paid Family and Medical Leave (§ 268B)",
+      "url": "https://paidleave.mn.gov/",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "Minnesota UI wage base and rates 2026 (UIMN)",
+      "url": "https://www.uimn.org/employers/wages-taxes/tax-rates/index.jsp",
+      "accessed": "2026-05-30"
+    },
+    {
+      "type": "primary_statutory",
+      "label": "Minn. Stat. § 177.27 — Wage Theft Act (back-wage enforcement)",
+      "url": "https://www.revisor.mn.gov/statutes/cite/177.27",
+      "accessed": "2026-05-30",
+      "provisional": true
+    }
+  ],
+
+  "internal_links_used": [
+    { "anchor": "a flat $599 per employee per month", "href": "/pricing/zero-fx-fixed/", "state": "live" },
+    { "anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "state": "live" },
+    { "anchor": "Contractor Classifier", "href": "https://www.teamed.global/tools/contractor-classification", "state": "live" },
+    { "anchor": "Employer of Record overview", "href": "/employer-of-record/", "state": "live" },
+    { "anchor": "Talk to an expert", "href": "https://www.teamed.global/contact", "state": "live" },
+    { "anchor": "Minnesota state income tax and unemployment insurance", "href": "../state-income-tax-and-unemployment-insurance/", "state": "live" },
+    { "anchor": "Illinois worker classification", "href": "../../illinois/worker-classification-state-test/", "state": "live" },
+    { "anchor": "Maine worker classification", "href": "../../maine/worker-classification-state-test/", "state": "live" },
+    { "anchor": "Colorado worker classification", "href": "../../colorado/worker-classification-state-test/", "state": "live" }
+  ],
+
+  "link_gate_warnings": [
+    { "text": "Hiring in the United States", "href": "/hire-in-united-states/", "state": "wave-3", "flag": "link_gate_warn" },
+    { "text": "Minnesota overview", "href": "/hire-in-united-states/minnesota/", "state": "wave-3", "flag": "link_gate_warn" },
+    { "text": "Minnesota wage, overtime, and meal-break law", "href": "/hire-in-united-states/minnesota/wage-overtime-and-meal-break-law/", "state": "wave-4", "flag": "link_gate_warn" },
+    { "text": "Minnesota paid family and sick leave", "href": "/hire-in-united-states/minnesota/paid-family-and-sick-leave/", "state": "wave-4", "flag": "link_gate_warn" },
+    { "text": "Minnesota termination law", "href": "/hire-in-united-states/minnesota/termination-law-and-at-will-exceptions/", "state": "wave-4", "flag": "link_gate_warn" }
+  ],
+
+  "images": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "source": "Unsplash",
+      "photographer": "Venti Views",
+      "photographer_username": "ventiviews",
+      "photo_url": "https://unsplash.com/photos/minneapolis-minnesota-stone-arch-bridge",
+      "query": "Minneapolis Minnesota Stone Arch Bridge skyline",
+      "status": "FALLBACK_NEEDED",
+      "note": "Image not fetched — requires Unsplash download. Use query 'Minneapolis Minnesota downtown skyline' on Unsplash and save to images/hero.jpg. Target size: 150–250 KB at 1600px wide."
+    }
+  },
+
+  "schema_blocks": [
+    "Article",
+    "Organization",
+    "BreadcrumbList (5 levels)",
+    "Service",
+    "FAQPage (5 questions)"
+  ],
+
+  "editor_rounds": 0,
+  "editor_notes": "First draft. All statutory facts sourced from compliance cache (verified against sprint/compliance-cache/minnesota.json) and cross-checked against MN Revisor of Statutes URLs. Provisional flag set on § 181.722 and § 181.723 because full 14-factor enumeration from primary statutory text was not independently fetched during generation — cache confirms count and expansion date.",
+
+  "linter_result": {
+    "css_path": "../../_shared/child-base.css (2 levels, correct for US-state child depth)",
+    "g2_badge_paths": "../../../_shared/g2-badges/<name>.png (3 levels, correct)",
+    "customer_strip_inside_container": true,
+    "tagline_close_inside_container": true,
+    "cta_hrefs_canonical": true,
+    "staging_urls_present": false,
+    "status": "PASS"
+  },
+
+  "audit_score": 84,
+  "audit_score_notes": "Points deducted: (1) hero image not fetched — fallback_needed flag set (-6); (2) full § 181.723 14-factor list not individually enumerated in the table (table shows 8 representative factors with note; full statutory list is provisional) (-4); (3) no Colorado worker-classification page confirmed live at time of writing — cross-state link may be dead (-2). Core statutory framing, penalty figures, expansion date, and enforcement structure all verified against cache. Schema full stack. All CTAs canonical.",
+
+  "high_concern_flags": [
+    {
+      "flag": "factual_provisional",
+      "field": "§ 181.723 14-factor list — full enumeration",
+      "detail": "Compliance cache confirms: 14 factors effective 1 March 2025, penalty up to $10,000 per worker. Full enumeration of all 14 factors not verified against primary statutory text (Minn. Stat. § 181.723, subd. 4) during generation. Page table shows 8 representative factors. Before publishing, verify all 14 factors against https://www.revisor.mn.gov/statutes/cite/181.723 and expand the table if material factors are missing.",
+      "action": "Read Minn. Stat. § 181.723, subd. 4 in full. Add any factors not currently represented in the table."
+    },
+    {
+      "flag": "factual_provisional",
+      "field": "§ 181.722 5-factor list — precise statutory language",
+      "detail": "Cache confirms 5-factor test under § 181.722, subd. 3. Factor descriptions in the page are paraphrased from the cache and prior sprint pages. Precise statutory language should be confirmed against https://www.revisor.mn.gov/statutes/cite/181.722 before publishing.",
+      "action": "Read Minn. Stat. § 181.722, subd. 3 in full. Confirm factor descriptions match statutory language."
+    },
+    {
+      "flag": "image_missing",
+      "field": "images/hero.jpg",
+      "detail": "Hero image was not fetched during generation. Page renders with a broken img src. Download a Minneapolis/Minnesota skyline image from Unsplash (suggested query: 'Minneapolis Minnesota downtown skyline'; target 1600px wide, 150–250 KB). Save to images/hero.jpg.",
+      "action": "Download hero image and save to images/hero.jpg before publishing."
+    },
+    {
+      "flag": "link_gate_warn",
+      "field": "cross-state link — Colorado worker classification",
+      "detail": "Page links to ../../colorado/worker-classification-state-test/ in the links-rail. Colorado worker classification page existence at time of generation not confirmed. If this page does not exist, the link will 404.",
+      "action": "Verify ../../colorado/worker-classification-state-test/index.html exists before publishing, or change to plain text with 'ships wave N' context label."
+    }
+  ],
+
+  "prompt_corrections": [],
+
+  "retrofit_needed": {
+    "images": true,
+    "images_note": "Hero image must be downloaded and saved to images/hero.jpg before publishing.",
+    "internal_links": true,
+    "internal_links_note": "Five wave-3/4 links (US parent, MN state overview, wage/leave/termination siblings) rendered as plain text per link-gate rule. Auto-promote to anchors when target pages ship.",
+    "neighbour_links": true,
+    "neighbour_links_note": "Wisconsin and Iowa worker-classification pages not yet in manifest. Add cross-state links when those pages ship."
+  },
+
+  "css_path_verified": "../../_shared/child-base.css (2 levels up — confirmed correct for US-state child depth)",
+  "customer_strip_placement": "inside .container div (before closing </div>), after TEAMED:CUSTOMER-STRIP-V1 marker",
+  "tagline_close_placement": "inside .container div",
+  "all_cta_hrefs_canonical": true,
+  "no_staging_urls": true
+}

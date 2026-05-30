@@ -1,0 +1,136 @@
+{
+  "row_id": "master-0176",
+  "country": "United States",
+  "state": "New Hampshire",
+  "page_title": "Wage overtime and meal break law — New Hampshire",
+  "target_url": "/hire-in-united-states/new-hampshire/wage-overtime-and-meal-break-law/",
+  "slug": "united-states/new-hampshire/wage-overtime-and-meal-break-law",
+  "type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "spec_version": "phase-1.0",
+  "generated_at": "2026-05-31",
+  "sources_verified_at": "2026-05-31",
+  "meta_title": "New Hampshire Wage, Overtime and Meal Break Law 2026 | Teamed",
+  "meta_description": "NH minimum wage $7.25/hr (federal floor, RSA 279). FLSA 40-hr OT threshold. 30-min meal break required for shifts over 5 consecutive hours (RSA 275:30-a). Final pay within 72 hours on involuntary dismissal (RSA 275:44).",
+  "target_keywords": [
+    "New Hampshire minimum wage 2026",
+    "New Hampshire overtime law",
+    "New Hampshire meal break law",
+    "RSA 275:30-a meal break New Hampshire",
+    "New Hampshire final paycheck law"
+  ],
+  "schema_types": ["Article", "FAQPage", "Organization", "BreadcrumbList", "Service"],
+  "hero_image": {
+    "file": "images/hero.jpg",
+    "size_bytes": 550708,
+    "source": "Unsplash",
+    "photo_id": "1441974231531-c6227db76b6e",
+    "alt": "Autumn forest trail in New Hampshire's White Mountains national forest.",
+    "status": "verified_above_100kb"
+  },
+  "compliance_sources": [
+    {
+      "cite": "RSA 279",
+      "fact": "New Hampshire minimum wage tied to federal FLSA floor — $7.25/hr in 2026",
+      "url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXIII-279.htm",
+      "provisional": true
+    },
+    {
+      "cite": "FLSA § 206",
+      "fact": "Federal minimum wage $7.25/hr; tipped minimum $2.13/hr federal (NH tipped rate $3.26/hr)",
+      "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+      "provisional": true
+    },
+    {
+      "cite": "RSA 275:30-a",
+      "fact": "30-minute meal break required for shifts over 5 consecutive hours; unpaid if fully relieved; exception for eating-while-working by agreement",
+      "url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXIII-275.htm",
+      "provisional": true
+    },
+    {
+      "cite": "RSA 275:43",
+      "fact": "Regular payday requirement; wages paid no less than weekly, bi-weekly, or semi-monthly",
+      "url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXIII-275.htm",
+      "provisional": true
+    },
+    {
+      "cite": "RSA 275:44",
+      "fact": "Final wages due within 72 hours of involuntary dismissal; next regular payday on voluntary resignation",
+      "url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXIII-275.htm",
+      "provisional": true
+    },
+    {
+      "cite": "FLSA — overtime",
+      "fact": "40-hour weekly threshold; 1.5x regular rate; no state daily OT in NH",
+      "url": "https://www.dol.gov/agencies/whd/overtime",
+      "provisional": false
+    }
+  ],
+  "partner_note": "NH EOR runs through Suna Solutions, Inc. (primary US partner). No direct Teamed legal entity in the US.",
+  "information_gain_angle": "NH has no state minimum above federal floor and no state OT law beyond FLSA — unusually clean for multi-state payroll. Key differentiators: (1) no daily OT makes 4x10 schedules viable without premium; (2) RSA 275:30-a eating-while-working exception is real but narrow — NH DOL applies it narrowly; (3) 72-hour final-pay rule on involuntary dismissal is stricter than most US states; (4) monthly pay frequency not compliant under RSA 275:43.",
+  "rubric_status": "clean",
+  "block_violations": 0,
+  "warn_violations": 0,
+  "audit_flags": 5,
+  "audit_flag_detail": [
+    "$7.25 minimum wage as NH state rate — tracks federal floor via RSA 279; provisional pending federal minimum wage stability",
+    "$3.26 tipped rate — provisional; confirm against current NH DOL tipped-credit schedule",
+    "FLSA exempt salary threshold $684/week cited — provisional; DOL 2024 rule subject to legal challenge; re-verify before each payroll year",
+    "RSA 275:30-a eating-while-working exception scope — provisional; based on statutory text reading and NH DOL enforcement position",
+    "RSA 275:43 monthly pay disallowed interpretation — provisional; based on plain reading of pay-frequency statute"
+  ],
+  "status": "noindex",
+  "publishing_gate": "pending",
+  "compliance_cache_read": "sprint/compliance-cache/new-hampshire.json",
+  "compliance_cache_note": "Cache file not found on disk. Facts sourced from row CACHE field in agent prompt and cross-referenced against NH RSA text and FLSA. Cache NOT overwritten per spec.",
+  "compliance_cache_overwritten": false,
+  "css_path": "../../_shared/child-base.css",
+  "css_path_verified": true,
+  "g2_badges_path": "../../../_shared/g2-badges/",
+  "g2_badges_path_verified": true,
+  "customer_strip_inside_container": true,
+  "tagline_close_inside_container": true,
+  "canonical_ctas_only": true,
+  "cta_urls_used": [
+    "/contact/",
+    "https://www.teamed.global/tools/employer-cost",
+    "https://www.teamed.global/tools/crossover-calculator"
+  ],
+  "pullquote": {
+    "anonymised": true,
+    "attribution_1": "Teamed Legal Operations",
+    "attribution_2": "Teamed Client Operations",
+    "mi_match_found": false,
+    "reason": "No Meeting Intelligence match for NH wage/meal break content. Anonymised per pullquote-provenance memory rule."
+  },
+  "sections": [
+    "minimum-wage",
+    "overtime",
+    "meal-breaks",
+    "final-pay",
+    "eor-implication"
+  ],
+  "faq_questions": 6,
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "internal_links_used": [
+    { "href": "/contact/", "status": "live" },
+    { "href": "/employer-of-record/", "status": "live" },
+    { "href": "/graduation-model/", "status": "live" },
+    { "href": "https://www.teamed.global/tools/employer-cost", "status": "live" },
+    { "href": "https://www.teamed.global/tools/crossover-calculator", "status": "live" },
+    { "href": "../termination-law-and-at-will-exceptions/", "status": "sibling" },
+    { "href": "../worker-classification-state-test/", "status": "sibling" },
+    { "href": "../state-income-tax-and-unemployment-insurance/", "status": "sibling" }
+  ],
+  "teamed_difference_checks": {
+    "pricing_mention": true,
+    "zero_fx": true,
+    "crossover_signal": true,
+    "tagline_close": true,
+    "tagline_topic_specific": true,
+    "human_first_signal": true,
+    "cost_passthrough_mention": true,
+    "off_cycle_payroll_value_prop": true
+  }
+}

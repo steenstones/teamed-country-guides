@@ -1,0 +1,150 @@
+{
+  "country": {
+    "name": "United States",
+    "slug": "united-states",
+    "iso2": "US",
+    "iso3": "USA"
+  },
+  "state": {
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "abbreviation": "NE"
+  },
+  "page": {
+    "title": "State income tax and unemployment insurance — Nebraska",
+    "slug": "united-states/nebraska/state-income-tax-and-unemployment-insurance",
+    "type": "programmatic",
+    "tier": "US-State"
+  },
+  "hero": {
+    "headline": "Nebraska payroll tax for employers — 2026",
+    "subhead": "4.55% top income tax rate, $9,000 UI wage base, $15 minimum wage.",
+    "primary_cta": { "label": "Talk to a specialist", "href": "https://www.teamed.global/contact" },
+    "secondary_cta": { "label": "Calculate employer cost", "href": "https://www.teamed.global/tools/employer-cost" }
+  },
+  "at_a_glance": {
+    "state_income_tax_top_rate": "4.55% (2026)",
+    "income_tax_2027": "3.99% (flat, effective Jan 1 2027)",
+    "ui_wage_base": "$9,000 (standard)",
+    "ui_new_employer_rate": "1.25% non-construction / 5.4% construction",
+    "minimum_wage": "$15.00 / hr (from Jan 1 2026)",
+    "paid_sick_time": "1 hr per 30 hrs worked (from Oct 1 2025)",
+    "state_pfl": "None",
+    "state_sdi": "None",
+    "overtime": "Federal FLSA only",
+    "termination": "At-will, no notice required",
+    "verified_date": "2026-05-30"
+  },
+  "income_tax_block": {
+    "question": "What is Nebraska's state income tax rate for employers?",
+    "answer_first": "Nebraska's top income tax rate is 4.55% in 2026, falling to 3.99% on 1st January 2027 under LB 754. Employers withhold at three progressive brackets.",
+    "body": "Nebraska moved from four income tax brackets to three on 1st January 2026 as part of Governor Pillen's LB 754 reform. Single filers pay 2.46% up to $2,399, 3.51% from $2,400 to $17,999, and 4.55% above $18,000. Married-joint thresholds are exactly double. The top rate was 5.84% as recently as 2024 and 5.20% in 2025 — employers running Nebraska payroll today are already working with materially lower withholding tables than two years ago. Social Security income is fully exempt from Nebraska tax from Tax Year 2025. You must use the 2026 Circular EN withholding tables for wages paid on or after 1st January 2026. Employers with more than 24 employees must withhold at least 1.5% of taxable wages unless the employee provides written documentation for less. Teamed passes statutory withholding through at cost — you see every line on the invoice, with no markup.",
+    "brackets_2026": {
+      "single": [
+        { "from": 0, "to": 2399, "rate": "2.46%" },
+        { "from": 2400, "to": 17999, "rate": "3.51%" },
+        { "from": 18000, "to": null, "rate": "4.55%" }
+      ],
+      "married_joint": [
+        { "from": 0, "to": 4799, "rate": "2.46%" },
+        { "from": 4800, "to": 35999, "rate": "3.51%" },
+        { "from": 36000, "to": null, "rate": "4.55%" }
+      ]
+    },
+    "glide_path": {
+      "2024": "5.84%",
+      "2025": "5.20%",
+      "2026": "4.55%",
+      "2027": "3.99% (near-flat)"
+    },
+    "source_url": "https://revenue.nebraska.gov/businesses/circular-en-nebraska-income-tax-withholding-wages-pensions-and-annuities-and-gambling"
+  },
+  "unemployment_insurance_block": {
+    "question": "What is Nebraska's unemployment insurance rate for employers?",
+    "answer_first": "New non-construction employers pay 1.25% UI on the first $9,000 of wages per worker. Experienced employers range from 0% to 5.4% across 20 rate categories.",
+    "body": "Nebraska uses an array system with 20 rate categories, each covering 5% of total taxable payroll. The taxable wage base is $9,000 for most employers, rising to $24,000 for employers in the highest category (category 20). All mid-category rates are increasing for 2026 compared to 2025, though the floor and ceiling stay at 0% and 5.4%. Construction employers start at 5.4%. Nebraska employers generally qualify for the full 5.4% FUTA tax credit on the federal side, reducing the net federal UI rate to 0.6% on the first $7,000 per employee. Your combined UI cost for a new hire with a $60,000 salary is at most $112.50 in Nebraska state UI per year — a small line against the withholding picture. Your Teamed account dashboard shows UI rate category assignments and projects cost changes as your workforce matures.",
+    "source_url": "https://dol.nebraska.gov/UITax/UnemploymentInsuranceTax/CombinedTaxRates"
+  },
+  "paid_sick_and_wage_block": {
+    "question": "What are Nebraska's minimum wage and paid sick time rules?",
+    "answer_first": "Nebraska's minimum wage hit $15.00/hr on 1st January 2026. Paid sick time — 1 hour per 30 worked — is mandatory for employers with 11 or more employees from 1st October 2025.",
+    "body": "The $15.00 minimum wage completes the phased increase started by Initiative 436 in 2022. From 1st January 2027, the rate adjusts annually for inflation. Tipped employees receive at least $7.50 cash, with tips bridging the gap to $15.00. The Nebraska Healthy Families and Workplaces Act (Initiative 436, amended by LB 415) requires private employers with 11 or more staff to provide paid sick time. Employees earn 1 hour per 30 hours worked, beginning to accrue after 80 hours of employment. Employers with 20 or more workers must allow accrual and use of up to 56 hours per year; smaller covered employers cap at 40 hours. Unused hours carry over. Nebraska has no state paid family leave (PFL) programme and no state disability insurance (SDI) — federal FMLA at 50 employees is the floor for job-protected family leave. Teamed's compliance dashboard monitors sick-time accrual automatically, so you don't track it manually.",
+    "source_url": "https://dol.nebraska.gov/laborstandards"
+  },
+  "termination_block": {
+    "question": "How does at-will termination work in Nebraska?",
+    "answer_first": "Nebraska is a strict at-will state. No notice period is required from either employer or employee. Final wages are due by the next regular payday or within two weeks, whichever comes first.",
+    "body": "At-will employment means you can end a role without cause and without advance notice — and the employee can leave on the same terms. The practical exceptions are those that apply across the US: wrongful discharge against public policy, implied contract from an unqualified employee handbook, and federal anti-discrimination protections. Final pay must be delivered by the next scheduled payday or within 14 days of termination. Nebraska does not require severance pay unless an employment contract commits to it. The state has no statutory redundancy or separation pay formula. If you're hiring in Nebraska and want a structured off-boarding process, your Teamed specialist can draft compliant separation documentation that closes the risk loop under Neb. Rev. Stat. § 48-1230.",
+    "source_url": "https://nebraskalegislature.gov/laws/statutes.php?statute=48-1230"
+  },
+  "worker_classification_block": {
+    "question": "How does Nebraska classify workers — employee or contractor?",
+    "answer_first": "Nebraska uses the common law control test for most classifications. For UI purposes, the ABC test applies. Misclassification under the Employee Classification Act targets construction and delivery services.",
+    "body": "Under the ABC test used for UI, a worker is an employee unless all three conditions are met: A) they're free from your direction and control, B) the work falls outside your normal business activity, and C) they're genuinely in business for themselves in that trade. Failing any single prong makes them your employee for UI purposes. The Nebraska Employee Classification Act gives the Department of Labor authority to investigate and penalise misclassification in construction and delivery — two industries where misclassifying as 'subcontractors' to avoid UI and workers' comp is most common. If you're bringing on a Nebraska worker in any knowledge-work role and want an objective classification read, Teamed's Contractor Classifier gives you an instant risk assessment before you commit to a structure. Start at https://www.teamed.global/tools/contractor-classification.",
+    "source_url": "https://dol.nebraska.gov/LaborStandards/WorkerRights/EmployeeClassificationAct"
+  },
+  "good_to_know": {
+    "question": "What should you know before hiring in Nebraska?",
+    "body": "Nebraska is one of the few states actively reducing its income tax burden mid-decade — the 4.55% top rate in 2026 will be 3.99% in 2027, and the state has eliminated its Social Security income tax entirely. For remote-first companies, that matters to talent attraction. There's no state payroll tax on the employer side beyond UI, no SDI, and no PFL programme — your statutory complexity is lower here than in California or New York. The state's paid sick time law (effective October 2025) was a ballot initiative, not a legislature bill, and it came with an amendment (LB 415) that made small-employer treatment more practical. Nebraska's labour market skews toward agriculture, financial services, and a growing tech sector anchored by Omaha. Payroll frequency is required to be at minimum semi-monthly."
+  },
+  "internal_links": [
+    {
+      "anchor": "Employer of Record overview",
+      "href": "/employer-of-record/",
+      "context": "core",
+      "state": "live"
+    },
+    {
+      "anchor": "EOR vs Entity Crossover Calculator",
+      "href": "https://www.teamed.global/tools/crossover-calculator",
+      "context": "tool",
+      "state": "live"
+    },
+    {
+      "anchor": "Employer Cost Calculator",
+      "href": "https://www.teamed.global/tools/employer-cost",
+      "context": "tool",
+      "state": "live"
+    },
+    {
+      "anchor": "Contractor Classifier",
+      "href": "https://www.teamed.global/tools/contractor-classification",
+      "context": "tool",
+      "state": "live"
+    }
+  ],
+  "faq_schema": [
+    {
+      "q": "What is Nebraska's state income tax rate in 2026?",
+      "a": "Nebraska's top individual income tax rate is 4.55% in 2026, applied in three brackets (2.46% / 3.51% / 4.55%). The rate falls to 3.99% on 1st January 2027 under LB 754. Social Security income is fully exempt from Nebraska tax from Tax Year 2025."
+    },
+    {
+      "q": "What is Nebraska's unemployment insurance wage base for 2026?",
+      "a": "The standard Nebraska UI taxable wage base is $9,000 per employee in 2026. Employers in the highest UI rate category (category 20) have a $24,000 wage base. New non-construction employers pay 1.25%; experienced employer rates range from 0% to 5.4%."
+    },
+    {
+      "q": "Does Nebraska have paid sick leave?",
+      "a": "Yes. The Nebraska Healthy Families and Workplaces Act (effective 1st October 2025) requires private employers with 11 or more employees to provide earned paid sick time. Employees earn 1 hour per 30 hours worked, up to 40–56 hours per year depending on employer size."
+    },
+    {
+      "q": "What is the notice period for termination in Nebraska?",
+      "a": "Nebraska is an at-will employment state. No notice period is required from employer or employee. Final wages must be paid by the next regular payday or within two weeks of termination, whichever comes first, under Neb. Rev. Stat. § 48-1230."
+    }
+  ],
+  "images": {
+    "hero": "images/hero.jpg",
+    "polaroid": "images/polaroid-lb754.png"
+  },
+  "meta": {
+    "title": "Nebraska Payroll Tax Guide 2026 | Teamed EOR",
+    "description": "Nebraska's top income tax rate is 4.55% in 2026, dropping to 3.99% in 2027. UI wage base $9,000. Full employer compliance guide. Teamed EOR from $599/month.",
+    "target_keywords": [
+      "Nebraska employer income tax withholding 2026",
+      "Nebraska unemployment insurance rate 2026",
+      "Nebraska payroll tax employer",
+      "Nebraska SUTA rate 2026"
+    ],
+    "generated_at": "2026-05-30",
+    "sources_verified_at": "2026-05-30"
+  }
+}

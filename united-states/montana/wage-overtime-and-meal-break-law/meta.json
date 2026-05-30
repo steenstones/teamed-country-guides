@@ -1,0 +1,90 @@
+{
+  "row_id": "master-0158",
+  "country": "United States",
+  "state": "Montana",
+  "slug": "united-states/montana/wage-overtime-and-meal-break-law",
+  "target_url": "/hire-in-united-states/montana/wage-overtime-and-meal-break-law/",
+  "page_title": "Wage, overtime and meal break law — Montana",
+  "spec_version": "phase-1.0",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "type": "programmatic",
+  "generated_at": "2026-05-31",
+  "reviewed_at": "2026-05-31",
+  "cache_source": "sprint/compliance-cache/montana.json",
+  "cache_fetched_at": "2026-05-30T00:00:00Z",
+  "prompt_correction_applied": true,
+  "prompt_correction_detail": "Prompt hint said ~$10.55/hr; verified value from cache is $10.85/hour (2026 CPI-adjusted). Page uses $10.85.",
+  "meta": {
+    "title": "Wage, overtime and meal break law — Montana 2026 | Teamed",
+    "description": "Montana minimum wage $10.85/hour from 1 Jan 2026. No tip credit. 40-hour OT, no daily trigger. No adult meal-break statute. Wage Protection Act §39-3-201.",
+    "description_length": 152,
+    "target_keywords": [
+      "Montana minimum wage 2026",
+      "Montana overtime law",
+      "Montana meal break requirements",
+      "employer of record Montana",
+      "hire employees Montana"
+    ]
+  },
+  "key_facts": {
+    "minimum_wage_2026_usd": 10.85,
+    "minimum_wage_2025_usd": 10.55,
+    "adjustment_mechanism": "Annual CPI (Aug-Aug), announced by 30 Sep, effective 1 Jan; rounds to nearest $0.05",
+    "tip_credit": "Prohibited entirely",
+    "small_business_exception_usd": 4.00,
+    "small_business_threshold": "$110,000 gross annual sales AND not FLSA-covered",
+    "overtime_threshold_hours": 40,
+    "overtime_multiplier": 1.5,
+    "daily_overtime_trigger": false,
+    "meal_break_adult_statute": false,
+    "final_pay_involuntary": "Immediately on last day of employment",
+    "final_pay_voluntary": "Next regular payday",
+    "final_pay_statute": "MCA §39-3-205",
+    "governing_wage_statute": "Montana Wage Protection Act, MCA §39-3-201 et seq.",
+    "payroll_frequency_minimum": "Semi-monthly"
+  },
+  "images": {
+    "hero": {
+      "file": "images/hero.jpg",
+      "size_kb": 112,
+      "meets_min_100kb": true,
+      "source": "Unsplash",
+      "photographer": "Steven Mason",
+      "photographer_handle": "smason96",
+      "photo_url": "https://unsplash.com/photos/green-pine-trees-near-mountain-under-blue-sky-during-daytime-hgOB0gmB7Gs",
+      "query": "Montana Glacier National Park mountains golden hour landscape",
+      "attribution_sidecar": "images/.hero-attribution.json"
+    }
+  },
+  "rubric": {
+    "answer_first": "pass",
+    "buyer_subject": "pass",
+    "no_em_dashes": "pass",
+    "no_forbidden_words": "pass",
+    "sentence_case_headings": "pass",
+    "pricing_in_body": "pass",
+    "zero_fx_in_body": "pass",
+    "crossover_signal": "pass",
+    "tom_tagline_close": "pass",
+    "tom_tagline_specific_facts": "pass",
+    "human_first_signal": "pass",
+    "one_platform_signal": "pass",
+    "partner_badge": "pass",
+    "teamed_difference_density": "pass (3 of 4 themes)",
+    "cost_page_conditional": "pass",
+    "g2_badges_path": "pass (3-level: ../../../_shared/g2-badges/)",
+    "css_path": "pass (2-level: ../../_shared/child-base.css)",
+    "customer_strip_in_container": "pass",
+    "tagline_close_in_container": "pass",
+    "canonical_ctas_only": "pass",
+    "hero_min_100kb": "pass"
+  },
+  "audit_issues": 0,
+  "flags": [
+    "PROVISIONAL: min wage $10.85 — re-verify October 2026 when next CPI adjustment announced",
+    "PROVISIONAL: FLSA salary threshold $684/week — federal litigation ongoing",
+    "PROVISIONAL: minor break thresholds not pulled from cache (not in scope for this page type)"
+  ],
+  "flag_count": 3
+}

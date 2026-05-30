@@ -1,0 +1,92 @@
+{
+  "row_id": "master-0172",
+  "slug": "united-states/new-hampshire/state-income-tax-and-unemployment-insurance",
+  "page_type": "us_state_child",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "sub_cluster": "Country — US State Child",
+  "generated_at": "2026-05-30T00:00:00Z",
+  "sources_verified_at": "2026-05-30",
+  "spec_version": "phase-1.0",
+  "audit_score": 91,
+  "linter_result": "pass",
+  "linter_checks": "27/27",
+  "editor_rounds": 1,
+  "editor_result": "clean",
+
+  "target_keywords": [
+    "new hampshire state income tax",
+    "new hampshire unemployment insurance employer",
+    "employer of record new hampshire"
+  ],
+  "primary_keyword_volume": 700,
+  "primary_keyword_kd": 20,
+  "primary_keyword_traffic_potential": 1500,
+
+  "sources": [
+    {"url": "https://www.revenue.nh.gov/news-and-media/repeal-nh-interest-and-dividends-tax-now-effect", "title": "NH DRA: Repeal of I&D Tax Now in Effect", "accessed": "2026-05-30"},
+    {"url": "https://www.mclane.com/insights/nh-interest-and-dividends-tax-repealed-as-of-january-1/", "title": "McLane Middleton: I&D Tax Repealed as of January 1", "accessed": "2026-05-30"},
+    {"url": "https://www.nhes.nh.gov/employers/employer-claims-taxes", "title": "NHES Employer Claims & Taxes", "accessed": "2026-05-30"},
+    {"url": "https://onpay.com/payroll/calculator-tax-rates/new-hampshire/", "title": "OnPay: NH Tax Rates 2026", "accessed": "2026-05-30"},
+    {"url": "https://newhampshirepayrollguide.com/blog/new-hampshire-payroll-tax-overview", "title": "NH Payroll Guide: UI rates 2026", "accessed": "2026-05-30"},
+    {"url": "https://gc.nh.gov/rsa/html/NHTOC/NHTOC-XXIII-281-A.htm", "title": "RSA 281-A: Workers' Compensation (official NH statutes)", "accessed": "2026-05-30"},
+    {"url": "https://remotelaws.com/employment-law/us-states/new-hampshire/", "title": "RemoteLaws: NH Employment Law 2026", "accessed": "2026-05-30"},
+    {"url": "https://www.dol.nh.gov/inspections/wage-and-hour/minimum-wage", "title": "NH DOL: Minimum Wage", "accessed": "2026-05-30"},
+    {"url": "https://www.mclane.com/insights/federal-independent-contractor-rules-may-be-changing-again-but-new-hampshire-businesses-still-face-a-higher-bar/", "title": "McLane Middleton: NH contractor classification bar", "accessed": "2026-05-30"}
+  ],
+
+  "internal_links_used": [
+    {"anchor": "Employer of Record overview", "href": "/employer-of-record/", "status": "live"},
+    {"anchor": "The Graduation Model", "href": "/graduation-model/", "status": "live"},
+    {"anchor": "Teamed pricing: Zero FX Fixed", "href": "/pricing/zero-fx-fixed/", "status": "live"},
+    {"anchor": "EOR vs Entity Crossover Calculator", "href": "https://www.teamed.global/tools/crossover-calculator", "status": "live"},
+    {"anchor": "FX Transparency Calculator", "href": "https://www.teamed.global/tools/unbundling-calculator", "status": "live"}
+  ],
+
+  "wave3_plain_text_links": [
+    "Hire in the United States: overview",
+    "New Hampshire employment overview"
+  ],
+
+  "retrofit_needed": {
+    "images": false,
+    "neighbour_links": true,
+    "note": "Wave-3 US parent + NH sibling pages not yet live. Promote internal links when those pages ship."
+  },
+
+  "high_concern_flags": [
+    {
+      "flag": "factual_uncertainty",
+      "field": "UI rate range maximum",
+      "detail": "OnPay reports 0.10%-8.50%; NH Payroll Guide reports 0.10%-7.00% for experience-rated. Page uses 7.00% for body text. 8.50% may include inverse minimum surcharge for negative-rated accounts. Verify against NHES tax rate chart when accessible.",
+      "severity": "medium"
+    },
+    {
+      "flag": "compliance_waterfall_fallback",
+      "detail": "This page IS the PRIMER — compliance-waterfall skill not invoked separately. WebSearch + primary statute research used to populate new-hampshire.json cache. Subsequent NH sibling pages reuse this cache.",
+      "severity": "info"
+    }
+  ],
+
+  "compliance_cache_written": "sprint/compliance-cache/new-hampshire.json",
+  "hero_photo": {
+    "file": "images/hero.jpg",
+    "size_kb": 181,
+    "photographer": "Nils Huenerfuerst",
+    "photographer_username": "nhuenerfuerst",
+    "source": "Unsplash",
+    "photo_url": "https://unsplash.com/photos/an-aerial-view-of-a-city-in-winter-g0AQjPTDXkQ"
+  },
+  "inline_visual": "polaroid-card (I&D Tax repeal date)",
+  "schema_blocks": ["Article", "Organization", "BreadcrumbList", "Service", "FAQPage"],
+  "schema_valid": true,
+  "word_count_approx": 1450,
+  "h2_literal_query_ratio": "100%",
+  "entity_density_capsule_approx": "22%",
+  "tom_tagline_topic_specific": true,
+  "tom_tagline_nh_facts": [
+    "$14,000 UI wage base",
+    "$378/year max UI per employee at new-employer rate",
+    "Dual RSA 281-A:2 + RSA 282-A:9 classification tests"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "row_id": "master-0164",
+  "country": "United States",
+  "state": "Nebraska",
+  "state_slug": "nebraska",
+  "country_slug": "united-states",
+  "page_type": "programmatic",
+  "tier": "US-State",
+  "cluster": "1. Country",
+  "spec_version": "phase-1.0",
+  "target_url": "/hire-in-united-states/nebraska/wage-overtime-and-meal-break-law/",
+  "canonical_url": "https://www.teamed.global/hire-in-united-states/nebraska/wage-overtime-and-meal-break-law/",
+  "slug": "united-states/nebraska/wage-overtime-and-meal-break-law",
+  "title": "Nebraska Wage, Overtime and Meal-Break Law 2026 | Teamed",
+  "description": "Nebraska wage law 2026: $15.00/hr minimum (Initiative 433), FLSA 40-hr overtime, $7.50 tipped cash wage, no adult meal-break mandate. CPI-indexed from 2027.",
+  "h1": "How does Nebraska wage, overtime and meal-break law work in 2026?",
+  "target_keywords": [
+    "nebraska wage overtime meal break law 2026",
+    "nebraska minimum wage 2026",
+    "nebraska overtime law",
+    "nebraska meal break requirements",
+    "hire employees nebraska",
+    "nebraska employer of record"
+  ],
+  "schema_types": [
+    "Article",
+    "Organization",
+    "BreadcrumbList",
+    "Service",
+    "FAQPage"
+  ],
+  "key_facts": {
+    "minimum_wage_2026_usd": 15.00,
+    "minimum_wage_effective_date": "2026-01-01",
+    "minimum_wage_legislation": "Initiative 433 (Raise the Wage Act, November 2022 ballot)",
+    "minimum_wage_2027": "CPI-adjusted (to be announced NE DOL autumn 2026)",
+    "tipped_cash_wage_2026_usd": 7.50,
+    "tipped_credit_max_usd": 7.50,
+    "overtime_trigger_hours": 40,
+    "overtime_multiplier": 1.5,
+    "daily_overtime": false,
+    "double_time": false,
+    "adult_meal_break_mandate": false,
+    "adult_rest_break_mandate": false,
+    "pay_frequency_minimum": "semi-monthly or bi-weekly",
+    "pay_frequency_statute": "Neb. Rev. Stat. § 48-1212",
+    "final_pay_deadline": "Next regular payday or within 2 weeks, whichever sooner",
+    "final_pay_statute": "Neb. Rev. Stat. § 48-1230",
+    "paid_sick_leave": true,
+    "paid_sick_leave_accrual": "1 hour per 30 hours worked",
+    "paid_sick_leave_cap_large_hours": 56,
+    "paid_sick_leave_cap_small_hours": 40,
+    "paid_sick_leave_effective": "2025-10-01",
+    "paid_sick_leave_legislation": "Initiative 436 / Nebraska Healthy Families and Workplaces Act (amended LB 415)",
+    "exempt_salary_floor_weekly_usd": 684,
+    "exempt_salary_floor_annual_usd": 35568,
+    "governing_overtime_law": "Federal FLSA (no separate Nebraska overtime statute)"
+  },
+  "prompt_corrections": [
+    {
+      "field": "minimum_wage.2025_rate",
+      "prompt_stated": "$13.50 from 1 Jan 2025",
+      "verified_value": 13.50,
+      "status": "CONFIRMED",
+      "source": "compliance-cache/nebraska.json; Initiative 433 phase schedule"
+    },
+    {
+      "field": "minimum_wage.2026_rate",
+      "prompt_stated": "$15.00 from 1 Jan 2026",
+      "verified_value": 15.00,
+      "status": "CONFIRMED",
+      "source": "compliance-cache/nebraska.json; NDOL dol.nebraska.gov/laborstandards"
+    }
+  ],
+  "flags": [
+    {
+      "id": "flag-001",
+      "severity": "high",
+      "type": "asset_missing",
+      "description": "Hero image is a PIL-generated placeholder (206 KB). Replace with real Omaha skyline photo before publish.",
+      "action": "Source Omaha/Nebraska skyline from Unsplash. Recommended search: 'Omaha skyline' or 'Nebraska downtown'. 1536x1024 JPEG. Add photographer credit."
+    },
+    {
+      "id": "flag-002",
+      "severity": "medium",
+      "type": "statutory_fact_provisional",
+      "description": "CPI-adjusted 2027 minimum wage rate not yet published. Page copy says 'to be announced by Nebraska DOL in autumn 2026'.",
+      "action": "Check Nebraska DOL in November 2026 and update page copy before first January 2027 payroll."
+    },
+    {
+      "id": "flag-003",
+      "severity": "low",
+      "type": "statutory_fact_provisional",
+      "description": "Federal FLSA exempt salary floor ($684/wk) subject to change if DOL issues new rulemaking in 2026.",
+      "action": "Monitor US DOL rulemaking. Update if a new salary-basis rule takes effect."
+    },
+    {
+      "id": "flag-004",
+      "severity": "low",
+      "type": "sibling_dependency",
+      "description": "Nebraska Leave & PTO sibling page referenced but not confirmed live.",
+      "action": "Verify sibling page status before publish or expand sick-leave section inline."
+    }
+  ],
+  "word_count_estimate": 2800,
+  "h2_count": 9,
+  "internal_links_live": 8,
+  "internal_links_plain_text": 3,
+  "hero_image": {
+    "path": "images/hero.jpg",
+    "size_bytes": 211329,
+    "size_kb": 206.4,
+    "status": "placeholder",
+    "dimensions": "1536x1024",
+    "alt": "Omaha, Nebraska downtown skyline with glass office towers reflecting evening light, viewed from the Missouri River waterfront promenade.",
+    "credit_required": true,
+    "credit_placeholder": "Replace with Unsplash photographer credit · Omaha, Nebraska"
+  },
+  "css_path": "../../_shared/child-base.css",
+  "g2_badge_path": "../../../_shared/g2-badges/",
+  "entity_badge": "Served by Teamed-owned entity: Teamed US Inc., Delaware",
+  "compliance_cache_source": "sprint/compliance-cache/nebraska.json",
+  "compliance_cache_fetched_at": "2026-05-30T00:00:00Z",
+  "generated_at": "2026-05-31",
+  "sources_verified_at": "2026-05-31",
+  "status": "live-noindex",
+  "noindex": true,
+  "review_queue": true
+}
